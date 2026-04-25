@@ -1,0 +1,146 @@
+Character Name	Ending ID	Ending Name	Tone (Clinical to Poetic)	Path Forks	Theme/Lesson	Surreality Level (1-10)	Institution Affected	System Status (Final Log)
+Lion	L-END-11	The Padded Cell	Muffled	4	Safety is a restriction of volume	3	Medical	Insulated
+Lion	L-END-12	Unmonitored Dark	Primal	9	The forest has no sensors	10	Ecological	Unindexed
+Lion	L-END-13	The Taxidermy	Frozen	2	The pose is the legacy	4	Historical	Preserved
+Lion	L-END-14	The Feedback Loop	Oscillating	7	Fear is its own source	8	Psychological	Vibrating
+Lion	L-END-15	Royal Compliance	Stiff	5	Kings are load-bearing ornaments	2	State	Crowned
+Lion	L-END-16	The Jungle Basin	Heavy	6	Predation is a closed circuit	5	Economic	Metabolized
+Lion	L-END-17	Mechanical Cowardice	Grating	8	The tremor is a gear slip	7	Industrial	Malfunctioning
+Lion	L-END-18	The Scent of Pine	Nostalgic	3	Memory is a low-res scent	1	Olfactory	Cached
+Lion	L-END-19	Total Displacement	Empty	10	Mass without weight	10	Physics	Sublimated
+Lion	L-END-20	The Guard Dog	Alert	4	Vigilance is a fixed node	3	Security	Stationed
+Lion	L-END-21	The Roaring Void	Acoustic	9	Sound is the only proof of space	9	Narrative	Resonating
+Lion	L-END-22	The Mane Event	Showy	5	Performative courage is currency	2	Entertainment	Marketed
+Lion	L-END-23	Synaptic Surge	Electrical	7	Courage is an over-volt	6	Neurological	Fried
+Lion	L-END-24	The Stone Lion	Static	2	Architecture is patient	1	Urban	Ornamented
+Lion	L-END-25	The Calibration	Rhythmic	5	Adjust the frequency to the fear	4	Scientific	Tuned
+Lion	L-END-26	The Prey Cycle	Urgent	6	The hunter is a process	5	Biological	Cycling
+Lion	L-END-27	The Badge of Air	Transparent	4	Identity is a vacuum	7	Bureaucracy	Hollowed
+Lion	L-END-28	The Kalidah Merge	Hybrid	8	The enemy is a software patch	9	Genetic	Overwritten
+Lion	L-END-29	The Desert Crossing	Dry	6	Heat is the ultimate auditor	6	Climatological	Evaporated
+Lion	L-END-30	The Golden Fleece	Luxurious	5	Beauty is a defense mechanism	4	Economic	Sheared
+Lion	L-END-31	Terminal Velocity	Falling	7	The drop is the journey	8	Universal	Accelerating
+Tin Man	T-END-11	The Rusty Sentry	Ancient	3	Time is a slow oxidation	2	Historical	Statue
+Tin Man	T-END-12	The Heartbeat Logic	Rhythmic	5	Pulse is a clock error	4	Medical	Synchronized
+Tin Man	T-END-13	Industrial Waste	Dirty	6	Uselessness is freedom	5	Ecological	Scrapped
+Tin Man	T-END-14	The Mannequin	Smooth	2	The skin is a plastic lie	3	Retail	Displayed
+Tin Man	T-END-15	The Steel Pulse	Heavy	7	Emotion is a vibration in metal	6	Musical	Resonant
+Tin Man	T-END-16	The Axe’s Edge	Sharp	4	Precision is a lack of mercy	5	Judicial	Severed
+Tin Man	T-END-17	The Hollow Hum	Empty	9	Silence is the absence of oil	10	Acoustic	Voided
+Tin Man	T-END-18	Galvanized Hope	Shiny	5	Coating prevents the truth	3	Religious	Protected
+Tin Man	T-END-19	The Melting Point	Fluid	8	Heat is the final empathy	9	Thermodynamic	Liquid
+Tin Man	T-END-20	The Tin Soldier	Rigid	4	Orders are the only oil	2	Military	Deployed
+Tin Man	T-END-21	The Logging Script	Repetitive	6	The forest is a task list	4	Labor	Iterating
+Tin Man	T-END-22	The Polished Surface	Reflective	5	To see is to be seen	6	Philosophical	Mirroring
+Tin Man	T-END-23	Magnetic Pull	Attracted	7	Desire is a field effect	8	Physical	Bound
+Tin Man	T-END-24	The Joint Failure	Locked	3	The end is a lack of range	1	Biological	Seized
+Tin Man	T-END-25	The Copper Sky	Oxidized	9	The world turns green	10	Meteorological	Patinaed
+Tin Man	T-END-26	The Heart Valve	Mechanical	5	Love is a fluid restriction	4	Medical	Regulated
+Tin Man	T-END-27	The Canned Soul	Preserved	4	The vessel is the content	3	Commercial	Labeled
+Scarecrow	S-END-11	The Infinite Library	Dense	8	Knowledge is a weight	9	Academic	Crushed
+Scarecrow	S-END-12	The Burning Field	Violent	6	Insight is a spark	7	Agricultural	Ash
+Scarecrow	S-END-13	The Paper Trail	Flat	5	The self is a document	4	Bureaucratic	Filed
+Scarecrow	S-END-14	The Crow’s Nest	Elevated	7	Perspective is a lonely node	6	Observation	Isolated
+Scarecrow	S-END-15	The Binary Mind	Strict	4	Yes or No is the only path	2	Mathematical	Resolved
+Scarecrow	S-END-16	The Stuffed King	Heavy	5	Power is a filling of lead	3	Political	Inert
+Scarecrow	S-END-17	The Thought Bubble	Light	9	Ideas have no mass	10	Poetic	Floating
+Scarecrow	S-END-18	The Logic Gate	Binary	6	Open or Closed	5	Technological	Switched
+Scarecrow	S-END-19	The Straw Poll	Variable	4	Truth is a majority opinion	3	Democratic	Voted
+Scarecrow	S-END-20	The Neural Network	Linked	8	The field is the brain	9	Connectivity	Merged
+Scarecrow	S-END-21	The Dummy Variable	Empty	3	The placeholder is the role	1	Scientific	Replaced
+Scarecrow	S-END-22	The Memory Foam	Absorbent	5	Information is a soft bed	4	Psychological	Compressed
+Scarecrow	S-END-23	The Data Leak	Dripping	7	Secrets are loose straw	8	Security	Exposed
+Scarecrow	S-END-24	The Corn Maze	Confused	6	The path is the logic error	6	Spatial	Trapped
+Scarecrow	S-END-25	The Analytical Engine	Clicking	8	Numbers are the only syntax	7	Computing	Calculated
+Scarecrow	S-END-26	The Scare-Tactics	Aggressive	5	Fear is a teaching tool	5	Educational	Threatening
+Scarecrow	S-END-27	The Wisdom Tooth	Sharp	4	Pain is the first thought	6	Biological	Incisive
+Scarecrow	S-END-28	The Ghost in the Straw	Ethereal	9	The firmware outlasts the hardware	10	Metaphysical	Uploaded
+Scarecrow	S-END-29	The Brain-Child	Small	4	Creation is an error	3	Family	Parented
+Dorothy	D-END-12	The Silver Path	Metallic	6	The road is a conductor	5	Electrical	Energized
+Dorothy	D-END-13	The Kansas Ghost	Faded	4	Home is a transparent layer	8	Spiritual	Translucent
+Dorothy	D-END-14	The Toto Protocol	Loyal	5	The companion is the anchor	4	Social	Tethered
+Dorothy	D-END-15	The Cyclone Core	Still	9	The center of chaos is peace	10	Atmospheric	Centripetal
+Dorothy	D-END-16	The Red Tape	Restrictive	4	The shoes are a legal bond	3	Judicial	Tied
+Dorothy	D-END-17	The Farmhand	Tired	3	Labor is the only return	1	Agricultural	Manual
+Dorothy	D-END-18	The Technicolor Shift	Bright	7	Color is a saturation error	9	Cinematic	Dyed
+Dorothy	D-END-19	The Missing Link	Absent	8	The girl was never in the box	10	Logical	Missing
+Dorothy	D-END-20	The Family Tree	Rooted	5	Blood is a thick signal	2	Genetic	Planted
+Dorothy	D-END-21	The Emerald Lens	Green	6	The world is a filter	6	Optical	Tinted
+Dorothy	D-END-22	The Ruby Slipper	Worn	5	The tool becomes the user	7	Ergonomic	Fitted
+Dorothy	D-END-23	The Storm Shelter	Dark	3	Safety is a hole in the ground	2	Architectural	Buried
+Dorothy	D-END-24	The Aunt Em Archive	Cold	6	Authority is a remembered voice	5	Maternal	Logged
+Dorothy	D-END-25	The Gale Warning	Urgent	7	The storm is a recurring event	8	Predictive	Alerted
+Dorothy	D-END-26	The Kansas Flat	Grey	2	Dimensionality is a luxury	1	Spatial	Planar
+Dorothy	D-END-27	The Horizon Line	Distant	8	The edge is always moving	9	Geographical	Receding
+Dorothy	D-END-28	The Dream Log	Fuzzy	4	The journey was a sleep state	10	Neurological	Awakened
+Dorothy	D-END-29	The Passenger	Passive	5	The wind is the driver	4	Transportation	Carried
+Dorothy	D-END-30	The Return Address	Strict	3	The package must go back	2	Postal	Delivered
+Dorothy	D-END-31	The Signal Noise	Static	9	Home is a lost frequency	10	Communication	Lost
+Dorothy	D-END-32	The Rainbow Arc	Refractive	6	The light splits the path	7	Physical	Dispersed
+Dorothy	D-END-33	The Final Step	Decisive	10	The click is the reset	10	System	Rebooted
+Witch West	W-END-11	The Melting Point	Fluid	5	Water is the ultimate auditor	7	Chemical	Liquidated
+Witch West	W-END-12	The Tower Sentinel	Rigid	6	High ground is a prison	4	Military	Stationed
+Witch West	W-END-13	The Shadow Cast	Dark	8	The sun is the enemy	9	Optical	Observed
+Witch West	W-END-14	The Winged Slave	Bound	4	Flight is a contract	3	Labor	Leashed
+Witch West	W-END-15	The Green Fire	Hot	7	Hate is an energy source	6	Power	Burning
+Witch West	W-END-16	The Mirror Trap	Reflective	9	Evil sees only itself	10	Psychological	Trapped
+Witch West	W-END-17	The Dust Devil	Dry	5	Scarcity is a weapon	5	Environmental	Desiccated
+Witch West	W-END-18	The Hourglass	Temporal	10	Time is a falling grain	10	Universal	Expired
+Witch West	W-END-19	The Poisoned Apple	Sweet	4	The bait is the instruction	3	Pharmaceutical	Toxic
+Witch West	W-END-20	The Total Eclipse	Dark	8	The light is a temporary error	9	Astronomical	Total
+Witch West	W-END-21	The Cauldron Logic	Boiling	6	Everything boils down	5	Chemical	Reduced
+Witch West	W-END-22	The Broom Protocol	Swift	5	Mobility is a bypass	4	Transportation	Departed
+Witch West	W-END-23	The Wicked Script	Fixed	7	The role is the trap	8	Theatrical	Cast
+Witch West	W-END-24	The Sky-Writer	Loud	6	Smoke is the only signal	5	Communication	Faded
+Witch West	W-END-25	The Last Breath	Short	9	The air is too clean	10	Biological	Suffocated
+Witch West	W-END-26	The Guard’s Song	Rhythmic	3	Obedience is a chant	2	Military	Chanted
+Witch West	W-END-27	The Obsidian Heart	Hard	8	Stone does not bleed	9	Geological	Mineralized
+Witch West	W-END-28	The Fortress Wall	Solid	5	Separation is safety	4	Architectural	Fortified
+Witch West	W-END-29	The Spite Engine	Noisy	7	The machine runs on anger	6	Industrial	Overheated
+Witch West	W-END-30	The Final Frame	Static	10	The movie ends in black	10	Cinematic	Cut
+Wizard	Z-END-06	The Hum behind the Curtain	Quiet	8	Power is a small noise	9	Acoustic	Damped
+Wizard	Z-END-07	The Great and Powerful	Loud	4	Volume is authority	2	Aural	Amplified
+Wizard	Z-END-08	The Humbug	Honest	7	The fraud is a relief	8	Individual	Exposed
+Wizard	Z-END-09	The Balloonist	Floating	5	Escaping is an ascent	3	Aeronautical	Drifting
+Wizard	Z-END-10	The Omaha Record	Dated	6	The past is a faded photo	4	Historical	Archived
+Wizard	Z-END-11	The City of Glass	Fragile	7	Transparency is a danger	6	Urban	Shattered
+Wizard	Z-END-12	The Wizard’s Beard	Fake	3	Disguise is a layer	1	Societal	Peeled
+Wizard	Z-END-13	The Control Room	Tight	9	The machine is too small	10	Technical	Confined
+Wizard	Z-END-14	The Gift Giver	Generous	5	The medal is a placebo	4	Medical	Certified
+Wizard	Z-END-15	The Puppet Master	Strung	8	The strings are invisible	9	Sociological	Manipulated
+Wizard	Z-END-16	The Stage Hand	Busy	4	Reality is a production	3	Entertainment	Produced
+Wizard	Z-END-17	The Emerald Throne	Heavy	6	Leadership is a seat	5	Political	Seated
+Wizard	Z-END-18	The Flash of Light	Blinding	7	Awe is a sensor error	8	Optical	Burned
+Wizard	Z-END-19	The Voice Box	Metallic	5	The speech is a recording	6	Communication	Looped
+Wizard	Z-END-20	The Man from Nebraska	Plain	3	The origin is a cornfield	2	Biographical	Returned
+Wizard	Z-END-21	The Secret Code	Encrypted	9	The word is the wall	10	Linguistic	Locked
+Wizard	Z-END-22	The Green Tint	Permanent	4	The glasses are a choice	3	Optometric	Fixed
+Wizard	Z-END-23	The Magic Show	Distracted	6	Look at the left hand	5	Theatrical	Prestiged
+Wizard	Z-END-24	The Smoke Screen	Cloudy	5	Obscurity is a defense	4	Chemical	Masked
+Wizard	Z-END-25	The Final Act	Quiet	10	The show is over	10	Narrative	Closed
+Glinda	G-END-06	The Bubble Burst	Wet	5	Safety is a thin film	6	Physical	Ruptured
+Glinda	G-END-07	The Pink Castle	Soft	4	Kindness is a fortress	3	Architectural	Walled
+Glinda	G-END-08	The Good Intent	Vague	7	Benevolence is a strategy	8	Political	Tactical
+Glinda	G-END-09	The Wand’s Tip	Bright	6	Direction is a light	5	Navigation	Guided
+Glinda	G-END-10	The Floating Head	Detached	8	Presence is a projection	9	Technological	Remote
+Glinda	G-END-11	The Sisterhood	Shared	6	Power is a family trait	4	Societal	Linked
+Glinda	G-END-12	The Pure Signal	Clean	9	Noise is a sin	10	Electronic	Filtered
+Glinda	G-END-13	The Bubble Transit	Safe	5	The path is a pocket	4	Transportation	Enclosed
+Glinda	G-END-14	The Northern Star	Cold	8	Beauty is a distance	9	Astronomical	Remote
+Glinda	G-END-15	The Scripted Kiss	Formal	4	Affection is a protocol	3	Interpersonal	Executed
+Glinda	G-END-16	The Southern Witch	Twin	7	Opposites are the same code	8	Symmetry	Balanced
+Glinda	G-END-17	The Crowned Jewel	Hard	5	Authority is a rock	2	Mineral	Set
+Glinda	G-END-18	The High Ground	Distant	6	Observing is not helping	7	Ethical	Neutral
+Glinda	G-END-19	The Bubble Drift	Aimless	5	Motion without motor	4	Kinetic	Drifting
+Glinda	G-END-20	The Final Wave	Gracious	10	The goodbye is the system end	10	Narrative	Terminated
+Witch East	E-END-06	The House Trap	Wooden	4	Architecture is a weapon	3	Structural	Crushed
+Witch East	E-END-07	The Silver Slippers	Bright	6	Ownership is a theft	7	Legal	Stolen
+Witch East	E-END-08	The Under-House Fault	Deep	8	Foundation is a failure	9	Geological	Subducted
+Witch East	E-END-09	The Munchkin Debt	Owed	5	Death is a contract	4	Economic	Paid
+Witch East	E-END-10	The Ruby Trace	Red	7	Blood is a path	8	Forensic	Tracked
+Witch East	E-END-11	The Fallen Star	Dark	9	Authority is a gravity	10	Physics	Impacted
+Witch East	E-END-12	The Shadow of the House	Long	5	The past is a silhouette	6	Temporal	Elongated
+Witch East	E-END-13	The Grounding Wire	Lethal	6	Contact is a circuit	5	Electrical	Closed
+Witch East	E-END-14	The Dust of the East	Fine	4	History is a powder	3	Material	Dispersed
+Witch East	E-END-15	The Wicked End	Final	10	The impact is the only event	10	System	Formatted
+								
