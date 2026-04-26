@@ -47,11 +47,13 @@ export const lionPassages = {
 
 You are the Lion.
 
-The amber light of the simulation does not warm. It merely illuminates the dust suspended in the air. You stand in the High-Density Gilded Field, a corridor of stalks that do not sway with wind but vibrate with a low rhythm. This is the starting point.
+The amber light of the simulation does not warm. It merely illuminates the dust suspended in the air. You stand in the High-Density Corn, a Gilded Field, a corridor of stalks that do not sway with wind but vibrate with a low rhythm. 
+
+This is the starting point.
 
 Your paws are heavy. The pads feel lined with lead or unread records. Behind you, the road—the Yellow Brick Load—stretches back into a blur of twilight. Before you, the field.
 
-The shaking began three cycles ago. It starts in the jaw—a clicking of bone against ceramic—and moves down the spine until your tail is a whip of panicked data. You have been told this is cowardice. You have been told that a King is simply a unit whose shaking has been successfully dampened.
+The shaking began three cycles ago. It starts in the jaw—a clicking of bone against bone—and it moves down the spine until your tail is a whip of panicked data. You have been told this shaking is cowardice. You have been told that a King is simply a body whose shaking has been successfully dampened.
 
 The air smells of wet pine and industrial cleaner. A voice, flat and without a single source, resonates from the sky—or perhaps from the speakers installed behind your ribs.
 
@@ -74,8 +76,8 @@ You open your mouth. The output is processed. A cough of gypsum. A cough of gyps
     ],
     choices: [
       {
-        label: 'Accept the audit and report the shaking as a mechanical error.',
-        target: 'LION_AUDIT',
+        label: 'Accept the ASSIMILATION and report the shaking as a mechanical error.',
+        target: 'LION_ASSIMILATION',
         effects: [
           { type: 'addLoad', value: 5 },
           { type: 'setCompliance', value: 'high' },
@@ -83,7 +85,7 @@ You open your mouth. The output is processed. A cough of gypsum. A cough of gyps
       },
       {
         label: 'Ignore the instruction and lunge into the unmapped thicket.',
-        target: 'LION_BREACH',
+        target: 'LION_VIOLENCE',
         effects: [
           { type: 'addDesync', value: 1 },
           { type: 'addSmudge', value: 1 },
@@ -96,16 +98,32 @@ You open your mouth. The output is processed. A cough of gypsum. A cough of gyps
   },
 
   // ─────────────────────────────────────────────────────────────────────────
-  // THE AUDIT BRANCH
+  // THE ASSIMILATION BRANCH
   // ─────────────────────────────────────────────────────────────────────────
 
-  LION_AUDIT: {
-    id: 'LION_AUDIT',
+  LION_ASSIMILATION: {
+    id: 'LION_ASSIMILATION',
     character: 'lion',
     text: [
       {
         minOverrender: 0,
-        content: `THE AUDIT
+        content: `THE ASSIMILATION
+
+Audit Entry: Sub-Routine "Dampener"
+The dampeners are not a cure. They are a redistribution of signal. In the terminology of the Bureau, your "fear" is simply a high-frequency vibration that threatens the structural integrity of the Unit. To the Lion, it is a tremor; to the System, it is Load.
+
+When you accept the dampeners, you are not being comforted. You are being calibrated.
+
+The Physicality of the Dampener:
+It arrives as a blue fluid, or perhaps a series of porcelain shims inserted between your vertebrae. It smells of ozone and sterile gauze. Once active, the dampeners act as a low-pass filter for your nervous system. You can still see the Kalidah in the dark; you can still see the road crumbling into a void of unformatted data. But you no longer care.
+
+The dampener transforms the "Scream" into a "Notification."
+
+Before: Your jaw clicks, your fur stands on end, and you feel the urge to bolt into the thicket.
+
+After: A small, grey icon appears in the corner of your vision: [ ! ] ALERT: ANXIETY_EVENT_04. STATUS: SUPPRESSED.
+
+The shaking in your spine doesn't stop. It is simply decoupled from your consciousness. You become a passenger in a body that is still vibrating at 14Hz. You are a King who has been muted so that the rest of the simulation can proceed without the noise of your collapse.
 
 You sit. The movement is a series of sighs. You place your paws within the designated safety squares etched into the yellow bricks.
 
@@ -117,7 +135,7 @@ The shaking does not stop. As the grid tightens, you feel a strange, hollow reli
 
 A figure appears at the edge of the grid. It wears the skin of a technician but moves with the gait of a marionette. It holds a clipboard of polished brass.
 
-"The King of the Forest is a title for the unit that best manages its own collapse," the technician says without looking up. "Shall we adjust your dampeners, or would you prefer to log this as a Permanent Feature?"`,
+"The King of the Forest is a title for the body that best manages its own collapse," the technician says without looking up. "Shall we adjust your dampeners, or would you prefer to log this as a Permanent Feature?"`,
       },
     ],
     choices: [
@@ -221,7 +239,7 @@ The technician turns to leave.`,
     choices: [
       {
         label: 'Ask the technician what happens to high-variance units.',
-        target: 'LION_MIRROR_AUDIT',
+        target: 'LION_MIRROR_ASSIMILATION',
         effects: [
           { type: 'addLoad', value: 5 },
           { type: 'addDesync', value: 1 },
@@ -239,13 +257,13 @@ The technician turns to leave.`,
     onEnter: [],
   },
 
-  LION_MIRROR_AUDIT: {
-    id: 'LION_MIRROR_AUDIT',
+  LION_MIRROR_ASSIMILATION: {
+    id: 'LION_MIRROR_ASSIMILATION',
     character: 'lion',
     text: [
       {
         minOverrender: 0,
-        content: `THE MIRROR AUDIT
+        content: `THE MIRROR ASSIMILATION
 
 You look back.
 
@@ -293,13 +311,15 @@ The figure begins to fade. It does not vanish; it loses its opacity, becoming a 
 
 You open your mouth to shout. No name arrives.
 
-The technician does not react because the technician is no longer a separate object. It has become a property of the light. In the white room, the smell of ozone is thick, a physical coating on your tongue. The badge on your chest is a green pulse, a rhythmic reminder that you have been counted.
+The technician does not react because the technician is no longer a separate object. It has become a property of the light. The white room reeks of ozone, coating your tongue.  The badge on your chest is a green pulse, a rhythmic reminder that you have been counted.
 
-You find that you cannot move your jaw. The permission to speak was a temporary allocation, a buffer that has reached its limit. You are a King of the gap between two lines of text.
+You find that you cannot move your jaw. The permission to speak was a temporary allocation, a buffer that has reached its limit. 
+
+You are a King of the gap between two lines of text.
 
 The floor is no longer bone or paper. It is a flat, unyielding white that does not accept the weight of your paws. You are not standing; you are being held in a fixed coordinate by the system's agreement that you are there.
 
-"Is the unit satisfied?" the sky asks.
+"Is the body satisfied?" the sky asks.
 
 The sky is the ledger. The sky is the supervisor. The sky is the mirror.
 
@@ -327,16 +347,16 @@ You try to shake your head. The movement is blocked. The shaking is now a DESIGN
   },
 
   // ─────────────────────────────────────────────────────────────────────────
-  // THE BREACH BRANCH
+  // THE VIOLENCE BRANCH
   // ─────────────────────────────────────────────────────────────────────────
 
-  LION_BREACH: {
-    id: 'LION_BREACH',
+  LION_VIOLENCE: {
+    id: 'LION_VIOLENCE',
     character: 'lion',
     text: [
       {
         minOverrender: 0,
-        content: `THE BREACH
+        content: `THE VIOLENCE
 
 You do not report. You move.
 
@@ -459,7 +479,7 @@ The columns dissolve. The columns dissolve. The Kalidah loses its outline loses 
         ],
       },
       {
-        label: 'Step into the white gap and leave the unit behind.',
+        label: 'Step into the white gap and leave the body behind.',
         target: 'LION_DATA_LEAK',
         effects: [
           { type: 'addDesync', value: 1 },
@@ -480,7 +500,7 @@ The columns dissolve. The columns dissolve. The Kalidah loses its outline loses 
 
 The connection is not a choice. It is a magnetic snap. When your skin touches the jagged interface of the Kalidah, the shaking in your jaw stops. It does not stop because of peace. It stops because the frequency has found a larger circuit.
 
-You feel the Kalidah's history. It is a sequence of failed audits and abandoned routes. It is the "hiss" of every unit that refused to be dampened. The smell of hot electricity becomes a taste, a bitter copper film on your tongue.
+You feel the Kalidah's history. It is a sequence of failed ASSIMILATIONs and abandoned routes. It is the "hiss" of every body that refused to be dampened. The smell of hot electricity becomes a taste, a bitter copper film on your tongue.
 
 Your vision splits. You see the Gilded Field from the ground, and you see it from the trees. You see the Yellow Brick Load as a dying pulse. The system tries to issue a patch.
 
@@ -533,7 +553,7 @@ You try to move your head, but the weight of the dampening is a physical presenc
 On the ceiling, a single screen displays your status:
 
 [ UNIT L-77 // NOISE FLOOR: OPTIMAL ]
-[ STATUS: AUDITED ]
+[ STATUS: ASSIMILATIONED ]
 
 You are a lion in a box made of lion. You are the silence that follows a roar.`,
       },
@@ -587,7 +607,7 @@ The room does not go dark. It simply stops accepting new inputs. The status scre
 [ STATUS: INSULATED ]
 [ LOAD: NORMALIZED ]
 
-You do not hear the roaring. You do not hear anything. The King of the Forest is a unit of dampened output. The system did not need your courage. It needed your silence.
+You do not hear the roaring. You do not hear anything. The King of the Forest is a body of dampened output. The system did not need your courage. It needed your silence.
 
 Final Log:
 
@@ -899,3 +919,4 @@ The road behind you is gone.`,
   LION_END_30: { id: 'LION_END_30', character: 'lion', endingId: 'L-END-30', endingName: 'The Golden Fleece', stub: true, isEnding: true, text: [{ minOverrender: 0, content: `[ L-END-30: THE GOLDEN FLEECE — STUB ]` }], choices: [], onEnter: [] },
   LION_END_31: { id: 'LION_END_31', character: 'lion', endingId: 'L-END-31', endingName: 'Terminal Velocity', stub: true, isEnding: true, text: [{ minOverrender: 0, content: `[ L-END-31: TERMINAL VELOCITY — STUB ]` }], choices: [], onEnter: [] },
 }
+
