@@ -15,7 +15,7 @@ const CHARACTERS = [
 // Characters without passage files yet
 const UNAVAILABLE = ['tin_man', 'scarecrow', 'dorothy', 'witch_west', 'wizard', 'glinda', 'witch_east']
 
-export default function TitleScreen() {
+export default function TitleScreen({ onOpenFAQ }) {
   const selectCharacter = useGameStore(s => s.selectCharacter)
   const [returning, setReturning] = useState(false)
   const [flicker, setFlicker] = useState(false)
@@ -46,6 +46,14 @@ export default function TitleScreen() {
           THE YELLOW BRICK LOAD
         </h1>
         <p className="title-subtitle">Recovered interface. Use at your own pace.</p>
+        <button
+          type="button"
+          className="title-pill"
+          onClick={onOpenFAQ}
+          aria-label="Open frequently logged queries"
+        >
+          [ KNOWN BEHAVIORS ]
+        </button>
       </header>
 
       <div className="character-grid">
