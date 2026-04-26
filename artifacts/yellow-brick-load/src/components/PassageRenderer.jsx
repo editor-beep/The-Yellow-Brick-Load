@@ -18,10 +18,12 @@ export default function PassageRenderer() {
 
   const passage = getPassage(currentNode)
   const contentRef = useRef(null)
+  const lastFiredNode = useRef(null)
 
-  // Fire onEnter effects when passage loads
+  // Fire onEnter effects when passage loads — guard ensures exactly once per node
   useEffect(() => {
-    if (passage?.onEnter?.length) {
+    if (passage?.onEnter?.length && lastFiredNode.current !== currentNode) {
+      lastFiredNode.current = currentNode
       applyEffects(passage.onEnter)
     }
   }, [currentNode])
