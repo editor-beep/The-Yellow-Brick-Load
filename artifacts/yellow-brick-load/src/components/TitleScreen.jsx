@@ -1,4 +1,4 @@
-import { useGameStore, hasVisited, markVisit } from '../engine/store.js'
+import { useGameStore } from '../engine/store.js'
 import { useEffect, useState } from 'react'
 
 const CHARACTERS = [
@@ -15,15 +15,11 @@ const CHARACTERS = [
 // Characters without passage files yet
 const UNAVAILABLE = ['tin_man', 'scarecrow', 'dorothy', 'witch_west', 'wizard', 'glinda', 'witch_east']
 
-export default function TitleScreen({ onOpenFAQ }) {
+export default function TitleScreen({ onOpenFAQ, returning = false }) {
   const selectCharacter = useGameStore(s => s.selectCharacter)
-  const [returning, setReturning] = useState(false)
   const [flicker, setFlicker] = useState(false)
 
   useEffect(() => {
-    if (hasVisited()) setReturning(true)
-    markVisit()
-
     // Random title flicker
     const interval = setInterval(() => {
       setFlicker(true)

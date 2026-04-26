@@ -3,7 +3,7 @@ import { faqEntries } from '../data/faq.js'
 
 export default function FAQPage({ onClose }) {
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: 'instant' })
+    window.scrollTo({ top: 0, behavior: 'auto' })
   }, [])
 
   return (
