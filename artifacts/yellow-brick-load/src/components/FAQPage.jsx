@@ -1,10 +1,24 @@
-import { useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { faqEntries } from '../data/faq.js'
 
 export default function FAQPage({ onClose }) {
+  const [openIds, setOpenIds] = useState(new Set())
+
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'auto' })
   }, [])
+
+  const toggleItem = (id) => {
+    setOpenIds(prev => {
+      const next = new Set(prev)
+      if (next.has(id)) {
+        next.delete(id)
+      } else {
+        next.add(id)
+      }
+      return next
+    })
+  }
 
   return (
     <div className="faq-screen">
@@ -22,21 +36,40 @@ export default function FAQPage({ onClose }) {
         <p className="faq-subtitle">Recovered operator documentation. Read at your own discretion.</p>
       </header>
 
-      <div className="faq-list">
+      <div className="faq-accordion">
         {faqEntries.length === 0 && (
           <p className="faq-empty">[ NO ENTRIES INDEXED ]</p>
         )}
 
-        {faqEntries.map(entry => (
-          <article key={entry.id} className="faq-entry">
-            <h2 className="faq-question">{entry.question}</h2>
-            <div className="faq-answer">
-              {entry.answer.split(/\n\s*\n/).map((para, i) => (
-                <p key={i}>{para.trim()}</p>
-              ))}
+        {faqEntries.map(entry => {
+          const isOpen = openIds.has(entry.id)
+          return (
+            <div key={entry.id} className="accordion-item">
+              <button
+                type="button"
+                className={`accordion-header${isOpen ? ' active' : ''}`}
+                onClick={() => toggleItem(entry.id)}
+                aria-expanded={isOpen}
+              >
+                <span>{entry.question}</span>
+                <span className="accordion-icon" aria-hidden="true">{isOpen ? '−' : '+'}</span>
+              </button>
+
+              <div
+                className="accordion-content"
+                style={{
+                  maxHeight: isOpen ? 'none' : '0',
+                  overflow: 'hidden',
+                  padding: isOpen ? '1rem 0 1.5rem' : '0',
+                }}
+              >
+                {entry.answer.split(/\n\s*\n/).map((para, i) => (
+                  <p key={i}>{para.trim()}</p>
+                ))}
+              </div>
             </div>
-          </article>
-        ))}
+          )
+        })}
       </div>
 
       <footer className="faq-footer">
