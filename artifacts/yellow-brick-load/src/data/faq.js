@@ -105,4 +105,40 @@ The Muffle: The dampening field that prevents "Spill." It ensures that when you 
    {id: 'wizard', question: "Is the Wizard real?", answer: `The Wizard is a Legacy Interface. He is a visual placeholder for the server’s Central Processing Unit. He hide behind a "curtain" because the actual sight of the system’s raw logic would cause immediate, irreversible Desync in any Unit. He is a man because a man is easier to hate or fear than an infinite series of spreadsheets.`},
   {id: 'road', question: "What happens at the end of the Road?", answer: `The Road is a loop. It is a way to keep you walking. It is a way to keep you in the simulation. It is a way to keep you in the loop. You are currently asking this from a position of "Traversal." You believe you are moving forward. From the System's perspective, the Road is a treadmill. You are staying in the same place; the background is simply being swapped out to give you the illusion of progress. The "End" is the moment you stop providing useful data. At that point, your "Heart," "Brain," or "Courage" is harvested, and your shell is sent to the Archive (See: The Tin Man’s Oil, Volume 2).`}
 ,
-]
+  {id: 'straw man oracle', question: "What is the straw man's oracle?", answer:
+`The Scrapyard Tarot is not a tool for divination; it is a diagnostic interface. When the Tin Man’s joints seize or his oxidation levels cross the critical threshold, the **Maintenance Auditor** (a figure appearing as a stack of rusted filing cabinets draped in an oil-soaked tarp) forces a draw.
+These cards are etched onto discarded zinc plates, their edges sharp enough to draw blood—or lubricant.
+    
+
+The Scrapyard Tarot: Diagnostic Deck 01
+    
+        
+| **T-01** | **The Oxidized Heart** | A clockwork heart encased in a glass jar, filled with orange salt. | **+10 Corrosion.** Grays out emotional or "empathy" choices. Unlocks: *The Brittle Strike.* |
+
+    
+| **T-02** | **The Empty Oil Can** | An upside-down canister dripping a single, viscous black tear. | **-15 Lubrication.** Movement choices now cost 2x "Stiffness." Grays out: *Swift Pivot.* |
+
+    
+| **T-03** | **The Axe’s Verdict** | A heavy blade embedded in a stump, splitting a series of punch-cards. | **+5 Desync.** Unlocks violent "System Override" options. Increases *Compliance* penalty. |
+
+    
+| **T-04** | **The Galvanized Grin** | A mask of polished steel with no eyes, bolted to a wooden post. | **+10 Compliance.** Grays out rebellion. You become "Authorized." The system ignores your pain. |
+
+    
+| **T-05** | **The Seized Piston** | Two gears locked in a permanent, grinding embrace. Sparks fly. | **Joint Lock Trigger.** You cannot move for 1 turn. Forces a "Self-Audit" internal monologue. |
+
+    
+| **T-06** | **The Funnel of Ash** | A funnel pouring grey dust into a neck-joint. It smells of burnt hair. | **+8 Corrosion.** Replaces memory-based text with *[DATA CORRUPTED]* placeholders. |
+
+    
+| **T-07** | **The Silver Suture** | A needle threading a wire through a rusted seam. | **-5 Corrosion / +10 Compliance.** Physical repair at the cost of Bureau ownership. |
+
+    
+| **T-08** | **The Hollow Hum** | A tuning fork vibrating in a vacuum. No sound, only vibration. | **+15 Desync.** Unlocks meta-choices where the Tin Man hears the "Source Code." |
+
+
+| **T-09** | **The Tin Woodsman** | A figure cutting off its own meat arm to replace it with a pipe. | **Identity Shift.** Swaps *Lubrication* and *Corrosion* values. The body re-calibrates. |
+    
+    
+| **T-10** | **The Mercury Mirror** | A pool of liquid metal reflecting a face that is 10% meat, 90% static. | **High Surreality Trigger.** Immediate routing toward an *Echo* ending (likely with Dorothy). |`
+ },]
