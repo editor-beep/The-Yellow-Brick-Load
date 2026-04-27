@@ -8,12 +8,15 @@ Players navigate a corrupted Oz-derived simulation, choosing which of eight char
 ## Local development
 
 ```bash
-npm install
-npm run dev      # Vite dev server at http://localhost:5173
-npm run build    # Production build → dist/
-npm run preview  # Serve the production build locally
-npm run lint     # ESLint (flat config)
-npm test         # Vitest unit + component tests
+# From the workspace root
+pnpm install
+
+# Run the game's dev server
+cd artifacts/yellow-brick-load
+pnpm run dev     # Vite dev server (requires PORT and BASE_PATH env vars on Replit)
+pnpm run build   # Production build
+pnpm run lint    # ESLint (flat config)
+pnpm test        # Vitest unit + component tests
 ```
 
 ---

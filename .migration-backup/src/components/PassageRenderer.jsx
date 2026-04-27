@@ -19,12 +19,13 @@ export default function PassageRenderer() {
   const passage = getPassage(currentNode)
   const contentRef = useRef(null)
 
-  // Fire onEnter effects when passage loads
+  // Fire onEnter effects when passage loads.
+  // Intentionally depends only on currentNode; passage is derived from it.
   useEffect(() => {
     if (passage?.onEnter?.length) {
       applyEffects(passage.onEnter)
     }
-  }, [currentNode])
+  }, [currentNode]) // eslint-disable-line react-hooks/exhaustive-deps
 
   // Scroll to top on passage change
   useEffect(() => {
@@ -47,8 +48,12 @@ export default function PassageRenderer() {
   const availableChoices = passage.choices.filter(c => isChoiceAvailable(c, state))
 
   function handleChoice(choice) {
+    // When passage.fake is true, all choices collapse to the first valid target
+    const target = passage.fake && availableChoices.length > 0
+      ? availableChoices[0].target
+      : choice.target
     applyEffects(choice.effects)
-    goTo(choice.target)
+    goTo(target)
   }
 
   return (
@@ -106,12 +111,20 @@ export default function PassageRenderer() {
       {/* Ending state */}
       {passage.isEnding && (
         <div className="ending-footer">
-          {passage.endingName && (
+          {passage.endingId && passage.endingName && (
             <p className="ending-id">
               {passage.endingId} — {passage.endingName}
             </p>
           )}
-          {!passage.isGhostSignal && (
+          {passage.isGhostSignal ? (
+            <button
+              className="choice-button choice-button--restart"
+              onClick={() => useGameStore.getState().hardReset()}
+            >
+              <span className="choice-arrow">↺</span>
+              [ TERMINATE SESSION ]
+            </button>
+          ) : (
             <button
               className="choice-button choice-button--restart"
               onClick={() => useGameStore.getState().hardReset()}

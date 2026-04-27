@@ -17,11 +17,11 @@ const UNAVAILABLE = ['tin_man', 'scarecrow', 'dorothy', 'witch_west', 'wizard', 
 
 export default function TitleScreen() {
   const selectCharacter = useGameStore(s => s.selectCharacter)
-  const [returning, setReturning] = useState(false)
+  // Initialise from localStorage before the first render to avoid a flash
+  const [returning] = useState(() => hasVisited())
   const [flicker, setFlicker] = useState(false)
 
   useEffect(() => {
-    if (hasVisited()) setReturning(true)
     markVisit()
 
     // Random title flicker
