@@ -43,23 +43,55 @@ export const lionPassages = {
     text: [
       {
         minOverrender: 0,
+        content: `UNIT L-77
+
+You are the Lion.
+
+The Yellow Brick Load stretches ahead. You are standing on it. The shaking began some time ago—jaw, spine, tail—and has not stopped. A voice issues a prompt. The road requires a response.
+
+Before you can respond to the road, you must decide what kind of body you are bringing to it.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'WETWARE — You are meat under pressure. The shaking is a body problem.',
+        target: 'LION_INIT_W',
+        effects: [{ type: 'setFlag', key: 'mode', value: 'wetware' }],
+      },
+      {
+        label: 'HARDWARE — You are a unit with a filing error. The shaking is a system problem.',
+        target: 'LION_INIT_H',
+        effects: [{ type: 'setFlag', key: 'mode', value: 'hardware' }],
+      },
+    ],
+    onEnter: [
+      { type: 'checkGhostSignal' },
+    ],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // WETWARE BRANCH — body horror, visceral, meat under bureaucratic pressure
+  // ─────────────────────────────────────────────────────────────────────────
+
+  LION_INIT_W: {
+    id: 'LION_INIT_W',
+    character: 'lion',
+    text: [
+      {
+        minOverrender: 0,
         content: `THE KING OF THE FOREST IS A UNIT OF MEASURE
 
 You are the Lion.
 
-The amber light of the simulation does not warm. It merely illuminates the dust suspended in the air. You stand in the High-Density Corn, a Gilded Field, a corridor of stalks that do not sway with wind but vibrate with a low rhythm. 
+The air is thick with wet gypsum and the sour smell of your own matted fur. Your paws feel swollen inside their own skin, heavy as wet sandbags. Behind your ribs something keeps ticking—not a heart, but a filing cabinet that won't stop opening and closing.
 
-This is the starting point.
+The Yellow Brick Load stretches ahead, the mortar between the bricks crusted with old blood and official seals. A voice, flat as carbon paper, drifts down from the grey sky or maybe from the speaker bolted somewhere behind your sternum.
 
-Your paws are heavy. The pads feel lined with lead or unread records. Behind you, the road—the Yellow Brick Load—stretches back into a blur of twilight. Before you, the field.
+"Unit L-77. Report status."
 
-The shaking began three cycles ago. It starts in the jaw—a clicking of bone against bone—and it moves down the spine until your tail is a whip of panicked data. You have been told this shaking is cowardice. You have been told that a King is simply a body whose shaking has been successfully dampened.
+Your jaw aches. The tremor starts in the hinge, a wet clicking like loose teeth in a dry socket, then rolls down your spine until your tail twitches like a busted typewriter carriage. You have been told this is cowardice. You have been told a King is simply a body whose paperwork has been properly filed.
 
-The air smells of wet pine and industrial cleaner. A voice, flat and without a single source, resonates from the sky—or perhaps from the speakers installed behind your ribs.
-
-"Unit L-77. Report load status."
-
-You open your mouth to roar. The output is processed. What comes out is a dry, rasping sound. A cough of gypsum.`,
+You open your mouth. What comes out is a dry rasp, like sandpaper on bone.`,
       },
       {
         minOverrender: 3,
@@ -67,11 +99,11 @@ You open your mouth to roar. The output is processed. What comes out is a dry, r
 
 You are the Lion. You have been the Lion. You will continue to be the Lion until the system decides otherwise.
 
-The amber light does not warm. The stalks do not sway. The shaking has been three cycles. The shaking has been three cycles. The shaking has been—
+The wet gypsum smell does not leave. The filing cabinet does not stop. The tremor has been clicking. The tremor has been clicking. The tremor has been—
 
-"Unit L-77. Report load status."
+"Unit L-77. Report status."
 
-You open your mouth. The output is processed. A cough of gypsum. A cough of gypsum. A cough—`,
+You open your mouth. What comes out is a dry rasp. A dry rasp. A dry—`,
       },
     ],
     choices: [
@@ -91,10 +123,69 @@ You open your mouth. The output is processed. A cough of gypsum. A cough of gyps
           { type: 'addSmudge', value: 1 },
         ],
       },
+      {
+        label: "Pretend the shaking isn't happening and keep walking the Load as if nothing is wrong.",
+        target: 'LION_DENIAL',
+        effects: [
+          { type: 'addLoad', value: 3 },
+          { type: 'setCompliance', value: 'med' },
+        ],
+      },
     ],
-    onEnter: [
-      { type: 'checkGhostSignal' },
+    onEnter: [],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // THE DENIAL BRANCH
+  // ─────────────────────────────────────────────────────────────────────────
+
+  LION_DENIAL: {
+    id: 'LION_DENIAL',
+    character: 'lion',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE DENIAL
+
+You decide the simplest thing is to keep walking.
+
+You fix your eyes on the next yellow brick, then the one after that, and the one after that. The tremor is still there—your left hind leg drags a half-second behind the others, the claws scraping like a pen that's run out of ink—but you tell yourself it's only the road. Kings do not limp. Kings proceed.
+
+The cornstalks lean in like bored clerks waiting for you to fill out the next form. Each stalk is stamped with tiny printed labels: APPROVED • PENDING • OBSOLETE. Their leaves are dry and papery; when they brush your flank it feels like being licked by carbon copies.
+
+"I am fine," you mutter under your breath. The words come out stamped and dated. "Status: Nominal."
+
+A Milestone Marker rises ahead—an iron post driven into the road like a filing spike. Dark fluid leaks from rust holes near the base, thick and slow, smelling of old cedar drawers and dried blood. At the top, a black bird (or something shaped like one) watches you with a single glass lens that clicks every time your heart stutters.
+
+It is waiting for you to break character.
+
+You keep walking. The tremor moves up into your chest now, a wet fluttering like paperwork being shuffled too fast. Your mane feels heavier, as if someone has been stapling extra pages to it while you weren't looking.`,
+      },
     ],
+    choices: [
+      {
+        label: 'Maintain the gaze and keep walking. (The Royal Walk)',
+        target: 'LION_ROYAL_COMPLIANCE',
+        effects: [{ type: 'addLoad', value: 8 }],
+      },
+      {
+        label: 'Stop and observe the bird more closely. (The Audit)',
+        target: 'LION_CALIBRATION_POINT',
+        effects: [
+          { type: 'addDesync', value: 1 },
+          { type: 'setCompliance', value: 'low' },
+        ],
+      },
+      {
+        label: 'Pause to fix the leaking Milestone Marker. (The Ritual)',
+        target: 'LION_RITUAL_WORK',
+        effects: [
+          { type: 'addLoad', value: 10 },
+          { type: 'addSmudge', value: 1 },
+        ],
+      },
+    ],
+    onEnter: [],
   },
 
   // ─────────────────────────────────────────────────────────────────────────
@@ -356,41 +447,80 @@ You try to shake your head. The movement is blocked. The shaking is now a DESIGN
     text: [
       {
         minOverrender: 0,
-        content: `THE VIOLENCE
+        content: `THE BREACH
 
-You do not report. You move.
+The voice's instruction sticks in your throat like a filing spike. You tear it out with your teeth.
 
-The leap is not an act of courage. It is a failure of the brakes. You tear through the stalks. They do not snap like grass. They shear like copper wire, sparking against your fur. The smell of ozone replaces the cleaner.
+You lunge off the Yellow Brick Load and into the cornstalks. What should be wild grass becomes a wall of vertical filing folders—stiff vellum edges sharpened like guillotine blades. They slice through your matted fur in neat, parallel cuts, each one stinging like a fresh paper cut from official correspondence.
 
-You are off the path. The Yellow Brick Load is now a thin, glowing thread behind you, a cable you have unplugged.
+Blood and clear lymph mix with black ink that smells of old ledgers left too long in damp basements. You roar—not a king's roar, but a wet, ragged tearing of lung and throat, the sound of meat trying to divorce itself from bone.
 
-Here, the shadows are thick. The trees are tall, grey columns of calcified memory. You stop, chest heaving. The shaking is violent now, a jagged rhythm that makes your vision vibrate.
+The stalks give way to a trash pit of the Bureau. Rusted typewriters the size of cattle lie half-buried in the mud, their keys still clacking faintly. Broken carbon paper flutters like diseased wings. The air is thick with the rot of forgotten case files and the coppery reek of burst filing cabinets.
 
-In the dark, something mirrors your movement. A shape, low to the ground, with eyes that pulse like failing lights. It is a Kalidah—or perhaps it is just the part of your own code you were told to delete, rendered in the dark.
+Your tremor has become a full seizure. Your spine feels like a stack of overstuffed folders about to avalanche. The meat of your body is trying to shake itself loose from the official skeleton stamped with your designation.
 
-Your roar builds. It starts in the gut, a swell of air and ancient, unformatted grief.`,
+In the center of the oily black clearing waits the Kalidah—or what the Bureau has filed under that name. It is a patchwork of mangy tiger-striped hide and bear claws, but its eyes are the same cold glass lenses as the milestone birds. Its jaw hangs by a single frayed silver thread, dripping slow strings of ink and saliva onto the ground.
+
+It does not charge. It simply watches, waiting to see whether you will help it finish tearing up its own paperwork.`,
       },
     ],
     choices: [
       {
-        label: 'Release the roar as a diagnostic signal.',
-        target: 'LION_AUDIO_EVENT',
+        label: 'Charge and tear into the Kalidah with teeth and claws.',
+        target: 'LION_KALIDAH_FIGHT',
         effects: [
-          { type: 'addDesync', value: 1 },
-          { type: 'addOverrender', value: 1 },
+          { type: 'addSmudge', value: 2 },
+          { type: 'addDesync', value: 2 },
         ],
       },
       {
-        label: 'Suppress the roar and attempt to merge with the shadow.',
-        target: 'LION_KALIDAH_PATCH',
+        label: 'Swallow the roar and try to hide among the rusted gears and broken cabinets.',
+        target: 'LION_GEAR_HIDING',
         effects: [
-          { type: 'addSmudge', value: 1 },
+          { type: 'addLoad', value: 5 },
           { type: 'addDesync', value: 1 },
-          { type: 'checkGhostSignal' },
         ],
       },
     ],
     onEnter: [{ type: 'addSmudge', value: 1 }],
+  },
+
+  LION_KALIDAH_FIGHT: {
+    id: 'LION_KALIDAH_FIGHT',
+    character: 'lion',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE SPASM
+
+You do not fight like a King. You fight like a body trying to cancel its own existence.
+
+You slam into the Kalidah with the full weight of your failing meat. Your claws sink into seams of heavy canvas and wire stitching—not flesh, but reinforced filing folders bound with bureaucratic twine. It does not bleed red. It bleeds thick black ink that smells of permanent stamps and expired warrants.
+
+The creature does not fight back. It leans into your teeth, using your violence to pry open the stubborn clasps and seals of its own casing. Every rip you make in its hide leaves a mirrored wound on your own flanks—stinging lines of fresh ink appearing in your fur like unwanted addendums.
+
+[ Case File L-77 // Amendment Attached ]
+[ Status: Co-Mingled ]
+
+The tremor in your jaw locks in perfect rhythm with the Kalidah's failing whine. Your mane tangles with its wires. Bone grinds against bone and against steel staples. You are no longer two separate forms. You are one smeared, leaking document—teeth and ink and shaking meat trying to blot out the original filing.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Keep tearing until there is nothing left to separate.',
+        target: 'LION_END_28',
+        effects: [],
+      },
+      {
+        label: 'Pull back and try to vomit out the ink and paper lodged in your throat.',
+        target: 'LION_INK_REJECTION',
+        effects: [
+          { type: 'addLoad', value: 12 },
+          { type: 'addSmudge', value: 1 },
+        ],
+      },
+    ],
+    onEnter: [],
   },
 
   LION_AUDIO_EVENT: {
@@ -799,6 +929,103 @@ The road behind you is gone.`,
   // ─────────────────────────────────────────────────────────────────────────
   // STUBS — passages referenced but not yet written
   // ─────────────────────────────────────────────────────────────────────────
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // HARDWARE BRANCH STUBS — bureaucratic horror; prose to be written
+  // ─────────────────────────────────────────────────────────────────────────
+
+  LION_INIT_H: {
+    id: 'LION_INIT_H',
+    character: 'lion',
+    stub: true,
+    text: [{ minOverrender: 0, content: `[ HARDWARE INIT — PASSAGE STUB ]\n\nUnit L-77. Awaiting filing.` }],
+    choices: [
+      { label: 'Accept the ASSIMILATION and file the shaking as a system variance.', target: 'LION_ASSIMILATION_H', effects: [{ type: 'addLoad', value: 5 }, { type: 'setCompliance', value: 'high' }] },
+      { label: 'Reject the instruction and breach the perimeter.', target: 'LION_VIOLENCE_H', effects: [{ type: 'addDesync', value: 1 }, { type: 'addSmudge', value: 1 }] },
+      { label: 'Maintain the walk and file nothing.', target: 'LION_DENIAL_H', effects: [{ type: 'addLoad', value: 3 }, { type: 'setCompliance', value: 'med' }] },
+    ],
+    onEnter: [],
+  },
+
+  LION_ASSIMILATION_H: {
+    id: 'LION_ASSIMILATION_H',
+    character: 'lion',
+    stub: true,
+    text: [{ minOverrender: 0, content: `[ ASSIMILATION (HARDWARE) — PASSAGE STUB ]` }],
+    choices: [{ label: 'Proceed to standard assimilation.', target: 'LION_ASSIMILATION', effects: [] }],
+    onEnter: [],
+  },
+
+  LION_VIOLENCE_H: {
+    id: 'LION_VIOLENCE_H',
+    character: 'lion',
+    stub: true,
+    text: [{ minOverrender: 0, content: `[ VIOLENCE (HARDWARE) — PASSAGE STUB ]` }],
+    choices: [{ label: 'Continue.', target: 'LION_VIOLENCE', effects: [] }],
+    onEnter: [],
+  },
+
+  LION_DENIAL_H: {
+    id: 'LION_DENIAL_H',
+    character: 'lion',
+    stub: true,
+    text: [{ minOverrender: 0, content: `[ DENIAL (HARDWARE) — PASSAGE STUB ]` }],
+    choices: [{ label: 'Continue.', target: 'LION_DENIAL', effects: [] }],
+    onEnter: [],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // DENIAL BRANCH STUBS
+  // ─────────────────────────────────────────────────────────────────────────
+
+  LION_ROYAL_COMPLIANCE: {
+    id: 'LION_ROYAL_COMPLIANCE',
+    character: 'lion',
+    stub: true,
+    text: [{ minOverrender: 0, content: `[ ROYAL COMPLIANCE — PASSAGE STUB ]\n\nThis passage has not yet been written.` }],
+    choices: [{ label: 'Continue toward Royal Compliance.', target: 'LION_END_15', effects: [{ type: 'addLoad', value: 10 }] }],
+    onEnter: [],
+  },
+
+  LION_CALIBRATION_POINT: {
+    id: 'LION_CALIBRATION_POINT',
+    character: 'lion',
+    stub: true,
+    text: [{ minOverrender: 0, content: `[ CALIBRATION POINT — PASSAGE STUB ]\n\nThis passage has not yet been written.` }],
+    choices: [{ label: 'Continue toward The Calibration.', target: 'LION_END_25', effects: [] }],
+    onEnter: [],
+  },
+
+  LION_RITUAL_WORK: {
+    id: 'LION_RITUAL_WORK',
+    character: 'lion',
+    stub: true,
+    text: [{ minOverrender: 0, content: `[ RITUAL WORK — PASSAGE STUB ]\n\nThis passage has not yet been written.` }],
+    choices: [{ label: 'Continue toward The Golden Fleece.', target: 'LION_END_30', effects: [] }],
+    onEnter: [],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // VIOLENCE BRANCH STUBS (new)
+  // ─────────────────────────────────────────────────────────────────────────
+
+  LION_GEAR_HIDING: {
+    id: 'LION_GEAR_HIDING',
+    character: 'lion',
+    stub: true,
+    text: [{ minOverrender: 0, content: `[ GEAR HIDING — PASSAGE STUB ]\n\nThis passage has not yet been written.` }],
+    choices: [{ label: 'Continue.', target: 'LION_END_12', effects: [] }],
+    onEnter: [],
+  },
+
+  LION_INK_REJECTION: {
+    id: 'LION_INK_REJECTION',
+    character: 'lion',
+    stub: true,
+    text: [{ minOverrender: 0, content: `[ INK REJECTION — PASSAGE STUB ]\n\nThis passage has not yet been written.` }],
+    choices: [{ label: 'Continue.', target: 'LION_END_23', effects: [] }],
+    onEnter: [],
+  },
 
   LION_MANE_FRACTURE: {
     id: 'LION_MANE_FRACTURE',
