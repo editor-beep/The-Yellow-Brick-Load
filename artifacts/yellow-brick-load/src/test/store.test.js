@@ -77,15 +77,11 @@ describe('useGameStore', () => {
   // ── checkGhostSignal ───────────────────────────────────────────────────
   it('arms Ghost Signal when all conditions are met (desync >= 3)', () => {
     const store = useGameStore.getState()
-    // smudge >= 2
     store.addSmudge(2)
-    // desync >= 3 — use addDesync three times
     store.addDesync(1)
     store.addDesync(1)
     store.addDesync(1)
-    // compliance === 'broken'
     store.setCompliance('broken')
-    // reset_count === 0 (default)
 
     store.checkGhostSignal()
 
@@ -96,7 +92,7 @@ describe('useGameStore', () => {
     const store = useGameStore.getState()
     store.addSmudge(2)
     store.addDesync(1)
-    store.addDesync(1) // desync = 2, below threshold
+    store.addDesync(1)
     store.setCompliance('broken')
 
     store.checkGhostSignal()
@@ -109,11 +105,9 @@ describe('useGameStore', () => {
     store.addSmudge(2)
     store.addDesync(3)
     store.setCompliance('broken')
-    store.checkGhostSignal() // arms it
-    // Manually fire to simulate the timeout completing
+    store.checkGhostSignal()
     store.fireGhostSignal()
 
-    // Reset armed flag trick — should not re-arm
     useGameStore.setState({ ghostSignalArmed: false })
     store.checkGhostSignal()
 

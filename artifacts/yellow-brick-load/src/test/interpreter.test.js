@@ -108,8 +108,6 @@ describe('isChoiceAvailable', () => {
 })
 
 // ── applyEffects (smoke) ─────────────────────────────────────────────────────
-// applyEffects calls into Zustand — just verify it doesn't throw on an
-// unknown effect type and that it handles a missing/empty list gracefully.
 describe('applyEffects', () => {
   it('handles null without throwing', () => {
     expect(() => applyEffects(null)).not.toThrow()
@@ -120,8 +118,6 @@ describe('applyEffects', () => {
   })
 
   it('logs a warning for unknown effect types without throwing', () => {
-    // applyEffects reads from Zustand getState() — the store is available
-    // in the test environment because it's pure JS (no DOM required).
     expect(() => applyEffects([{ type: '__unknown__' }])).not.toThrow()
   })
 })

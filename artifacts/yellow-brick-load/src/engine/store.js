@@ -60,6 +60,12 @@ export const useGameStore = create((set, get) => ({
   setFlag: (key, val = true) => set((s) => ({ flags: { ...s.flags, [key]: val } })),
 
   // ── Soft Reset ───────────────────────────────────────────────────────────
+  /**
+   * Partially resets game state and increments reset_count.
+   * Note: `history` is intentionally preserved across a soft reset — it
+   * represents the player's cumulative path and should persist for
+   * narrative/condition purposes.
+   */
   softReset: () => {
     const { reset_count, character } = get()
     set({
@@ -81,7 +87,7 @@ export const useGameStore = create((set, get) => ({
   checkGhostSignal: () => {
     const { smudge, desync, compliance, reset_count, ghostSignalArmed, ghostSignalFired } = get()
     if (ghostSignalFired || ghostSignalArmed) return
-    if (smudge >= 2 && desync === 3 && compliance === 'broken' && reset_count === 0) {
+    if (smudge >= 2 && desync >= 3 && compliance === 'broken' && reset_count === 0) {
       set({ ghostSignalArmed: true })
       setTimeout(() => {
         if (!get().ghostSignalFired) get().fireGhostSignal()

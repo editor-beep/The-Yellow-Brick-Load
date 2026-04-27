@@ -29,7 +29,7 @@
  * }
  *
  * Text content supports simple token replacement:
- *   {{load}}  {{desync}}  {{compliance}}  {{character}}
+ *   {{load}}  {{desync}}  {{compliance}}  {{character}}  {{flags.KEY}}
  */
 
 import { useGameStore } from './store.js'
@@ -43,6 +43,9 @@ export function interpolate(text, state) {
     .replace(/{{character}}/g, state.character || 'unit')
     .replace(/{{reset_count}}/g, state.reset_count)
     .replace(/{{smudge}}/g, state.smudge)
+    .replace(/{{flags\.([^}]+)}}/g, (_, key) =>
+      state.flags && state.flags[key] !== undefined ? state.flags[key] : ''
+    )
 }
 
 // ── Resolve which text block to show ────────────────────────────────────────

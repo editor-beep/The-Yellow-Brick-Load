@@ -7,7 +7,6 @@ function resetStore() {
   useGameStore.getState().hardReset()
 }
 
-// Helper — navigate to a node directly
 function goToNode(id) {
   useGameStore.setState({ currentNode: id, character: 'lion' })
 }
@@ -25,7 +24,6 @@ describe('PassageRenderer', () => {
   it('renders passage text when the node exists', () => {
     goToNode('LION_INIT')
     render(<PassageRenderer />)
-    // LION_INIT contains this phrase in its text
     expect(screen.getByText(/THE KING OF THE FOREST IS A UNIT OF MEASURE/i)).toBeInTheDocument()
   })
 
@@ -34,25 +32,14 @@ describe('PassageRenderer', () => {
     render(<PassageRenderer />)
     const nav = screen.getByRole('navigation', { name: /available choices/i })
     expect(nav).toBeInTheDocument()
-    // LION_INIT should have at least one choice button
     const buttons = screen.getAllByRole('button')
     expect(buttons.length).toBeGreaterThan(0)
   })
 
-  it('shows the restart button on an ending passage', () => {
-    // Wire a minimal ending passage directly into the store
-    useGameStore.setState({
-      currentNode: '__TEST_ENDING__',
-      character: 'lion',
-    })
-
-    // Monkey-patch allPassages via the module store — instead, just check
-    // that LION_INIT (a non-ending) does NOT show a restart button, and
-    // test the Ghost Signal ending separately via the actual passage.
+  it('does not show a restart button on a non-ending passage', () => {
     goToNode('LION_INIT')
     render(<PassageRenderer />)
-    const restartButtons = screen.queryAllByText(/begin new session/i)
-    expect(restartButtons.length).toBe(0)
+    expect(screen.queryAllByText(/begin new session/i).length).toBe(0)
   })
 
   it('renders the Ghost Signal passage with a terminate button', () => {
