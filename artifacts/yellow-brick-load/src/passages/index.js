@@ -6,7 +6,7 @@
  *
  * Characters:
  *   lion      — implemented (rough.docx prose + matrix)
- *   tin_man   — stub (rough.docx prose available, needs wiring)
+ *   tin_man   — implemented (Volume 2 init + branches; endings stubbed)
  *   scarecrow — stub (rough.docx prose starts, needs wiring)
  *   dorothy   — stub
  *   witch_west — stub
@@ -16,6 +16,7 @@
  */
 
 import { lionPassages } from './lion.js'
+import { tinManPassages } from './tin_man.js'
 
 // Ghost Signal — off-grid, character-agnostic
 export const ghostSignalPassage = {
@@ -45,9 +46,9 @@ Goodbye, Unit {{character}}. I'll see you in the next render.
 
 export const allPassages = {
   ...lionPassages,
+  ...tinManPassages,
   ...ghostSignalPassage,
   // Future characters drop in here as their passage files are written:
-  // ...tinManPassages,
   // ...scarecrowPassages,
   // ...dorothyPassages,
   // ...witchWestPassages,
