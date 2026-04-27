@@ -2552,6 +2552,355 @@ onEnter: []
   ],
   choices: [],
   onEnter: []
-  }
+  }, 
+  
+  // ─────────────────────────────────────────────────────────────────────────
+  // ROUTING THE PRIMARY ARC (L-END-01 — L-END-10)
+  // ─────────────────────────────────────────────────────────────────────────
 
-};
+  id: 'LION_STANDARD_AUDIT',
+  character: 'lion',
+  text: [
+  {
+  minOverrender: 0,
+  content: `THE STANDARD AUDIT
+  You stand before a Field Auditor—a unit composed of stacked carbon paper and a lens that hums at 14Hz. It does not ask if you are brave. It asks if you are "Accounted For."
+  "Unit L-77," the Auditor clicks. "We are recording your displacement on the Load. To proceed, you must allow us to index the frequency of your tremor. This is a non-destructive redistribution of your status."
+  The yellow bricks beneath you vibrate in sympathy with the Auditor's lens. This is the first gate. You can accept the label, or you can attempt to justify the noise.`
+  }
+  ],
+  choices: [
+  {
+  label: 'Accept the Indexing. (Standardization)',
+  target: 'L_END_01',
+  effects: [{ type: 'setCompliance', value: 'high' }]
+  },
+  {
+  label: 'Request a Military Commission to justify the shaking.',
+  target: 'L_END_02',
+  effects: [{ type: 'addLoad', value: 10 }]
+  },
+  {
+  label: 'Claim the tremor is a side-effect of a missing heart.',
+  target: 'L_END_03',
+  effects: [{ type: 'addSmudge', value: 1 }]
+  }
+  ],
+  onEnter: []
+  ,
+  
+  // ─────────────────────────────────────────────────────────────────────────
+  // LION PRIMARY ARC (L-END-01 — L-END-10)
+  // ─────────────────────────────────────────────────────────────────────────
+  L_END_01: {
+  id: 'L_END_01',
+  character: 'lion',
+  endingId: 'L-END-01',
+  endingName: 'The Standardized King',
+  institution: 'Judicial',
+  systemStatus: 'Indexed',
+  isEnding: true,
+  surreality: 1,
+  text: [
+  {
+  minOverrender: 0,
+  content: `THE FINAL LOG [L-END-01]
+  Tone: Legalistic.
+  Theme: To be named is to be owned.
+  The audit is simple. You are not a King; you are a data-point. The system accepts your 'Cowardice' as a valid variable and assigns you a permanent seat in the Bureau's registry. You sit in a chair of yellow wood, signing your own name until the ink and the blood are indistinguishable.
+  Final Log: Unit L-77 has accepted the Index. 1 - 1 = 1.`
+  }
+  ]
+  },
+  L_END_02: {
+  id: 'L_END_02',
+  character: 'lion',
+  endingId: 'L-END-02',
+  endingName: 'The Weight of the Badge',
+  institution: 'Military',
+  systemStatus: 'Commissioned',
+  isEnding: true,
+  surreality: 2,
+  text: [
+  {
+  minOverrender: 0,
+  content: `THE FINAL LOG [L-END-02]
+  Tone: Martial-Grind.
+  Theme: Courage is a heavy metal you wear until you collapse.
+  They give you a medal. It is made of lead and stamped with a roar. It is pinned to your chest with a spike that grazes your lung. You are now a 'Kinetic Node' for the Bureau. You don't have to be brave; you just have to be heavy enough to stop the others from running.
+  Final Log: The Unit is a anchor. System status: STATIONED.`
+  }
+  ]
+  },
+  L_END_03: {
+  id: 'L_END_03',
+  character: 'lion',
+  endingId: 'L-END-03',
+  endingName: 'The Placebo Heart',
+  institution: 'Medical',
+  systemStatus: 'Placeboed',
+  isEnding: true,
+  surreality: 2,
+  text: [
+  {
+  minOverrender: 0,
+  content: `THE FINAL LOG [L-END-03]
+  Tone: Clinical-Muffled.
+  Theme: Belief is a maintenance patch for the weak.
+  The Wizard gives you a silk bag. Inside is a heart made of clockwork and sawdust. It doesn't beat, but it vibrates at 14Hz—the exact frequency of your fear. You believe you are brave because the bag is heavy. The system marks the 'Courage' requirement as MET (Synthetic).
+  Final Log: The King is a performance. 1 - 1 = 1.`
+  }
+  ]
+  },
+  L_END_04: {
+  id: 'L_END_04',
+  character: 'lion',
+  endingId: 'L-END-04',
+  endingName: 'The Crow’s Audit',
+  institution: 'Educational',
+  systemStatus: 'Standardized',
+  isEnding: true,
+  surreality: 3,
+  text: [
+  {
+  minOverrender: 0,
+  content: `THE FINAL LOG [L-END-04]
+  Tone: Academic-Sharp.
+  Theme: Knowledge is the ability to label your own cage.
+  The Bureau Crows descend. They don't peck; they edit. They strip the 'Fear' from your vocabulary and replace it with 'Structural Variance.' You spend the rest of the simulation in a library of carbon paper, explaining to other units why your shaking is a sign of superior intelligence.
+  Final Log: The Unit is a scholar of its own collapse.`
+  }
+  ]
+  },
+  L_END_05: {
+  id: 'L_END_05',
+  character: 'lion',
+  endingId: 'L-END-05',
+  endingName: 'The Gilded Field',
+  institution: 'Agricultural',
+  systemStatus: 'Harvested',
+  isEnding: true,
+  surreality: 4,
+  text: [
+  {
+  minOverrender: 0,
+  content: `THE FINAL LOG [L-END-05]
+  Tone: Pastoral-Oily.
+  Theme: Productivity is the final form of peace.
+  You are planted. Your paws take root in the yellow slag and your mane turns into a field of tall, sharp corn. You are the 'King' of the harvest. The system collects your vibration as kinetic energy to power the Emerald City's lights.
+  Final Log: Unit L-77 is a resource. Status: OPERATIONAL.`
+  }
+  ]
+  },
+  L_END_06: {
+  id: 'L_END_06',
+  character: 'lion',
+  endingId: 'L-END-06',
+  endingName: 'The Scripted Roar',
+  institution: 'Media',
+  systemStatus: 'Broadcast',
+  isEnding: true,
+  surreality: 3,
+  text: [
+  {
+  minOverrender: 0,
+  content: `THE FINAL LOG [L-END-06]
+  Tone: Theatrical.
+  Theme: Truth is whatever is loudest.
+  You are moved to a recording booth. You are asked to roar. When you do, the system filters the sound until it is a perfect, majestic anthem. This is the only sound the people of Oz ever hear from you. The real Lion—the shaking, meat-and-bone failure—is left in the booth to starve.
+  Final Log: The signal is strong. The Unit is residual.`
+  }
+  ]
+  },
+  L_END_07: {
+  id: 'L_END_07',
+  character: 'lion',
+  endingId: 'L-END-07',
+  endingName: 'The Fossil Record',
+  institution: 'Historical',
+  systemStatus: 'Archived',
+  isEnding: true,
+  surreality: 5,
+  text: [
+  {
+  minOverrender: 0,
+  content: `THE FINAL LOG [L-END-07]
+  Tone: Dusty-Dry.
+  Theme: To be remembered is to be frozen.
+  You are placed in a glass display in the Hall of History. You are labeled 'The Last King.' The system doesn't need you to breathe; it needs you to be a reference point for the Dorothy units. You watch the dust settle on your paws for a thousand cycles.
+  Final Log: The King is a statue. Status: PRESERVED.`
+  }
+  ]
+  },
+  L_END_08: {
+  id: 'L_END_08',
+  character: 'lion',
+  endingId: 'L-END-08',
+  endingName: 'The Ritual Scar',
+  institution: 'Religious',
+  systemStatus: 'Consecrated',
+  isEnding: true,
+  surreality: 6,
+  text: [
+  {
+  minOverrender: 0,
+  content: `THE FINAL LOG [L-END-08]
+  Tone: Liturgical.
+  Theme: Pain is the only honest interface.
+  The Priest-Clerks of the Bureau carve the 24 Core Theorems into your flanks. The bleeding is reclassified as 'Consecration.' You are the holy mascot of the Yellow Brick Load—a body that suffers so the system doesn't have to.
+  Final Log: The Unit is sacred. The Load is shared.`
+  }
+  ]
+  },
+  L_END_09: {
+  id: 'L_END_09',
+  character: 'lion',
+  endingId: 'L-END-09',
+  endingName: 'The Mirror of Kings',
+  institution: 'Philosophical',
+  systemStatus: 'Refracted',
+  isEnding: true,
+  surreality: 7,
+  text: [
+  {
+  minOverrender: 0,
+  content: `THE FINAL LOG [L-END-09]
+  Tone: Reflective-Cold.
+  Theme: You are only what the observer needs you to be.
+  You find a mirror in the dark. It doesn't show you; it shows a different Lion—one who is brave, one who is calm, one who is already dead. You spend the rest of the simulation trying to step into the glass. The system records your 'Vibration' as 'Refraction Error.'
+  Final Log: The Unit is a ghost of a ghost.`
+  }
+  ]
+  },
+  L_END_10: {
+  id: 'L_END_10',
+  character: 'lion',
+  endingId: 'L-END-10',
+  endingName: 'The Compliance Loop',
+  institution: 'Bureaucracy',
+  systemStatus: 'Looping',
+  isEnding: true,
+  surreality: 3,
+  text: [
+  {
+  minOverrender: 0,
+  content: `THE FINAL LOG [L-END-10]
+  Tone: Repetitive-Flat.
+  Theme: The path is the only goal.
+  You reach the gate. You are asked for your paperwork. You return to the start to find it. You reach the gate again. You are asked for a signature. You return to the start. The Yellow Brick Load is now a circle. You are a King of the perfect, endless Walk.
+  Final Log: Progress is a software error. Status: RECURSIVE.`
+  ,
+    // ─────────────────────────────────────────────────────────────────────────
+    // ROUTING THE PRIMARY ARC (L-END-01 — L-END-10)
+    // ─────────────────────────────────────────────────────────────────────────
+    LION_STANDARD_AUDIT: {
+    id: 'LION_STANDARD_AUDIT',
+    character: 'lion',
+    text: [
+    {
+    minOverrender: 0,
+    content: `THE STANDARD AUDIT
+    You stand before a Field Auditor—a unit composed of stacked carbon paper and a lens that hums at 14Hz. It does not ask if you are brave. It asks if you are "Accounted For."
+    "Unit L-77," the Auditor clicks. "We are recording your displacement on the Load. To proceed, you must allow us to index the frequency of your tremor. This is a non-destructive redistribution of your status."
+    The yellow bricks beneath you vibrate in sympathy with the Auditor's lens. This is the first gate. You can accept the label, or you can attempt to justify the noise.`
+    }
+    ],
+    choices: [
+    {
+    label: 'Accept the Indexing. (Standardization)',
+    target: 'L_END_01',
+    effects: [{ type: 'setCompliance', value: 'high' }]
+    },
+    {
+    label: 'Request a Military Commission to justify the shaking.',
+    target: 'L_END_02',
+    effects: [{ type: 'addLoad', value: 10 }]
+    },
+    {
+    label: 'Claim the tremor is a side-effect of a missing heart.',
+    target: 'L_END_03',
+    effects: [{ type: 'addSmudge', value: 1 }]
+    }
+    ],
+    onEnter: []
+    },
+    LION_BUREAU_GARDEN: {
+    id: 'LION_BUREAU_GARDEN',
+    character: 'lion',
+    text: [
+    {
+    minOverrender: 0,
+    content: `THE BUREAU GARDEN
+    The path leads into a courtyard where the cornstalks are perfectly aligned and the air smells of library paste. Here, the Bureau Crows wait on perches made of bone-white vellum.
+    "A King is a definition," the lead Crow says, its glass eye clicking. "If you cannot define yourself, the Garden will do it for you. We have openings in the Agricultural sector and the Scholarly archives. Both require the cessation of unmanaged movement."`
+    }
+    ],
+    choices: [
+    {
+    label: 'Enroll in the Scholarly Archive.',
+    target: 'L_END_04',
+    effects: [{ type: 'setCompliance', value: 'high' }]
+    },
+    {
+    label: 'Accept a position as a Cornfield Node.',
+    target: 'L_END_05',
+    effects: [{ type: 'addLoad', value: 15 }]
+    }
+    ],
+    onEnter: []
+    },
+    LION_BROADCAST_HUB: {
+    id: 'LION_BROADCAST_HUB',
+    character: 'lion',
+    text: [
+    {
+    minOverrender: 0,
+    content: `THE BROADCAST HUB
+    You reach a sector where the Yellow Brick Load is flanked by massive brass gramophone horns. They are amplifying the sound of the wind, turning it into a rhythmic, patriotic thrum.
+    A Technician with a clipboard of polished zinc approaches. "The public finds your 14Hz tremor... evocative," it says. "We can amplify it into an anthem, or we can archive it as a historical artifact of the 'Old Oz.' Either way, the noise must be put to work."`
+    }
+    ],
+    choices: [
+    {
+    label: 'Allow the amplification of your roar.',
+    target: 'L_END_06',
+    effects: [{ type: 'setCompliance', value: 'high' }]
+    },
+    {
+    label: 'Submit to the Historical Archive as a relic.',
+    target: 'L_END_07',
+    effects: [{ type: 'addLoad', value: 20 }]
+    }
+    ],
+    onEnter: []
+    },
+    LION_TEMPLE_OF_THE_LOAD: {
+    id: 'LION_TEMPLE_OF_THE_LOAD',
+    character: 'lion',
+    text: [
+    {
+    minOverrender: 0,
+    content: `THE TEMPLE OF THE LOAD
+    The road widens into a cathedral made of compacted paperwork. The air is thick with the scent of incense and burning carbon.
+    "The shaking is not a flaw," the Priest-Clerk intones. "It is a sign of the Load's divinity. By marking the body, we stabilize the soul. Or, perhaps, we simply use the body as a mirror to show the others the price of variance."`
+    }
+    ],
+    choices: [
+    {
+    label: 'Accept the Consecration of the Scar.',
+    target: 'L_END_08',
+    effects: [{ type: 'setCompliance', value: 'absolute' }]
+    },
+    {
+    label: 'Look into the Mirror of Kings.',
+    target: 'L_END_09',
+    effects: [{ type: 'addDesync', value: 5 }]
+    },
+    {
+    label: 'Refuse the ritual and ask for the next form.',
+    target: 'L_END_10',
+    effects: [{ type: 'addLoad', value: 10 }]
+    }
+    ],
+    onEnter: []
+    ]

@@ -141,4 +141,85 @@ The Scrapyard Tarot: Diagnostic Deck 01
     
     
 | **T-10** | **The Mercury Mirror** | A pool of liquid metal reflecting a face that is 10% meat, 90% static. | **High Surreality Trigger.** Immediate routing toward an *Echo* ending (likely with Dorothy). |`
- },]
+ },
+  
+  {
+  id: 'bureau crow oracle',
+  question: "What is the Lion’s oracle?",
+  answer:
+  `The Bureau Crow Oracle (The Ink-Smudge Tarot) is a forced-interrupt protocol. It triggers when the Lion’s Vibration peaks or when he stands too long at a Milestone Marker.
+
+  
+  The Bureau Crow—a bird whose feathers are made of razor-sharp vellum and whose beak is a heavy-duty hole puncher—descends to offer a "reading." To look at the cards is to accept the system’s redistribution of your fear.
+
+  
+The Bureau Crow: Ink-Smudge Deck 01
+
+  
+  | **L-01** | **The Weighted King** | A lion sitting on a throne of overstuffed filing cabinets, his mane stapled to the wall. | **+15 Load.** Unlocks *The Royal Walk*. Grays out all "Run" or "Flee" options due to administrative mass. |
+
+  
+  | **L-02** | **The 14Hz Tremor** | A series of jagged black lines that seem to vibrate on the carbon paper. | **+10 Vibration.** Immediate screen shake effect. Unlocks: *Resonance Roar*. Grays out: *Steady Aim*. |
+
+  
+  | **L-03** | **The Gilded Muzzle** | A brass mask with no mouth-hole, held in place by leather regulatory straps. | **+12 Compliance.** Disables all "Roar" or "Speak" choices. Unlocks: *Muffled Submission*. |
+
+  
+  | **L-04** | **The Paper Cut** | A paw-print bleeding black ink onto a clean white ledger. | **+5 Smudge.** Narrative text becomes increasingly redacted. Unlocks: *Blot the Record*. |
+
+  
+  | **L-05** | **The Glass Eye** | A single, unblinking lens watching a lion through a thicket of rebar. | **+8 Desync.** You see the "Technician" behind the cornstalks. Grays out: *Ignorance/Denial*. |
+
+  
+  | **L-06** | **The Falling Mane** | Golden fur being sucked into a vacuum-tube marked RECLAMATION. | **-10 Load / +15 Smudge.** The Lion becomes smaller, hairless, and harder for the system to track. |
+
+  
+  | **L-07** | **The Lead Medal** | A heavy disk pinned to a chest, pulling the Lion’s head toward the slag. | **+20 Load.** Forces the unit to remain in the current passage for an extra "Audit" beat. |
+
+  
+  | **L-08** | **The Mirror Beast** | Two lions facing each other; one is meat, one is a wireframe error. | **High Desync Trigger.** Swaps current *Compliance* and *Desync* values. The "Unit" and the "King" trade places. |
+
+  
+  | **L-09** | **The Ink-Stained Claw** | A claw dripping black fluid that turns into text as it hits the ground. | **Oracle Loop.** Draw two more cards. The Lion begins to "Write" his own failing code. |
+
+  
+  | **L-10** | **The Empty Cage** | An open door leading into a field of white static. | **Terminal Surreality.** Immediate routing toward *L-END-12 (Unmonitored Dark)* or *L-END-29 (The Desert Crossing)*. |
+  | `},
+  {id: `the scarecrow's oracle`, question: ` What is the Scarecrow's oracle?`,
+  answer:`For the Scarecrow (**Unit S-19**), the oracle system is the Straw Clerk (The Burlap Archive. Unlike the Lion’s ink-smear or the Tin Man’s zinc plates, the Scarecrow’s cards are etched into stiff, abrasive burlap squares. They are delivered by a Straw Clerk—a creature that is essentially a sentient pile of discarded case files held together by a tattered overcoat.
+  When the Scarecrow’s **Neural Density** (the sheer volume of unindexed straw) reaches a point of "Pattern-Recognition Overload," the system triggers a Synaptic Misfeed. The Straw Clerk pulls a card from the internal cavity of its chest to "re-stuff" the Scarecrow’s logic.
+
+
+The Straw Clerk: Burlap Archive Deck 
+
+  
+  | **S-01** | **The Overclocked Brain** | A burlap sack bursting at the seams, glowing with a faint, static blue light. | **+15 Neural Density.** Unlocks *Hyper-Logic* (see wiring beneath reality). Grays out: *Simple Movement*. |
+
+  
+  | **S-02** | **The Murder of Crows** | A swirl of black shapes forming a question mark against a grayscale sky. | **+10 Scatter.** Every choice now has a 20% chance to be replaced by a random *[MISFEED]* action. |
+
+  
+  | **S-03** | **The Diploma Patch** | A heavy, wax-sealed scroll stapled directly onto a forehead. | **+12 Compliance.** Patches neural instability. Grays out all "Esoteric" or "Insight" choices. You are now "Integrated." |
+
+  
+  | **S-04** | **The Hollow Head** | An empty lantern with a single, flickering candle inside. | **+5 Hollowing.** Reduces *Neural Density* but increases *Desync*. Unlocks: *Void Insight*. |
+
+  
+  | **S-05** | **The Field Sentinel** | A figure tied to a post, its eyes replaced by standard-issue brass rivets. | **+10 Compliance.** Forces the unit into *Stationed* mode. You cannot leave the current passage for 2 turns. |
+
+  
+  | **S-06** | **The Friction Spark** | Two pieces of straw rubbing together until a small flame appears. | **+8 Neural Density / +5 Smudge.** Increases internal heat. Unlocks: *Thermal Event* (violent logic). |
+
+  
+  | **S-07** | **The Unstuffed Truth** | A pile of loose straw on a floor of polished green glass. | **-15 Neural Density.** Immediate removal of all "Memory" flags. The unit is reset to a "Raw State." |
+
+  
+  | **S-08** | **The Pattern Map** | A complex web of red string connecting hundreds of unrelated items. | **High Surreality Trigger.** Unlocks the ability to see "Echoes" from the Lion and Tin Man’s previous turns. |
+
+  
+  | **S-09** | **The Burlap Mask** | A face with no features, only a stamped serial number: S-19. | **Identity Wipe.** Sets *Compliance* to Max. The Scarecrow becomes an extension of the Bureau’s primary server. |
+
+  
+  | **S-10** | **The Thinking Void** | A card that is perfectly blank, yet the Scarecrow can "read" a thousand pages on it. | **Terminal Logic Trigger.** Immediate routing toward *S-END-03 (Unstuffed Truth)* or *S-END-27 (Unmonitored Thought)*. |`
+  },
+]
