@@ -682,7 +682,7 @@ You try to move your head, but the weight of the dampening is a physical presenc
 On the ceiling, a single screen displays your status:
 
 [ UNIT L-77 // NOISE FLOOR: OPTIMAL ]
-[ STATUS: ASSIMILATIONED ]
+[ STATUS: AUDITED ]
 
 You are a lion in a box made of lion. You are the silence that follows a roar.`,
       },
@@ -2457,7 +2457,7 @@ onEnter: []
   choices: [
   {
   label: 'Close your eyes and become the center of the loop.',
-  target: 'L_END_14',
+  target: 'LION_END_14',
   effects: [
   { type: 'addLoad', value: 25 },
   { type: 'setCompliance', value: 'high' }
@@ -2484,7 +2484,7 @@ onEnter: []
   choices: [
   {
   label: 'Perform the Roar for the crowd.',
-  target: 'L_END_22',
+  target: 'LION_END_22',
   effects: [
   { type: 'addLoad', value: 15 },
   { type: 'setCompliance', value: 'high' }
@@ -2496,8 +2496,8 @@ onEnter: []
   // ─────────────────────────────────────────────────────────────────────────
   // FINAL LOGS: L-END-14 & L-END-22
   // ─────────────────────────────────────────────────────────────────────────
-  L_END_14: {
-  id: 'L_END_14',
+  LION_END_14: {
+  id: 'LION_END_14',
   character: 'lion',
   endingId: 'L-END-14',
   endingName: 'The Feedback Loop',
@@ -2524,8 +2524,8 @@ onEnter: []
   choices: [],
   onEnter: []
   },
-  L_END_22: {
-  id: 'L_END_22',
+  LION_END_22: {
+  id: 'LION_END_22',
   character: 'lion',
   endingId: 'L-END-22',
   endingName: 'The Mane Event',
@@ -2558,6 +2558,7 @@ onEnter: []
   // ROUTING THE PRIMARY ARC (L-END-01 — L-END-10)
   // ─────────────────────────────────────────────────────────────────────────
 
+  LION_STANDARD_AUDIT: {
   id: 'LION_STANDARD_AUDIT',
   character: 'lion',
   text: [
@@ -2587,8 +2588,8 @@ onEnter: []
   }
   ],
   onEnter: []
-  ,
-  
+  },
+
   // ─────────────────────────────────────────────────────────────────────────
   // LION PRIMARY ARC (L-END-01 — L-END-10)
   // ─────────────────────────────────────────────────────────────────────────
@@ -2789,118 +2790,90 @@ onEnter: []
   Theme: The path is the only goal.
   You reach the gate. You are asked for your paperwork. You return to the start to find it. You reach the gate again. You are asked for a signature. You return to the start. The Yellow Brick Load is now a circle. You are a King of the perfect, endless Walk.
   Final Log: Progress is a software error. Status: RECURSIVE.`
-  ,
-    // ─────────────────────────────────────────────────────────────────────────
-    // ROUTING THE PRIMARY ARC (L-END-01 — L-END-10)
-    // ─────────────────────────────────────────────────────────────────────────
-    LION_STANDARD_AUDIT: {
-    id: 'LION_STANDARD_AUDIT',
-    character: 'lion',
-    text: [
-    {
-    minOverrender: 0,
-    content: `THE STANDARD AUDIT
-    You stand before a Field Auditor—a unit composed of stacked carbon paper and a lens that hums at 14Hz. It does not ask if you are brave. It asks if you are "Accounted For."
-    "Unit L-77," the Auditor clicks. "We are recording your displacement on the Load. To proceed, you must allow us to index the frequency of your tremor. This is a non-destructive redistribution of your status."
-    The yellow bricks beneath you vibrate in sympathy with the Auditor's lens. This is the first gate. You can accept the label, or you can attempt to justify the noise.`
-    }
-    ],
-    choices: [
-    {
-    label: 'Accept the Indexing. (Standardization)',
-    target: 'L_END_01',
-    effects: [{ type: 'setCompliance', value: 'high' }]
-    },
-    {
-    label: 'Request a Military Commission to justify the shaking.',
-    target: 'L_END_02',
-    effects: [{ type: 'addLoad', value: 10 }]
-    },
-    {
-    label: 'Claim the tremor is a side-effect of a missing heart.',
-    target: 'L_END_03',
-    effects: [{ type: 'addSmudge', value: 1 }]
-    }
-    ],
-    onEnter: []
-    },
-    LION_BUREAU_GARDEN: {
-    id: 'LION_BUREAU_GARDEN',
-    character: 'lion',
-    text: [
-    {
-    minOverrender: 0,
-    content: `THE BUREAU GARDEN
+  }
+  ],
+  choices: [],
+  onEnter: []
+  },
+
+  LION_BUREAU_GARDEN: {
+  id: 'LION_BUREAU_GARDEN',
+  character: 'lion',
+  text: [
+  {
+  minOverrender: 0,
+  content: `THE BUREAU GARDEN
     The path leads into a courtyard where the cornstalks are perfectly aligned and the air smells of library paste. Here, the Bureau Crows wait on perches made of bone-white vellum.
     "A King is a definition," the lead Crow says, its glass eye clicking. "If you cannot define yourself, the Garden will do it for you. We have openings in the Agricultural sector and the Scholarly archives. Both require the cessation of unmanaged movement."`
-    }
-    ],
-    choices: [
-    {
-    label: 'Enroll in the Scholarly Archive.',
-    target: 'L_END_04',
-    effects: [{ type: 'setCompliance', value: 'high' }]
-    },
-    {
-    label: 'Accept a position as a Cornfield Node.',
-    target: 'L_END_05',
-    effects: [{ type: 'addLoad', value: 15 }]
-    }
-    ],
-    onEnter: []
-    },
-    LION_BROADCAST_HUB: {
-    id: 'LION_BROADCAST_HUB',
-    character: 'lion',
-    text: [
-    {
-    minOverrender: 0,
-    content: `THE BROADCAST HUB
+  }
+  ],
+  choices: [
+  {
+  label: 'Enroll in the Scholarly Archive.',
+  target: 'L_END_04',
+  effects: [{ type: 'setCompliance', value: 'high' }]
+  },
+  {
+  label: 'Accept a position as a Cornfield Node.',
+  target: 'L_END_05',
+  effects: [{ type: 'addLoad', value: 15 }]
+  }
+  ],
+  onEnter: []
+  },
+  LION_BROADCAST_HUB: {
+  id: 'LION_BROADCAST_HUB',
+  character: 'lion',
+  text: [
+  {
+  minOverrender: 0,
+  content: `THE BROADCAST HUB
     You reach a sector where the Yellow Brick Load is flanked by massive brass gramophone horns. They are amplifying the sound of the wind, turning it into a rhythmic, patriotic thrum.
     A Technician with a clipboard of polished zinc approaches. "The public finds your 14Hz tremor... evocative," it says. "We can amplify it into an anthem, or we can archive it as a historical artifact of the 'Old Oz.' Either way, the noise must be put to work."`
-    }
-    ],
-    choices: [
-    {
-    label: 'Allow the amplification of your roar.',
-    target: 'L_END_06',
-    effects: [{ type: 'setCompliance', value: 'high' }]
-    },
-    {
-    label: 'Submit to the Historical Archive as a relic.',
-    target: 'L_END_07',
-    effects: [{ type: 'addLoad', value: 20 }]
-    }
-    ],
-    onEnter: []
-    },
-    LION_TEMPLE_OF_THE_LOAD: {
-    id: 'LION_TEMPLE_OF_THE_LOAD',
-    character: 'lion',
-    text: [
-    {
-    minOverrender: 0,
-    content: `THE TEMPLE OF THE LOAD
+  }
+  ],
+  choices: [
+  {
+  label: 'Allow the amplification of your roar.',
+  target: 'L_END_06',
+  effects: [{ type: 'setCompliance', value: 'high' }]
+  },
+  {
+  label: 'Submit to the Historical Archive as a relic.',
+  target: 'L_END_07',
+  effects: [{ type: 'addLoad', value: 20 }]
+  }
+  ],
+  onEnter: []
+  },
+  LION_TEMPLE_OF_THE_LOAD: {
+  id: 'LION_TEMPLE_OF_THE_LOAD',
+  character: 'lion',
+  text: [
+  {
+  minOverrender: 0,
+  content: `THE TEMPLE OF THE LOAD
     The road widens into a cathedral made of compacted paperwork. The air is thick with the scent of incense and burning carbon.
     "The shaking is not a flaw," the Priest-Clerk intones. "It is a sign of the Load's divinity. By marking the body, we stabilize the soul. Or, perhaps, we simply use the body as a mirror to show the others the price of variance."`
-    }
-    ],
-    choices: [
-    {
-    label: 'Accept the Consecration of the Scar.',
-    target: 'L_END_08',
-    effects: [{ type: 'setCompliance', value: 'absolute' }]
-    },
-    {
-    label: 'Look into the Mirror of Kings.',
-    target: 'L_END_09',
-    effects: [{ type: 'addDesync', value: 5 }]
-    },
-    {
-    label: 'Refuse the ritual and ask for the next form.',
-    target: 'L_END_10',
-    effects: [{ type: 'addLoad', value: 10 }]
-    }
-    ],
-    onEnter: []
-    ]
+  }
+  ],
+  choices: [
+  {
+  label: 'Accept the Consecration of the Scar.',
+  target: 'L_END_08',
+  effects: [{ type: 'setCompliance', value: 'absolute' }]
+  },
+  {
+  label: 'Look into the Mirror of Kings.',
+  target: 'L_END_09',
+  effects: [{ type: 'addDesync', value: 5 }]
+  },
+  {
+  label: 'Refuse the ritual and ask for the next form.',
+  target: 'L_END_10',
+  effects: [{ type: 'addLoad', value: 10 }]
+  }
+  ],
+  onEnter: []
+  },
+}
