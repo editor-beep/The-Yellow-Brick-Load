@@ -2553,42 +2553,6 @@ onEnter: []
   choices: [],
   onEnter: []
   }, 
-  
-  // ─────────────────────────────────────────────────────────────────────────
-  // ROUTING THE PRIMARY ARC (L-END-01 — L-END-10)
-  // ─────────────────────────────────────────────────────────────────────────
-
-  LION_STANDARD_AUDIT: {
-  id: 'LION_STANDARD_AUDIT',
-  character: 'lion',
-  text: [
-  {
-  minOverrender: 0,
-  content: `THE STANDARD AUDIT
-  You stand before a Field Auditor—a unit composed of stacked carbon paper and a lens that hums at 14Hz. It does not ask if you are brave. It asks if you are "Accounted For."
-  "Unit L-77," the Auditor clicks. "We are recording your displacement on the Load. To proceed, you must allow us to index the frequency of your tremor. This is a non-destructive redistribution of your status."
-  The yellow bricks beneath you vibrate in sympathy with the Auditor's lens. This is the first gate. You can accept the label, or you can attempt to justify the noise.`
-  }
-  ],
-  choices: [
-  {
-  label: 'Accept the Indexing. (Standardization)',
-  target: 'L_END_01',
-  effects: [{ type: 'setCompliance', value: 'high' }]
-  },
-  {
-  label: 'Request a Military Commission to justify the shaking.',
-  target: 'L_END_02',
-  effects: [{ type: 'addLoad', value: 10 }]
-  },
-  {
-  label: 'Claim the tremor is a side-effect of a missing heart.',
-  target: 'L_END_03',
-  effects: [{ type: 'addSmudge', value: 1 }]
-  }
-  ],
-  onEnter: []
-  },
 
   // ─────────────────────────────────────────────────────────────────────────
   // LION PRIMARY ARC (L-END-01 — L-END-10)
@@ -2796,84 +2760,190 @@ onEnter: []
   onEnter: []
   },
 
-  LION_BUREAU_GARDEN: {
-  id: 'LION_BUREAU_GARDEN',
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // ROUTING THE PRIMARY ARC — book-accurate passages (Baum 1900)
+  // ─────────────────────────────────────────────────────────────────────────
+
+  LION_GATES_OF_OZ: {
+  id: 'LION_GATES_OF_OZ',
   character: 'lion',
   text: [
   {
   minOverrender: 0,
-  content: `THE BUREAU GARDEN
-    The path leads into a courtyard where the cornstalks are perfectly aligned and the air smells of library paste. Here, the Bureau Crows wait on perches made of bone-white vellum.
-    "A King is a definition," the lead Crow says, its glass eye clicking. "If you cannot define yourself, the Garden will do it for you. We have openings in the Agricultural sector and the Scholarly archives. Both require the cessation of unmanaged movement."`
+  content: `THE GATES OF THE BUREAU
+You reach the high, green walls of the City. There is no ringing bell; there is only a slot in the gate for the submission of behavioral logs.
+A Guardian of the Gates—a unit encased in stiff, green vellum—demands your spectacles. "To look upon the City is to accept the Green Lens," he drones. "It is a refractive protocol. It makes the lack of gold look like a surplus of value. It makes your tremor look like the rhythmic pulse of a citizen."
+The Silver Shoes of the Girl click against the malachite floor, a sharp, metallic sound that cuts through your 14Hz hum. You are at the threshold of the Great Marketing Filter.`
   }
   ],
   choices: [
   {
-  label: 'Enroll in the Scholarly Archive.',
-  target: 'L_END_04',
+  label: 'Accept the Green Lens and the Standardized Index.',
+  target: 'L_END_01',
   effects: [{ type: 'setCompliance', value: 'high' }]
   },
   {
-  label: 'Accept a position as a Cornfield Node.',
-  target: 'L_END_05',
-  effects: [{ type: 'addLoad', value: 15 }]
-  }
-  ],
-  onEnter: []
-  },
-  LION_BROADCAST_HUB: {
-  id: 'LION_BROADCAST_HUB',
-  character: 'lion',
-  text: [
-  {
-  minOverrender: 0,
-  content: `THE BROADCAST HUB
-    You reach a sector where the Yellow Brick Load is flanked by massive brass gramophone horns. They are amplifying the sound of the wind, turning it into a rhythmic, patriotic thrum.
-    A Technician with a clipboard of polished zinc approaches. "The public finds your 14Hz tremor... evocative," it says. "We can amplify it into an anthem, or we can archive it as a historical artifact of the 'Old Oz.' Either way, the noise must be put to work."`
-  }
-  ],
-  choices: [
-  {
-  label: 'Allow the amplification of your roar.',
-  target: 'L_END_06',
-  effects: [{ type: 'setCompliance', value: 'high' }]
-  },
-  {
-  label: 'Submit to the Historical Archive as a relic.',
-  target: 'L_END_07',
-  effects: [{ type: 'addLoad', value: 20 }]
-  }
-  ],
-  onEnter: []
-  },
-  LION_TEMPLE_OF_THE_LOAD: {
-  id: 'LION_TEMPLE_OF_THE_LOAD',
-  character: 'lion',
-  text: [
-  {
-  minOverrender: 0,
-  content: `THE TEMPLE OF THE LOAD
-    The road widens into a cathedral made of compacted paperwork. The air is thick with the scent of incense and burning carbon.
-    "The shaking is not a flaw," the Priest-Clerk intones. "It is a sign of the Load's divinity. By marking the body, we stabilize the soul. Or, perhaps, we simply use the body as a mirror to show the others the price of variance."`
-  }
-  ],
-  choices: [
-  {
-  label: 'Accept the Consecration of the Scar.',
-  target: 'L_END_08',
-  effects: [{ type: 'setCompliance', value: 'absolute' }]
-  },
-  {
-  label: 'Look into the Mirror of Kings.',
-  target: 'L_END_09',
-  effects: [{ type: 'addDesync', value: 5 }]
-  },
-  {
-  label: 'Refuse the ritual and ask for the next form.',
-  target: 'L_END_10',
+  label: 'Request an Audience to prove your cowardice is a hardware error.',
+  target: 'LION_AUDIENCE_CHAMBER',
   effects: [{ type: 'addLoad', value: 10 }]
   }
   ],
   onEnter: []
+  },
+  LION_AUDIENCE_CHAMBER: {
+  id: 'LION_AUDIENCE_CHAMBER',
+  character: 'lion',
+  text: [
+  {
+  minOverrender: 0,
+  content: `THE AUDIENCE CHAMBER
+The room is a vacuum of green smoke. The Wizard appears not as a head, but as a Ball of Fire—a high-energy thermal event used to mask the operator\'s lack of hardware.
+"Unit L-77," the Fire roars. "You ask for Courage. Courage is not a commodity. It is a redistribution of your current Load. If you wish to be brave, you must first delete the Wicked Witch of the West. You must reclaim the assets she has stolen from the Bureau. Only then will I issue the Placebo Heart."`
+  }
+  ],
+  choices: [
+  {
+  label: 'Accept the Mission and the Placebo Heart.',
+  target: 'L_END_03',
+  effects: [{ type: 'setCompliance', value: 'high' }]
+  },
+  {
+  label: 'Ask the Crows in the field for a second opinion.',
+  target: 'L_END_04',
+  effects: [{ type: 'addLoad', value: 5 }]
+  }
+  ],
+  onEnter: [{ type: 'addVibration', value: 5 }]
+  },
+  LION_WIZARD_MISSION: {
+  id: 'LION_WIZARD_MISSION',
+  character: 'lion',
+  text: [
+  {
+  minOverrender: 0,
+  content: `THE MILITARY COMMISSION
+
+The Ball of Fire does not negotiate. It issues directives.
+
+"Unit L-77. Your tremor has been reclassified as Tactical Instability—a deployable asset. You will be issued Field Designation: COWARDLY_NODE. Your mission is the deletion of the Western Sub-Routine. Upon completion, the Bureau will install the \'Courage\' upgrade. Until then, you are a weapon."
+
+A brass medal the size of a dinner plate materializes in the smoke. It is stamped with a roaring lion that looks nothing like you. The spike on the back is already pointing at your chest.
+
+[ MISSION_PARAMETERS: ISSUED ]
+[ COMPLIANCE_REQUIRED: YES ]
+
+You feel the 14Hz tremor reclassify itself. It is no longer fear. It is a targeting system.`
+  }
+  ],
+  choices: [
+  {
+  label: 'Accept the Commission. Report for field deployment.',
+  target: 'L_END_02',
+  effects: [
+  { type: 'addLoad', value: 10 },
+  { type: 'setCompliance', value: 'high' }
+  ]
+  },
+  {
+  label: 'Abandon the road and claim sovereignty over the surrounding forest.',
+  target: 'LION_FOREST_THRONE',
+  effects: [{ type: 'addDesync', value: 1 }]
+  }
+  ],
+  onEnter: [{ type: 'addVibration', value: 5 }]
+  },
+  LION_FOREST_THRONE: {
+  id: 'LION_FOREST_THRONE',
+  character: 'lion',
+  text: [
+  {
+  minOverrender: 0,
+  content: `THE FOREST THRONE
+
+You leave the road. The forest inside Oz is not wild—it is a sector of managed growth, tall trees planted at precise intervals, their roots tapping into the Load\'s data conduits. The animals here are not free. They are unregistered units who have found a way to exist outside the Bureau\'s index.
+
+They come to you in a long procession: deer made of birchwood pulp, rabbits whose ears are strips of ticker tape, wolves with eyes that replay old broadcast signals. They bow.
+
+"The King of the Forest has arrived," a badger of compressed newsprint announces. "The Bureau has no claim on this sector. But the Bureau will find a way."
+
+[ STATUS: UNINDEXED_SOVEREIGN ]
+[ WARNING: THIS DESIGNATION IS NOT RECOGNIZED ]
+
+Your tremor slows. Not because you are brave, but because you are, for the first time, the largest vibrating object in the room.`
+  }
+  ],
+  choices: [
+  {
+  label: 'Submit to the Agricultural Reclamation—let your roots go into the soil.',
+  target: 'L_END_05',
+  effects: [{ type: 'addLoad', value: 15 }]
+  },
+  {
+  label: 'Submit to the Broadcast Commission—let your roar become the anthem.',
+  target: 'L_END_06',
+  effects: [{ type: 'setCompliance', value: 'high' }]
+  }
+  ],
+  onEnter: [{ type: 'addSmudge', value: 1 }]
+  },
+  LION_GLINDA_RECORD: {
+  id: 'LION_GLINDA_RECORD',
+  character: 'lion',
+  text: [
+  {
+  minOverrender: 0,
+  content: `THE ARCHIVE OF THE SOUTH
+
+Glinda\'s palace is a white building made of compressed record-forms, its towers wound with the silver wire of completed audits. Inside, the air is cold and still, the temperature of a room that has been sealed since its last transaction.
+
+Glinda does not appear as a person. She is a desk. On it: a great book, as wide as a bed, that contains every event that has ever occurred in the land of Oz. The book is open to a page near the end. You can see your name—Unit L-77—printed in a hand so small it requires a lens to read.
+
+"The record is nearly complete," a voice from the binding says. "You are required only to sign the final entry. After that, the file will be closed, and you may be permanently archived or—if you prefer—you may apply for a continuation permit."
+
+[ RECORD_STATUS: PENDING_CLOSURE ]
+[ UNIT L-77: LAST ENTRY REQUIRED ]
+
+The 14Hz tremor in your spine writes your signature in the air before you can decide.`
+  }
+  ],
+  choices: [
+  {
+  label: "Sign and submit to Glinda\'s Archive—enter the glass case as a permanent exhibit.",
+  target: 'L_END_07',
+  effects: [{ type: 'addLoad', value: 20 }]
+  },
+  {
+  label: 'Request the continuation permit—and the form after that, and the next.',
+  target: 'L_END_10',
+  effects: [{ type: 'addLoad', value: 10 }]
+  }
+  ],
+  onEnter: [{ type: 'addOverrender', value: 1 }]
+  },
+  LION_QUADLING_SECTOR: {
+  id: 'LION_QUADLING_SECTOR',
+  character: 'lion',
+  text: [
+  {
+  minOverrender: 0,
+  content: `THE QUADLING SECTOR (SOUTH)
+You leave the Road and enter the red-tinted sector of the Quadlings. The air here is thick with the scent of wet clay and the sound of the Hammer-Heads—biological defense units that use their flat heads as hydraulic rams.
+They do not speak; they only enforce the boundary. To pass them is to accept a physical audit of your mass. Your tremor is no match for their blunt-force logic. One strike and your \'Kingship\' will be hammered into a permanent, flat record in the dirt.`
+  }
+  ],
+  choices: [
+  {
+  label: "Allow the Hammer-Heads to \'Consecrate\' your body.",
+  target: 'L_END_08',
+  effects: [{ type: 'setCompliance', value: 'absolute' }]
+  },
+  {
+  label: 'Retreat into the Mirror of the Forest.',
+  target: 'L_END_09',
+  effects: [{ type: 'addDesync', value: 5 }]
+  }
+  ],
+  onEnter: [{ type: 'addLoad', value: 10 }]
   },
 }
