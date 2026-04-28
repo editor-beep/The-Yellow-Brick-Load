@@ -13,7 +13,7 @@
       ]
 
       // Updated to unlock Lion by default
-      const UNAVAILABLE = ['tin_man', 'scarecrow', 'dorothy', 'witch_west', 'wizard', 'glinda', 'witch_east']
+      const UNAVAILABLE = ['scarecrow', 'dorothy', 'witch_west', 'wizard', 'glinda', 'witch_east']
 
       export default function TitleScreen({ onOpenFAQ, returning = false }) {
         const selectCharacter = useGameStore(s => s.selectCharacter)
