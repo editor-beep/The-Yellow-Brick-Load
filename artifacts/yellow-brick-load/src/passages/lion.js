@@ -637,7 +637,7 @@ The tremor in your jaw locks in perfect rhythm with the Kalidah's failing whine.
     choices: [
       {
         label: "Keep tearing until there is nothing left to separate.",
-        target: "LION_END_28",
+        target: "LION_END_33",
         effects: [],
       },
       {
@@ -975,10 +975,10 @@ The system does not lose. The system only redistributes. You are the background 
     isEnding: true,
   },
 
-  LION_END_28: {
-    id: "LION_END_28",
+  LION_END_33: {
+    id: "LION_END_33",
     character: "lion",
-    endingId: "L-END-28",
+    endingId: "L-END-33",
     endingName: "The Kalidah Merge",
     institution: "Genetic",
     systemStatus: "Overwritten",
@@ -986,7 +986,7 @@ The system does not lose. The system only redistributes. You are the background 
     text: [
       {
         minOverrender: 0,
-        content: `THE FINAL LOG [L-END-28]
+        content: `THE FINAL LOG [L-END-33]
 
 Tone: Hybrid.
 Theme: The enemy is a software patch.
@@ -3130,7 +3130,7 @@ onEnter: []
   choices: [
   {
   label: 'Become the resonance.',
-  target: 'LION_END_21',
+  target: 'LION_END_32',
   effects: [{ type: 'addDesync', value: 10 }]
   },
   {
@@ -3142,7 +3142,7 @@ onEnter: []
   onEnter: [{ type: 'addOverrender', value: 2 }]
   },
   // ─────────────────────────────────────────────────────────────────────────
-  // FINAL LOGS: L-END-23, L-END-21, L-END-17, L-END-26
+  // FINAL LOGS: L-END-23, L-END-32, L-END-17, L-END-26
   // ─────────────────────────────────────────────────────────────────────────
   LION_END_23: {
   id: 'LION_END_23',
@@ -3173,11 +3173,11 @@ onEnter: []
   choices: [],
   onEnter: []
   },
-  LION_END_21: {
-  id: 'LION_END_21',
+  LION_END_32: {
+  id: 'LION_END_32',
   character: 'lion',
-  endingId: 'L-END-21',
-  endingName: 'The Roaring Void',
+  endingId: 'L-END-32',
+  endingName: 'The Resonant Void',
   institution: 'Narrative',
   systemStatus: 'Resonating',
   isEnding: true,
@@ -3185,7 +3185,7 @@ onEnter: []
   text: [
   {
   minOverrender: 0,
-  content: `THE FINAL LOG [L-END-21]
+  content: `THE FINAL LOG [L-END-32]
   Tone: Acoustic-Void.
   Theme: Sound is the only proof of space.
   The White Room accepts your resonance. You are no longer a body; you are a frequency.
