@@ -5,18 +5,28 @@
  * by ID from this single flat registry.
  *
  * Characters:
- *   lion      — implemented (rough.docx prose + matrix)
- *   tin_man   — implemented (Volume 2 init + branches; endings stubbed)
- *   scarecrow — stub (rough.docx prose starts, needs wiring)
- *   dorothy   — stub
- *   witch_west — stub
- *   wizard    — stub
- *   glinda    — stub
- *   witch_east — stub
+ *   lion       — implemented (rough.docx prose + matrix)
+ *   tin_man    — implemented (Volume 2 init + branches; endings stubbed)
+ *   scarecrow  — implemented (Straw Harvest oracle + stub endings)
+ *   dorothy    — implemented (Nerve Pull oracle + stub endings)
+ *   glinda     — implemented (Porcelain Auditor oracle + stub endings)
+ *   wizard     — implemented (Curtain Incision oracle + stub endings)
+ *   witch_west — implemented (Obsidian Eye oracle + stub endings)
+ *   witch_east — implemented (Gravity Crucible oracle + stub endings)
+ *
+ * Shared enforcers (cross-character threats):
+ *   Munchkin Swarm, Winged Monkeys, Kalidah Merge, Poppy Drones
  */
 
 import { lionPassages } from './lion.js'
 import { tinManPassages } from './tin_man.js'
+import { scarecrowPassages } from './scarecrow.js'
+import { dorothyPassages } from './dorothy.js'
+import { glindaPassages } from './glinda.js'
+import { wizardPassages } from './wizard.js'
+import { witchWestPassages } from './witch_west.js'
+import { witchEastPassages } from './witch_east.js'
+import { enforcerPassages } from './enforcers.js'
 
 // Ghost Signal — off-grid, character-agnostic
 export const ghostSignalPassage = {
@@ -47,14 +57,14 @@ Goodbye, Unit {{character}}. I'll see you in the next render.
 export const allPassages = {
   ...lionPassages,
   ...tinManPassages,
+  ...scarecrowPassages,
+  ...dorothyPassages,
+  ...glindaPassages,
+  ...wizardPassages,
+  ...witchWestPassages,
+  ...witchEastPassages,
+  ...enforcerPassages,
   ...ghostSignalPassage,
-  // Future characters drop in here as their passage files are written:
-  // ...scarecrowPassages,
-  // ...dorothyPassages,
-  // ...witchWestPassages,
-  // ...wizardPassages,
-  // ...glindaPassages,
-  // ...witchEastPassages,
 }
 
 export function getPassage(id) {
