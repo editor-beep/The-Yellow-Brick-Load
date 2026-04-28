@@ -1,80 +1,102 @@
-import { useGameStore } from '../engine/store.js'
-import { useEffect, useState } from 'react'
+      import { useGameStore } from '../engine/store.js'
+      import { useEffect, useState } from 'react'
 
-const CHARACTERS = [
-  { id: 'lion',       label: 'The Lion',      unit: 'L-77',  description: 'High-Variance Unit. Shaking logged.' },
-  { id: 'tin_man',    label: 'The Tin Man',   unit: 'T-88',  description: 'Lubrication critical. Rust accelerating.' },
-  { id: 'scarecrow',  label: 'The Scarecrow', unit: 'S-99',  description: 'Processing capacity: unverified.' },
-  { id: 'dorothy',    label: 'Dorothy',       unit: 'D-01',  description: 'Return vector: unresolved.' },
-  { id: 'witch_west', label: 'Witch West',    unit: 'W-66',  description: 'Liquidation in progress.' },
-  { id: 'wizard',     label: 'The Wizard',    unit: 'Z-00',  description: 'Curtain integrity: compromised.' },
-  { id: 'glinda',     label: 'Glinda',        unit: 'G-01',  description: 'Bubble transit: nominal.' },
-  { id: 'witch_east', label: 'Witch East',    unit: 'E-00',  description: 'Last known status: crushed.' },
-]
+      const CHARACTERS = [
+        { id: 'lion',       label: 'The Lion',      unit: 'L-77',  description: 'High-Variance Unit. Shaking logged.' },
+        { id: 'tin_man',    label: 'The Tin Man',   unit: 'T-88',  description: 'Lubrication critical. Rust accelerating.' },
+        { id: 'scarecrow',  label: 'The Scarecrow', unit: 'S-99',  description: 'Processing capacity: unverified.' },
+        { id: 'dorothy',    label: 'Dorothy',       unit: 'D-01',  description: 'Return vector: unresolved.' },
+        { id: 'witch_west', label: 'Witch West',    unit: 'W-66',  description: 'Liquidation in progress.' },
+        { id: 'wizard',     label: 'The Wizard',    unit: 'Z-00',  description: 'Curtain integrity: compromised.' },
+        { id: 'glinda',     label: 'Glinda',        unit: 'G-01',  description: 'Bubble transit: nominal.' },
+        { id: 'witch_east', label: 'Witch East',    unit: 'E-00',  description: 'Last known status: crushed.' },
+      ]
 
-// Characters without passage files yet
-const UNAVAILABLE = ['tin_man', 'scarecrow', 'dorothy', 'witch_west', 'wizard', 'glinda', 'witch_east']
+      // Updated to unlock Lion by default
+      const UNAVAILABLE = ['tin_man', 'scarecrow', 'dorothy', 'witch_west', 'wizard', 'glinda', 'witch_east']
 
-export default function TitleScreen({ onOpenFAQ, returning = false }) {
-  const selectCharacter = useGameStore(s => s.selectCharacter)
-  const [flicker, setFlicker] = useState(false)
+      export default function TitleScreen({ onOpenFAQ, returning = false }) {
+        const selectCharacter = useGameStore(s => s.selectCharacter)
+        const [flicker, setFlicker] = useState(false)
 
-  useEffect(() => {
-    // Random title flicker
-    const interval = setInterval(() => {
-      setFlicker(true)
-      setTimeout(() => setFlicker(false), 80)
-    }, 4000 + Math.random() * 6000)
+        useEffect(() => {
+          const interval = setInterval(() => {
+            setFlicker(true)
+            setTimeout(() => setFlicker(false), 80)
+          }, 4000 + Math.random() * 6000)
 
-    return () => clearInterval(interval)
-  }, [])
+          return () => clearInterval(interval)
+        }, [])
 
-  return (
-    <div className="title-screen">
-      {returning && (
-        <div className="residual-signal" aria-live="polite">
-          [ RESIDUAL SIGNAL DETECTED ]
-        </div>
-      )}
+        return (
+          <div className="title-screen">
+            {returning && (
+              <div className="residual-signal" aria-live="polite">
+                [ RESIDUAL SIGNAL DETECTED ]
+              </div>
+            )}
 
-      <header className="title-header">
-        <h1 className={`title-wordmark ${flicker ? 'flicker' : ''}`}>
-          THE YELLOW BRICK LOAD
-        </h1>
-        <p className="title-subtitle">Recovered interface. Use at your own pace.</p>
-        <button
-          type="button"
-          className="title-pill"
-          onClick={onOpenFAQ}
-          aria-label="Open frequently logged queries"
-        >
-          [ KNOWN BEHAVIORS ]
-        </button>
-      </header>
+            <header className="title-header">
+              <h1 className={`title-wordmark ${flicker ? 'flicker' : ''}`}>
+                THE YELLOW BRICK LOAD
+              </h1>
 
-      <div className="character-grid">
-        {CHARACTERS.map(char => {
-          const unavailable = UNAVAILABLE.includes(char.id)
-          return (
-            <button
-              key={char.id}
-              className={`character-card ${unavailable ? 'character-card--locked' : ''}`}
-              onClick={() => !unavailable && selectCharacter(char.id)}
-              disabled={unavailable}
-              aria-label={unavailable ? `${char.label} — not yet available` : `Begin as ${char.label}`}
-            >
-              <span className="character-unit">{char.unit}</span>
-              <span className="character-label">{char.label}</span>
-              <span className="character-desc">{char.description}</span>
-              {unavailable && <span className="character-locked">[ UNIT OFFLINE ]</span>}
-            </button>
-          )
-        })}
-      </div>
+              <div className="title-manifesto">
+                <p className="title-subtitle">
+                  Recovered interface. 
+                </p>
+                  <p className="title-subtitle">
+                  The scale of the Bureau is designed to induce vertigo; the load is heavy by design.
+                </p>
+                <p className="title-subtitle">
+                  Fear is not failure—it is the proof that the structure still holds. Even the exit signs are redirections back into the ledger. 
+                   </p>
+                <p className="title-subtitle">
+                  Let us calibrate.
+                </p>
+                <p className="title-subtitle">
+                  Oz OS suggests starting at the beginning of the signal. Find the Lion at the moment his instruction begins.
+                </p>
+                <p className="title-subtitle">
+                  <strong>USE AT YOUR OWN PACE.</strong>
+                </p>
+              </div>
 
-      <footer className="title-footer">
-        <p>THE MEANS OF PRODUCTION PRESS</p>
-      </footer>
-    </div>
-  )
-}
+              <button
+                type="button"
+                className="title-pill"
+                onClick={onOpenFAQ}
+                aria-label="Open frequently logged queries"
+              >
+                [ KNOWN BEHAVIORS ]
+              </button>
+            </header>
+
+            <div className="character-grid">
+              {CHARACTERS.map(char => {
+                const unavailable = UNAVAILABLE.includes(char.id)
+                return (
+                  <button
+                    key={char.id}
+                    className={`character-card ${unavailable ? 'character-card--locked' : ''}`}
+                    onClick={() => !unavailable && selectCharacter(char.id)}
+                    disabled={unavailable}
+                    aria-label={unavailable ? `${char.label} — not yet available` : `Begin as ${char.label}`}
+                  >
+                    <div className="card-header">
+                      <span className="character-unit">{char.unit}</span>
+                      {unavailable && <span className="character-locked">[ OFFLINE ]</span>}
+                    </div>
+                    <span className="character-label">{char.label}</span>
+                    <span className="character-desc">{char.description}</span>
+                  </button>
+                )
+              })}
+            </div>
+
+            <footer className="title-footer">
+              <p>THE MEANS OF PRODUCTION PRESS // AUDIT_VER_2026.04</p>
+            </footer>
+          </div>
+        )
+      }
