@@ -39,6 +39,72 @@ Both modes lead to the same Archive; they simply change the flavor of the fricti
 When the **Bureau Crow**, **Maintenance Auditor**, **Straw Clerk**, or **Dust Clerk** appears, you are forced to draw a card. These cards are hard-coded overrides. They allow the system to "patch" your current trajectory by granting you a new, more compliant status—usually at the cost of your remaining free movement.`
   },
   {
+    id: 'oracle-decks',
+    question: "What are Oracle Decks?",
+    answer: `Each of the 8 playable Units has a named 8-card Oracle Deck administered by a character-specific "Interloper" NPC during wetware rituals. Four additional Enforcer Decks cover the institutional swarm entities (Munchkin Swarm, Winged Monkeys, Kalidah Merge, Poppy Field). Total: 12 decks, 96 cards.
+
+The 12 Decks: Lion — Oz-Tarot. Tin Man — Scrapyard Tarot. Scarecrow — Straw Oracle. Dorothy — Dust Oracle. Glinda — Refraction Oracle. Witch West — Malice Oracle. Witch East — Impact Oracle. Wizard — Projection Oracle. Munchkins — Agricultural Audit. Winged Monkeys — Kinetic Harvest. Kalidahs — Merge Oracle. Poppy Field — Pharmaceutical Oracle.
+
+Each card is drawn randomly when the oracle ritual triggers. The draw cannot be predicted or controlled. This is intentional.`
+  },
+  {
+    id: 'the-interlopers',
+    question: "Who are the Interlopers?",
+    answer: `Interlopers are the NPCs who administer oracle rituals. Each is a character-specific entity derived from the original L. Frank Baum Oz books — not the film adaptation — and reprocessed through the Bureau's institutional logic.
+
+Bureau Crow — Black-feathered administrative entity. Beak whetted for puncturing forms. Talons that grip and will not release. Arrives when the Lion's tremor frequency exceeds bureaucratically acceptable limits.
+
+Dust Clerk — Woman in faded gingham whose skin is swirling topsoil and requisition forms. Eyes like spinning silver dollars. Makes shallow incisions at the heel or temple, reads nerve fiber mixed with ruby dust and Kansas soil.
+
+Ground Impact Assessor — Posthumous forensic auditor. Specializes in catastrophic structural events. The Wicked Witch of the East has no oracle sessions of her own; the Assessor documents what remains.
+
+Humbug Surgeon — Bombastic, oversized green velvet, a curtain for a face, hands made of projector lenses and lever-pulls. The Wizard's interloper reflects the Wizard himself.
+
+All Interlopers perform their rituals without malice. This is the most frightening thing about them.`
+  },
+  {
+    id: 'oracle-card-draw',
+    question: "How does a card draw work?",
+    answer: `When a Unit's threshold stat crosses its critical value, the oracle ritual fires automatically on the next passage entry. The sequence is:
+
+1. The threshold check runs (e.g., Vibration >= 7 for the Lion).
+2. A card is drawn at random from the character's 8-card deck.
+3. The card's game effect is applied immediately — before the ritual passage loads.
+4. The oracle card overlay appears, displaying the card's symbolic image and the Interloper's physical action.
+5. Acknowledging the card dismisses the overlay and continues navigation to the oracle entry node.
+
+The trigger fires only once per character per session. You will draw exactly one card. You do not choose which card.`
+  },
+  {
+    id: 'surreality-index',
+    question: "What is the Surreality Index?",
+    answer: `Surreality is a metadata field on oracle cards, rated 1 to 10. It measures the card content's departure from material-physical reality into the symbolic-institutional layer of the Oz OS.
+
+Rating 1: content that operates within standard physical parameters — a rust assessment, an oil ledger. Rating 10: content that cannot occur within any stable physical model but is fully coherent within the Bureau's operational logic.
+
+Selected examples: Rating 2 — Oil Ledger (Tin Man): lubrication as a resource management document. Rating 6 — Homesick Nerve (Dorothy): a nerve fiber pointing in a direction the Oz coordinate system has not ratified. Rating 10 — The Third Command (Winged Monkeys): reading an unactivated command activates it. Rating 10 — Porcelain Crown (Glinda): a crown as permanent as anything porcelain can be permanent, which is not permanent.
+
+High Surreality cards do not generate increased load. They simply describe what is actually happening in more precise terms.`
+  },
+  {
+    id: 'overrender-system',
+    question: "What is the Overrender system?",
+    answer: `Overrender is a text decay counter (0–5). As it accumulates, passage text variants shift from coherent to fractured. Most passages have a default variant (minOverrender: 0) and at least one degraded variant (minOverrender: 3 or higher).
+
+At overrender 0: standard institutional prose. At overrender 3: repetition, truncation, recursive failure. At overrender 5: the text is what remains after the text has been processed too many times.
+
+Overrender increases through specific choices and oracle card effects. It does not decrease through a soft reset, unlike Load. It is a cumulative record of how many times the passage has been rendered incorrectly. The system was designed to simulate the progressive corruption of a behavioral script run beyond its recommended cycle limit. The script knows it is corrupting. This does not stop it from running.`
+  },
+  {
+    id: 'wetware-stats',
+    question: "What are the Wetware Stats?",
+    answer: `Wetware stats are character-specific measurement systems tracking the unique institutional pressures on each Unit's material composition. Unlike Load and Desync (which apply universally), wetware stats apply only to the character for whom they were designed.
+
+Lion: Vibration (tremor intensity), Desynctear (cross-character bleed). Tin Man: Corrosion (oxidation level), Lubrication (oil supply), Seizure (joint-lock severity), Utility (functional value). Scarecrow: Scatter (straw dispersal), Stitch Integrity (seam cohesion). Dorothy: Displacement (location drift), Warrant Level (Bureau attention), Ruby Friction (slippers charge). Glinda: Refraction (light-truth distortion), Insulation (protective buffer). Wizard: Obfuscation (smoke-and-mirrors density). Witch West: Warrant Level (surveillance jurisdiction). Witch East: Displacement (impact-related drift).
+
+Wetware stats accumulate silently. Oracle thresholds are set against these stats — when a wetware stat crosses its critical value, the Interloper appears. Each character has exactly one threshold event per session.`
+  },
+  {
     id: 'esoteric-physics',
     question: "Why do I smell Gypsum and Ozone?",
     answer: `These are "System Scents" that indicate the state of the rendering engine.

@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react'
 import { useGameStore } from '../engine/store.js'
 import { applyEffects, resolveText, interpolate, isChoiceAvailable } from '../engine/interpreter.js'
 import { getPassage } from '../passages/index.js'
+import OracleCard from './OracleCard.jsx'
 
 export default function PassageRenderer() {
   const {
@@ -59,6 +60,8 @@ export default function PassageRenderer() {
 
   return (
     <div className="passage-wrapper">
+      {/* Oracle card overlay — shown when a card has been drawn */}
+      <OracleCard />
       {/* Smudge overlay */}
       {smudge >= 1 && (
         <div

@@ -48,6 +48,7 @@ const INITIAL_STATE = {
   flags: {},
   ghostSignalArmed: false,
   ghostSignalFired: false,
+  oracleCard: null,
   // ── Wetware stats ──────────────────────────────────────────────────────────
   vibration: 0,        // Lion — tremor intensity
   desynctear: 0,       // Lion — cross-character desync bleed
@@ -126,6 +127,10 @@ export const useGameStore = create((set, get) => ({
       currentNode: `${character.toUpperCase()}_INIT`,
     })
   },
+
+  // ── Oracle Card ──────────────────────────────────────────────────────────
+  setOracleCard: (card) => set({ oracleCard: card }),
+  dismissOracleCard: () => set({ oracleCard: null }),
 
   // ── Ghost Signal ─────────────────────────────────────────────────────────
   armGhostSignal: () => set({ ghostSignalArmed: true }),
