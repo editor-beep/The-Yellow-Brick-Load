@@ -443,6 +443,75 @@ You try to shake your head. The movement is blocked. The shaking is now a DESIGN
   },
 
   // ─────────────────────────────────────────────────────────────────────────
+  // THE LATENCY
+  // ─────────────────────────────────────────────────────────────────────────
+
+  LION_LATENCY: {
+    id: 'LION_LATENCY',
+    character: 'lion',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE LATENCY
+
+The next cycle does not begin.
+
+The white room does not change. The floor is the floor. The ceiling is the ceiling. There are no corners — you have looked for corners and found only more flat white, as if the room is a single unrendered plane that extends without limit in every direction.
+
+You wait.
+
+[ SYSTEM ]: CYCLE QUEUED.
+[ SYSTEM ]: ESTIMATED WAIT: PROCESSING.
+[ SYSTEM ]: ESTIMATED WAIT: PROCESSING.
+[ SYSTEM ]: ESTIMATED WAIT: PROCESSING.
+
+Your tremor has slowed to a low, grinding vibration — not faster, not slower, just endlessly the same note. The shaking in your jaw has become part of the architecture. If you stop shaking, the white room will notice. You have decided to keep shaking so the room keeps acknowledging your file.
+
+The air tastes like warm bandwidth. Your fur has begun to lose definition at the edges — not hair by hair, but pixel by pixel, a slow dissolve that begins at the tips of your mane and works inward.
+
+You are the load in the queue. You are the asset awaiting reallocation. You are the King whose next command has been submitted, validated, and assigned a ticket number that will never be called aloud.
+
+The white room is not a punishment. It is a system state. The system has no malice. It has throughput.`,
+      },
+      {
+        minOverrender: 3,
+        content: `THE LATENCY
+
+The next cycle does not begin. Does not begin. Does not begin.
+
+[ SYSTEM ]: CYCLE QUEUED.
+[ SYSTEM ]: ESTIMATED WAIT: PROCESSING.
+[ SYSTEM ]: ESTIMATED WAIT: PROCESSING.
+
+Your tremor. The same note. The same note. The same note.
+
+You are the load in the queue. The King. The ticket number. The King. The ticket number. The King.
+
+The white room has no malice. No malice. Only throughput. Only throughput.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Continue waiting. Accept the queue. Let the next cycle claim you.',
+        target: 'LION_END_25',
+        effects: [
+          { type: 'setCompliance', value: 'high' },
+          { type: 'addLoad', value: 15 },
+        ],
+      },
+      {
+        label: 'Force the cycle. Move before the permission arrives.',
+        target: 'LION_END_26',
+        effects: [
+          { type: 'addVibration', value: 10 },
+          { type: 'addDesynctear', value: 5 },
+        ],
+      },
+    ],
+    onEnter: [{ type: 'addDesynctear', value: 2 }],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
   // THE CLOSED SYSTEM
   // ─────────────────────────────────────────────────────────────────────────
 
@@ -568,7 +637,7 @@ The tremor in your jaw locks in perfect rhythm with the Kalidah's failing whine.
     choices: [
       {
         label: "Keep tearing until there is nothing left to separate.",
-        target: "LION_END_28",
+        target: "LION_END_33",
         effects: [],
       },
       {
@@ -906,10 +975,10 @@ The system does not lose. The system only redistributes. You are the background 
     isEnding: true,
   },
 
-  LION_END_28: {
-    id: "LION_END_28",
+  LION_END_33: {
+    id: "LION_END_33",
     character: "lion",
-    endingId: "L-END-28",
+    endingId: "L-END-33",
     endingName: "The Kalidah Merge",
     institution: "Genetic",
     systemStatus: "Overwritten",
@@ -917,7 +986,7 @@ The system does not lose. The system only redistributes. You are the background 
     text: [
       {
         minOverrender: 0,
-        content: `THE FINAL LOG [L-END-28]
+        content: `THE FINAL LOG [L-END-33]
 
 Tone: Hybrid.
 Theme: The enemy is a software patch.
@@ -3061,7 +3130,7 @@ onEnter: []
   choices: [
   {
   label: 'Become the resonance.',
-  target: 'LION_END_21',
+  target: 'LION_END_32',
   effects: [{ type: 'addDesync', value: 10 }]
   },
   {
@@ -3073,7 +3142,7 @@ onEnter: []
   onEnter: [{ type: 'addOverrender', value: 2 }]
   },
   // ─────────────────────────────────────────────────────────────────────────
-  // FINAL LOGS: L-END-23, L-END-21, L-END-17, L-END-26
+  // FINAL LOGS: L-END-23, L-END-32, L-END-17, L-END-26
   // ─────────────────────────────────────────────────────────────────────────
   LION_END_23: {
   id: 'LION_END_23',
@@ -3104,11 +3173,11 @@ onEnter: []
   choices: [],
   onEnter: []
   },
-  LION_END_21: {
-  id: 'LION_END_21',
+  LION_END_32: {
+  id: 'LION_END_32',
   character: 'lion',
-  endingId: 'L-END-21',
-  endingName: 'The Roaring Void',
+  endingId: 'L-END-32',
+  endingName: 'The Resonant Void',
   institution: 'Narrative',
   systemStatus: 'Resonating',
   isEnding: true,
@@ -3116,7 +3185,7 @@ onEnter: []
   text: [
   {
   minOverrender: 0,
-  content: `THE FINAL LOG [L-END-21]
+  content: `THE FINAL LOG [L-END-32]
   Tone: Acoustic-Void.
   Theme: Sound is the only proof of space.
   The White Room accepts your resonance. You are no longer a body; you are a frequency.
