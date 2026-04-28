@@ -1,6 +1,6 @@
 /**
  * YELLOW BRICK LOAD — Tin Man Passages
- * Character: Tin Man (Unit T-800)
+ * Character: Tin Man (Unit T-88)
  *
  * Volume 2: The Hardware/Wetware Split
  *
@@ -29,15 +29,15 @@ export const tinManPassages = {
   // INIT / ENTRY
   // ─────────────────────────────────────────────────────────────────────────
 
-  T_INIT_01: {
-    id: "T_INIT_01",
+  TIN_MAN_INIT: {
+    id: "TIN_MAN_INIT",
     character: "tinman",
     text: [
       {
         minOverrender: 0,
         content: `THE SEIZED STATE
 
-You are Unit T-800. You have been standing at Coordinate [42.1, -85.5] for a duration that has outlasted the original warranty of your joints.
+You are Unit T-88. You have been standing at Coordinate [42.1, -85.5] for a duration that has outlasted the original warranty of your joints.
 
 The rain has performed a slow audit of your exterior, replacing the silver luster with a blooming, orange necrosis of rust. Inside the tin, there is a flicker—a residual heat from the 'Wetware' that once occupied this space. It is a ghost-signal of a girl, a house, and the scent of damp sawdust.
 
