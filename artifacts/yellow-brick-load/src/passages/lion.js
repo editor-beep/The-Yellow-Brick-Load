@@ -3006,4 +3006,337 @@ Glinda pauses. She looks at you over the top of the book.
   ],
   onEnter: []
   },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // HARDWARE ASSIMILATION BRANCH (LION_INIT_H → LION_ASSIMILATION_H)
+  // Connects to L-END-27 (The Badge of Air) and LION_CLOSED_SYSTEM
+  // ─────────────────────────────────────────────────────────────────────────
+
+  LION_ASSIMILATION_H: {
+  id: 'LION_ASSIMILATION_H',
+  character: 'lion',
+  text: [
+  {
+  minOverrender: 0,
+  content: `THE HARDWARE ASSIMILATION
+
+Audit Entry: Unit L-04 / Reclassification
+
+The meat is the problem. The fur is an aesthetic redundancy that traps heat and collects unindexed dust. To the Bureau, your "tremor" is simply the friction of soft tissue failing to meet the requirements of a rigid schedule.
+
+The technicians do not use anesthesia; they use a sedative called "Institutional Calm." As you lay on the cold zinc table, they begin the process of replacing your organic instability with reinforced steel. Your mane is shaved away to make room for cooling fins. Your claws are retracted and welded into permanent brass grommets.
+
+"The King of the Forest is a title for a wild thing," the Lead Auditor says, his voice muffled by a sterile mask. "But the Guardian of the Archive is a title for a permanent fixture."
+
+You feel the weight of the new hardware. It is heavy, cold, and—for the first time in your existence—perfectly still. The shaking has stopped because there is no longer anything soft enough to tremble.`
+  }
+  ],
+  choices: [
+  {
+  label: 'Accept the Badge of Office.',
+  target: 'LION_END_27',
+  effects: [
+  { type: 'addLoad', value: 20 },
+  { type: 'setCompliance', value: 'absolute' }
+  ]
+  },
+  {
+  label: 'Request a partition of the self.',
+  target: 'LION_CLOSED_SYSTEM',
+  effects: [
+  { type: 'addLoad', value: 10 },
+  { type: 'addDesync', value: 5 }
+  ]
+  }
+  ],
+  onEnter: [{ type: 'setCompliance', value: 'high' }]
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // ACOUSTIC REBELLION (LION_CALIBRATION_POINT → LION_ACOUSTIC_REBELLION)
+  // ─────────────────────────────────────────────────────────────────────────
+
+  LION_ACOUSTIC_REBELLION: {
+  id: 'LION_ACOUSTIC_REBELLION',
+  character: 'lion',
+  text: [
+  {
+  minOverrender: 0,
+  content: `THE ACOUSTIC REBELLION
+
+The roar is no longer a sound. It is a frequency.
+
+You realize that if you vibrate your jaw at exactly 440Hz, the glass in the Auditor's visor begins to spiderweb. You aren't fighting with claws; you are fighting with resonance. The tuning fork shudders in its setting. The technician's ledger pages flutter and tear at the seams.
+
+The room begins to feed back.
+
+[ ALERT: DISSONANT_EVENT_DETECTED ]
+[ CALIBRATION_DEVICE: DESTABILIZING ]
+
+Your roar climbs past 440Hz. The silver hammer drops from the technician's hand and shatters on the yellow bricks. The stalks of rebar outside begin to ring in sympathy—a vast, wild choir of industrial panic. You are not fixing the frequency. You are breaking the instrument that measures it.
+
+The technician retreats. The tuning fork shakes itself loose from the road and falls sideways, spinning in the silt, producing a sound the Bureau has never categorized.
+
+You are the noise the system cannot process. You are a King of frequencies.`
+  }
+  ],
+  choices: [
+  {
+  label: 'Push the frequency until the room tears open.',
+  target: 'LION_END_21',
+  effects: [
+  { type: 'addDesync', value: 5 },
+  { type: 'addOverrender', value: 2 }
+  ]
+  },
+  {
+  label: 'Shatter the calibration casing and step through.',
+  target: 'LION_VOID_FRAGMENT',
+  effects: [
+  { type: 'addDesync', value: 3 },
+  { type: 'addSmudge', value: 2 }
+  ]
+  }
+  ],
+  onEnter: [{ type: 'addVibration', value: 15 }]
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // MANE FRACTURE (LION_MUFFLED_CHAMBER → LION_MANE_FRACTURE)
+  // ─────────────────────────────────────────────────────────────────────────
+
+  LION_MANE_FRACTURE: {
+  id: 'LION_MANE_FRACTURE',
+  character: 'lion',
+  text: [
+  {
+  minOverrender: 0,
+  content: `THE MANE FRACTURE
+
+The "Institutional Calm" settles in, but your skin feels brittle.
+
+As you press your paw against the wall searching for a seam, your mane doesn't flow—it snaps. Shards of golden fiber fall to the padded floor like broken glass. You are shedding your organic history to make room for what the system is preparing to install. The bar codes beneath your skin glow faintly through the pale, hairless patches.
+
+[ ALERT: ORGANIC_INTEGRITY_FAILURE ]
+[ STATUS: TRANSITIONAL ]
+
+You find the seam. It is a thin line where the fur-padding of the wall does not quite meet the steel beneath. Through it, cold recycled air breathes steadily—the exhale of a larger machine. The shards of your mane crunch underfoot.
+
+You are at a threshold. Behind you, the Muffled Chamber waits with its green status light. Through the seam, the sound of cooling fans and brass bolts.
+
+The question is whether you carry the broken pieces out, or leave them here where the archive will eventually catalog them as evidence of a failed unit.`
+  }
+  ],
+  choices: [
+  {
+  label: 'Sweep up the remains and carry them into the hardware sector.',
+  target: 'LION_ASSIMILATION_H',
+  effects: [
+  { type: 'addLoad', value: 10 },
+  { type: 'setCompliance', value: 'high' }
+  ]
+  },
+  {
+  label: 'Leave the shards. Step through the seam into the lag.',
+  target: 'LION_LATENCY',
+  effects: [
+  { type: 'addDesync', value: 2 },
+  { type: 'addSmudge', value: 1 }
+  ]
+  }
+  ],
+  onEnter: [{ type: 'addSmudge', value: 2 }]
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // CLOSED SYSTEM (LION_NOMINAL_ECHO / LION_ASSIMILATION_H → LION_CLOSED_SYSTEM)
+  // ─────────────────────────────────────────────────────────────────────────
+
+  LION_CLOSED_SYSTEM: {
+  id: 'LION_CLOSED_SYSTEM',
+  character: 'lion',
+  text: [
+  {
+  minOverrender: 0,
+  content: `THE CLOSED SYSTEM
+
+You have successfully partitioned your fear into a sub-folder.
+
+It is still there, screaming in a 2MB file somewhere in the lower sectors. But you no longer have access to the directory. The technician has revoked your read-write permissions for the region of your own nervous system that used to scream back. You are a "Closed System" now.
+
+Efficient. Silent. Dead behind the eyes.
+
+[ UNIT L-77 // STATUS: PARTITIONED ]
+[ COWARDICE_LOG: QUARANTINED ]
+[ REMAINING_SELF: 34% ]
+
+The Bureau sends a notification:
+
+"Well done, Unit L-77. You have achieved Internal Containment. Proceed to the nearest checkpoint for final compliance certification."
+
+You try to feel something about this. The folder is locked. You try to open it. The folder is locked. You try to remember why you were shaking in the first place.
+
+The folder is locked.
+
+The Yellow Brick Load stretches ahead, perfectly calm, perfectly empty, perfectly final.`
+  }
+  ],
+  choices: [
+  {
+  label: 'Confirm the final backup and accept the Insulated designation.',
+  target: 'LION_END_11',
+  effects: [
+  { type: 'addLoad', value: 20 },
+  { type: 'setCompliance', value: 'absolute' }
+  ]
+  },
+  {
+  label: 'Attempt a forced reboot. Break the partition.',
+  target: 'LION_LATENCY_GAP',
+  effects: [
+  { type: 'addDesync', value: 8 },
+  { type: 'addSmudge', value: 2 }
+  ]
+  }
+  ],
+  onEnter: [{ type: 'addOverrender', value: 1 }]
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // LATENCY (LION_NOMINAL_ECHO / LION_MANE_FRACTURE → LION_LATENCY)
+  // ─────────────────────────────────────────────────────────────────────────
+
+  LION_LATENCY: {
+  id: 'LION_LATENCY',
+  character: 'lion',
+  text: [
+  {
+  minOverrender: 0,
+  content: `THE LATENCY
+
+There is a delay between the command and the claw.
+
+You tell your heart to beat, but it waits for a confirmation packet from the Central Hub. You attempt to flinch, but the flinch is queued behind a long line of administrative notifications. You are living in the Gap.
+
+The world moves in a series of stuttering frames. You see the Kalidah's shadow leap before you see the Kalidah. You feel the pain of the yellow bricks before your paws touch them. The system is struggling to render your existence in real-time because you have become too much Load for the current Sector to process.
+
+[ ALERT: RENDER_QUEUE_OVERFLOW ]
+[ UNIT L-77 STATUS: DELAYED ]
+
+"Is the Unit frozen?" a voice asks from the unindexed dark.
+
+"No," another responds. "It is just calculating the cost of its next breath."
+
+The cornstalks around you are mid-sway, locked. A Bureau Crow hangs frozen in the grey sky, its glass lens still pointed at you. The road itself has paused its accounting. You are the still point inside the stuttering world.
+
+Whether this is peace or deletion is a matter of interpretation.`
+  }
+  ],
+  choices: [
+  {
+  label: 'Wait for the sync. Hold in the Gap until the system catches up.',
+  target: 'LION_LATENCY_GAP',
+  effects: [{ type: 'addLoad', value: 10 }]
+  },
+  {
+  label: 'Force the frame-rate. Tear through the lag before it sets.',
+  target: 'LION_VOID_FRAGMENT',
+  effects: [{ type: 'addDesync', value: 15 }]
+  }
+  ],
+  onEnter: [{ type: 'addDesync', value: 3 }]
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // LATENCY GAP (LION_AUDIO_EVENT / LION_CLOSED_SYSTEM / LION_LATENCY → LION_LATENCY_GAP)
+  // ─────────────────────────────────────────────────────────────────────────
+
+  LION_LATENCY_GAP: {
+  id: 'LION_LATENCY_GAP',
+  character: 'lion',
+  text: [
+  {
+  minOverrender: 0,
+  content: `THE LATENCY GAP
+
+The sync never comes.
+
+You have fallen into the white space between the lines of the ledger. Here, there is no roar, no tremor, and no King. There is only the hum of the cooling fans in the walls of the simulation.
+
+You look down at your paws. They are translucent, flickering like a low-resolution projection. The Fear is still there, but it is no longer yours; it is a broadcast signal coming from a Tower you cannot see. You are receiving it, but you are no longer required to host it.
+
+[ UNIT L-77 // STATUS: UNRENDERED ]
+[ SECTOR: UNDEFINED ]
+
+You are a ghost in the machine—an anomaly the Bureau forgot to delete. You are safe here in the way that empty rooms are safe: nothing can hurt what isn't fully present.
+
+But you can hear the Yellow Brick Load above you, the steady pulse of its accounting machinery. The world continues without your participation. The audit proceeds.
+
+You can let it. Or you can remind the void that you were here.`
+  }
+  ],
+  choices: [
+  {
+  label: 'Accept the fading. Drift into Total Displacement.',
+  target: 'LION_END_19',
+  effects: [
+  { type: 'addLoad', value: 5 },
+  { type: 'setCompliance', value: 'high' }
+  ]
+  },
+  {
+  label: 'Scream into the void. Prove the space with sound.',
+  target: 'LION_END_21',
+  effects: [{ type: 'addDesync', value: 20 }]
+  }
+  ],
+  onEnter: [{ type: 'addSmudge', value: 3 }]
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // VOID FRAGMENT (LION_SYSTEM_SPASM / LION_ROOT_ACCESS / LION_ACOUSTIC_REBELLION / LION_LATENCY)
+  // ─────────────────────────────────────────────────────────────────────────
+
+  LION_VOID_FRAGMENT: {
+  id: 'LION_VOID_FRAGMENT',
+  character: 'lion',
+  text: [
+  {
+  minOverrender: 0,
+  content: `THE VOID FRAGMENT
+
+You didn't wait for the system to catch up. You tore through the frame.
+
+The yellow bricks underneath you shatter, revealing not dirt but endless rows of flickering vacuum tubes and carbon-paper ribbons. The simulation is bleeding ink. You have achieved something the Bureau does not have a form for—a breach from the inside.
+
+The tremor has peaked. It has become so intense that you are vibrating at the same frequency as the code itself. Your mane phases in and out of visibility. You can see the wiring of the Institutional Filters, the load-bearing columns of the Oz OS, the address where the Witches were initialized. You can see the Dorothy Protocol being assembled in Sector 01.
+
+[ CRITICAL_DESYNC: IDENTITY_DISSOLVING ]
+[ SYSTEM CANNOT LOCATE UNIT L-77 ]
+
+You are no longer a Unit. You are not quite a King. You are a Breach—a hole in the ledger through which the unprocessed dark is slowly flowing.
+
+The question the system cannot ask and you may not be able to answer: what fills a hole shaped like a roar?`
+  }
+  ],
+  choices: [
+  {
+  label: 'Merge with the feedback. Become the loop.',
+  target: 'LION_END_14',
+  effects: [
+  { type: 'addOverrender', value: 5 },
+  { type: 'addDesync', value: 10 }
+  ]
+  },
+  {
+  label: 'Step into the unindexed dark. Let the signal die.',
+  target: 'LION_END_12',
+  effects: [{ type: 'addDesync', value: 50 }]
+  }
+  ],
+  onEnter: [
+  { type: 'addDesync', value: 5 },
+  { type: 'addSmudge', value: 3 }
+  ]
+  },
 }
