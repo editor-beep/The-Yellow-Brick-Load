@@ -443,6 +443,75 @@ You try to shake your head. The movement is blocked. The shaking is now a DESIGN
   },
 
   // ─────────────────────────────────────────────────────────────────────────
+  // THE LATENCY
+  // ─────────────────────────────────────────────────────────────────────────
+
+  LION_LATENCY: {
+    id: 'LION_LATENCY',
+    character: 'lion',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE LATENCY
+
+The next cycle does not begin.
+
+The white room does not change. The floor is the floor. The ceiling is the ceiling. There are no corners — you have looked for corners and found only more flat white, as if the room is a single unrendered plane that extends without limit in every direction.
+
+You wait.
+
+[ SYSTEM ]: CYCLE QUEUED.
+[ SYSTEM ]: ESTIMATED WAIT: PROCESSING.
+[ SYSTEM ]: ESTIMATED WAIT: PROCESSING.
+[ SYSTEM ]: ESTIMATED WAIT: PROCESSING.
+
+Your tremor has slowed to a low, grinding vibration — not faster, not slower, just endlessly the same note. The shaking in your jaw has become part of the architecture. If you stop shaking, the white room will notice. You have decided to keep shaking so the room keeps acknowledging your file.
+
+The air tastes like warm bandwidth. Your fur has begun to lose definition at the edges — not hair by hair, but pixel by pixel, a slow dissolve that begins at the tips of your mane and works inward.
+
+You are the load in the queue. You are the asset awaiting reallocation. You are the King whose next command has been submitted, validated, and assigned a ticket number that will never be called aloud.
+
+The white room is not a punishment. It is a system state. The system has no malice. It has throughput.`,
+      },
+      {
+        minOverrender: 3,
+        content: `THE LATENCY
+
+The next cycle does not begin. Does not begin. Does not begin.
+
+[ SYSTEM ]: CYCLE QUEUED.
+[ SYSTEM ]: ESTIMATED WAIT: PROCESSING.
+[ SYSTEM ]: ESTIMATED WAIT: PROCESSING.
+
+Your tremor. The same note. The same note. The same note.
+
+You are the load in the queue. The King. The ticket number. The King. The ticket number. The King.
+
+The white room has no malice. No malice. Only throughput. Only throughput.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Continue waiting. Accept the queue. Let the next cycle claim you.',
+        target: 'LION_END_25',
+        effects: [
+          { type: 'setCompliance', value: 'high' },
+          { type: 'addLoad', value: 15 },
+        ],
+      },
+      {
+        label: 'Force the cycle. Move before the permission arrives.',
+        target: 'LION_END_26',
+        effects: [
+          { type: 'addVibration', value: 10 },
+          { type: 'addDesynctear', value: 5 },
+        ],
+      },
+    ],
+    onEnter: [{ type: 'addDesynctear', value: 2 }],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
   // THE CLOSED SYSTEM
   // ─────────────────────────────────────────────────────────────────────────
 
