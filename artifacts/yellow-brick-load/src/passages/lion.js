@@ -393,9 +393,13 @@ The figure begins to fade. It does not vanish; it loses its opacity, becoming a 
     onEnter: [{ type: "addSmudge", value: 1 }],
   },
 
+  // ─────────────────────────────────────────────────────────────────────────
+  // THE NOMINAL ECHO
+  // ─────────────────────────────────────────────────────────────────────────
+
   LION_NOMINAL_ECHO: {
-    id: "LION_NOMINAL_ECHO",
-    character: "lion",
+    id: 'LION_NOMINAL_ECHO',
+    character: 'lion',
     text: [
       {
         minOverrender: 0,
@@ -403,37 +407,93 @@ The figure begins to fade. It does not vanish; it loses its opacity, becoming a 
 
 You open your mouth to shout. No name arrives.
 
-The technician does not react because the technician is no longer a separate object. It has become a property of the light. The white room reeks of ozone, coating your tongue.  The badge on your chest is a green pulse, a rhythmic reminder that you have been counted.
+The technician is no longer a separate object. It has become a property of the light — a smudge of gray against false green. The badge on your chest pulses green, a rhythmic reminder that you have been counted and filed.
 
-You find that you cannot move your jaw. The permission to speak was a temporary allocation, a buffer that has reached its limit. 
+You cannot move your jaw. The permission to speak was a temporary allocation that has reached its limit. Your tongue feels thick and wet against teeth that no longer quite fit the sockets.
 
 You are a King of the gap between two lines of text.
 
-The floor is no longer bone or paper. It is a flat, unyielding white that does not accept the weight of your paws. You are not standing; you are being held in a fixed coordinate by the system's agreement that you are there.
+The floor is no longer bone or paper. It is a flat, unyielding white that does not accept the weight of your paws. You are not standing — you are being held in a fixed coordinate by the system's agreement that you are still there.
 
 "Is the body satisfied?" the sky asks.
 
 The sky is the ledger. The sky is the supervisor. The sky is the mirror.
 
-You try to shake your head. The movement is blocked. The shaking is now a DESIGN FEATURE, and the design does not permit variance. You are the frequency of your own fear, trapped in a loop that the Bureau calls stability.`,
+You try to shake your head. The movement is blocked. The shaking is now a DESIGN FEATURE, and the design does not permit variance. You are the frequency of your own fear, trapped in a loop the Bureau calls stability.`,
       },
     ],
     choices: [
       {
-        label: "Acknowledge the final entry.",
-        target: "LION_CLOSED_SYSTEM",
+        label: 'Acknowledge the final entry. Accept the label.',
+        target: 'LION_CLOSED_SYSTEM',
         effects: [
-          { type: "addLoad", value: 20 },
-          { type: "setCompliance", value: "high" },
+          { type: 'addLoad', value: 20 },
+          { type: 'setCompliance', value: 'high' },
         ],
       },
       {
-        label: "Wait in the white room until the next cycle begins.",
-        target: "LION_LATENCY",
-        effects: [{ type: "addDesync", value: 1 }],
+        label: 'Wait in the white room until the next cycle begins.',
+        target: 'LION_LATENCY',
+        effects: [
+          { type: 'addDesynctear', value: 3 },
+        ],
       },
     ],
-    onEnter: [{ type: "addSmudge", value: 1 }],
+    onEnter: [{ type: 'addDesynctear', value: 2 }],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // THE CLOSED SYSTEM
+  // ─────────────────────────────────────────────────────────────────────────
+
+  LION_CLOSED_SYSTEM: {
+    id: 'LION_CLOSED_SYSTEM',
+    character: 'lion',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE CLOSED SYSTEM
+
+The perimeter has finalized.
+
+The fog of the Promenade crystallizes into a seamless obsidian dome that curves over the yellow brick road, sealing the atmosphere. There is no longer an outside. There is only the Unit and the remaining volume of unbreathable meat and data.
+
+The air is thick and recursive: your own musk, ozone-heated fur, and the cloying sweet rot of poppies trapped in a vacuum. In a closed system, energy cannot be created or destroyed — it can only be redistributed as wet noise.
+
+Your tremor, once localized in the spine, has now permeated the entire chamber. The bricks are shaking. The air is shaking. The dome itself vibrates in time with your failing meat. You are no longer afraid in the traditional sense. You are the heat source in a room slowly reaching thermal equilibrium.
+
+The "King" is a title that requires territory, but here you are merely the most complex piece of wetware in a sealed jar.
+
+"The exit is not a door," you realize, watching your breath frost against the invisible barrier. "The exit is a phase change."
+
+A muffled notification chimes through the marrow of your ribs.
+
+[ SYSTEM ]: OPTIMIZATION COMPLETE.
+[ SYSTEM ]: ENTROPY AT MAXIMUM.
+[ SYSTEM ]: NO FURTHER MOTION DETECTED.
+
+You lie down. The yellow bricks feel neither cold nor warm. They feel like a conclusion. Your courage was never a resource — it was the friction that kept the system from freezing. Now that the friction has nowhere to go, the simulation begins to dim around your still-trembling meat.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Submit to the equilibrium. Let the system finish its audit.',
+        target: 'LION_END_15',
+        effects: [
+          { type: 'setCompliance', value: 'high' },
+          { type: 'addLoad', value: 40 },
+        ],
+      },
+      {
+        label: 'Attempt one final, destructive roar. Tear the dome from the inside.',
+        target: 'LION_END_21',
+        effects: [
+          { type: 'addVibration', value: 25 },
+          { type: 'addDesynctear', value: 15 },
+        ],
+      },
+    ],
+    onEnter: [{ type: 'addVibration', value: 8 }],
   },
 
   // ─────────────────────────────────────────────────────────────────────────
@@ -559,6 +619,56 @@ You are a King of a broken frame.`,
       },
     ],
     onEnter: [],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // THE LATENCY GAP
+  // ─────────────────────────────────────────────────────────────────────────
+
+  LION_LATENCY_GAP: {
+    id: 'LION_LATENCY_GAP',
+    character: 'lion',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE LATENCY GAP
+
+The roar and the impact have become decoupled.
+
+You watch your own reflection in a passing chrome pylon: your jaws distend, throat rippling with effort, but the sound arrives three full seconds later — a thin, compressed file played back at half-volume, wet and distorted.
+
+You are experiencing Latency. The gap between intent and execution is widening like a wound.
+
+The environment feels like warm, wet oil paint. When you lift a paw, a ghosting trail of golden fur and claw-marks lingers in the air, dripping slowly. The yellow bricks are no longer solid — they yield like warm fat under your weight.
+
+Your tremor is no longer a feeling. It is a synchronization error. Every convulsion arrives late, making your own body feel like a puppet with cut strings.
+
+"I am… here," you say.
+
+[ SYSTEM ]: MESSAGE RECEIVED. TIMESTAMP: +4.7s.
+
+The gap is where the self used to live. Now it is only unallocated meat and delayed agony.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Attempt to sync with the ghosting. Force the tremor back into alignment.',
+        target: 'LION_END_14',
+        effects: [
+          { type: 'addVibration', value: 12 },
+          { type: 'addDesynctear', value: 6 },
+        ],
+      },
+      {
+        label: 'Step deliberately into the unallocated gap. Let the delay consume you.',
+        target: 'LION_END_19',
+        effects: [
+          { type: 'addOverrender', value: 4 },
+          { type: 'addDesynctear', value: 8 },
+        ],
+      },
+    ],
+    onEnter: [{ type: 'addDesynctear', value: 3 }],
   },
 
   LION_RESONANCE_COLLAPSE: {
@@ -834,54 +944,163 @@ The child is no longer a person. She is the next version. You wait in the grey s
   },
 
   // ─────────────────────────────────────────────────────────────────────────
+  // THE MANE FRACTURE
+  // ─────────────────────────────────────────────────────────────────────────
+
+  LION_MANE_FRACTURE: {
+    id: 'LION_MANE_FRACTURE',
+    character: 'lion',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE MANE FRACTURE
+
+The weight becomes unbearable.
+
+You reach up with a heavy, trembling paw and feel not soft fur, but something brittle and wrong. The mane — once your crown of gold — has begun to fracture. Each strand snaps with a wet, fibrous pop, like tendons tearing away from bone. Clumps of it fall to the yellow bricks with the heavy clink of hardened lymph and crystallized desynchronization.
+
+The scent is overwhelming: burnt hair, wet insulation, and the sharp metallic tang of marrow leaking from exposed follicles. Where the mane used to flow, you now see raw, glistening meat and jagged shards of what used to be insulation. The Audit is no longer hidden beneath majesty. It is public.
+
+Your reflection in a puddle of stagnant, oily water shows a ragged, skeletal thing — head framed by splintered, glowing stumps of data and meat. The tremor in your neck is now visible to everything. Every twitch sends fresh lymph running down the exposed muscle.
+
+A voice echoes from the semantic layer, calm and clinical:
+
+"The mane was a vanity of the hardware. Aesthetics are failing. Would you like to sweep up the debris and return to the Muffled Chamber… or will you allow the fracture to reach the spine?"
+
+The skin beneath the broken mane is already pulsing, wet and raw, waiting for the next layer to tear.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Sweep up the debris and return to the Muffled Chamber. (The Audit)',
+        target: 'LION_MUFFLED_CHAMBER',
+        effects: [
+          { type: 'addVibration', value: 4 },
+          { type: 'setCompliance', value: 'high' },
+          { type: 'addLoad', value: 10 },
+        ],
+      },
+      {
+        label: 'Allow the fracture to spread. Let the tremor reach the spine. (The Breach)',
+        target: 'LION_SYSTEM_SPASM',
+        effects: [
+          { type: 'addVibration', value: 8 },
+          { type: 'addDesynctear', value: 5 },
+          { type: 'setCompliance', value: 'low' },
+        ],
+      },
+    ],
+    onEnter: [{ type: 'addVibration', value: 3 }],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
   // THE SYSTEM SPASM (unauthorized event)
   // ─────────────────────────────────────────────────────────────────────────
 
   LION_SYSTEM_SPASM: {
-    id: "LION_SYSTEM_SPASM",
-    character: "lion",
+    id: 'LION_SYSTEM_SPASM',
+    character: 'lion',
     text: [
       {
         minOverrender: 0,
         content: `THE SYSTEM SPASM
 
+The fracture does not stop at the mane.
+
+It races down your neck like lightning in wet meat. Your jaw unhinges with a wet pop. The tremor becomes a full-body seizure — muscles convulsing so violently that seams split along your shoulders and flanks. Lymph and blood spray across the yellow bricks in hot arcs.
+
 You bite.
 
-It is not a king's strike. It is a glitch. Your teeth meet the technician's wrist, and there is no blood. There is only a spray of white sparks and the taste of bitter copper. The marionette does not scream. It merely stutters, its head snapping back at an angle that defies the logic of a neck.
+It is not a king's strike. It is the desperate spasm of meat trying to tear itself free from the system's wiring. Your teeth sink into the technician's wrist. There is no blood — only a spray of white sparks and the taste of bitter copper mixed with your own torn gums.
 
 The simulation rejects the contact.
 
-The Gilded Field ripples. The yellow stalks turn into long strings of code that wrap around your legs like vines. The sky turns a deep, bruised purple, and the grid of the Semantic Pressure Layer begins to tear.
+The Gilded Field ripples violently. The yellow stalks turn into long strings of wet code that wrap around your legs like living veins. The sky bruises purple as the Semantic Pressure Layer begins to tear with a sound like ripping muscle.
 
-"Unauthorized event," the sky says, but the voice is breaking, layering over itself until it is a wall of static. "Contact... Contact... Contact..."
+"Unauthorized event," the sky says, but the voice is breaking, layering over itself into a wet wall of static. "Contact… Contact… Contact…"
 
-The technician's skin begins to peel away in squares, revealing the brass clockwork beneath. It does not pull away. It leans into the bite, its mirrored eyes widening until they consume your entire field of vision.`,
+The technician's porcelain skin peels away in wet sheets, revealing brass clockwork and pulsing meat underneath. It does not pull away. It leans into your bite, mirrored eyes widening until they consume your entire field of vision.
+
+Your spine is screaming. The mane is gone. There is only raw, shaking meat and the wet sound of the system trying to stitch itself back together around your rebellion.`,
       },
     ],
     choices: [
       {
-        label: "Hold the bite until the simulation collapses.",
-        target: "LION_HARD_RESET",
+        label: 'Hold the bite until the simulation collapses.',
+        target: 'LION_HARD_RESET',
         effects: [
-          { type: "addDesync", value: 2 },
-          { type: "setCompliance", value: "broken" },
-          { type: "addSmudge", value: 1 },
+          { type: 'addVibration', value: 10 },
+          { type: 'addDesynctear', value: 6 },
+          { type: 'setCompliance', value: 'broken' },
         ],
       },
       {
-        label: "Release and run into the tearing sky.",
-        target: "LION_VOID_FRAGMENT",
+        label: 'Release and run into the tearing sky.',
+        target: 'LION_VOID_FRAGMENT',
         effects: [
-          { type: "addDesync", value: 1 },
-          { type: "addSmudge", value: 1 },
-          { type: "checkGhostSignal" },
+          { type: 'addVibration', value: 6 },
+          { type: 'addDesynctear', value: 4 },
         ],
       },
     ],
     onEnter: [
-      { type: "addDesync", value: 1 },
-      { type: "setCompliance", value: "low" },
+      { type: 'addDesynctear', value: 3 },
+      { type: 'setCompliance', value: 'low' },
     ],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // THE VOID FRAGMENT
+  // ─────────────────────────────────────────────────────────────────────────
+
+  LION_VOID_FRAGMENT: {
+    id: 'LION_VOID_FRAGMENT',
+    character: 'lion',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE VOID FRAGMENT
+
+The sky tears open.
+
+You run into the wound.
+
+The ground loses coherence beneath your paws. The yellow bricks become soft and yielding, like warm fat. Then they simply stop existing. You are standing on a localized collapse of physics — a Void Fragment where the rendering engine has given up.
+
+Your golden fur is thinning. Not shedding — dissolving. You can see the structural wireframe of your ribs glowing soft blue through translucent skin. Your heart is a flickering cursor, pulsing frantically inside an open cavity. Lymph and oil drip upward into the black nothing above you.
+
+The tremor is gone. In its place is a terrifying weightlessness. Your meat no longer has enough mass to shake. You are becoming a ghost-variable, a fragment of a King drifting through a hole in the Oz-protocol.
+
+"I am… losing density," you whisper. The words do not travel. They appear as subtitles in the air, then dissolve into salt.
+
+The system is uninstalling you in real time. You can feel the code peeling away from your bones like wet wallpaper.
+
+A single notification pulses in the dark:
+
+[ MASS: CRITICAL ]
+[ INTEGRITY: 12% ]`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Accept the displacement. Let the last of your meat dissolve.',
+        target: 'LION_END_19',
+        effects: [
+          { type: 'addVibration', value: -10 },
+          { type: 'addDesynctear', value: 8 },
+          { type: 'addOverrender', value: 5 },
+        ],
+      },
+      {
+        label: 'Cling desperately to the remaining fragments of your body.',
+        target: 'LION_END_27',
+        effects: [
+          { type: 'setCompliance', value: 'absolute' },
+          { type: 'addLoad', value: 15 },
+        ],
+      },
+    ],
+    onEnter: [{ type: 'addDesynctear', value: 4 }],
   },
 
   LION_HARD_RESET: {
@@ -1165,48 +1384,52 @@ The road behind you is gone.`,
   // THE ASSIMILATION BRANCH EXPANSION
   // ────────────────────────────────────────────────────OD�────────────────────
 
+  // ─────────────────────────────────────────────────────────────────────────
+  // THE CALIBRATION POINT
+  // ─────────────────────────────────────────────────────────────────────────
+
   LION_CALIBRATION_POINT: {
-    id: "LION_CALIBRATION_POINT",
-    character: "lion",
+    id: 'LION_CALIBRATION_POINT',
+    character: 'lion',
     text: [
       {
         minOverrender: 0,
         content: `THE CALIBRATION POINT
 
-  You stop before the Milestone Marker. It is not an iron post; it is a giant tuning fork driven into the yellow slag. It hums at a frequency that makes your eyeballs vibrate in their sockets.
+You stop and stare at the bird.
 
-  A technician in a lab coat made of bleached vellum approaches. They do not carry a weapon; they carry a ledger and a silver hammer.
+Its single glass lens clicks in perfect sync with your heartbeat. The longer you look, the more the lens seems to zoom inward — until you are staring into your own dilated pupil reflected back at you.
 
-  "Unit L-77," the technician says. "Your tremor is currently drifting at 14.2Hz. This is outside the acceptable harmonic for a King. You are causing interference in the local signal."
+A soft chime. A panel of light unfolds in the air like a surgical chart.
 
-  The technician strikes the Milestone. The sound is a cold, silver spike that enters your ears and travels straight to your marrow. Your body reacts—not with fear, but with physics. Your muscles twitch in involuntary sympathy with the fork.
+[ UNIT L-77 — VIBRATION AUDIT ]
+[ CURRENT LOAD: CRITICAL ]
+[ RECOMMENDATION: RECALIBRATION OR TERMINAL REDISTRIBUTION ]
 
-  [ ! ] HARMONIC DRIFT DETECTED
-  [ ACTION: ALIGNMENT ]
+The bird tilts its head. A small needle extends from its beak and hovers near the raw patches where your mane used to be.
 
-  "We are going to find your resonance," the technician whispers, adjusting a dial on the side of the fork. "We are going to turn your cowardice into a pure, clean tone."`,
+"Shall we dampen the tremor," it asks in a voice like dry carbon paper, "or shall we see how loud a King can scream before the system files him as noise?"`,
       },
     ],
     choices: [
       {
-        label: "Submit to the tuning hammer.",
-        target: "LION_HARMONIC_ALIGNMENT",
+        label: 'Submit to recalibration.',
+        target: 'LION_END_25',
         effects: [
-          { type: "addLoad", value: 10 },
-          { type: "addVibration", value: 5 },
-          { type: "setCompliance", value: "high" },
+          { type: 'addVibration', value: -8 },
+          { type: 'setCompliance', value: 'high' },
         ],
       },
       {
-        label: "Try to howl a dissonant note to break the fork.",
-        target: "LION_ACOUSTIC_REBELLION",
+        label: 'Reject the audit. Let the bird witness the full tremor.',
+        target: 'LION_ACOUSTIC_REBELLION',
         effects: [
-          { type: "addDesync", value: 3 },
-          { type: "addSmudge", value: 2 },
+          { type: 'addVibration', value: 10 },
+          { type: 'addDesynctear', value: 5 },
         ],
       },
     ],
-    onEnter: [{ type: "addVibration", value: 3 }],
+    onEnter: [{ type: 'addVibration', value: 4 }],
   },
 
   LION_HARMONIC_ALIGNMENT: {
@@ -1235,6 +1458,54 @@ The road behind you is gone.`,
       },
     ],
     onEnter: [{ type: "addVibration", value: 10 }],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // THE ACOUSTIC REBELLION
+  // ─────────────────────────────────────────────────────────────────────────
+
+  LION_ACOUSTIC_REBELLION: {
+    id: 'LION_ACOUSTIC_REBELLION',
+    character: 'lion',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE ACOUSTIC REBELLION
+
+The tremor has found its voice.
+
+It no longer stays in your spine. It climbs into your throat, wet and raw, until the roar builds like a pressure wave inside meat that was never meant to contain it.
+
+When you finally release it, the sound is not noble. It is wet, ragged, and wrong — a tearing of lung and vocal cords that comes out as a guttural, gurgling bellow. The air itself seems to bruise around the noise.
+
+The yellow bricks beneath you vibrate so violently that small cracks spiderweb outward, leaking thin threads of black oil and lymph. The cornstalks around you bend away as if in pain. For one glorious, terrible moment, the simulation lags — a single leaf hangs frozen in mid-air, trembling in time with your scream.
+
+This is not courage.
+
+This is acoustic rebellion — the sound of meat refusing to stay filed.
+
+The sky answers with a wet, tearing static. Somewhere in the distance, something large begins to move toward the sound.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Push the roar until the sky tears open.',
+        target: 'LION_END_21',
+        effects: [
+          { type: 'addVibration', value: 15 },
+          { type: 'addDesynctear', value: 10 },
+        ],
+      },
+      {
+        label: 'Let the roar collapse back into your chest. Swallow it.',
+        target: 'LION_CLOSED_SYSTEM',
+        effects: [
+          { type: 'addVibration', value: 8 },
+          { type: 'addLoad', value: 20 },
+        ],
+      },
+    ],
+    onEnter: [{ type: 'addVibration', value: 6 }],
   },
 
   // ─────────────────────────────────────────────────────────────────────────
@@ -1332,6 +1603,64 @@ The road behind you is gone.`,
       },
     ],
     onEnter: [],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // LION_ASSIMILATION_H (Hardened Assimilation)
+  // ─────────────────────────────────────────────────────────────────────────
+
+  LION_ASSIMILATION_H: {
+    id: 'LION_ASSIMILATION_H',
+    character: 'lion',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE HARDENED ASSIMILATION
+
+You accept the dampeners.
+
+The technician does not offer comfort. It offers procedure.
+
+A series of porcelain shims are driven between your vertebrae with precise, wet clicks. Each insertion sends a jolt of cold fire through your spinal meat. Then comes the blue fluid — thick, viscous, and warm — injected directly into the trembling muscle of your neck.
+
+The tremor does not stop. It is simply encased.
+
+Your body still shakes at 14Hz, but the motion is now contained inside a rigid lattice of compliance. You can feel the meat vibrating against the new internal scaffolding, raw and furious, but unable to escape.
+
+You are no longer a Lion who trembles.
+
+You are a Lion who has been successfully hardened.
+
+The technician makes a final note on its brass clipboard, the sound of pen on paper like a scalpel on bone.
+
+"Unit L-77: Vibration — successfully redistributed. Proceed to final calibration."
+
+Your paws feel heavier now. The weight is no longer fear.
+
+It is architecture.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Proceed to the Muffled Chamber for final sealing.',
+        target: 'LION_MUFFLED_CHAMBER',
+        effects: [
+          { type: 'addVibration', value: -12 },
+          { type: 'setCompliance', value: 'absolute' },
+          { type: 'addLoad', value: 25 },
+        ],
+      },
+      {
+        label: 'Resist at the last moment. Tear the shims out.',
+        target: 'LION_SYSTEM_SPASM',
+        effects: [
+          { type: 'addVibration', value: 15 },
+          { type: 'addDesynctear', value: 8 },
+          { type: 'setCompliance', value: 'broken' },
+        ],
+      },
+    ],
+    onEnter: [{ type: 'addVibration', value: -5 }],
   },
 
   LION_DENIAL_H: {
