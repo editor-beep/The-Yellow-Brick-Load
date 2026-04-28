@@ -547,6 +547,149 @@ body::before {
   text-align: center;
 }
 
+/* ── Oracle Card Overlay ─────────────────────────────────── */
+.oracle-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(5, 5, 4, 0.94);
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--gutter);
+  animation: oracle-fade-in 0.4s ease;
+}
+
+@keyframes oracle-fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.oracle-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--amber-dim);
+  max-width: 560px;
+  width: 100%;
+  padding: clamp(1.5rem, 5vw, 2.5rem);
+  position: relative;
+  animation: oracle-slide-in 0.35s ease;
+}
+
+@keyframes oracle-slide-in {
+  from { transform: translateY(12px); opacity: 0; }
+  to   { transform: translateY(0);    opacity: 1; }
+}
+
+.oracle-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.oracle-deck-label {
+  font-size: 0.62rem;
+  color: var(--system-green-bright);
+  letter-spacing: 0.18em;
+  line-height: 1.4;
+}
+
+.oracle-surreality {
+  font-size: 0.6rem;
+  color: var(--error-red);
+  letter-spacing: 0.18em;
+  flex-shrink: 0;
+  opacity: 0.8;
+}
+
+.oracle-card-name {
+  font-family: var(--font-display);
+  font-size: clamp(1rem, 3.5vw, 1.4rem);
+  font-weight: 700;
+  color: var(--amber);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  line-height: 1.25;
+  margin-bottom: 1.75rem;
+  animation: oracle-name-flicker 6s ease-in-out infinite;
+}
+
+@keyframes oracle-name-flicker {
+  0%, 92%, 100% { opacity: 1; }
+  94%            { opacity: 0.15; }
+  96%            { opacity: 0.85; }
+}
+
+.oracle-card-body {
+  margin-bottom: 1.5rem;
+}
+
+.oracle-card-text {
+  color: var(--grey-light);
+  font-size: 0.88rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
+.oracle-ritual-block {
+  border-left: 2px solid var(--amber-dim);
+  padding-left: 1rem;
+}
+
+.oracle-ritual-label {
+  display: block;
+  font-size: 0.6rem;
+  color: var(--grey-text);
+  letter-spacing: 0.2em;
+  margin-bottom: 0.5rem;
+}
+
+.oracle-ritual-text {
+  color: var(--grey-mid);
+  font-size: 0.82rem;
+  line-height: 1.75;
+}
+
+.oracle-effect-bar {
+  border-top: 1px solid var(--amber-dim);
+  padding-top: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.oracle-effect-label {
+  font-size: 0.68rem;
+  color: var(--amber-bright);
+  letter-spacing: 0.18em;
+  font-weight: 500;
+}
+
+.oracle-dismiss {
+  background: none;
+  border: 1px solid var(--amber-dim);
+  color: var(--grey-mid);
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
+  width: 100%;
+  justify-content: center;
+}
+
+.oracle-dismiss:hover,
+.oracle-dismiss:focus-visible {
+  border-color: var(--amber);
+  color: var(--amber-bright);
+  background: var(--bg-raised);
+  outline: none;
+}
+
 /* ── Responsive ──────────────────────────────────────────── */
 @media (max-width: 480px) {
   .character-grid {

@@ -34,6 +34,7 @@
  */
 
 import { useGameStore } from './store.js'
+import { getDeckForCharacter } from '../data/oracleDecks.js'
 
 // ── Token replacement ────────────────────────────────────────────────────────
 export function interpolate(text, state) {
@@ -145,6 +146,14 @@ export function applyEffects(effects) {
         const alreadyTriggered = flags[`oracle_${character}_triggered`]
         if (character && !alreadyTriggered && shouldTriggerOracle(character, state)) {
           store.setFlag(`oracle_${character}_triggered`, true)
+          // Draw a random card from the character's oracle deck
+          const deck = getDeckForCharacter(character)
+          if (deck && deck.cards.length) {
+            const card = deck.cards[Math.floor(Math.random() * deck.cards.length)]
+            store.setOracleCard(card)
+            // Apply the card's game effect immediately
+            if (card.effect) applyEffects([card.effect])
+          }
           const entryNode = ORACLE_ENTRY_NODES[character]
           if (entryNode) store.goTo(entryNode)
         }
