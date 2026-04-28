@@ -3,16 +3,32 @@
  * State machine for the behavioral trap.
  *
  * Variables:
- *   load         — progress bar fill (0–100). Never reaches 100.
- *   desync       — system drift counter. Affects rendering.
- *   smudge       — visual corruption level (0–3).
- *   compliance   — "low" | "med" | "high" | "broken"
- *   reset_count  — how many times player has soft-reset
- *   overrender   — text decay level (0–5)
- *   character    — which of the 8 characters is active
- *   currentNode  — passage ID currently rendered
- *   history      — ordered list of visited node IDs
- *   flags        — arbitrary boolean flags for plot state
+ *   load           — progress bar fill (0–100). Never reaches 100.
+ *   desync         — system drift counter. Affects rendering.
+ *   smudge         — visual corruption level (0–3).
+ *   compliance     — "low" | "med" | "high" | "broken"
+ *   reset_count    — how many times player has soft-reset
+ *   overrender     — text decay level (0–5)
+ *   character      — which of the 8 characters is active
+ *   currentNode    — passage ID currently rendered
+ *   history        — ordered list of visited node IDs
+ *   flags          — arbitrary boolean flags for plot state
+ *
+ * Wetware stats (character-specific, initialized to 0):
+ *   vibration      — Lion: tremor intensity
+ *   desynctear     — Lion: cross-character desync bleed
+ *   corrosion      — Tin Man: oxidation level
+ *   lubrication    — Tin Man: oil supply
+ *   seizure        — Tin Man: joint-lock severity
+ *   utility        — Tin Man: functional value rating
+ *   scatter        — Scarecrow: straw dispersal
+ *   stitchIntegrity — Scarecrow: seam cohesion
+ *   displacement   — Dorothy: location drift
+ *   warrantLevel   — Dorothy: Bureau attention level
+ *   rubyFriction   — Dorothy: slippers charge
+ *   refraction     — Glinda: light/truth distortion
+ *   insulation     — Glinda: protective buffer
+ *   obfuscation    — Wizard: smoke-and-mirrors density
  */
 
 import { create } from 'zustand'
@@ -32,6 +48,21 @@ const INITIAL_STATE = {
   flags: {},
   ghostSignalArmed: false,
   ghostSignalFired: false,
+  // ── Wetware stats ──────────────────────────────────────────────────────────
+  vibration: 0,        // Lion — tremor intensity
+  desynctear: 0,       // Lion — cross-character desync bleed
+  corrosion: 0,        // Tin Man — oxidation level
+  lubrication: 0,      // Tin Man — oil supply
+  seizure: 0,          // Tin Man — joint-lock severity
+  utility: 0,          // Tin Man — functional value rating
+  scatter: 0,          // Scarecrow — straw dispersal
+  stitchIntegrity: 0,  // Scarecrow — seam cohesion
+  displacement: 0,     // Dorothy — location drift
+  warrantLevel: 0,     // Dorothy — Bureau attention level
+  rubyFriction: 0,     // Dorothy — slippers charge
+  refraction: 0,       // Glinda — light/truth distortion
+  insulation: 0,       // Glinda — protective buffer
+  obfuscation: 0,      // Wizard — smoke-and-mirrors density
 }
 
 export const useGameStore = create((set, get) => ({
@@ -58,6 +89,23 @@ export const useGameStore = create((set, get) => ({
   addOverrender: (n) => set((s) => ({ overrender: Math.min(5, s.overrender + n) })),
   setCompliance: (level) => set({ compliance: level }),
   setFlag: (key, val = true) => set((s) => ({ flags: { ...s.flags, [key]: val } })),
+
+  // ── Wetware Stat Mutations ────────────────────────────────────────────────
+  addVibration:      (n) => set((s) => ({ vibration:      s.vibration      + n })),
+  addDesynctear:     (n) => set((s) => ({ desynctear:     s.desynctear     + n })),
+  addCorrosion:      (n) => set((s) => ({ corrosion:      s.corrosion      + n })),
+  addLubrication:    (n) => set((s) => ({ lubrication:    s.lubrication    + n })),
+  addSeizure:        (n) => set((s) => ({ seizure:        s.seizure        + n })),
+  addUtility:        (n) => set((s) => ({ utility:        s.utility        + n })),
+  addScatter:        (n) => set((s) => ({ scatter:        s.scatter        + n })),
+  addStitchIntegrity:(n) => set((s) => ({ stitchIntegrity:s.stitchIntegrity + n })),
+  addDisplacement:   (n) => set((s) => ({ displacement:   s.displacement   + n })),
+  addWarrant:        (n) => set((s) => ({ warrantLevel:   s.warrantLevel   + n })),
+  addRubyFriction:   (n) => set((s) => ({ rubyFriction:   s.rubyFriction   + n })),
+  addRefraction:     (n) => set((s) => ({ refraction:     s.refraction     + n })),
+  addInsulation:     (n) => set((s) => ({ insulation:     s.insulation     + n })),
+  addObfuscation:    (n) => set((s) => ({ obfuscation:    s.obfuscation    + n })),
+  setWetwareStat:    (stat, val) => set({ [stat]: val }),
 
   // ── Soft Reset ───────────────────────────────────────────────────────────
   /**

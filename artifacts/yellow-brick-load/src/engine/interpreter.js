@@ -30,6 +30,7 @@
  *
  * Text content supports simple token replacement:
  *   {{load}}  {{desync}}  {{compliance}}  {{character}}  {{flags.KEY}}
+ *   {{#flags.KEY}}conditional text{{/flags.KEY}}  (shown only when flag is truthy)
  */
 
 import { useGameStore } from './store.js'
@@ -37,6 +38,10 @@ import { useGameStore } from './store.js'
 // ── Token replacement ────────────────────────────────────────────────────────
 export function interpolate(text, state) {
   return text
+    // Conditional blocks: {{#flags.KEY}}content{{/flags.KEY}}
+    .replace(/\{\{#flags\.([^}]+)\}\}([\s\S]*?)\{\{\/flags\.\1\}\}/g, (_, key, content) =>
+      state.flags && state.flags[key] ? content : ''
+    )
     .replace(/{{load}}/g, state.load)
     .replace(/{{desync}}/g, state.desync)
     .replace(/{{compliance}}/g, state.compliance)
@@ -55,21 +60,96 @@ export function resolveText(passage, overrender) {
   return active ? active.content : ''
 }
 
+// ── Oracle trigger thresholds (keyed by character ID) ───────────────────────
+const ORACLE_THRESHOLDS = {
+  lion:       (s) => s.vibration     >= 7,
+  tinman:     (s) => s.corrosion     >= 10,
+  scarecrow:  (s) => s.scatter       >= 5,
+  dorothy:    (s) => s.displacement  >= 5,
+  glinda:     (s) => s.refraction    >= 5,
+  wizard:     (s) => s.obfuscation   >= 5,
+  witch_west: (s) => s.warrantLevel  >= 5,
+  witch_east: (s) => s.displacement  >= 3,
+}
+
+// Maps character IDs to their oracle entry passage IDs
+const ORACLE_ENTRY_NODES = {
+  lion:       'LION_ORACLE_ENTRY',
+  tinman:     'TIN_MAN_ORACLE_ENTRY',
+  scarecrow:  'SCARECROW_ORACLE_ENTRY',
+  dorothy:    'DOROTHY_ORACLE_ENTRY',
+  glinda:     'GLINDA_ORACLE_ENTRY',
+  wizard:     'WIZARD_ORACLE_ENTRY',
+  witch_west: 'WITCH_WEST_ORACLE_ENTRY',
+  witch_east: 'WITCH_EAST_ORACLE_ENTRY',
+}
+
+/**
+ * Returns true when the given character's unique wetware stat has crossed the
+ * threshold that triggers their oracle ritual.
+ */
+export function shouldTriggerOracle(character, state) {
+  if (!character) return false
+  const check = ORACLE_THRESHOLDS[character]
+  return check ? check(state) : false
+}
+
 // ── Execute a list of effect descriptors ────────────────────────────────────
 export function applyEffects(effects) {
   if (!effects) return
   const store = useGameStore.getState()
   for (const effect of effects) {
     switch (effect.type) {
-      case 'addLoad':       store.addLoad(effect.value); break
-      case 'addDesync':     store.addDesync(effect.value); break
-      case 'addSmudge':     store.addSmudge(effect.value); break
-      case 'addOverrender': store.addOverrender(effect.value); break
-      case 'setCompliance': store.setCompliance(effect.value); break
-      case 'setFlag':       store.setFlag(effect.key, effect.value); break
-      case 'softReset':     store.softReset(); break
-      case 'checkGhostSignal': store.checkGhostSignal(); break
-      case 'armGhostSignal':   store.armGhostSignal(); break
+      case 'addLoad':            store.addLoad(effect.value); break
+      case 'addDesync':          store.addDesync(effect.value); break
+      case 'addSmudge':          store.addSmudge(effect.value); break
+      case 'addOverrender':      store.addOverrender(effect.value); break
+      case 'setCompliance':      store.setCompliance(effect.value); break
+      case 'setFlag':            store.setFlag(effect.key, effect.value); break
+      case 'softReset':          store.softReset(); break
+      case 'checkGhostSignal':   store.checkGhostSignal(); break
+      case 'armGhostSignal':     store.armGhostSignal(); break
+      // ── Wetware stat effects ─────────────────────────────────────────────
+      case 'addVibration':       store.addVibration(effect.value); break
+      case 'addDesynctear':      store.addDesynctear(effect.value); break
+      case 'addCorrosion':       store.addCorrosion(effect.value); break
+      case 'addLubrication':     store.addLubrication(effect.value); break
+      case 'addSeizure':         store.addSeizure(effect.value); break
+      case 'addUtility':         store.addUtility(effect.value); break
+      case 'addScatter':         store.addScatter(effect.value); break
+      case 'addStitchIntegrity': store.addStitchIntegrity(effect.value); break
+      case 'addDisplacement':    store.addDisplacement(effect.value); break
+      case 'addWarrant':         store.addWarrant(effect.value); break
+      case 'addRubyFriction':    store.addRubyFriction(effect.value); break
+      case 'addRefraction':      store.addRefraction(effect.value); break
+      case 'addInsulation':      store.addInsulation(effect.value); break
+      case 'addObfuscation':     store.addObfuscation(effect.value); break
+      case 'setWetwareStat':     store.setWetwareStat(effect.stat, effect.value); break
+      // ── Graft / gray-out / unlock effects ───────────────────────────────
+      case 'graft':
+        // Records cross-character material application: flags.graft_<material>_in_<target>
+        store.setFlag(`graft_${effect.material}_in_${effect.target}`, true)
+        break
+      case 'grayOut':
+        // Disables a choice by setting flags.grayOut_<key> = true
+        store.setFlag(`grayOut_${effect.key}`, true)
+        break
+      case 'unlock':
+        // Re-enables a previously grayed-out choice
+        store.setFlag(`grayOut_${effect.key}`, false)
+        break
+      // ── Oracle trigger ───────────────────────────────────────────────────
+      case 'triggerOracle': {
+        const state = useGameStore.getState()
+        const { character, flags } = state
+        const alreadyTriggered = flags[`oracle_${character}_triggered`]
+        if (character && !alreadyTriggered && shouldTriggerOracle(character, state)) {
+          store.setFlag(`oracle_${character}_triggered`, true)
+          const entryNode = ORACLE_ENTRY_NODES[character]
+          if (entryNode) store.goTo(entryNode)
+        }
+        break
+      }
       default:
         console.warn(`[YBL] Unknown effect type: ${effect.type}`)
     }
