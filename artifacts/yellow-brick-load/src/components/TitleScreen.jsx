@@ -46,16 +46,17 @@
                   Recovered interface. 
                 </p>
                   <p className="title-subtitle">
-                  The scale of the Bureau is designed to induce vertigo; the load is heavy by design.
+The scale of the Bureau is designed to induce vertigo; the load is heavy by design.
                 </p>
                 <p className="title-subtitle">
-                  Fear is not failure—it is the proof that the structure still holds. Even the exit signs are redirections back into the ledger. 
+Fear is not failure—it is the proof that the structure still holds. Even the exit signs are redirections back into the ledger. 
                    </p>
                 <p className="title-subtitle">
-                  Let us calibrate.
+Let us calibrate.
                 </p>
                 <p className="title-subtitle">
-                  Oz OS suggests starting at the beginning of the signal. Find the Lion at the moment his instruction begins.
+Oz OS suggests starting at the beginning of the signal. </p>
+                  <p className="title-subtitle">Find the Lion at the moment his instruction begins.
                 </p>
                 <p className="title-subtitle">
                   <strong>USE AT YOUR OWN PACE.</strong>
