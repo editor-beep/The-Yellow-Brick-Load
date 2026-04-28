@@ -35,7 +35,7 @@ export default function OracleCard() {
       case 'addInsulation':     return `INSULATION +${fx.value}`
       case 'addObfuscation':    return `OBFUSCATION +${fx.value}`
       case 'addDesynctear':     return `DESYNCTEAR +${fx.value}`
-      default:                  return fx.type.toUpperCase().replace(/([A-Z])/g, ' $1').trim()
+      default:                  return fx.type.replace(/([a-z])([A-Z])/g, '$1 $2').toUpperCase()
     }
   }
 
