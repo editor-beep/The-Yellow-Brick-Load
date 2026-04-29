@@ -278,7 +278,7 @@ export const witchEastPassages = {
         target: 'WITCH_EAST_END_SHOES',
         effects: [
           { type: 'addDisplacement', value: 3 },
-          { type: 'addRubyFriction', value: 5 },
+          { type: 'addSilverFriction', value: 5 },
           { type: 'graft', material: 'witch_east_silver', target: 'dorothy' },
         ],
       },
@@ -402,7 +402,7 @@ export const witchEastPassages = {
         target: 'WITCH_EAST_END_SHOES',
         effects: [
           { type: 'addDisplacement', value: 5 },
-          { type: 'addRubyFriction', value: 3 },
+          { type: 'addSilverFriction', value: 3 },
         ],
       },
     ],
@@ -523,7 +523,7 @@ export const witchEastPassages = {
         target: 'WITCH_EAST_END_SHOES',
         effects: [
           { type: 'addDisplacement', value: 10 },
-          { type: 'addRubyFriction', value: 8 },
+          { type: 'addSilverFriction', value: 8 },
           { type: 'graft', material: 'witch_east_terminal_weight', target: 'dorothy' },
         ],
       },
@@ -624,7 +624,7 @@ export const witchEastPassages = {
   Tone: Succession-Legalistic.
   Theme: Authority does not end; it transfers.
 
-  The silver shoes have been removed and reassigned. The gravitational authority they contain — the decades of administrative weight, the regulatory frequency, the measured pressure of the East — is now traveling with a new owner. The silver has been repainted ruby to conform to Oz-standard aesthetics, but the underlying frequency is unchanged.
+  The silver shoes have been removed and reassigned. The gravitational authority they contain — the decades of administrative weight, the regulatory frequency, the measured pressure of the East — is now traveling with a new owner.
 
   [ UNIT WITCH EAST // STATUS: TRANSFERRED ]
   [ SILVER AUTHORITY: REASSIGNED ]
@@ -632,7 +632,7 @@ export const witchEastPassages = {
 
   The Weight Assessor makes its final note: "Silver transfer complete. Gravitational authority: operational under new registration. The shoes know where they are. The shoes always know where they are." The new custodian will feel the weight of the East in every step.
 
-  Final Log: The shoes are still silver underneath the ruby.
+  Final Log: The silver carries the authority. The authority carries the weight.
 
   1 - 1 = 1.
 

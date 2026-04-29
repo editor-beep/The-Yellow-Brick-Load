@@ -54,7 +54,7 @@ Each card is drawn randomly when the oracle ritual triggers. The draw cannot be 
 
 Bureau Crow — Black-feathered administrative entity. Beak whetted for puncturing forms. Talons that grip and will not release. Arrives when the Lion's tremor frequency exceeds bureaucratically acceptable limits.
 
-Dust Clerk — Woman in faded gingham whose skin is swirling topsoil and requisition forms. Eyes like spinning silver dollars. Makes shallow incisions at the heel or temple, reads nerve fiber mixed with ruby dust and Kansas soil.
+Dust Clerk — Woman in faded checked apron whose skin is swirling topsoil and requisition forms. Eyes like spinning silver dollars. Makes shallow incisions at the heel or temple, reads nerve fiber mixed with silver dust and Kansas soil.
 
 Ground Impact Assessor — Posthumous forensic auditor. Specializes in catastrophic structural events. The Wicked Witch of the East has no oracle sessions of her own; the Assessor documents what remains.
 
@@ -100,7 +100,7 @@ Overrender increases through specific choices and oracle card effects. It does n
     question: "What are the Wetware Stats?",
     answer: `Wetware stats are character-specific measurement systems tracking the unique institutional pressures on each Unit's material composition. Unlike Load and Desync (which apply universally), wetware stats apply only to the character for whom they were designed.
 
-Lion: Vibration (tremor intensity), Desynctear (cross-character bleed). Tin Man: Corrosion (oxidation level), Lubrication (oil supply), Seizure (joint-lock severity), Utility (functional value). Scarecrow: Scatter (straw dispersal), Stitch Integrity (seam cohesion). Dorothy: Displacement (location drift), Warrant Level (Bureau attention), Ruby Friction (slippers charge). Glinda: Refraction (light-truth distortion), Insulation (protective buffer). Wizard: Obfuscation (smoke-and-mirrors density). Witch West: Warrant Level (surveillance jurisdiction). Witch East: Displacement (impact-related drift).
+Lion: Vibration (tremor intensity), Desynctear (cross-character bleed). Tin Man: Corrosion (oxidation level), Lubrication (oil supply), Seizure (joint-lock severity), Utility (functional value). Scarecrow: Scatter (straw dispersal), Stitch Integrity (seam cohesion). Dorothy: Displacement (location drift), Warrant Level (Bureau attention), Silver Friction (slippers charge). Glinda: Refraction (light-truth distortion), Insulation (protective buffer). Wizard: Obfuscation (smoke-and-mirrors density). Witch West: Warrant Level (surveillance jurisdiction). Witch East: Displacement (impact-related drift).
 
 Wetware stats accumulate silently. Oracle thresholds are set against these stats — when a wetware stat crosses its critical value, the Interloper appears. Each character has exactly one threshold event per session.`
   },

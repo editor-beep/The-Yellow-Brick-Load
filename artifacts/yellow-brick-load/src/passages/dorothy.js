@@ -30,7 +30,7 @@ export const dorothyPassages = {
   The house landed on someone. The slippers were reassigned to your feet. They are silver-colored and they hum at a frequency that the Bureau logs as "Signal Strength: Elevated." They have been humming since the landing. They will not stop. The Dust on your dress is still Kansas dust — still home-frequency, clinging to the fabric, refusing to update to Oz-standard soil.
 
   [ DISPLACEMENT COUNTER: ACTIVE ]
-  [ RUBY FRICTION: ACCUMULATING ]
+  [ SILVER FRICTION: ACCUMULATING ]
   [ STATUS: DISLOCATED UNIT ]
 
   The Yellow Brick Load stretches ahead. The road is a warrant — a path that implies a destination, and destinations are the Bureau's jurisdiction. The Dust Clerk is watching from the edge of the field. You can see the spinning silver dollars where its eyes should be.
@@ -51,7 +51,7 @@ export const dorothyPassages = {
         label: 'Try to click the slippers — attempt home-frequency contact.',
         target: 'DOROTHY_PATH_SLIPPERS',
         effects: [
-          { type: 'addRubyFriction', value: 3 },
+          { type: 'addSilverFriction', value: 3 },
           { type: 'addDesync', value: 1 },
         ],
       },
@@ -114,7 +114,7 @@ export const dorothyPassages = {
 
   You click the heels together. The Bureau logs this as an "Unauthorized Home-Frequency Transmission." The slippers respond with a surge of silver friction — a hot, grinding sensation through the soles of your feet and up through the heel bones. The Kansas dust on your dress glows briefly with a wheat-gold light.
 
-  [ RUBY FRICTION: +5 ]
+  [ SILVER FRICTION: +5 ]
   [ HOME SIGNAL: ATTEMPTED ]
   [ STATUS: UNRESOLVED ]
   [ WARRANT LEVEL: +2 ]
@@ -127,7 +127,7 @@ export const dorothyPassages = {
         label: 'Click again — force the home frequency through.',
         target: 'DOROTHY_ORACLE_ENTRY',
         effects: [
-          { type: 'addRubyFriction', value: 3 },
+          { type: 'addSilverFriction', value: 3 },
           { type: 'addWarrant', value: 2 },
           { type: 'addDisplacement', value: 2 },
         ],
@@ -334,32 +334,32 @@ export const dorothyPassages = {
     text: [
       {
         minOverrender: 0,
-        content: `THE RUBY INCISION
+        content: `THE SILVER INCISION
 
-  The Dust Clerk follows the nerve thread down to the slipper — and makes a second cut, this time into the ruby fabric itself. The friction built up in the crystal releases in a single, blinding surge. Your heel bone grinds briefly against the ruby crystal lattice. The pain is precise, bright, and instructive.
+  The Dust Clerk follows the nerve thread down to the slipper — and makes a second cut, this time into the silver fabric itself. The friction built up in the crystal releases in a single, blinding surge. Your heel bone grinds briefly against the silver crystal lattice. The pain is precise, bright, and instructive.
 
-  [ RUBY FRICTION: CONSUMED ]
+  [ SILVER FRICTION: CONSUMED ]
   [ REALITY-BEND OPTIONS: OPEN ]
   [ NOTE: THE POWER COSTS THE HEEL ]
 
-  The Clerk reads the ruby dust and nerve together: "Reality-bend signal: available. Cost: permanent heel scarring." The choice is clear. The power to bend the road — to route toward home — is inside the slippers. It was always inside the slippers. It just requires the heel to know it.`,
+  The Clerk reads the silver dust and nerve together: "Reality-bend signal: available. Cost: permanent heel scarring." The choice is clear. The power to bend the road — to route toward home — is inside the slippers. It was always inside the slippers. It just requires the heel to know it.`,
       },
     ],
     choices: [
       {
-        label: 'Use the ruby power — attempt the home-frequency reality bend.',
+        label: 'Use the silver power — attempt the home-frequency reality bend.',
         target: 'DOROTHY_END_HOME',
         effects: [
-          { type: 'addRubyFriction', value: -5 },
+          { type: 'addSilverFriction', value: -5 },
           { type: 'addDesync', value: 3 },
           { type: 'setFlag', key: 'heel_scarred', value: true },
         ],
       },
       {
-        label: 'Save the ruby friction — route the power toward the road.',
+        label: 'Save the silver friction — route the power toward the road.',
         target: 'DOROTHY_PATH_ROAD',
         effects: [
-          { type: 'addRubyFriction', value: 5 },
+          { type: 'addSilverFriction', value: 5 },
           { type: 'addLoad', value: 12 },
         ],
       },
@@ -375,7 +375,7 @@ export const dorothyPassages = {
         minOverrender: 0,
         content: `THE WARRANT THREAD
 
-  The nerve thread reads in Bureau frequency. The Dust Clerk produces a small official form from the folds of her gingham-soil dress. "Displacement index has crossed warrant threshold. Filing now." The form is stamped while the heel is still open.
+  The nerve thread reads in Bureau frequency. The Dust Clerk produces a small official form from the folds of her checked-fabric dress. "Displacement index has crossed warrant threshold. Filing now." The form is stamped while the heel is still open.
 
   [ WARRANT LEVEL: +6 ]
   [ CALM PATHS: GRAYED ]
@@ -455,7 +455,7 @@ export const dorothyPassages = {
 
   The Dust Clerk presses both hands against the slippers' heels simultaneously. The crystal lattice grinds against the heel bone — not a click, but a sustained pressure that generates heat. You cry out. The Clerk makes a note. The pain is bright and precise and grants you temporary clarity about the road ahead.
 
-  [ RUBY FRICTION: +8 ]
+  [ SILVER FRICTION: +8 ]
   [ PERMANENT LIMP: LOGGED ]
   [ TEMPORARY POWER: AVAILABLE ]
   [ COST: FILED UNDER "NECESSARY PROCEDURE" ]
@@ -468,7 +468,7 @@ export const dorothyPassages = {
         label: 'Use the slipper power at full cost — force a home route.',
         target: 'DOROTHY_END_HOME',
         effects: [
-          { type: 'addRubyFriction', value: 8 },
+          { type: 'addSilverFriction', value: 8 },
           { type: 'setFlag', key: 'heel_scarred', value: true },
           { type: 'setFlag', key: 'permanent_limp', value: true },
         ],
@@ -477,7 +477,7 @@ export const dorothyPassages = {
         label: 'Bank the power and continue — route toward the road.',
         target: 'DOROTHY_PATH_ROAD',
         effects: [
-          { type: 'addRubyFriction', value: 8 },
+          { type: 'addSilverFriction', value: 8 },
           { type: 'setFlag', key: 'permanent_limp', value: true },
           { type: 'addLoad', value: 10 },
         ],
@@ -501,7 +501,7 @@ export const dorothyPassages = {
   [ SURREALITY: ELEVATED ]
 
   {{#flags.graft_scarecrow_straw_in_dorothy}}Dry agricultural fiber scratches briefly inside the heel wound — Scarecrow material, windblown and deeply lost.{{/flags.graft_scarecrow_straw_in_dorothy}}
-  {{#flags.graft_tinman_oil_in_dorothy}}A slick warmth where the nerve meets the ruby — the oil has already been here.{{/flags.graft_tinman_oil_in_dorothy}}
+  {{#flags.graft_tinman_oil_in_dorothy}}A slick warmth where the nerve meets the silver — the oil has already been here.{{/flags.graft_tinman_oil_in_dorothy}}
 
   You feel their displacement briefly — the Lion's fear-tremor, the Tin Man's mechanical ache, the Scarecrow's thinking-about-thinking. They are all lost in the same way you are. The Clerk makes a note: "Body horror echo — cross-character contamination confirmed."`,
       },
@@ -545,7 +545,7 @@ export const dorothyPassages = {
   [ COMPLIANCE GRAFT: ACTIVE ]
   [ COST: FORGETTING A SMALL PART OF HOME ]
 
-  You feel safe. The road is clear. The Bureau warrant level drops. The Dust Clerk stamps: "Dust seal: applied. Unit D-01: compliant and mobile." The gingham dress stops glowing. The slippers hum at a lower, more acceptable frequency.
+  You feel safe. The road is clear. The Bureau warrant level drops. The Dust Clerk stamps: "Dust seal: applied. Unit D-01: compliant and mobile." The checked dress stops glowing. The slippers hum at a lower, more acceptable frequency.
 
   You are safe. You are moving in the right direction. You are not sure you remember what the farmhouse door looked like.`,
       },
@@ -580,7 +580,7 @@ export const dorothyPassages = {
         minOverrender: 0,
         content: `THE TERMINAL PULL
 
-  The Dust Clerk pulls the nerve thread past its elastic limit. It snaps. Both ends retract — one into the heel, one into the Clerk's corn-husk hand. A wave of displacement washes through the body like a frequency without a home. The ruby dust floats up from the heel wound in a fine, glittering column.
+  The Dust Clerk pulls the nerve thread past its elastic limit. It snaps. Both ends retract — one into the heel, one into the Clerk's corn-husk hand. A wave of displacement washes through the body like a frequency without a home. The silver dust floats up from the heel wound in a fine, glittering column.
 
   [ DISPLACEMENT: CRITICAL ]
   [ NERVE: SEVERED ]
@@ -675,7 +675,7 @@ export const dorothyPassages = {
 
   [ UNIT D-01 // STATUS: DORMANT ]
   [ DISPLACEMENT: SUSPENDED ]
-  [ RUBY FRICTION: COOLING ]
+  [ SILVER FRICTION: COOLING ]
 
   The Poppy Drones emerge from the blooms. They are careful and soft-voiced. They inject the resin through the heel wound — it was already open, after all. New roots push gently through the injection site.
 

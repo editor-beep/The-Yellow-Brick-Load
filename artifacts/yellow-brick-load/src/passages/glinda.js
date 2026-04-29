@@ -179,7 +179,7 @@ export const glindaPassages = {
         effects: [],
       },
       {
-        label: '4. The Grace Incision — borrow Dorothy\'s ruby friction.',
+        label: '4. The Grace Incision — borrow Dorothy\'s silver friction.',
         target: 'GLINDA_ORACLE_4',
         effects: [],
       },
@@ -317,8 +317,8 @@ export const glindaPassages = {
         ],
       },
       {
-        label: 'Let the fractured view route toward the ruby refraction echo.',
-        target: 'GLINDA_END_RUBY_ECHO',
+        label: 'Let the fractured view route toward the silver refraction echo.',
+        target: 'GLINDA_END_SILVER_ECHO',
         effects: [
           { type: 'addRefraction', value: 8 },
           { type: 'graft', material: 'glinda_cracked_lens', target: 'dorothy' },
@@ -336,9 +336,9 @@ export const glindaPassages = {
         minOverrender: 0,
         content: `THE GRACE INCISION
 
-  The Auditor finds a thread of something that is not your own fluid — a ruby-dust signal, Dorothy-origin, already present in the refined fluid from prior contact. "She borrows a thread of your signal and weaves it into her own hem. It feels like kindness," the Clerk notes. The cross-echo with Dorothy's ruby friction is strong.
+  The Auditor finds a thread of something that is not your own fluid — a silver-dust signal, Dorothy-origin, already present in the refined fluid from prior contact. "She borrows a thread of your signal and weaves it into her own hem. It feels like kindness," the Clerk notes. The cross-echo with Dorothy's silver friction is strong.
 
-  [ RUBY ECHO: ACTIVE ]
+  [ SILVER ECHO: ACTIVE ]
   [ PARASITIC LINK: OPEN ]
   [ PINK SCARRING: PERMANENT ]
 
@@ -349,8 +349,8 @@ export const glindaPassages = {
     ],
     choices: [
       {
-        label: 'Deepen the parasitic link — route toward the ruby refraction echo.',
-        target: 'GLINDA_END_RUBY_ECHO',
+        label: 'Deepen the parasitic link — route toward the silver refraction echo.',
+        target: 'GLINDA_END_SILVER_ECHO',
         effects: [
           { type: 'addRefraction', value: 4 },
           { type: 'graft', material: 'glinda_grace', target: 'dorothy' },
@@ -683,11 +683,11 @@ export const glindaPassages = {
     onEnter: [],
   },
 
-  GLINDA_END_RUBY_ECHO: {
-    id: 'GLINDA_END_RUBY_ECHO',
+  GLINDA_END_SILVER_ECHO: {
+    id: 'GLINDA_END_SILVER_ECHO',
     character: 'glinda',
     endingId: 'G-END-09',
-    endingName: 'The Ruby Refraction',
+    endingName: 'The Silver Refraction',
     institution: 'Signal',
     systemStatus: 'Transmitting',
     isEnding: true,
@@ -700,7 +700,7 @@ export const glindaPassages = {
   Tone: Signal-Pink.
   Theme: To share a frequency is to become it.
 
-  The ruby thread from Dorothy's nerve is woven through your grace lines permanently. The two signals — your refraction and her displacement — have merged into a frequency that neither frequency registry can classify. You are transmitting home and grace simultaneously, on a channel that the Bureau cannot log.
+  The silver thread from Dorothy's nerve is woven through your grace lines permanently. The two signals — your refraction and her displacement — have merged into a frequency that neither frequency registry can classify. You are transmitting home and grace simultaneously, on a channel that the Bureau cannot log.
 
   [ UNIT GLINDA // STATUS: TRANSMITTING ]
   [ FREQUENCY: UNCLASSIFIED ]

@@ -263,9 +263,9 @@ export const oracleDecks = {
 
   // ══════════════════════════════════════════════════════════════════════════
   // DOROTHY — Dust Oracle
-  // Interloper: Dust Clerk — woman in faded gingham, skin is swirling topsoil
+  // Interloper: Dust Clerk — woman in faded checked apron, skin is swirling topsoil
   // and requisition forms, eyes like spinning silver dollars. Makes shallow
-  // incisions at heel or temple, reads nerve fiber mixed with ruby dust and
+  // incisions at heel or temple, reads nerve fiber mixed with silver dust and
   // Kansas soil.
   // Triggers at displacement >= 5.
   // ══════════════════════════════════════════════════════════════════════════
@@ -283,10 +283,10 @@ export const oracleDecks = {
       },
       {
         id: 'dorothy_02',
-        name: 'Ruby Incision',
+        name: 'Silver Incision',
         cardText: 'A cross-section of the Silver Shoe — the inner lining where sole contacts skin. The friction channel is visible. The channel runs from the shoe into the heel and up the spine. It has been running since the landing.',
-        ritualText: 'The Dust Clerk traces the incision line along the dorsum of the foot before cutting. The cut is shallow, cold, and quick. The ruby-bright dust in the channel glows briefly. She logs the glow frequency without blinking.',
-        effect: { type: 'addRubyFriction', value: 3 },
+        ritualText: 'The Dust Clerk traces the incision line along the dorsum of the foot before cutting. The cut is shallow, cold, and quick. The silver-bright dust in the channel glows briefly. She logs the glow frequency without blinking.',
+        effect: { type: 'addSilverFriction', value: 3 },
         surreality: 8,
       },
       {
@@ -309,7 +309,7 @@ export const oracleDecks = {
         id: 'dorothy_05',
         name: 'Kansas Residue',
         cardText: 'A soil sample labeled PRE-OZ. The soil is dry and grey and carries a mineral signature no Oz geological survey has ever catalogued. The Bureau calls it "legacy contamination." The soil calls it nothing. It is just soil.',
-        ritualText: 'The Clerk scrapes dust from the gingham hem and examines it under a lens mounted in her eye socket. "Foreign substrate. This has not been updated to Oz-standard soil chemistry." She logs the contamination. The contamination log is very long.',
+        ritualText: 'The Clerk scrapes dust from the checked hem and examines it under a lens mounted in her eye socket. "Foreign substrate. This has not been updated to Oz-standard soil chemistry." She logs the contamination. The contamination log is very long.',
         effect: { type: 'addDisplacement', value: 1 },
         surreality: 4,
       },
@@ -334,7 +334,7 @@ export const oracleDecks = {
         name: 'Silver Conductor',
         cardText: 'The Silver Shoes rendered as a circuit schematic. The heel-to-heel connection is the active circuit. Three clicks close the loop. The diagram labels the destination as "INPUT: [REDACTED]."',
         ritualText: 'The Clerk crouches at the feet and taps each shoe heel twice with a conductor probe. The shoes hum at a frequency she measures and logs carefully. "Destination lock: partial. The signal is present but the input address has not been entered." She waits. She is very patient.',
-        effect: { type: 'addRubyFriction', value: 2 },
+        effect: { type: 'addSilverFriction', value: 2 },
         surreality: 10,
       },
     ],
@@ -421,7 +421,7 @@ export const oracleDecks = {
 
   // ══════════════════════════════════════════════════════════════════════════
   // WITCH WEST — Malice Oracle
-  // Interloper: Obsidian Matron — tall, green-tinged, cloak lined with living
+  // Interloper: Obsidian Matron — tall, iron-pale, cloak lined with living
   // eyeballs and iron flechettes, one eye a rotating obsidian orb projecting
   // invisible restraint fields. The original Witch had one eye that functioned
   // as a powerful telescope; she enslaved the yellow Winkies; she wore the
@@ -444,7 +444,7 @@ export const oracleDecks = {
         id: 'witch_west_02',
         name: 'Scorched Slurry',
         cardText: 'A fluid rendered as a combustion byproduct — whatever was there before this, transmuted by sustained heat into something that flows without shape. The diagram labels this "Rendered Asset."',
-        ritualText: 'The Matron produces a small green-burning implement and applies it to the incision site. The heat is precise and controlled and leaves a slurry at the channel edge. She scrapes this slurry into a collection vessel. The labeling is very neat.',
+        ritualText: 'The Matron produces a small obsidian-burning implement and applies it to the incision site. The heat is precise and controlled and leaves a slurry at the channel edge. She scrapes this slurry into a collection vessel. The labeling is very neat.',
         effect: { type: 'addWarrant', value: 2 },
         surreality: 9,
       },
@@ -474,9 +474,9 @@ export const oracleDecks = {
       },
       {
         id: 'witch_west_06',
-        name: 'Green Fire Extract',
-        cardText: 'A green flame in a container labeled CONFISCATED — OZ-STANDARD COMBUSTION PROTOCOL. The flame casts light on things it should not be able to light. The container is insufficient.',
-        ritualText: 'The Matron extracts a small amount of green fire from the incision site and places it in a glass vial with practiced efficiency. The fire casts green light through the glass onto the Matron\'s face. Her face is green-tinged. The fire is going home.',
+        name: 'Dark Fire Extract',
+        cardText: 'A dark flame in a container labeled CONFISCATED — OZ-STANDARD COMBUSTION PROTOCOL. The flame casts light on things it should not be able to light. The container is insufficient.',
+        ritualText: 'The Matron extracts a small amount of dark fire from the incision site and places it in a glass vial with practiced efficiency. The fire casts cold light through the glass onto the Matron\'s face. Her face is iron-pale. The fire is going home.',
         effect: { type: 'addObfuscation', value: 2 },
         surreality: 7,
       },
@@ -524,7 +524,7 @@ export const oracleDecks = {
         name: 'Silver Residue',
         cardText: 'The Silver Shoes after reassignment — still warm from their previous owner, now transferring signal to a new heel. The residue of the previous owner\'s signal is still in the lining. It takes three days to fade. It has been two days.',
         ritualText: 'The Assessor swabs the inside of each Silver Shoe with a collection strip and holds it up to the light. The previous signal is still present. "Residual biometric data: significant. Reassignment: incomplete." The shoes continue to hum.',
-        effect: { type: 'addRubyFriction', value: 2 },
+        effect: { type: 'addSilverFriction', value: 2 },
         surreality: 8,
       },
       {

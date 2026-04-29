@@ -25,7 +25,7 @@
  *   stitchIntegrity — Scarecrow: seam cohesion
  *   displacement   — Dorothy: location drift
  *   warrantLevel   — Dorothy: Bureau attention level
- *   rubyFriction   — Dorothy: slippers charge
+ *   silverFriction — Dorothy: slippers charge
  *   refraction     — Glinda: light/truth distortion
  *   insulation     — Glinda: protective buffer
  *   obfuscation    — Wizard: smoke-and-mirrors density
@@ -60,7 +60,7 @@ const INITIAL_STATE = {
   stitchIntegrity: 0,  // Scarecrow — seam cohesion
   displacement: 0,     // Dorothy — location drift
   warrantLevel: 0,     // Dorothy — Bureau attention level
-  rubyFriction: 0,     // Dorothy — slippers charge
+  silverFriction: 0,   // Dorothy — slippers charge
   refraction: 0,       // Glinda — light/truth distortion
   insulation: 0,       // Glinda — protective buffer
   obfuscation: 0,      // Wizard — smoke-and-mirrors density
@@ -102,7 +102,7 @@ export const useGameStore = create((set, get) => ({
   addStitchIntegrity:(n) => set((s) => ({ stitchIntegrity:s.stitchIntegrity + n })),
   addDisplacement:   (n) => set((s) => ({ displacement:   s.displacement   + n })),
   addWarrant:        (n) => set((s) => ({ warrantLevel:   s.warrantLevel   + n })),
-  addRubyFriction:   (n) => set((s) => ({ rubyFriction:   s.rubyFriction   + n })),
+  addSilverFriction: (n) => set((s) => ({ silverFriction: s.silverFriction + n })),
   addRefraction:     (n) => set((s) => ({ refraction:     s.refraction     + n })),
   addInsulation:     (n) => set((s) => ({ insulation:     s.insulation     + n })),
   addObfuscation:    (n) => set((s) => ({ obfuscation:    s.obfuscation    + n })),
