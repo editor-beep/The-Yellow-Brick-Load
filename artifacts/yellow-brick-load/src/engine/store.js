@@ -29,6 +29,10 @@
  *   refraction     — Glinda: light/truth distortion
  *   insulation     — Glinda: protective buffer
  *   obfuscation    — Wizard: smoke-and-mirrors density
+ *   malice         — Witch West: surveillance malice intensity
+ *   thermal        — Witch West: thermodynamic heat level
+ *   saturation     — Witch West: crucible saturation (0–100)
+ *   loopCount      — Witch West: deep audit loop counter
  */
 
 import { create } from 'zustand'
@@ -64,6 +68,10 @@ const INITIAL_STATE = {
   refraction: 0,       // Glinda — light/truth distortion
   insulation: 0,       // Glinda — protective buffer
   obfuscation: 0,      // Wizard — smoke-and-mirrors density
+  malice: 0,           // Witch West — surveillance malice intensity
+  thermal: 0,          // Witch West — thermodynamic heat level
+  saturation: 0,       // Witch West — crucible saturation (0–100)
+  loopCount: 0,        // Witch West — deep audit loop counter
 }
 
 export const useGameStore = create((set, get) => ({
@@ -112,6 +120,10 @@ export const useGameStore = create((set, get) => ({
   addRefraction:     (n) => set((s) => ({ refraction:     s.refraction     + n })),
   addInsulation:     (n) => set((s) => ({ insulation:     s.insulation     + n })),
   addObfuscation:    (n) => set((s) => ({ obfuscation:    s.obfuscation    + n })),
+  addMalice:         (n) => set((s) => ({ malice:         s.malice         + n })),
+  addThermal:        (n) => set((s) => ({ thermal:        s.thermal        + n })),
+  addSaturation:     (n) => set((s) => ({ saturation:     Math.min(100, s.saturation + n) })),
+  incrementLoopCounter: () => set((s) => ({ loopCount: s.loopCount + 1 })),
   setWetwareStat:    (stat, val) => set({ [stat]: val }),
 
   // ── Soft Reset ───────────────────────────────────────────────────────────

@@ -50,7 +50,7 @@ You take what the Bureau needs and discard the rest as beautiful, screaming wast
         target: 'WITCH_WEST_MONKEY_SWEEP_B',
         effects: [
           { type: 'addWarrant', value: 5 },
-          { type: 'addLoad', value: 8 },
+          { type: 'addMalice', value: 8 },
         ],
       },
       {
@@ -58,7 +58,7 @@ You take what the Bureau needs and discard the rest as beautiful, screaming wast
         target: 'WITCH_WEST_ORACLE_ENTRY',
         effects: [
           { type: 'addWarrant', value: 8 },
-          { type: 'addLoad', value: 10 },
+          { type: 'addMalice', value: 10 },
         ],
       },
     ],
@@ -112,7 +112,7 @@ How delightful.`,
         target: 'WITCH_WEST_MONKEY_SWEEP_B',
         effects: [
           { type: 'addWarrant', value: 5 },
-          { type: 'addLoad', value: 8 },
+          { type: 'addMalice', value: 8 },
         ],
       },
       {
@@ -120,7 +120,7 @@ How delightful.`,
         target: 'WITCH_WEST_POPPY_BUFFER',
         effects: [
           { type: 'addWarrant', value: 3 },
-          { type: 'addLoad', value: 10 },
+          { type: 'addMalice', value: 10 },
         ],
       },
       {
@@ -128,7 +128,7 @@ How delightful.`,
         target: 'WITCH_WEST_FIELD_CONFRONTATION',
         effects: [
           { type: 'addWarrant', value: 7 },
-          { type: 'addLoad', value: 6 },
+          { type: 'addMalice', value: 12 },
         ],
       },
     ],
@@ -701,7 +701,7 @@ This is how mercy is measured — one incision at a time.`,
       {
         label: 'Commence the full extraction — read the malice residue.',
         target: 'WITCH_WEST_ORACLE_DRAW',
-        effects: [{ type: 'addWarrant', value: 3 }, { type: 'addLoad', value: 5 }],
+        effects: [{ type: 'addMalice', value: 5 }, { type: 'addWarrant', value: 3 }],
       },
       {
         label: 'Release the restraint for now. Let them marinate in anticipation.',
@@ -712,7 +712,7 @@ This is how mercy is measured — one incision at a time.`,
         ],
       },
     ],
-    onEnter: [],
+    onEnter: [{ type: 'addMalice', value: 4 }],
   },
 
   WITCH_WEST_ORACLE_DRAW: {
@@ -778,7 +778,7 @@ The eye dilates.
         effects: [],
       },
     ],
-    onEnter: [{ type: 'addWarrant', value: 4 }],
+    onEnter: [{ type: 'addMalice', value: 6 }, { type: 'addWarrant', value: 4 }],
   },
 
   // ── Oracle Outcomes 1–8 ────────────────────────────────────────────────────
@@ -810,15 +810,15 @@ The Clerk makes a satisfied note as blood and lymph run down the iron shafts.
       {
         label: 'Press the judicial harvest toward full enforcement.',
         target: 'WITCH_WEST_END_FLECHETTE',
-        effects: [{ type: 'addWarrant', value: 8 }, { type: 'addLoad', value: 10 }],
+        effects: [{ type: 'addMalice', value: 8 }, { type: 'addWarrant', value: 6 }],
       },
       {
         label: 'Let the flechettes guide the subject toward the melting point.',
         target: 'WITCH_WEST_END_MELTING',
-        effects: [{ type: 'addWarrant', value: 6 }, { type: 'addLoad', value: 5 }],
+        effects: [{ type: 'addMalice', value: 6 }, { type: 'addThermal', value: 5 }],
       },
     ],
-    onEnter: [{ type: 'addWarrant', value: 5 }],
+    onEnter: [{ type: 'addMalice', value: 5 }],
   },
 
   WITCH_WEST_ORACLE_2: {
@@ -842,15 +842,15 @@ The target's body grows hotter. You can see the heat haze rising from the open i
       {
         label: 'Accelerate the timeline — route toward the melting verdict.',
         target: 'WITCH_WEST_END_MELTING',
-        effects: [{ type: 'addWarrant', value: 7 }, { type: 'addLoad', value: 10 }],
+        effects: [{ type: 'addMalice', value: 7 }, { type: 'addThermal', value: 10 }],
       },
       {
         label: 'Hold the timeline for one more session.',
         target: 'WITCH_WEST_MONKEY_SWEEP_B',
-        effects: [{ type: 'addWarrant', value: 5 }, { type: 'setCompliance', value: 'high' }],
+        effects: [{ type: 'addMalice', value: 5 }, { type: 'addWarrant', value: 6 }],
       },
     ],
-    onEnter: [{ type: 'addWarrant', value: 6 }],
+    onEnter: [{ type: 'addMalice', value: 6 }],
   },
 
   WITCH_WEST_ORACLE_3: {
@@ -879,7 +879,7 @@ The obsidian eye dilates, drinking in the beautiful chemical reaction.`,
         label: 'Let the scorched slurry route toward corrosion and scrap.',
         target: 'WITCH_WEST_END_SCRAP',
         effects: [
-          { type: 'addWarrant', value: 8 },
+          { type: 'addMalice', value: 8 },
           { type: 'addDesynctear', value: 6 },
           { type: 'addCorrosion', value: 10 },
           { type: 'graft', material: 'witch_west_slag', target: 'tinman' },
@@ -888,10 +888,10 @@ The obsidian eye dilates, drinking in the beautiful chemical reaction.`,
       {
         label: 'Redirect the slag into the melting verdict.',
         target: 'WITCH_WEST_END_MELTING',
-        effects: [{ type: 'addWarrant', value: 7 }, { type: 'addLoad', value: 8 }],
+        effects: [{ type: 'addMalice', value: 7 }, { type: 'addThermal', value: 8 }],
       },
     ],
-    onEnter: [{ type: 'addWarrant', value: 7 }, { type: 'addDesynctear', value: 3 }],
+    onEnter: [{ type: 'addMalice', value: 7 }, { type: 'addDesynctear', value: 3 }],
   },
 
   WITCH_WEST_ORACLE_4: {
@@ -916,7 +916,7 @@ The monkey drone tastes the exposed tissue with small hooks at the end of its wi
         label: 'Confirm the surveillance graft — route toward the command channel.',
         target: 'WITCH_WEST_END_COMMAND',
         effects: [
-          { type: 'addWarrant', value: 8 },
+          { type: 'addMalice', value: 8 },
           { type: 'graft', material: 'surveillance_thread', target: 'lion' },
           { type: 'graft', material: 'surveillance_thread', target: 'dorothy' },
           { type: 'setCompliance', value: 'high' },
@@ -926,12 +926,12 @@ The monkey drone tastes the exposed tissue with small hooks at the end of its wi
         label: 'Pull the graft wire violently — route toward the flechette ending.',
         target: 'WITCH_WEST_END_FLECHETTE',
         effects: [
-          { type: 'addWarrant', value: 6 },
+          { type: 'addMalice', value: 6 },
           { type: 'addDesynctear', value: 5 },
         ],
       },
     ],
-    onEnter: [{ type: 'addWarrant', value: 6 }],
+    onEnter: [{ type: 'addMalice', value: 6 }],
   },
 
   WITCH_WEST_ORACLE_5: {
@@ -956,8 +956,8 @@ The pain is exquisite. The burns are regulation.
         label: 'Follow the searing truth toward the melting ending.',
         target: 'WITCH_WEST_END_MELTING',
         effects: [
-          { type: 'addWarrant', value: 9 },
-          { type: 'addLoad', value: 12 },
+          { type: 'addMalice', value: 9 },
+          { type: 'addThermal', value: 12 },
           { type: 'setFlag', key: 'obsidian_burns', value: true },
         ],
       },
@@ -965,13 +965,13 @@ The pain is exquisite. The burns are regulation.
         label: 'Use the burns to unlock the command channel.',
         target: 'WITCH_WEST_END_COMMAND',
         effects: [
-          { type: 'addWarrant', value: 8 },
+          { type: 'addMalice', value: 8 },
           { type: 'setCompliance', value: 'high' },
           { type: 'setFlag', key: 'obsidian_burns', value: true },
         ],
       },
     ],
-    onEnter: [{ type: 'addWarrant', value: 7 }],
+    onEnter: [{ type: 'addMalice', value: 7 }],
   },
 
   WITCH_WEST_ORACLE_6: {
@@ -994,7 +994,7 @@ The obsidian eye approves. "Optimal restraint geometry achieved," the Clerk note
         label: 'Accept the lattice compliance — route toward the command channel.',
         target: 'WITCH_WEST_END_COMMAND',
         effects: [
-          { type: 'addWarrant', value: 10 },
+          { type: 'addMalice', value: 10 },
           { type: 'setCompliance', value: 'absolute' },
           { type: 'addLoad', value: 15 },
         ],
@@ -1003,12 +1003,12 @@ The obsidian eye approves. "Optimal restraint geometry achieved," the Clerk note
         label: 'Let the lattice crush inward — route toward the scrap ending.',
         target: 'WITCH_WEST_END_SCRAP',
         effects: [
-          { type: 'addWarrant', value: 9 },
+          { type: 'addMalice', value: 9 },
           { type: 'addCorrosion', value: 8 },
         ],
       },
     ],
-    onEnter: [{ type: 'addWarrant', value: 8 }],
+    onEnter: [{ type: 'addMalice', value: 8 }],
   },
 
   WITCH_WEST_ORACLE_7: {
@@ -1037,7 +1037,7 @@ The obsidian eye will always know exactly where they are.`,
         label: 'Confirm the shadow graft — route toward the command channel.',
         target: 'WITCH_WEST_END_COMMAND',
         effects: [
-          { type: 'addWarrant', value: 10 },
+          { type: 'addMalice', value: 10 },
           { type: 'graft', material: 'witch_west_shadow', target: 'lion' },
           { type: 'graft', material: 'witch_west_shadow', target: 'dorothy' },
         ],
@@ -1046,12 +1046,12 @@ The obsidian eye will always know exactly where they are.`,
         label: 'Let the parasitic link burn too hot — route toward the melting verdict.',
         target: 'WITCH_WEST_END_MELTING',
         effects: [
-          { type: 'addWarrant', value: 9 },
-          { type: 'addLoad', value: 8 },
+          { type: 'addMalice', value: 9 },
+          { type: 'addThermal', value: 8 },
         ],
       },
     ],
-    onEnter: [{ type: 'addWarrant', value: 8 }],
+    onEnter: [{ type: 'addMalice', value: 8 }],
   },
 
   WITCH_WEST_ORACLE_8: {
@@ -1080,8 +1080,8 @@ The dissolution is thorough, meticulous, and deeply authorized.`,
         label: 'Accept the melting verdict — route toward thermodynamic finality.',
         target: 'WITCH_WEST_END_MELTING',
         effects: [
-          { type: 'addWarrant', value: 12 },
-          { type: 'addLoad', value: 15 },
+          { type: 'addMalice', value: 12 },
+          { type: 'addThermal', value: 15 },
           { type: 'setCompliance', value: 'broken' },
         ],
       },
@@ -1089,12 +1089,12 @@ The dissolution is thorough, meticulous, and deeply authorized.`,
         label: 'Dissolve the remains into the scrap stream.',
         target: 'WITCH_WEST_END_SCRAP',
         effects: [
-          { type: 'addWarrant', value: 10 },
+          { type: 'addMalice', value: 10 },
           { type: 'addCorrosion', value: 10 },
         ],
       },
     ],
-    onEnter: [{ type: 'addWarrant', value: 10 }],
+    onEnter: [{ type: 'addMalice', value: 10 }],
   },
 
   // ─────────────────────────────────────────────────────────────────────────
@@ -1246,7 +1246,7 @@ You stand at the center of the tower. The obsidian eye is docked in the wall, di
 [ STATUS: ACTIVE AUDIT ]
 [ ASSETS TRACKED: LION, TINMAN, SCARECROW, DOROTHY ]
 [ SYSTEM NOISE: {{load}}% ]
-[ JUDICIAL AUTHORITY: ESCALATING ]
+[ JUDICIAL AUTHORITY: {{warrantLevel}} ]
 The air is thin and tastes of static. The Clerk stands behind you, a living tally-sheet waiting for your next command. The target is in the net, but the extraction is not yet legal. You must build the case—layer by layer, choice by choice.`,
       },
     ],
@@ -1383,8 +1383,9 @@ The Clerk slams a heavy ledger onto the command console.
         content: `THE WESTERN EYE - DEEP AUDIT INTERFACE
 The tower hums. It is the sound of a thousand flechettes vibrating in their racks. The obsidian eye is no longer a window; it is a surgical tool.
 [ SYSTEM STATS ]
+ * WARRANT LEVEL: {{warrantLevel}} / 30
  * SYSTEM LOAD: {{load}}%
- * CRUCIBLE SATURATION: {{flags.saturation}}%
+ * CRUCIBLE SATURATION: {{saturation}}%
  * ASSET STATUS: [ {{flags.asset_condition}} ]
 The Lion is pinned. The Scarecrow is unspooling. The Tin Man is seized. You are the operator. Every click of your green fingers on the bone-keys re-indexes reality.
 "Mistress," the Clerk whispers, "the data is pooling. Shall we refine the residue or continue the harvest?"`,
@@ -1404,7 +1405,7 @@ The Lion is pinned. The Scarecrow is unspooling. The Tin Man is seized. You are 
       {
         label: 'PHARMACOLOGY: Refine the Poppy Resin in the crucible.',
         target: 'WITCH_WEST_POPPY_BUFFER',
-        effects: [{ type: 'addLoad', value: 10 }],
+        effects: [{ type: 'addSaturation', value: 10 }],
       },
       {
         label: 'ADMINISTRATION: File a "Pre-emptive Deletion" warrant.',
@@ -1417,7 +1418,7 @@ The Lion is pinned. The Scarecrow is unspooling. The Tin Man is seized. You are 
         effects: [],
       },
     ],
-    onEnter: [],
+    onEnter: [{ type: 'incrementLoopCounter' }],
   },
 
   // ─────────────────────────────────────────────────────────────────────────
@@ -1438,7 +1439,7 @@ You zoom the obsidian eye into the Lion's pinned form. His anatomy is a map of f
       {
         label: 'Sector Alpha: The Mane (Vibration Residue).',
         target: 'WITCH_WEST_SCRAPE_MANE',
-        effects: [{ type: 'addLoad', value: 5 }],
+        effects: [{ type: 'addSaturation', value: 5 }],
       },
       {
         label: 'Sector Delta: The Paws (Kinetic Friction).',
@@ -1475,7 +1476,7 @@ The Lion flinches—a sharp, electric spasm.
       {
         label: 'Feed the hairs into the crucible.',
         target: 'WITCH_WEST_LION_AUDIT_HUB',
-        effects: [{ type: 'addLoad', value: 15 }, { type: 'setFlag', key: 'lion_hair_logged', value: true }],
+        effects: [{ type: 'addSaturation', value: 15 }, { type: 'setFlag', key: 'lion_hair_logged', value: true }],
       },
       {
         label: 'Braid the hairs into a "Fear-Whip".',
@@ -1510,7 +1511,7 @@ The Clerk presents a series of forms. To the unindexed, these are just paper. To
       {
         label: 'Label it "Judicial Reclamation" (Higher Warrant).',
         target: 'WITCH_WEST_COMMAND_DECK_V2',
-        effects: [{ type: 'addWarrant', value: 10 }, { type: 'addLoad', value: 5 }],
+        effects: [{ type: 'addWarrant', value: 10 }, { type: 'addSaturation', value: 5 }],
       },
     ],
     onEnter: [],
@@ -1568,7 +1569,7 @@ The Clerk marks the beat with a twitching finger. "The guards are reaching their
       {
         label: 'Force the Guards to double the tempo. (Add Load / Increase Heat).',
         target: 'WITCH_WEST_THERMAL_SURGE',
-        effects: [{ type: 'addLoad', value: 15 }, { type: 'addLoad', value: 10 }],
+        effects: [{ type: 'addLoad', value: 15 }, { type: 'addSaturation', value: 10 }],
       },
       {
         label: "Use the chant to soothe the Lion's tremor (Lower Load).",
@@ -1607,7 +1608,7 @@ Home = Null.
       {
         label: 'Try to vent the heat (Requires Water Protocol).',
         target: 'WITCH_WEST_END_MELTING',
-        effects: [{ type: 'addLoad', value: 20 }],
+        effects: [{ type: 'addSaturation', value: 20 }],
       },
     ],
     onEnter: [{ type: 'triggerOracle' }],

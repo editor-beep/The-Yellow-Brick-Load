@@ -30,6 +30,8 @@
  *
  * Text content supports simple token replacement:
  *   {{load}}  {{desync}}  {{compliance}}  {{character}}  {{flags.KEY}}
+ *   {{warrantLevel}}  {{malice}}  {{thermal}}  {{saturation}}
+ *   {{stats.KEY}}  (any top-level state property by name)
  *   {{#flags.KEY}}conditional text{{/flags.KEY}}  (shown only when flag is truthy)
  */
 
@@ -49,6 +51,15 @@ export function interpolate(text, state) {
     .replace(/{{character}}/g, state.character || 'unit')
     .replace(/{{reset_count}}/g, state.reset_count)
     .replace(/{{smudge}}/g, state.smudge)
+    // ── Witch West stat tokens ────────────────────────────────────────────
+    .replace(/{{warrantLevel}}/g, state.warrantLevel)
+    .replace(/{{malice}}/g, state.malice)
+    .replace(/{{thermal}}/g, state.thermal)
+    .replace(/{{saturation}}/g, state.saturation)
+    // ── Generic {{stats.KEY}} namespace ──────────────────────────────────
+    .replace(/{{stats\.([^}]+)}}/g, (_, key) =>
+      state[key] !== undefined ? state[key] : ''
+    )
     .replace(/{{flags\.([^}]+)}}/g, (_, key) =>
       state.flags && state.flags[key] !== undefined ? state.flags[key] : ''
     )
@@ -125,6 +136,14 @@ export function applyEffects(effects) {
       case 'addRefraction':      store.addRefraction(effect.value); break
       case 'addInsulation':      store.addInsulation(effect.value); break
       case 'addObfuscation':     store.addObfuscation(effect.value); break
+      // ── Witch West stat effects ──────────────────────────────────────────
+      case 'addMalice':          store.addMalice(effect.value); break
+      case 'addThermal':         store.addThermal(effect.value); break
+      case 'addSaturation':      store.addSaturation(effect.value); break
+      case 'incrementLoopCounter': store.incrementLoopCounter(); break
+      case 'checkEndingThreshold': break  // evaluated by UI, no-op here
+      case 'checkLoopCount':     break    // evaluated by UI, no-op here
+      case 'setSystemStatus':    break    // narrative label, no-op here
       case 'setWetwareStat':     store.setWetwareStat(effect.stat, effect.value); break
       // ── Graft / gray-out / unlock effects ───────────────────────────────
       case 'graft':
