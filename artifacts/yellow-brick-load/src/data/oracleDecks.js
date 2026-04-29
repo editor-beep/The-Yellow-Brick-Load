@@ -421,7 +421,7 @@ export const oracleDecks = {
 
   // ══════════════════════════════════════════════════════════════════════════
   // WITCH WEST — Malice Oracle
-  // Interloper: Obsidian Matron — tall, iron-pale, cloak lined with living
+  // Interloper: Obsidian Matron — tall, pallid, cloak lined with living
   // eyeballs and iron flechettes, one eye a rotating obsidian orb projecting
   // invisible restraint fields. The original Witch had one eye that functioned
   // as a powerful telescope; she enslaved the yellow Winkies; she wore the
@@ -476,7 +476,7 @@ export const oracleDecks = {
         id: 'witch_west_06',
         name: 'Dark Fire Extract',
         cardText: 'A dark flame in a container labeled CONFISCATED — OZ-STANDARD COMBUSTION PROTOCOL. The flame casts light on things it should not be able to light. The container is insufficient.',
-        ritualText: 'The Matron extracts a small amount of dark fire from the incision site and places it in a glass vial with practiced efficiency. The fire casts cold light through the glass onto the Matron\'s face. Her face is iron-pale. The fire is going home.',
+        ritualText: 'The Matron extracts a small amount of dark fire from the incision site and places it in a glass vial with practiced efficiency. The fire casts cold light through the glass onto the Matron\'s face. Her face is pallid. The fire is going home.',
         effect: { type: 'addObfuscation', value: 2 },
         surreality: 7,
       },

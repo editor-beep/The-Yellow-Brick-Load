@@ -5,7 +5,7 @@
  * The Obsidian Eye Ritual (Surveillance Vivisection)
  * Triggered when warrantLevel >= 5
  *
- * Oracle Interloper: The Obsidian Matron — tall, iron-pale, black cloak
+ * Oracle Interloper: The Obsidian Matron — tall, pallid, black cloak
  * lined with living eyeballs and iron flechettes. One eye is a large rotating
  * obsidian orb projecting restraint fields. Makes deep, deliberate cuts while
  * recording every twitch and leak.
@@ -181,7 +181,7 @@ export const witchWestPassages = {
         effects: [],
       },
       {
-        label: '5. The Green Patina Burn — thermodynamic heat surge.',
+        label: '5. The Surveillance Burn — thermodynamic heat surge.',
         target: 'WITCH_WEST_ORACLE_5',
         effects: [],
       },
@@ -371,9 +371,9 @@ export const witchWestPassages = {
     text: [
       {
         minOverrender: 0,
-        content: `THE OBSIDIAN SCORCH
+        content: `THE SURVEILLANCE BURN
 
-  The obsidian eye increases its projection intensity until the restraint field itself generates heat. The obsidian aura of the Surveillance Operator — the institutional signature, the Bureau-standard audit mark — scorches into the exposed incision. Permanent chemical burns form in the exact shape of the restraint-field grid.
+  The obsidian eye increases its projection intensity until the restraint field itself generates heat. The dark aura of the Surveillance Operator — the institutional signature, the Bureau-standard audit mark — scorches into the exposed incision. Permanent chemical burns form in the exact shape of the restraint-field grid.
 
   [ THERMODYNAMIC SURGE: ACTIVE ]
   [ SEARING TRUTH PATHS: UNLOCKED ]
