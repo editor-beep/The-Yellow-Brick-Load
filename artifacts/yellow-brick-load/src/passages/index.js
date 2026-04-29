@@ -18,7 +18,8 @@
  *   Munchkin Swarm, Winged Monkeys, Kalidah Merge, Poppy Drones
  */
 
-import { lionPassages } from './lion.js'
+import { lionBranchPassages } from './lion_branches.js'
+import { lionEndingPassages } from './lion_endings.js'
 import { tinManPassages } from './tin_man.js'
 import { scarecrowPassages } from './scarecrow.js'
 import { dorothyPassages } from './dorothy.js'
@@ -55,7 +56,7 @@ Goodbye, Unit {{character}}. I'll see you in the next render.
 }
 
 export const allPassages = {
-  ...lionPassages,
+  ...lionBranchPassages, ...lionEndingPassages,
   ...tinManPassages,
   ...scarecrowPassages,
   ...dorothyPassages,

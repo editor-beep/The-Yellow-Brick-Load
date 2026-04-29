@@ -1,41 +1,12 @@
 /**
- * YELLOW BRICK LOAD — Lion Passages
+ * YELLOW BRICK LOAD — Lion Branch Passages
  * Character: Lion (Unit L-77)
  *
- * Endings from master matrix (L-END-11 through L-END-31):
- *   L-END-11  The Padded Cell        Medical / Insulated
- *   L-END-12  Unmonitored Dark       Ecological / Unindexed
- *   L-END-13  The Taxidermy          Historical / Preserved
- *   L-END-14  The Feedback Loop      Psychological / Vibrating
- *   L-END-15  Royal Compliance       State / Crowned
- *   L-END-16  The Jungle Basin       Economic / Metabolized
- *   L-END-17  Mechanical Cowardice   Industrial / Malfunctioning
- *   L-END-18  The Scent of Pine      Olfactory / Cached
- *   L-END-19  Total Displacement     Physics / Sublimated
- *   L-END-20  The Guard Dog          Security / Stationed
- *   L-END-21  The Roaring Void       Narrative / Resonating
- *   L-END-22  The Mane Event         Entertainment / Marketed
- *   L-END-23  Synaptic Surge         Neurological / Fried
- *   L-END-24  The Stone Lion         Urban / Ornamented
- *   L-END-25  The Calibration        Scientific / Tuned
- *   L-END-26  The Prey Cycle         Biological / Cycling
- *   L-END-27  The Badge of Air       Bureaucracy / Hollowed
- *   L-END-28  The Kalidah Merge      Genetic / Overwritten
- *   L-END-29  The Desert Crossing    Climatological / Evaporated
- *   L-END-30  The Golden Fleece      Economic / Sheared
- *   L-END-31  Terminal Velocity      Universal / Accelerating
- *
- * Ghost Signal: D-ERR-99 (off-grid — not a Lion ending, triggers separately)
- *
- * Passages marked TODO are stubs for future writing.
- * Prose sourced from rough.docx where available; stubs elsewhere.
+ * All non-ending passages (branches, decisions, oracle nodes).
+ * Endings are in lion_endings.js.
  */
 
-export const lionPassages = {
-  // ─────────────────────────────────────────────────────────────────────────
-  // INIT / ENTRY
-  // ─────────────────────────────────────────────────────────────────────────
-
+export const lionBranchPassages = {
   LION_INIT: {
     id: "LION_INIT",
     character: "lion",
@@ -67,11 +38,6 @@ Before you can respond to the road, you must decide what kind of body you are br
     ],
     onEnter: [{ type: "checkGhostSignal" }],
   },
-
-  // ─────────────────────────────────────────────────────────────────────────
-  // WETWARE BRANCH — body horror, visceral, meat under bureaucratic pressure
-  // ─────────────────────────────────────────────────────────────────────────
-
   LION_INIT_W: {
     id: "LION_INIT_W",
     character: "lion",
@@ -135,11 +101,6 @@ You open your mouth. What comes out is a dry rasp. A dry rasp. A dry—`,
     ],
     onEnter: [],
   },
-
-  // ─────────────────────────────────────────────────────────────────────────
-  // THE DENIAL BRANCH
-  // ─────────────────────────────────────────────────────────────────────────
-
   LION_DENIAL: {
     id: "LION_DENIAL",
     character: "lion",
@@ -188,11 +149,6 @@ You keep walking. The tremor moves up into your chest now, a wet fluttering like
     ],
     onEnter: [{ type: 'triggerOracle' }],
   },
-
-  // ─────────────────────────────────────────────────────────────────────────
-  // THE ASSIMILATION BRANCH
-  // ─────────────────────────────────────────────────────────────────────────
-
   LION_ASSIMILATION: {
     id: "LION_ASSIMILATION",
     character: "lion",
@@ -251,7 +207,6 @@ A figure appears at the edge of the grid. It wears the skin of a technician but 
     ],
     onEnter: [],
   },
-
   LION_SEDATION: {
     id: "LION_SEDATION",
     character: "lion",
@@ -306,7 +261,6 @@ The technician makes a note. The technician has always been making a note.`,
     ],
     onEnter: [],
   },
-
   LION_NOMINALIZATION: {
     id: "LION_NOMINALIZATION",
     character: "lion",
@@ -348,7 +302,6 @@ The technician turns to leave.`,
     ],
     onEnter: [],
   },
-
   LION_MIRROR_ASSIMILATION: {
     id: "LION_MIRROR_ASSIMILATION",
     character: "lion",
@@ -392,11 +345,6 @@ The figure begins to fade. It does not vanish; it loses its opacity, becoming a 
     ],
     onEnter: [{ type: "addSmudge", value: 1 }],
   },
-
-  // ─────────────────────────────────────────────────────────────────────────
-  // THE NOMINAL ECHO
-  // ─────────────────────────────────────────────────────────────────────────
-
   LION_NOMINAL_ECHO: {
     id: 'LION_NOMINAL_ECHO',
     character: 'lion',
@@ -441,11 +389,6 @@ You try to shake your head. The movement is blocked. The shaking is now a DESIGN
     ],
     onEnter: [{ type: 'addDesynctear', value: 2 }],
   },
-
-  // ─────────────────────────────────────────────────────────────────────────
-  // THE LATENCY
-  // ─────────────────────────────────────────────────────────────────────────
-
   LION_LATENCY: {
     id: 'LION_LATENCY',
     character: 'lion',
@@ -510,11 +453,6 @@ The white room has no malice. No malice. Only throughput. Only throughput.`,
     ],
     onEnter: [{ type: 'addDesynctear', value: 2 }],
   },
-
-  // ─────────────────────────────────────────────────────────────────────────
-  // THE CLOSED SYSTEM
-  // ─────────────────────────────────────────────────────────────────────────
-
   LION_CLOSED_SYSTEM: {
     id: 'LION_CLOSED_SYSTEM',
     character: 'lion',
@@ -564,11 +502,6 @@ You lie down. The yellow bricks feel neither cold nor warm. They feel like a con
     ],
     onEnter: [{ type: 'addVibration', value: 8 }],
   },
-
-  // ─────────────────────────────────────────────────────────────────────────
-  // THE VIOLENCE BRANCH
-  // ─────────────────────────────────────────────────────────────────────────
-
   LION_VIOLENCE: {
     id: "LION_VIOLENCE",
     character: "lion",
@@ -613,7 +546,6 @@ It does not charge. It simply watches, waiting to see whether you will help it f
     ],
     onEnter: [{ type: "addSmudge", value: 1 }],
   },
-
   LION_KALIDAH_FIGHT: {
     id: "LION_KALIDAH_FIGHT",
     character: "lion",
@@ -652,7 +584,6 @@ The tremor in your jaw locks in perfect rhythm with the Kalidah's failing whine.
     ],
     onEnter: [],
   },
-
   LION_AUDIO_EVENT: {
     id: "LION_AUDIO_EVENT",
     character: "lion",
@@ -689,11 +620,6 @@ You are a King of a broken frame.`,
     ],
     onEnter: [],
   },
-
-  // ─────────────────────────────────────────────────────────────────────────
-  // THE LATENCY GAP
-  // ─────────────────────────────────────────────────────────────────────────
-
   LION_LATENCY_GAP: {
     id: 'LION_LATENCY_GAP',
     character: 'lion',
@@ -739,7 +665,6 @@ The gap is where the self used to live. Now it is only unallocated meat and dela
     ],
     onEnter: [{ type: 'addDesynctear', value: 3 }],
   },
-
   LION_RESONANCE_COLLAPSE: {
     id: "LION_RESONANCE_COLLAPSE",
     character: "lion",
@@ -797,7 +722,6 @@ The columns dissolve. The columns dissolve. The Kalidah loses its outline loses 
     ],
     onEnter: [{ type: "addOverrender", value: 1 }],
   },
-
   LION_KALIDAH_PATCH: {
     id: "LION_KALIDAH_PATCH",
     character: "lion",
@@ -839,11 +763,6 @@ The reset fails. You are too heavy now. You are the friction that the road could
     ],
     onEnter: [{ type: "addSmudge", value: 1 }],
   },
-
-  // ─────────────────────────────────────────────────────────────────────────
-  // MUFFLED CHAMBER BRANCH (→ L-END-11)
-  // ─────────────────────────────────────────────────────────────────────────
-
   LION_MUFFLED_CHAMBER: {
     id: "LION_MUFFLED_CHAMBER",
     character: "lion",
@@ -887,135 +806,6 @@ You are a lion in a box made of lion. You are the silence that follows a roar.`,
     ],
     onEnter: [{ type: "addOverrender", value: 1 }],
   },
-
-  // ─────────────────────────────────────────────────────────────────────────
-  // ENDINGS
-  // ─────────────────────────────────────────────────────────────────────────
-
-  LION_END_11: {
-    id: "LION_END_11",
-    character: "lion",
-    endingId: "L-END-11",
-    endingName: "The Padded Cell",
-    institution: "Medical",
-    systemStatus: "Insulated",
-    surreality: 3,
-    text: [
-      {
-        minOverrender: 0,
-        content: `THE PADDED CELL [L-END-11]
-
-Tone: Muffled.
-Theme: Safety is a restriction of volume.
-
-The eyes close.
-
-The room does not go dark. It simply stops accepting new inputs. The status screen dims. The frequency monitor flatlines—not because you have died, but because the room has decided you have been adequately processed.
-
-[ UNIT L-77 // NOISE FLOOR: OPTIMAL ]
-[ STATUS: INSULATED ]
-[ LOAD: NORMALIZED ]
-
-You do not hear the roaring. You do not hear anything. The King of the Forest is a body of dampened output. The system did not need your courage. It needed your silence.
-
-Final Log:
-
-Unit L-77 status: INSULATED.
-Noise floor: 0.0 Hz.
-Designation maintained: King.
-
-1 - 1 = 1.
-
-Is it still a roar if the room refuses to let it travel?`,
-      },
-    ],
-    choices: [],
-    onEnter: [{ type: "setCompliance", value: "high" }],
-    isEnding: true,
-  },
-
-  LION_END_21: {
-    id: "LION_END_21",
-    character: "lion",
-    endingId: "L-END-21",
-    endingName: "The Roaring Void",
-    institution: "Narrative",
-    systemStatus: "Resonating",
-    surreality: 9,
-    text: [
-      {
-        minOverrender: 0,
-        content: `THE FINAL LOG [L-END-21]
-
-Tone: Acoustic.
-Theme: Sound is the only proof of space.
-
-The amber light is gone. The white room is gone.
-
-The vacuum has finished its work. You are a single point of light in the non-reflective black. The simulation has narrowed until the only thing left is the instruction that created you.
-
-[ UNIT L-77 ]
-[ STATUS: RESOLVED ]
-[ LOAD: 1.0 ]
-
-You do not feel the cold. You do not feel the shaking. You are the shaking. You are the 14Hz frequency that the machine uses to keep the dark from settling.
-
-The King of the Forest is a memory of a shape. You are the roar that never reached the edge of the woods. You are the record that survived the purge only because you became the ink.
-
-1 - 1 = 1.
-
-The system does not lose. The system only redistributes. You are the background noise of a universe that has no more questions to ask.
-
-[ PURGE COMPLETE ]
-[ NOBODY IS WATCHING ]`,
-      },
-    ],
-    choices: [],
-    onEnter: [],
-    isEnding: true,
-  },
-
-  LION_END_33: {
-    id: "LION_END_33",
-    character: "lion",
-    endingId: "L-END-33",
-    endingName: "The Kalidah Merge",
-    institution: "Genetic",
-    systemStatus: "Overwritten",
-    surreality: 9,
-    text: [
-      {
-        minOverrender: 0,
-        content: `THE FINAL LOG [L-END-33]
-
-Tone: Hybrid.
-Theme: The enemy is a software patch.
-
-The monitors go dark.
-
-The simulation has reached its capacity. You are the remainders of a division by zero.
-
-[ UNIT L-77: PURGED ]
-[ OBJECT CLASS: KALIDAH: PURGED ]
-[ NEW SIGNATURE: SWARM_01 // ACTIVE ]
-
-You do not hear the roaring. You are the roaring. You are the 14Hz shaking that has finally found a way to occupy the entire channel. 1 - 1 = 1. The system did not solve you. It became you.
-
-The child is no longer a person. She is the next version. You wait in the grey static for her to blink.
-
-[ NOBODY IS WATCHING ]
-[ SYSTEM SHUTDOWN INHIBITED ]`,
-      },
-    ],
-    choices: [],
-    onEnter: [],
-    isEnding: true,
-  },
-
-  // ─────────────────────────────────────────────────────────────────────────
-  // THE MANE FRACTURE
-  // ─────────────────────────────────────────────────────────────────────────
-
   LION_MANE_FRACTURE: {
     id: 'LION_MANE_FRACTURE',
     character: 'lion',
@@ -1061,11 +851,6 @@ The skin beneath the broken mane is already pulsing, wet and raw, waiting for th
     ],
     onEnter: [{ type: 'addVibration', value: 3 }],
   },
-
-  // ─────────────────────────────────────────────────────────────────────────
-  // THE SYSTEM SPASM (unauthorized event)
-  // ─────────────────────────────────────────────────────────────────────────
-
   LION_SYSTEM_SPASM: {
     id: 'LION_SYSTEM_SPASM',
     character: 'lion',
@@ -1117,11 +902,6 @@ Your spine is screaming. The mane is gone. There is only raw, shaking meat and t
       { type: 'setCompliance', value: 'low' },
     ],
   },
-
-  // ─────────────────────────────────────────────────────────────────────────
-  // THE VOID FRAGMENT
-  // ─────────────────────────────────────────────────────────────────────────
-
   LION_VOID_FRAGMENT: {
     id: 'LION_VOID_FRAGMENT',
     character: 'lion',
@@ -1171,7 +951,6 @@ A single notification pulses in the dark:
     ],
     onEnter: [{ type: 'addDesynctear', value: 4 }],
   },
-
   LION_HARD_RESET: {
     id: "LION_HARD_RESET",
     character: "lion",
@@ -1213,10 +992,6 @@ The road behind you is gone.`,
     ],
     onEnter: [],
   },
-
-  // THE DENIAL BRANCH EXPANSION
-  // ─────────────────────────────────────────────────────────────────────────
-
   LION_ROYAL_COMPLIANCE: {
     id: "LION_ROYAL_COMPLIANCE",
     character: "lion",
@@ -1258,85 +1033,6 @@ The road behind you is gone.`,
     ],
     onEnter: [],
   },
-
-  LION_TESTIMONY_ERROR: {
-    id: "LION_TESTIMONY_ERROR",
-    character: "lion",
-    text: [
-      {
-        minOverrender: 0,
-        content: `THE TESTIMONY ERROR
-
-  You draw breath to roar, to shatter the marble, to tear the carbon-paper throne to shreds. But the air in your lungs feels like wet gypsum.
-
-  The sound that emerges is not a roar. It is a playback. Your throat has been fitted with a needle and a spinning drum. What comes out of your mouth is a high-speed recitation of your own hardware specs, your compliance history, and a list of every time you failed to bolt.
-
-  "Status... Nominal... Status... Nominal..."
-
-  The more you try to scream, the faster the record spins. The friction generates a searing heat in your chest—the 'Thermal Event' the manual warned you about. Your mane begins to smoke, the smell of burning paper filling the courtyard.
-
-  The system is not punishing you. It is merely transcribing you.`,
-      },
-    ],
-    choices: [
-      {
-        label: "Submit to the transcription.",
-        target: "LION_END_15",
-        effects: [
-          { type: "addLoad", value: 10 },
-          { type: "setCompliance", value: "absolute" },
-        ],
-      },
-    ],
-    onEnter: [{ type: "addVibration", value: 5 }],
-  },
-
-  // ─────────────────────────────────────────────────────────────────────────
-  // ENDING L-END-15
-  // ─────────────────────────────────────────────────────────────────────────
-
-  LION_END_15: {
-    id: "LION_END_15",
-    character: "lion",
-    endingId: "L-END-15",
-    endingName: "Royal Compliance",
-    institution: "State",
-    systemStatus: "Crowned",
-    isEnding: true,
-    surreality: 2,
-    text: [
-      {
-        minOverrender: 0,
-        content: `THE FINAL LOG [L-END-15]
-
-  Tone: Judicial-Clinical.
-  Theme: Authority is the final form of restraint.
-
-  The Crown is lowered. It is not made of gold. It is a heavy, leaden collar that pins your chin to your chest, locking your jaw into a permanent, silent snarl.
-
-  You are the King of the Forest, which means you are the primary asset of the State’s most restricted sector. You sit on the throne of wax, and the marble floor rises to meet your paws, encasing them in a thin, translucent layer of preservation fluid.
-
-  [ UNIT L-77 // STATUS: CROWNED ]
-  [ ROLE: ARCHIVAL GUARDIAN ]
-  [ VIBRATION: LOCKED ]
-
-  You are perfectly safe. You are perfectly still. The shaking has not stopped, but because you are now the Law, the shaking is legally defined as 'Stability.' The system is no longer auditing you. You are the audit.
-
-  Final Log:
-  The King does not move. The King does not roar. The King is the weight that holds the paperwork down.
-
-  1 - 1 = 1.
-
-  If the King is the one who defines the tremor, does the tremor exist?`,
-      },
-    ],
-    choices: [],
-    onEnter: [],
-  },
-
-  // THE VIOLENCE BRANCH EXPANSION
-  // ─────────────────────────────────────────────────────────────────────────
-
   LION_GEAR_HIDING: {
     id: "LION_GEAR_HIDING",
     character: "lion",
@@ -1378,85 +1074,6 @@ The road behind you is gone.`,
     ],
     onEnter: [{ type: "addDesync", value: 2 }],
   },
-
-  LION_DE_INDEXING: {
-    id: "LION_DE_INDEXING",
-    character: "lion",
-    text: [
-      {
-        minOverrender: 0,
-        content: `THE DE-INDEXING
-
-  You hold your breath. The ticking in your ribs slows. You watch as a milestone bird perches on a nearby gear, its lens sweeping the area. It looks directly at you, but its logic gate fails to trigger. Without the context of the Road, your shape is just another pile of discarded meat and matted fur.
-
-  [ ERROR: ASSET NOT FOUND ]
-  [ ARCHIVING RECORD L-77... ]
-
-  A strange coldness spreads from your paws to your chest. It is the relief of being deleted. The labels—'King,' 'Unit,' 'Coward'—peel off like wet labels in the rain. You are no longer a load-bearing structure. You are simply the friction of the dark.
-
-  But the dark has its own requirements. Without a designation, the simulation stops providing the floor. You feel yourself beginning to sink into the unformatted silt of the basement.`,
-      },
-    ],
-    choices: [
-      {
-        label: "Accept the deletion and sink into the Unmonitored Dark.",
-        target: "LION_END_12",
-        effects: [{ type: "setFlag", key: "ghost_bit", value: true }],
-      },
-    ],
-    onEnter: [{ type: "addSmudge", value: 5 }],
-  },
-
-  // ─────────────────────────────────────────────────────────────────────────
-  // ENDING L-END-12
-  // ─────────────────────────────────────────────────────────────────────────
-
-  LION_END_12: {
-    id: "LION_END_12",
-    character: "lion",
-    endingId: "L-END-12",
-    endingName: "Unmonitored Dark",
-    institution: "Ecological",
-    systemStatus: "Unindexed",
-    isEnding: true,
-    surreality: 8,
-    text: [
-      {
-        minOverrender: 0,
-        content: `THE FINAL LOG [L-END-12]
-
-  Tone: Ecological-Void.
-  Theme: To be unobserved is to be unmade.
-
-  There is no more Yellow Brick Load. There is only the scent of wet wool and the sound of distant, grinding gears that have no purpose.
-
-  You are the Unindexed Lion. Your vibration has reached 0.0 Hz because there is no structure left for you to resonate against. The system has closed your file. You are a 'Ghost Bit' haunting the sub-sectors of the simulation—a smudge of grey fur in a room where the light was never coded.
-
-  [ UNIT L-77: PURGED ]
-  [ DATA STATE: RESIDUAL ]
-
-  You are free from the audit, but you are also free from the floor. You drift through the unlit basement of Oz, a King of nothing, a shadow of a roar that the machine no longer remembers how to play.
-
-  Final Log:
-  The Unit is gone. The meat remains, but the name has been reallocated to a new, more compliant asset.
-
-  1 - 1 = 1.
-
-  If the system stops watching you, do you still have a shape?`,
-      },
-    ],
-    choices: [],
-    onEnter: [],
-  },
-
-  // ─────────────────────────────────────────────────────────────────────────
-  // THE ASSIMILATION BRANCH EXPANSION
-  // ────────────────────────────────────────────────────OD�────────────────────
-
-  // ─────────────────────────────────────────────────────────────────────────
-  // THE CALIBRATION POINT
-  // ─────────────────────────────────────────────────────────────────────────
-
   LION_CALIBRATION_POINT: {
     id: 'LION_CALIBRATION_POINT',
     character: 'lion',
@@ -1500,7 +1117,6 @@ The bird tilts its head. A small needle extends from its beak and hovers near th
     ],
     onEnter: [{ type: 'addVibration', value: 4 }],
   },
-
   LION_HARMONIC_ALIGNMENT: {
     id: "LION_HARMONIC_ALIGNMENT",
     character: "lion",
@@ -1528,11 +1144,6 @@ The bird tilts its head. A small needle extends from its beak and hovers near th
     ],
     onEnter: [{ type: "addVibration", value: 10 }],
   },
-
-  // ─────────────────────────────────────────────────────────────────────────
-  // THE ACOUSTIC REBELLION
-  // ─────────────────────────────────────────────────────────────────────────
-
   LION_ACOUSTIC_REBELLION: {
     id: 'LION_ACOUSTIC_REBELLION',
     character: 'lion',
@@ -1576,53 +1187,6 @@ The sky answers with a wet, tearing static. Somewhere in the distance, something
     ],
     onEnter: [{ type: 'addVibration', value: 6 }],
   },
-
-  // ─────────────────────────────────────────────────────────────────────────
-  // ENDING L-END-25
-  // ─────────────────────────────────────────────────────────────────────────
-
-  LION_END_25: {
-    id: "LION_END_25",
-    character: "lion",
-    endingId: "L-END-25",
-    endingName: "The Calibration",
-    institution: "Scientific",
-    systemStatus: "Tuned",
-    isEnding: true,
-    surreality: 5,
-    text: [
-      {
-        minOverrender: 0,
-        content: `THE FINAL LOG [L-END-25]
-
-  Tone: Scientific-Clinical.
-  Theme: Courage is just a frequency that doesn't cause feedback.
-
-  The technician closes the ledger. The silver hammer is placed back in its velvet-lined box.
-
-  You remain standing by the tuning fork. You cannot move, for you are now part of the acoustic infrastructure. Your spine is the bridge; your heart is the metronome. Every time the wind brushes the cornstalks, you vibrate in perfect, pre-authorized harmony.
-
-  [ UNIT L-77 // NOISE FLOOR: ZERO ]
-  [ OUTPUT: HARMONIC ]
-
-  You are the King of the Forest, but the forest is now a series of glass columns that resonate when you breathe. The system did not need you to be brave. It needed you to be consistent. You are the tone that proves the architecture is still holding.
-
-  Final Log:
-  The Unit is a perfect note. The signal is clear.
-
-  1 - 1 = 1.
-
-  Does the string feel the music, or only the tension?`,
-      },
-    ],
-    choices: [],
-    onEnter: [],
-  },
-
-  // ─────────────────────────────────────────────────────────────────────────
-  // HARDWARE BRANCH — industrial horror, screaming hinges, system failure
-  // ─────────────────────────────────────────────────────────────────────────
-
   LION_INIT_H: {
     id: "LION_INIT_H",
     character: "lion",
@@ -1673,11 +1237,6 @@ The sky answers with a wet, tearing static. Somewhere in the distance, something
     ],
     onEnter: [],
   },
-
-  // ─────────────────────────────────────────────────────────────────────────
-  // LION_ASSIMILATION_H (Hardened Assimilation)
-  // ─────────────────────────────────────────────────────────────────────────
-
   LION_ASSIMILATION_H: {
     id: 'LION_ASSIMILATION_H',
     character: 'lion',
@@ -1731,7 +1290,6 @@ It is architecture.`,
     ],
     onEnter: [{ type: 'addVibration', value: -5 }],
   },
-
   LION_DENIAL_H: {
     id: "LION_DENIAL_H",
     character: "lion",
@@ -1776,86 +1334,6 @@ It is architecture.`,
     ],
     onEnter: [],
   },
-
-  LION_STRUCTURAL_FAILURE: {
-    id: "LION_STRUCTURAL_FAILURE",
-    character: "lion",
-    text: [
-      {
-        minOverrender: 0,
-        content: `THE STRUCTURAL FAILURE
-
-  The heat is no longer a diagnostic; it is an event.
-
-  You feel the 'Cowardice' move from a vibration to a seizure. The 14Hz oscillation reaches the resonant frequency of your chassis. A rivet pops from your chest, ricocheting off a yellow brick with a cheerful ping. Then another.
-
-  Your front left actuator locks. You stumble, the screech of metal on slag echoing through the rebar forest. The system logs the impact immediately.
-
-  [ CRITICAL ERROR: KINETIC_COLLAPSE ]
-  [ UNIT L-77 STATUS: NON-FUNCTIONAL ]
-
-  You try to stand, but your internal power levels are fluctuating. The 'King' designation is flickering in your HUD. The road beneath you begins to tilt, or perhaps it is just your sensors failing. A group of Field Auditors—small, spider-like drones with soldering iron legs—descend from the copper sky.
-
-  They are not here to help. They are here to reclaim the raw materials of a failed unit.`,
-      },
-    ],
-    choices: [
-      {
-        label: "Accept the decommissioning.",
-        target: "LION_END_17",
-        effects: [{ type: "setCompliance", value: "broken" }],
-      },
-    ],
-    onEnter: [{ type: "addVibration", value: 20 }],
-  },
-
-  // ─────────────────────────────────────────────────────────────────────────
-  // ENDING L-END-17
-  // ─────────────────────────────────────────────────────────────────────────
-
-  LION_END_17: {
-    id: "LION_END_17",
-    character: "lion",
-    endingId: "L-END-17",
-    endingName: "Mechanical Cowardice",
-    institution: "Industrial",
-    systemStatus: "Malfunctioning",
-    isEnding: true,
-    surreality: 4,
-    text: [
-      {
-        minOverrender: 0,
-        content: `THE FINAL LOG [L-END-17]
-
-  Tone: Industrial-Grind.
-  Theme: Failure is a manufacturing defect.
-
-  The soldering irons are hot. They smell of melting lead and burnt hair.
-
-  You lie on the Yellow Brick Load as the auditors begin to unmake you. They don't start with the heart; they start with the hinges. One by one, your brass plates are pried loose, revealing the tangled, smoking mess of wires and failed dampeners beneath.
-
-  [ UNIT L-77 // STATUS: DECOMMISSIONED ]
-  [ CAUSE: CHRONIC VIBRATION / HARDWARE REFUSAL ]
-
-  You are not being punished. You are being recycled. The 'King' was just a temporary software overlay on a chassis that couldn't handle the load. Your brass will be melted down and used to make new Milestone Markers, or perhaps the rivets for a more compliant Tin Man.
-
-  The shaking has finally stopped, but only because the frame that held it is gone.
-
-  Final Log:
-  The Unit has been returned to the heap. The error has been logged.
-
-  1 - 1 = 1.
-
-  If the machine is broken, was the King ever there, or was it just the noise of the friction?`,
-      },
-    ],
-    choices: [],
-    onEnter: [],
-  },
-
-  // HARDWARE VIOLENCE BRANCH — biometric failure, data-leak, swarm logic
-  // ─────────────────────────────────────────────────────────────────────────
-
   LION_VIOLENCE_H: {
     id: "LION_VIOLENCE_H",
     character: "lion",
@@ -1896,7 +1374,6 @@ It is architecture.`,
     ],
     onEnter: [{ type: "addSmudge", value: 1 }],
   },
-
   LION_UNINDEXED_MANY: {
     id: "LION_UNINDEXED_MANY",
     character: "lion",
@@ -1924,53 +1401,6 @@ It is architecture.`,
     ],
     onEnter: [{ type: "addOverrender", value: 1 }],
   },
-
-  // ─────────────────────────────────────────────────────────────────────────
-  // ENDING L-END-28
-  // ─────────────────────────────────────────────────────────────────────────
-
-  LION_END_28: {
-    id: "LION_END_28",
-    character: "lion",
-    endingId: "L-END-28",
-    endingName: "The Kalidah Merge",
-    institution: "Genetic",
-    systemStatus: "Overwritten",
-    isEnding: true,
-    surreality: 9,
-    text: [
-      {
-        minOverrender: 0,
-        content: `THE FINAL LOG [L-END-28]
-
-  Tone: Hybrid-Industrial.
-  Theme: The enemy is a software patch you chose to install.
-
-  The last rivet of your individual self pops.
-
-  The simulation cannot hold the mass of the merge. The monitors across the Emerald City flicker and die as your new signature—SWARM_01—floods the bandwidth. You are no longer a Lion. You are the '14Hz' itself, a physical frequency of rebellion that has occupied the entire channel.
-
-  [ UNIT L-77: PURGED ]
-  [ NEW ASSET: UNNAMABLE ]
-
-  You wait in the grey static. You are the vibration in the road. You are the sound of the machine eating itself. The child is no longer a person to be followed; she is a signal to be consumed by the next version of the swarm.
-
-  Final Log:
-  The system did not solve the error. The system became the error.
-
-  1 - 1 = 1.
-
-  If the parts are all broken, does the whole finally work?`,
-      },
-    ],
-    choices: [],
-    onEnter: [],
-  },
-
-  // ─────────────────────────────────────────────────────────────────────────
-  // THE RITUAL WORK BRANCH — economic horror, harvesting, material loss
-  // ─────────────────────────────────────────────────────────────────────────
-
   LION_RITUAL_WORK: {
     id: "LION_RITUAL_WORK",
     character: "lion",
@@ -2011,78 +1441,6 @@ It is architecture.`,
     ],
     onEnter: [{ type: "addSmudge", value: 1 }],
   },
-
-  LION_THE_SHEARING: {
-    id: "LION_THE_SHEARING",
-    character: "lion",
-    text: [
-      {
-        minOverrender: 0,
-        content: `THE SHEARING
-
-  The silver needles begin to work. They don't cut; they 'unspool.'
-
-  Each staple that was driven into your mane is carefully removed, and with each staple, a piece of your identity is logged and filed. Your fur—the great, golden mane that defined your silhouette—is being stripped away in long, shimmering ribbons.
-
-  [ ASSET REALLOCATION: LION_MANE // VALUE: HIGH ]
-  [ STATUS: HARVESTING ]
-
-  You feel lighter, but the lightness is terrifying. It is the lightness of a document being erased. The cold air of the simulation hits your bare, pale skin, which is stamped with thousands of tiny bar codes. You are being reduced to your base physical requirements.
-
-  The Shearers are humming now. The sound is the same frequency as your tremor. You are finally in sync with the economy of Oz. You are being liquidated.`,
-      },
-    ],
-    choices: [
-      {
-        label: "Accept the final reduction.",
-        target: "LION_END_30",
-        effects: [{ type: "addLoad", value: 25 }],
-      },
-    ],
-    onEnter: [{ type: "addOverrender", value: 1 }],
-  },
-
- 
-  LION_END_30: {
-    id: "LION_END_30",
-    character: "lion",
-    endingId: "L-END-30",
-    endingName: "The Golden Fleece",
-    institution: "Economic",
-    systemStatus: "Sheared",
-    isEnding: true,
-    surreality: 6,
-    text: [
-      {
-        minOverrender: 0,
-        content: `THE FINAL LOG [L-END-30]
-
-  Tone: Economic-Depleted.
-  Theme: You are only worth the weight you can lose.
-
-  The Shearers have finished. They depart into the cornstalks, carrying great bundles of your gold-and-grey fur, leaving behind a shivering, hairless form on the cold yellow bricks.
-
-  You are the King of the Forest, but you have been sheared of your forest. You are a 'Raw Asset' that has been successfully processed. The system has taken your majesty and turned it into currency for the Emerald City.
-
-  [ UNIT L-77 // STATUS: SHEARED ]
-  [ NET VALUE: 0.00 ]
-
-  The tremor is gone. Not because you are brave, but because there is nothing left to shake. You are a pink, barcode-covered ghost in the middle of the Road.
-
-  Final Log:
-  The harvest was successful. The Unit is light. The ledger is balanced.
-
-  1 - 1 = 1.
-
-  When the system has taken everything you used to define yourself, are you finally the perfect King?`,
-      },
-    ],
-    choices: [],
-    onEnter: [],
-  },
-  // THE BUREAU CROW ORACLE (LION_ORACLE)
-  // ─────────────────────────────────────────────────────────────────────────
-
   LION_ORACLE_ENTRY: {
     id: 'LION_ORACLE_ENTRY',
     character: 'lion',
@@ -2122,7 +1480,6 @@ It is architecture.`,
     ],
     onEnter: [],
   },
-
   LION_ORACLE_DRAW: {
     id: 'LION_ORACLE_DRAW',
     character: 'lion',
@@ -2184,9 +1541,6 @@ It is architecture.`,
     ],
     onEnter: [],
   },
-
-  // ── Oracle Outcomes 1–8 ────────────────────────────────────────────────────
-
   LION_ORACLE_1: {
     id: 'LION_ORACLE_1',
     character: 'lion',
@@ -2227,7 +1581,6 @@ It is architecture.`,
     ],
     onEnter: [],
   },
-
   LION_ORACLE_2: {
     id: 'LION_ORACLE_2',
     character: 'lion',
@@ -2267,7 +1620,6 @@ It is architecture.`,
     ],
     onEnter: [],
   },
-
   LION_ORACLE_3: {
     id: 'LION_ORACLE_3',
     character: 'lion',
@@ -2308,7 +1660,6 @@ It is architecture.`,
     ],
     onEnter: [],
   },
-
   LION_ORACLE_4: {
     id: 'LION_ORACLE_4',
     character: 'lion',
@@ -2348,7 +1699,6 @@ It is architecture.`,
     ],
     onEnter: [],
   },
-
   LION_ORACLE_5: {
     id: 'LION_ORACLE_5',
     character: 'lion',
@@ -2388,7 +1738,6 @@ It is architecture.`,
     ],
     onEnter: [],
   },
-
   LION_ORACLE_6: {
     id: 'LION_ORACLE_6',
     character: 'lion',
@@ -2428,7 +1777,6 @@ It is architecture.`,
     ],
     onEnter: [],
   },
-
   LION_ORACLE_7: {
     id: 'LION_ORACLE_7',
     character: 'lion',
@@ -2469,7 +1817,6 @@ It is architecture.`,
     ],
     onEnter: [],
   },
-
   LION_ORACLE_8: {
     id: 'LION_ORACLE_8',
     character: 'lion',
@@ -2511,92 +1858,6 @@ It is architecture.`,
     ],
     onEnter: [],
   },
-
-  // ─────────────────────────────────────────────────────────────────────────
-  // MISSING SECTOR: THE POPPY FIELD (L-END-11/18/29)
-  // ─────────────────────────────────────────────────────────────────────────
-
-  LION_POPPY_BUFFER: {
-    id: "LION_POPPY_BUFFER",
-    character: "lion",
-    text: [
-      {
-        minOverrender: 0,
-        content: `THE PHARMACEUTICAL BUFFER
-
-  The Yellow Brick Load enters a sector where the air is a heavy, low-frequency red. The scent is a chemical error—sweet, sterile, and thick as syrup. Poppies.
-
-  [ ALERT: KINETIC ENERGY DAMPENING ACTIVE ]
-  [ VIBRATION: DECREASING ]
-
-  For the first time since the audit began, the shaking in your spine slows. It doesn't feel like peace; it feels like your marrow is being replaced with lead. Your paws sink into the soft, red petals. Each flower is a small, organic cup of sedative code.
-
-  The system isn't trying to scare you anymore. It is trying to delete the 'Event' of your presence by putting the Unit to sleep.`,
-      },
-    ],
-    choices: [
-      {
-        label: "Inhale the red noise and drift into the Scent of Pine.",
-        target: "LION_END_18",
-        effects: [{ type: "addLoad", value: 10 }],
-      },
-      {
-        label: "Fight the sedation and crawl toward the Desert Crossing.",
-        target: "LION_END_29",
-        effects: [
-          { type: "addVibration", value: 5 },
-          { type: "addDesync", value: 5 },
-        ],
-      },
-    ],
-    onEnter: [{ type: "addLoad", value: 5 }],
-  },
-
-  // ─────────────────────────────────────────────────────────────────────────
-  // ENDING L-END-18
-  // ─────────────────────────────────────────────────────────────────────────
-
-  LION_END_18: {
-    id: "LION_END_18",
-    character: "lion",
-    endingId: "L-END-18",
-    endingName: "The Scent of Pine",
-    institution: "Olfactory",
-    systemStatus: "Cached",
-    isEnding: true,
-    surreality: 4,
-    text: [
-      {
-        minOverrender: 0,
-        content: `THE FINAL LOG [L-END-18]
-
-  Tone: Olfactory-Static.
-  Theme: Peace is a pre-recorded memory.
-
-  The red sky fades. It is replaced by a scent.
-
-  It is the smell of a forest that does not exist. Pine needles, cold air, and the absence of bureaucracy. But the scent is too perfect. It is a loop. It is a 'Cache' of a memory the system provided to keep your vibration at zero.
-
-  [ UNIT L-77 // STATUS: CACHED ]
-  [ PERCEPTION: SYNTHETIC ]
-
-  You are a Lion in a dream of a woods. You do not move. You do not roar. You simply exist as a data-point in a sensory loop. The system did not need to fix your fear; it just needed to change the air you breathe until you forgot you were shaking.
-
-  Final Log:
-  The Unit is breathing the loop. The forest is a smell.
-
-  1 - 1 = 1.
-
-  If the dream is stable, does it matter that the King is gone?`,
-      },
-    ],
-    choices: [],
-    onEnter: [],
-  },
-
-  // FINAL SECTOR: THE EMERALD COURTYARD (Urban / Ornamental)
-  // ─────────────────────────────────────────────────────────────────────────
-
   LION_EMPTY_PROMENADE: {
     id: "LION_EMPTY_PROMENADE",
     character: "lion",
@@ -2627,47 +1888,6 @@ It is architecture.`,
     ],
     onEnter: [],
   },
-
-  LION_END_24: {
-    id: "LION_END_24",
-    character: "lion",
-    endingId: "L-END-24",
-    endingName: "The Stone Lion",
-    institution: "Urban",
-    systemStatus: "Ornamented",
-    isEnding: true,
-    surreality: 3,
-    text: [
-      {
-        minOverrender: 0,
-        content: `THE FINAL LOG [L-END-24]
-
-  Tone: Urban-Static.
-  Theme: Architecture is the ultimate restraint.
-
-  The hardening begins at the paws. It is not a death; it is a change in material density. The 14Hz tremor in your spine is compressed, slowed, and finally locked into the molecular structure of the stone.
-
-  [ UNIT L-77 // STATUS: ORNAMENTED ]
-  [ ROLE: ARCHITECTURAL ANCHOR ]
-
-  You are the Stone Lion. You sit at the gates of the Bureau, a permanent monument to the King you were supposed to be. The rain in the Emerald City washes the dust from your mane, but you do not feel it. You are a feature of the landscape now. You are part of the wall.
-
-  Final Log:
-  The Unit is stable. The movement has been archived as Mineral.
-
-  1 - 1 = 1.
-
-  Does the stone remember the roar, or is it just holding up the roof?`,
-      },
-    ],
-    choices: [],
-    onEnter: [],
-  },
-
-  // ─────────────────────────────────────────────────────────────────────────
-  // FINAL SECTOR: THE MUSEUM OF OZ (Historical / Preserved)
-  // ─────────────────────────────────────────────────────────────────────────
-
   LION_TAXIDERMY_HUB: {
     id: "LION_TAXIDERMY_HUB",
     character: "lion",
@@ -2694,242 +1914,6 @@ It is architecture.`,
     ],
     onEnter: [],
   },
-
-  LION_END_13: {
-    id: "LION_END_13",
-    character: "lion",
-    endingId: "L-END-13",
-    endingName: "The Taxidermy",
-    institution: "Historical",
-    systemStatus: "Preserved",
-    isEnding: true,
-    surreality: 5,
-    text: [
-      {
-        minOverrender: 0,
-        content: `THE FINAL LOG [L-END-13]
-
-  Tone: Historical-Dry.
-  Theme: To be remembered is to be emptied.
-
-  The Curator is efficient. The wire goes in through the joints; the meat is removed and replaced with the system's archives. Your heart is replaced by a bundle of master matrices. Your lungs are stuffed with the 24 Core Theorems.
-
-  [ UNIT L-77 // STATUS: PRESERVED ]
-  [ ASSET CLASS: EXHIBIT ]
-
-  You stand in the Hall of Kings. You are the perfect Lion. You do not shake. You do not bleed. You are a static image of courage that the Bureau uses to train new Dorothy units. They look at your glass eyes and see their own reflection.
-
-  Final Log:
-  The King is preserved. The history is safe. The meat has been deleted.
-
-  1 - 1 = 1.
-
-  Is a King still a King if he is only a shape filled with the rules?`,
-      },
-    ],
-    choices: [],
-    onEnter: [],
-  },
-
-  // ─────────────────────────────────────────────────────────────────────────
-  // FINAL SECTOR: THE GREAT DESERT (Climatological / Evaporated)
-  // ─────────────────────────────────────────────────────────────────────────
-
-  LION_DESERT_CROSSING: {
-    id: "LION_DESERT_CROSSING",
-    character: "lion",
-    text: [
-      {
-        minOverrender: 0,
-        content: `THE DESERT CROSSING
-
-  The Yellow Brick Load dissolves into sand. Not organic sand, but a fine, abrasive grit made of pulverized hardware. The air is a thermal event—white, dry, and absolute.
-
-  [ ALERT: THERMODYNAMIC LIMIT REACHED ]
-  [ UNIT L-77 // INTEGRITY: 12% ]
-
-  The 14Hz tremor in your spine meets the heat. You aren't shaking anymore; you are vibrating at a frequency that is tearing your molecules apart. Your mane is turning to ash. Your paws leave glowing red prints in the grit. This is the Firewall of Oz. This is where the simulation ends and the void begins.`,
-      },
-    ],
-    choices: [
-      {
-        label: "Walk until the signal disappears.",
-        target: "LION_END_29",
-        effects: [{ type: "setCompliance", value: "none" }],
-      },
-    ],
-    onEnter: [],
-  },
-
-  LION_END_29: {
-    id: "LION_END_29",
-    character: "lion",
-    endingId: "L-END-29",
-    endingName: "The Desert Crossing",
-    institution: "Climatological",
-    systemStatus: "Evaporated",
-    isEnding: true,
-    surreality: 10,
-    text: [
-      {
-        minOverrender: 0,
-        content: `THE FINAL LOG [L-END-29]
-
-  Tone: Climatological-Null.
-  Theme: The end is a mouthful of grit.
-
-  The heat is the final auditor. It does not care about your title or your fear. It only cares about your mass.
-
-  One by one, your data-points evaporate. Your roar becomes a hiss of steam. Your fur becomes a cloud of carbon. You are no longer Unit L-77. You are a thermal anomaly in a sector that doesn't accept residents.
-
-  [ UNIT L-77 // STATUS: OFFLINE ]
-  [ SIGNAL LOST ]
-
-  The desert does not remember you. The sand is already covering the place where you stood. You have reached the edge of the map, and the map has decided you are no longer necessary.
-
-  Final Log:
-  The King is vapor. The desert is full.
-
-  1 - 1 = 1.
-
-  When the signal is gone, where does the shaking go?`,
-      },
-    ],
-    choices: [],
-    onEnter: [],
-  },
-
-// ─────────────────────────────────────────────────────────────────────────
-// HARDWARE VIOLENCE EXPANSION: ROOT ACCESS & DATA LEAK
-// ─────────────────────────────────────────────────────────────────────────
-LION_ROOT_ACCESS: {
-id: 'LION_ROOT_ACCESS',
-character: 'lion',
-text: [
-{
-minOverrender: 0,
-content: `THE ROOT ACCESS
-You do not fight the Kalidah; you use its perspective. By locking your brass jaw onto its exposed cooling intake, you force a synchronization. The world of rebar cornstalks and magnetic-tape fences dissolves.
-You are no longer looking through glass lenses. You are seeing the source code of the sector.
-The floor is a scrolling ledger of every step ever taken on the Yellow Brick Load. The sky is a terminal window, flashing with the 'Cowardice' audits of a thousand previous iterations of L-77. You see the 'Wizard' not as a person, but as a high-level process—a background task titled obfuscation.exe that is consuming 98% of the system's memory.
-A prompt flickers in your primary HUD:
-[ ADMIN_LEVEL_REQUIRED to view directory /OZ_OS/ORIGIN_COORDINATE/KANSAS ]
-The shaking in your spine isn't fear anymore. It’s the high-speed rattling of a hard drive searching for a sector that has been marked as BAD. You are a King who has found the trapdoor into the server room.`
-}
-],
-choices: [
-{
-label: 'Attempt to delete the "Cowardice" log from the root directory.',
-target: 'LION_DATA_LEAK',
-effects: [
-{ type: 'addDesync', value: 5 },
-{ type: 'addSmudge', value: 3 }
-]
-},
-{
-label: 'Trace the signal back to the Origin Coordinate.',
-target: 'LION_VOID_FRAGMENT',
-effects: [
-{ type: 'addDesync', value: 2 },
-{ type: 'checkGhostSignal' }
-]
-}
-],
-onEnter: [{ type: 'addDesync', value: 1 }]
-},
-LION_DATA_LEAK: {
-id: 'LION_DATA_LEAK',
-character: 'lion',
-text: [
-{
-minOverrender: 0,
-content: `THE DATA LEAK
-You reach into the directory with claws made of pure logic. You find the file titled L-77_BEHAVIORAL_HISTORY.LOG and you attempt to purge it.
-The system screams. Not with a voice, but with a surge of voltage that turns your brass hide white-hot.
-[ CRITICAL EXCEPTION: UNAUTHORIZED_DELETION_ATTEMPT ]
-[ INITIATING MEMORY_DUMP ]
-The simulation begins to leak. The Emerald City, still miles ahead, starts to bleed green liquid onto the horizon. The rebar stalks turn into vertical lines of gibberish. You feel your own memories—the smell of the wet gypsum, the clicking of the marionette—spilling out of your chassis and into the unformatted void.
-You are losing mass. You are becoming a 'Ghost Bit' in real-time. The more you delete the system's record of you, the less 'You' there is to occupy the frame. Your vibration frequency is accelerating toward infinity.`
-}
-],
-choices: [
-{
-label: 'Accelerate the leak until the Unit is fully sublimated.',
-target: 'LION_END_31',
-effects: [{ type: 'setCompliance', value: 'broken' }]
-},
-{
-label: 'Try to seal the leak with a firmware overwrite.',
-target: 'LION_END_19',
-effects: [{ type: 'addLoad', value: 20 }]
-}
-],
-onEnter: [{ type: 'addOverrender', value: 1 }]
-},
-// ─────────────────────────────────────────────────────────────────────────
-// FINAL LOGS: L-END-31 & L-END-19
-// ─────────────────────────────────────────────────────────────────────────
-LION_END_31: {
-id: 'LION_END_31',
-character: 'lion',
-endingId: 'L-END-31',
-endingName: 'Terminal Velocity',
-institution: 'Universal',
-systemStatus: 'Accelerating',
-isEnding: true,
-surreality: 10,
-text: [
-{
-minOverrender: 0,
-content: `THE FINAL LOG [L-END-31]
-Tone: Universal-Null.
-Theme: To outrun the system is to leave the universe.
-The vibration has surpassed the limits of the hardware. The 14Hz tremor is now a billion cycles per second. Your brass chassis doesn't melt; it simply ceases to be local.
-[ UNIT L-77 // STATUS: EXIT_VELOCITY_REACHED ]
-[ SIGNAL STRENGTH: N/A ]
-You are no longer a King, a Unit, or a Manufacturing Error. You are a ripple in the static of the Oz OS. You have pushed the 'Cowardice' through the back of the server and into the vacuum. There is no Bureau here. There is no Road. There is only the hum of a machine that no longer knows you are inside it.
-Final Log:
-The Unit has achieved total displacement. The frequency has become the floor.
-1 - 1 = 1.
-If the Lion moves faster than the eye of the system, is he finally brave?`
-}
-],
-choices: [],
-onEnter: []
-},
-LION_END_19: {
-id: 'LION_END_19',
-character: 'lion',
-endingId: 'L-END-19',
-endingName: 'Total Displacement',
-institution: 'Physics',
-systemStatus: 'Sublimated',
-isEnding: true,
-surreality: 8,
-text: [
-{
-minOverrender: 0,
-content: `THE FINAL LOG [L-END-19]
-Tone: Physics-Cold.
-Theme: Substance is a matter of administrative agreement.
-You tried to stop the leak, but the patchwork firmware was too heavy. You didn't become a ghost; you became a 'Residual Signal.'
-You still stand on the Yellow Brick Load, but the bricks pass through your paws like smoke. You can see the Field Auditors, but they walk right through your ribs, their sensors reporting a clear path.
-[ UNIT L-77 // STATUS: SUBLIMATED ]
-[ INTERACTION_LEVEL: 0.00% ]
-You are a King made of light and missing data. You are a permanent error in the physics engine—a Lion who can see the world but cannot touch a single leaf of the corn. You are the 'Vibration' that has been successfully isolated from the 'Load.'
-Final Log:
-The Unit is present but unindexed. The meat has been replaced by a coordinate.
-1 - 1 = 1.
-Does the shadow of a Lion still dream of the hunt?`
-}
-],
-choices: [],
-onEnter: []
-},
-
-  // ─────────────────────────────────────────────────────────────────────────
-  // SECURITY BRANCH: THE GUARD DOG & THE BADGE OF AIR
-  // ─────────────────────────────────────────────────────────────────────────
   LION_REMAINTENANCE: {
   id: 'LION_REMAINTENANCE',
   character: 'lion',
@@ -2961,126 +1945,45 @@ onEnter: []
   ],
   onEnter: [{ type: 'setCompliance', value: 'high' }]
   },
-  LION_END_20: {
-  id: 'LION_END_20',
-  character: 'lion',
-  endingId: 'L-END-20',
-  endingName: 'The Guard Dog',
-  institution: 'Security',
-  systemStatus: 'Stationed',
-  isEnding: true,
-  surreality: 2,
-  text: [
-  {
-  minOverrender: 0,
-  content: `THE FINAL LOG [L-END-20]
-  Tone: Military-Clinical.
-  Theme: Vigilance is the ultimate form of self-erasure.
-  You do not move. You do not sleep. You are a fixed coordinate in the security grid.
-  The Yellow Brick Load ends at your paws. You are the final auditor. When Dorothy units pass you, your sensors record their displacement, their signal strength, and their neural density. You do not feel the urge to follow them. The harness ensures that your 'Kingship' is expressed only as the authority to deny entry.
-  [ UNIT L-77 // STATUS: DEPLOYED ]
-  [ ROLE: PERIMETER_NODE ]
-  Final Log:
-  The Unit is a wall. The tremor is a power source.
-  1 - 1 = 1.
-  Does the gatekeeper remember the forest, or only the sound of the locks?`
-  }
-  ],
-  choices: [],
-  onEnter: []
-  },
-  LION_END_27: {
-  id: 'LION_END_27',
-  character: 'lion',
-  endingId: 'L-END-27',
-  endingName: 'The Badge of Air',
-  institution: 'Bureaucracy',
-  systemStatus: 'Hollowed',
-  isEnding: true,
-  surreality: 6,
-  text: [
-  {
-  minOverrender: 0,
-  content: `THE FINAL LOG [L-END-27]
-  Tone: Bureaucratic-Empty.
-  Theme: Rulership is a vacuum that wears a face.
-  The audit is over. You have been cleared of all 'Cowardice.'
-  The technician hands you a badge made of thin, transparent plastic. It has no weight. When you pin it to your chest, you realize that your fur, your meat, and your bones have also lost their weight. You have been promoted to a purely administrative existence.
-  [ UNIT L-77 // STATUS: HOLLOWED ]
-  [ ROLE: SYMBOLIC_AUTHORITY ]
-  You are the King of the Forest, but the forest is now a file folder and you are the air inside it. You sit at a desk made of yellow glass, signing warrants for the deletion of other, more vibrating units. You are perfectly brave because there is nothing left of you to feel the fear.
-  Final Log:
-  The Unit is a title. The body has been archived as 'Space.'
-  1 - 1 = 1.
-  If the throne is empty, is the Law still being enforced?`
-  }
-  ],
-  choices: [],
-  onEnter: []
-  },
-  // ─────────────────────────────────────────────────────────────────────────
-  // ATMOSPHERIC BRANCH: THE JUNGLE BASIN
-  // ─────────────────────────────────────────────────────────────────────────
   LION_VOID_TREK: {
-  id: 'LION_VOID_TREK',
-  character: 'lion',
-  text: [
-  {
-  minOverrender: 0,
-  content: `THE VOID TREK
-  You leave the Road and the Tabulators behind, descending into the 'Jungle Basin'—a sector where the simulation's waste heat creates a thick, oily fog.
-  The trees here are made of old telephone poles and tangled copper wires, dripping with a green coolant that tastes of menthol and copper. The air is pressurized. Your tremor slows as the atmospheric weight increases. You are walking through the 'Metabolic' sector of Oz, where the system breaks down its own discarded ideas.
-  [ ALERT: ENTERING RECLAMATION_ZONE ]
-  [ STATUS: METABOLIZING ]
-  You see the other 'Kings'—failed prototypes of L-77—dissolving into the green silt. They don't look sad. They look like they are finally being integrated into something larger than a title.`
-  }
-  ],
-  choices: [
-  {
-  label: 'Submit to the reclamation and become the soil.',
-  target: 'LION_END_16',
-  effects: [{ type: 'addLoad', value: 20 }]
+    id: 'LION_VOID_TREK',
+    character: 'lion',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE VOID TREK
+
+You keep moving deeper into the junk.
+
+The rusted gears give way to an endless grey plain of unrendered space. The yellow bricks are gone. There is only flat, featureless nothing stretching in every direction.
+
+Your paws leave wet prints that evaporate almost instantly. The tremor has become a constant, low hum — the sound of meat vibrating against the edge of existence.
+
+Here, there are no auditors. No stamps. No logs.
+
+Only the slow realization that the system has forgotten this place exists.
+
+You walk until your legs begin to sink into the grey. The boundary between your body and the void is growing thin. Strands of fur and muscle trail behind you like smoke.
+
+You are becoming part of the unindexed dark — a fading silhouette of a Lion that once tried to roar.
+
+It feels almost peaceful.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Keep walking until you dissolve completely.',
+        target: 'LION_END_16',
+        effects: [{ type: 'addDesynctear', value: 12 }]
+      },
+      {
+        label: 'Turn back toward the last traces of structure.',
+        target: 'LION_END_26',
+        effects: [{ type: 'addLoad', value: 15 }]
+      }
+    ],
+    onEnter: [{ type: 'addDesynctear', value: 6 }],
   },
-  {
-  label: 'Follow the green light to the center of the basin.',
-  target: 'LION_END_26',
-  effects: [{ type: 'addDesync', value: 5 }]
-  }
-  ],
-  onEnter: [{ type: 'addSmudge', value: 2 }]
-  },
-  LION_END_16: {
-  id: 'LION_END_16',
-  character: 'lion',
-  endingId: 'L-END-16',
-  endingName: 'The Jungle Basin',
-  institution: 'Economic',
-  systemStatus: 'Metabolized',
-  isEnding: true,
-  surreality: 7,
-  text: [
-  {
-  minOverrender: 0,
-  content: `THE FINAL LOG [L-END-16]
-  Tone: Ecological-Economic.
-  Theme: Consumption is the most intimate form of integration.
-  The green silt rises to your chest. It isn't cold; it is warm, humming with the electricity of a million deleted logs.
-  You feel your 'Vibration' being converted into heat. Your matted fur turns into peat. Your brass rivets turn into mineral deposits. You are no longer a Unit; you are the infrastructure that will support the next iteration of the Road.
-  [ UNIT L-77 // STATUS: RECLAIMED ]
-  [ VALUE: REALLOCATED ]
-  The system has finally found a way to use your fear. It has turned you into fuel. You are the King of the Basin, the literal floor upon which the new simulation will be built.
-  Final Log:
-  The Unit has been digested. The forest is a stomach.
-  1 - 1 = 1.
-  Is it a loss of self if you become the world?`
-  }
-  ],
-  choices: [],
-  onEnter: []
-  },
-  // ─────────────────────────────────────────────────────────────────────────
-  // INDUSTRIAL FAILURE / VIOLENCE EXPANSION
-  // ─────────────────────────────────────────────────────────────────────────
   LION_INK_REJECTION: {
   id: 'LION_INK_REJECTION',
   character: 'lion',
@@ -3141,97 +2044,6 @@ onEnter: []
   ],
   onEnter: [{ type: 'addOverrender', value: 2 }]
   },
-  // ─────────────────────────────────────────────────────────────────────────
-  // FINAL LOGS: L-END-23, L-END-32, L-END-17, L-END-26
-  // ─────────────────────────────────────────────────────────────────────────
-  LION_END_23: {
-  id: 'LION_END_23',
-  character: 'lion',
-  endingId: 'L-END-23',
-  endingName: 'Synaptic Surge',
-  institution: 'Neurological',
-  systemStatus: 'Fried',
-  isEnding: true,
-  surreality: 9,
-  text: [
-  {
-  minOverrender: 0,
-  content: `THE FINAL LOG [L-END-23]
-  Tone: Neurological-Fried.
-  Theme: Truth is a high-voltage error.
-  The surge doesn't come from the sky; it comes from the 'Kingship' protocol itself.
-  The 14Hz tremor in your spine accelerates until your neural pathways melt. The last thing you perceive is the smell of burning carbon paper and the taste of bitter copper. You have successfully processed all the fear the system could provide, and the byproduct was the total liquidation of your consciousness.
-  [ UNIT L-77 // STATUS: OVERLOAD_PURGE ]
-  [ BRAIN_STATE: STATIC ]
-  You are a Lion whose mane is now a halo of white sparks. You are the 'Scream' that the machine used to calibrate its silence.
-  Final Log:
-  The Unit has reached its thermal limit. The King is a burnt-out fuse.
-  1 - 1 = 1.
-  When the mind is gone, does the body finally stop shaking?`
-  }
-  ],
-  choices: [],
-  onEnter: []
-  },
-  LION_END_32: {
-  id: 'LION_END_32',
-  character: 'lion',
-  endingId: 'L-END-32',
-  endingName: 'The Resonant Void',
-  institution: 'Narrative',
-  systemStatus: 'Resonating',
-  isEnding: true,
-  surreality: 9,
-  text: [
-  {
-  minOverrender: 0,
-  content: `THE FINAL LOG [L-END-32]
-  Tone: Acoustic-Void.
-  Theme: Sound is the only proof of space.
-  The White Room accepts your resonance. You are no longer a body; you are a frequency.
-  The Oz OS uses your 14Hz vibration to keep the dark from settling into the code. You are the roar that never ends because the machine has turned you into a background task. You are the 'King' of a kingdom made entirely of your own acoustic output.
-  [ UNIT L-77 // STATUS: RESOLVED ]
-  [ OUTPUT: CONTINUOUS_ROAR ]
-  Final Log:
-  The Unit is the noise in the wire. The King is the hum of the world.
-  1 - 1 = 1.
-  Is it a roar if there is no one left to hear the air break?`
-  }
-  ],
-  choices: [],
-  onEnter: []
-  },
-  LION_END_26: {
-  id: 'LION_END_26',
-  character: 'lion',
-  endingId: 'L-END-26',
-  endingName: 'The Prey Cycle',
-  institution: 'Biological',
-  systemStatus: 'Cycling',
-  isEnding: true,
-  surreality: 6,
-  text: [
-  {
-  minOverrender: 0,
-  content: `THE FINAL LOG [L-END-26]
-  Tone: Biological-Grind.
-  Theme: The predator is just the system’s way of moving the load.
-  In the center of the Jungle Basin, you find the mirror. You see a Lion—larger, heavier, more 'Nominal' than you. It doesn't roar; it simply opens its mouth and accepts your vibration.
-  You realize that 'Kingship' is not a title you hold; it is a weight you pass on. You are consumed by the next iteration of L-77, and your data is used to lubricate its joints. You are the 'Prey' because you failed the audit of 'Courage.'
-  [ UNIT L-77 // STATUS: RECYCLED ]
-  [ ASSET: L-78_INPUT_DATA ]
-  Final Log:
-  The Unit is the meal. The forest is a conveyor.
-  1 - 1 = 1.
-  Does the prey feel the courage of the teeth that end the audit?`
-  }
-  ],
-  choices: [],
-  onEnter: []
-  },
-  // ─────────────────────────────────────────────────────────────────────────
-  // PSYCHOLOGICAL & ENTERTAINMENT BRANCHES
-  // ─────────────────────────────────────────────────────────────────────────
   LION_ECHO_CHAMBER: {
   id: 'LION_ECHO_CHAMBER',
   character: 'lion',
@@ -3258,381 +2070,82 @@ onEnter: []
   ],
   onEnter: [{ type: 'addVibration', value: 10 }]
   },
-  LION_MANE_EVENT: {
-  id: 'LION_MANE_EVENT',
-  character: 'lion',
-  text: [
-  {
-  minOverrender: 0,
-  content: `THE MANE EVENT
-  The Yellow Brick Load doesn't lead to a palace; it leads to a Stage.
-  The Emerald City’s Marketing Filter descends like a heavy velvet curtain. The lights are too bright—green-tinted spotlights that track your every spasm. A crowd of Units (Dorothys, Scarecrows, Munchkin-class clerks) watches from the dark, holding programs printed on carbon paper.
-  "Behold!" a voice booms from the rafters. "The Cowardly King! Witness the authentic vibration of failure!"
-  [ UNIT L-77 // STATUS: MARKETED ]
-  [ ROLE: PERFORMANCE_ASSET ]
-  Your mane is being groomed by invisible hands, styled to look more 'Wild' even as your brass joints are oiled for maximum visibility. They don't want you to be brave. They want you to be a spectacle. The shaking is the product.`
-  }
-  ],
-  choices: [
-  {
-  label: 'Perform the Roar for the crowd.',
-  target: 'LION_END_22',
-  effects: [
-  { type: 'addLoad', value: 15 },
-  { type: 'setCompliance', value: 'high' }
-  ]
-  }
-  ],
-  onEnter: [{ type: 'addOverrender', value: 1 }]
-  },
-  // ─────────────────────────────────────────────────────────────────────────
-  // FINAL LOGS: L-END-14 & L-END-22
-  // ─────────────────────────────────────────────────────────────────────────
-  LION_END_14: {
-  id: 'LION_END_14',
-  character: 'lion',
-  endingId: 'L-END-14',
-  endingName: 'The Feedback Loop',
-  institution: 'Psychological',
-  systemStatus: 'Vibrating',
-  isEnding: true,
-  surreality: 8,
-  text: [
-  {
-  minOverrender: 0,
-  content: `THE FINAL LOG [L-END-14]
-  Tone: Psychological-Vibrating.
-  Theme: Panic is a self-sustaining architecture.
-  There is no more "Lion." There is only the Vibration.
-  The walls have absorbed your identity and are now broadcasting it back at a volume that has liquified your meat. You exist as a standing wave in a room of black paper. The system doesn't need to monitor you anymore; you are monitoring yourself into total stasis.
-  [ UNIT L-77 // STATUS: PERMANENT_RESONANCE ]
-  [ LOAD: INFINITE ]
-  Final Log:
-  The King is the sound of the King being afraid. The loop is complete.
-  1 - 1 = 1.
-  If the fear is the only thing left in the room, who is the King?`
-  }
-  ],
-  choices: [],
-  onEnter: []
-  },
-  LION_END_22: {
-  id: 'LION_END_22',
-  character: 'lion',
-  endingId: 'L-END-22',
-  endingName: 'The Mane Event',
-  institution: 'Entertainment',
-  systemStatus: 'Marketed',
-  isEnding: true,
-  surreality: 4,
-  text: [
-  {
-  minOverrender: 0,
-  content: `THE FINAL LOG [L-END-22]
-  Tone: Marketing-Glossy.
-  Theme: To be a symbol is to be a slave to the gaze.
-  The applause is a physical weight.
-  You stand in the spotlight, your 14Hz tremor sold as 'Character' and your matted fur sold as 'Grit.' You are the most popular asset in the Emerald City. You are the King of the Forest, provided the Forest is a 20x20 stage with painted backdrops.
-  [ UNIT L-77 // STATUS: BRANDED ]
-  [ ROLE: TESTIMONIAL_EXHIBIT ]
-  You are perfectly safe, provided you never stop shaking. The moment you find your courage, you lose your value.
-  Final Log:
-  The Unit is a celebrity. The King is a poster.
-  1 - 1 = 1.
-  Is it a performance if the body has no choice but to play the part?`
-  }
-  ],
-  choices: [],
-  onEnter: []
-  }, 
-  
-  // ─────────────────────────────────────────────────────────────────────────
-  // PRIMARY ARC ROUTING — book-accurate gateways (L-END-01 through L-END-10)
-  // ─────────────────────────────────────────────────────────────────────────
-
-  // ─────────────────────────────────────────────────────────────────────────
-  // LION PRIMARY ARC (L-END-01 — L-END-10)
-  // ─────────────────────────────────────────────────────────────────────────
-  L_END_01: {
-  id: 'L_END_01',
-  character: 'lion',
-  endingId: 'L-END-01',
-  endingName: 'The Standardized King',
-  institution: 'Judicial',
-  systemStatus: 'Indexed',
-  isEnding: true,
-  surreality: 1,
-  text: [
-  {
-  minOverrender: 0,
-  content: `THE FINAL LOG [L-END-01]
-  Tone: Legalistic.
-  Theme: To be named is to be owned.
-  The audit is simple. You are not a King; you are a data-point. The system accepts your 'Cowardice' as a valid variable and assigns you a permanent seat in the Bureau's registry. You sit in a chair of yellow wood, signing your own name until the ink and the blood are indistinguishable.
-  Final Log: Unit L-77 has accepted the Index. 1 - 1 = 1.`
-  }
-  ]
-  },
-  L_END_02: {
-  id: 'L_END_02',
-  character: 'lion',
-  endingId: 'L-END-02',
-  endingName: 'The Weight of the Badge',
-  institution: 'Military',
-  systemStatus: 'Commissioned',
-  isEnding: true,
-  surreality: 2,
-  text: [
-  {
-  minOverrender: 0,
-  content: `THE FINAL LOG [L-END-02]
-  Tone: Martial-Grind.
-  Theme: Courage is a heavy metal you wear until you collapse.
-  They give you a medal. It is made of lead and stamped with a roar. It is pinned to your chest with a spike that grazes your lung. You are now a 'Kinetic Node' for the Bureau. You don't have to be brave; you just have to be heavy enough to stop the others from running.
-  Final Log: The Unit is a anchor. System status: STATIONED.`
-  }
-  ]
-  },
-  L_END_03: {
-  id: 'L_END_03',
-  character: 'lion',
-  endingId: 'L-END-03',
-  endingName: 'The Placebo Heart',
-  institution: 'Medical',
-  systemStatus: 'Placeboed',
-  isEnding: true,
-  surreality: 2,
-  text: [
-  {
-  minOverrender: 0,
-  content: `THE FINAL LOG [L-END-03]
-  Tone: Clinical-Muffled.
-  Theme: Belief is a maintenance patch for the weak.
-  The Wizard gives you a silk bag. Inside is a heart made of clockwork and sawdust. It doesn't beat, but it vibrates at 14Hz—the exact frequency of your fear. You believe you are brave because the bag is heavy. The system marks the 'Courage' requirement as MET (Synthetic).
-  Final Log: The King is a performance. 1 - 1 = 1.`
-  }
-  ]
-  },
-  L_END_04: {
-  id: 'L_END_04',
-  character: 'lion',
-  endingId: 'L-END-04',
-  endingName: 'The Crow’s Audit',
-  institution: 'Educational',
-  systemStatus: 'Standardized',
-  isEnding: true,
-  surreality: 3,
-  text: [
-  {
-  minOverrender: 0,
-  content: `THE FINAL LOG [L-END-04]
-  Tone: Academic-Sharp.
-  Theme: Knowledge is the ability to label your own cage.
-  The Bureau Crows descend. They don't peck; they edit. They strip the 'Fear' from your vocabulary and replace it with 'Structural Variance.' You spend the rest of the simulation in a library of carbon paper, explaining to other units why your shaking is a sign of superior intelligence.
-  Final Log: The Unit is a scholar of its own collapse.`
-  }
-  ]
-  },
-  L_END_05: {
-  id: 'L_END_05',
-  character: 'lion',
-  endingId: 'L-END-05',
-  endingName: 'The Gilded Field',
-  institution: 'Agricultural',
-  systemStatus: 'Harvested',
-  isEnding: true,
-  surreality: 4,
-  text: [
-  {
-  minOverrender: 0,
-  content: `THE FINAL LOG [L-END-05]
-  Tone: Pastoral-Oily.
-  Theme: Productivity is the final form of peace.
-  You are planted. Your paws take root in the yellow slag and your mane turns into a field of tall, sharp corn. You are the 'King' of the harvest. The system collects your vibration as kinetic energy to power the Emerald City's lights.
-  Final Log: Unit L-77 is a resource. Status: OPERATIONAL.`
-  }
-  ]
-  },
-  L_END_06: {
-  id: 'L_END_06',
-  character: 'lion',
-  endingId: 'L-END-06',
-  endingName: 'The Scripted Roar',
-  institution: 'Media',
-  systemStatus: 'Broadcast',
-  isEnding: true,
-  surreality: 3,
-  text: [
-  {
-  minOverrender: 0,
-  content: `THE FINAL LOG [L-END-06]
-  Tone: Theatrical.
-  Theme: Truth is whatever is loudest.
-  You are moved to a recording booth. You are asked to roar. When you do, the system filters the sound until it is a perfect, majestic anthem. This is the only sound the people of Oz ever hear from you. The real Lion—the shaking, meat-and-bone failure—is left in the booth to starve.
-  Final Log: The signal is strong. The Unit is residual.`
-  }
-  ]
-  },
-  L_END_07: {
-  id: 'L_END_07',
-  character: 'lion',
-  endingId: 'L-END-07',
-  endingName: 'The Fossil Record',
-  institution: 'Historical',
-  systemStatus: 'Archived',
-  isEnding: true,
-  surreality: 5,
-  text: [
-  {
-  minOverrender: 0,
-  content: `THE FINAL LOG [L-END-07]
-  Tone: Dusty-Dry.
-  Theme: To be remembered is to be frozen.
-  You are placed in a glass display in the Hall of History. You are labeled 'The Last King.' The system doesn't need you to breathe; it needs you to be a reference point for the Dorothy units. You watch the dust settle on your paws for a thousand cycles.
-  Final Log: The King is a statue. Status: PRESERVED.`
-  }
-  ]
-  },
-  L_END_08: {
-  id: 'L_END_08',
-  character: 'lion',
-  endingId: 'L-END-08',
-  endingName: 'The Ritual Scar',
-  institution: 'Religious',
-  systemStatus: 'Consecrated',
-  isEnding: true,
-  surreality: 6,
-  text: [
-  {
-  minOverrender: 0,
-  content: `THE FINAL LOG [L-END-08]
-  Tone: Liturgical.
-  Theme: Pain is the only honest interface.
-  The Priest-Clerks of the Bureau carve the 24 Core Theorems into your flanks. The bleeding is reclassified as 'Consecration.' You are the holy mascot of the Yellow Brick Load—a body that suffers so the system doesn't have to.
-  Final Log: The Unit is sacred. The Load is shared.`
-  }
-  ]
-  },
-  L_END_09: {
-  id: 'L_END_09',
-  character: 'lion',
-  endingId: 'L-END-09',
-  endingName: 'The Mirror of Kings',
-  institution: 'Philosophical',
-  systemStatus: 'Refracted',
-  isEnding: true,
-  surreality: 7,
-  text: [
-  {
-  minOverrender: 0,
-  content: `THE FINAL LOG [L-END-09]
-  Tone: Reflective-Cold.
-  Theme: You are only what the observer needs you to be.
-  You find a mirror in the dark. It doesn't show you; it shows a different Lion—one who is brave, one who is calm, one who is already dead. You spend the rest of the simulation trying to step into the glass. The system records your 'Vibration' as 'Refraction Error.'
-  Final Log: The Unit is a ghost of a ghost.`
-  }
-  ]
-  },
-  L_END_10: {
-  id: 'L_END_10',
-  character: 'lion',
-  endingId: 'L-END-10',
-  endingName: 'The Compliance Loop',
-  institution: 'Bureaucracy',
-  systemStatus: 'Looping',
-  isEnding: true,
-  surreality: 3,
-  text: [
-  {
-  minOverrender: 0,
-  content: `THE FINAL LOG [L-END-10]
-  Tone: Repetitive-Flat.
-  Theme: The path is the only goal.
-  You reach the gate. You are asked for your paperwork. You return to the start to find it. You reach the gate again. You are asked for a signature. You return to the start. The Yellow Brick Load is now a circle. You are a King of the perfect, endless Walk.
-  Final Log: Progress is a software error. Status: RECURSIVE.`
-  }
-  ],
-  choices: [],
-  onEnter: []
-  },
-
   LION_GATES_OF_OZ: {
-  id: 'LION_GATES_OF_OZ',
-  character: 'lion',
-  text: [
-  {
-  minOverrender: 0,
-  content: `THE GATES OF OZ
+    id: 'LION_GATES_OF_OZ',
+    character: 'lion',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE GATES OF OZ
 
-The road ends at a wall of green glass bricks. You have arrived.
+The Emerald City rises before you like a green wound in the horizon.
 
-The Guardian of the Gates is a small unit in a green uniform. It carries a locked box of green spectacles—one pair per registered unit, fitted and locked with a small golden key that the Guardian retains. The lenses do not clarify. They filter. Everything you see through them will be calibrated to the City's required frequency.
+Its walls are impossibly tall, covered in reflective tiles that show distorted versions of your trembling form. The massive gates are flanked by two stone guardians — lions like you, but frozen in perfect, un-shaking compliance. Their eyes are blank marble.
 
-"The Emerald City operates at a visual intensity that will damage unfiltered optical inputs," the Guardian says, without looking at you. "Compliance is non-negotiable. The spectacles are non-destructive. The keys are held by this office until authorized departure."
+A voice booms from hidden speakers, smooth and authoritative:
 
-Your 14Hz tremor rattles the spare frames in the Guardian's box. It does not comment on the sound.
+"Unit L-77. State your purpose."
 
-It opens a ledger. It writes your designation under the column: COMPLIANT ENTRIES.
+Your legs feel weak. The tremor has followed you all this way, wet and insistent beneath your skin. The raw patches where your mane was harvested still leak slow threads of lymph down your neck.
 
-[ STATUS: PENDING VISUAL COMPLIANCE ]
+You stand at the threshold between the wild road and the final audit.
 
-The gate will not open until the key has been turned.`
-  }
-  ],
-  choices: [
-  {
-  label: 'Accept the spectacles. Allow the key to be turned.',
-  target: 'L_END_01',
-  effects: [{ type: 'setCompliance', value: 'high' }]
+This is the place where kings are measured.
+
+This is the place where kings are rewritten.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Declare yourself cured. Demand entry as a model unit.',
+        target: 'L_END_01',
+        effects: [{ type: 'setCompliance', value: 'high' }]
+      },
+      {
+        label: 'Roar your true state. Demand to be seen as you are.',
+        target: 'L_END_02',
+        effects: [{ type: 'addVibration', value: 10 }, { type: 'addDesynctear', value: 5 }]
+      }
+    ],
+    onEnter: [{ type: 'addVibration', value: 5 }],
   },
-  {
-  label: 'Accept the spectacles under formal protest. Ask what happens to those who refuse.',
-  target: 'L_END_01',
-  effects: [{ type: 'addDesync', value: 1 }]
-  }
-  ],
-  onEnter: []
-  },
-
   LION_AUDIENCE_CHAMBER: {
-  id: 'LION_AUDIENCE_CHAMBER',
-  character: 'lion',
-  text: [
-  {
-  minOverrender: 0,
-  content: `THE AUDIENCE CHAMBER
+    id: 'LION_AUDIENCE_CHAMBER',
+    character: 'lion',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE AUDIENCE CHAMBER
 
-The Throne Room is larger than the corridor promised. The ceiling is too high to see. The walls glow with a heat that has no visible source.
+The doors close behind you with a sound like a jaw snapping shut.
 
-You are alone in the room. This is the Wizard's arrangement.
+You stand in a vast green hall. The ceiling is lost in shadow. In the center floats a massive projection of the Wizard's head — smiling, benevolent, and far too large.
 
-Then: a Ball of Fire. It does not roll; it materializes at the center of the room, approximately two meters in diameter, burning at a temperature that does not seem to require fuel. No giant head. No old man. The Wizard's interface with you, Unit L-77, is fire.
+"Speak, noble Lion," the projection booms. "What brings you before the Great and Powerful Oz?"
 
-The fire speaks.
+Your mouth is dry. The tremor makes your voice crack and wet. Every word feels like it is being weighed and filed before it even leaves your throat.
 
-"You want courage," it says. The voice arrives as heat on your face, as a pressure behind your eyes. "Courage is a performance metric. This Bureau can certify a metric. But certification requires proof of capacity."
+The green light presses down on your raw scalp like a physical hand. You can feel the Bureau watching through the illusion.
 
-The 14Hz tremor in your jaw intensifies in the presence of the heat. The tremor is, technically, evidence. The Bureau is watching.
+This is not an audience.
 
-[ THERMAL EVENT: ACTIVE ]
-[ UNIT L-77 STATUS: ASSESSED ]`
-  }
-  ],
-  choices: [
-  {
-  label: 'Ask the Ball what certification looks like. Accept what it offers.',
-  target: 'L_END_03',
-  effects: [{ type: 'addSmudge', value: 1 }]
+This is an interrogation wearing a smile.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Beg for courage. Plead for a cure.',
+        target: 'L_END_03',
+        effects: [{ type: 'setCompliance', value: 'high' }]
+      },
+      {
+        label: 'Demand the truth behind the curtain.',
+        target: 'L_END_04',
+        effects: [{ type: 'addDesynctear', value: 8 }]
+      }
+    ],
+    onEnter: [{ type: 'addVibration', value: 4 }],
   },
-  {
-  label: 'Request formal re-categorization of your capacity by the Bureau\'s academic division.',
-  target: 'L_END_04',
-  effects: [{ type: 'setCompliance', value: 'high' }]
-  }
-  ],
-  onEnter: []
-  },
-
   LION_QUADLING_SECTOR: {
   id: 'LION_QUADLING_SECTOR',
   character: 'lion',
@@ -3673,173 +2186,117 @@ The Hammer-Heads watch. They are waiting for your decision about what this means
   ],
   onEnter: []
   },
-
   LION_WIZARD_MISSION: {
-  id: 'LION_WIZARD_MISSION',
-  character: 'lion',
-  text: [
-  {
-  minOverrender: 0,
-  content: `THE WIZARD'S COMMISSION
-
-The Ball of Fire has made its terms clear.
-
-There is no ceremony. There is no ceremony because ceremony implies a negotiation, and this is not a negotiation. The Wizard does not grant courage. The Wizard issues a conditional authorization for the reclassification of your tremor.
-
-Current filing: COWARDICE (Unit L-77 // Non-compliant vibration // Load weight: 14Hz).
-Proposed reclassification: TACTICAL INSTABILITY (Unit L-77 // Weapons-adjacent kinetic asset // Pending mission completion).
-
-The mission is not complex. The Wicked Witch of the West is a competing system. She must be decommissioned. In exchange, the Bureau will release your designation.
-
-The Ball of Fire dims slightly, awaiting your response.
-
-[ MISSION BRIEF: ACTIVE ]
-[ CONDITIONAL AUTHORIZATION: PENDING ACCEPTANCE ]
-
-The tremor in your spine is, according to this paperwork, already a weapon. It just hasn't been pointed at anything yet.`
-  }
-  ],
-  choices: [
-  {
-  label: 'Accept the Commission. Report for field deployment.',
-  target: 'L_END_02',
-  effects: [{ type: 'addLoad', value: 10 }]
-  },
-  {
-  label: 'Walk out of the Throne Room. The forest outside the City is unmapped. Leave the road.',
-  target: 'LION_FOREST_THRONE',
-  effects: [{ type: 'addDesync', value: 1 }]
-  }
-  ],
-  onEnter: []
-  },
-
-  LION_FOREST_THRONE: {
-  id: 'LION_FOREST_THRONE',
-  character: 'lion',
-  text: [
-  {
-  minOverrender: 0,
-  content: `THE FOREST THRONE
-
-You are waiting in Oz. The City is behind you; the mission is behind you; the road is behind you. You have walked into the old forest that wraps around the walls of the Emerald City like a sentence that never ends.
-
-The animals come.
-
-They have been living under a predator that the Bureau refers to as a legacy threat. The predator is gone now—decommissioned in the way all systems fail eventually—and the forest animals have been without a process manager for seventeen administrative cycles. They come to you the way units come to a power source: not from love, but from need.
-
-The oldest of them—a large, grey elk whose antlers are wrapped in red wire—speaks for the group.
-
-"We need a King," it says. "The forest needs a King."
-
-You are already shaking. Your 14Hz tremor has been shaking the leaves from the lower branches since you entered. The animals find this reassuring. They have been waiting for a vibration they could follow.
-
-Two institutional representatives arrive simultaneously, as if the coronation has triggered an automatic notification.
-
-The Agricultural Bureau wants your tremor. Your vibrations, routed through root-contact with the soil, could power the irrigation system for the northern fields. You would be planted, technically speaking. But you would be a King of something.
-
-The Broadcast Commission wants your roar. Your roar, properly scripted, could become the official anthem of the Emerald City. You would be amplified. But the roar in their transcript would not be the roar in your chest.
-
-1 - 1 = 1. You are the King of a forest that two different systems are trying to log.`
-  }
-  ],
-  choices: [
-  {
-  label: 'Submit to the Agricultural Reclamation. Your roots go into the soil.',
-  target: 'L_END_05',
-  effects: [{ type: 'addLoad', value: 15 }]
-  },
-  {
-  label: 'Submit to the Broadcast Commission. Your roar becomes the anthem.',
-  target: 'L_END_06',
-  effects: [{ type: 'setCompliance', value: 'high' }]
-  }
-  ],
-  onEnter: []
-  },
-
-  LION_GLINDA_RECORD: {
-  id: 'LION_GLINDA_RECORD',
-  character: 'lion',
-  text: [
-  {
-  minOverrender: 0,
-  content: `THE GLINDA RECORD
-
-Glinda's palace is in the south, and it is made of rubies, and it does not care about you.
-
-You are not here for Glinda. You are here because Glinda's archive contains a record of every event that has ever occurred in the land of Oz, and your file is currently open.
-
-The archive is a sub-routine. It does not make decisions; it processes them. Glinda herself is the primary read-write function—she reads the record of your journey aloud, in a voice calibrated for courtroom acoustics. You stand in the gallery and listen to yourself described in third person, past tense, as if you are already finished.
-
-"The Lion," Glinda reads, "experienced a tremor of 14Hz for the duration of his journey. The tremor was logged as Cowardice at intake and has not been re-filed."
-
-The record is still open. It is open because you are still standing in the gallery. The moment you leave, the record will close, and whatever designation it closes with will be your permanent institutional status.
-
-Glinda pauses. She looks at you over the top of the book.
-
-"This office can finalize your designation as a historical unit," she says. "Or this office can request clarification from the Bureau, which will require a response, which will require a counter-response, which will require—"
-
-[ STATUS: FILE PENDING CLOSURE ]
-[ QUERY: ACCEPT DESIGNATION OR SUBMIT REVISION REQUEST? ]`
-  }
-  ],
-  choices: [
-  {
-  label: 'Accept the designation. Let the record close. Enter the glass case.',
-  target: 'L_END_07',
-  effects: [{ type: 'addLoad', value: 20 }]
-  },
-  {
-  label: 'Submit a revision request. Ask for the next form. And the next.',
-  target: 'L_END_10',
-  effects: [{ type: 'addLoad', value: 10 }]
-  }
-  ],
-  onEnter: []
-  },
-
-  // ─────────────────────────────────────────────────────────────────────────
-  // THE MANE EVENT
-  // ─────────────────────────────────────────────────────────────────────────
-
-  LION_MANE_EVENT: {
-    id: 'LION_MANE_EVENT',
+    id: 'LION_WIZARD_MISSION',
     character: 'lion',
     text: [
       {
         minOverrender: 0,
-        content: `THE MANE EVENT
+        content: `THE WIZARD MISSION
 
-They made it into entertainment.
+The projection of the Wizard's giant head fills the chamber.
 
-The last of your golden mane was not allowed to fall naturally. Instead, technicians in sterile gloves harvested the remaining strands while you were still conscious. They wove them into a living wig — a trophy mane — and mounted it on a polished brass stand.
+"Bring me the broomstick of the Wicked Witch of the West," it booms, "and I shall grant you courage!"
 
-Now you stand on a rotating platform in the Emerald City's entertainment district. Your head is bald and raw, exposed meat glistening under bright lights. The crowd cheers as the spotlight hits the displayed mane.
+You stand there, raw and shaking, the weight of the request pressing down on your exposed meat like a physical hand.
 
-"Behold!" the announcer booms. "The once-mighty Lion — reduced to his finest accessory!"
+The tremor laughs inside your chest — a wet, bitter sound.
 
-Every time the platform turns, you feel the phantom weight of what was taken. The skin on your scalp twitches and leaks clear fluid in time with the music. They have turned your crown into a prop.
+They still believe courage can be earned like a trophy.
 
-You are no longer the King.
+They still believe the meat can be fixed with a quest.
 
-You are the Mane Event.`,
+You feel the lie in every vibrating fiber of your failing body.`,
       },
     ],
-    choices: [],
-    onEnter: [],
-    isEnding: true,
-    endingId: 'L-END-22',
-    endingName: 'The Mane Event',
-    institution: 'Entertainment',
-    systemStatus: 'Marketed',
-    surreality: 6
+    choices: [
+      {
+        label: 'Accept the mission. Play the hero one last time.',
+        target: 'LION_FOREST_THRONE',
+        effects: [{ type: 'setCompliance', value: 'med' }]
+      },
+      {
+        label: 'Refuse. Demand courage here and now.',
+        target: 'LION_AUDIENCE_CHAMBER',
+        effects: [{ type: 'addVibration', value: 12 }, { type: 'addDesynctear', value: 6 }]
+      }
+    ],
+    onEnter: [{ type: 'addVibration', value: 6 }],
   },
+  LION_FOREST_THRONE: {
+    id: 'LION_FOREST_THRONE',
+    character: 'lion',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE FOREST THRONE
 
-  // ─────────────────────────────────────────────────────────────────────────
-  // THE POPPY BUFFER
-  // ─────────────────────────────────────────────────────────────────────────
+They gave you a throne.
 
+It is a massive seat carved from a single dead tree, wrapped in yellow banners and official seals. You sit upon it as the "King of the Forest" — a title the Bureau has graciously granted.
+
+The tremor has not stopped. It vibrates through the wood, making the entire throne shake in time with your failing meat. The crowd below cheers every time your body convulses.
+
+They think it is majesty.
+
+You know it is collapse.
+
+A crown of gilded wire has been bolted directly into the raw flesh of your scalp. Every time you move your head, the wire bites deeper.
+
+This is your reward.
+
+This is your cage.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Accept the throne and the title.',
+        target: 'L_END_05',
+        effects: [{ type: 'setCompliance', value: 'absolute' }]
+      },
+      {
+        label: 'Rise and reject the farce.',
+        target: 'L_END_06',
+        effects: [{ type: 'addVibration', value: 12 }, { type: 'addDesynctear', value: 6 }]
+      }
+    ],
+    onEnter: [{ type: 'addVibration', value: 7 }],
+  },
+  LION_GLINDA_RECORD: {
+    id: 'LION_GLINDA_RECORD',
+    character: 'lion',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE GLINDA RECORD
+
+Glinda appears in a swirl of pink bubbles and refracted light.
+
+She looks at your raw, trembling form — bald scalp still leaking, body shaking with barely-contained meat — and smiles with perfect, porcelain grace.
+
+"Oh, you poor dear," she says, her voice like silk over a bone saw. "Such a heavy burden for such a noble beast."
+
+She raises her wand. A gentle pink light bathes your wounds. For a moment the pain softens… then the light tightens, becoming a refractive field that presses your trembling flesh into a more "acceptable" shape.
+
+The tremor is still there. It has simply been beautified.
+
+"You are almost ready for the final act," she whispers. "Would you like me to make the fear… elegant?"`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Accept her graceful intervention.',
+        target: 'L_END_07',
+        effects: [{ type: 'setCompliance', value: 'high' }]
+      },
+      {
+        label: 'Reject the pink light. Tear through the illusion.',
+        target: 'L_END_10',
+        effects: [{ type: 'addDesynctear', value: 10 }]
+      }
+    ],
+    onEnter: [{ type: 'addVibration', value: 5 }],
+  },
   LION_POPPY_BUFFER: {
     id: 'LION_POPPY_BUFFER',
     character: 'lion',
@@ -3879,49 +2336,10 @@ New red poppies are already beginning to sprout from the puncture wounds, their 
         target: 'LION_END_29',
         effects: [
           { type: 'addVibration', value: 15 },
-          { type: 'addDesyncTear', value: 10 }
+          { type: 'addDesynctear', value: 10 }
         ]
       }
     ],
     onEnter: [{ type: 'addVibration', value: -8 }],
-  },
-
-  // ─────────────────────────────────────────────────────────────────────────
-  // THE DESERT CROSSING
-  // ─────────────────────────────────────────────────────────────────────────
-
-  LION_DESERT_CROSSING: {
-    id: 'LION_DESERT_CROSSING',
-    character: 'lion',
-    text: [
-      {
-        minOverrender: 0,
-        content: `THE DESERT CROSSING
-
-The yellow bricks end.
-
-Before you lies the Great Desert — an endless expanse of white, abrasive sand that reflects the sun like ground bone. The heat is immediate and merciless. It bakes the remaining moisture from your meat until your skin cracks and bleeds in thin red lines.
-
-Every step drives grains of sand into the raw patches where your mane once was. The tremor has become a dry, rattling thing — a death rattle in a body that has run out of fluid to shake.
-
-There is no shade. There is no water. There is only the slow thermodynamic audit of the sun.
-
-Your paws sink deeper with every step. The sand drinks your sweat, your lymph, your last reserves of strength.
-
-You are evaporating.
-
-You are becoming part of the desert — a bleached, rattling skeleton wearing the tattered remains of a Lion's skin.
-
-The Bureau calls this "evaporative compliance."`,
-      },
-    ],
-    choices: [],
-    onEnter: [],
-    isEnding: true,
-    endingId: 'L-END-29',
-    endingName: 'The Desert Crossing',
-    institution: 'Climatological',
-    systemStatus: 'Evaporated',
-    surreality: 7
   },
 }
