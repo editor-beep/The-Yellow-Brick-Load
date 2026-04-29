@@ -25,7 +25,8 @@ import { scarecrowPassages } from './scarecrow.js'
 import { dorothyPassages } from './dorothy.js'
 import { glindaPassages } from './glinda.js'
 import { wizardPassages } from './wizard.js'
-import { witchWestPassages } from './witch_west.js'
+import { witchWestStubPassages } from './witch_west_stubs.js'
+import { witchWestEndingPassages } from './witch_west_endings.js'
 import { witchEastPassages } from './witch_east.js'
 import { enforcerPassages } from './enforcers.js'
 
@@ -62,7 +63,7 @@ export const allPassages = {
   ...dorothyPassages,
   ...glindaPassages,
   ...wizardPassages,
-  ...witchWestPassages,
+  ...witchWestStubPassages, ...witchWestEndingPassages,
   ...witchEastPassages,
   ...enforcerPassages,
   ...ghostSignalPassage,
