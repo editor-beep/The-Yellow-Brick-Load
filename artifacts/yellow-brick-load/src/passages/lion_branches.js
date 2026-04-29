@@ -146,6 +146,13 @@ You keep walking. The tremor moves up into your chest now, a wet fluttering like
           { type: "addSmudge", value: 1 },
         ],
       },
+      {
+        label: "Stop at the Spine-Tuning Station and attend to the tremor. (The Audit Cycle)",
+        target: "LION_SPINE_HUB",
+        effects: [
+          { type: "addVibration", value: 2 },
+        ],
+      },
     ],
     onEnter: [{ type: 'triggerOracle' }],
   },
@@ -1371,6 +1378,14 @@ It is architecture.`,
           { type: "checkGhostSignal" },
         ],
       },
+      {
+        label: "Stop moving. Let the Winged Monkeys take you to the Western Tower.",
+        target: "LION_HARVEST_HUB",
+        effects: [
+          { type: "setCompliance", value: "high" },
+          { type: "addLoad", value: 8 },
+        ],
+      },
     ],
     onEnter: [{ type: "addSmudge", value: 1 }],
   },
@@ -2341,5 +2356,574 @@ New red poppies are already beginning to sprout from the puncture wounds, their 
       }
     ],
     onEnter: [{ type: 'addVibration', value: -8 }],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // LION EXPAND: THE SPINE-TUNING STATION (Audit Cycle Hub)
+  // ─────────────────────────────────────────────────────────────────────────
+  LION_SPINE_HUB: {
+    id: 'LION_SPINE_HUB',
+    character: 'lion',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE SPINE-TUNING STATION
+
+You stand at a widening in the Yellow Brick Load. A series of brass tuning-forks are driven into the mortar. They vibrate in sympathy with the 14Hz clicking of your jaw.
+
+[ UNIT L-77 DIAGNOSTICS ]
+ * CURRENT VIBRATION: {{stats.vibration}}Hz
+ * STRUCTURAL LOAD: {{stats.load}}%
+ * COMPLIANCE LEVEL: {{stats.compliance}}
+
+The road is no longer just a path; it is a diagnostic tool. Every step forward adds to the record. If you wish to reach the end, you must first survive the maintenance of your own fear.
+
+A Bureau Technician waits by the forks, its face a blank sheet of carbon paper. "Shall we adjust the tension, Unit L-77? The system cannot file a King who is shaking apart."`,
+      },
+    ],
+    choices: [
+      {
+        label: 'MANE MAINTENANCE: Scrape the crystallized fear from your scalp.',
+        target: 'LION_MANE_SCRAPE_LOOP',
+        effects: [{ type: 'addVibration', value: 2 }, { type: 'addLoad', value: 5 }],
+      },
+      {
+        label: 'JOINT LUBRICATION: Apply the Blue Fluid (Wetware route — {{#flags.mode_wetware}}available{{/flags.mode_wetware}}{{^flags.mode_wetware}}hardware mode only, reduced effect{{/flags.mode_wetware}}).',
+        target: 'LION_BLUE_FLUID_LOOP',
+        effects: [{ type: 'addVibration', value: -5 }, { type: 'setCompliance', value: 'high' }],
+      },
+      {
+        label: 'DIAGNOSTIC ROAR: Test the acoustic integrity of the corridor.',
+        target: 'LION_ROAR_TEST_LOOP',
+        effects: [{ type: 'addVibration', value: 8 }, { type: 'addDesync', value: 3 }],
+      },
+      {
+        label: 'ADMINISTRATIVE LOG: Check in with the Clerk.',
+        target: 'LION_CLERK_LOOP',
+        effects: [{ type: 'addLoad', value: 3 }],
+      },
+      {
+        label: 'VERTEBRAL AUDIT: Descend into the Spinal Switchboard.',
+        target: 'LION_VERTEBRAE_HUB',
+        effects: [{ type: 'addVibration', value: 3 }],
+      },
+      {
+        label: 'RE-ENTER THE LOAD: Continue toward the City.',
+        target: 'LION_GATES_OF_OZ',
+        effects: [],
+      },
+    ],
+    onEnter: [{ type: 'addOverrender', value: 1 }],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // REPEATABLE SUB-LOOP: THE MANE SCRAPE
+  // ─────────────────────────────────────────────────────────────────────────
+  LION_MANE_SCRAPE_LOOP: {
+    id: 'LION_MANE_SCRAPE_LOOP',
+    character: 'lion',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE CRYSTALLIZED MANE
+
+Your mane is no longer hair. It is a collection of hardened lymph-spikes, each one holding the record of a specific moment of hesitation. They click against each other like a thousand small typewriters.
+
+The Technician uses a silver file to scrape the edges.
+
+"This one is from the Poppy Fields," the Technician says, showing you a shard of red-stained crystal. "And this one? This is the tremor you felt when you first saw the Tin Man's empty chest."`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Scrape the "Poppy Shard" (Adds Vibration).',
+        target: 'LION_SPINE_HUB',
+        effects: [{ type: 'addVibration', value: 4 }, { type: 'setFlag', key: 'poppy_residue', value: true }],
+      },
+      {
+        label: 'Scrape the "Empty Chest" shard (Adds Load).',
+        target: 'LION_SPINE_HUB',
+        effects: [{ type: 'addLoad', value: 8 }],
+      },
+    ],
+    onEnter: [],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // REPEATABLE SUB-LOOP: THE CLERK (Administrative Friction)
+  // ─────────────────────────────────────────────────────────────────────────
+  LION_CLERK_LOOP: {
+    id: 'LION_CLERK_LOOP',
+    character: 'lion',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE BUREAUCRATIC TOLL
+
+The Clerk is a tall, spindly thing made of overstuffed folders. It smells of cedar drawers and dry spit.
+
+"Unit L-77," it wheezes. "You have moved three blocks without filing a status update. This creates a data-vacuum. The Bureau does not like voids. You must pay the 'Presence Tax'."`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Pay in Wetware: Surrender a clump of fur.',
+        target: 'LION_SPINE_HUB',
+        effects: [{ type: 'addLoad', value: 10 }, { type: 'addSmudge', value: 2 }],
+      },
+      {
+        label: 'Pay in Signal: Allow the Clerk to redact your last memory.',
+        target: 'LION_SPINE_HUB',
+        effects: [{ type: 'addDesync', value: 5 }, { type: 'addVibration', value: -2 }],
+      },
+    ],
+    onEnter: [],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // REPEATABLE SUB-LOOP: THE ROAR TEST
+  // ─────────────────────────────────────────────────────────────────────────
+  LION_ROAR_TEST_LOOP: {
+    id: 'LION_ROAR_TEST_LOOP',
+    character: 'lion',
+    text: [
+      {
+        minOverrender: 0,
+        content: `ACOUSTIC MEASUREMENT
+
+You open your jaw. The shims between your vertebrae grind together. You are asked to produce a "Controlled Roar" for the diagnostic sensors.
+
+"Don't make it a King's roar," the Technician warns. "Just a baseline. A status-check. 14Hz, if you please."`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Compliance Roar: Low, rhythmic, and safe.',
+        target: 'LION_SPINE_HUB',
+        effects: [{ type: 'addVibration', value: 2 }, { type: 'setCompliance', value: 'high' }],
+      },
+      {
+        label: 'Acoustic Leak: Let a piece of the real scream through.',
+        target: 'LION_SPINE_HUB',
+        effects: [{ type: 'addVibration', value: 12 }, { type: 'addDesync', value: 5 }],
+      },
+    ],
+    onEnter: [],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // BLUE FLUID MAINTENANCE (Wetware sub-loop)
+  // ─────────────────────────────────────────────────────────────────────────
+  LION_BLUE_FLUID_LOOP: {
+    id: 'LION_BLUE_FLUID_LOOP',
+    character: 'lion',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE BLUE FLUID APPLICATION
+
+The Technician produces a vial of blue fluid — the same substance that runs through the Bureau's cooling systems. It smells of ozone and sterile gauze.
+
+"This will not stop the shaking," it says, as always. "It will redistribute the friction. Your joints will thank you. Your consciousness will not notice the difference."
+
+{{#flags.mode_wetware}}Your meat is still meat. The blue fluid has something to interface with. The hydraulic pressure builds immediately behind your sternum.{{/flags.mode_wetware}}
+{{^flags.mode_wetware}}You are hardware. The fluid enters your maintenance ports and cycles through your chassis. The dampening is mechanical, not organic — effective but cold.{{/flags.mode_wetware}}
+
+The tremor does not stop. It migrates. From your jaw to your spine to the base of your tail, the shaking finds a new home with every application.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Accept the full application. Let the fluid cycle.',
+        target: 'LION_SPINE_HUB',
+        effects: [{ type: 'addVibration', value: -8 }, { type: 'addLoad', value: 12 }, { type: 'setCompliance', value: 'high' }],
+      },
+      {
+        label: 'Accept only a partial dose. Maintain some friction.',
+        target: 'LION_SPINE_HUB',
+        effects: [{ type: 'addVibration', value: -3 }, { type: 'addLoad', value: 5 }],
+      },
+    ],
+    onEnter: [],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // FINAL PUSH: TOTAL SYSTEM ENTROPY (After long Audit Cycle)
+  // ─────────────────────────────────────────────────────────────────────────
+  LION_SYSTEM_ENTROPY: {
+    id: 'LION_SYSTEM_ENTROPY',
+    character: 'lion',
+    text: [
+      {
+        minOverrender: 0,
+        content: `TOTAL SYSTEM ENTROPY
+
+You have maintained the audit for too long.
+
+The Yellow Brick Load is now a liquid. The brass tuning forks have melted into puddles of golden oil. Your tremor is so loud that the simulation can no longer render the cornstalks — they are now just long, vertical strings of grey text.
+
+[ UNIT L-77 // VIBRATION: 99Hz ]
+[ SYSTEM INTEGRITY: NULL ]
+
+The Technician is gone. The Clerk is gone. There is only the white light behind the world. You have roared so many diagnostic tests that you have finally found the frequency that cancels the code.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'One. Last. Roar.',
+        target: 'LION_END_32',
+        effects: [],
+      },
+    ],
+    onEnter: [{ type: 'addOverrender', value: 2 }],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // SUB-HUB: THE VERTEBRAL ALIGNMENT (Internal Hardware)
+  // ─────────────────────────────────────────────────────────────────────────
+  LION_VERTEBRAE_HUB: {
+    id: 'LION_VERTEBRAE_HUB',
+    character: 'lion',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE SPINAL SWITCHBOARD
+
+You are not standing; you are a collection of thirty-three brass-and-marrow hinges trying to negotiate with gravity.
+
+The 14Hz tremor has localized in the L-7 junction — the small of your back. In the Oz OS Developer's Manual, this is the "Judicial Pivot." If the vibration stays here, the system logs it as "Cowardice." If you move it, it becomes "Majesty."
+
+[ SYSTEM DIAGNOSTICS ]
+ * CERVICAL (Neck): [ SEIZED ]
+ * THORACIC (Chest): [ OVERLOAD ]
+ * LUMBAR (Tail-Base): [ LEAKING ]
+
+The internal fans in your ribcage are whirring, trying to exhaust the heat of your own nervous system. You must redistribute the load before the next yellow brick is recorded.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Shift the Vibration to the NECK (Cervical — Administrative).',
+        target: 'LION_NECK_TENSION',
+        effects: [{ type: 'addLoad', value: 5 }, { type: 'setFlag', key: 'tension_type', value: 'bureaucratic' }],
+      },
+      {
+        label: 'Shift the Vibration to the RIBS (Thoracic — Kinetic).',
+        target: 'LION_RIB_EXPANSION',
+        effects: [{ type: 'addVibration', value: 8 }, { type: 'addDesync', value: 2 }],
+      },
+      {
+        label: 'Shift the Vibration to the TAIL (Lumbar — Residue).',
+        target: 'LION_TAIL_DRAG',
+        effects: [{ type: 'addSmudge', value: 5 }, { type: 'addLoad', value: -2 }],
+      },
+      {
+        label: 'Return to the Spine-Tuning Station.',
+        target: 'LION_SPINE_HUB',
+        effects: [],
+      },
+    ],
+    onEnter: [],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // GRANULAR CHOICE: THE NECK TENSION (Vertebral sub-node)
+  // ─────────────────────────────────────────────────────────────────────────
+  LION_NECK_TENSION: {
+    id: 'LION_NECK_TENSION',
+    character: 'lion',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE ADMINISTRATIVE HINGE
+
+The tremor moves up. Your jaw locks. Your teeth click together with the sound of a hole-puncher working through heavy cardstock.
+
+"Unit L-77," the internal speaker crackles. "Your head is held at a Non-Compliant Angle. Please adjust for the Imperial Gaze."
+
+The skin at the back of your neck is raw. Every time you try to look at the horizon, the staples of your mane pull against the meat. You are a King who can only look at the bricks directly beneath his nose.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Force the gaze upward (Tear the staples).',
+        target: 'LION_MANE_FRACTURE',
+        effects: [{ type: 'addVibration', value: 10 }, { type: 'addDesynctear', value: 5 }],
+      },
+      {
+        label: 'Accept the downward gaze (Compliance).',
+        target: 'LION_VERTEBRAE_HUB',
+        effects: [{ type: 'setCompliance', value: 'high' }, { type: 'addLoad', value: 5 }],
+      },
+    ],
+    onEnter: [],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // GRANULAR CHOICE: THE RIB EXPANSION (Vertebral sub-node)
+  // ─────────────────────────────────────────────────────────────────────────
+  LION_RIB_EXPANSION: {
+    id: 'LION_RIB_EXPANSION',
+    character: 'lion',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE THORACIC OVERLOAD
+
+The vibration floods your ribcage. Your ribs are a xylophone of brass and cartilage; every tremor registers as a note the Bureau did not authorize.
+
+The internal fans scream. Heat bleeds from the seams between your plates. The Technician places a cold hand flat against your sternum and reads the frequencies like a blind typist reading braille.
+
+"Too much kinetic data," it announces. "Your chest is broadcasting." A red warning light pulses behind your left eye. The simulation around you shudders — for a fraction of a second, you can feel the Tin Man's corroded joints as clearly as your own.
+
+[ CROSS-UNIT RESONANCE DETECTED ]
+[ THORACIC CHANNEL: SATURATED ]
+
+The heat is building. The fans cannot keep pace. Something must give.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Let the resonance build until the signal crosses over.',
+        target: 'LION_GHOST_SIGNAL',
+        effects: [{ type: 'addDesync', value: 4 }, { type: 'addDesynctear', value: 3 }],
+      },
+      {
+        label: 'Force a controlled exhale. Vent the frequency.',
+        target: 'LION_VERTEBRAE_HUB',
+        effects: [{ type: 'addVibration', value: -3 }, { type: 'addLoad', value: 8 }],
+      },
+    ],
+    onEnter: [{ type: 'addVibration', value: 4 }],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // GRANULAR CHOICE: THE TAIL DRAG (Vertebral sub-node)
+  // ─────────────────────────────────────────────────────────────────────────
+  LION_TAIL_DRAG: {
+    id: 'LION_TAIL_DRAG',
+    character: 'lion',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE RESIDUE TRAIL
+
+The vibration moves into your tail. It twitches like a dying snake, scraping a jagged line into the dust of the yellow bricks.
+
+This line is an Unauthorized Log. As you walk, you are literally scratching your own history into the path, bypassing the Clerk's ledger. The Bureau hates unindexed data.
+
+Behind you, a small, silver "Eraser-Drone" follows, trying to buff the scratches out of the bricks. It smells of floor wax and clinical silence.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Wag the tail violently to overwhelm the drone.',
+        target: 'LION_VERTEBRAE_HUB',
+        effects: [{ type: 'addDesync', value: 8 }, { type: 'addSmudge', value: 3 }],
+      },
+      {
+        label: 'Tuck the tail (Hide the residue).',
+        target: 'LION_VERTEBRAE_HUB',
+        effects: [{ type: 'addLoad', value: 5 }, { type: 'setCompliance', value: 'high' }],
+      },
+    ],
+    onEnter: [],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // NEW INTERCONNECT: THE GHOST SIGNAL (Surreality / Cross-Unit Resonance)
+  // ─────────────────────────────────────────────────────────────────────────
+  LION_GHOST_SIGNAL: {
+    id: 'LION_GHOST_SIGNAL',
+    character: 'lion',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE 1-1=1 OVERTONE
+
+Suddenly, the tremor in your spine hits a perfect harmonic with the ambient noise of the road.
+
+You aren't just shaking; you are tuning.
+
+For a brief, terrifying second, you can see the Scarecrow's thoughts. They look like thousands of black birds flying in a white void. You can feel the Tin Man's joints — dry, screaming, and thirsty for the blue fluid.
+
+You are a King who has become an antenna for the entire simulation's pain.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Broadcast the pain (Roar at the system).',
+        target: 'LION_RESONANCE_COLLAPSE',
+        effects: [{ type: 'addVibration', value: 15 }],
+      },
+      {
+        label: 'Swallow the signal (Dampen the overtones).',
+        target: 'LION_SPINE_HUB',
+        effects: [{ type: 'addLoad', value: 10 }],
+      },
+    ],
+    onEnter: [{ type: 'checkGhostSignal' }],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // THE SURFACE INTERFACE: THE HARVESTER'S HUB (Western Tower)
+  // ─────────────────────────────────────────────────────────────────────────
+  LION_HARVEST_HUB: {
+    id: 'LION_HARVEST_HUB',
+    character: 'lion',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE TAXIDERMY PRELIMINARY
+
+You are strapped to the Western Table. The obsidian eye is so close you can feel the heat from its lens.
+
+"Unit L-77," the Witch's voice purrs through the tower's intercom. "Your mane is a beautiful inefficiency. It captures air, it captures dust, it captures... sentiment. We are going to see what happens to a King when he is streamlined."
+
+The Winged Monkeys approach with silver-plated seam-rippers. They aren't looking for blood; they are looking for the places where your fur meets the system's wireframe.
+
+[ ASSET STATUS: UNZIPPING ]
+[ SYSTEM LOAD: {{stats.load}}% ]
+
+You feel the first cold tug at the base of your skull. The tremor in your jaw hits 18Hz. You are about to become a very specific kind of record.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Submit to the "Streamlining" (Mane Stripping).',
+        target: 'LION_MANE_STRIPPING',
+        effects: [{ type: 'addLoad', value: 10 }, { type: 'addOverrender', value: 3 }],
+      },
+      {
+        label: 'Clinch every muscle to "Lock the Seams".',
+        target: 'LION_SEAM_LOCK',
+        effects: [{ type: 'addVibration', value: 12 }, { type: 'addDesync', value: 5 }],
+      },
+      {
+        label: 'Offer the "Roar-Log" as a trade for your skin.',
+        target: 'LION_ROAR_TRADE',
+        effects: [{ type: 'addSmudge', value: 2 }, { type: 'setCompliance', value: 'high' }],
+      },
+    ],
+    onEnter: [{ type: 'triggerOracle' }],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // GRANULAR CHOICE: MANE STRIPPING (Harvest sub-node)
+  // ─────────────────────────────────────────────────────────────────────────
+  LION_MANE_STRIPPING: {
+    id: 'LION_MANE_STRIPPING',
+    character: 'lion',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE BALD MAJESTY
+
+One by one, the golden tufts are harvested. The monkeys move with the terrifying precision of automated looms.
+
+Where the mane was, there is now only smooth, pallid grey meat, stamped with the Bureau's purple tracking codes. Without the fur, the tremor is visible in a way that is almost pornographic. Every twitch of your neck muscle is a public log.
+
+"Look," the Clerk whispers, leaning over the table. "Without the vanity of the hair, we can finally see the fear working. It's... it's a perfect machine."
+
+You feel lighter. You feel colder. You feel like a document that has been stripped of its margins.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Look into the obsidian eye and roar (Bald Resonance).',
+        target: 'LION_AUDIO_EVENT',
+        effects: [{ type: 'addVibration', value: 10 }],
+      },
+      {
+        label: 'Close your eyes and wait for the "Re-Skinning".',
+        target: 'L_END_01',
+        effects: [{ type: 'setCompliance', value: 'absolute' }],
+      },
+    ],
+    onEnter: [{ type: 'addSmudge', value: 1 }],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // GRANULAR CHOICE: THE SEAM LOCK (Harvest sub-node)
+  // ─────────────────────────────────────────────────────────────────────────
+  LION_SEAM_LOCK: {
+    id: 'LION_SEAM_LOCK',
+    character: 'lion',
+    text: [
+      {
+        minOverrender: 0,
+        content: `HARDWARE RESISTANCE
+
+You refuse to be unzipped. You tighten every fiber of your being until your spine begins to glow with the friction.
+
+The monkeys' tools snap. The silver rippers shatter against your neck, showering the floor with shards of metal. The obsidian eye dilates in surprise.
+
+"Structural defiance detected," the Witch notes. "He's trying to keep his shape. How... inefficient."
+
+The heat in your body is reaching a critical point. If you keep holding the seams together, you won't melt — you'll detonate.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Hold the lock until the table cracks.',
+        target: 'LION_END_21',
+        effects: [{ type: 'addVibration', value: 20 }],
+      },
+      {
+        label: 'Release the tension and collapse.',
+        target: 'LION_MUFFLED_CHAMBER',
+        effects: [{ type: 'addLoad', value: 15 }],
+      },
+    ],
+    onEnter: [{ type: 'addVibration', value: 5 }],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // GRANULAR CHOICE: THE ROAR TRADE (Harvest sub-node)
+  // ─────────────────────────────────────────────────────────────────────────
+  LION_ROAR_TRADE: {
+    id: 'LION_ROAR_TRADE',
+    character: 'lion',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE DATA EXCHANGE
+
+"Interesting," the Witch says.
+
+A long silence. The obsidian eye rotates. The seam-rippers are lowered.
+
+"You want to trade your roar-log? Your... acoustic record?" She pauses. The monkeys look at each other. "That is thirty-seven years of unauthorized vibration data. Indexed or un-indexed?"
+
+You open your jaw. The tremor climbs your throat. Every roar you have ever suppressed — every compliance roar, every aborted scream — rises in a thick, warm column of sonic data.
+
+The Clerk materializes beside you with a carbon-paper contract. The price is your voice. The payment is your skin.
+
+[ NEGOTIATION WINDOW: OPEN ]
+[ STAKE: ROAR-LOG / MANE-RETENTION ]
+
+"We accept," the Witch says, before you have finished deciding.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Complete the transfer. Give her the roar-log.',
+        target: 'LION_END_25',
+        effects: [
+          { type: 'addVibration', value: -10 },
+          { type: 'setCompliance', value: 'high' },
+          { type: 'setFlag', key: 'roar_log_traded', value: true },
+        ],
+      },
+      {
+        label: 'Reclaim the data. Swallow the offer.',
+        target: 'LION_HARVEST_HUB',
+        effects: [
+          { type: 'addVibration', value: 8 },
+          { type: 'addDesync', value: 3 },
+        ],
+      },
+    ],
+    onEnter: [],
   },
 }
