@@ -3798,4 +3798,130 @@ Glinda pauses. She looks at you over the top of the book.
   ],
   onEnter: []
   },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // THE MANE EVENT
+  // ─────────────────────────────────────────────────────────────────────────
+
+  LION_MANE_EVENT: {
+    id: 'LION_MANE_EVENT',
+    character: 'lion',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE MANE EVENT
+
+They made it into entertainment.
+
+The last of your golden mane was not allowed to fall naturally. Instead, technicians in sterile gloves harvested the remaining strands while you were still conscious. They wove them into a living wig — a trophy mane — and mounted it on a polished brass stand.
+
+Now you stand on a rotating platform in the Emerald City's entertainment district. Your head is bald and raw, exposed meat glistening under bright lights. The crowd cheers as the spotlight hits the displayed mane.
+
+"Behold!" the announcer booms. "The once-mighty Lion — reduced to his finest accessory!"
+
+Every time the platform turns, you feel the phantom weight of what was taken. The skin on your scalp twitches and leaks clear fluid in time with the music. They have turned your crown into a prop.
+
+You are no longer the King.
+
+You are the Mane Event.`,
+      },
+    ],
+    choices: [],
+    onEnter: [],
+    isEnding: true,
+    endingId: 'L-END-22',
+    endingName: 'The Mane Event',
+    institution: 'Entertainment',
+    systemStatus: 'Marketed',
+    surreality: 6
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // THE POPPY BUFFER
+  // ─────────────────────────────────────────────────────────────────────────
+
+  LION_POPPY_BUFFER: {
+    id: 'LION_POPPY_BUFFER',
+    character: 'lion',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE POPPY BUFFER
+
+The poppies do not bloom for beauty.
+
+They bloom for compliance.
+
+As you stumble into the field, the red flowers turn toward you like hungry mouths. Their petals are not delicate — they are soft, fleshy membranes veined with thin blue nerves. The scent hits like warm syrup poured directly into your sinuses: sweet decay, anesthesia, and wet meat left too long in the sun.
+
+Poppy Drones rise from the blooms — small, smiling things with syringe-thorns for fingers. They sway as they approach, humming a lullaby in perfect, overlapping harmony.
+
+One drone gently pierces the raw patch on your neck where your mane used to be. Warm poppy resin floods your bloodstream. The tremor begins to soften, turning from violent shaking into a slow, luxurious wave.
+
+Your legs grow heavy. The yellow bricks feel like warm flesh beneath you.
+
+"You've carried the load long enough," the drones whisper sweetly. "Let the field take the weight. Let us make you quiet."
+
+New red poppies are already beginning to sprout from the puncture wounds, their roots gently burrowing into your meat.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Surrender to the resin. Let the field silence the tremor.',
+        target: 'LION_END_18',
+        effects: [
+          { type: 'addVibration', value: -20 },
+          { type: 'setCompliance', value: 'absolute' }
+        ]
+      },
+      {
+        label: 'Fight the drowsiness. Tear the roots out.',
+        target: 'LION_END_29',
+        effects: [
+          { type: 'addVibration', value: 15 },
+          { type: 'addDesyncTear', value: 10 }
+        ]
+      }
+    ],
+    onEnter: [{ type: 'addVibration', value: -8 }],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // THE DESERT CROSSING
+  // ─────────────────────────────────────────────────────────────────────────
+
+  LION_DESERT_CROSSING: {
+    id: 'LION_DESERT_CROSSING',
+    character: 'lion',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE DESERT CROSSING
+
+The yellow bricks end.
+
+Before you lies the Great Desert — an endless expanse of white, abrasive sand that reflects the sun like ground bone. The heat is immediate and merciless. It bakes the remaining moisture from your meat until your skin cracks and bleeds in thin red lines.
+
+Every step drives grains of sand into the raw patches where your mane once was. The tremor has become a dry, rattling thing — a death rattle in a body that has run out of fluid to shake.
+
+There is no shade. There is no water. There is only the slow thermodynamic audit of the sun.
+
+Your paws sink deeper with every step. The sand drinks your sweat, your lymph, your last reserves of strength.
+
+You are evaporating.
+
+You are becoming part of the desert — a bleached, rattling skeleton wearing the tattered remains of a Lion's skin.
+
+The Bureau calls this "evaporative compliance."`,
+      },
+    ],
+    choices: [],
+    onEnter: [],
+    isEnding: true,
+    endingId: 'L-END-29',
+    endingName: 'The Desert Crossing',
+    institution: 'Climatological',
+    systemStatus: 'Evaporated',
+    surreality: 7
+  },
 }
