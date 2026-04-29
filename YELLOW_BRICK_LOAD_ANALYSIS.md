@@ -1,659 +1,836 @@
 # YELLOW BRICK LOAD — Complete Codebase Analysis
 
-**An exhaustive deep-dive into the interactive fiction engine**
+**Deep analysis of the interactive fiction engine at `artifacts/yellow-brick-load/src/passages/`**  
+*305 total passage IDs across 11 files, verified via programmatic extraction*
 
 ---
 
 ## PART 1: STORY MAPS
 
-### Character Overview
+### System Overview
 
-| Character | Entry Point | Passage Files | Approx. Passages | Endings |
-|-----------|-------------|---------------|------------------|---------|
-| Lion | LION_INIT | lion_branches.js, lion_endings.js | ~95 | 30+ |
-| Tin Man | TIN_MAN_INIT | tin_man.js | ~35 | 13+ |
-| Scarecrow | SCARECROW_INIT | scarecrow.js | ~25 | 3 |
-| Dorothy | DOROTHY_INIT | dorothy.js | ~28 | 4 |
-| Glinda | GLINDA_INIT | glinda.js | ~28 | 6 |
-| Wizard | WIZARD_INIT | wizard.js | ~28 | 6 |
-| Witch West | WITCH_WEST_INIT | witch_west_stubs.js, witch_west_endings.js | ~55 | 6 |
-| Witch East | WITCH_EAST_INIT | witch_east.js | ~25 | 4 |
-| Enforcers | (cross-character) | enforcers.js | ~48 | 0 (loop back) |
+| Character | Entry Point | File(s) | Passages | Endings |
+|-----------|-------------|---------|----------|---------|
+| Lion | LION_INIT | lion_branches.js, lion_endings.js | 71 + 34 = **105** | 32 |
+| Tin Man | TIN_MAN_INIT | tin_man.js | **26** | 13 (1 stub) |
+| Scarecrow | SCARECROW_INIT | scarecrow.js | **17** | 3 |
+| Dorothy | DOROTHY_INIT | dorothy.js | **18** | 4 |
+| Glinda | GLINDA_INIT | glinda.js | **18** | 6 |
+| Wizard | WIZARD_INIT | wizard.js | **18** | 6 |
+| Witch West | WITCH_WEST_INIT / WITCH_WEST_INIT_B | witch_west_stubs.js + witch_west_endings.js | 41 + 6 = **47** | 6 |
+| Witch East | WITCH_EAST_INIT | witch_east.js | **16** | 4 |
+| Enforcers | (via triggerOracle) | enforcers.js | **40** | 0 (loop back) |
+| **TOTAL** | | | **305** | **74** |
+
+Oracle/Ghost-signal passages are entered via `triggerOracle` and `checkGhostSignal` engine effects, not via explicit `target:` choices — so oracle `_ENTRY` and `_DRAW` passages are legitimately "orphaned" from the choice graph.
 
 ---
 
-### LION (Unit L-77)
+## THE LION (Unit L-77)
 
-**Theme:** Tremor/Fear, Kingship as institutional construct  
-**Oracle:** Bureau Crow (8 outcomes)  
-**Key Mechanic:** Vibration (14Hz tremor)
+**Theme:** Vibration/Fear, Kingship as institutional construct  
+**Oracle:** Bureau Crow (8 outcomes) — entered via `triggerOracle` on LION_INIT_W, LION_INIT_H  
+**Key Mechanics:** Vibration (14Hz tremor), Desync, Desynctear, Overrender, Smudge, Compliance
 
-#### Passage Flow Map
+### Lion Passage Tree (lion_branches.js — 71 passages)
 
 ```
 LION_INIT
-├── [Hardware] → LION_HW_DIAGNOSTIC → LION_HW_CORRIDOR → LION_HW_MAINT_HUB → ...
-└── [Wetware] → LION_WW_DIAGNOSTIC → LION_WW_CORRIDOR → LION_WW_BREATH_HALL → ...
+├── [WETWARE] → LION_INIT_W
+│   ├── Accept ASSIMILATION → LION_ASSIMILATION
+│   │   ├── Accept dampeners → LION_SEDATION
+│   │   │   ├── Proceed to Muffled Chamber → LION_MUFFLED_CHAMBER
+│   │   │   │   ├── Accept redistribution → LION_END_11
+│   │   │   │   └── Search for seam → LION_MANE_FRACTURE
+│   │   │   │       ├── Sweep up debris → LION_MUFFLED_CHAMBER (loop)
+│   │   │   │       └── Allow fracture → LION_SYSTEM_SPASM
+│   │   │   │           ├── Hold bite → LION_HARD_RESET
+│   │   │   │           │   ├── Accept reset → LION_INIT (restart)
+│   │   │   │           │   └── Refuse → LION_END_21
+│   │   │   │           └── Release and run → LION_VOID_FRAGMENT
+│   │   │   │               ├── Accept displacement → LION_END_19 ❌BROKEN
+│   │   │   │               └── Cling to fragments → LION_END_27
+│   │   │   └── Spit capsule out → LION_SYSTEM_SPASM (see above)
+│   │   └── Log shaking as feature → LION_NOMINALIZATION
+│   │       ├── Ask technician → LION_MIRROR_ASSIMILATION
+│   │       │   ├── Turn away → LION_EMPTY_PROMENADE → LION_END_24
+│   │       │   └── Shout name → LION_NOMINAL_ECHO
+│   │       │       ├── Acknowledge label → LION_CLOSED_SYSTEM
+│   │       │       │   ├── Submit to equilibrium → LION_END_15
+│   │       │       │   └── Final roar → LION_END_21
+│   │       │       └── Wait → LION_LATENCY
+│   │       │           ├── Continue waiting → LION_END_25
+│   │       │           └── Force cycle → LION_END_26
+│   │       └── Walk into green light → LION_EMPTY_PROMENADE → LION_END_24
+│   ├── Ignore/VIOLENCE → LION_VIOLENCE
+│   │   ├── Charge Kalidah → LION_KALIDAH_FIGHT
+│   │   │   ├── Keep tearing → LION_END_33
+│   │   │   └── Pull back → LION_INK_REJECTION
+│   │   │       ├── Submit to surge → LION_END_23
+│   │   │       └── Stabilize by freezing → LION_END_17
+│   │   └── Hide in gears → LION_GEAR_HIDING
+│   │       ├── Stay still → LION_DE_INDEXING
+│   │       └── Follow paper trail → LION_VOID_TREK
+│   │           ├── Dissolve completely → LION_END_16
+│   │           └── Turn back → LION_END_26
+│   └── Pretend/DENIAL → LION_DENIAL
+│       ├── Royal Walk → LION_ROYAL_COMPLIANCE
+│       │   ├── Take throne → LION_END_15
+│       │   └── One last roar → LION_TESTIMONY_ERROR
+│       ├── Audit bird → LION_CALIBRATION_POINT
+│       │   ├── Submit → LION_END_25
+│       │   └── Reject → LION_ACOUSTIC_REBELLION
+│       │       ├── Push until sky tears → LION_END_21
+│       │       └── Swallow roar → LION_CLOSED_SYSTEM (see above)
+│       ├── Fix marker/RITUAL_WORK → LION_RITUAL_WORK
+│       │   ├── Allow Shearers → LION_THE_SHEARING
+│       │   └── Fight harvest → LION_VIOLENCE (see above)
+│       └── Spine station → LION_SPINE_HUB (repeatable hub)
+│           ├── MANE_SCRAPE_LOOP → LION_SPINE_HUB (loop)
+│           ├── BLUE_FLUID_LOOP → LION_SPINE_HUB (loop)
+│           ├── ROAR_TEST_LOOP → LION_SPINE_HUB (loop)
+│           ├── CLERK_LOOP → LION_SPINE_HUB (loop)
+│           ├── VERTEBRAE_HUB
+│           │   ├── NECK_TENSION → LION_MANE_FRACTURE / LION_VERTEBRAE_HUB
+│           │   ├── RIB_EXPANSION → LION_GHOST_SIGNAL / LION_VERTEBRAE_HUB
+│           │   │   └── LION_GHOST_SIGNAL
+│           │   │       ├── Broadcast pain → LION_RESONANCE_COLLAPSE
+│           │   │       │   ├── Push broadcast → LION_WHITE_LOGIC
+│           │   │       │   │   ├── Become resonance → LION_END_32
+│           │   │       │   │   └── Final roar → LION_END_23
+│           │   │       │   └── Step into white gap → LION_DATA_LEAK ❌BROKEN
+│           │   │       └── Swallow signal → LION_SPINE_HUB
+│           │   └── TAIL_DRAG → LION_VERTEBRAE_HUB (loop)
+│           └── RE-ENTER: → LION_GATES_OF_OZ
+│               ├── Declare cured → L_END_01
+│               └── Roar true state → L_END_02
+└── [HARDWARE] → LION_INIT_H
+    ├── ASSIMILATION_H → LION_MUFFLED_CHAMBER / LION_SYSTEM_SPASM
+    ├── DENIAL_H → LION_STRUCTURAL_FAILURE / LION_REMAINTENANCE
+    │   └── REMAINTENANCE
+    │       ├── Accept post → LION_END_20
+    │       └── Overload harness → LION_END_23
+    └── VIOLENCE_H
+        ├── Engage Kalidah → LION_KALIDAH_PATCH
+        │   ├── Complete merge → LION_UNINDEXED_MANY → LION_END_28
+        │   └── Use Kalidah's eyes → LION_ROOT_ACCESS ❌BROKEN
+        ├── Bypass/Root Access → LION_ROOT_ACCESS ❌BROKEN
+        └── Let Monkeys take you → LION_HARVEST_HUB
+            ├── MANE_STRIPPING
+            │   ├── Roar at obsidian eye → LION_AUDIO_EVENT
+            │   │   ├── Roar again → LION_RESONANCE_COLLAPSE (see above)
+            │   │   └── Touch fracture → LION_LATENCY_GAP
+            │   │       ├── Sync with ghost → LION_END_14
+            │   │       └── Step into gap → LION_END_19 ❌BROKEN
+            │   └── Close eyes, wait → L_END_01
+            ├── SEAM_LOCK → LION_END_21 / LION_MUFFLED_CHAMBER
+            └── ROAR_TRADE → LION_END_25 / LION_HARVEST_HUB
 
-LION_ORACLE_ENTRY (Bureau Crow Ritual)
-├── LION_ORACLE_1 → Vibration spike, compliance pressure
-├── LION_ORACLE_2 → Displacement/scatter
-├── LION_ORACLE_3 → Seismic resonance
-├── LION_ORACLE_4 → Behavioral lock
-├── LION_ORACLE_5 → Kinetic surplus
-├── LION_ORACLE_6 → Load drain
-├── LION_ORACLE_7 → Ghost signal
-└── LION_ORACLE_8 → Catastrophic tremor
+ORACLE PATH (entered via triggerOracle effect):
+LION_ORACLE_ENTRY → LION_ORACLE_DRAW
+├── 1. Spasming Lymph → LION_VIOLENCE / LION_SYSTEM_SPASM
+├── 2. Clotted Stamp → LION_ASSIMILATION / LION_ROOT_ACCESS ❌BROKEN
+├── 3. Kalidah Stain → LION_END_28 / LION_ROOT_ACCESS ❌BROKEN
+├── 4. Jaw Fracture → LION_VIOLENCE / LION_ECHO_CHAMBER → LION_END_14
+├── 5. Wet Gypsum → LION_ASSIMILATION / LION_TAXIDERMY_HUB → LION_END_13
+├── 6. Roaring Residue → LION_AUDIO_EVENT / LION_DENIAL
+├── 7. Stapled Tremor → LION_ROYAL_COMPLIANCE / LION_ASSIMILATION
+└── 8. Unlogged Spasm → LION_DATA_LEAK ❌BROKEN / LION_VOID_FRAGMENT
 
-Key Hubs:
-- LION_SPINE_HUB (audit cycle hub, repeatable loops)
-- LION_VERTEBRAE_HUB (internal hardware sub-hub)
-- LION_HARVEST_HUB (Western Tower interface)
-- LION_GATES_OF_OZ (final destination)
-- LION_AUDIENCE_CHAMBER
-- LION_FOREST_THRONE
-- LION_GLINDA_RECORD
-- LION_POPPY_BUFFER
-
-Repeatable Loops:
-- LION_MANE_SCRAPE_LOOP
-- LION_CLERK_LOOP
-- LION_ROAR_TEST_LOOP
-- LION_BLUE_FLUID_LOOP
+ADDITIONAL HUB NODES (orphaned — no inbound choices):
+- LION_HARMONIC_ALIGNMENT → LION_END_25 (dead-end: never reached by any choice)
+- LION_QUADLING_SECTOR → L_END_08 / L_END_09
+- LION_WIZARD_MISSION → LION_FOREST_THRONE / LION_AUDIENCE_CHAMBER
+  └── LION_FOREST_THRONE → L_END_05 / L_END_06
+  └── LION_AUDIENCE_CHAMBER → L_END_03 / L_END_04
+- LION_GLINDA_RECORD → L_END_07 / L_END_10
+- LION_POPPY_BUFFER → LION_END_18 / LION_END_29
+- LION_SYSTEM_ENTROPY → LION_END_32 (orphaned)
 ```
 
-#### Lion Endings (30+ endings)
+### Lion Endings (lion_endings.js — 34 endings, 32 have isEnding:true)
 
-| ID | Passage ID | Name | Institution | Surreality |
-|----|------------|------|-------------|------------|
-| L-END-01 | L_END_01 | The Standardized King | Judicial | 1 |
-| L-END-02 | L_END_02 | The Weight of the Badge | Military | 2 |
-| L-END-03 | L_END_03 | The Placebo Heart | Medical | 2 |
-| L-END-04 | L_END_04 | The Crow's Audit | Educational | 3 |
-| L-END-05 | L_END_05 | The Gilded Field | Agricultural | 4 |
-| L-END-06 | L_END_06 | The Scripted Roar | Media | 3 |
-| L-END-07 | L_END_07 | The Fossil Record | Historical | 5 |
-| L-END-08 | L_END_08 | The Ritual Scar | Religious | 6 |
-| L-END-09 | L_END_09 | The Mirror of Kings | Philosophical | 7 |
-| L-END-10 | L_END_10 | The Compliance Loop | Bureaucracy | 3 |
-| L-END-11 | LION_END_11 | The Padded Cell | Medical | 3 |
-| L-END-12 | LION_DE_INDEXING | Unmonitored Dark | Ecological | 9 |
-| L-END-13 | LION_END_13 | The Taxidermy | Historical | 5 |
-| L-END-14 | LION_END_14 | The Feedback Loop | Psychological | 8 |
-| L-END-15 | LION_END_15 / LION_TESTIMONY_ERROR | Royal Compliance | State | 2/5 |
-| L-END-16 | LION_END_16 | The Jungle Basin | Economic | 7 |
-| L-END-17 | LION_END_17 / LION_STRUCTURAL_FAILURE | Mechanical Cowardice | Industrial | 4/7 |
-| L-END-18 | LION_END_18 | The Scent of Pine | Olfactory | 4 |
-| L-END-20 | LION_END_20 | The Guard Dog | Security | 2 |
-| L-END-21 | LION_END_21 | The Roaring Void | Narrative | 9 |
-| L-END-22 | LION_MANE_EVENT | The Mane Event | Entertainment | 6 |
-| L-END-23 | LION_END_23 | Synaptic Surge | Neurological | 9 |
-| L-END-24 | LION_END_24 | The Stone Lion | Urban | 3 |
-| L-END-25 | LION_END_25 | The Calibration | Scientific | 5 |
-| L-END-26 | LION_END_26 | The Prey Cycle | Biological | 6 |
-| L-END-27 | LION_END_27 | The Badge of Air | Bureaucracy | 6 |
-| L-END-28 | LION_END_28 | The Kalidah Merge | Genetic | 9 |
-| L-END-29 | LION_END_29 / LION_DESERT_CROSSING | The Desert Crossing | Climatological | 10/7 |
-| L-END-30 | LION_THE_SHEARING | The Golden Fleece | Economic | 6 |
-| L-END-32 | LION_END_32 | The Resonant Void | Narrative | 9 |
-| L-END-33 | LION_END_33 | The Kalidah Merge | Genetic | 9 |
+| Passage ID | endingId | Name | Institution | isEnding |
+|------------|----------|------|-------------|----------|
+| L_END_01 | L-END-01 | The Standardized King | Judicial | ✅ |
+| L_END_02 | L-END-02 | The Weight of the Badge | Military | ✅ |
+| L_END_03 | L-END-03 | (Audience: Beg) | Medical | ✅ |
+| L_END_04 | L-END-04 | (Audience: Demand truth) | Philosophical | ✅ |
+| L_END_05 | L-END-05 | (Forest Throne: Accept) | Agricultural | ✅ |
+| L_END_06 | L-END-06 | (Forest Throne: Reject) | Media | ✅ |
+| L_END_07 | L-END-07 | (Glinda: Accept) | Religious | ✅ |
+| L_END_08 | L-END-08 | (Quadling: Accept impact) | Religious | ✅ |
+| L_END_09 | L-END-09 | (Quadling: Consider crater) | Philosophical | ✅ |
+| L_END_10 | L-END-10 | (Glinda: Reject) | Bureaucracy | ✅ |
+| LION_END_11 | L-END-11 | The Padded Cell | Medical | ❌ MISSING |
+| LION_END_13 | L-END-13 | The Taxidermy | Historical | ✅ |
+| LION_END_14 | L-END-14 | The Feedback Loop | Psychological | ✅ |
+| LION_END_15 | L-END-15 | The Final Log [L-END-15] | State | ✅ |
+| LION_TESTIMONY_ERROR | L-END-15 | The Testimony Error | State | ❌ MISSING + **DUPLICATE endingId** |
+| LION_END_16 | L-END-16 | The Jungle Basin | Economic | ✅ |
+| LION_END_17 | L-END-17 | The Final Log [L-END-17] | Industrial | ✅ |
+| LION_STRUCTURAL_FAILURE | L-END-17 | The Structural Failure | Industrial | ❌ MISSING + **DUPLICATE endingId** |
+| LION_END_18 | L-END-18 | The Scent of Pine | Olfactory | ✅ |
+| LION_END_20 | L-END-20 | The Guard Dog | Security | ✅ |
+| LION_END_21 | L-END-21 | The Roaring Void | Narrative | ❌ MISSING |
+| LION_END_23 | L-END-23 | Synaptic Surge | Neurological | ✅ |
+| LION_END_24 | L-END-24 | The Stone Lion | Urban | ✅ |
+| LION_END_25 | L-END-25 | The Calibration | Scientific | ✅ |
+| LION_END_26 | L-END-26 | The Prey Cycle | Biological | ✅ |
+| LION_END_27 | L-END-27 | The Badge of Air | Bureaucracy | ✅ |
+| LION_END_28 | L-END-28 | The Kalidah Merge | Genetic | ✅ |
+| LION_END_29 | L-END-29 | The Desert Crossing | Climatological | ✅ |
+| LION_END_32 | L-END-32 | The Resonant Void | Narrative | ✅ |
+| LION_END_33 | L-END-33 | The Kalidah Merge | Genetic | ❌ MISSING |
+| LION_DE_INDEXING | — | The De-Indexing | Ecological | ❌ no endingId, no isEnding |
+| LION_THE_SHEARING | — | The Shearing | Economic | ❌ no endingId, no isEnding |
+| LION_MANE_EVENT | — | The Mane Event | Entertainment | ❌ no endingId, no isEnding |
+| LION_DESERT_CROSSING | — | The Desert Crossing | Climatological | ❌ no endingId, no isEnding + **orphaned** |
 
 ---
 
-### TIN MAN (Unit T-44)
+## TIN MAN (Unit T-44)
 
 **Theme:** Hardware/Wetware split, Corrosion, Empty chest cavity  
-**Oracle:** Oil Clerk (8 outcomes)  
-**Key Mechanic:** Corrosion, Seizure, Stitch Integrity
+**Oracle:** Oil Clerk (entered via `triggerOracle` on T_PATH_WETWARE)  
+**Key Mechanics:** Corrosion, Seizure, Lubrication
 
-#### Passage Flow Map
+### Tin Man Passage Tree (26 passages)
 
 ```
 TIN_MAN_INIT
-├── [Wetware remembers] → TIN_MAN_WW_MEMORY → TIN_MAN_WW_CORRIDOR
-└── [Hardware only] → TIN_MAN_HW_CORRIDOR → TIN_MAN_HW_DIAGNOSTIC
+├── [WETWARE: remember the name] → T_PATH_WETWARE
+│   ├── Request a Heart → T_END_01
+│   └── Let memory burn → T_END_02
+└── [HARDWARE: submit to Oil Can] → T_PATH_HARDWARE
+    ├── Report for Logging Script → T_END_21 ⚠️ STUB
+    └── Ask for Heart as patch → T_END_03
 
-TIN_MAN_ORACLE_ENTRY (Oil Clerk Ritual)
-├── TIN_MAN_ORACLE_1 → Corrosion surge
-├── TIN_MAN_ORACLE_2 → Seizure spike
-├── TIN_MAN_ORACLE_3 → Graft opportunity
-├── TIN_MAN_ORACLE_4 → Load redistribution
-├── TIN_MAN_ORACLE_5 → Memory flush
-├── TIN_MAN_ORACLE_6 → Structural failure
-├── TIN_MAN_ORACLE_7 → Blue fluid dependency
-└── TIN_MAN_ORACLE_8 → Complete rust
-
-Key Nodes:
-- TIN_MAN_EMPTY_CHEST (examining the void)
-- TIN_MAN_OIL_STATION
-- TIN_MAN_BLUE_FLUID_HUB
-- TIN_MAN_RUST_PROGRESSION
-- TIN_MAN_AXED_LIMB
+ORACLE PATH (triggerOracle on T_PATH_WETWARE):
+TIN_MAN_ORACLE_ENTRY
+├── [Open seam] → TIN_MAN_ORACLE_DRAW
+│   ├── 1. Thickened Hemorrhage → TIN_MAN_ORACLE_1
+│   │   ├── Corrosion accelerates → T_END_02
+│   │   └── Redirect to melting → T_END_19
+│   ├── 2. Lubricated Verdict → TIN_MAN_ORACLE_2
+│   │   ├── Follow empathetic link → T_END_03
+│   │   └── Accept restoration → T_PATH_HARDWARE
+│   ├── 3. Rust Gospel → TIN_MAN_ORACLE_3
+│   │   ├── Accept gospel → T_END_02
+│   │   └── Resist → T_END_13
+│   ├── 4. Joint Pulp → TIN_MAN_ORACLE_4
+│   │   ├── Accept static → T_END_10
+│   │   └── Locked stillness → T_END_12
+│   ├── 5. Black Oil Sacrament → TIN_MAN_ORACLE_5
+│   │   ├── Forced compliance → T_END_21 ⚠️ STUB
+│   │   └── Contaminate echo chamber → T_END_04
+│   ├── 6. Axe Feedback → TIN_MAN_ORACLE_6
+│   │   ├── Amplify resonance → T_END_04
+│   │   └── Unlock wetware path → T_PATH_WETWARE
+│   ├── 7. Filtered Bleed → TIN_MAN_ORACLE_7
+│   │   ├── Hollow compliance → T_END_09
+│   │   └── Mannequin display → T_END_14
+│   └── 8. Exposed Core → TIN_MAN_ORACLE_8
+│       ├── Wetware signal → T_END_03
+│       └── Rust archive → T_END_06
+└── [Resist] → T_PATH_WETWARE
 ```
 
-#### Tin Man Endings (13+ endings)
+### Tin Man Endings (13)
 
-| ID | Passage ID | Name | Institution | Status |
-|----|------------|------|-------------|--------|
-| T-END-01 | T_END_01 | The Replacement Parts | Industrial | Complete |
-| T-END-02 | T_END_02 | The Oil Dependence | Economic | Complete |
-| T-END-03 | T_END_03 | The Rust Garden | Ecological | Complete |
-| T-END-04 | T_END_04 | The Hollow King | Bureaucracy | Complete |
-| T-END-05 | T_END_05 | The Wetware Return | Medical | Complete |
-| T-END-06 | T_END_06 | The Axe Legacy | Industrial | Complete |
-| T-END-07 | T_END_07 | The Heart Prosthetic | Scientific | Complete |
-| T-END-08 | T_END_08 | The Scrap Heap | Economic | Complete |
-| T-END-09 | T_END_09 | The Museum Piece | Historical | Complete |
-| T-END-10 | T_END_10 | The Recursive Maintenance | Bureaucracy | Complete |
-| T-END-11 | T_END_11 | The Blue Fluid Communion | Pharmaceutical | Complete |
-| T-END-12 | T_END_12 | The Kinetic Anchor | Military | Complete |
-| T-END-21 | T_END_21 | The Logging Script | ??? | **STUB/TODO** |
+| Passage ID | Name | Institution | Status |
+|------------|------|-------------|--------|
+| T_END_01 | The Filing Cabinet | Industrial | ✅ |
+| T_END_02 | Oxidation Theory | Economic | ✅ |
+| T_END_03 | Hydraulic Empathy | Medical | ✅ |
+| T_END_04 | The Echo Chamber | Bureaucracy | ✅ |
+| T_END_06 | The Rust Archive | Ecological | ✅ |
+| T_END_07 | Scrap Value | Economic | ✅ (**ORPHANED** — no inbound choices) |
+| T_END_09 | The Oil Bath Submersion | Pharmaceutical | ✅ |
+| T_END_10 | Total Seizure | Bureaucracy | ✅ |
+| T_END_12 | Heartbeat Logic | Scientific | ✅ |
+| T_END_13 | Industrial Waste | Industrial | ✅ |
+| T_END_14 | The Mannequin | Historical | ✅ |
+| T_END_19 | The Melting Point | Thermal | ✅ |
+| T_END_21 | The Logging Script | Bureaucratic | **⚠️ STUB: content is `[ TODO ]`** |
 
 ---
 
-### SCARECROW (Unit S-21)
+## SCARECROW (Unit S-21)
 
 **Theme:** Scatter/Fragmentation, Recursive self-reflection  
 **Oracle:** Straw Clerk (8 outcomes)  
-**Key Mechanic:** Scatter, Stitch Integrity
+**Key Mechanics:** Scatter, Stitch Integrity
 
-#### Passage Flow Map
+### Scarecrow Passage Tree (17 passages)
 
 ```
 SCARECROW_INIT
-├── [Gather thoughts] → SCARECROW_GATHER → SCARECROW_FIELD_HUB
-└── [Let scatter] → SCARECROW_DISPERSE → SCARECROW_CROW_FIELD
+├── [Slip free] → SCARECROW_PATH_MIND
+│   ├── Follow scattered straw → SCARECROW_DIPLOMA_HUB
+│   └── Let scatter reach critical → SCARECROW_ORACLE_ENTRY
+└── [Remain on post] → SCARECROW_PATH_COMPLIANCE
+    └── Accept infrastructure role → SCARECROW_DIPLOMA_HUB
+        ├── Accept certified brain → SCARECROW_END_DIPLOMA
+        └── Reject diploma → SCARECROW_ORACLE_ENTRY
 
-SCARECROW_ORACLE_ENTRY (Straw Clerk Ritual)
-├── SCARECROW_ORACLE_1 → Scatter surge
-├── SCARECROW_ORACLE_2 → Stitch integrity check
-├── SCARECROW_ORACLE_3 → Thought echo
-├── SCARECROW_ORACLE_4 → Recursive loop
-├── SCARECROW_ORACLE_5 → Material exchange
-├── SCARECROW_ORACLE_6 → Fire risk
-├── SCARECROW_ORACLE_7 → Crow communion
-└── SCARECROW_ORACLE_8 → Total dispersion
+ORACLE PATH (triggerOracle on SCARECROW_PATH_MIND):
+SCARECROW_ORACLE_ENTRY
+├── [Allow extraction] → SCARECROW_ORACLE_DRAW
+│   ├── 1. Leaking Stuffing → SCARECROW_END_SCATTER / SCARECROW_DIPLOMA_HUB
+│   ├── 2. Diploma Graft → SCARECROW_END_DIPLOMA / SCARECROW_END_HOLLOW
+│   ├── 3. Crow-Picked Residue → SCARECROW_END_SCATTER / SCARECROW_END_HOLLOW
+│   ├── 4. Seam Rupture → SCARECROW_END_SCATTER / SCARECROW_ORACLE_7
+│   │   └── SCARECROW_ORACLE_7 (Pinned Patch) → SCARECROW_PATH_COMPLIANCE / SCARECROW_DIPLOMA_HUB
+│   ├── 5. Mold Prophecy → SCARECROW_END_HOLLOW / SCARECROW_END_SCATTER
+│   ├── 6. Wind Audit → SCARECROW_END_SCATTER / SCARECROW_DIPLOMA_HUB
+│   ├── 7. Pinned Patch → SCARECROW_PATH_COMPLIANCE / SCARECROW_DIPLOMA_HUB
+│   └── 8. Empty Cavity → SCARECROW_END_HOLLOW / SCARECROW_END_SCATTER
+└── [Restuff seam] → SCARECROW_PATH_COMPLIANCE
 ```
 
-#### Scarecrow Endings (3 endings)
+### Scarecrow Endings (3)
 
-| ID | Passage ID | Name | Institution |
-|----|------------|------|-------------|
-| S-END-01 | S_END_01 | The Burning | Industrial |
-| S-END-02 | S_END_02 | The Crow Feast | Ecological |
-| S-END-03 | S_END_03 | The Recursive Thought | Philosophical |
+| Passage ID | endingId | Name |
+|------------|----------|------|
+| SCARECROW_END_DIPLOMA | S-END-03 | The Diploma |
+| SCARECROW_END_SCATTER | S-END-07 | The Scatter |
+| SCARECROW_END_HOLLOW | S-END-11 | The Hollow |
 
 ---
 
-### DOROTHY (Unit D-01)
+## DOROTHY (Unit D-01)
 
 **Theme:** Displacement/Home-frequency, The girl outside the system  
 **Oracle:** Dust Clerk (8 outcomes)  
-**Key Mechanic:** Displacement, Home Signal
+**Key Mechanics:** Displacement, Home Signal, Nerve Thread
 
-#### Passage Flow Map
+### Dorothy Passage Tree (18 passages)
 
 ```
 DOROTHY_INIT
-├── [Follow the road] → DOROTHY_ROAD_START → DOROTHY_MUNCHKIN_ENCOUNTER
-└── [Question the road] → DOROTHY_QUESTION → DOROTHY_DUST_ENCOUNTER
+├── [Follow the road] → DOROTHY_PATH_ROAD
+│   ├── Accept lollipop → DOROTHY_PATH_COMPLIANCE
+│   │   ├── Follow compliant road → DOROTHY_END_SEAL
+│   │   └── Let muffled signal build → DOROTHY_ORACLE_ENTRY
+│   └── Refuse lollipop → DOROTHY_ORACLE_ENTRY
+└── [Click slippers] → DOROTHY_PATH_SLIPPERS
+    ├── Click again → DOROTHY_ORACLE_ENTRY
+    └── Stop clicking → DOROTHY_PATH_ROAD
 
-DOROTHY_ORACLE_ENTRY (Dust Clerk Ritual)
-├── DOROTHY_ORACLE_1 → Displacement spike
-├── DOROTHY_ORACLE_2 → Home signal interference
-├── DOROTHY_ORACLE_3 → Graft opportunity
-├── DOROTHY_ORACLE_4 → Nerve pull
-├── DOROTHY_ORACLE_5 → Silver/Ruby interference
-├── DOROTHY_ORACLE_6 → Kansas ghost
-├── DOROTHY_ORACLE_7 → Toto signal
-└── DOROTHY_ORACLE_8 → Total displacement
-
-Key Nodes:
-- DOROTHY_RUBY_SLIPPERS (interface with home)
-- DOROTHY_SILVER_SHOES (original mechanism)
-- DOROTHY_POPPY_FIELD
-- DOROTHY_EMERALD_GATE
+ORACLE PATH (triggerOracle on DOROTHY_PATH_ROAD and DOROTHY_PATH_SLIPPERS):
+DOROTHY_ORACLE_ENTRY
+├── [Allow extraction] → DOROTHY_ORACLE_DRAW
+│   ├── 1. Homesick Nerve → DOROTHY_END_HOME / DOROTHY_END_POPPY
+│   ├── 2. Silver Incision → DOROTHY_END_HOME / DOROTHY_PATH_ROAD
+│   ├── 3. Warrant Thread → DOROTHY_END_SEAL / DOROTHY_ORACLE_8
+│   │   └── DOROTHY_ORACLE_8 (Terminal Pull) → DOROTHY_END_HOME / DOROTHY_END_DISPLACEMENT
+│   ├── 4. Sepia Bleed → DOROTHY_END_POPPY / DOROTHY_END_HOME
+│   ├── 5. Slipper Grind → DOROTHY_END_HOME / DOROTHY_PATH_ROAD
+│   ├── 6. Grafted Echo → DOROTHY_END_DISPLACEMENT / DOROTHY_END_POPPY
+│   ├── 7. Dust Seal → DOROTHY_END_SEAL / DOROTHY_PATH_SLIPPERS
+│   └── 8. Terminal Pull → DOROTHY_END_HOME / DOROTHY_END_DISPLACEMENT
+└── [Pull back] → DOROTHY_PATH_COMPLIANCE
 ```
 
-#### Dorothy Endings (4 endings)
+### Dorothy Endings (4)
 
-| ID | Passage ID | Name | Institution |
-|----|------------|------|-------------|
-| D-END-01 | D_END_HOME | There's No Place Like Home | Domestic |
-| D-END-02 | D_END_POPPY | The Poppy Sleep | Pharmaceutical |
-| D-END-03 | D_END_SEAL | The Bureau Seal | Bureaucratic |
-| D-END-04 | D_END_DISPLACEMENT | Total Displacement | Cosmological |
+| Passage ID | endingId | Name |
+|------------|----------|------|
+| DOROTHY_END_HOME | D-END-01 | There's No Place Like Home |
+| DOROTHY_END_POPPY | D-END-16 | The Poppy Sleep |
+| DOROTHY_END_SEAL | D-END-07 | The Bureau Seal |
+| DOROTHY_END_DISPLACEMENT | D-END-22 | Total Displacement |
 
 ---
 
-### GLINDA (The Good Witch of the North/South)
+## GLINDA (The Good Witch)
 
 **Theme:** Refraction/Mercy, Pink light as institutional softness  
 **Oracle:** Porcelain Auditor (8 outcomes)  
-**Key Mechanic:** Refraction, Mercy Index
+**Key Mechanics:** Refraction, Displacement, Vibration (borrowed)
 
-#### Passage Flow Map
+### Glinda Passage Tree (18 passages)
 
 ```
 GLINDA_INIT
-├── [Extend mercy] → GLINDA_MERCY_PATH → GLINDA_BUBBLE_CHAMBER
-└── [Observe only] → GLINDA_OBSERVE → GLINDA_AUDIT_CHAMBER
+├── [Descend for mercy calibration] → GLINDA_ORACLE_ENTRY
+└── [Observe from altitude] → GLINDA_PATH_ALTITUDE
+    ├── Descend when critical → GLINDA_ORACLE_ENTRY
+    └── Remain at altitude → GLINDA_END_DRIFT
 
-GLINDA_ORACLE_ENTRY (Porcelain Auditor Ritual)
-├── GLINDA_ORACLE_1 → Refraction increase
-├── GLINDA_ORACLE_2 → Mercy extension
-├── GLINDA_ORACLE_3 → Pink light graft
-├── GLINDA_ORACLE_4 → Dorothy intervention
-├── GLINDA_ORACLE_5 → Lion intervention
-├── GLINDA_ORACLE_6 → Witch West opposition
-├── GLINDA_ORACLE_7 → Bubble transport
-└── GLINDA_ORACLE_8 → Porcelain fracture
+ORACLE PATH (triggerOracle on GLINDA_INIT and GLINDA_PATH_ALTITUDE):
+GLINDA_ORACLE_ENTRY
+├── [Submit to calibration] → GLINDA_ORACLE_DRAW
+│   ├── 1. Pink Filament → GLINDA_END_BENEVOLENT / GLINDA_END_REFRACTION
+│   ├── 2. Bubble Suture → GLINDA_END_INSULATED / GLINDA_ORACLE_8
+│   │   └── GLINDA_ORACLE_8 (Bubble Burst) → GLINDA_END_BURST / GLINDA_END_INSULATED
+│   ├── 3. Lens Fracture → GLINDA_END_REFRACTION / GLINDA_END_SILVER_ECHO
+│   ├── 4. Grace Incision → GLINDA_END_SILVER_ECHO / GLINDA_END_BENEVOLENT
+│   ├── 5. Porcelain Mask → GLINDA_END_INSULATED / GLINDA_ORACLE_8
+│   ├── 6. Synthetic Lilac Bleed → GLINDA_END_INSULATED / GLINDA_END_DRIFT
+│   ├── 7. High-Altitude Drain → GLINDA_END_DRIFT / GLINDA_END_REFRACTION
+│   └── 8. Bubble Burst → GLINDA_END_BURST / GLINDA_END_INSULATED
+└── [Resist] → GLINDA_PATH_ALTITUDE
 ```
 
-#### Glinda Endings (6 endings)
+### Glinda Endings (6)
 
-| ID | Passage ID | Name | Institution |
-|----|------------|------|-------------|
-| G-END-01 | G_END_01 | The Good Witch's Rest | Domestic |
-| G-END-02 | G_END_02 | The Pink Suffocation | Medical |
-| G-END-03 | G_END_03 | The Mercy Overload | Bureaucratic |
-| G-END-04 | G_END_04 | The Porcelain Shatter | Industrial |
-| G-END-05 | G_END_05 | The Refracted Truth | Philosophical |
-| G-END-06 | G_END_06 | The Bubble Isolation | Psychological |
+| Passage ID | endingId | Name |
+|------------|----------|------|
+| GLINDA_END_BENEVOLENT | G-END-01 | The Good Witch's Rest |
+| GLINDA_END_INSULATED | G-END-11 | The Insulated |
+| GLINDA_END_REFRACTION | G-END-02 | The Refracted Truth |
+| GLINDA_END_DRIFT | G-END-10 | The Drift |
+| GLINDA_END_SILVER_ECHO | G-END-09 | The Silver Echo |
+| GLINDA_END_BURST | G-END-16 | The Bubble Burst |
 
 ---
 
-### WIZARD (Unit Z-00 / Oscar Diggs)
+## WIZARD (Unit Z-00 / Oscar Diggs)
 
 **Theme:** Obfuscation/Projection, Curtain as interface  
 **Oracle:** Humbug Surgeon (8 outcomes)  
-**Key Mechanic:** Obfuscation, Projection Level
+**Key Mechanics:** Obfuscation, Projection Level, Smoke
 
-#### Passage Flow Map
+### Wizard Passage Tree (18 passages)
 
 ```
 WIZARD_INIT
-├── [Maintain the curtain] → WIZARD_CURTAIN_MAINTAIN → WIZARD_PROJECTION_HUB
-└── [Pull back the curtain] → WIZARD_REVEAL → WIZARD_MECHANISM_EXPOSED
+├── [Open curtain partially] → WIZARD_ORACLE_ENTRY
+└── [Keep curtain closed] → WIZARD_PATH_PROJECTION
+    ├── Continue projection → WIZARD_END_AUDIT
+    └── Let lever stick → WIZARD_ORACLE_ENTRY
 
-WIZARD_ORACLE_ENTRY (Humbug Surgeon Ritual)
-├── WIZARD_ORACLE_1 → Obfuscation surge
-├── WIZARD_ORACLE_2 → Projection failure
-├── WIZARD_ORACLE_3 → Smoke graft
-├── WIZARD_ORACLE_4 → Balloon escape
-├── WIZARD_ORACLE_5 → Diploma/Medal/Heart placebo
-├── WIZARD_ORACLE_6 → Lion smoke to Lion
-├── WIZARD_ORACLE_7 → Dorothy redirect
-└── WIZARD_ORACLE_8 → Total exposure
+ORACLE PATH (triggerOracle on WIZARD_INIT and WIZARD_PATH_PROJECTION):
+WIZARD_ORACLE_ENTRY
+├── [Allow theatrical incision] → WIZARD_ORACLE_DRAW
+│   ├── 1. Smoke Graft → WIZARD_END_AUDIT / WIZARD_END_GREEN
+│   ├── 2. Curtain Seal → WIZARD_END_AUDIT / WIZARD_ORACLE_7
+│   │   └── WIZARD_ORACLE_7 (Humbug Harvest) → WIZARD_END_ORIGIN / WIZARD_END_FAIL
+│   ├── 3. Lever Pull → WIZARD_END_OVERRIDE / WIZARD_END_FAIL
+│   ├── 4. Testimonial Extraction → WIZARD_END_AUDIT / WIZARD_END_FAIL
+│   ├── 5. Balloon Inflation → WIZARD_END_BALLOON / WIZARD_END_OVERRIDE
+│   ├── 6. Green Lens Implant → WIZARD_END_GREEN / WIZARD_END_FAIL
+│   ├── 7. Humbug Harvest → WIZARD_END_ORIGIN / WIZARD_END_FAIL
+│   └── 8. Projection Collapse → WIZARD_END_ORIGIN / WIZARD_END_FAIL
+└── [Pull curtain back] → WIZARD_PATH_PROJECTION
 ```
 
-#### Wizard Endings (6 endings)
+### Wizard Endings (6)
 
-| ID | Passage ID | Name | Institution |
-|----|------------|------|-------------|
-| Z-END-01 | Z_END_01 | The Balloon Escape | Transportation |
-| Z-END-02 | Z_END_02 | The Man Behind the Curtain | Theatrical |
-| Z-END-03 | Z_END_03 | The Great and Powerful | State |
-| Z-END-04 | Z_END_04 | The Humbug Confession | Religious |
-| Z-END-05 | Z_END_05 | The Placebo Kingdom | Medical |
-| Z-END-06 | Z_END_06 | The Projection Loop | Technological |
+| Passage ID | endingId | Name |
+|------------|----------|------|
+| WIZARD_END_AUDIT | Z-END-01 | The Marketing Audit |
+| WIZARD_END_FAIL | Z-END-05 | The Humbug Confession |
+| WIZARD_END_OVERRIDE | Z-END-08 | The Manual Override |
+| WIZARD_END_GREEN | Z-END-07 | The Green Lens |
+| WIZARD_END_BALLOON | Z-END-04 | The Balloon Escape |
+| WIZARD_END_ORIGIN | Z-END-02 | The Origin |
 
 ---
 
-### WITCH WEST (The Wicked Witch of the West)
+## WITCH WEST (The Wicked Witch of the West)
 
 **Theme:** Malice/Surveillance, Obsidian Eye as recording apparatus  
-**Oracle:** Obsidian Matron (8 outcomes)  
-**Key Mechanic:** Warrant Level, Malice, Thermal
+**Oracle:** Obsidian Matron (8 outcomes) — NOTE: multiple ORACLE_ENTRY variants by target  
+**Key Mechanics:** Warrant Level, Malice, Thermal
 
-#### Passage Flow Map
+### Witch West Passage Tree (47 passages)
 
 ```
-WITCH_WEST_INIT / WITCH_WEST_INIT_B
-├── [Deploy Monkeys] → WITCH_WEST_MONKEY_SWEEP_B → ...
-├── [Poppy dampeners] → WITCH_WEST_POPPY_BUFFER → ...
-└── [Personal descent] → WITCH_WEST_FIELD_CONFRONTATION → ...
+WITCH_WEST_INIT (simple entry)
+├── [Deploy Winged Monkeys] → WITCH_WEST_MONKEY_SWEEP_B
+└── [Summon Obsidian Eye] → WITCH_WEST_ORACLE_ENTRY
 
-WITCH_WEST_ORACLE_ENTRY (Obsidian Matron Ritual)
-├── WITCH_WEST_ORACLE_1 → Flechette Harvest
-├── WITCH_WEST_ORACLE_2 → Hourglass Drain
-├── WITCH_WEST_ORACLE_3 → Scorched Slurry (Tin Man echo)
-├── WITCH_WEST_ORACLE_4 → Winged Probe (surveillance graft)
-├── WITCH_WEST_ORACLE_5 → Green Patina Burn
-├── WITCH_WEST_ORACLE_6 → Restraint Lattice
-├── WITCH_WEST_ORACLE_7 → Shadow Graft (parasitic link)
-└── WITCH_WEST_ORACLE_8 → Melting Verdict
+WITCH_WEST_INIT_B (extended entry — Western Tower)
+├── [Send Monkeys for Lion] → WITCH_WEST_MONKEY_SWEEP_B
+│   ├── Watch via obsidian eye → WITCH_WEST_OBSIDIAN_VIEW
+│   │   ├── Begin ritual → WITCH_WEST_ORACLE_ENTRY
+│   │   └── Descend personally → WITCH_WEST_FIELD_CONFRONTATION
+│   ├── Descend to courtyard → WITCH_WEST_FIELD_CONFRONTATION
+│   └── Order mid-air harvesting → WITCH_WEST_MID_AIR_HARVEST
+│       ├── Complete harvest → WITCH_WEST_ORACLE_ENTRY
+│       └── Carry to tower → WITCH_WEST_TOWER_PREP → WITCH_WEST_ORACLE_ENTRY
+├── [Poppy Field dampeners] → WITCH_WEST_POPPY_BUFFER
+│   ├── Wait at tower gate → WITCH_WEST_FIELD_CONFRONTATION
+│   └── Send monkeys → WITCH_WEST_MONKEY_SWEEP_B
+└── [Personal descent] → WITCH_WEST_FIELD_CONFRONTATION
+    ├── Pick first incision → WITCH_WEST_SELECT_TARGET
+    │   ├── Lion → WITCH_WEST_ORACLE_ENTRY_LION → WITCH_WEST_ORACLE_DRAW
+    │   ├── Dorothy → WITCH_WEST_ORACLE_ENTRY_DOROTHY → WITCH_WEST_ORACLE_DRAW
+    │   ├── Tin Man → WITCH_WEST_ORACLE_ENTRY_TINMAN → WITCH_WEST_ORACLE_DRAW
+    │   └── Scarecrow → WITCH_WEST_ORACLE_ENTRY_SCARECROW → WITCH_WEST_ORACLE_DRAW
+    ├── Have monkeys carry to tower → WITCH_WEST_TOWER_PREP
+    └── Toy with him first → WITCH_WEST_PSYCHOLOGICAL_TORMENT
+        ├── Begin proper procedure → WITCH_WEST_ORACLE_ENTRY
+        └── Let torment conclude → WITCH_WEST_END_MELTING
 
-Key Hubs:
-- WITCH_WEST_COMMAND_DECK (central surveillance interface)
-- WITCH_WEST_COMMAND_DECK_V2 (extended deep audit)
-- WITCH_WEST_LION_AUDIT_HUB
-- WITCH_WEST_TOWER_PREP
-- WITCH_WEST_UNLIT_BASEMENT
+ORPHANED HUB NODES (never targeted by any choice):
+- WITCH_WEST_PATH_MONKEYS → WITCH_WEST_END_MELTING / WITCH_WEST_ORACLE_ENTRY
+- WITCH_WEST_TORMENT_DETAIL → WITCH_WEST_ORACLE_ENTRY / WITCH_WEST_END_SCRAP
+- WITCH_WEST_MID_AIR_HARVEST_DETAIL → WITCH_WEST_TOWER_PREP
+- WITCH_WEST_CLERK_INTERLUDE → WITCH_WEST_ORACLE_ENTRY / WITCH_WEST_PSYCHOLOGICAL_TORMENT
+- WITCH_WEST_GRID_FAILURE → WITCH_WEST_MONKEY_SWEEP_B / WITCH_WEST_END_MELTING
+- WITCH_WEST_SIGNAL_BLEED → WITCH_WEST_COMMAND_DECK_V2 / WITCH_WEST_END_MELTING
+- WITCH_WEST_WINKIE_CORRIDOR → WITCH_WEST_THERMAL_SURGE / WITCH_WEST_COMMAND_DECK_V2
+  └── WITCH_WEST_THERMAL_SURGE → WITCH_WEST_END_SEARING_TRUTH / WITCH_WEST_END_MELTING
 
-Target Selection Node:
-- WITCH_WEST_SELECT_TARGET → Lion/Dorothy/Tin Man/Scarecrow branches
+COMMAND DECK HUB (orphaned — no inbound choices):
+WITCH_WEST_COMMAND_DECK
+├── AERIAL: → WITCH_WEST_MONKEY_MANAGEMENT → WITCH_WEST_COMMAND_DECK / WITCH_WEST_ORACLE_ENTRY
+├── FIELD: → WITCH_WEST_POPPY_CALIBRATION → WITCH_WEST_COMMAND_DECK
+├── INTERNAL: → WITCH_WEST_OBSIDIAN_VIEW
+└── INITIALIZE RITUAL: → WITCH_WEST_ORACLE_ENTRY
+
+WITCH_WEST_COMMAND_DECK_V2 (orphaned — no inbound from main game):
+├── BIOMETRICS: → WITCH_WEST_LION_AUDIT_HUB
+│   ├── Sector Alpha → WITCH_WEST_SCRAPE_MANE → WITCH_WEST_LION_AUDIT_HUB
+│   └── Return → WITCH_WEST_COMMAND_DECK_V2
+├── SURVEILLANCE: → WITCH_WEST_OBSIDIAN_VIEW
+├── PHARMACOLOGY: → WITCH_WEST_POPPY_BUFFER
+├── ADMINISTRATION: → WITCH_WEST_BUREAU_FILING → WITCH_WEST_COMMAND_DECK_V2
+└── FINAL INCISION: → WITCH_WEST_END_MELTING
+
+WITCH_WEST_UNLIT_BASEMENT (orphaned):
+├── Search trash → WITCH_WEST_UNLIT_BASEMENT (self-loop)
+├── Climb to light → WITCH_WEST_COMMAND_DECK_V2
+└── Accept deletion → WITCH_WEST_END_GHOST_BIT
+
+ORACLE PATH:
+WITCH_WEST_ORACLE_DRAW
+├── 1. Flechette Harvest → WITCH_WEST_END_FLECHETTE / WITCH_WEST_END_MELTING
+├── 2. Hourglass Drain → WITCH_WEST_END_MELTING / WITCH_WEST_MONKEY_SWEEP_B
+├── 3. Scorched Slurry → WITCH_WEST_END_SCRAP / WITCH_WEST_END_MELTING
+├── 4. Winged Probe → WITCH_WEST_END_COMMAND / WITCH_WEST_END_FLECHETTE
+├── 5. Green Patina Burn → WITCH_WEST_END_MELTING / WITCH_WEST_END_COMMAND
+├── 6. Restraint Lattice → WITCH_WEST_END_COMMAND / WITCH_WEST_END_SCRAP
+├── 7. Shadow Graft → WITCH_WEST_END_COMMAND / WITCH_WEST_END_MELTING
+└── 8. Melting Verdict → WITCH_WEST_END_MELTING / WITCH_WEST_END_SCRAP
 ```
 
-#### Witch West Endings (6 endings)
+### Witch West Endings (6)
 
-| ID | Passage ID | Name | Institution | Surreality |
-|----|------------|------|-------------|------------|
-| W-END-03 | WITCH_WEST_END_FLECHETTE | The Flechette Rain | Judicial | 8 |
-| W-END-11 | WITCH_WEST_END_MELTING | The Melting Point | Thermal | 9 |
-| W-END-13 | WITCH_WEST_END_GHOST_BIT | The Ghost Bit | Universal | 10 |
-| W-END-14 | WITCH_WEST_END_SCRAP | Genetic Overwrite | Genetic | 9 |
-| W-END-20 | WITCH_WEST_END_COMMAND | The Command Channel | Military | 7 |
-| W-END-28 | WITCH_WEST_END_SEARING_TRUTH | The Searing Truth | Physics | 10 |
+| Passage ID | endingId | Name | Surreality |
+|------------|----------|------|------------|
+| WITCH_WEST_END_MELTING | W-END-11 | The Melting Point | 9 |
+| WITCH_WEST_END_FLECHETTE | W-END-03 | The Flechette Rain | 8 |
+| WITCH_WEST_END_COMMAND | W-END-20 | The Command Channel | 7 |
+| WITCH_WEST_END_SCRAP | W-END-14 | Genetic Overwrite | 9 |
+| WITCH_WEST_END_SEARING_TRUTH | W-END-28 | The Searing Truth | 10 |
+| WITCH_WEST_END_GHOST_BIT | W-END-13 | The Ghost Bit | 10 |
+
+**Note:** WITCH_WEST_END_SEARING_TRUTH and WITCH_WEST_END_GHOST_BIT are only reachable via orphaned passages (WITCH_WEST_THERMAL_SURGE and WITCH_WEST_UNLIT_BASEMENT respectively).
 
 ---
 
-### WITCH EAST (The Wicked Witch of the East — Archived)
+## WITCH EAST (The Wicked Witch of the East — Archived)
 
-**Theme:** Gravity/Weight, Already dead (flashback perspective)  
+**Theme:** Gravity/Weight, Already dead (pre-impact perspective)  
 **Oracle:** Weight Assessor (8 outcomes)  
-**Key Mechanic:** Load, Gravity Index
+**Key Mechanics:** Load, Gravity Index, Silver Transfer
 
-#### Passage Flow Map
+### Witch East Passage Tree (16 passages)
 
 ```
-WITCH_EAST_INIT (flashback entry)
-├── [Accept the weight] → WITCH_EAST_WEIGHT_PATH → ...
-└── [Resist the weight] → WITCH_EAST_RESISTANCE → ...
+WITCH_EAST_INIT
+├── [Begin Gravity Crucible] → WITCH_EAST_ORACLE_ENTRY
+└── [Redirect falling mass] → WITCH_EAST_PATH_GRAVITY
+    ├── Maintain field until impact → WITCH_EAST_ORACLE_ENTRY
+    └── Attempt evacuation → WITCH_EAST_END_SHOES
 
-WITCH_EAST_ORACLE_ENTRY (Weight Assessor Ritual)
-├── WITCH_EAST_ORACLE_1 → Load spike
-├── WITCH_EAST_ORACLE_2 → Silver shoes interface
-├── WITCH_EAST_ORACLE_3 → Munchkin debt
-├── WITCH_EAST_ORACLE_4 → Gravity well
-├── WITCH_EAST_ORACLE_5 → House trajectory
-├── WITCH_EAST_ORACLE_6 → Dorothy arrival
-├── WITCH_EAST_ORACLE_7 → Final crush
-└── WITCH_EAST_ORACLE_8 → Archive state
+ORACLE PATH (triggerOracle on WITCH_EAST_INIT and WITCH_EAST_PATH_GRAVITY):
+WITCH_EAST_ORACLE_ENTRY
+├── [Submit to assay] → WITCH_EAST_ORACLE_DRAW
+│   ├── 1. Gravitational Surge → WITCH_EAST_END_CRUSH / WITCH_EAST_END_FLAT
+│   ├── 2. Silver Transfer → WITCH_EAST_END_SHOES / WITCH_EAST_END_CRUSH
+│   ├── 3. Munchkin Echo → WITCH_EAST_END_ADMIN / WITCH_EAST_END_FLAT
+│   ├── 4. Seismic Scan → WITCH_EAST_END_ADMIN / WITCH_EAST_END_FLAT
+│   ├── 5. Archive Leak → WITCH_EAST_END_CRUSH / WITCH_EAST_END_SHOES
+│   ├── 6. Flat Finish → WITCH_EAST_END_FLAT / WITCH_EAST_END_CRUSH
+│   ├── 7. Density Graft → WITCH_EAST_END_ADMIN / WITCH_EAST_END_FLAT
+│   └── 8. Terminal Crush → WITCH_EAST_END_CRUSH / WITCH_EAST_END_SHOES
+└── [Project counter-force] → WITCH_EAST_PATH_GRAVITY
 ```
 
-#### Witch East Endings (4 endings)
+### Witch East Endings (4)
 
-| ID | Passage ID | Name | Institution |
-|----|------------|------|-------------|
-| E-END-01 | E_END_01 | The House Falls | Architectural |
-| E-END-02 | E_END_02 | The Silver Transfer | Economic |
-| E-END-03 | E_END_03 | The Archived Malice | Historical |
-| E-END-04 | E_END_04 | The Weight Remainder | Physical |
+| Passage ID | endingId | Name |
+|------------|----------|------|
+| WITCH_EAST_END_CRUSH | E-END-01 | The House Falls |
+| WITCH_EAST_END_FLAT | E-END-06 | The Flat Finish |
+| WITCH_EAST_END_SHOES | E-END-02 | The Silver Transfer |
+| WITCH_EAST_END_ADMIN | E-END-04 | The Weight Remainder |
 
 ---
 
-### ENFORCER SWARMS (Cross-Character Threats)
+## ENFORCER SWARMS (enforcers.js — 40 passages, cross-character)
 
-These passages are triggered via `triggerOracle` effects and loop back to their entry points.
+All 4 swarms share the same structure: `_ENTRY` → `_DRAW` → outcomes 1-8 (all loop back via effects, no terminal endings).  
+They are entered via `triggerOracle` effects on location passages and graft material cross-character.
 
-#### Munchkin Swarm (Labor/Agricultural)
-```
-MUNCHKIN_SWARM_ENTRY → MUNCHKIN_SWARM_DRAW
-├── MUNCHKIN_SWARM_1 → Labor Audit
-├── MUNCHKIN_SWARM_2 → Agricultural Assessment
-├── MUNCHKIN_SWARM_3 → Stamp Collection
-├── MUNCHKIN_SWARM_4 → Scatter Protocol
-├── MUNCHKIN_SWARM_5 → Lollipop Procedure
-├── MUNCHKIN_SWARM_6 → Collective Harvest
-├── MUNCHKIN_SWARM_7 → Form 7 Override
-└── MUNCHKIN_SWARM_8 → Munchkin March
-```
-
-#### Winged Monkeys (Military/Aeronautical)
-```
-WINGED_MONKEY_ENTRY → WINGED_MONKEY_DRAW
-├── WINGED_MONKEY_1 → Aerial Transport
-├── WINGED_MONKEY_2 → Wing Hook Extraction
-├── WINGED_MONKEY_3 → Altitude Drain
-├── WINGED_MONKEY_4 → Ground Resistance
-├── WINGED_MONKEY_5 → Command Ring Graft
-├── WINGED_MONKEY_6 → Shriek Resonance
-├── WINGED_MONKEY_7 → Straw Delivery
-└── WINGED_MONKEY_8 → Flock Incorporation
-```
-
-#### Kalidah Merge (Genetic/Parasitic)
-```
-KALIDAH_MERGE_ENTRY → KALIDAH_MERGE_DRAW
-├── KALIDAH_MERGE_1 → Seam Press
-├── KALIDAH_MERGE_2 → Straw-Metal Graft
-├── KALIDAH_MERGE_3 → Jaw Overwrite
-├── KALIDAH_MERGE_4 → Limb Assimilation
-├── KALIDAH_MERGE_5 → Leakage Communion
-├── KALIDAH_MERGE_6 → Composite Cackle
-├── KALIDAH_MERGE_7 → Failed Separation
-└── KALIDAH_MERGE_8 → Swarm Merge
-```
-
-#### Poppy Drones (Pharmaceutical)
-```
-POPPY_DRONE_ENTRY → POPPY_DRONE_DRAW
-├── POPPY_DRONE_1 → First Sting
-├── POPPY_DRONE_2 → Resin Flood
-├── POPPY_DRONE_3 → Bloom Graft
-├── POPPY_DRONE_4 → Scent Harvest
-├── POPPY_DRONE_5 → Rooting
-├── POPPY_DRONE_6 → Nectar Communion
-├── POPPY_DRONE_7 → Lullaby Audit
-└── POPPY_DRONE_8 → Full Bloom
-```
+| Swarm | Entry | Theme | Cross-char Grafts |
+|-------|-------|-------|-------------------|
+| Munchkin Swarm | MUNCHKIN_SWARM_ENTRY | Labor/Agricultural | munchkin_collective_weight → Lion; munchkin_soil_sample → Scarecrow |
+| Winged Monkeys | WINGED_MONKEY_ENTRY | Military/Aeronautical | monkey_extracted_sample → Witch West; monkey_shriek_resonance → Tin Man; scarecrow_straw → Lion via outcome 7 |
+| Kalidah Merge | KALIDAH_MERGE_ENTRY | Genetic/Parasitic | kalidah_seam_contact → Lion; kalidah_straw_metal → Scarecrow+Tin Man; kalidah_fluid_communion → Dorothy |
+| Poppy Drones | POPPY_DRONE_ENTRY | Pharmaceutical | poppy_bloom_graft → Dorothy; poppy_nectar → Tin Man |
 
 ---
 
 ## PART 2: AUDIT
 
-### A) Orphaned Passages (Never Referenced as Target)
+### A) BROKEN LINKS — Choice targets that don't exist as any passage ID
 
-These passages exist but are not reachable via any choice target:
+Verified programmatically: **3 confirmed broken links** in lion_branches.js:
 
-| Passage ID | File | Issue |
-|------------|------|-------|
-| WITCH_WEST_TORMENT_DETAIL | witch_west_stubs.js | Never targeted by any choice |
-| WITCH_WEST_MID_AIR_HARVEST_DETAIL | witch_west_stubs.js | Never targeted by any choice |
-| WITCH_WEST_CLERK_INTERLUDE | witch_west_stubs.js | Never targeted by any choice |
-| WITCH_WEST_GRID_FAILURE | witch_west_stubs.js | Never targeted by any choice |
-| WITCH_WEST_BUREAU_LOG_CHECK | witch_west_stubs.js | Never targeted by any choice |
-| WITCH_WEST_SIGNAL_BLEED | witch_west_stubs.js | Never targeted by any choice |
-| WITCH_WEST_WINKIE_CORRIDOR | witch_west_stubs.js | Never targeted by any choice |
-| LION_SYSTEM_ENTROPY | lion_branches.js | Never targeted by any choice |
-| LION_RESONANCE_COLLAPSE | lion_branches.js | Referenced in LION_GHOST_SIGNAL but passage doesn't exist |
-| LION_MUFFLED_CHAMBER | lion_branches.js | Referenced in LION_SEAM_LOCK but passage doesn't exist |
-| LION_AUDIO_EVENT | lion_branches.js | Referenced in LION_MANE_STRIPPING but passage doesn't exist |
-| LION_MANE_FRACTURE | lion_branches.js | Referenced in LION_NECK_TENSION but passage doesn't exist |
+| Source Passage | Target | Context |
+|----------------|--------|---------|
+| LION_RESONANCE_COLLAPSE (choice: "Step into the white gap") | **LION_DATA_LEAK** | Also targeted from LION_ORACLE_8 |
+| LION_KALIDAH_PATCH (choice: "Use the Kalidah's eyes...") | **LION_ROOT_ACCESS** | Also targeted from LION_VIOLENCE_H, LION_ORACLE_2, LION_ORACLE_3 |
+| LION_LATENCY_GAP (choice: "Step deliberately into gap") | **LION_END_19** | Also targeted from LION_VOID_FRAGMENT |
 
-### B) Broken Links (Targets That Don't Exist)
+`LION_DATA_LEAK`, `LION_ROOT_ACCESS`, and `LION_END_19` are referenced a combined **9 times** across lion_branches.js but **do not exist** in any file.
 
-| Source Passage | Target | Status |
-|----------------|--------|--------|
-| LION_GHOST_SIGNAL | LION_RESONANCE_COLLAPSE | **MISSING** |
-| LION_SEAM_LOCK | LION_MUFFLED_CHAMBER | **MISSING** |
-| LION_MANE_STRIPPING | LION_AUDIO_EVENT | **MISSING** |
-| LION_NECK_TENSION | LION_MANE_FRACTURE | **MISSING** |
-| All enforcer outcomes | Loop back to _ENTRY | Valid (intentional loops) |
+The sub-agent's previous report listing LION_RESONANCE_COLLAPSE, LION_MUFFLED_CHAMBER, LION_AUDIO_EVENT, LION_MANE_FRACTURE as broken was **incorrect** — those all exist in lion_branches.js.
 
-### C) Stub/Incomplete Endings
+---
 
-| Passage ID | File | Line | Issue |
-|------------|------|------|-------|
-| **T_END_21** | tin_man.js | 532-538 | Content is literally `[ TODO ]` — incomplete |
+### B) ORPHANED PASSAGES — Defined but never targeted by any choice
 
-```javascript
-// tin_man.js lines 532-538
-T_END_21: {
-  id: 'T_END_21',
-  character: 'tin_man',
-  endingId: 'T-END-21',
-  endingName: 'The Logging Script',
-  text: [{ minOverrender: 0, content: '[ TODO ]' }],  // <-- STUB
-  choices: [],
-  isEnding: true,
-},
-```
+*(Note: `_INIT` passages are legitimately orphaned — they're loaded as entry points by the engine, not via choices. Similarly, `_ORACLE_ENTRY` and `_ORACLE_DRAW` are entered via `triggerOracle` effect. These are marked below.)*
 
-### D) Disconnected Endings (Potentially Unreachable)
+| Passage ID | File | Type | Note |
+|------------|------|------|------|
+| DOROTHY_INIT | dorothy.js | ✅ Entry point | Engine-loaded |
+| GLINDA_INIT | glinda.js | ✅ Entry point | Engine-loaded |
+| SCARECROW_INIT | scarecrow.js | ✅ Entry point | Engine-loaded |
+| TIN_MAN_INIT | tin_man.js | ✅ Entry point | Engine-loaded |
+| WITCH_EAST_INIT | witch_east.js | ✅ Entry point | Engine-loaded |
+| WITCH_WEST_INIT | witch_west_stubs.js | ✅ Entry point | Engine-loaded |
+| WITCH_WEST_INIT_B | witch_west_stubs.js | ✅ Entry point | Alternative start |
+| WIZARD_INIT | wizard.js | ✅ Entry point | Engine-loaded |
+| LION_ORACLE_ENTRY | lion_branches.js | ✅ Oracle | Via triggerOracle |
+| TIN_MAN_ORACLE_ENTRY | tin_man.js | ✅ Oracle | Via triggerOracle (comment confirms) |
+| **LION_DESERT_CROSSING** | lion_endings.js | ❌ Dead ending | Has no endingId, no isEnding, never targeted |
+| **LION_MANE_EVENT** | lion_endings.js | ❌ Dead ending | No endingId, no isEnding, never targeted |
+| **LION_SYSTEM_ENTROPY** | lion_branches.js | ❌ Orphaned | Has one choice (→ LION_END_32), never reached |
+| **LION_HARMONIC_ALIGNMENT** | lion_branches.js | ❌ Orphaned | Has one choice (→ LION_END_25), never reached |
+| **LION_QUADLING_SECTOR** | lion_branches.js | ❌ Orphaned | → L_END_08 / L_END_09, never reached |
+| **LION_WIZARD_MISSION** | lion_branches.js | ❌ Orphaned | → LION_FOREST_THRONE / LION_AUDIENCE_CHAMBER, never reached |
+| **LION_GLINDA_RECORD** | lion_branches.js | ❌ Orphaned | → L_END_07 / L_END_10, never reached |
+| **LION_POPPY_BUFFER** | lion_branches.js | ❌ Orphaned | → LION_END_18 / LION_END_29, never reached |
+| **T_END_07** | tin_man.js | ❌ Orphaned ending | Has isEnding:true, never targeted |
+| **WITCH_WEST_PATH_MONKEYS** | witch_west_stubs.js | ❌ Orphaned | → WITCH_WEST_END_MELTING / ORACLE, never targeted |
+| **WITCH_WEST_TORMENT_DETAIL** | witch_west_stubs.js | ❌ Orphaned | → ORACLE / END_SCRAP, never targeted |
+| **WITCH_WEST_MID_AIR_HARVEST_DETAIL** | witch_west_stubs.js | ❌ Orphaned | → TOWER_PREP, never targeted |
+| **WITCH_WEST_CLERK_INTERLUDE** | witch_west_stubs.js | ❌ Orphaned | → ORACLE / TORMENT, never targeted |
+| **WITCH_WEST_GRID_FAILURE** | witch_west_stubs.js | ❌ Orphaned | → MONKEY_SWEEP / END_MELTING, never targeted |
+| **WITCH_WEST_BUREAU_LOG_CHECK** | witch_west_stubs.js | ❌ Orphaned | → COMMAND_DECK (×2), never targeted |
+| **WITCH_WEST_SIGNAL_BLEED** | witch_west_stubs.js | ❌ Orphaned | → CMD_DECK_V2 / END_MELTING, never targeted |
+| **WITCH_WEST_WINKIE_CORRIDOR** | witch_west_stubs.js | ❌ Orphaned | → THERMAL_SURGE / CMD_DECK_V2, never targeted |
 
-Endings that exist but have questionable reachability:
+**Summary:** 8 Lion passages, 1 Tin Man passage, and 9 Witch West passages are orphaned (unreachable). Additionally, the entire WITCH_WEST_COMMAND_DECK and WITCH_WEST_COMMAND_DECK_V2 hub system is internally connected but has no inbound choices from the main game flow.
 
-| Ending ID | Passage ID | Reachable From |
-|-----------|------------|----------------|
-| L-END-15 | LION_TESTIMONY_ERROR / LION_END_15 | Duplicate ID with different content - ambiguous |
-| L-END-17 | LION_STRUCTURAL_FAILURE / LION_END_17 | Duplicate ID with different content - ambiguous |
-| L-END-29 | LION_DESERT_CROSSING / LION_END_29 | Duplicate ID - same ending accessed two ways |
-| L-END-33 | LION_END_33 | No direct choice leads here |
+---
 
-### E) Duplicate Ending IDs
+### C) STUB / INCOMPLETE ENDINGS
 
-Several Lion endings have the same `endingId` but different passage IDs:
+| Passage ID | File | Content | Verdict |
+|------------|------|---------|---------|
+| **T_END_21** | tin_man.js | `"THE LOGGING SCRIPT [T-END-21]\n\n[ TODO ]"` | **⚠️ CONFIRMED STUB** |
 
-| endingId | Passage IDs | Resolution Needed |
-|----------|-------------|-------------------|
-| L-END-15 | LION_TESTIMONY_ERROR, LION_END_15 | Different content, same ID |
-| L-END-17 | LION_STRUCTURAL_FAILURE, LION_END_17 | Different content, same ID |
-| L-END-29 | LION_DESERT_CROSSING, LION_END_29 | Similar content, redundant |
+Only one stub ending confirmed. All other 73 endings have substantive text.
 
-### F) Missing `isEnding: true` Flags
+---
 
-Some passages with endingId lack the isEnding flag:
+### D) DISCONNECTED ENDINGS — Exist but unreachable from any starting passage
 
-| Passage ID | Has endingId | Has isEnding |
-|------------|--------------|--------------|
-| L_END_01 | Yes | **Missing** |
-| L_END_02 | Yes | Yes |
-| L_END_03 | Yes | **Missing** |
-| L_END_04 | Yes | **Missing** |
-| L_END_05 | Yes | **Missing** |
-| L_END_06 | Yes | **Missing** |
-| L_END_07 | Yes | **Missing** |
-| L_END_08 | Yes | **Missing** |
-| L_END_09 | Yes | **Missing** |
+| Ending | File | Why Disconnected |
+|--------|------|-----------------|
+| **WITCH_WEST_END_SEARING_TRUTH** | witch_west_endings.js | Only reachable via WITCH_WEST_THERMAL_SURGE, which is only reachable via WITCH_WEST_WINKIE_CORRIDOR — both orphaned |
+| **WITCH_WEST_END_GHOST_BIT** | witch_west_endings.js | Only reachable via WITCH_WEST_UNLIT_BASEMENT — which has no inbound choices (orphaned) |
+| **T_END_07** (Scrap Value) | tin_man.js | No choice in any file targets T_END_07 |
+| **LION_MANE_EVENT** | lion_endings.js | No choice in any file targets this ending |
+| **LION_DESERT_CROSSING** | lion_endings.js | No choice in any file targets this ending |
+| **L_END_03 through L_END_10** | lion_endings.js | Only reachable via LION_AUDIENCE_CHAMBER, LION_FOREST_THRONE, LION_GLINDA_RECORD, LION_QUADLING_SECTOR — all orphaned |
+
+---
+
+### E) ADDITIONAL AUDIT FINDINGS
+
+#### Duplicate `endingId` values (same ID, different passages, different content):
+
+| endingId | Passage IDs | Issue |
+|----------|-------------|-------|
+| **L-END-15** | LION_END_15 + LION_TESTIMONY_ERROR | Two different passages, both claim endingId 'L-END-15'. LION_TESTIMONY_ERROR has no isEnding flag. |
+| **L-END-17** | LION_END_17 + LION_STRUCTURAL_FAILURE | Two different passages, both claim endingId 'L-END-17'. LION_STRUCTURAL_FAILURE has no isEnding flag. |
+
+#### Missing `isEnding: true` flags on ending passages:
+
+| Passage | Has endingId | isEnding |
+|---------|-------------|---------|
+| LION_END_11 | L-END-11 | ❌ Missing |
+| LION_END_21 | L-END-21 | ❌ Missing |
+| LION_END_33 | L-END-33 | ❌ Missing |
+| LION_TESTIMONY_ERROR | L-END-15 | ❌ Missing |
+| LION_STRUCTURAL_FAILURE | L-END-17 | ❌ Missing |
+| LION_DE_INDEXING | none | ❌ No endingId or isEnding |
+| LION_THE_SHEARING | none | ❌ No endingId or isEnding |
+| LION_MANE_EVENT | none | ❌ No endingId or isEnding |
+| LION_DESERT_CROSSING | none | ❌ No endingId or isEnding |
 
 ---
 
 ## PART 3: CROSS-CHARACTER INTERACTION OPPORTUNITIES
 
-### Existing Cross-Character Grafts
+### Existing Cross-Character Graft System
 
-The codebase already implements several cross-character material sharing via `graft` effects:
+The engine's `{ type: 'graft', material: 'X', target: 'Y' }` effect writes `flags.graft_X_in_Y = true` globally, enabling conditional text in other characters' passages. Current grafts in the codebase:
 
-| Source | Material | Target | Location |
-|--------|----------|--------|----------|
-| Lion | lion_roar_echo | Tin Man | Multiple lion passages |
-| Lion | lion_lymph | Witch West | WITCH_WEST_ORACLE_7 |
-| Dorothy | dorothy_nerve | Tin Man | dorothy.js |
-| Tin Man | tinman_oil | Witch West | WITCH_WEST_ORACLE_3 |
-| Scarecrow | scarecrow_straw | Lion | WINGED_MONKEY_7 |
-| Witch West | witch_west_shadow | Lion, Dorothy | WITCH_WEST_ORACLE_7 |
-| Witch West | witch_west_slag | Tin Man | WITCH_WEST_ORACLE_3 |
-| Witch West | surveillance_thread | Lion, Dorothy | WITCH_WEST_ORACLE_4 |
-| Poppy | poppy_bloom_graft | Dorothy | POPPY_DRONE_3 |
-| Poppy | poppy_nectar | Tin Man | POPPY_DRONE_6 |
-| Kalidah | kalidah_seam_contact | Lion | KALIDAH_MERGE_1 |
-| Kalidah | kalidah_jaw_frequency | Lion | KALIDAH_MERGE_3 |
-| Kalidah | kalidah_fluid_communion | Dorothy | KALIDAH_MERGE_5 |
-| Kalidah | kalidah_straw_metal | Scarecrow, Tin Man | KALIDAH_MERGE_2 |
-| Munchkin | munchkin_collective_weight | Lion | MUNCHKIN_SWARM_6 |
-| Munchkin | munchkin_soil_sample | Scarecrow | MUNCHKIN_SWARM_2 |
-| Monkey | monkey_extracted_sample | Witch West | WINGED_MONKEY_2 |
-| Monkey | monkey_command_thread | Witch West | WINGED_MONKEY_5 |
-| Monkey | monkey_shriek_resonance | Tin Man | WINGED_MONKEY_6 |
-
-### Character Mentions in Passage Text
-
-| Character | Mentions Other Characters |
-|-----------|---------------------------|
-| Lion | Dorothy, Tin Man, Scarecrow, Wizard, Glinda, Witch West |
-| Tin Man | Dorothy, Lion, Scarecrow, Wizard |
-| Scarecrow | Dorothy, Lion, Tin Man, Crows |
-| Dorothy | Lion, Tin Man, Scarecrow, Toto, Glinda, Wizard, Witch West |
-| Glinda | Dorothy, Lion, Witch West, Wizard |
-| Wizard | Dorothy, Lion, Tin Man, Scarecrow |
-| Witch West | Lion, Dorothy, Tin Man, Scarecrow (all as targets) |
-| Witch East | Dorothy (as her killer), Munchkins |
-
-### Recommended Mirror Opportunities
-
-#### High Feasibility (Text Already References)
-
-1. **Lion ↔ Tin Man: The Tremor/Rust Resonance**
-   - Lion's LION_GHOST_SIGNAL already mentions feeling "the Tin Man's joints"
-   - Add mirror passage where Tin Man feels Lion's tremor through shared oil pathways
-   - Graft: `{ type: 'graft', material: 'tinman_rust_echo', target: 'lion' }`
-
-2. **Dorothy ↔ Lion: The Nerve/Roar Exchange**
-   - Dorothy's nerve paths already graft to Lion
-   - Add mirror where Lion's roar carries Dorothy's displacement frequency
-   - Create DOROTHY_LION_ECHO passage
-
-3. **Scarecrow ↔ Tin Man: The Agricultural-Industrial Bridge**
-   - KALIDAH_MERGE_2 already creates straw-metal composite
-   - Add persistent cross-character echoes after this merge
-   - Scarecrow feels Tin Man's seizure; Tin Man leaks straw
-
-4. **Glinda ↔ Witch West: The Pink/Green Opposition**
-   - LION_GLINDA_RECORD shows Glinda intervening
-   - Add Witch West passage responding to pink light intrusion
-   - Mirror ending where both merge into grey bureaucratic light
-
-#### Medium Feasibility (Thematic Alignment)
-
-5. **Wizard ↔ Lion: The Projection/Tremor Parallel**
-   - Wizard's smoke/projection echoes Lion's vibration
-   - Create WIZARD_LION_ENCOUNTER where projection amplifies tremor
-   - Wizard gives Lion "courage" that is actually fear-amplifier
-
-6. **Dorothy ↔ Wizard: The Curtain/Road Mirror**
-   - Dorothy follows the road; Wizard hides behind curtain
-   - Create mirrored passage where Dorothy pulls curtain, Wizard walks road
-   - Cross-graft: displacement meets obfuscation
-
-7. **Witch East ↔ Dorothy: The House Fall Echo**
-   - Witch East already references Dorothy as killer
-   - Add Dorothy flashback passage experiencing the fall from victim's perspective
-   - Graft: `{ type: 'graft', material: 'witch_east_silver', target: 'dorothy' }`
-
-#### Lower Feasibility (Would Require New Content)
-
-8. **Tin Man ↔ Scarecrow: The Empty/Full Paradox**
-   - Tin Man has empty chest; Scarecrow is full of scattered thoughts
-   - Create exchange where Tin Man receives straw thoughts in chest cavity
-   - Existential horror of having thoughts without heart
-
-9. **All Four Companions: The Yellow Brick Load Convergence**
-   - Create unified passage where all four walk together
-   - Each character's mechanic affects the others
-   - Collective graft system tracking group dynamics
-
-10. **Enforcers ↔ Main Characters: Persistent Echoes**
-    - Enforcer encounters already graft material
-    - Add persistent conditional text in main passages referencing enforcer damage
-    - Example: `{{#flags.graft_poppy_bloom_graft_in_dorothy}}The rootlets itch beneath your skin...{{/flags.graft_poppy_bloom_graft_in_dorothy}}`
+| Material | Source Passage | Target Character | Used Conditionally In |
+|----------|---------------|------------------|-----------------------|
+| `tinman_oil` | TIN_MAN_ORACLE_2 | `dorothy` | (not yet wired in dorothy.js) |
+| `dorothy_nerve` | DOROTHY_ORACLE_6 | `tinman`, `glinda` | tin_man.js line 699, glinda.js line 345 |
+| `wizard_smoke` | WIZARD_ORACLE_1 | `lion` | wizard.js line 82 (conditional already written) |
+| `lion_roar_echo` | LION_ORACLE_6 | `witch_west` | witch_west_stubs.js line 158 (conditional wired) |
+| `witch_west_shadow` | WITCH_WEST_ORACLE_7 | `dorothy`, `lion` | (not yet wired in dorothy/lion) |
+| `munchkin_collective_weight` | MUNCHKIN_SWARM_6 | `lion` | (not yet wired) |
+| `munchkin_soil_sample` | MUNCHKIN_SWARM_2 | `scarecrow` | (not yet wired) |
+| `monkey_extracted_sample` | WINGED_MONKEY_2 | `witch_west` | (not yet wired) |
+| `monkey_command_thread` | WINGED_MONKEY_5 | `witch_west` | (not yet wired) |
+| `monkey_shriek_resonance` | WINGED_MONKEY_6 | `tin_man` | (not yet wired) |
+| `kalidah_seam_contact` | KALIDAH_MERGE_1 | `lion` | (not yet wired) |
+| `kalidah_jaw_frequency` | KALIDAH_MERGE_3 | `lion` | (not yet wired) |
+| `kalidah_straw_metal` | KALIDAH_MERGE_2 | `scarecrow`, `tin_man` | (not yet wired) |
+| `kalidah_fluid_communion` | KALIDAH_MERGE_5 | `dorothy` | (not yet wired) |
+| `poppy_bloom_graft` | POPPY_DRONE_3 | `dorothy` | (not yet wired) |
+| `poppy_nectar` | POPPY_DRONE_6 | `tin_man` | (not yet wired) |
 
 ---
 
-## APPENDIX: Technical Patterns
+### Passage-by-Passage Cross-Character Mentions
 
-### Effect Types Used
+The following passages explicitly mention, describe, or act upon other named characters:
 
+---
+
+#### LION'S STORY mentions:
+
+| Passage ID | Other Character | Event | Mirror Exists? | Mirror Feasibility |
+|------------|----------------|-------|----------------|-------------------|
+| LION_GATES_OF_OZ | Wizard | Lion enters Wizard's hall, sees giant projection head | WIZARD_ORACLE_1 grafts smoke into Lion; WIZARD_END_AUDIT mentions "Lion received courage (synthetic)" | **High** — Wizard passage for the moment of granting "courage" exists |
+| LION_WIZARD_MISSION | Wizard | Wizard assigns broomstick quest to Lion | WIZARD passages don't show this negotiation from Wizard's side | **High** — Add WIZARD choice where Lion is summoned |
+| LION_AUDIENCE_CHAMBER | Wizard | Lion begs Wizard for courage | Same — no matching Wizard passage of receiving Lion | **High** |
+| LION_GLINDA_RECORD | Glinda | Glinda appears in pink bubbles, offers graceful intervention | GLINDA_END_BENEVOLENT: pink thread is "inside the Lion's jaw" | **High** — GLINDA already writes conditional text about Lion |
+| LION_GHOST_SIGNAL | Tin Man | "You can feel the Tin Man's corroded joints as clearly as your own" | TIN_MAN_ORACLE passages don't reference Lion tremor | **High** — Add conditional in TIN_MAN_ORACLE_4/6 for `graft_lion_roar_echo_in_tinman` |
+| LION_MANE_STRIPPING / HARVEST_HUB | Witch West | Witch West's Winged Monkeys capture Lion; obsidian eye watches | WITCH_WEST_MONKEY_SWEEP_B shows exact scene from WW's side | ✅ **Mirror already exists** |
+| LION_ORACLE_7 (Stapled Tremor) | Tin Man | "You can see the Scarecrow's thoughts...feel the Tin Man's joints — dry, screaming" | TIN_MAN_ORACLE_6: "Axe Feedback — feel the foreign meat resonate" references cross-char, but not Lion | **Medium** |
+
+---
+
+#### TIN MAN'S STORY mentions:
+
+| Passage ID | Other Character | Event | Mirror Exists? | Mirror Feasibility |
+|------------|----------------|-------|----------------|-------------------|
+| TIN_MAN_ORACLE_2 | Dorothy | "Cross-unit resonance: Dorothy-unit's displacement briefly in your own chest — a wet Kansas-ache" | DOROTHY_ORACLE_6: "Grafted Echo" grafts dorothy_nerve to tinman — **partial mirror** | **High** — Dorothy already has a graft node; wire the conditional text |
+| TIN_MAN_ORACLE_5 | Dorothy | References "clean Grade-A lubricant from Dorothy-unit's canister" vs black compliance oil | No Dorothy passage shows her carrying oil for Tin Man | **Medium** — add brief conditional in DOROTHY_PATH_ROAD |
+| TIN_MAN_ORACLE_6 | Foreign meat / Axe | "Foreign meat resonate" — implicit Lion/Scarecrow cross-echo | LION_GHOST_SIGNAL already describes Tin Man's joints felt by Lion | **High** — use existing `graft_lion_roar_echo_in_tinman` flag already set |
+
+---
+
+#### SCARECROW'S STORY mentions:
+
+| Passage ID | Other Character | Event | Mirror Exists? | Mirror Feasibility |
+|------------|----------------|-------|----------------|-------------------|
+| SCARECROW_ORACLE_6 (Wind Audit) | Lion, Dorothy, Tin Man | "Lion unit feels a dry rustle in its tremor-meat. A Dorothy unit finds straw in the hem. A Tin Man unit discovers agricultural fiber in its oil filter." | No corresponding conditional text in any of those three characters' passages despite the graft | **High** — three easy conditional text additions using existing graft flags |
+
+---
+
+#### DOROTHY'S STORY mentions:
+
+| Passage ID | Other Character | Event | Mirror Exists? | Mirror Feasibility |
+|------------|----------------|-------|----------------|-------------------|
+| DOROTHY_ORACLE_3 (Warrant Thread) | Witch West (implicit) | Dorothy receives Bureau warrant — WW is the one issuing warrants | WITCH_WEST_ORACLE_4 (Winged Probe) sets `surveillance_thread` graft targeting Dorothy | **High** — WW side already partially exists |
+| DOROTHY_ORACLE_7 (Dust Seal) | Glinda (implicit) | Dorothy's "sealed safety" echoes Glinda's bubble/insulation mechanic | GLINDA_ORACLE_6 explicitly echoes "Dorothy or the Poppy Field" | **High** — conditional already half-written in glinda.js |
+
+*(Note: Witch East is not referenced in Dorothy's passages despite Dorothy being Witch East's killer — see opportunity below.)*
+
+---
+
+#### GLINDA'S STORY mentions:
+
+| Passage ID | Other Character | Event | Mirror Exists? | Mirror Feasibility |
+|------------|----------------|-------|----------------|-------------------|
+| GLINDA_ORACLE_3 | Lion, Dorothy, Tin Man | Cracked lens shows "Lion's trembling jaw, Dorothy's nerve thread, Tin Man's rusting chest" | Each is referenced in their own stories but no conditional text wired back | **High** — three graft flags already exist (lion_roar_echo, dorothy_nerve, tinman_oil) |
+| GLINDA_ORACLE_4 | Dorothy | "Silver-dust signal, Dorothy-origin" — Glinda borrows Dorothy's silver friction | DOROTHY_ORACLE_2 (Silver Incision): Dorothy's silver power — no Glinda mention | **Medium** — add conditional in Dorothy's silver passages |
+| GLINDA_ORACLE_7 | Lion, Dorothy | Borrows "Lion's vibration, Dorothy's displacement" from nearby units | Lion/Dorothy passages don't acknowledge Glinda draining them | **Medium** |
+| GLINDA_END_BENEVOLENT | Lion, Dorothy, Scarecrow | Pink thread "inside Lion's jaw, inside Dorothy's heel, inside Scarecrow's seam" | LION_GLINDA_RECORD shows Glinda's intervention from Lion's side | ✅ **Partial mirror exists** in LION_GLINDA_RECORD |
+
+---
+
+#### WIZARD'S STORY mentions:
+
+| Passage ID | Other Character | Event | Mirror Exists? | Mirror Feasibility |
+|------------|----------------|-------|----------------|-------------------|
+| WIZARD_INIT | Lion, Tin Man, Scarecrow, Dorothy | "Roaring lion, beating heart, brilliant brain" projections orbit chamber | Each character's story has Wizard-adjacent nodes (LION_GATES_OF_OZ, LION_AUDIENCE_CHAMBER, LION_WIZARD_MISSION) | **High** — Lion already has 3 passages inside Wizard's space |
+| WIZARD_ORACLE_1 | Lion | `graft wizard_smoke → lion` — smoke finds Lion's trembling jaw | WIZARD has conditional text: `{{#flags.graft_wizard_smoke_in_lion}}A tendril...already found its way into a Lion unit's trembling jaw` | ✅ **Mirror conditional already written** in wizard.js line 82 |
+| WIZARD_ORACLE_6 | Glinda | "Let the lens refract toward Glinda" — Wizard's green lens meets Glinda's pink refraction | GLINDA has no passage about receiving Wizard's green lens signal | **Medium** |
+| WIZARD_END_AUDIT | Lion, Tin Man, Scarecrow, Dorothy | "Lion received courage (synthetic). Tin Man: heart (scheduled). Scarecrow: brain (certified). Dorothy: directions (proprietary)." | Partial — Lion, Tin Man, Scarecrow, Dorothy all have endings reflecting these "gifts" | **High** — this is the canonical endpoint summary; cross-link all four endings |
+
+---
+
+#### WITCH WEST'S STORY mentions:
+
+| Passage ID | Other Character | Event | Mirror Exists? | Mirror Feasibility |
+|------------|----------------|-------|----------------|-------------------|
+| WITCH_WEST_INIT / WITCH_WEST_INIT_B | Lion, Scarecrow, Tin Man, Dorothy | "Lion trembles in poppy fields. Scarecrow leaks straw. Tin Man rusts. The girl still believes she is outside the system." | Lion's LION_HARVEST_HUB shows Monkeys taking him to WW; Scarecrow/Tin Man/Dorothy have no scenes of WW watching them | **High** for Scarecrow/TinMan; **Medium** for Dorothy |
+| WITCH_WEST_MONKEY_SWEEP_B | Lion | Detailed capture scene — Monkeys pin Lion, blood/lymph spray, carried westward | LION_HARVEST_HUB shows Lion being taken; LION_MANE_STRIPPING follows | ✅ **Mirror partially exists** — Lion's side is represented |
+| WITCH_WEST_FIELD_CONFRONTATION | Lion (implied target) | Lion dropped at WW's feet, tries to snarl | LION passages don't show this confrontation from Lion's perspective | **High** — add LION conditional passage after LION_HARVEST_HUB |
+| WITCH_WEST_ORACLE_ENTRY_LION | Lion | Direct harvesting begins on Lion | LION has no passage for being the subject of WW's oracle | **High** — create LION mirror passage |
+| WITCH_WEST_SELECT_TARGET | Lion/Dorothy/Tin Man/Scarecrow | WW picks who to harvest first | None of the four characters have a passage for being "selected" | **Medium** — atmospheric conditional text in each character |
+| WITCH_WEST_LION_AUDIT_HUB | Lion | WW audits Lion's bio-matrix (mane vibration residue, paw kinetic friction, vocal chord error logs) | LION_SPINE_HUB/VERTEBRAE_HUB are Lion's self-audit — they rhyme structurally but don't acknowledge WW | **High** — add conditional text in LION_SPINE_HUB: `{{#flags.graft_lion_lymph_in_witch_west}}Something has been catalogued...{{/flags.graft_lion_lymph_in_witch_west}}` |
+
+---
+
+#### WITCH EAST'S STORY mentions:
+
+| Passage ID | Other Character | Event | Mirror Exists? | Mirror Feasibility |
+|------------|----------------|-------|----------------|-------------------|
+| WITCH_EAST_ORACLE_5 | Dorothy (implied) | "Archive Leak — the past surfaces under pressure" — the house's trajectory, Dorothy's arrival | Dorothy's story has NO acknowledgment of having killed Witch East | **High** — most significant missing mirror in the game |
+| WITCH_EAST_ORACLE_8 | Dorothy (implied) | "Terminal Crush — the house arrives during the reading" — Dorothy kills Witch East mid-oracle | Same — no Dorothy passage for this moment | **High** |
+| WITCH_EAST_END_SHOES | Dorothy | Silver Shoes transfer to Dorothy — origin of Dorothy's power | Dorothy's DOROTHY_PATH_SLIPPERS and DOROTHY_ORACLE_2/5 reference Silver Shoes but have NO mention of Witch East as previous owner | **High** — one conditional sentence in Dorothy's slipper passages |
+| WITCH_EAST_ORACLE_3 | Munchkins | "Munchkin Echo — feel the weight through your administrative subjects" | MUNCHKIN_SWARM passages don't reference Witch East as their former administrator | **Medium** |
+
+---
+
+### Top 10 Mirror Opportunities Ranked by Impact and Feasibility
+
+| Rank | Characters | Scene | Type | Feasibility |
+|------|-----------|-------|------|-------------|
+| 1 | **Dorothy ↔ Witch East** | Dorothy having killed WW East (house fall) — zero acknowledgment in Dorothy's story | Add conditional text in DOROTHY_PATH_SLIPPERS: "These shoes belonged to someone" | **High** |
+| 2 | **Witch West ↔ Lion** | Lion's perspective during WW's formal harvesting | Add LION passage after LION_HARVEST_HUB when `graft_lion_lymph_in_witch_west` is set | **High** |
+| 3 | **Lion ↔ Tin Man** | LION_GHOST_SIGNAL already says Lion feels Tin Man's joints — no reciprocal in Tin Man | Wire `graft_lion_roar_echo_in_tinman` conditional into TIN_MAN_ORACLE_4/6 | **High** |
+| 4 | **Scarecrow → Lion/Tin Man/Dorothy** | Scarecrow's straw disperses into all three — none have conditional text for it | Wire `graft_scarecrow_straw_in_*` conditionals (flags exist from SCARECROW_ORACLE_6) | **High** |
+| 5 | **Wizard → Lion** | `graft_wizard_smoke_in_lion` conditional already written in wizard.js — just not in lion | Add `{{#flags.graft_wizard_smoke_in_lion}}` block in LION_AUDIENCE_CHAMBER or LION_GATES_OF_OZ | **High** |
+| 6 | **Glinda ↔ Dorothy** | GLINDA_ORACLE_4 borrows Dorothy's silver signal — Dorothy has no awareness | Add conditional in DOROTHY_ORACLE_2 (Silver Incision): something was taken | **Medium** |
+| 7 | **Witch West ↔ Scarecrow/Tin Man** | WW watches all four companions — Scarecrow and Tin Man have no WW-awareness passages | Add conditional text in SCARECROW_ORACLE / TIN_MAN_ORACLE when warrant level is high | **Medium** |
+| 8 | **Wizard ↔ Glinda** | WIZARD_ORACLE_6 mentions green lens meeting pink refraction — no Glinda passage for this | Add conditional in GLINDA_ORACLE_3 (Lens Fracture) for `graft_wizard_smoke_in_*` | **Medium** |
+| 9 | **Witch East ↔ Munchkins** | WE was their administrator — Munchkin Swarm has no memory of her | Add conditional in MUNCHKIN_SWARM_2 or _3 for prior administrator | **Low** |
+| 10 | **All Four Companions: Convergence** | WIZARD_END_AUDIT describes all four's "gifts" — none reference the others | Add cross-character conditional endings: if graft_X_in_Y, ending text shifts | **Low** |
+
+---
+
+## APPENDIX: Engine Patterns
+
+### Effect Types
 ```javascript
-{ type: 'addLoad', value: N }
-{ type: 'addVibration', value: N }
-{ type: 'addDisplacement', value: N }
-{ type: 'addCorrosion', value: N }
-{ type: 'addScatter', value: N }
-{ type: 'addDesync', value: N }
-{ type: 'addDesynctear', value: N }
-{ type: 'addSmudge', value: N }
-{ type: 'addOverrender', value: N }
-{ type: 'addWarrant', value: N }
-{ type: 'addMalice', value: N }
-{ type: 'addThermal', value: N }
-{ type: 'addSaturation', value: N }
-{ type: 'addSeizure', value: N }
-{ type: 'addStitchIntegrity', value: N }
-{ type: 'addInsulation', value: N }
-{ type: 'setCompliance', value: 'low'|'med'|'high'|'absolute'|'broken' }
-{ type: 'setFlag', key: 'flag_name', value: true|false|'string' }
+{ type: 'addLoad' | 'addVibration' | 'addDisplacement' | 'addCorrosion' | 'addScatter' | 
+         'addDesync' | 'addDesynctear' | 'addSmudge' | 'addOverrender' | 'addWarrant' | 
+         'addMalice' | 'addThermal' | 'addSaturation' | 'addSeizure' | 'addStitchIntegrity' | 
+         'addInsulation' | 'addLubrication', value: N }
+{ type: 'setCompliance', value: 'low' | 'med' | 'high' | 'absolute' | 'broken' }
+{ type: 'setFlag', key: 'flag_name', value: true | false | 'string' }
 { type: 'graft', material: 'material_name', target: 'character' }
 { type: 'grayOut', key: 'PASSAGE_ID' }
 { type: 'triggerOracle' }
@@ -661,63 +838,29 @@ The codebase already implements several cross-character material sharing via `gr
 { type: 'incrementLoopCounter' }
 ```
 
-### Conditional Text Patterns
-
-```mustache
-{{#flags.flag_name}}Text shown when flag is true{{/flags.flag_name}}
-{{^flags.flag_name}}Text shown when flag is false{{/flags.flag_name}}
-{{#flags.graft_MATERIAL_in_CHARACTER}}Cross-character graft conditional{{/flags.graft_MATERIAL_in_CHARACTER}}
-{{stats.vibration}} - Direct stat reference
-{{load}} - System variable
-{{character}} - Current character
+### Conditional Text Patterns (Mustache)
+```
+{{#flags.graft_MATERIAL_in_CHARACTER}}text{{/flags.graft_MATERIAL_in_CHARACTER}}
+{{^flags.flag_name}}inverse conditional{{/flags.flag_name}}
+{{stats.vibration}} / {{load}} / {{character}}
 ```
 
-### Oracle Pattern
-
-Each character has an oracle interloper with 8 outcomes:
-- Outcomes 1-6: Stat modifications, graft opportunities, path unlocks
-- Outcome 7: Ghost signal / cross-character resonance
-- Outcome 8: Catastrophic/high-surreality result
+### Oracle Entry Mechanism
+Oracle `_ENTRY` passages are NOT reached via `target:` choices. They are entered when the engine detects `{ type: 'triggerOracle' }` in a passage's `onEnter` array, routing directly to `[CHARACTER]_ORACLE_ENTRY`. This is why oracle entries appear "orphaned" in a static link analysis.
 
 ---
 
-## SUMMARY
+## CRITICAL ISSUES SUMMARY
 
-### Total Passage Count
-- **Lion:** ~95 passages (branches + endings)
-- **Tin Man:** ~35 passages
-- **Scarecrow:** ~25 passages
-- **Dorothy:** ~28 passages
-- **Glinda:** ~28 passages
-- **Wizard:** ~28 passages
-- **Witch West:** ~55 passages
-- **Witch East:** ~25 passages
-- **Enforcers:** ~48 passages (4 swarms × 10+ each)
-- **Ghost Signal:** 1 passage
-- **TOTAL:** ~370+ passages
-
-### Total Endings
-- Lion: 30+ endings
-- Tin Man: 13 endings (1 stub)
-- Scarecrow: 3 endings
-- Dorothy: 4 endings
-- Glinda: 6 endings
-- Wizard: 6 endings
-- Witch West: 6 endings
-- Witch East: 4 endings
-- **TOTAL:** ~72 endings
-
-### Critical Issues
-1. **T_END_21** is a stub with only `[ TODO ]` as content
-2. **4 broken links** in Lion passages (LION_RESONANCE_COLLAPSE, LION_MUFFLED_CHAMBER, LION_AUDIO_EVENT, LION_MANE_FRACTURE)
-3. **8+ orphaned passages** in witch_west_stubs.js (never targeted)
-4. **3 duplicate ending IDs** in Lion (L-END-15, L-END-17, L-END-29)
-5. **7+ Lion endings** missing `isEnding: true` flag (L_END_01, L_END_03-09)
-
-### Recommendations
-1. Implement the 4 missing Lion passages or remove their references
-2. Complete T_END_21 content
-3. Wire up the 8+ orphaned Witch West passages
-4. Resolve duplicate ending IDs
-5. Add missing `isEnding: true` flags
-6. Implement cross-character mirror passages as outlined in Part 3
+| Priority | Issue | Count | Fix |
+|----------|-------|-------|-----|
+| 🔴 P1 | **Broken links** (passages referenced but nonexistent) | 3 | Create LION_DATA_LEAK, LION_ROOT_ACCESS, LION_END_19 |
+| 🔴 P1 | **Stub ending with TODO content** | 1 | Write T_END_21 content |
+| 🟡 P2 | **Orphaned Lion passages** (content exists, unreachable) | 8 | Wire LION_WIZARD_MISSION, LION_GLINDA_RECORD, LION_QUADLING_SECTOR, LION_POPPY_BUFFER, LION_HARMONIC_ALIGNMENT, LION_SYSTEM_ENTROPY from main tree |
+| 🟡 P2 | **Orphaned Witch West passages** (content exists, unreachable) | 9 | Wire WW_COMMAND_DECK, WW_TORMENT_DETAIL, WW_CLERK_INTERLUDE, etc. into main WW flow |
+| 🟡 P2 | **Disconnected endings** (defined but unreachable) | 6 | Wire T_END_07, LION_MANE_EVENT, LION_DESERT_CROSSING; restore WW_END_SEARING_TRUTH / WW_END_GHOST_BIT paths |
+| 🟠 P3 | **Missing isEnding: true flags** | 5 | Add to LION_END_11, LION_END_21, LION_END_33, LION_TESTIMONY_ERROR, LION_STRUCTURAL_FAILURE |
+| 🟠 P3 | **Duplicate endingIds** | 2 pairs | Renumber LION_TESTIMONY_ERROR → L-END-15b; LION_STRUCTURAL_FAILURE → L-END-17b |
+| 🟠 P3 | **Missing endingId/isEnding** on terminal passages | 4 | Add metadata to LION_DE_INDEXING, LION_THE_SHEARING, LION_MANE_EVENT, LION_DESERT_CROSSING |
+| 🟢 P4 | **Unwired graft conditionals** (flags exist, text not used) | 10+ | Wire existing `graft_*` flags into target character passages |
+| 🟢 P4 | **Missing mirror scenes** | 10 | See ranked mirror opportunity table in Part 3 |
