@@ -1,17 +1,12 @@
 /**
- * YELLOW BRICK LOAD — Wicked Witch of the West Passages
+ * YELLOW BRICK LOAD — Wicked Witch of the West Branch Passages
  * Character: Witch West (Authority Figure / Surveillance Operator)
  *
- * The Obsidian Eye Ritual (Surveillance Vivisection)
- * Triggered when warrantLevel >= 5
- *
- * Oracle Interloper: The Obsidian Matron — tall, pallid, black cloak
- * lined with living eyeballs and iron flechettes. One eye is a large rotating
- * obsidian orb projecting restraint fields. Makes deep, deliberate cuts while
- * recording every twitch and leak.
+ * All non-ending passages (branches, decisions, oracle nodes).
+ * Endings are in witch_west_endings.js.
  */
 
-export const witchWestPassages = {
+export const witchWestStubPassages = {
   // ─────────────────────────────────────────────────────────────────────────
   // INIT / ENTRY
   // ─────────────────────────────────────────────────────────────────────────
@@ -689,11 +684,11 @@ The restraint field tightens around the target like a living corset made of invi
 
 You step forward, green fingers flexing. The obsidian orb in your left socket rotates with a wet click, projecting the restraint grid deeper into the target's flesh. The grid bites — pressing, measuring, mapping every tremor and leak.
 
-"Look at you," you croon, voice soft as wet silk over broken glass.
+"My pretty," you croon, voice soft as wet silk over broken glass.
 
 Your flechette-claws find the perfect entry points where the invisible grid has already pressed into meat. You make deep, deliberate cuts while the obsidian eye records every twitch, every spurt of lymph, every involuntary convulsion.
 
-The malice residue — a thick mix of blood, bile, fear-sweat, and raw signal — wells up hot and immediate. You force it through the calibrated crucible mounted on your gauntlet. The fluid hisses and bubbles as it passes through, leaving behind patterns that only the eye can read as judgment.
+The malice residue — a thick mix of blood, bile, fear-sweat, and raw signal — wells up hot and immediate. You force it through the heated hourglass mounted on your gauntlet. The fluid hisses and bubbles as it passes through, leaving behind patterns that only the eye can read as judgment.
 
 The target's body jerks against the restraint field. The eye dilates with clinical hunger.
 
@@ -738,7 +733,7 @@ The target's body is still open. The restraint field holds the wound wide like a
 
 The eye dilates.
 
-"Choose… or I will choose for you."`,
+"Choose, my pretty… or I will choose for you."`,
       },
     ],
     choices: [
@@ -1103,140 +1098,557 @@ The dissolution is thorough, meticulous, and deeply authorized.`,
   },
 
   // ─────────────────────────────────────────────────────────────────────────
-  // STUB ENDINGS
+  // NEW PASSAGES FROM EXPANSION
   // ─────────────────────────────────────────────────────────────────────────
 
-  WITCH_WEST_END_MELTING: {
-    id: 'WITCH_WEST_END_MELTING',
+  WITCH_WEST_TORMENT_DETAIL: {
+    id: 'WITCH_WEST_TORMENT_DETAIL',
     character: 'witch_west',
-    endingId: 'W-END-11',
-    endingName: 'The Melting Point',
-    institution: 'Thermal',
-    systemStatus: 'Liquefied',
-    isEnding: true,
-    surreality: 9,
     text: [
       {
         minOverrender: 0,
-        content: `THE FINAL LOG [W-END-11]
-
-The melting was always the verdict.
-
-The obsidian eye was still recording when the heat reached critical. The target's tin and meat began to lose their boundaries — silver rivulets of liquefied metal running down collapsing limbs while the nerves continued firing. The pain was bright, liquid, and intimate. Every droplet carried a piece of the original form.
-
-You watched with genuine satisfaction as the structured body surrendered its shape, becoming a spreading mercury-colored spill across the red poppies. The flowers drank the mixture greedily, their fleshy petals glistening with dissolved unit.
-
-A cleaner drone approached with a bucket and squeegee. You could still feel the bristles scraping across what remained of the meat as it was collected.
-
-The obsidian eye continued recording for seventeen minutes after the last solid piece dissolved.
-
-Final Log: The malice was the last thing to melt. It took the longest.
-
-1 - 1 = 1.
-
-When the witch melts in an empty room and the eye is still watching, is it still surveillance… or simply appetite?`,
+        content: `THE CALIBRATED SILENCE
+You lean in close to the Lion's ear. The smell of his fear is a high-frequency vibration that makes your teeth ache with a pleasant, electric hunger.
+"Do you know what the Bureau calls a King without a kingdom?" you whisper. Your breath is the scent of ozone and formaldehyde. "They call him a *redundant asset*. They call him *excess inventory*."
+You run a long, green-stained nail over the spot where his heart thumps—a frantic, irregular beat against his ribs. 1-1=1. One heartbeat, one cage.
+"I'm not going to kill you," you croon. "I'm going to index you. I'm going to map every stutter in your pulse until your cowardice is the only thing the system remembers."
+The obsidian eye hovers inches from his wide, watering eye. It records the contraction of his pupil. It logs the exact milligram of salt in his tear.
+The Lion makes a sound—a soft, broken whine that would be pathetic if it weren't so mathematically perfect.
+"There," you say, standing up. "That is the sound of a successful audit."`,
       },
     ],
-    choices: [],
+    choices: [
+      {
+        label: 'Begin the Formal Extraction (Obsidian Eye Ritual).',
+        target: 'WITCH_WEST_ORACLE_ENTRY',
+        effects: [
+          { type: 'addWarrant', value: 5 },
+          { type: 'addLoad', value: 5 },
+          { type: 'setCompliance', value: 'high' },
+        ],
+      },
+      {
+        label: 'Signal the Monkeys to begin "The Scrap Reallocation."',
+        target: 'WITCH_WEST_END_SCRAP',
+        effects: [
+          { type: 'addWarrant', value: 10 },
+          { type: 'setCompliance', value: 'broken' },
+        ],
+      },
+    ],
+    onEnter: [{ type: 'triggerOracle' }],
+  },
+
+  WITCH_WEST_MID_AIR_HARVEST_DETAIL: {
+    id: 'WITCH_WEST_MID_AIR_HARVEST_DETAIL',
+    character: 'witch_west',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE KINETIC AUDIT
+Wind howls through the control rings of your Winged Monkeys as they bank hard toward the tower. The Lion is a heavy, thrashing weight between them, suspended by iron flechette-cables that bite deeper with every struggle.
+The lead Monkey—Unit 734—reaches down with a surgical claw. It doesn't strike; it *samples*.
+A strip of fur and meat is peeled away at 400 feet. The Lion's scream is instantly shredded by the gale, reduced to a data-point on your monitor. The obsidian eye, tracking from the battlement, filters out the wind noise to focus on the wet, rhythmic thumping of his exposed muscle.
+[ SYSTEM NOTIFICATION: PRELIMINARY DATA GATHERED ]
+[ ASSET CONDITION: DEGRADED ]
+[ RECLAMATION POTENTIAL: OPTIMAL ]
+You watch the red poppies below blur into a smear of judicial pigment. By the time they land, he won't be a guest. He will be a kit of parts.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Receive the parts in the Ritual Chamber.',
+        target: 'WITCH_WEST_TOWER_PREP',
+        effects: [
+          { type: 'addWarrant', value: 4 },
+          { type: 'addLoad', value: 6 },
+        ],
+      },
+    ],
     onEnter: [],
   },
 
-  WITCH_WEST_END_FLECHETTE: {
-    id: 'WITCH_WEST_END_FLECHETTE',
+  // ─────────────────────────────────────────────────────────────────────────
+  // INTERCONNECTING STUB: THE CLERK'S AUDIT
+  // ─────────────────────────────────────────────────────────────────────────
+
+  WITCH_WEST_CLERK_INTERLUDE: {
+    id: 'WITCH_WEST_CLERK_INTERLUDE',
     character: 'witch_west',
-    endingId: 'W-END-03',
-    endingName: 'The Flechette Rain',
-    institution: 'Judicial',
-    systemStatus: 'Pinned',
-    isEnding: true,
-    surreality: 8,
     text: [
       {
         minOverrender: 0,
-        content: `THE FINAL LOG [W-END-03]
-
-The flechettes have completed their work.
-
-They burrowed deep — filing implements and kinetic weapons working in perfect judicial symmetry — pinning muscle to bone, meat to the yellow bricks, defiance to the grid. Each iron shaft vibrates faintly with the last residual tremors of the target.
-
-The body is now a permanent exhibit of compliance: spread-eagled, leaking, and beautifully immobilized. The obsidian eye records every final twitch with clinical pleasure. The Clerk logs each placement with meticulous satisfaction.
-
-The restraint field has been converted to a permanent archival field. Nothing moves. Nothing is required to move.
-
-Final Log: The harvest is complete. The evidence speaks for itself.
-
-1 - 1 = 1.
-
-When everything is pinned in place, is the stillness justice… or just the absence of further screaming?`,
+        content: `THE LOGGING FRICTION
+The Bureau Clerk—a spindly thing made of carbon paper and calcified ink—scratches a nib across a sheet of the Lion's dried skin.
+"Mistress," the Clerk wheezes, "the Warrant Level is nearing a critical threshold. If we continue the extraction without a formal verdict, the signal may bleed into the Unlit Basement. We risk a *Ghost Event*."
+The obsidian eye pulses a deep, rhythmic violet. You feel the weight of the Bureau's eyes on your own green neck. They don't care about the Lion; they care about the *paperwork* of his disappearance.`,
       },
     ],
-    choices: [],
+    choices: [
+      {
+        label: 'Force the verdict now — Summon the Obsidian Matron.',
+        target: 'WITCH_WEST_ORACLE_ENTRY',
+        effects: [{ type: 'addWarrant', value: 10 }],
+      },
+      {
+        label: 'Ignore the Clerk. Proceed with psychological pressure.',
+        target: 'WITCH_WEST_PSYCHOLOGICAL_TORMENT',
+        effects: [{ type: 'addDesync', value: 5 }, { type: 'addLoad', value: 5 }],
+      },
+    ],
     onEnter: [],
   },
 
-  WITCH_WEST_END_COMMAND: {
-    id: 'WITCH_WEST_END_COMMAND',
+  // ─────────────────────────────────────────────────────────────────────────
+  // INTERCONNECTING STUB: THE RESTRAINT FIELD FAILURE
+  // ─────────────────────────────────────────────────────────────────────────
+
+  WITCH_WEST_GRID_FAILURE: {
+    id: 'WITCH_WEST_GRID_FAILURE',
     character: 'witch_west',
-    endingId: 'W-END-20',
-    endingName: 'The Command Channel',
-    institution: 'Military',
-    systemStatus: 'Transmitting',
-    isEnding: true,
-    surreality: 7,
     text: [
       {
         minOverrender: 0,
-        content: `THE FINAL LOG [W-END-20]
-
-The surveillance grafts are fully active.
-
-Every choice on the Yellow Brick Load now routes through the obsidian eye before it becomes action. The eye evaluates. The flechettes reinforce the evaluations that require physical emphasis. The command channel is open and humming with wet, living malice.
-
-The Winged Monkeys circle in holding pattern, awaiting orders. The Clerk logs every transmission in real time. The road has become a perfectly monitored corridor.
-
-You sit upon your throne of bone and flechettes, green fingers drumming against the armrest, feeling the pulse of every monitored unit through the graft threads.
-
-Final Log: The surveillance is the command. The command is the law.
-
-1 - 1 = 1.
-
-If every choice is monitored before it is made, is the choice still yours… or has it always belonged to the eye?`,
+        content: `SIGNAL LEAK
+The obsidian eye flickers. A surge of Vibration from the Lion—or perhaps a neural spike from the Scarecrow—cracks the restraint lattice.
+For a second, the tower smells of ozone and panic. The prisoners aren't just meat; they are *conductors*. Their collective fear is feeding back into the tower's circuitry.
+"Stabilize the load!" you shriek at the monkeys, but they are already clutching their iron head-rings, shrieking in digital agony.
+The system is hungry. If you don't feed it a conclusion soon, it will start eating the operator.`,
       },
     ],
-    choices: [],
+    choices: [
+      {
+        label: 'Sacrifice a Winged Monkey to ground the signal.',
+        target: 'WITCH_WEST_MONKEY_SWEEP_B',
+        effects: [{ type: 'addWarrant', value: -2 }, { type: 'addLoad', value: 10 }],
+      },
+      {
+        label: 'Direct the surge into the target — The Melting Point.',
+        target: 'WITCH_WEST_END_MELTING',
+        effects: [{ type: 'setCompliance', value: 'broken' }],
+      },
+    ],
+    onEnter: [{ type: 'triggerOracle' }],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // THE CENTRAL HUB: THE OBSIDIAN COMMAND DECK
+  // ─────────────────────────────────────────────────────────────────────────
+
+  WITCH_WEST_COMMAND_DECK: {
+    id: 'WITCH_WEST_COMMAND_DECK',
+    character: 'witch_west',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE WESTERN EYE - COMMAND INTERFACE
+You stand at the center of the tower. The obsidian eye is docked in the wall, displaying a quad-split feed of the Yellow Brick Load.
+[ STATUS: ACTIVE AUDIT ]
+[ ASSETS TRACKED: LION, TINMAN, SCARECROW, DOROTHY ]
+[ SYSTEM NOISE: {{load}}% ]
+[ JUDICIAL AUTHORITY: ESCALATING ]
+The air is thin and tastes of static. The Clerk stands behind you, a living tally-sheet waiting for your next command. The target is in the net, but the extraction is not yet legal. You must build the case—layer by layer, choice by choice.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Access AERIAL FEED: Direct the Winged Monkeys.',
+        target: 'WITCH_WEST_MONKEY_MANAGEMENT',
+        effects: [{ type: 'addLoad', value: 1 }],
+      },
+      {
+        label: 'Access FIELD FEED: Adjust the Poppy Dampeners.',
+        target: 'WITCH_WEST_POPPY_CALIBRATION',
+        effects: [{ type: 'addWarrant', value: 1 }],
+      },
+      {
+        label: "Access INTERNAL FEED: Audit the target's biometric leak.",
+        target: 'WITCH_WEST_OBSIDIAN_VIEW',
+        effects: [{ type: 'addDesync', value: 2 }],
+      },
+      {
+        label: 'Initialize Ritual: "The Obsidian Matron".',
+        target: 'WITCH_WEST_ORACLE_ENTRY',
+        effects: [],
+      },
+    ],
     onEnter: [],
   },
 
-  WITCH_WEST_END_SCRAP: {
-    id: 'WITCH_WEST_END_SCRAP',
+  // ─────────────────────────────────────────────────────────────────────────
+  // REPEATABLE LOOP: MONKEY MANAGEMENT
+  // ─────────────────────────────────────────────────────────────────────────
+
+  WITCH_WEST_MONKEY_MANAGEMENT: {
+    id: 'WITCH_WEST_MONKEY_MANAGEMENT',
     character: 'witch_west',
-    endingId: 'W-END-14',
-    endingName: 'Genetic Overwrite',
-    institution: 'Genetic',
-    systemStatus: 'Overwritten',
-    isEnding: true,
-    surreality: 9,
     text: [
       {
         minOverrender: 0,
-        content: `THE FINAL LOG [W-END-14]
-
-The overwrite is complete.
-
-The scorched slurry, Kalidah residue, and surveillance graft material reached critical mass in the extraction vessel. The genetic overwrite was authorized as "Salvage Protocol."
-
-What remained of the original unit was not destroyed — it was dismantled and rebuilt according to the scrap available. New limbs, new seams, new wiring. The obsidian eye recorded the entire transition with dilated satisfaction.
-
-The new composite does not roar. It gurgles. The Clerk logs this as "improved vocal efficiency." The flechettes are still present. They are now structural.
-
-Final Log: The malice was the material. The material is the unit. The unit serves.
-
-1 - 1 = 1.
-
-When the witch is rebuilt from the meat of her victims, who is truly being punished?`,
+        content: `AERIAL SUB-ROUTINE
+The Winged Monkeys are circling the target. You can see the Lion's heat signature through their grafted optics—a pulsing, erratic orange.
+"Unit 734," you speak into the grate. "Descend to fifty feet. Snip a sample of the mane. Do not engage in full reclamation yet. We need more data on the tremor."`,
       },
     ],
-    choices: [],
+    choices: [
+      {
+        label: 'Order a "Kinetic Brush-By" (Increase Load).',
+        target: 'WITCH_WEST_COMMAND_DECK',
+        effects: [{ type: 'addLoad', value: 3 }, { type: 'setFlag', key: 'mane_sampled', value: true }],
+      },
+      {
+        label: 'Order "Silent Hover" (Increase Warrant).',
+        target: 'WITCH_WEST_COMMAND_DECK',
+        effects: [{ type: 'addWarrant', value: 2 }],
+      },
+      {
+        label: 'Order "Aggressive Shriek" (Stress Test).',
+        target: 'WITCH_WEST_ORACLE_ENTRY',
+        effects: [{ type: 'addVibration', value: 5 }],
+      },
+    ],
+    onEnter: [],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // REPEATABLE LOOP: POPPY CALIBRATION
+  // ─────────────────────────────────────────────────────────────────────────
+
+  WITCH_WEST_POPPY_CALIBRATION: {
+    id: 'WITCH_WEST_POPPY_CALIBRATION',
+    character: 'witch_west',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE PHARMACEUTICAL DIAL
+You adjust the chemical output of the field. The red petals below begin to weep a thicker, more opaque resin.
+"The girl is still moving too fast," the Clerk notes. "Her signal is resisting the buffer."`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Flood the Sector: 50% Dosage.',
+        target: 'WITCH_WEST_COMMAND_DECK',
+        effects: [{ type: 'addWarrant', value: 3 }, { type: 'addLoad', value: 2 }],
+      },
+      {
+        label: 'Pulse the Field: Create a "Lullaby Spike".',
+        target: 'WITCH_WEST_COMMAND_DECK',
+        effects: [{ type: 'addDesync', value: 4 }],
+      },
+    ],
+    onEnter: [],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // THE INTERRUPT: BUREAU LOG-CHECK
+  // ─────────────────────────────────────────────────────────────────────────
+
+  WITCH_WEST_BUREAU_LOG_CHECK: {
+    id: 'WITCH_WEST_BUREAU_LOG_CHECK',
+    character: 'witch_west',
+    text: [
+      {
+        minOverrender: 0,
+        content: `INTERRUPT: ADMINISTRATIVE REVIEW
+The Clerk slams a heavy ledger onto the command console.
+"Mistress, you have performed twelve consecutive unindexed interactions. The Bureau requires a formal justification for the delay. Are you auditing... or are you playing with the meat?"`,
+      },
+    ],
+    choices: [
+      {
+        label: '"It is a Judicial Necessity." (Bribe the Clerk with Load).',
+        target: 'WITCH_WEST_COMMAND_DECK',
+        effects: [{ type: 'addLoad', value: 10 }],
+      },
+      {
+        label: '"The target is non-compliant." (Increase Warrant).',
+        target: 'WITCH_WEST_COMMAND_DECK',
+        effects: [{ type: 'addWarrant', value: 5 }],
+      },
+    ],
+    onEnter: [],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // THE EXTENDED HUB: THE OBSIDIAN COMMAND DECK (V2)
+  // ─────────────────────────────────────────────────────────────────────────
+
+  WITCH_WEST_COMMAND_DECK_V2: {
+    id: 'WITCH_WEST_COMMAND_DECK_V2',
+    character: 'witch_west',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE WESTERN EYE - DEEP AUDIT INTERFACE
+The tower hums. It is the sound of a thousand flechettes vibrating in their racks. The obsidian eye is no longer a window; it is a surgical tool.
+[ SYSTEM STATS ]
+ * SYSTEM LOAD: {{load}}%
+ * CRUCIBLE SATURATION: {{flags.saturation}}%
+ * ASSET STATUS: [ {{flags.asset_condition}} ]
+The Lion is pinned. The Scarecrow is unspooling. The Tin Man is seized. You are the operator. Every click of your green fingers on the bone-keys re-indexes reality.
+"Mistress," the Clerk whispers, "the data is pooling. Shall we refine the residue or continue the harvest?"`,
+      },
+    ],
+    choices: [
+      {
+        label: "BIOMETRICS: Access the Lion's Tremor-Log.",
+        target: 'WITCH_WEST_LION_AUDIT_HUB',
+        effects: [{ type: 'addLoad', value: 2 }],
+      },
+      {
+        label: 'SURVEILLANCE: Deploy "Eye-on-a-String" probes into the field.',
+        target: 'WITCH_WEST_OBSIDIAN_VIEW',
+        effects: [{ type: 'addWarrant', value: 3 }],
+      },
+      {
+        label: 'PHARMACOLOGY: Refine the Poppy Resin in the crucible.',
+        target: 'WITCH_WEST_POPPY_BUFFER',
+        effects: [{ type: 'addLoad', value: 10 }],
+      },
+      {
+        label: 'ADMINISTRATION: File a "Pre-emptive Deletion" warrant.',
+        target: 'WITCH_WEST_BUREAU_FILING',
+        effects: [{ type: 'addWarrant', value: 5 }, { type: 'addLoad', value: 5 }],
+      },
+      {
+        label: 'THE FINAL INCISION: Trigger "The Melting Point".',
+        target: 'WITCH_WEST_END_MELTING',
+        effects: [],
+      },
+    ],
+    onEnter: [],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // SUB-BRANCH: THE LION AUDIT (Granular Scraping)
+  // ─────────────────────────────────────────────────────────────────────────
+
+  WITCH_WEST_LION_AUDIT_HUB: {
+    id: 'WITCH_WEST_LION_AUDIT_HUB',
+    character: 'witch_west',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE LION'S BIO-MATRIX
+You zoom the obsidian eye into the Lion's pinned form. His anatomy is a map of failing kingship. Which sector requires your attention?`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Sector Alpha: The Mane (Vibration Residue).',
+        target: 'WITCH_WEST_SCRAPE_MANE',
+        effects: [{ type: 'addLoad', value: 5 }],
+      },
+      {
+        label: 'Sector Delta: The Paws (Kinetic Friction).',
+        target: 'WITCH_WEST_LION_AUDIT_HUB',
+        effects: [{ type: 'addLoad', value: 4 }],
+      },
+      {
+        label: 'Sector Omega: The Vocal Chords (Roar Error-Log).',
+        target: 'WITCH_WEST_LION_AUDIT_HUB',
+        effects: [{ type: 'addWarrant', value: 2 }],
+      },
+      {
+        label: 'Return to Command Deck.',
+        target: 'WITCH_WEST_COMMAND_DECK_V2',
+        effects: [],
+      },
+    ],
+    onEnter: [],
+  },
+
+  WITCH_WEST_SCRAPE_MANE: {
+    id: 'WITCH_WEST_SCRAPE_MANE',
+    character: 'witch_west',
+    text: [
+      {
+        minOverrender: 0,
+        content: `MANE EXTRACTION
+You signal a Winged Monkey to use the fine-toothed flechettes. One by one, the golden hairs are plucked. Each hair is a strand of fiber-optic fear.
+The Lion flinches—a sharp, electric spasm.
+"Look at that," you murmur. "Each strand holds a different tremor. One for the dark, one for the Wizard, one for the girl."`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Feed the hairs into the crucible.',
+        target: 'WITCH_WEST_LION_AUDIT_HUB',
+        effects: [{ type: 'addLoad', value: 15 }, { type: 'setFlag', key: 'lion_hair_logged', value: true }],
+      },
+      {
+        label: 'Braid the hairs into a "Fear-Whip".',
+        target: 'WITCH_WEST_LION_AUDIT_HUB',
+        effects: [{ type: 'addWarrant', value: 8 }, { type: 'graft', material: 'fear_whip', target: 'witch_west' }],
+      },
+    ],
+    onEnter: [],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // REPEATABLE: THE BUREAU FILING (Bureaucratic Persistence)
+  // ─────────────────────────────────────────────────────────────────────────
+
+  WITCH_WEST_BUREAU_FILING: {
+    id: 'WITCH_WEST_BUREAU_FILING',
+    character: 'witch_west',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE PAPERWORK OF MALICE
+The Clerk presents a series of forms. To the unindexed, these are just paper. To you, they are the hardware code of the West.
+"We need to categorize the Lion's upcoming deletion," the Clerk wheezes. "Is it 'Maintenance Disposal' or 'Judicial Reclamation'?"`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Label it "Maintenance Disposal" (Lower Load).',
+        target: 'WITCH_WEST_COMMAND_DECK_V2',
+        effects: [{ type: 'addLoad', value: -5 }, { type: 'addWarrant', value: 2 }],
+      },
+      {
+        label: 'Label it "Judicial Reclamation" (Higher Warrant).',
+        target: 'WITCH_WEST_COMMAND_DECK_V2',
+        effects: [{ type: 'addWarrant', value: 10 }, { type: 'addLoad', value: 5 }],
+      },
+    ],
+    onEnter: [],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // THE SENSORY ESCALATION: SIGNAL BLEED (Choice 15+)
+  // ─────────────────────────────────────────────────────────────────────────
+
+  WITCH_WEST_SIGNAL_BLEED: {
+    id: 'WITCH_WEST_SIGNAL_BLEED',
+    character: 'witch_west',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE THINNING OF THE TOWER
+You have been watching too long. The obsidian eye's feed is beginning to bleed into your own vision. You see the Lion's skeleton as a lattice of iron bars. You see the poppies as thousands of red, blinking sensors.
+The Clerk's face is just a smudge of carbon paper.
+"Mistress," a voice says—but it sounds like your own voice, coming from the Lion's throat. "The audit is becoming the asset. 1 - 1 = 1."`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Re-sync your vision. (Add Load).',
+        target: 'WITCH_WEST_COMMAND_DECK_V2',
+        effects: [{ type: 'addLoad', value: 15 }, { type: 'addDesync', value: -5 }],
+      },
+      {
+        label: 'Accept the bleed. (Unlock W-END-04: Binary Cackle).',
+        target: 'WITCH_WEST_END_MELTING',
+        effects: [{ type: 'addDesync', value: 20 }],
+      },
+    ],
+    onEnter: [],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // THE WINKIE CORRIDOR: THE RHYTHMIC STABILIZER
+  // ─────────────────────────────────────────────────────────────────────────
+
+  WITCH_WEST_WINKIE_CORRIDOR: {
+    id: 'WITCH_WEST_WINKIE_CORRIDOR',
+    character: 'witch_west',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE WINKIE HARMONIC
+You walk the perimeter of the ritual chamber. Outside, on the ramparts, the Winkie Guard stands in perfect, rusted rows.
+"O-ee-um... Oh-h-hah..."
+The chant isn't music. It's a **Vibrational Anchor**. Their rhythmic stomping keeps the tower from vibrating apart under the load of your surveillance. Each "Oh-h-hah" is a manual reset of the local gravity.
+The Clerk marks the beat with a twitching finger. "The guards are reaching their fatigue threshold, Mistress. If the chant breaks, the heat will no longer have a place to ground itself."`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Force the Guards to double the tempo. (Add Load / Increase Heat).',
+        target: 'WITCH_WEST_THERMAL_SURGE',
+        effects: [{ type: 'addLoad', value: 15 }, { type: 'addLoad', value: 10 }],
+      },
+      {
+        label: "Use the chant to soothe the Lion's tremor (Lower Load).",
+        target: 'WITCH_WEST_COMMAND_DECK_V2',
+        effects: [{ type: 'addLoad', value: -10 }, { type: 'addWarrant', value: 2 }],
+      },
+    ],
+    onEnter: [],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // PATHWAY TO SEARING TRUTH: THE THERMAL EVENT
+  // ─────────────────────────────────────────────────────────────────────────
+
+  WITCH_WEST_THERMAL_SURGE: {
+    id: 'WITCH_WEST_THERMAL_SURGE',
+    character: 'witch_west',
+    text: [
+      {
+        minOverrender: 0,
+        content: `KINETIC OVERHEAT
+The Winkies are stomping so hard their greaves are beginning to glow. The air in the tower reaches 115 degrees.
+The obsidian eye is no longer showing you images; it is showing you **The Core Logic**. The Lion's body is gone. The Scarecrow's straw is gone. There is only a white-hot geometry of equations.
+1 - 1 = 1.
+Courage = 0.
+Home = Null.
+"It's beautiful," you whisper. Your green skin is beginning to blister, turning a pale, toxic yellow. "The truth isn't a story. The truth is the friction we generate while trying to escape the system."`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Peer directly into the white-hot center.',
+        target: 'WITCH_WEST_END_SEARING_TRUTH',
+        effects: [{ type: 'setCompliance', value: 'absolute' }],
+      },
+      {
+        label: 'Try to vent the heat (Requires Water Protocol).',
+        target: 'WITCH_WEST_END_MELTING',
+        effects: [{ type: 'addLoad', value: 20 }],
+      },
+    ],
+    onEnter: [{ type: 'triggerOracle' }],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // THE UNLIT BASEMENT: THE VOID OF LOGS
+  // ─────────────────────────────────────────────────────────────────────────
+
+  WITCH_WEST_UNLIT_BASEMENT: {
+    id: 'WITCH_WEST_UNLIT_BASEMENT',
+    character: 'witch_west',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE UNLIT BASEMENT
+The stairs ended five minutes ago, but you are still walking down.
+The Clerk has vanished. The obsidian eye is dark, its pupil retracted into a tiny, painful point of grey light. You are standing in the **Unlit Basement**—the Bureau's recycling bin for failed logic.
+Here, the "Wicked Witch" is just a set of instructions for a green-skinned administrator that no longer has an office. You reach out and touch the wall; it feels like cold, damp television static.
+A voice—or the memory of a voice—vibrates through the floorboards.
+"1 - 1 = 1," it whispers. "But in the basement, 1 - 1 = ... nothing."
+You see a pile of discarded **Ruby Slippers**. They aren't glowing. They look like lead. They are heavy with the weight of every girl who tried to go home and hit the firewall instead.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Search the trash for "The Origin Code".',
+        target: 'WITCH_WEST_UNLIT_BASEMENT',
+        effects: [{ type: 'addDesync', value: 10 }, { type: 'setFlag', key: 'unindexed', value: true }],
+      },
+      {
+        label: 'Climb back toward the light.',
+        target: 'WITCH_WEST_COMMAND_DECK_V2',
+        effects: [{ type: 'addLoad', value: 20 }],
+      },
+      {
+        label: 'Accept the deletion. Become a Ghost Bit.',
+        target: 'WITCH_WEST_END_GHOST_BIT',
+        effects: [],
+      },
+    ],
     onEnter: [],
   },
 }
