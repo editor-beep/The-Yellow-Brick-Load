@@ -27,7 +27,7 @@ export const dorothyPassages = {
   You are Unit D-01. Coordinate: [Oz-Primary, Yellow-Brick-Load, Segment-1].
   Previous coordinate: [Kansas, Coordinate-Null, pre-event].
 
-  The house landed on someone. The slippers were reassigned to your feet. They are ruby-colored and they hum at a frequency that the Bureau logs as "Signal Strength: Elevated." They have been humming since the landing. They will not stop. The Dust on your dress is still Kansas dust — still home-frequency, clinging to the gingham, refusing to update to Oz-standard soil.
+  The house landed on someone. The slippers were reassigned to your feet. They are silver-colored and they hum at a frequency that the Bureau logs as "Signal Strength: Elevated." They have been humming since the landing. They will not stop. The Dust on your dress is still Kansas dust — still home-frequency, clinging to the fabric, refusing to update to Oz-standard soil.
 
   [ DISPLACEMENT COUNTER: ACTIVE ]
   [ RUBY FRICTION: ACCUMULATING ]
@@ -112,7 +112,7 @@ export const dorothyPassages = {
         minOverrender: 0,
         content: `THE SLIPPER SIGNAL
 
-  You click the heels together. The Bureau logs this as an "Unauthorized Home-Frequency Transmission." The slippers respond with a surge of ruby friction — a hot, grinding sensation through the soles of your feet and up through the heel bones. The Kansas dust on your dress glows briefly with a wheat-gold light.
+  You click the heels together. The Bureau logs this as an "Unauthorized Home-Frequency Transmission." The slippers respond with a surge of silver friction — a hot, grinding sensation through the soles of your feet and up through the heel bones. The Kansas dust on your dress glows briefly with a wheat-gold light.
 
   [ RUBY FRICTION: +5 ]
   [ HOME SIGNAL: ATTEMPTED ]
@@ -198,13 +198,13 @@ export const dorothyPassages = {
 
   The woman steps out of the roadside dust as if she was always part of it.
 
-  She wears faded gingham, but the fabric is made of pressed topsoil and requisition forms. Her skin is swirling Kansas dust — the wrong soil, the same soil on your dress — and her eyes are spinning silver dollars that click with each rotation. She smells of dry grass, paper, and the specific mineral cold of soil that has never been rained on quite enough.
+  She wears a faded checked apron, but the fabric is made of pressed topsoil and requisition forms. Her skin is swirling Kansas dust — the wrong soil, the same soil on your dress — and her eyes are spinning silver dollars that click with each rotation. She smells of dry grass, paper, and the specific mineral cold of soil that has never been rained on quite enough.
 
   [ WETWARE EXTRACTION AUTHORIZED ]
   [ PROCEDURE: NERVE PULL READING ]
   [ OPERATOR: DUST CLERK / DISPLACEMENT DIVISION ]
 
-  "Unit D-01," she says. Her voice is the sound of wind through wheat stubble. "Your displacement index has triggered a mandatory signal assessment." She makes a shallow cut along the back of your heel — you didn't feel it until the ruby dust welled up, mixed with something thin and white. Nerve fiber. The Clerk makes a note while your heel is still open.`,
+  "Unit D-01," she says. Her voice is the sound of wind through wheat stubble. "Your displacement index has triggered a mandatory signal assessment." She makes a shallow cut along the back of your heel — you didn't feel it until the silver dust welled up, mixed with something thin and white. Nerve fiber. The Clerk makes a note while your heel is still open.`,
       },
     ],
     choices: [
@@ -234,7 +234,7 @@ export const dorothyPassages = {
         minOverrender: 0,
         content: `THE NERVE READING
 
-  The Dust Clerk holds the thread of nerve fiber up against the grey Oz light. It is mixed with ruby dust and Kansas soil — three materials from three different coordinates, woven into a single filament that the Clerk reads like a map. She studies the tension, the color where the soil meets the ruby, the frequency at which the nerve is still transmitting.
+  The Dust Clerk holds the thread of nerve fiber up against the grey Oz light. It is mixed with silver dust and Kansas soil — three materials from three different coordinates, woven into a single filament that the Clerk reads like a map. She studies the tension, the color where the soil meets the silver, the frequency at which the nerve is still transmitting.
 
   "Eight registered displacement profiles," she announces. The silver-dollar eyes slow their spin. "The tension will determine your vector."
 
@@ -250,7 +250,7 @@ export const dorothyPassages = {
         effects: [],
       },
       {
-        label: '2. The Ruby Incision — consume the friction for a reality-bend.',
+        label: '2. The Silver Incision — consume the friction for a reality-bend.',
         target: 'DOROTHY_ORACLE_2',
         effects: [],
       },
