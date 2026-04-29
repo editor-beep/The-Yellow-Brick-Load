@@ -83,7 +83,9 @@ export const useGameStore = create((set, get) => ({
     let initNode = `${character.toUpperCase()}_INIT`
     if (character === 'witch_west') {
       initNode = Math.random() < 0.5 ? 'WITCH_WEST_INIT' : 'WITCH_WEST_INIT_B'
+      markWitchWestInitSeen(initNode)
     }
+    incrementCharacterPlayCount(character)
     set({ character, currentNode: initNode })
   },
 
@@ -163,6 +165,24 @@ export const useGameStore = create((set, get) => ({
 // ── Residual Signal (localStorage persistence) ──────────────────────────────
 export const RESIDUAL_KEY = 'ybl_visited'
 export const VISIT_COUNT_KEY = 'ybl_visit_count'
+export const CHARACTER_PLAY_COUNTS_KEY = 'ybl_character_play_counts'
+export const WITCH_WEST_INIT_SEEN_KEY = 'ybl_witch_west_init_seen'
+
+const ALL_CHARACTERS = ['lion', 'tin_man', 'scarecrow', 'dorothy', 'witch_west', 'witch_east', 'glinda', 'wizard']
+
+function readJSON(key, fallback) {
+  try {
+    const raw = localStorage.getItem(key)
+    if (!raw) return fallback
+    return JSON.parse(raw)
+  } catch {
+    return fallback
+  }
+}
+
+function writeJSON(key, value) {
+  localStorage.setItem(key, JSON.stringify(value))
+}
 
 export function markVisit() {
   const count = parseInt(localStorage.getItem(VISIT_COUNT_KEY) || '0', 10)
@@ -176,4 +196,29 @@ export function getVisitCount() {
 
 export function hasVisited() {
   return localStorage.getItem(RESIDUAL_KEY) === 'true'
+}
+
+export function getCharacterPlayCounts() {
+  const stored = readJSON(CHARACTER_PLAY_COUNTS_KEY, {})
+  const counts = {}
+  for (const id of ALL_CHARACTERS) counts[id] = Number(stored[id] || 0)
+  return counts
+}
+
+export function incrementCharacterPlayCount(character) {
+  if (!character) return
+  const counts = getCharacterPlayCounts()
+  counts[character] = (counts[character] || 0) + 1
+  writeJSON(CHARACTER_PLAY_COUNTS_KEY, counts)
+}
+
+export function getWitchWestInitSeen() {
+  return readJSON(WITCH_WEST_INIT_SEEN_KEY, { initA: false, initB: false })
+}
+
+export function markWitchWestInitSeen(initNode) {
+  const seen = getWitchWestInitSeen()
+  if (initNode === 'WITCH_WEST_INIT') seen.initA = true
+  if (initNode === 'WITCH_WEST_INIT_B') seen.initB = true
+  writeJSON(WITCH_WEST_INIT_SEEN_KEY, seen)
 }

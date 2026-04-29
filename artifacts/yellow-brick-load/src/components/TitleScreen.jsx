@@ -1,4 +1,4 @@
-      import { useGameStore } from '../engine/store.js'
+      import { useGameStore, getCharacterPlayCounts, getWitchWestInitSeen } from '../engine/store.js'
       import { useEffect, useState } from 'react'
 
       const CHARACTERS = [
@@ -12,14 +12,38 @@
         { id: 'witch_east', label: 'Witch East',    unit: 'E-00',  description: 'Last known status: crushed.' },
       ]
 
-      // Updated to unlock Lion by default
-      const UNAVAILABLE = ['scarecrow', 'dorothy', 'wizard', 'glinda', 'witch_east']
+      const BASELINE_CHARACTERS = ['lion', 'tin_man', 'scarecrow', 'dorothy']
+      const ALL_CHARACTERS = ['lion', 'tin_man', 'scarecrow', 'dorothy', 'witch_west', 'witch_east', 'glinda', 'wizard']
+
+      function hasAllAtLeast(counts, ids, minimum) {
+        return ids.every((id) => (counts[id] || 0) >= minimum)
+      }
+
+      function getUnavailableCharacters() {
+        const counts = getCharacterPlayCounts()
+        const witchWestInitSeen = getWitchWestInitSeen()
+
+        const unlocked = {
+          lion: true,
+          tin_man: counts.lion >= 1,
+          scarecrow: counts.tin_man >= 1,
+          dorothy: counts.scarecrow >= 1,
+          witch_west: hasAllAtLeast(counts, BASELINE_CHARACTERS, 2),
+          witch_east: counts.witch_west >= 1 && witchWestInitSeen.initA && witchWestInitSeen.initB,
+          glinda: counts.witch_west >= 3 && counts.witch_east >= 3,
+          wizard: hasAllAtLeast(counts, ALL_CHARACTERS, 4),
+        }
+
+        return CHARACTERS.filter(({ id }) => !unlocked[id]).map(({ id }) => id)
+      }
 
       export default function TitleScreen({ onOpenFAQ, returning = false }) {
         const selectCharacter = useGameStore(s => s.selectCharacter)
         const [flicker, setFlicker] = useState(false)
+        const [unavailableCharacters, setUnavailableCharacters] = useState(getUnavailableCharacters)
 
         useEffect(() => {
+          setUnavailableCharacters(getUnavailableCharacters())
           const interval = setInterval(() => {
             setFlicker(true)
             setTimeout(() => setFlicker(false), 80)
@@ -75,7 +99,7 @@ Oz OS suggests starting at the beginning of the signal. </p>
 
             <div className="character-grid">
               {CHARACTERS.map(char => {
-                const unavailable = UNAVAILABLE.includes(char.id)
+                const unavailable = unavailableCharacters.includes(char.id)
                 return (
                   <button
                     key={char.id}
