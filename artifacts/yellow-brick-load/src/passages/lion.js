@@ -3885,4 +3885,43 @@ New red poppies are already beginning to sprout from the puncture wounds, their 
     ],
     onEnter: [{ type: 'addVibration', value: -8 }],
   },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // THE DESERT CROSSING
+  // ─────────────────────────────────────────────────────────────────────────
+
+  LION_DESERT_CROSSING: {
+    id: 'LION_DESERT_CROSSING',
+    character: 'lion',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE DESERT CROSSING
+
+The yellow bricks end.
+
+Before you lies the Great Desert — an endless expanse of white, abrasive sand that reflects the sun like ground bone. The heat is immediate and merciless. It bakes the remaining moisture from your meat until your skin cracks and bleeds in thin red lines.
+
+Every step drives grains of sand into the raw patches where your mane once was. The tremor has become a dry, rattling thing — a death rattle in a body that has run out of fluid to shake.
+
+There is no shade. There is no water. There is only the slow thermodynamic audit of the sun.
+
+Your paws sink deeper with every step. The sand drinks your sweat, your lymph, your last reserves of strength.
+
+You are evaporating.
+
+You are becoming part of the desert — a bleached, rattling skeleton wearing the tattered remains of a Lion's skin.
+
+The Bureau calls this "evaporative compliance."`,
+      },
+    ],
+    choices: [],
+    onEnter: [],
+    isEnding: true,
+    endingId: 'L-END-29',
+    endingName: 'The Desert Crossing',
+    institution: 'Climatological',
+    systemStatus: 'Evaporated',
+    surreality: 7
+  },
 }
