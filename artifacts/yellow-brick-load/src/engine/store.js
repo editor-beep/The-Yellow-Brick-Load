@@ -80,7 +80,11 @@ export const useGameStore = create((set, get) => ({
 
   // ── Character Selection ──────────────────────────────────────────────────
   selectCharacter: (character) => {
-    set({ character, currentNode: `${character.toUpperCase()}_INIT` })
+    let initNode = `${character.toUpperCase()}_INIT`
+    if (character === 'witch_west') {
+      initNode = Math.random() < 0.5 ? 'WITCH_WEST_INIT' : 'WITCH_WEST_INIT_B'
+    }
+    set({ character, currentNode: initNode })
   },
 
   // ── State Mutations ──────────────────────────────────────────────────────
@@ -117,6 +121,10 @@ export const useGameStore = create((set, get) => ({
    */
   softReset: () => {
     const { reset_count, character } = get()
+    let initNode = `${character.toUpperCase()}_INIT`
+    if (character === 'witch_west') {
+      initNode = Math.random() < 0.5 ? 'WITCH_WEST_INIT' : 'WITCH_WEST_INIT_B'
+    }
     set({
       load: 0,
       desync: Math.max(0, get().desync - 1),
@@ -124,7 +132,7 @@ export const useGameStore = create((set, get) => ({
       compliance: 'high',
       reset_count: reset_count + 1,
       overrender: 0,
-      currentNode: `${character.toUpperCase()}_INIT`,
+      currentNode: initNode,
     })
   },
 
