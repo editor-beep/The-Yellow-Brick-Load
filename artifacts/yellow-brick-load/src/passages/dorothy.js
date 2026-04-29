@@ -5,10 +5,10 @@
  * The Nerve Pull Oracle (Dust Surgeon Ritual)
  * Triggered when displacement >= 5
  *
- * Oracle Interloper: The Dust Clerk — a woman in faded gingham whose skin is
+ * Oracle Interloper: The Dust Clerk — a woman in faded checked apron whose skin is
  * swirling topsoil and requisition forms, eyes like spinning silver dollars.
  * Makes a shallow cut along heel or temple, pulls nerve fiber mixed with
- * ruby dust and Kansas soil, reads tension and color.
+ * silver dust and Kansas soil, reads tension and color.
  */
 
 export const dorothyPassages = {
