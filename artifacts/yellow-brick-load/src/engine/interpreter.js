@@ -121,7 +121,7 @@ export function applyEffects(effects) {
       case 'addStitchIntegrity': store.addStitchIntegrity(effect.value); break
       case 'addDisplacement':    store.addDisplacement(effect.value); break
       case 'addWarrant':         store.addWarrant(effect.value); break
-      case 'addRubyFriction':    store.addRubyFriction(effect.value); break
+      case 'addSilverFriction':  store.addSilverFriction(effect.value); break
       case 'addRefraction':      store.addRefraction(effect.value); break
       case 'addInsulation':      store.addInsulation(effect.value); break
       case 'addObfuscation':     store.addObfuscation(effect.value); break

@@ -5,7 +5,7 @@
  * The Obsidian Eye Ritual (Surveillance Vivisection)
  * Triggered when warrantLevel >= 5
  *
- * Oracle Interloper: The Obsidian Matron — tall, green-tinged, black cloak
+ * Oracle Interloper: The Obsidian Matron — tall, pallid, black cloak
  * lined with living eyeballs and iron flechettes. One eye is a large rotating
  * obsidian orb projecting restraint fields. Makes deep, deliberate cuts while
  * recording every twitch and leak.
@@ -26,11 +26,11 @@ export const witchWestPassages = {
 
   You are the Surveillance Operator. You see everything. The obsidian eye sees everything. The Bureau calls this "Judicial Oversight." The Oz OS Manual calls it "Restraint Protocol." You call it what it is: the pleasure of watching the meat perform under observation.
 
-  You are tall and green-tinged and your cloak is lined with living eyeballs that track ambient movement in every direction. Iron flechettes hang from the hem — filing implements and kinetic devices, dual-use. The obsidian orb rotates in your left socket and projects an invisible grid of restraint fields across the room. Anything in the room is already held.
+  You are tall and your cloak is lined with living eyeballs that track ambient movement in every direction. Iron flechettes hang from the hem — filing implements and kinetic devices, dual-use. The obsidian orb rotates in your left socket and projects an invisible grid of restraint fields across the room. Anything in the room is already held.
 
   [ SURVEILLANCE OPERATOR: ACTIVE ]
   [ RESTRAINT FIELD: DEPLOYED ]
-  [ MY PRETTY: IDENTIFIED ]
+  [ TARGET: IDENTIFIED ]
 
   The units on the Yellow Brick Load are walking into the grid. They don't know they're in the grid. That is the function of a restraint field. The Winged Monkeys circle overhead, awaiting assignment. The Clerk logs each unit's entry with a wet, rolling click.`,
       },
@@ -119,9 +119,9 @@ export const witchWestPassages = {
   [ PROCEDURE: MALICE RESIDUE EXTRACTION ]
   [ OPERATOR: THE OBSIDIAN MATRON ]
 
-  "My pretty," you say, as you are required to say. Your flechette-claws find the restraint points — the places where the invisible grid has already pressed into flesh. You make deep, deliberate cuts while your obsidian eye records every twitch and leak. The eye misses nothing. The Clerk misses nothing. The extraction begins.
+  You note the unit's compliance threshold with professional satisfaction. Your flechette-claws find the restraint points — the places where the invisible grid has already pressed into flesh. You make deep, deliberate cuts while your obsidian eye records every twitch and leak. The eye misses nothing. The Clerk misses nothing. The extraction begins.
 
-  The malice residue — a mix of blood, bile, and fear-sweat — wells up and is forced through the heated hourglass. The pattern of evaporation or bubbling is read as judgment. This is how justice works.`,
+  The malice residue — a mix of blood, bile, and fear-sweat — wells up and is forced through the heated crucible. The pattern of evaporation or bubbling is read as judgment. This is how justice works.`,
       },
     ],
     choices: [
@@ -150,7 +150,7 @@ export const witchWestPassages = {
         minOverrender: 0,
         content: `THE MALICE READING
 
-  The heated hourglass fills with the extracted residue. The evaporation patterns rise — specific, identifiable, legally admissible. The obsidian eye reads them against the restraint field's archived library of malice profiles. Each profile corresponds to a form of judgment.
+  The heated crucible fills with the extracted residue. The evaporation patterns rise — specific, identifiable, legally admissible. The obsidian eye reads them against the restraint field's archived library of malice profiles. Each profile corresponds to a form of judgment.
 
   "Eight registered malice profiles," you announce. The orb rotates with clinical pleasure. "The evaporation pattern will determine the verdict."
 
@@ -166,7 +166,7 @@ export const witchWestPassages = {
         effects: [],
       },
       {
-        label: '2. The Hourglass Drain — accelerate the thermodynamic decay.',
+        label: '2. The Crucible Drain — accelerate the thermodynamic decay.',
         target: 'WITCH_WEST_ORACLE_2',
         effects: [],
       },
@@ -181,7 +181,7 @@ export const witchWestPassages = {
         effects: [],
       },
       {
-        label: '5. The Green Patina Burn — thermodynamic heat surge.',
+        label: '5. The Surveillance Burn — thermodynamic heat surge.',
         target: 'WITCH_WEST_ORACLE_5',
         effects: [],
       },
@@ -252,15 +252,15 @@ export const witchWestPassages = {
     text: [
       {
         minOverrender: 0,
-        content: `THE HOURGLASS DRAIN
+        content: `THE CRUCIBLE DRAIN
 
-  The malice residue completes its pass through the heated hourglass. The warrant level spikes — the evidence is now formally timed. The pain has been temporarily buffered by the hourglass procedure, but the thermodynamic decay has accelerated. The unit is running hotter than it was before the extraction.
+  The malice residue completes its pass through the heated crucible. The warrant level spikes — the evidence is now formally timed. The pain has been temporarily buffered by the crucible procedure, but the thermodynamic decay has accelerated. The unit is running hotter than it was before the extraction.
 
   [ WARRANT: +6 ]
   [ THERMODYNAMIC DECAY: ACCELERATED ]
   [ MELTING PATH: APPROACHING ]
 
-  The obsidian eye reads the hourglass pattern against the melting-point archive: "Thermal event: imminent." The decay rate is now a legal matter. The Clerk logs the timeline. "The hourglass says three more sessions before the tin begins to soften."`,
+  The obsidian eye reads the crucible pattern against the melting-point archive: "Thermal event: imminent." The decay rate is now a legal matter. The Clerk logs the timeline. "The crucible registers three more sessions before the tin begins to soften."`,
       },
     ],
     choices: [
@@ -298,9 +298,9 @@ export const witchWestPassages = {
   [ CORROSION BLEED: ACTIVE ]
   [ ECHO: TIN MAN / RUST SIGNAL ]
 
-  {{#flags.graft_tinman_oil_in_witch_west}}The Tin Man oil previously absorbed into the malice stream hisses against the superheated hourglass — the two materials do not agree.{{/flags.graft_tinman_oil_in_witch_west}}
+  {{#flags.graft_tinman_oil_in_witch_west}}The Tin Man oil previously absorbed into the malice stream hisses against the superheated crucible — the two materials do not agree.{{/flags.graft_tinman_oil_in_witch_west}}
 
-  The slag pours from the hourglass onto the restraint field grid. The obsidian eye reads the pattern with clinical interest. "Scrap reallocation pathway recommended," the Clerk notes.`,
+  The slag pours from the crucible onto the restraint field grid. The obsidian eye reads the pattern with clinical interest. "Scrap reallocation pathway recommended," the Clerk notes.`,
       },
     ],
     choices: [
@@ -371,15 +371,15 @@ export const witchWestPassages = {
     text: [
       {
         minOverrender: 0,
-        content: `THE GREEN PATINA BURN
+        content: `THE SURVEILLANCE BURN
 
-  The obsidian eye increases its projection intensity until the restraint field itself generates heat. The green-tinged aura of the Wicked Witch — the institutional pigment, the Bureau-standard surveillance tint — burns into the exposed incision. Permanent chemical burns form in the exact shape of a cackle-pattern.
+  The obsidian eye increases its projection intensity until the restraint field itself generates heat. The dark aura of the Surveillance Operator — the institutional signature, the Bureau-standard audit mark — scorches into the exposed incision. Permanent chemical burns form in the exact shape of the restraint-field grid.
 
   [ THERMODYNAMIC SURGE: ACTIVE ]
   [ SEARING TRUTH PATHS: UNLOCKED ]
   [ CHEMICAL BURNS: PERMANENT / AESTHETIC ]
 
-  "Leaves permanent chemical burns shaped like her cackle." The cackle-burns are regulation. They are the official mark of a completed surveillance audit. Searing truth paths open — choices that are honest because the pain of the burn has made honesty the only affordable option.`,
+  "Leaves permanent chemical burns in the restraint-grid pattern." The obsidian-burns are regulation. They are the official mark of a completed surveillance audit. Searing truth paths open — choices that are honest because the pain of the burn has made honesty the only affordable option.`,
       },
     ],
     choices: [
@@ -389,7 +389,7 @@ export const witchWestPassages = {
         effects: [
           { type: 'addWarrant', value: 3 },
           { type: 'addLoad', value: 10 },
-          { type: 'setFlag', key: 'cackle_burns', value: true },
+          { type: 'setFlag', key: 'obsidian_burns', value: true },
         ],
       },
       {
@@ -398,7 +398,7 @@ export const witchWestPassages = {
         effects: [
           { type: 'addWarrant', value: 3 },
           { type: 'setCompliance', value: 'high' },
-          { type: 'setFlag', key: 'cackle_burns', value: true },
+          { type: 'setFlag', key: 'obsidian_burns', value: true },
         ],
       },
     ],
@@ -548,7 +548,7 @@ export const witchWestPassages = {
   Tone: Thermodynamic-Judicial.
   Theme: The melting was always the end of the audit.
 
-  Water. The simplest verdict. The obsidian eye was still recording when the dissolution began. Every twitch, every shriek, every drop of green-tinted fluid was logged in real time. The Clerk's final note reads: "Unit West: dissolved. Evidence archived." The cauldron is still warm.
+  Water. The simplest verdict. The obsidian eye was still recording when the dissolution began. Every twitch, every shriek, every drop of dissolved fluid was logged in real time. The Clerk's final note reads: "Unit West: dissolved. Evidence archived." The crucible is still warm.
 
   [ UNIT WITCH WEST // STATUS: LIQUEFIED ]
   [ EVIDENCE: ARCHIVED ]
@@ -626,7 +626,7 @@ export const witchWestPassages = {
   [ COMMAND CHANNEL: OPEN ]
   [ UNITS MONITORED: ALL ]
 
-  The flying monkeys circle in holding pattern, awaiting command. The Clerk logs all transmissions. The Yellow Brick Load is running at optimal compliance.
+  The Winged Monkeys circle in holding pattern, awaiting command. The Clerk logs all transmissions. The Yellow Brick Load is running at optimal compliance.
 
   Final Log: The surveillance is the command. The command is the law.
 
@@ -662,7 +662,7 @@ export const witchWestPassages = {
   [ ORIGINAL GENETIC PROFILE: ARCHIVED ]
   [ CURRENT PROFILE: COMPOSITE ]
 
-  The obsidian eye records the transition. The new unit does not cackle — it gurgles, which the Bureau logs as "improved vocal efficiency." The flechettes are still present. They are now structural.
+  The obsidian eye records the transition. The new unit does not shriek — it gurgles, which the Bureau logs as "improved vocal efficiency." The flechettes are still present. They are now structural.
 
   Final Log: The malice is the material. The material is the unit. The unit serves.
 

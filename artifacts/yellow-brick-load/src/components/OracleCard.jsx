@@ -30,7 +30,7 @@ export default function OracleCard() {
       case 'addStitchIntegrity':return `STITCH INTEGRITY +${fx.value}`
       case 'addDisplacement':   return `DISPLACEMENT +${fx.value}`
       case 'addWarrant':        return `WARRANT LEVEL +${fx.value}`
-      case 'addRubyFriction':   return `RUBY FRICTION +${fx.value}`
+      case 'addSilverFriction':  return `SILVER FRICTION +${fx.value}`
       case 'addRefraction':     return `REFRACTION +${fx.value}`
       case 'addInsulation':     return `INSULATION +${fx.value}`
       case 'addObfuscation':    return `OBFUSCATION +${fx.value}`
