@@ -274,9 +274,9 @@ Up close, he is even more beautiful than you imagined.
 
 The raw patches on his neck glisten with lymph and blood. His golden fur is matted and torn. The famous roar has been reduced to a ragged, wet gasping. His eyes — still defiant — flicker with animal panic as he looks up at you.
 
-You crouch gracefully, green fingers tilting his chin upward with surprising gentleness.
+You crouch gracefully, tilting his chin upward with surprising gentleness.
 
-"Oh, my pretty," you whisper, voice soft as velvet over broken glass. "Look at all that lovely fear. So much wasted vibration. So much untapped potential."
+"Oh, look at you," you whisper, voice soft as velvet over broken glass. "Look at all that lovely fear. So much wasted vibration. So much untapped potential."
 
 Your obsidian eye detaches from the tower and floats down, hovering just above his face. It dilates hungrily, drinking in every twitch of his failing meat.
 
@@ -295,8 +295,8 @@ This is going to be exquisite.`,
     ],
     choices: [
       {
-        label: 'Begin the Obsidian Eye ritual immediately. Open him here in the field.',
-        target: 'WITCH_WEST_ORACLE_ENTRY',
+        label: 'Pick who gets the first incision, then begin the Obsidian Eye ritual.',
+        target: 'WITCH_WEST_SELECT_TARGET',
         effects: [
           { type: 'addWarrant', value: 8 },
           { type: 'addLoad', value: 8 },
@@ -319,6 +319,41 @@ This is going to be exquisite.`,
       },
     ],
     onEnter: [{ type: 'addWarrant', value: 4 }, { type: 'triggerOracle' }],
+  },
+
+  WITCH_WEST_SELECT_TARGET: {
+    id: 'WITCH_WEST_SELECT_TARGET',
+    character: 'witch_west',
+    text: [{ minOverrender: 0, content: `THE FIRST INCISION
+
+The restraint grid blooms across the road and catches four viable subjects.
+
+You drag one claw through the air and their names appear as glowing enforcement tags. This session will be personal.
+
+Select the body that takes the blade first.` }],
+    choices: [
+      {
+        label: 'Lion',
+        target: 'WITCH_WEST_ORACLE_ENTRY_LION',
+        effects: [{ type: 'setFlag', key: 'witch_west_target_name', value: 'Lion' }],
+      },
+      {
+        label: 'Dorothy',
+        target: 'WITCH_WEST_ORACLE_ENTRY_DOROTHY',
+        effects: [{ type: 'setFlag', key: 'witch_west_target_name', value: 'Dorothy' }],
+      },
+      {
+        label: 'Tin Man',
+        target: 'WITCH_WEST_ORACLE_ENTRY_TINMAN',
+        effects: [{ type: 'setFlag', key: 'witch_west_target_name', value: 'Tin Man' }],
+      },
+      {
+        label: 'Scarecrow',
+        target: 'WITCH_WEST_ORACLE_ENTRY_SCARECROW',
+        effects: [{ type: 'setFlag', key: 'witch_west_target_name', value: 'Scarecrow' }],
+      },
+    ],
+    onEnter: [],
   },
 
   // ─────────────────────────────────────────────────────────────────────────
@@ -490,7 +525,7 @@ You are merely here to confirm the verdict.`,
 
 The ritual chamber at the top of the western tower has been waiting.
 
-The restraint table is built from compressed fear and iron flechette-rails. The heated hourglass hangs over the drain aperture, its glass walls etched with the Bureau's eight malice profiles in fine, surgical script. The restraint field generator hums in the walls, its invisible lattice already calibrated to the subject's mass and resistance threshold.
+The restraint table is built from compressed fear and iron flechette-rails. The calibrated crucible hangs over the drain aperture, its glass walls etched with the Bureau's eight malice profiles in fine, surgical script. The restraint field generator hums in the walls, its invisible lattice already calibrated to the subject's mass and resistance threshold.
 
 The Winged Monkeys deposit the Lion onto the table with practiced efficiency. The barbed harnesses lock into the rail system automatically. The subject is positioned, exposed, and contained.
 
@@ -578,6 +613,70 @@ The Clerk notes the time with quiet satisfaction.`,
   // OBSIDIAN EYE ORACLE — THE OBSIDIAN MATRON
   // ─────────────────────────────────────────────────────────────────────────
 
+  WITCH_WEST_ORACLE_ENTRY_LION: {
+    id: 'WITCH_WEST_ORACLE_ENTRY_LION',
+    character: 'witch_west',
+    text: [{ minOverrender: 0, content: `THE MONITORED INCISION BEGINS — LION
+
+The Lion is forced onto his side and strapped against yellow brick. Every breath rattles through his chest like a cracked drum.
+
+Your claws part fur and skin along the sternum. The restraint mesh keeps the wound open while the obsidian eye records each tremor.
+
+You whisper into his ear as the first line of blood runs warm: "Courage looks different under glass."
+
+The session is live. Every decision from here is evidence.` }],
+    choices: [{ label: 'Commence the full extraction — read the malice residue.', target: 'WITCH_WEST_ORACLE_DRAW', effects: [{ type: 'addWarrant', value: 3 }, { type: 'addLoad', value: 5 }] }],
+    onEnter: [],
+  },
+
+  WITCH_WEST_ORACLE_ENTRY_DOROTHY: {
+    id: 'WITCH_WEST_ORACLE_ENTRY_DOROTHY',
+    character: 'witch_west',
+    text: [{ minOverrender: 0, content: `THE MONITORED INCISION BEGINS — DOROTHY
+
+Dorothy fights the restraints until her wrists bleed. The grid recalibrates and tightens.
+
+You split the fabric at her midline and score a measured seam beneath it, opening just enough for the eye to map pulse, fear, and displacement drift.
+
+"Still trying to go home?" you ask softly. "Let's inventory what home cost you."
+
+The session is live. Every decision from here is evidence.` }],
+    choices: [{ label: 'Commence the full extraction — read the malice residue.', target: 'WITCH_WEST_ORACLE_DRAW', effects: [{ type: 'addWarrant', value: 3 }, { type: 'addLoad', value: 5 }] }],
+    onEnter: [],
+  },
+
+  WITCH_WEST_ORACLE_ENTRY_TINMAN: {
+    id: 'WITCH_WEST_ORACLE_ENTRY_TINMAN',
+    character: 'witch_west',
+    text: [{ minOverrender: 0, content: `THE MONITORED INCISION BEGINS — TIN MAN
+
+The Tin Man's plating is locked in place by magnetic clamps. Rust flakes drift down like metallic snow.
+
+You notch open a seam at the torso joint, then pry until oil beads up through the gap. The restraint mesh anchors each plate at the exact angle needed for observation.
+
+"Listen to that," you murmur as metal groans. "A perfect little confession."
+
+The session is live. Every decision from here is evidence.` }],
+    choices: [{ label: 'Commence the full extraction — read the malice residue.', target: 'WITCH_WEST_ORACLE_DRAW', effects: [{ type: 'addWarrant', value: 3 }, { type: 'addLoad', value: 5 }] }],
+    onEnter: [],
+  },
+
+  WITCH_WEST_ORACLE_ENTRY_SCARECROW: {
+    id: 'WITCH_WEST_ORACLE_ENTRY_SCARECROW',
+    character: 'witch_west',
+    text: [{ minOverrender: 0, content: `THE MONITORED INCISION BEGINS — SCARECROW
+
+The Scarecrow twists in the field, straw spilling from old stitchwork as the mesh pins each limb.
+
+You cut along the torso seam, peel back burlap, and expose the layered stuffing where signal echoes hide.
+
+"Let's see what passes for thought in here," you say, almost kindly.
+
+The session is live. Every decision from here is evidence.` }],
+    choices: [{ label: 'Commence the full extraction — read the malice residue.', target: 'WITCH_WEST_ORACLE_DRAW', effects: [{ type: 'addWarrant', value: 3 }, { type: 'addLoad', value: 5 }] }],
+    onEnter: [],
+  },
+
   WITCH_WEST_ORACLE_ENTRY: {
     id: 'WITCH_WEST_ORACLE_ENTRY',
     character: 'witch_west',
@@ -590,11 +689,11 @@ The restraint field tightens around the target like a living corset made of invi
 
 You step forward, green fingers flexing. The obsidian orb in your left socket rotates with a wet click, projecting the restraint grid deeper into the target's flesh. The grid bites — pressing, measuring, mapping every tremor and leak.
 
-"My pretty," you croon, voice soft as wet silk over broken glass.
+"Look at you," you croon, voice soft as wet silk over broken glass.
 
 Your flechette-claws find the perfect entry points where the invisible grid has already pressed into meat. You make deep, deliberate cuts while the obsidian eye records every twitch, every spurt of lymph, every involuntary convulsion.
 
-The malice residue — a thick mix of blood, bile, fear-sweat, and raw signal — wells up hot and immediate. You force it through the heated hourglass mounted on your gauntlet. The fluid hisses and bubbles as it passes through, leaving behind patterns that only the eye can read as judgment.
+The malice residue — a thick mix of blood, bile, fear-sweat, and raw signal — wells up hot and immediate. You force it through the calibrated crucible mounted on your gauntlet. The fluid hisses and bubbles as it passes through, leaving behind patterns that only the eye can read as judgment.
 
 The target's body jerks against the restraint field. The eye dilates with clinical hunger.
 
@@ -629,7 +728,7 @@ This is how mercy is measured — one incision at a time.`,
         minOverrender: 0,
         content: `THE MALICE READING
 
-The heated hourglass fills with the extracted residue. The fluid hisses and bubbles as it evaporates, leaving behind delicate, writhing patterns of malice made visible.
+The calibrated crucible fills with the extracted residue. The fluid hisses and bubbles as it evaporates, leaving behind delicate, writhing patterns of malice made visible.
 
 The obsidian eye rotates slowly, drinking in every shift of color, every clot, every wet smear.
 
@@ -639,7 +738,7 @@ The target's body is still open. The restraint field holds the wound wide like a
 
 The eye dilates.
 
-"Choose, my pretty… or I will choose for you."`,
+"Choose… or I will choose for you."`,
       },
     ],
     choices: [
@@ -735,13 +834,13 @@ The Clerk makes a satisfied note as blood and lymph run down the iron shafts.
         minOverrender: 0,
         content: `THE HOURGLASS DRAIN
 
-The malice residue completes its pass through the heated hourglass.
+The malice residue completes its pass through the calibrated crucible.
 
 The fluid hisses and bubbles violently as it evaporates, leaving behind delicate, writhing patterns of concentrated pain. The warrant level spikes — the evidence is now formally timed and legally binding.
 
 The target's body grows hotter. You can see the heat haze rising from the open incisions. The thermodynamic decay has accelerated. The pain has been temporarily buffered, but the meat is now running on borrowed time.
 
-"The hourglass never lies," you whisper, watching the last drops fall. "It only accelerates the inevitable."`,
+"The crucible never lies," you whisper, watching the last drops fall. "It only accelerates the inevitable."`,
       },
     ],
     choices: [
@@ -771,9 +870,9 @@ The obsidian eye increases intensity until the restraint field itself begins to 
 
 The malice residue boils violently inside the hourglass. A Tin Man echo — rust and oil stolen from previous contact — merges with the boiling fluid, creating a thick, black, viscous slag that smells of scorched meat and melting metal.
 
-The slag pours from the hourglass onto the restraint grid, hissing as it touches exposed flesh. The target's body convulses as the corrosive mixture eats into the wounds.
+The slag pours from the crucible onto the restraint grid, hissing as it touches exposed flesh. The target's body convulses as the corrosive mixture eats into the wounds.
 
-{{#flags.graft_tinman_oil_in_witch_west}}The Tin Man oil previously absorbed into the malice stream hisses against the superheated hourglass — the two materials do not agree. The reaction is spectacular.{{/flags.graft_tinman_oil_in_witch_west}}
+{{#flags.graft_tinman_oil_in_witch_west}}The Tin Man oil previously absorbed into the malice stream hisses against the supercalibrated crucible — the two materials do not agree. The reaction is spectacular.{{/flags.graft_tinman_oil_in_witch_west}}
 
 "Scrap reallocation pathway recommended," the Clerk notes with clinical satisfaction.
 
