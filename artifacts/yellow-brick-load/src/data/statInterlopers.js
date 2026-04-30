@@ -28,7 +28,7 @@ import { witchEastInterloper } from '../passages/witch_east_interloper.js'
 
 export const statInterlopers = {
   lion:       lionInterloper,
-  tinman:     tinManInterloper,
+  tin_man:    tinManInterloper,
   scarecrow:  scarecrowInterloper,
   dorothy:    dorothyInterloper,
   glinda:     glindaInterloper,

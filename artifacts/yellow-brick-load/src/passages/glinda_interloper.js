@@ -15,7 +15,7 @@
 export const glindaInterloper = {
   name: 'The Silence',
   cardText:
-    "A room with no sound and no light and no one in it — except that something has been in it for a long time and recently left. The grace protocol does not cover this room. The subdermal tubing does not route through it. The pink filament has never touched it. It is the original interior, before the Bureau calibrated the surface. It is still there. It has always been there. The refraction has been bending light away from it.",
+    "A room that is cold in a way the pink filament cannot account for — not temperature, not absence of heat, but the specific cold of a surface that has never been touched. The smell is wrong: not synthetic lilac, not the Bureau's standard neutralizing compound, but something older and prior and faintly mineral, the smell of whatever was here before the grace protocol laid its first layer down. The lenses try to bend light around it. The light bends. The room remains. The cold remains. The lenses have been bending light around it for a long time and it has not helped.",
   ritualText:
     "The silence becomes readable. The Porcelain Auditor pauses mid-procedure — its silver refracting lenses tilting toward the interior rather than the surface. The grace lines that usually direct the incision have gone quiet. What the lenses find behind the porcelain is not fluid, not tubing, not the synthetic lilac compound — it is a frequency the Bureau has no classification for. The refraction counter spikes. The auditor makes a note. The note cannot be filed because the category does not exist.",
   effect: { type: 'addRefraction', value: 4 },
