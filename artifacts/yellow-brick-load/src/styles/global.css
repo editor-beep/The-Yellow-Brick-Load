@@ -911,10 +911,11 @@ body::before {
     max-height: 100dvh;
     position: relative;
   }
-  /* Subtle bottom-fade affordance so any leftover overflow on very
-   * short viewports reads as scrollable rather than truncated. The
-   * pseudo-element sticks to the bottom of the scroll viewport. */
-  .oracle-card::after {
+  /* Subtle bottom-fade affordance — only painted when the card
+   * actually overflows its scroll container (the .is-overflowing
+   * class is toggled by OracleCard.jsx via ResizeObserver). Cards
+   * whose content fits get no phantom shadow. */
+  .oracle-card.is-overflowing::after {
     content: '';
     position: sticky;
     display: block;

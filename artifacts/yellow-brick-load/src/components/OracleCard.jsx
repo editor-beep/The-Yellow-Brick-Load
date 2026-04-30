@@ -30,7 +30,9 @@ export default function OracleCard() {
   const [phase, setPhase] = useState(reduceMotion ? 'revealed' : 'shuffle')
   const variance = useMemo(makeVariance, [oracleCard?.id])
   const dismissRef = useRef(null)
+  const cardRef = useRef(null)
   const [artFailed, setArtFailed] = useState(false)
+  const [isOverflowing, setIsOverflowing] = useState(false)
 
   // Reset the runtime-load failure flag whenever a new card is drawn,
   // so a previous draw's broken asset doesn't poison the next ritual.
@@ -70,6 +72,42 @@ export default function OracleCard() {
     return () => window.cancelAnimationFrame(id)
   }, [phase, oracleCard?.id])
 
+  // Detect whether the card content actually overflows its scroll
+  // container. The mobile bottom-fade affordance is only painted when
+  // it does — content that fits should not get a phantom shadow.
+  // We measure once per reveal and again on viewport resize / font load.
+  useEffect(() => {
+    if (phase !== 'revealed') {
+      setIsOverflowing(false)
+      return undefined
+    }
+    const node = cardRef.current
+    if (!node) return undefined
+
+    const measure = () => {
+      // 1px tolerance: scrollHeight is occasionally fractional in
+      // Safari and we don't want to flicker the fade for sub-pixel
+      // overflow.
+      setIsOverflowing(node.scrollHeight - node.clientHeight > 1)
+    }
+
+    // Defer to after layout so revealed children have measured.
+    const rafId = window.requestAnimationFrame(measure)
+
+    let resizeObs = null
+    if (typeof ResizeObserver !== 'undefined') {
+      resizeObs = new ResizeObserver(measure)
+      resizeObs.observe(node)
+    } else {
+      window.addEventListener('resize', measure)
+    }
+    return () => {
+      window.cancelAnimationFrame(rafId)
+      if (resizeObs) resizeObs.disconnect()
+      else window.removeEventListener('resize', measure)
+    }
+  }, [phase, oracleCard?.id])
+
   if (!oracleCard) return null
 
   const { name, cardText, ritualText, effect, surreality, id } = oracleCard
@@ -87,7 +125,10 @@ export default function OracleCard() {
       aria-label={`Oracle card: ${name}`}
       data-phase={phase}
     >
-      <div className="oracle-card">
+      <div
+        className={`oracle-card${isOverflowing ? ' is-overflowing' : ''}`}
+        ref={cardRef}
+      >
         <div className="oracle-card-header">
           <span className="oracle-deck-label">
             [ ORACLE RITUAL — {character?.toUpperCase() ?? 'UNKNOWN'} ]
