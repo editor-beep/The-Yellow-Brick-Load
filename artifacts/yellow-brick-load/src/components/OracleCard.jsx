@@ -30,6 +30,13 @@ export default function OracleCard() {
   const [phase, setPhase] = useState(reduceMotion ? 'revealed' : 'shuffle')
   const variance = useMemo(makeVariance, [oracleCard?.id])
   const dismissRef = useRef(null)
+  const [artFailed, setArtFailed] = useState(false)
+
+  // Reset the runtime-load failure flag whenever a new card is drawn,
+  // so a previous draw's broken asset doesn't poison the next ritual.
+  useEffect(() => {
+    setArtFailed(false)
+  }, [oracleCard?.id])
 
   // Drive the reveal sequence whenever a new card arrives.
   useEffect(() => {
@@ -66,7 +73,8 @@ export default function OracleCard() {
   if (!oracleCard) return null
 
   const { name, cardText, ritualText, effect, surreality, id } = oracleCard
-  const artUrl = cardSvgs[id]
+  const rawArtUrl = cardSvgs[id]
+  const artUrl = artFailed ? null : rawArtUrl
   const interloper = interloperFor(id) || { name: 'Bureau', stamp: 'OZ-RGSTR' }
   const effectLabel = describeEffect(effect)
   const isRevealed = phase === 'revealed'
@@ -118,6 +126,7 @@ export default function OracleCard() {
                   src={artUrl}
                   alt=""
                   aria-hidden="true"
+                  onError={() => setArtFailed(true)}
                 />
               ) : (
                 <PlaceholderCard interloperName={interloper.name} />
