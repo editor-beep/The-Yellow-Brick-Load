@@ -740,6 +740,14 @@ The columns dissolve. The columns dissolve. The Kalidah loses its outline loses 
           { type: "addSmudge", value: 1 },
         ],
       },
+      {
+        label: "Let the overloaded system finally unravel.",
+        target: "LION_SYSTEM_ENTROPY",
+        effects: [
+          { type: "addVibration", value: 15 },
+          { type: "addOverrender", value: 1 },
+        ],
+      },
     ],
     onEnter: [{ type: "addOverrender", value: 1 }],
   },,
@@ -1130,7 +1138,7 @@ The bird tilts its head. A small needle extends from its beak and hovers near th
     choices: [
       {
         label: 'Submit to recalibration.',
-        target: 'LION_END_25',
+        target: 'LION_HARMONIC_ALIGNMENT',
         effects: [
           { type: 'addVibration', value: -8 },
           { type: 'setCompliance', value: 'high' },
@@ -1742,6 +1750,11 @@ This is the place where kings are rewritten.`,
         label: 'Roar your true state. Demand to be seen as you are.',
         target: 'L_END_02',
         effects: [{ type: 'addVibration', value: 10 }, { type: 'addDesynctear', value: 5 }]
+      },
+      {
+        label: 'Enter and request an audience with the Wizard.',
+        target: 'LION_WIZARD_MISSION',
+        effects: [{ type: 'addVibration', value: 5 }]
       }
     ],
     onEnter: [{ type: 'addVibration', value: 5 }],
@@ -1859,6 +1872,16 @@ You feel the lie in every vibrating fiber of your failing body.`,
         label: 'Refuse. Demand courage here and now.',
         target: 'LION_AUDIENCE_CHAMBER',
         effects: [{ type: 'addVibration', value: 12 }, { type: 'addDesynctear', value: 6 }]
+      },
+      {
+        label: 'Take the southern road. Fight through the Hammer-Heads to reach Quadling Country.',
+        target: 'LION_QUADLING_SECTOR',
+        effects: [{ type: 'addVibration', value: 8 }, { type: 'addLoad', value: 5 }]
+      },
+      {
+        label: 'Abandon the Wizard\'s game and seek Glinda\'s record in the south.',
+        target: 'LION_GLINDA_RECORD',
+        effects: [{ type: 'addDesynctear', value: 5 }]
       }
     ],
     onEnter: [{ type: 'addVibration', value: 6 }],
@@ -2036,6 +2059,11 @@ A Bureau Technician waits by the forks, its face a blank sheet of carbon paper. 
         label: 'RE-ENTER THE LOAD: Continue toward the City.',
         target: 'LION_GATES_OF_OZ',
         effects: [],
+      },
+      {
+        label: 'POPPY BUFFER: Take the detour through the red fields.',
+        target: 'LION_POPPY_BUFFER',
+        effects: [{ type: 'addVibration', value: -4 }],
       },
     ],
     onEnter: [{ type: 'addOverrender', value: 1 }],

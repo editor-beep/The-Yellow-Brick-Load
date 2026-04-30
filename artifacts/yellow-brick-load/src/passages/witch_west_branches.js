@@ -225,6 +225,14 @@ Toward the table where meat learns its place.`,
           { type: 'addDesynctear', value: 6 },
         ],
       },
+      {
+        label: 'Observe the aerial deployment from altitude — let the sweep run its course.',
+        target: 'WITCH_WEST_PATH_MONKEYS',
+        effects: [
+          { type: 'addWarrant', value: 4 },
+          { type: 'addMalice', value: 6 },
+        ],
+      },
     ],
     onEnter: [{ type: 'addWarrant', value: 3 }, { type: 'triggerOracle' }],
   },,
@@ -290,6 +298,13 @@ This is going to be exquisite.`,
         effects: [
           { type: 'addWarrant', value: 6 },
           { type: 'addDesynctear', value: 5 },
+        ],
+      },
+      {
+        label: 'The Clerk flags the warrant status — review the audit logs.',
+        target: 'WITCH_WEST_BUREAU_LOG_CHECK',
+        effects: [
+          { type: 'addWarrant', value: 2 },
         ],
       },
     ],
@@ -424,6 +439,14 @@ The eye records everything. So do you.`,
           { type: 'addLoad', value: 5 },
         ],
       },
+      {
+        label: "The eye's feed begins bleeding into your own vision — something shifts.",
+        target: 'WITCH_WEST_SIGNAL_BLEED',
+        effects: [
+          { type: 'addDesync', value: 5 },
+          { type: 'addLoad', value: 6 },
+        ],
+      },
     ],
     onEnter: [{ type: 'addWarrant', value: 3 }],
   },,
@@ -470,6 +493,14 @@ You are merely here to confirm the verdict.`,
           { type: 'addDesynctear', value: 3 },
         ],
       },
+      {
+        label: 'Monitor the kinetic audit in granular detail.',
+        target: 'WITCH_WEST_MID_AIR_HARVEST_DETAIL',
+        effects: [
+          { type: 'addWarrant', value: 6 },
+          { type: 'addLoad', value: 4 },
+        ],
+      },
     ],
     onEnter: [{ type: 'addWarrant', value: 4 }, { type: 'addDesynctear', value: 3 }],
   },,
@@ -506,6 +537,20 @@ The room smells of iron and anticipation.
         effects: [
           { type: 'addWarrant', value: 6 },
           { type: 'addLoad', value: 5 },
+        ],
+      },
+      {
+        label: 'The Clerk signals a compliance concern — attend to the warning.',
+        target: 'WITCH_WEST_CLERK_INTERLUDE',
+        effects: [
+          { type: 'addWarrant', value: 3 },
+        ],
+      },
+      {
+        label: 'Walk the perimeter — let the Winkie chant stabilize the ritual chamber.',
+        target: 'WITCH_WEST_WINKIE_CORRIDOR',
+        effects: [
+          { type: 'addLoad', value: 3 },
         ],
       },
     ],
@@ -560,9 +605,17 @@ The Clerk notes the time with quiet satisfaction.`,
           { type: 'setCompliance', value: 'broken' },
         ],
       },
+      {
+        label: 'Press the calibrated silence further — deliver the full audit.',
+        target: 'WITCH_WEST_TORMENT_DETAIL',
+        effects: [
+          { type: 'addWarrant', value: 7 },
+          { type: 'addMalice', value: 5 },
+        ],
+      },
     ],
     onEnter: [{ type: 'addWarrant', value: 5 }, { type: 'addDesynctear', value: 4 }],
-  },,
+  },
 
   WITCH_WEST_TORMENT_DETAIL: {
     id: 'WITCH_WEST_TORMENT_DETAIL',
