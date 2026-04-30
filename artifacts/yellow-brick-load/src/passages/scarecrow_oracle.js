@@ -43,7 +43,7 @@ export const scarecrowOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   SCARECROW_ORACLE_DRAW: {
     id: 'SCARECROW_ORACLE_DRAW',
@@ -105,7 +105,7 @@ export const scarecrowOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   SCARECROW_ORACLE_1: {
     id: 'SCARECROW_ORACLE_1',
@@ -146,7 +146,7 @@ export const scarecrowOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   SCARECROW_ORACLE_2: {
     id: 'SCARECROW_ORACLE_2',
@@ -186,7 +186,7 @@ export const scarecrowOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   SCARECROW_ORACLE_3: {
     id: 'SCARECROW_ORACLE_3',
@@ -230,7 +230,7 @@ export const scarecrowOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   SCARECROW_ORACLE_4: {
     id: 'SCARECROW_ORACLE_4',
@@ -270,7 +270,7 @@ export const scarecrowOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   SCARECROW_ORACLE_5: {
     id: 'SCARECROW_ORACLE_5',
@@ -310,7 +310,7 @@ export const scarecrowOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   SCARECROW_ORACLE_6: {
     id: 'SCARECROW_ORACLE_6',
@@ -352,7 +352,7 @@ export const scarecrowOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   SCARECROW_ORACLE_7: {
     id: 'SCARECROW_ORACLE_7',
@@ -393,7 +393,7 @@ export const scarecrowOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   SCARECROW_ORACLE_8: {
     id: 'SCARECROW_ORACLE_8',
@@ -433,5 +433,5 @@ export const scarecrowOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 }

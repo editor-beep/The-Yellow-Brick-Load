@@ -47,7 +47,7 @@ export const wizardBranchPassages = {
       },
     ],
     onEnter: [{ type: 'checkGhostSignal' }, { type: 'triggerOracle' }],
-  },,
+  },
 
   WIZARD_PATH_PROJECTION: {
     id: 'WIZARD_PATH_PROJECTION',
@@ -87,5 +87,5 @@ export const wizardBranchPassages = {
       },
     ],
     onEnter: [{ type: 'triggerOracle' }],
-  },,
+  },
 }

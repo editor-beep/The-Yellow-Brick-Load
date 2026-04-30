@@ -43,7 +43,7 @@ export const scarecrowBranchPassages = {
       },
     ],
     onEnter: [{ type: 'checkGhostSignal' }, { type: 'triggerOracle' }],
-  },,
+  },
 
   SCARECROW_PATH_MIND: {
     id: 'SCARECROW_PATH_MIND',
@@ -79,7 +79,7 @@ export const scarecrowBranchPassages = {
       },
     ],
     onEnter: [{ type: 'triggerOracle' }],
-  },,
+  },
 
   SCARECROW_PATH_COMPLIANCE: {
     id: 'SCARECROW_PATH_COMPLIANCE',
@@ -111,7 +111,7 @@ export const scarecrowBranchPassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   SCARECROW_DIPLOMA_HUB: {
     id: 'SCARECROW_DIPLOMA_HUB',
@@ -151,5 +151,5 @@ export const scarecrowBranchPassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 }

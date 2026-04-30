@@ -40,7 +40,7 @@ export const scarecrowEndingPassages = {
     ],
     choices: [],
     onEnter: [],
-  },,
+  },
 
   SCARECROW_END_SCATTER: {
     id: 'SCARECROW_END_SCATTER',
@@ -75,7 +75,7 @@ export const scarecrowEndingPassages = {
     ],
     choices: [],
     onEnter: [],
-  },,
+  },
 
   SCARECROW_END_HOLLOW: {
     id: 'SCARECROW_END_HOLLOW',
@@ -111,5 +111,5 @@ export const scarecrowEndingPassages = {
     ],
     choices: [],
     onEnter: [],
-  },,
+  },
 }

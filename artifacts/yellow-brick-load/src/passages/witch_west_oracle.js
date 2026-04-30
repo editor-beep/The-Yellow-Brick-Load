@@ -21,7 +21,7 @@ You whisper into his ear as the first line of blood runs warm: "Courage looks di
 The session is live. Every decision from here is evidence.` }],
     choices: [{ label: 'Commence the full extraction — read the malice residue.', target: 'WITCH_WEST_ORACLE_DRAW', effects: [{ type: 'addWarrant', value: 3 }, { type: 'addLoad', value: 5 }] }],
     onEnter: [],
-  },,
+  },
 
   WITCH_WEST_ORACLE_ENTRY_DOROTHY: {
     id: 'WITCH_WEST_ORACLE_ENTRY_DOROTHY',
@@ -37,7 +37,7 @@ You split the fabric at her midline and score a measured seam beneath it, openin
 The session is live. Every decision from here is evidence.` }],
     choices: [{ label: 'Commence the full extraction — read the malice residue.', target: 'WITCH_WEST_ORACLE_DRAW', effects: [{ type: 'addWarrant', value: 3 }, { type: 'addLoad', value: 5 }] }],
     onEnter: [],
-  },,
+  },
 
   WITCH_WEST_ORACLE_ENTRY_TINMAN: {
     id: 'WITCH_WEST_ORACLE_ENTRY_TINMAN',
@@ -53,7 +53,7 @@ You notch open a seam at the torso joint, then pry until oil beads up through th
 The session is live. Every decision from here is evidence.` }],
     choices: [{ label: 'Commence the full extraction — read the malice residue.', target: 'WITCH_WEST_ORACLE_DRAW', effects: [{ type: 'addWarrant', value: 3 }, { type: 'addLoad', value: 5 }] }],
     onEnter: [],
-  },,
+  },
 
   WITCH_WEST_ORACLE_ENTRY_SCARECROW: {
     id: 'WITCH_WEST_ORACLE_ENTRY_SCARECROW',
@@ -69,7 +69,7 @@ You cut along the torso seam, peel back burlap, and expose the layered stuffing 
 The session is live. Every decision from here is evidence.` }],
     choices: [{ label: 'Commence the full extraction — read the malice residue.', target: 'WITCH_WEST_ORACLE_DRAW', effects: [{ type: 'addWarrant', value: 3 }, { type: 'addLoad', value: 5 }] }],
     onEnter: [],
-  },,
+  },
 
   WITCH_WEST_ORACLE_ENTRY: {
     id: 'WITCH_WEST_ORACLE_ENTRY',
@@ -112,7 +112,7 @@ This is how mercy is measured — one incision at a time.`,
       },
     ],
     onEnter: [{ type: 'addMalice', value: 4 }],
-  },,
+  },
 
   WITCH_WEST_ORACLE_DRAW: {
     id: 'WITCH_WEST_ORACLE_DRAW',
@@ -178,7 +178,7 @@ The eye dilates.
       },
     ],
     onEnter: [{ type: 'addMalice', value: 6 }, { type: 'addWarrant', value: 4 }],
-  },,
+  },
 
   WITCH_WEST_ORACLE_1: {
     id: 'WITCH_WEST_ORACLE_1',
@@ -216,7 +216,7 @@ The Clerk makes a satisfied note as blood and lymph run down the iron shafts.
       },
     ],
     onEnter: [{ type: 'addMalice', value: 5 }],
-  },,
+  },
 
   WITCH_WEST_ORACLE_2: {
     id: 'WITCH_WEST_ORACLE_2',
@@ -248,7 +248,7 @@ The target's body grows hotter. You can see the heat haze rising from the open i
       },
     ],
     onEnter: [{ type: 'addMalice', value: 6 }],
-  },,
+  },
 
   WITCH_WEST_ORACLE_3: {
     id: 'WITCH_WEST_ORACLE_3',
@@ -289,7 +289,7 @@ The obsidian eye dilates, drinking in the beautiful chemical reaction.`,
       },
     ],
     onEnter: [{ type: 'addMalice', value: 7 }, { type: 'addDesynctear', value: 3 }],
-  },,
+  },
 
   WITCH_WEST_ORACLE_4: {
     id: 'WITCH_WEST_ORACLE_4',
@@ -329,7 +329,7 @@ The monkey drone tastes the exposed tissue with small hooks at the end of its wi
       },
     ],
     onEnter: [{ type: 'addMalice', value: 6 }],
-  },,
+  },
 
   WITCH_WEST_ORACLE_5: {
     id: 'WITCH_WEST_ORACLE_5',
@@ -369,7 +369,7 @@ The pain is exquisite. The burns are regulation.
       },
     ],
     onEnter: [{ type: 'addMalice', value: 7 }],
-  },,
+  },
 
   WITCH_WEST_ORACLE_6: {
     id: 'WITCH_WEST_ORACLE_6',
@@ -406,7 +406,7 @@ The obsidian eye approves. "Optimal restraint geometry achieved," the Clerk note
       },
     ],
     onEnter: [{ type: 'addMalice', value: 8 }],
-  },,
+  },
 
   WITCH_WEST_ORACLE_7: {
     id: 'WITCH_WEST_ORACLE_7',
@@ -449,7 +449,7 @@ The obsidian eye will always know exactly where they are.`,
       },
     ],
     onEnter: [{ type: 'addMalice', value: 8 }],
-  },,
+  },
 
   WITCH_WEST_ORACLE_8: {
     id: 'WITCH_WEST_ORACLE_8',
@@ -492,5 +492,5 @@ The dissolution is thorough, meticulous, and deeply authorized.`,
       },
     ],
     onEnter: [{ type: 'addMalice', value: 10 }],
-  },,
+  },
 }

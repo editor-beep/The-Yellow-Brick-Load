@@ -43,7 +43,7 @@ export const dorothyOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   DOROTHY_ORACLE_DRAW: {
     id: 'DOROTHY_ORACLE_DRAW',
@@ -105,7 +105,7 @@ export const dorothyOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   DOROTHY_ORACLE_1: {
     id: 'DOROTHY_ORACLE_1',
@@ -143,7 +143,7 @@ export const dorothyOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   DOROTHY_ORACLE_2: {
     id: 'DOROTHY_ORACLE_2',
@@ -182,7 +182,7 @@ export const dorothyOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   DOROTHY_ORACLE_3: {
     id: 'DOROTHY_ORACLE_3',
@@ -222,7 +222,7 @@ export const dorothyOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   DOROTHY_ORACLE_4: {
     id: 'DOROTHY_ORACLE_4',
@@ -260,7 +260,7 @@ export const dorothyOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   DOROTHY_ORACLE_5: {
     id: 'DOROTHY_ORACLE_5',
@@ -301,7 +301,7 @@ export const dorothyOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   DOROTHY_ORACLE_6: {
     id: 'DOROTHY_ORACLE_6',
@@ -345,7 +345,7 @@ export const dorothyOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   DOROTHY_ORACLE_7: {
     id: 'DOROTHY_ORACLE_7',
@@ -387,7 +387,7 @@ export const dorothyOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   DOROTHY_ORACLE_8: {
     id: 'DOROTHY_ORACLE_8',
@@ -429,5 +429,5 @@ export const dorothyOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 }

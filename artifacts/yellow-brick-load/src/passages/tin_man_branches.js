@@ -43,7 +43,7 @@ The Girl with the silver shoes stands before you, holding a pressurized canister
       },
     ],
     onEnter: [{ type: "checkGhostSignal" }, { type: "triggerOracle" }],
-  },,
+  },
 
   T_PATH_WETWARE: {
     id: "T_PATH_WETWARE",
@@ -77,7 +77,7 @@ You have gained a soul-fragment, but you have stripped the threading on your pri
       },
     ],
     onEnter: [],
-  },,
+  },
 
   T_PATH_HARDWARE: {
     id: "T_PATH_HARDWARE",
@@ -107,5 +107,5 @@ You are now fully indexed as a Labor Unit. The void in your chest is no longer a
       },
     ],
     onEnter: [],
-  },,
+  },
 }

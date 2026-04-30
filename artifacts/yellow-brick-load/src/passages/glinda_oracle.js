@@ -43,7 +43,7 @@ export const glindaOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   GLINDA_ORACLE_DRAW: {
     id: 'GLINDA_ORACLE_DRAW',
@@ -105,7 +105,7 @@ export const glindaOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   GLINDA_ORACLE_1: {
     id: 'GLINDA_ORACLE_1',
@@ -145,7 +145,7 @@ export const glindaOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   GLINDA_ORACLE_2: {
     id: 'GLINDA_ORACLE_2',
@@ -185,7 +185,7 @@ export const glindaOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   GLINDA_ORACLE_3: {
     id: 'GLINDA_ORACLE_3',
@@ -224,7 +224,7 @@ export const glindaOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   GLINDA_ORACLE_4: {
     id: 'GLINDA_ORACLE_4',
@@ -265,7 +265,7 @@ export const glindaOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   GLINDA_ORACLE_5: {
     id: 'GLINDA_ORACLE_5',
@@ -306,7 +306,7 @@ export const glindaOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   GLINDA_ORACLE_6: {
     id: 'GLINDA_ORACLE_6',
@@ -347,7 +347,7 @@ export const glindaOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   GLINDA_ORACLE_7: {
     id: 'GLINDA_ORACLE_7',
@@ -390,7 +390,7 @@ export const glindaOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   GLINDA_ORACLE_8: {
     id: 'GLINDA_ORACLE_8',
@@ -431,5 +431,5 @@ export const glindaOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 }

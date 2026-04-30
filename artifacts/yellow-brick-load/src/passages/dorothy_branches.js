@@ -48,7 +48,7 @@ export const dorothyBranchPassages = {
       },
     ],
     onEnter: [{ type: 'checkGhostSignal' }, { type: 'triggerOracle' }],
-  },,
+  },
 
   DOROTHY_PATH_ROAD: {
     id: 'DOROTHY_PATH_ROAD',
@@ -89,7 +89,7 @@ export const dorothyBranchPassages = {
       },
     ],
     onEnter: [{ type: 'triggerOracle' }],
-  },,
+  },
 
   DOROTHY_PATH_SLIPPERS: {
     id: 'DOROTHY_PATH_SLIPPERS',
@@ -129,7 +129,7 @@ export const dorothyBranchPassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   DOROTHY_PATH_COMPLIANCE: {
     id: 'DOROTHY_PATH_COMPLIANCE',
@@ -169,5 +169,5 @@ export const dorothyBranchPassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 }

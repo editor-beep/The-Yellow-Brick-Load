@@ -45,7 +45,7 @@ export const witchEastOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   WITCH_EAST_ORACLE_DRAW: {
     id: 'WITCH_EAST_ORACLE_DRAW',
@@ -107,7 +107,7 @@ export const witchEastOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   WITCH_EAST_ORACLE_1: {
     id: 'WITCH_EAST_ORACLE_1',
@@ -147,7 +147,7 @@ export const witchEastOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   WITCH_EAST_ORACLE_2: {
     id: 'WITCH_EAST_ORACLE_2',
@@ -186,7 +186,7 @@ export const witchEastOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   WITCH_EAST_ORACLE_3: {
     id: 'WITCH_EAST_ORACLE_3',
@@ -225,7 +225,7 @@ export const witchEastOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   WITCH_EAST_ORACLE_4: {
     id: 'WITCH_EAST_ORACLE_4',
@@ -263,7 +263,7 @@ export const witchEastOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   WITCH_EAST_ORACLE_5: {
     id: 'WITCH_EAST_ORACLE_5',
@@ -301,7 +301,7 @@ export const witchEastOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   WITCH_EAST_ORACLE_6: {
     id: 'WITCH_EAST_ORACLE_6',
@@ -340,7 +340,7 @@ export const witchEastOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   WITCH_EAST_ORACLE_7: {
     id: 'WITCH_EAST_ORACLE_7',
@@ -382,7 +382,7 @@ export const witchEastOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   WITCH_EAST_ORACLE_8: {
     id: 'WITCH_EAST_ORACLE_8',
@@ -423,5 +423,5 @@ export const witchEastOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 }

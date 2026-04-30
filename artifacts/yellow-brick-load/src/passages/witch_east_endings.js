@@ -41,7 +41,7 @@ export const witchEastEndingPassages = {
     ],
     choices: [],
     onEnter: [],
-  },,
+  },
 
   WITCH_EAST_END_FLAT: {
     id: 'WITCH_EAST_END_FLAT',
@@ -77,7 +77,7 @@ export const witchEastEndingPassages = {
     ],
     choices: [],
     onEnter: [],
-  },,
+  },
 
   WITCH_EAST_END_SHOES: {
     id: 'WITCH_EAST_END_SHOES',
@@ -113,7 +113,7 @@ export const witchEastEndingPassages = {
     ],
     choices: [],
     onEnter: [],
-  },,
+  },
 
   WITCH_EAST_END_ADMIN: {
     id: 'WITCH_EAST_END_ADMIN',
@@ -149,5 +149,5 @@ export const witchEastEndingPassages = {
     ],
     choices: [],
     onEnter: [],
-  },,
+  },
 }

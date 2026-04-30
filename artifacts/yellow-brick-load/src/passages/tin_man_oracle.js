@@ -43,7 +43,7 @@ export const tinManOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   TIN_MAN_ORACLE_DRAW: {
     id: 'TIN_MAN_ORACLE_DRAW',
@@ -105,7 +105,7 @@ export const tinManOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   TIN_MAN_ORACLE_1: {
     id: 'TIN_MAN_ORACLE_1',
@@ -143,7 +143,7 @@ export const tinManOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   TIN_MAN_ORACLE_2: {
     id: 'TIN_MAN_ORACLE_2',
@@ -185,7 +185,7 @@ export const tinManOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   TIN_MAN_ORACLE_3: {
     id: 'TIN_MAN_ORACLE_3',
@@ -224,7 +224,7 @@ export const tinManOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   TIN_MAN_ORACLE_4: {
     id: 'TIN_MAN_ORACLE_4',
@@ -263,7 +263,7 @@ export const tinManOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   TIN_MAN_ORACLE_5: {
     id: 'TIN_MAN_ORACLE_5',
@@ -301,7 +301,7 @@ export const tinManOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   TIN_MAN_ORACLE_6: {
     id: 'TIN_MAN_ORACLE_6',
@@ -341,7 +341,7 @@ export const tinManOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   TIN_MAN_ORACLE_7: {
     id: 'TIN_MAN_ORACLE_7',
@@ -380,7 +380,7 @@ export const tinManOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   TIN_MAN_ORACLE_8: {
     id: 'TIN_MAN_ORACLE_8',
@@ -420,5 +420,5 @@ export const tinManOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 }
