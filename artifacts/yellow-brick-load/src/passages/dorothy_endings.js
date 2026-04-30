@@ -233,4 +233,33 @@ export const dorothyEndingPassages = {
     choices: [],
     onEnter: [],
   },
+
+  D_VOID_DESCENT_15: {
+    id: 'D_VOID_DESCENT_15',
+    character: 'dorothy',
+    endingId: 'D-END-04',
+    endingName: 'The Unlit Basement',
+    institution: 'Void',
+    systemStatus: 'DELETED / UNINDEXED',
+    surreality: 10,
+    isEnding: true,
+    text: [
+      {
+        minOverrender: 5,
+        content: `THE UNLIT BASEMENT [D-END-04]
+
+  Audit Entry: Sector Null / The Void — Terminal Displacement
+
+  The stairs dissolve behind you. You are in a space without coordinates. There are no walls, only stacks of carbon paper that reach into an infinite ceiling. You see other 'Ghost Bits' here—the faded remains of munchkins and lions who wandered off the path.
+
+  You are not dead. You are merely 'Unindexed.' You are a signal that never reached its destination and was never formally deleted. You are the noise between the channels.
+
+  Status: DELETED / UNINDEXED
+  Theme: The horizon is a line of code you cannot cross.
+  Final Log: If no one is logging your signal, do you still have a frequency?`,
+      },
+    ],
+    choices: [],
+    onEnter: [],
+  },
 }

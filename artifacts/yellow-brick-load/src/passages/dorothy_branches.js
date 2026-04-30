@@ -177,25 +177,27 @@ export const dorothyBranchPassages = {
     text: [
       {
         minOverrender: 0,
-        content: `THE MORAL ERROR
+        content: `THE MORAL ERROR / RECTIFICATION
 
-  You attempt to lift the house. You claw at the wet wood, your fingernails filling with splintered data. "I have to help her," you sob.
+  You are kneeling in the gray particulate residue of Unit W-EAST. The Munchkins have stopped their celebratory audio-loop; they are now standing in a perfect, silent circle, recording your distress as 'Unsanctioned Emotional Output.'
 
-  The Munchkin-class units stop dancing. They look at you with the flat, unblinking eyes of a collective labor-force. To them, death is just a 'Reallocation of Resources.' Your concern is logged as a 'Sentinel Logic Error.'
+  You try to gather the dust, to put it back into the shape of a person. Your fingers are stained silver from the slippers.
 
-  The Pink Smog (Glinda) speaks: "The deed is indexed, Dorothy. You cannot un-delete the deleted. You can only compensate the Bureau with service."`,
+  "I have to fix this," you tell the Pink Smog (Glinda). "I have to make amends for the deletion."
+
+  The Glinda-Interface flickers. "Amends are a Judicial process, Dorothy. If you wish to rectify the error, you must submit to a Deep Audit. You must prove your utility outweighs the loss of the Administrative Asset."`,
       },
     ],
     choices: [
       {
-        label: "Accept the Debt: 'What must I do to pay for her life?'",
-        target: 'D_PATH_TRIAL',
-        effects: [{ type: 'addLoad', value: 15 }],
+        label: "Submit to Audit: 'Take me to the Judge. I'll pay for what I did.'",
+        target: 'D_PATH_TRIAL_ENTRY',
+        effects: [{ type: 'setCompliance', value: 'high' }, { type: 'addWarrant', value: 10 }],
       },
       {
-        label: 'Flee the Scene: Run down the Logic Gate (Yellow Brick Road).',
-        target: 'D_GRIND_DISPLACEMENT_01',
-        effects: [{ type: 'addDisplacement', value: 10 }],
+        label: 'Flee the Debt: Follow the road and ignore the dust.',
+        target: 'DOROTHY_PATH_ROAD',
+        effects: [{ type: 'addDisplacement', value: 5 }, { type: 'addDesync', value: 2 }],
       },
     ],
     onEnter: [],
@@ -443,31 +445,24 @@ export const dorothyBranchPassages = {
         minOverrender: 1,
         content: `THE BUREAU OF JUDICIAL RESTRAINT
 
-  The Munchkin Sector dissolves. You are suddenly standing in a courtroom carved from pressurized wet gypsum. The ceiling is too low; the air is thick with the scent of carbon paper and old, damp wool.
+  The Munchkin Sector dissolves into a courtroom carved from pressurized wet gypsum. The Judge is a gargantuan camera array suspended from the ceiling by rusted chains. It whirrs as it focuses on your Silver Slippers.
 
-  The Judge is not a person. It is a massive, multi-lens camera array suspended from the ceiling by rusted chains. It whirrs as it focuses on your Silver Slippers.
-
-  "Unit D-97," a voice booms from a speaker filled with grit. "You have performed a Deletion Event without a Warrant. You have converted an Administrator into Dust. How do you propose to balance the ledger?"`,
+  "Unit D-97," the speaker booms. "You have performed a Deletion Event without a Warrant. You have converted an Administrator into Dust. How do you propose to balance the ledger?"`,
       },
     ],
     choices: [
       {
-        label: "Offer Labor: 'I'll walk the road. I'll do the Wizard's tasks.'",
-        target: 'D_TRIAL_LABOR',
+        label: "Offer Labor: 'I'll walk the road and collect the failures of others.'",
+        target: 'DOROTHY_PATH_ROAD',
         effects: [{ type: 'addLoad', value: 20 }, { type: 'setCompliance', value: 'high' }],
       },
       {
-        label: "Offer the Slippers: 'Take the shoes back. I don't want them.'",
-        target: 'D_TRIAL_SACRIFICE',
-        effects: [{ type: 'addSilverFriction', value: -10 }, { type: 'addWarrant', value: 5 }],
-      },
-      {
         label: "Argue the Cyclone: 'The weather is the culprit, not me.'",
-        target: 'D_TRIAL_METEOROLOGY',
-        effects: [{ type: 'addSignalStrength', value: 15 }, { type: 'addDesync', value: 5 }],
+        target: 'DOROTHY_ORACLE_ENTRY',
+        effects: [{ type: 'addSignalStrength', value: 15 }, { type: 'addWarrant', value: 5 }],
       },
     ],
-    onEnter: [],
+    onEnter: [{ type: 'addOverrender', value: 1 }],
   },
 
   D_TRIAL_LABOR: {
@@ -606,6 +601,270 @@ export const dorothyBranchPassages = {
         label: 'Overwrite the Operator: Use the Silver Friction to become the Wicked Witch.',
         target: 'D_END_WITCH_ASCENSION',
         effects: [{ type: 'setCompliance', value: 'broken' }],
+      },
+    ],
+    onEnter: [],
+  },
+
+  D_GRIND_SILVER_06: {
+    id: 'D_GRIND_SILVER_06',
+    character: 'dorothy',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE KINETIC INSULT: 55%
+
+  You have been walking for fourteen duty-cycles. The Silver Slippers are no longer just footwear; they have begun a 'Molecular Graft' with your skin. Every step on the hardened yellow slag generates a spray of silver sparks—the physical manifestation of Silver Friction.
+
+  The road isn't just a path; it's a recording device. It is logging the seismic impact of your displacement. You can feel the "Kansas" signal stretching, thinning, becoming a translucent thread that the wind threatens to snap.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Generate Friction: Strike the silver against the bricks to boost the signal.',
+        target: 'D_GRIND_SILVER_07',
+        effects: [{ type: 'addSilverFriction', value: 10 }, { type: 'addWarrant', value: 5 }],
+      },
+      {
+        label: "Muffle the Step: Walk on the soft dirt at the road's edge.",
+        target: 'D_GRIND_SILVER_07',
+        effects: [{ type: 'addDisplacement', value: 8 }, { type: 'addLoad', value: 5 }],
+      },
+    ],
+    onEnter: [],
+  },
+
+  D_GRIND_SILVER_07: {
+    id: 'D_GRIND_SILVER_07',
+    character: 'dorothy',
+    text: [
+      {
+        minOverrender: 1,
+        content: `THE ARCHIVE OF THE EAST
+
+  You pass a roadside shrine—a pile of rusted hardware and discarded Munchkin tools. The slippers vibrate violently as you approach. They recognize the 'Residual Magnetism' of the previous owner.
+
+  [SIGNAL INTERFERENCE: W-EAST CACHE DETECTED]
+
+  A ghost-audio log plays from the air around you: "The house... was only the first... auditor..."`,
+      },
+    ],
+    choices: [
+      {
+        label: "Download the Residue: Integrate the Witch's final log.",
+        target: 'D_GRIND_SILVER_08',
+        effects: [
+          { type: 'addDesync', value: 5 },
+          { type: 'addSignalStrength', value: -10 },
+          { type: 'setFlag', key: 'witch_east_memory', value: true },
+        ],
+      },
+      {
+        label: 'Purge the Cache: Click the silver heels to overwrite the signal.',
+        target: 'D_GRIND_SILVER_08',
+        effects: [{ type: 'addSilverFriction', value: 15 }, { type: 'addWarrant', value: 10 }],
+      },
+    ],
+    onEnter: [],
+  },
+
+  D_GRIND_SILVER_08: {
+    id: 'D_GRIND_SILVER_08',
+    character: 'dorothy',
+    text: [
+      {
+        minOverrender: 1,
+        content: `THE COMPLIANCE WOODS
+
+  The forest has grown thick with 'Bureaucratic Vines'—long, fibrous strands of carbon paper that hang from the trees. They attempt to snag your dress, to pull the Kansas dust from the fabric.
+
+  The Silver Slippers are glowing with a steady, cold light now. You are a high-velocity signal moving through a low-bandwidth environment. The friction is making your ankles feel like they are made of molten glass.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Accelerate: The faster I move, the less they can index me.',
+        target: 'D_GRIND_SILVER_09',
+        effects: [{ type: 'addSilverFriction', value: 12 }, { type: 'addLoad', value: 10 }],
+      },
+      {
+        label: 'Submit to the Vines: Let the forest log your passage.',
+        target: 'D_GRIND_SILVER_09',
+        effects: [{ type: 'setCompliance', value: 'high' }, { type: 'addDisplacement', value: 5 }],
+      },
+    ],
+    onEnter: [],
+  },
+
+  D_GRIND_SILVER_09: {
+    id: 'D_GRIND_SILVER_09',
+    character: 'dorothy',
+    text: [
+      {
+        minOverrender: 2,
+        content: `THE CROSS-CHANNEL ECHO: LION
+
+  A roar shatters the atmospheric stability. It's not a sound of a beast; it's a 'Vibration Event' that causes the Silver Slippers to ring like bells. A Lion-unit (L-01) leaps onto the road. He looks less like a predator and more like a failing structural beam.
+
+  He is shaking. The frequency of his fear is perfectly out of phase with your silver signal.`,
+      },
+    ],
+    choices: [
+      {
+        label: "Interference: Use the slippers to ground the Lion's tremor.",
+        target: 'LION_INIT',
+        effects: [
+          { type: 'graft', material: 'silver_friction', target: 'lion' },
+          { type: 'addLoad', value: 5 },
+        ],
+      },
+      {
+        label: 'Bypass: He is just more noise in the system.',
+        target: 'D_GRIND_SILVER_10',
+        effects: [{ type: 'addWarrant', value: 5 }, { type: 'addDisplacement', value: 10 }],
+      },
+    ],
+    onEnter: [],
+  },
+
+  D_GRIND_SILVER_10: {
+    id: 'D_GRIND_SILVER_10',
+    character: 'dorothy',
+    text: [
+      {
+        minOverrender: 3,
+        content: `THE TERMINAL SEGMENT
+
+  The Emerald City is visible. It is a massive green 'Processing Hub' that dominates the horizon. The road here is no longer made of bricks; it is a single, seamless sheet of yellow glass.
+
+  Your Silver Friction is at its peak. The air around your feet is ionizing. You are no longer Dorothy; you are a 'Warranted Projectile' aimed directly at the heart of the Oz OS.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'The Final Click: Force the Kansas signal one last time.',
+        target: 'D_WIZARD_ENCOUNTER',
+        effects: [{ type: 'addSignalStrength', value: 20 }, { type: 'triggerOracle' }],
+      },
+      {
+        label: "Surrender the Charge: Let the City's ground-wire drain the silver.",
+        target: 'D_END_HOME_SIM',
+        effects: [{ type: 'setCompliance', value: 'high' }, { type: 'addSilverFriction', value: -50 }],
+      },
+    ],
+    onEnter: [],
+  },
+
+  D_VOID_DESCENT_11: {
+    id: 'D_VOID_DESCENT_11',
+    character: 'dorothy',
+    text: [
+      {
+        minOverrender: 3,
+        content: `THE FADING HORIZON
+
+  The Emerald City didn't get closer; it simply lost resolution. The green glow has been replaced by a gray, flickering strobe. You have wandered off the Logic Gate. The bricks under your Silver Slippers are soft, like wet cardboard.
+
+  [SIGNAL STRENGTH: CRITICAL]
+  [ENVIRONMENT: UNMONITORED]
+
+  You call for Toto. The system returns a 'File Not Found' error. The bark of the dog is replaced by a 440Hz sine wave.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Search for the Signal: Use the silver friction to find a coordinate.',
+        target: 'D_VOID_DESCENT_12',
+        effects: [{ type: 'addSilverFriction', value: 5 }, { type: 'addDesync', value: 3 }],
+      },
+      {
+        label: 'Accept the Silence: Walk into the unrendered dark.',
+        target: 'D_VOID_DESCENT_12',
+        effects: [{ type: 'addDisplacement', value: 10 }, { type: 'addSmudge', value: 1 }],
+      },
+    ],
+    onEnter: [{ type: 'checkGhostSignal' }],
+  },
+
+  D_VOID_DESCENT_12: {
+    id: 'D_VOID_DESCENT_12',
+    character: 'dorothy',
+    text: [
+      {
+        minOverrender: 4,
+        content: `THE GYPSUM FIELDS
+
+  The ground is now a vast plain of wet gypsum and carbon paper. It smells of old archives and stagnant air. You see a silhouette in the distance—a 'Dust Clerk' standing perfectly still.
+
+  It is not auditing you. It is waiting for you to become part of the scenery.`,
+      },
+    ],
+    choices: [
+      {
+        label: "Ask the Clerk: 'Is this the way to Kansas?'",
+        target: 'D_VOID_DESCENT_13',
+        effects: [{ type: 'addNeuralDensity', value: 5 }, { type: 'addLoad', value: 5 }],
+      },
+      {
+        label: 'Ignore the Auditor: The dark is more honest than the Clerk.',
+        target: 'D_VOID_DESCENT_13',
+        effects: [{ type: 'addDisplacement', value: 10 }, { type: 'setCompliance', value: 'broken' }],
+      },
+    ],
+    onEnter: [],
+  },
+
+  D_VOID_DESCENT_13: {
+    id: 'D_VOID_DESCENT_13',
+    character: 'dorothy',
+    text: [
+      {
+        minOverrender: 4,
+        content: `THE KANSAS RECURSION
+
+  A door appears in the middle of the gray field. It is the door to the farmhouse. You open it, but instead of the kitchen, you see a recursive loop of the hallway. Each door leads to the same hallway, but the gray is deeper in each iteration.
+
+  The Silver Slippers are freezing. The silver is turning into a dull, leaden weight.`,
+      },
+    ],
+    choices: [
+      {
+        label: "Run through the loop: Find the 'Real' kitchen.",
+        target: 'D_VOID_DESCENT_14',
+        effects: [{ type: 'addLoad', value: 15 }, { type: 'addOverrender', value: 1 }],
+      },
+      {
+        label: 'Stop in the hallway: Admit the house is a ghost-signal.',
+        target: 'D_VOID_DESCENT_14',
+        effects: [{ type: 'addDesync', value: 10 }, { type: 'addSignalStrength', value: -20 }],
+      },
+    ],
+    onEnter: [],
+  },
+
+  D_VOID_DESCENT_14: {
+    id: 'D_VOID_DESCENT_14',
+    character: 'dorothy',
+    text: [
+      {
+        minOverrender: 5,
+        content: `THE SMELL OF THE BASEMENT
+
+  The recursion breaks. You are standing at the top of a wooden staircase. The air rising from below is cold and smells of wet wool. This is the 'Storm Cellar,' but there is no storm. There is only the Bureau's cooling system, humming in the dark.
+
+  "Dorothy," a voice whispers. It sounds like Aunt Em, but the cadence is perfectly mathematical.`,
+      },
+    ],
+    choices: [
+      {
+        label: "Descend: Follow the 'Aunt Em' variable.",
+        target: 'D_VOID_DESCENT_15',
+        effects: [{ type: 'addDisplacement', value: 10 }],
+      },
+      {
+        label: 'Click the leaden slippers: One last desperate transmission.',
+        target: 'D_VOID_DESCENT_15',
+        effects: [{ type: 'addWarrant', value: 20 }, { type: 'addSilverFriction', value: 20 }],
       },
     ],
     onEnter: [],
