@@ -6,6 +6,10 @@
  * Each card: id, name, cardText (symbolic image), ritualText (interloper action),
  *            effect (game effect descriptor), surreality (optional 1–10).
  *
+ * NOTE ON ORACLE_DRAW: These deck cards are NOT drawn at the ORACLE_DRAW passage.
+ * ORACLE_DRAW uses hardcoded passage choices (ORACLE_1–8). The deck data here is
+ * narrative reference; wiring it to a live random draw is future work.
+ *
  * All content rooted in L. Frank Baum's original Oz books — not the MGM adaptation.
  * The Silver Shoes (not ruby) carry Dorothy home. Glinda rules the South.
  * The Wizard is a humbug from Omaha. The Kalidahs are half-bear, half-tiger.

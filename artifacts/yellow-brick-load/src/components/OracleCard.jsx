@@ -35,6 +35,10 @@ export default function OracleCard() {
       case 'addInsulation':     return `INSULATION +${fx.value}`
       case 'addObfuscation':    return `OBFUSCATION +${fx.value}`
       case 'addDesynctear':     return `DESYNCTEAR +${fx.value}`
+      case 'addThermal':        return `THERMAL +${fx.value}`
+      case 'addMalice':         return `MALICE +${fx.value}`
+      case 'addSaturation':     return `SATURATION +${fx.value}`
+      case 'incrementLoopCounter': return `LOOP COUNT +1`
       default:                  return fx.type.replace(/([a-z])([A-Z])/g, '$1 $2').toUpperCase()
     }
   }
