@@ -34,6 +34,36 @@ export default function OracleCard() {
   const [artFailed, setArtFailed] = useState(false)
   const [isOverflowing, setIsOverflowing] = useState(false)
 
+  // Tracks the element that held keyboard focus immediately before the
+  // overlay opened, so we can hand focus back when the player dismisses
+  // the card. Captured synchronously via a zustand subscription (see
+  // below) because by the time any React effect fires, the underlying
+  // choice button may already have unmounted.
+  const previousFocusRef = useRef(null)
+
+  // Subscribe to oracleCard transitions outside of React's commit cycle
+  // so we can capture/restore keyboard focus at the right moment:
+  //   • opening (null → card): grab document.activeElement *before* any
+  //     re-render swaps the passage out from under us.
+  //   • closing (card → null): defer focus restoration to the next frame
+  //     so the dismiss button has fully unmounted first.
+  useEffect(() => {
+    return useGameStore.subscribe((state, prev) => {
+      const opening = !!state.oracleCard && !prev.oracleCard
+      const closing = !state.oracleCard && !!prev.oracleCard
+      if (opening) {
+        const active = typeof document !== 'undefined' ? document.activeElement : null
+        previousFocusRef.current = isRestorableElement(active) ? active : null
+      } else if (closing) {
+        const node = previousFocusRef.current
+        previousFocusRef.current = null
+        if (typeof window !== 'undefined') {
+          window.requestAnimationFrame(() => restoreFocus(node))
+        }
+      }
+    })
+  }, [])
+
   // Reset the runtime-load failure flag whenever a new card is drawn,
   // so a previous draw's broken asset doesn't poison the next ritual.
   useEffect(() => {
@@ -407,6 +437,50 @@ function makeVariance() {
     inkBleedOpacity: r(0.05, 0.12),
     flickerDelay: r(0, 0.12),
     cardTilt: r(-0.6, 0.6),
+  }
+}
+
+/**
+ * True if `node` is a real, focusable HTMLElement we can plausibly hand
+ * focus back to later. We deliberately reject `document.body` because it
+ * is the default activeElement when nothing real is focused — restoring
+ * to it would be a no-op that strands keyboard users.
+ */
+function isRestorableElement(node) {
+  return (
+    !!node &&
+    typeof node === 'object' &&
+    node.nodeType === 1 &&
+    typeof document !== 'undefined' &&
+    node !== document.body &&
+    typeof node.focus === 'function'
+  )
+}
+
+/**
+ * Restore keyboard focus after the overlay closes.
+ *
+ * Tries the originally-focused element first; if it's gone, hidden, or
+ * disabled, falls back to the passage container (which carries
+ * `tabIndex={-1}` so it can receive programmatic focus). All focus
+ * calls use `preventScroll` so we never jump the viewport.
+ */
+function restoreFocus(node) {
+  if (typeof document === 'undefined') return
+  const usable =
+    node &&
+    document.contains(node) &&
+    typeof node.focus === 'function' &&
+    !node.disabled &&
+    typeof node.getClientRects === 'function' &&
+    node.getClientRects().length > 0
+  if (usable) {
+    try { node.focus({ preventScroll: true }) } catch { /* noop */ }
+    return
+  }
+  const fallback = document.querySelector('.passage-wrapper')
+  if (fallback && typeof fallback.focus === 'function') {
+    try { fallback.focus({ preventScroll: true }) } catch { /* noop */ }
   }
 }
 

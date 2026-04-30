@@ -64,7 +64,7 @@ export default function PassageRenderer() {
   }
 
   return (
-    <div className="passage-wrapper">
+    <div className="passage-wrapper" tabIndex={-1}>
       <OracleCard />
       {smudge >= 1 && <div className="smudge-overlay" style={{ opacity: smudge * 0.15 }} aria-hidden="true" />}
 
