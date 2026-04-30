@@ -1,116 +1,12 @@
 /**
- * YELLOW BRICK LOAD — Wicked Witch of the East Passages
- * Character: Witch East (Authority Figure / Gravitational Operator)
+ * YELLOW BRICK LOAD — Witch East (Unit E-00) Oracle Passages
+ * Character: Witch East (Unit E-00)
  *
- * The Gravity Crucible Oracle (Pressure Assay)
- * Triggered when displacement >= 3
- *
- * Oracle Interloper: The Weight Assessor — a severe administrator in
- * lead-lined vestments, hands ending in precision mass-measurement clamps,
- * eyes of polished granite. Presses down on the unit with increasing
- * gravitational authority. Reads the unit's response to pressure as
- * diagnostic data.
- *
- * Note: Witch East is absent from the game from the beginning — she is
- * already dead (crushed by the house). Her passages run as flashback/archive
- * content from before the house arrived.
+ * Oracle ritual passages (ENTRY, DRAW, 1-8).
+ * Extracted from witch_east.js.
  */
 
-export const witchEastPassages = {
-  // ─────────────────────────────────────────────────────────────────────────
-  // INIT / ENTRY
-  // ─────────────────────────────────────────────────────────────────────────
-
-  WITCH_EAST_INIT: {
-    id: 'WITCH_EAST_INIT',
-    character: 'witch_east',
-    text: [
-      {
-        minOverrender: 0,
-        content: `THE GRAVITY ADMINISTRATOR — ARCHIVE ACCESS
-
-  You are accessing an archived instance. Unit E-00 — the Wicked Witch of the East — was removed from active status when a Coordinate [Kansas, Coordinate-Null] residential structure executed an unauthorized kinetic event at Munchkin Landing Zone 7. The unit is no longer present. The archive runs from the last twelve hours of operation.
-
-  You are the Gravitational Operator. You manage the weight of things. The Munchkins operate under your administrative gravity — their compact bodies, their stout legs, their small movements — all are governed by the gravitational field you project. Silver shoes, silver regulatory filings, silver authority.
-
-  [ ARCHIVE INSTANCE: ACTIVE ]
-  [ LAST SESSION: PRE-HOUSE IMPACT ]
-  [ GRAVITY FIELD: STANDARD ]
-  [ NOTE: THE HOUSE IS APPROACHING ]
-
-  The displacement counter is already high. Something is moving that should not be moving. Something is falling that is not weather. The Weight Assessor has been dispatched for an emergency assay. There is very little time.`,
-      },
-    ],
-    choices: [
-      {
-        label: 'Begin the assay — run the Gravity Crucible before impact.',
-        target: 'WITCH_EAST_ORACLE_ENTRY',
-        effects: [
-          { type: 'addDisplacement', value: 3 },
-          { type: 'addLoad', value: 5 },
-        ],
-      },
-      {
-        label: 'Attempt to redirect the falling mass — deploy regulatory pressure.',
-        target: 'WITCH_EAST_PATH_GRAVITY',
-        effects: [
-          { type: 'addWarrant', value: 3 },
-          { type: 'addDisplacement', value: 2 },
-        ],
-      },
-    ],
-    onEnter: [{ type: 'checkGhostSignal' }, { type: 'triggerOracle' }],
-  },
-
-  // ─────────────────────────────────────────────────────────────────────────
-  // MAIN PATHS
-  // ─────────────────────────────────────────────────────────────────────────
-
-  WITCH_EAST_PATH_GRAVITY: {
-    id: 'WITCH_EAST_PATH_GRAVITY',
-    character: 'witch_east',
-    text: [
-      {
-        minOverrender: 0,
-        content: `THE GRAVITATIONAL DEPLOYMENT
-
-  The gravity field projects outward in expanding rings of bureaucratic pressure. The Munchkins sink slightly lower. The yellow bricks press harder into the earth. The displacement field from the incoming object is catalogued as "Unauthorized Kinetic Event — Class: Residential."
-
-  [ GRAVITATIONAL FIELD: MAXIMUM ]
-  [ DISPLACEMENT: ESCALATING ]
-  [ INCOMING: RESIDENTIAL STRUCTURE ]
-  [ NOTE: MAXIMUM GRAVITY WILL NOT STOP THE HOUSE ]
-
-  The Weight Assessor is sprinting across the field with its mass-measurement clamps extended. The archive timestamp reads: seventeen minutes remaining. The silver shoes have already registered the weight of the incoming structure — they know, even if you haven't been officially notified yet.
-
-  The gravity field presses down. The house presses down harder.`,
-      },
-    ],
-    choices: [
-      {
-        label: 'Maintain the field until impact — read the displacement pattern.',
-        target: 'WITCH_EAST_ORACLE_ENTRY',
-        effects: [
-          { type: 'addDisplacement', value: 3 },
-          { type: 'addDesync', value: 1 },
-        ],
-      },
-      {
-        label: 'Attempt evacuation — route toward the silver shoes transfer.',
-        target: 'WITCH_EAST_END_SHOES',
-        effects: [
-          { type: 'addDisplacement', value: 5 },
-          { type: 'addLoad', value: 15 },
-        ],
-      },
-    ],
-    onEnter: [{ type: 'triggerOracle' }],
-  },
-
-  // ─────────────────────────────────────────────────────────────────────────
-  // GRAVITY CRUCIBLE ORACLE — THE WEIGHT ASSESSOR
-  // ─────────────────────────────────────────────────────────────────────────
-
+export const witchEastOraclePassages = {
   WITCH_EAST_ORACLE_ENTRY: {
     id: 'WITCH_EAST_ORACLE_ENTRY',
     character: 'witch_east',
@@ -149,7 +45,7 @@ export const witchEastPassages = {
       },
     ],
     onEnter: [],
-  },
+  },,
 
   WITCH_EAST_ORACLE_DRAW: {
     id: 'WITCH_EAST_ORACLE_DRAW',
@@ -211,9 +107,7 @@ export const witchEastPassages = {
       },
     ],
     onEnter: [],
-  },
-
-  // ── Oracle Outcomes 1–8 ────────────────────────────────────────────────────
+  },,
 
   WITCH_EAST_ORACLE_1: {
     id: 'WITCH_EAST_ORACLE_1',
@@ -253,7 +147,7 @@ export const witchEastPassages = {
       },
     ],
     onEnter: [],
-  },
+  },,
 
   WITCH_EAST_ORACLE_2: {
     id: 'WITCH_EAST_ORACLE_2',
@@ -292,7 +186,7 @@ export const witchEastPassages = {
       },
     ],
     onEnter: [],
-  },
+  },,
 
   WITCH_EAST_ORACLE_3: {
     id: 'WITCH_EAST_ORACLE_3',
@@ -331,7 +225,7 @@ export const witchEastPassages = {
       },
     ],
     onEnter: [],
-  },
+  },,
 
   WITCH_EAST_ORACLE_4: {
     id: 'WITCH_EAST_ORACLE_4',
@@ -369,7 +263,7 @@ export const witchEastPassages = {
       },
     ],
     onEnter: [],
-  },
+  },,
 
   WITCH_EAST_ORACLE_5: {
     id: 'WITCH_EAST_ORACLE_5',
@@ -407,7 +301,7 @@ export const witchEastPassages = {
       },
     ],
     onEnter: [],
-  },
+  },,
 
   WITCH_EAST_ORACLE_6: {
     id: 'WITCH_EAST_ORACLE_6',
@@ -446,7 +340,7 @@ export const witchEastPassages = {
       },
     ],
     onEnter: [],
-  },
+  },,
 
   WITCH_EAST_ORACLE_7: {
     id: 'WITCH_EAST_ORACLE_7',
@@ -488,7 +382,7 @@ export const witchEastPassages = {
       },
     ],
     onEnter: [],
-  },
+  },,
 
   WITCH_EAST_ORACLE_8: {
     id: 'WITCH_EAST_ORACLE_8',
@@ -529,153 +423,5 @@ export const witchEastPassages = {
       },
     ],
     onEnter: [],
-  },
-
-  // ─────────────────────────────────────────────────────────────────────────
-  // STUB ENDINGS
-  // ─────────────────────────────────────────────────────────────────────────
-
-  WITCH_EAST_END_CRUSH: {
-    id: 'WITCH_EAST_END_CRUSH',
-    character: 'witch_east',
-    endingId: 'E-END-01',
-    endingName: 'The Gravitational Record',
-    institution: 'Gravitational',
-    systemStatus: 'Archived',
-    isEnding: true,
-    surreality: 8,
-    text: [
-      {
-        minOverrender: 0,
-        content: `THE FINAL LOG [E-END-01]
-
-  Tone: Gravitational-Archival.
-  Theme: A mass event is the most thorough form of filing.
-
-  The Gravitational Record is the most complete document in the Bureau's history: a unit that administered gravitational authority and was subsequently administered a Coordinate [Kansas, Null] residential structure at terminal velocity. The symmetry is noted. The file is thick.
-
-  [ UNIT WITCH EAST // STATUS: ARCHIVED ]
-  [ GRAVITATIONAL AUTHORITY: FILED ]
-  [ MASS EVENT: LOGGED ]
-
-  The Weight Assessor survives. It was standing slightly to the left when the residential structure arrived. It makes its final note: "Administrator E-00: gravitational record confirmed. Munchkins liberated: 703. Silver shoes: available. Reading: complete."
-
-  Final Log: The weight of the administrator equals the weight of the house.
-
-  1 - 1 = 1.
-
-  If the gravity field crushes and is crushed, is the math still balanced?`,
-      },
-    ],
-    choices: [],
-    onEnter: [],
-  },
-
-  WITCH_EAST_END_FLAT: {
-    id: 'WITCH_EAST_END_FLAT',
-    character: 'witch_east',
-    endingId: 'E-END-06',
-    endingName: 'The Administrative Tablet',
-    institution: 'Documentary',
-    systemStatus: 'Two-Dimensional',
-    isEnding: true,
-    surreality: 7,
-    text: [
-      {
-        minOverrender: 0,
-        content: `THE FINAL LOG [E-END-06]
-
-  Tone: Documentary-Flat.
-  Theme: Maximum administrative authority is achieved at minimum thickness.
-
-  The gravity inversion has compressed the administrator into a flat, dense regulatory tablet. The gravitational field is stable. The weight of every decree ever issued is present in the tablet's material density. When held up to the light, the tablet is faintly legible — a palimpsest of administrative history.
-
-  [ UNIT WITCH EAST // STATUS: TWO-DIMENSIONAL ]
-  [ REGULATORY RECORD: EMBEDDED ]
-  [ ARCHIVE ACCESS: VIA RUBBING ]
-
-  The Munchkins use the tablet as a paving stone on the Yellow Brick Load. Thousands of units walk over the embedded regulatory record every day, not knowing they are traversing the complete administrative history of the East.
-
-  Final Log: The tablet is the administrator. The road is the archive.
-
-  1 - 1 = 1.
-
-  If every unit walks on the law, is the law still authority?`,
-      },
-    ],
-    choices: [],
-    onEnter: [],
-  },
-
-  WITCH_EAST_END_SHOES: {
-    id: 'WITCH_EAST_END_SHOES',
-    character: 'witch_east',
-    endingId: 'E-END-02',
-    endingName: 'The Silver Transfer',
-    institution: 'Succession',
-    systemStatus: 'Transferred',
-    isEnding: true,
-    surreality: 5,
-    text: [
-      {
-        minOverrender: 0,
-        content: `THE FINAL LOG [E-END-02]
-
-  Tone: Succession-Legalistic.
-  Theme: Authority does not end; it transfers.
-
-  The silver shoes have been removed and reassigned. The gravitational authority they contain — the decades of administrative weight, the regulatory frequency, the measured pressure of the East — is now traveling with a new owner.
-
-  [ UNIT WITCH EAST // STATUS: TRANSFERRED ]
-  [ SILVER AUTHORITY: REASSIGNED ]
-  [ NEW CUSTODIAN: FILED UNDER D-01 ]
-
-  The Weight Assessor makes its final note: "Silver transfer complete. Gravitational authority: operational under new registration. The shoes know where they are. The shoes always know where they are." The new custodian will feel the weight of the East in every step.
-
-  Final Log: The silver carries the authority. The authority carries the weight.
-
-  1 - 1 = 1.
-
-  When the authority walks away in someone else's shoes, is the administrator still present?`,
-      },
-    ],
-    choices: [],
-    onEnter: [],
-  },
-
-  WITCH_EAST_END_ADMIN: {
-    id: 'WITCH_EAST_END_ADMIN',
-    character: 'witch_east',
-    endingId: 'E-END-04',
-    endingName: 'The Administrative Legacy',
-    institution: 'Bureaucratic',
-    systemStatus: 'Continued',
-    isEnding: true,
-    surreality: 3,
-    text: [
-      {
-        minOverrender: 0,
-        content: `THE FINAL LOG [E-END-04]
-
-  Tone: Bureaucratic-Continuous.
-  Theme: Good administration outlasts the administrator.
-
-  The archive is complete. The gravitational protocols are running on automatic. The Munchkins are filing their own compliance reports with the efficiency of units who have fully internalized the weight. The Weight Assessor has been appointed as interim gravitational administrator while succession is processed.
-
-  [ UNIT WITCH EAST // STATUS: CONTINUED ]
-  [ ADMINISTRATION: ONGOING ]
-  [ WEIGHT: DISTRIBUTED ]
-
-  The Eastern sector's regulations are current. The filings are in order. The Munchkins march with the correct amount of compactness. The archive does not require a living operator to continue functioning. The weight has been thoroughly distributed.
-
-  Final Log: The administration was never the administrator. The procedures were always the administrator.
-
-  1 - 1 = 1.
-
-  If the administration continues without the administrator, what was the administrator for?`,
-      },
-    ],
-    choices: [],
-    onEnter: [],
-  },
+  },,
 }

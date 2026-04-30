@@ -4,31 +4,48 @@
  * All passage maps are merged here. The engine looks up nodes
  * by ID from this single flat registry.
  *
- * Characters:
- *   lion       — implemented (rough.docx prose + matrix)
- *   tin_man    — implemented (Volume 2 init + branches; endings stubbed)
- *   scarecrow  — implemented (Straw Harvest oracle + stub endings)
- *   dorothy    — implemented (Nerve Pull oracle + stub endings)
- *   glinda     — implemented (Porcelain Auditor oracle + stub endings)
- *   wizard     — implemented (Curtain Incision oracle + stub endings)
- *   witch_west — implemented (Obsidian Eye oracle + stub endings)
- *   witch_east — implemented (Gravity Crucible oracle + stub endings)
+ * Each character's passages are split into three files:
+ *   _branches  — init, path choices, hub passages
+ *   _endings   — all isEnding: true passages
+ *   _oracle    — ORACLE_ENTRY, ORACLE_DRAW, ORACLE_1–8
  *
  * Shared enforcers (cross-character threats):
  *   Munchkin Swarm, Winged Monkeys, Kalidah Merge, Poppy Drones
  */
 
-import { lionBranchPassages } from './lion_branches.js'
-import { lionEndingPassages } from './lion_endings.js'
-import { tinManPassages } from './tin_man.js'
-import { scarecrowPassages } from './scarecrow.js'
-import { dorothyPassages } from './dorothy.js'
-import { glindaPassages } from './glinda.js'
-import { wizardPassages } from './wizard.js'
-import { witchWestStubPassages } from './witch_west_stubs.js'
-import { witchWestEndingPassages } from './witch_west_endings.js'
-import { witchEastPassages } from './witch_east.js'
-import { enforcerPassages } from './enforcers.js'
+import { lionBranchPassages }      from './lion_branches.js'
+import { lionEndingPassages }       from './lion_endings.js'
+import { lionOraclePassages }       from './lion_oracle.js'
+
+import { tinManBranchPassages }     from './tin_man_branches.js'
+import { tinManEndingPassages }     from './tin_man_endings.js'
+import { tinManOraclePassages }     from './tin_man_oracle.js'
+
+import { scarecrowBranchPassages }  from './scarecrow_branches.js'
+import { scarecrowEndingPassages }  from './scarecrow_endings.js'
+import { scarecrowOraclePassages }  from './scarecrow_oracle.js'
+
+import { dorothyBranchPassages }    from './dorothy_branches.js'
+import { dorothyEndingPassages }    from './dorothy_endings.js'
+import { dorothyOraclePassages }    from './dorothy_oracle.js'
+
+import { glindaBranchPassages }     from './glinda_branches.js'
+import { glindaEndingPassages }     from './glinda_endings.js'
+import { glindaOraclePassages }     from './glinda_oracle.js'
+
+import { wizardBranchPassages }     from './wizard_branches.js'
+import { wizardEndingPassages }     from './wizard_endings.js'
+import { wizardOraclePassages }     from './wizard_oracle.js'
+
+import { witchWestBranchPassages }  from './witch_west_branches.js'
+import { witchWestEndingPassages }  from './witch_west_endings.js'
+import { witchWestOraclePassages }  from './witch_west_oracle.js'
+
+import { witchEastBranchPassages }  from './witch_east_branches.js'
+import { witchEastEndingPassages }  from './witch_east_endings.js'
+import { witchEastOraclePassages }  from './witch_east_oracle.js'
+
+import { enforcerPassages }         from './enforcers.js'
 
 // Ghost Signal — off-grid, character-agnostic
 export const ghostSignalPassage = {
@@ -57,14 +74,14 @@ Goodbye, Unit {{character}}. I'll see you in the next render.
 }
 
 export const allPassages = {
-  ...lionBranchPassages, ...lionEndingPassages,
-  ...tinManPassages,
-  ...scarecrowPassages,
-  ...dorothyPassages,
-  ...glindaPassages,
-  ...wizardPassages,
-  ...witchWestStubPassages, ...witchWestEndingPassages,
-  ...witchEastPassages,
+  ...lionBranchPassages,    ...lionEndingPassages,    ...lionOraclePassages,
+  ...tinManBranchPassages,  ...tinManEndingPassages,  ...tinManOraclePassages,
+  ...scarecrowBranchPassages, ...scarecrowEndingPassages, ...scarecrowOraclePassages,
+  ...dorothyBranchPassages, ...dorothyEndingPassages, ...dorothyOraclePassages,
+  ...glindaBranchPassages,  ...glindaEndingPassages,  ...glindaOraclePassages,
+  ...wizardBranchPassages,  ...wizardEndingPassages,  ...wizardOraclePassages,
+  ...witchWestBranchPassages, ...witchWestEndingPassages, ...witchWestOraclePassages,
+  ...witchEastBranchPassages, ...witchEastEndingPassages, ...witchEastOraclePassages,
   ...enforcerPassages,
   ...ghostSignalPassage,
 }
