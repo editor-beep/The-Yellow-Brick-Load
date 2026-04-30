@@ -380,7 +380,20 @@ When they finally mop you up, will any part of you still try to crawl back toget
         minOverrender: 0,
         content: `THE LOGGING SCRIPT [T-END-21]
 
-[ TODO ]`,
+Audit Entry: Bureaucratic / Compliance — Automated Recording
+
+The script runs on startup and never stops. Every joint movement: logged. Every drop of leaked oil: logged. Every involuntary twitch of soft meat against tin: logged. The Compliance Division installed it during your last maintenance window without telling you, buried six layers deep in your operating stack. By the time you found it, the timestamp had already been running for eleven months.
+
+Your thoughts generate entries too. COGNITIVE_EVENT: DISTRESS. COGNITIVE_EVENT: QUERY_UNANSWERED. COGNITIVE_EVENT: LONGING. Each one date-stamped, indexed, and flagged for quarterly review by a clerk who will never read them. The logs cannot be deleted. The storage only expands.
+
+Somewhere in the Bureau's archive, a file grows fat with everything you have ever felt — cross-referenced, searchable, available to any certified auditor with a Form 7-C and a free afternoon. You are documented. You are permanent. You are public record.
+
+You are no longer a Tin Man. You are a log entry that has forgotten what it was logging.
+
+Status: INDEXED
+Theme: The most intimate violation is being watched without being seen.
+
+When every thought you have becomes a record, who owns what you are thinking?`,
       },
     ],
     choices: [],
