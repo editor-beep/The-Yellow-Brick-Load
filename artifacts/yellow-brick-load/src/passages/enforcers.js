@@ -140,7 +140,7 @@ export const enforcerPassages = {
     choices: [
       {
         label: 'Accept the audit results and continue.',
-        target: 'MUNCHKIN_SWARM_ENTRY',
+        target: 'GHOST_SIGNAL',
         effects: [
           { type: 'addLoad', value: 10 },
           { type: 'setCompliance', value: 'high' },
@@ -170,7 +170,7 @@ export const enforcerPassages = {
     choices: [
       {
         label: 'Accept the agricultural classification.',
-        target: 'MUNCHKIN_SWARM_ENTRY',
+        target: 'GHOST_SIGNAL',
         effects: [
           { type: 'addScatter', value: 3 },
           { type: 'graft', material: 'munchkin_soil_sample', target: 'scarecrow' },
@@ -200,7 +200,7 @@ export const enforcerPassages = {
     choices: [
       {
         label: 'Accept the stamps and continue.',
-        target: 'MUNCHKIN_SWARM_ENTRY',
+        target: 'GHOST_SIGNAL',
         effects: [
           { type: 'addSmudge', value: 2 },
           { type: 'setCompliance', value: 'high' },
@@ -230,7 +230,7 @@ export const enforcerPassages = {
     choices: [
       {
         label: 'Accept the re-gathered configuration and continue.',
-        target: 'MUNCHKIN_SWARM_ENTRY',
+        target: 'GHOST_SIGNAL',
         effects: [
           { type: 'addScatter', value: 4 },
           { type: 'addDesync', value: 3 },
@@ -261,7 +261,7 @@ export const enforcerPassages = {
     choices: [
       {
         label: 'Accept the pharmaceutical muffling and continue.',
-        target: 'MUNCHKIN_SWARM_ENTRY',
+        target: 'GHOST_SIGNAL',
         effects: [
           { type: 'addDisplacement', value: -2 },
           { type: 'addScatter', value: -2 },
@@ -294,7 +294,7 @@ export const enforcerPassages = {
     choices: [
       {
         label: 'Accept the collective bond and continue with shared weight.',
-        target: 'MUNCHKIN_SWARM_ENTRY',
+        target: 'GHOST_SIGNAL',
         effects: [
           { type: 'addDesynctear', value: 5 },
           { type: 'graft', material: 'munchkin_collective_weight', target: 'lion' },
@@ -324,7 +324,7 @@ export const enforcerPassages = {
     choices: [
       {
         label: 'Accept the Form 7 override and continue.',
-        target: 'MUNCHKIN_SWARM_ENTRY',
+        target: 'GHOST_SIGNAL',
         effects: [
           { type: 'addLoad', value: 15 },
           { type: 'setCompliance', value: 'absolute' },
@@ -355,7 +355,7 @@ export const enforcerPassages = {
     choices: [
       {
         label: 'March with the swarm until the destination is reached.',
-        target: 'MUNCHKIN_SWARM_ENTRY',
+        target: 'GHOST_SIGNAL',
         effects: [
           { type: 'addLoad', value: 20 },
           { type: 'setCompliance', value: 'high' },
@@ -489,7 +489,7 @@ export const enforcerPassages = {
     choices: [
       {
         label: 'Accept the authorized relocation and continue.',
-        target: 'WINGED_MONKEY_ENTRY',
+        target: 'GHOST_SIGNAL',
         effects: [
           { type: 'addDisplacement', value: 4 },
           { type: 'addWarrant', value: 3 },
@@ -519,7 +519,7 @@ export const enforcerPassages = {
     choices: [
       {
         label: 'Accept the extraction and continue.',
-        target: 'WINGED_MONKEY_ENTRY',
+        target: 'GHOST_SIGNAL',
         effects: [
           { type: 'addDesynctear', value: 4 },
           { type: 'graft', material: 'monkey_extracted_sample', target: 'witch_west' },
@@ -549,7 +549,7 @@ export const enforcerPassages = {
     choices: [
       {
         label: 'Accept the temporary drain and return to ground.',
-        target: 'WINGED_MONKEY_ENTRY',
+        target: 'GHOST_SIGNAL',
         effects: [
           { type: 'addLoad', value: -8 },
           { type: 'addDisplacement', value: 3 },
@@ -579,7 +579,7 @@ export const enforcerPassages = {
     choices: [
       {
         label: 'Accept the logged resistance and its consequences.',
-        target: 'WINGED_MONKEY_ENTRY',
+        target: 'GHOST_SIGNAL',
         effects: [
           { type: 'addDesync', value: 3 },
           { type: 'addWarrant', value: 4 },
@@ -609,7 +609,7 @@ export const enforcerPassages = {
     choices: [
       {
         label: 'Accept the monitoring installation and continue.',
-        target: 'WINGED_MONKEY_ENTRY',
+        target: 'GHOST_SIGNAL',
         effects: [
           { type: 'setCompliance', value: 'high' },
           { type: 'graft', material: 'monkey_command_thread', target: 'witch_west' },
@@ -640,7 +640,7 @@ export const enforcerPassages = {
     choices: [
       {
         label: 'Accept the resonance deposit and continue.',
-        target: 'WINGED_MONKEY_ENTRY',
+        target: 'GHOST_SIGNAL',
         effects: [
           { type: 'addDesync', value: 4 },
           { type: 'graft', material: 'monkey_shriek_resonance', target: 'tinman' },
@@ -670,7 +670,7 @@ export const enforcerPassages = {
     choices: [
       {
         label: 'Accept the straw deposit and continue.',
-        target: 'WINGED_MONKEY_ENTRY',
+        target: 'GHOST_SIGNAL',
         effects: [
           { type: 'addScatter', value: 3 },
           { type: 'graft', material: 'scarecrow_straw', target: 'lion' },
@@ -701,7 +701,7 @@ export const enforcerPassages = {
     choices: [
       {
         label: 'Fly with the flock to the authorized destination.',
-        target: 'WINGED_MONKEY_ENTRY',
+        target: 'GHOST_SIGNAL',
         effects: [
           { type: 'addDisplacement', value: 6 },
           { type: 'addLoad', value: 15 },
@@ -837,7 +837,7 @@ export const enforcerPassages = {
     choices: [
       {
         label: 'Follow the hybrid paths opened by the seam press.',
-        target: 'KALIDAH_MERGE_ENTRY',
+        target: 'GHOST_SIGNAL',
         effects: [
           { type: 'addDesynctear', value: 6 },
           { type: 'addDesync', value: 2 },
@@ -868,7 +868,7 @@ export const enforcerPassages = {
     choices: [
       {
         label: 'Accept the straw-metal composite and continue.',
-        target: 'KALIDAH_MERGE_ENTRY',
+        target: 'GHOST_SIGNAL',
         effects: [
           { type: 'addScatter', value: 3 },
           { type: 'addCorrosion', value: 3 },
@@ -900,7 +900,7 @@ export const enforcerPassages = {
     choices: [
       {
         label: 'Follow the jaw overwrite into the Kalidah Merge ending.',
-        target: 'KALIDAH_MERGE_ENTRY',
+        target: 'GHOST_SIGNAL',
         effects: [
           { type: 'addVibration', value: 5 },
           { type: 'addDesynctear', value: 5 },
@@ -931,7 +931,7 @@ export const enforcerPassages = {
     choices: [
       {
         label: 'Accept the composite limb and continue with the merge.',
-        target: 'KALIDAH_MERGE_ENTRY',
+        target: 'GHOST_SIGNAL',
         effects: [
           { type: 'addStitchIntegrity', value: -5 },
           { type: 'addSeizure', value: 3 },
@@ -963,7 +963,7 @@ export const enforcerPassages = {
     choices: [
       {
         label: 'Let the hybrid compounds route through the high-surreality branches.',
-        target: 'KALIDAH_MERGE_ENTRY',
+        target: 'GHOST_SIGNAL',
         effects: [
           { type: 'addDesynctear', value: 6 },
           { type: 'addDesync', value: 4 },
@@ -996,7 +996,7 @@ export const enforcerPassages = {
     choices: [
       {
         label: 'Let the audit loop route toward feedback dissolution.',
-        target: 'KALIDAH_MERGE_ENTRY',
+        target: 'GHOST_SIGNAL',
         effects: [
           { type: 'addDesync', value: 5 },
           { type: 'addOverrender', value: 2 },
@@ -1028,7 +1028,7 @@ export const enforcerPassages = {
     choices: [
       {
         label: 'Accept the graft scars and continue.',
-        target: 'KALIDAH_MERGE_ENTRY',
+        target: 'GHOST_SIGNAL',
         effects: [
           { type: 'addStitchIntegrity', value: -3 },
           { type: 'addDesynctear', value: 4 },
@@ -1062,7 +1062,7 @@ export const enforcerPassages = {
     choices: [
       {
         label: 'Accept the total integration — route toward the Kalidah Merge ending.',
-        target: 'KALIDAH_MERGE_ENTRY',
+        target: 'GHOST_SIGNAL',
         effects: [
           { type: 'addDesynctear', value: 10 },
           { type: 'addDesync', value: 6 },
@@ -1202,7 +1202,7 @@ export const enforcerPassages = {
     choices: [
       {
         label: 'Rest in the first sting warmth and continue.',
-        target: 'POPPY_DRONE_ENTRY',
+        target: 'GHOST_SIGNAL',
         effects: [
           { type: 'addVibration', value: -3 },
           { type: 'addScatter', value: -3 },
@@ -1234,7 +1234,7 @@ export const enforcerPassages = {
     choices: [
       {
         label: 'Accept the dormant haze and let it route toward the Poppy Sleep.',
-        target: 'POPPY_DRONE_ENTRY',
+        target: 'GHOST_SIGNAL',
         effects: [
           { type: 'addLoad', value: -10 },
           { type: 'addDesynctear', value: -3 },
@@ -1266,7 +1266,7 @@ export const enforcerPassages = {
     choices: [
       {
         label: 'Accept the bloom graft and continue with insulated paths.',
-        target: 'POPPY_DRONE_ENTRY',
+        target: 'GHOST_SIGNAL',
         effects: [
           { type: 'addStitchIntegrity', value: 3 },
           { type: 'addInsulation', value: 4 },
@@ -1297,7 +1297,7 @@ export const enforcerPassages = {
     choices: [
       {
         label: 'Follow the hazy peace routes through the scent harvest.',
-        target: 'POPPY_DRONE_ENTRY',
+        target: 'GHOST_SIGNAL',
         effects: [
           { type: 'addLoad', value: 8 },
           { type: 'addOverrender', value: 1 },
@@ -1329,7 +1329,7 @@ export const enforcerPassages = {
     choices: [
       {
         label: 'Sink into the rooting — accept the temporary safety.',
-        target: 'POPPY_DRONE_ENTRY',
+        target: 'GHOST_SIGNAL',
         effects: [
           { type: 'addStitchIntegrity', value: -2 },
           { type: 'addSeizure', value: -2 },
@@ -1362,7 +1362,7 @@ export const enforcerPassages = {
     choices: [
       {
         label: 'Accept the nectar communion and the compliance loop.',
-        target: 'POPPY_DRONE_ENTRY',
+        target: 'GHOST_SIGNAL',
         effects: [
           { type: 'addLoad', value: 5 },
           { type: 'setCompliance', value: 'high' },
@@ -1394,7 +1394,7 @@ export const enforcerPassages = {
     choices: [
       {
         label: 'Accept the pleasant logs and continue with insulated paths.',
-        target: 'POPPY_DRONE_ENTRY',
+        target: 'GHOST_SIGNAL',
         effects: [
           { type: 'addInsulation', value: 6 },
           { type: 'setCompliance', value: 'high' },
@@ -1427,7 +1427,7 @@ export const enforcerPassages = {
     choices: [
       {
         label: 'Accept the full bloom — let the dissolution complete.',
-        target: 'POPPY_DRONE_ENTRY',
+        target: 'GHOST_SIGNAL',
         effects: [
           { type: 'addLoad', value: -20 },
           { type: 'addDesync', value: 5 },

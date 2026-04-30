@@ -927,12 +927,12 @@ You zoom the obsidian eye into the Lion's pinned form. His anatomy is a map of f
       },
       {
         label: 'Sector Delta: The Paws (Kinetic Friction).',
-        target: 'WITCH_WEST_LION_AUDIT_HUB',
+        target: 'WITCH_WEST_COMMAND_DECK_V2',
         effects: [{ type: 'addLoad', value: 4 }],
       },
       {
         label: 'Sector Omega: The Vocal Chords (Roar Error-Log).',
-        target: 'WITCH_WEST_LION_AUDIT_HUB',
+        target: 'WITCH_WEST_COMMAND_DECK_V2',
         effects: [{ type: 'addWarrant', value: 2 }],
       },
       {
@@ -959,12 +959,12 @@ The Lion flinches—a sharp, electric spasm.
     choices: [
       {
         label: 'Feed the hairs into the crucible.',
-        target: 'WITCH_WEST_LION_AUDIT_HUB',
+        target: 'WITCH_WEST_COMMAND_DECK_V2',
         effects: [{ type: 'addSaturation', value: 15 }, { type: 'setFlag', key: 'lion_hair_logged', value: true }],
       },
       {
         label: 'Braid the hairs into a "Fear-Whip".',
-        target: 'WITCH_WEST_LION_AUDIT_HUB',
+        target: 'WITCH_WEST_COMMAND_DECK_V2',
         effects: [{ type: 'addWarrant', value: 8 }, { type: 'graft', material: 'fear_whip', target: 'witch_west' }],
       },
     ],
@@ -1100,7 +1100,7 @@ You see a pile of discarded **Ruby Slippers**. They aren't glowing. They look li
     choices: [
       {
         label: 'Search the trash for "The Origin Code".',
-        target: 'WITCH_WEST_UNLIT_BASEMENT',
+        target: 'WITCH_WEST_END_GHOST_BIT',
         effects: [{ type: 'addDesync', value: 10 }, { type: 'setFlag', key: 'unindexed', value: true }],
       },
       {
