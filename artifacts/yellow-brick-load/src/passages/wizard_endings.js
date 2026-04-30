@@ -41,7 +41,7 @@ export const wizardEndingPassages = {
     ],
     choices: [],
     onEnter: [],
-  },,
+  },
 
   WIZARD_END_FAIL: {
     id: 'WIZARD_END_FAIL',
@@ -77,7 +77,7 @@ export const wizardEndingPassages = {
     ],
     choices: [],
     onEnter: [],
-  },,
+  },
 
   WIZARD_END_OVERRIDE: {
     id: 'WIZARD_END_OVERRIDE',
@@ -113,7 +113,7 @@ export const wizardEndingPassages = {
     ],
     choices: [],
     onEnter: [],
-  },,
+  },
 
   WIZARD_END_GREEN: {
     id: 'WIZARD_END_GREEN',
@@ -149,7 +149,7 @@ export const wizardEndingPassages = {
     ],
     choices: [],
     onEnter: [],
-  },,
+  },
 
   WIZARD_END_BALLOON: {
     id: 'WIZARD_END_BALLOON',
@@ -185,7 +185,7 @@ export const wizardEndingPassages = {
     ],
     choices: [],
     onEnter: [],
-  },,
+  },
 
   WIZARD_END_ORIGIN: {
     id: 'WIZARD_END_ORIGIN',
@@ -221,5 +221,5 @@ export const wizardEndingPassages = {
     ],
     choices: [],
     onEnter: [],
-  },,
+  },
 }

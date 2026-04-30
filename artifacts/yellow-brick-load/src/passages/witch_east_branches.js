@@ -46,7 +46,7 @@ export const witchEastBranchPassages = {
       },
     ],
     onEnter: [{ type: 'checkGhostSignal' }, { type: 'triggerOracle' }],
-  },,
+  },
 
   WITCH_EAST_PATH_GRAVITY: {
     id: 'WITCH_EAST_PATH_GRAVITY',
@@ -87,5 +87,5 @@ export const witchEastBranchPassages = {
       },
     ],
     onEnter: [{ type: 'triggerOracle' }],
-  },,
+  },
 }

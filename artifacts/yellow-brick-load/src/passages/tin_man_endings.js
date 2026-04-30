@@ -35,7 +35,7 @@ When they finally close your drawer for the last time, will the meat inside stil
     choices: [],
     onEnter: [],
     isEnding: true,
-  },,
+  },
 
   T_END_02: {
     id: "T_END_02",
@@ -65,7 +65,7 @@ How much of you has to rust away before the system stops calling it "you"?`,
     choices: [],
     onEnter: [],
     isEnding: true,
-  },,
+  },
 
   T_END_03: {
     id: "T_END_03",
@@ -95,7 +95,7 @@ If their pain keeps your heart beating, whose suffering are you really feeling?`
     choices: [],
     onEnter: [],
     isEnding: true,
-  },,
+  },
 
   T_END_04: {
     id: "T_END_04",
@@ -125,7 +125,7 @@ If every scream in Oz echoes inside you, how long until there is no room left fo
     choices: [],
     onEnter: [],
     isEnding: true,
-  },,
+  },
 
   T_END_06: {
     id: "T_END_06",
@@ -155,7 +155,7 @@ When even your memories have rusted, what part of you is still worth keeping?`,
     choices: [],
     onEnter: [],
     isEnding: true,
-  },,
+  },
 
   T_END_07: {
     id: "T_END_07",
@@ -185,7 +185,7 @@ When they melt down the last useful part of you, will anything left still feel p
     choices: [],
     onEnter: [],
     isEnding: true,
-  },,
+  },
 
   T_END_09: {
     id: "T_END_09",
@@ -217,7 +217,7 @@ If you stop struggling, does the oil still count as drowning you?`,
     choices: [],
     onEnter: [],
     isEnding: true,
-  },,
+  },
 
   T_END_10: {
     id: "T_END_10",
@@ -247,7 +247,7 @@ How long do you keep trying to move when every joint has already said no?`,
     choices: [],
     onEnter: [],
     isEnding: true,
-  },,
+  },
 
   T_END_12: {
     id: "T_END_12",
@@ -277,7 +277,7 @@ If your heart only beats when the system allows it, whose life are you really li
     choices: [],
     onEnter: [],
     isEnding: true,
-  },,
+  },
 
   T_END_13: {
     id: "T_END_13",
@@ -305,7 +305,7 @@ When you are finally waste, does the system still own what leaks out of you?`,
     choices: [],
     onEnter: [],
     isEnding: true,
-  },,
+  },
 
   T_END_14: {
     id: "T_END_14",
@@ -335,7 +335,7 @@ If the outside is finally perfect, does the screaming meat inside still matter?`
     choices: [],
     onEnter: [],
     isEnding: true,
-  },,
+  },
 
   T_END_19: {
     id: "T_END_19",
@@ -365,7 +365,7 @@ When they finally mop you up, will any part of you still try to crawl back toget
     choices: [],
     onEnter: [],
     isEnding: true,
-  },,
+  },
 
   T_END_21: {
     id: "T_END_21",
@@ -399,5 +399,5 @@ When every thought you have becomes a record, who owns what you are thinking?`,
     choices: [],
     onEnter: [],
     isEnding: true,
-  },,
+  },
 }

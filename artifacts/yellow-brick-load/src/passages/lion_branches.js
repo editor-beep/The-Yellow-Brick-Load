@@ -101,7 +101,7 @@ You open your mouth. What comes out is a dry rasp. A dry rasp. A dry—`,
       },
     ],
     onEnter: [],
-  },,
+  },
 
   LION_DENIAL: {
     id: "LION_DENIAL",
@@ -157,7 +157,7 @@ You keep walking. The tremor moves up into your chest now, a wet fluttering like
       },
     ],
     onEnter: [{ type: 'triggerOracle' }],
-  },,
+  },
 
   LION_ASSIMILATION: {
     id: "LION_ASSIMILATION",
@@ -216,7 +216,7 @@ A figure appears at the edge of the grid. It wears the skin of a technician but 
       },
     ],
     onEnter: [],
-  },,
+  },
 
   LION_SEDATION: {
     id: "LION_SEDATION",
@@ -271,7 +271,7 @@ The technician makes a note. The technician has always been making a note.`,
       },
     ],
     onEnter: [],
-  },,
+  },
 
   LION_NOMINALIZATION: {
     id: "LION_NOMINALIZATION",
@@ -313,7 +313,7 @@ The technician turns to leave.`,
       },
     ],
     onEnter: [],
-  },,
+  },
 
   LION_MIRROR_ASSIMILATION: {
     id: "LION_MIRROR_ASSIMILATION",
@@ -357,7 +357,7 @@ The figure begins to fade. It does not vanish; it loses its opacity, becoming a 
       },
     ],
     onEnter: [{ type: "addSmudge", value: 1 }],
-  },,
+  },
 
   LION_NOMINAL_ECHO: {
     id: 'LION_NOMINAL_ECHO',
@@ -402,7 +402,7 @@ You try to shake your head. The movement is blocked. The shaking is now a DESIGN
       },
     ],
     onEnter: [{ type: 'addDesynctear', value: 2 }],
-  },,
+  },
 
   LION_LATENCY: {
     id: 'LION_LATENCY',
@@ -467,7 +467,7 @@ The white room has no malice. No malice. Only throughput. Only throughput.`,
       },
     ],
     onEnter: [{ type: 'addDesynctear', value: 2 }],
-  },,
+  },
 
   LION_CLOSED_SYSTEM: {
     id: 'LION_CLOSED_SYSTEM',
@@ -517,7 +517,7 @@ You lie down. The yellow bricks feel neither cold nor warm. They feel like a con
       },
     ],
     onEnter: [{ type: 'addVibration', value: 8 }],
-  },,
+  },
 
   LION_VIOLENCE: {
     id: "LION_VIOLENCE",
@@ -562,7 +562,7 @@ It does not charge. It simply watches, waiting to see whether you will help it f
       },
     ],
     onEnter: [{ type: "addSmudge", value: 1 }],
-  },,
+  },
 
   LION_KALIDAH_FIGHT: {
     id: "LION_KALIDAH_FIGHT",
@@ -601,7 +601,7 @@ The tremor in your jaw locks in perfect rhythm with the Kalidah's failing whine.
       },
     ],
     onEnter: [],
-  },,
+  },
 
   LION_AUDIO_EVENT: {
     id: "LION_AUDIO_EVENT",
@@ -638,7 +638,7 @@ You are a King of a broken frame.`,
       },
     ],
     onEnter: [],
-  },,
+  },
 
   LION_LATENCY_GAP: {
     id: 'LION_LATENCY_GAP',
@@ -684,7 +684,7 @@ The gap is where the self used to live. Now it is only unallocated meat and dela
       },
     ],
     onEnter: [{ type: 'addDesynctear', value: 3 }],
-  },,
+  },
 
   LION_RESONANCE_COLLAPSE: {
     id: "LION_RESONANCE_COLLAPSE",
@@ -750,7 +750,7 @@ The columns dissolve. The columns dissolve. The Kalidah loses its outline loses 
       },
     ],
     onEnter: [{ type: "addOverrender", value: 1 }],
-  },,
+  },
 
   LION_KALIDAH_PATCH: {
     id: "LION_KALIDAH_PATCH",
@@ -792,7 +792,7 @@ The reset fails. You are too heavy now. You are the friction that the road could
       },
     ],
     onEnter: [{ type: "addSmudge", value: 1 }],
-  },,
+  },
 
   LION_MUFFLED_CHAMBER: {
     id: "LION_MUFFLED_CHAMBER",
@@ -836,7 +836,7 @@ You are a lion in a box made of lion. You are the silence that follows a roar.`,
       },
     ],
     onEnter: [{ type: "addOverrender", value: 1 }],
-  },,
+  },
 
   LION_MANE_FRACTURE: {
     id: 'LION_MANE_FRACTURE',
@@ -882,7 +882,7 @@ The skin beneath the broken mane is already pulsing, wet and raw, waiting for th
       },
     ],
     onEnter: [{ type: 'addVibration', value: 3 }],
-  },,
+  },
 
   LION_SYSTEM_SPASM: {
     id: 'LION_SYSTEM_SPASM',
@@ -934,7 +934,7 @@ Your spine is screaming. The mane is gone. There is only raw, shaking meat and t
       { type: 'addDesynctear', value: 3 },
       { type: 'setCompliance', value: 'low' },
     ],
-  },,
+  },
 
   LION_VOID_FRAGMENT: {
     id: 'LION_VOID_FRAGMENT',
@@ -984,7 +984,7 @@ A single notification pulses in the dark:
       },
     ],
     onEnter: [{ type: 'addDesynctear', value: 4 }],
-  },,
+  },
 
   LION_HARD_RESET: {
     id: "LION_HARD_RESET",
@@ -1026,7 +1026,7 @@ The road behind you is gone.`,
       },
     ],
     onEnter: [],
-  },,
+  },
 
   LION_ROYAL_COMPLIANCE: {
     id: "LION_ROYAL_COMPLIANCE",
@@ -1068,7 +1068,7 @@ The road behind you is gone.`,
       },
     ],
     onEnter: [],
-  },,
+  },
 
   LION_GEAR_HIDING: {
     id: "LION_GEAR_HIDING",
@@ -1110,7 +1110,7 @@ The road behind you is gone.`,
       },
     ],
     onEnter: [{ type: "addDesync", value: 2 }],
-  },,
+  },
 
   LION_CALIBRATION_POINT: {
     id: 'LION_CALIBRATION_POINT',
@@ -1154,7 +1154,7 @@ The bird tilts its head. A small needle extends from its beak and hovers near th
       },
     ],
     onEnter: [{ type: 'addVibration', value: 4 }],
-  },,
+  },
 
   LION_HARMONIC_ALIGNMENT: {
     id: "LION_HARMONIC_ALIGNMENT",
@@ -1182,7 +1182,7 @@ The bird tilts its head. A small needle extends from its beak and hovers near th
       },
     ],
     onEnter: [{ type: "addVibration", value: 10 }],
-  },,
+  },
 
   LION_ACOUSTIC_REBELLION: {
     id: 'LION_ACOUSTIC_REBELLION',
@@ -1226,7 +1226,7 @@ The sky answers with a wet, tearing static. Somewhere in the distance, something
       },
     ],
     onEnter: [{ type: 'addVibration', value: 6 }],
-  },,
+  },
 
   LION_INIT_H: {
     id: "LION_INIT_H",
@@ -1277,7 +1277,7 @@ The sky answers with a wet, tearing static. Somewhere in the distance, something
       },
     ],
     onEnter: [],
-  },,
+  },
 
   LION_ASSIMILATION_H: {
     id: 'LION_ASSIMILATION_H',
@@ -1331,7 +1331,7 @@ It is architecture.`,
       },
     ],
     onEnter: [{ type: 'addVibration', value: -5 }],
-  },,
+  },
 
   LION_DENIAL_H: {
     id: "LION_DENIAL_H",
@@ -1376,7 +1376,7 @@ It is architecture.`,
       },
     ],
     onEnter: [],
-  },,
+  },
 
   LION_VIOLENCE_H: {
     id: "LION_VIOLENCE_H",
@@ -1425,7 +1425,7 @@ It is architecture.`,
       },
     ],
     onEnter: [{ type: "addSmudge", value: 1 }],
-  },,
+  },
 
   LION_UNINDEXED_MANY: {
     id: "LION_UNINDEXED_MANY",
@@ -1453,7 +1453,7 @@ It is architecture.`,
       },
     ],
     onEnter: [{ type: "addOverrender", value: 1 }],
-  },,
+  },
 
   LION_RITUAL_WORK: {
     id: "LION_RITUAL_WORK",
@@ -1494,7 +1494,7 @@ It is architecture.`,
       },
     ],
     onEnter: [{ type: "addSmudge", value: 1 }],
-  },,
+  },
 
   LION_EMPTY_PROMENADE: {
     id: "LION_EMPTY_PROMENADE",
@@ -1525,7 +1525,7 @@ It is architecture.`,
       },
     ],
     onEnter: [],
-  },,
+  },
 
   LION_TAXIDERMY_HUB: {
     id: "LION_TAXIDERMY_HUB",
@@ -1552,7 +1552,7 @@ It is architecture.`,
       },
     ],
     onEnter: [],
-  },,
+  },
 
   LION_REMAINTENANCE: {
   id: 'LION_REMAINTENANCE',
@@ -1584,7 +1584,7 @@ It is architecture.`,
   }
   ],
   onEnter: [{ type: 'setCompliance', value: 'high' }]
-  },,
+  },
 
   LION_VOID_TREK: {
     id: 'LION_VOID_TREK',
@@ -1624,7 +1624,7 @@ It feels almost peaceful.`,
       }
     ],
     onEnter: [{ type: 'addDesynctear', value: 6 }],
-  },,
+  },
 
   LION_INK_REJECTION: {
   id: 'LION_INK_REJECTION',
@@ -1656,7 +1656,7 @@ It feels almost peaceful.`,
   }
   ],
   onEnter: [{ type: 'addSmudge', value: 3 }]
-  },,
+  },
 
   LION_WHITE_LOGIC: {
   id: 'LION_WHITE_LOGIC',
@@ -1686,7 +1686,7 @@ It feels almost peaceful.`,
   }
   ],
   onEnter: [{ type: 'addOverrender', value: 2 }]
-  },,
+  },
 
   LION_ECHO_CHAMBER: {
   id: 'LION_ECHO_CHAMBER',
@@ -1713,7 +1713,7 @@ It feels almost peaceful.`,
   }
   ],
   onEnter: [{ type: 'addVibration', value: 10 }]
-  },,
+  },
 
   LION_GATES_OF_OZ: {
     id: 'LION_GATES_OF_OZ',
@@ -1758,7 +1758,7 @@ This is the place where kings are rewritten.`,
       }
     ],
     onEnter: [{ type: 'addVibration', value: 5 }],
-  },,
+  },
 
   LION_AUDIENCE_CHAMBER: {
     id: 'LION_AUDIENCE_CHAMBER',
@@ -1796,7 +1796,7 @@ This is an interrogation wearing a smile.`,
       }
     ],
     onEnter: [{ type: 'addVibration', value: 4 }],
-  },,
+  },
 
   LION_QUADLING_SECTOR: {
   id: 'LION_QUADLING_SECTOR',
@@ -1837,7 +1837,7 @@ The Hammer-Heads watch. They are waiting for your decision about what this means
   }
   ],
   onEnter: []
-  },,
+  },
 
   LION_WIZARD_MISSION: {
     id: 'LION_WIZARD_MISSION',
@@ -1885,7 +1885,7 @@ You feel the lie in every vibrating fiber of your failing body.`,
       }
     ],
     onEnter: [{ type: 'addVibration', value: 6 }],
-  },,
+  },
 
   LION_FOREST_THRONE: {
     id: 'LION_FOREST_THRONE',
@@ -1925,7 +1925,7 @@ This is your cage.`,
       }
     ],
     onEnter: [{ type: 'addVibration', value: 7 }],
-  },,
+  },
 
   LION_GLINDA_RECORD: {
     id: 'LION_GLINDA_RECORD',
@@ -1961,7 +1961,7 @@ The tremor is still there. It has simply been beautified.
       }
     ],
     onEnter: [{ type: 'addVibration', value: 5 }],
-  },,
+  },
 
   LION_POPPY_BUFFER: {
     id: 'LION_POPPY_BUFFER',
@@ -2007,7 +2007,7 @@ New red poppies are already beginning to sprout from the puncture wounds, their 
       }
     ],
     onEnter: [{ type: 'addVibration', value: -8 }],
-  },,
+  },
 
   LION_SPINE_HUB: {
     id: 'LION_SPINE_HUB',
@@ -2067,7 +2067,7 @@ A Bureau Technician waits by the forks, its face a blank sheet of carbon paper. 
       },
     ],
     onEnter: [{ type: 'addOverrender', value: 1 }],
-  },,
+  },
 
   LION_MANE_SCRAPE_LOOP: {
     id: 'LION_MANE_SCRAPE_LOOP',
@@ -2097,7 +2097,7 @@ The Technician uses a silver file to scrape the edges.
       },
     ],
     onEnter: [],
-  },,
+  },
 
   LION_CLERK_LOOP: {
     id: 'LION_CLERK_LOOP',
@@ -2125,7 +2125,7 @@ The Clerk is a tall, spindly thing made of overstuffed folders. It smells of ced
       },
     ],
     onEnter: [],
-  },,
+  },
 
   LION_ROAR_TEST_LOOP: {
     id: 'LION_ROAR_TEST_LOOP',
@@ -2153,7 +2153,7 @@ You open your jaw. The shims between your vertebrae grind together. You are aske
       },
     ],
     onEnter: [],
-  },,
+  },
 
   LION_BLUE_FLUID_LOOP: {
     id: 'LION_BLUE_FLUID_LOOP',
@@ -2186,7 +2186,7 @@ The tremor does not stop. It migrates. From your jaw to your spine to the base o
       },
     ],
     onEnter: [],
-  },,
+  },
 
   LION_SYSTEM_ENTROPY: {
     id: 'LION_SYSTEM_ENTROPY',
@@ -2214,7 +2214,7 @@ The Technician is gone. The Clerk is gone. There is only the white light behind 
       },
     ],
     onEnter: [{ type: 'addOverrender', value: 2 }],
-  },,
+  },
 
   LION_VERTEBRAE_HUB: {
     id: 'LION_VERTEBRAE_HUB',
@@ -2259,7 +2259,7 @@ The internal fans in your ribcage are whirring, trying to exhaust the heat of yo
       },
     ],
     onEnter: [],
-  },,
+  },
 
   LION_NECK_TENSION: {
     id: 'LION_NECK_TENSION',
@@ -2289,7 +2289,7 @@ The skin at the back of your neck is raw. Every time you try to look at the hori
       },
     ],
     onEnter: [],
-  },,
+  },
 
   LION_RIB_EXPANSION: {
     id: 'LION_RIB_EXPANSION',
@@ -2324,7 +2324,7 @@ The heat is building. The fans cannot keep pace. Something must give.`,
       },
     ],
     onEnter: [{ type: 'addVibration', value: 4 }],
-  },,
+  },
 
   LION_TAIL_DRAG: {
     id: 'LION_TAIL_DRAG',
@@ -2354,7 +2354,7 @@ Behind you, a small, silver "Eraser-Drone" follows, trying to buff the scratches
       },
     ],
     onEnter: [],
-  },,
+  },
 
   LION_GHOST_SIGNAL: {
     id: 'LION_GHOST_SIGNAL',
@@ -2386,7 +2386,7 @@ You are a King who has become an antenna for the entire simulation's pain.`,
       },
     ],
     onEnter: [{ type: 'checkGhostSignal' }],
-  },,
+  },
 
   LION_HARVEST_HUB: {
     id: 'LION_HARVEST_HUB',
@@ -2426,7 +2426,7 @@ You feel the first cold tug at the base of your skull. The tremor in your jaw hi
       },
     ],
     onEnter: [{ type: 'triggerOracle' }],
-  },,
+  },
 
   LION_MANE_STRIPPING: {
     id: 'LION_MANE_STRIPPING',
@@ -2458,7 +2458,7 @@ You feel lighter. You feel colder. You feel like a document that has been stripp
       },
     ],
     onEnter: [{ type: 'addSmudge', value: 1 }],
-  },,
+  },
 
   LION_SEAM_LOCK: {
     id: 'LION_SEAM_LOCK',
@@ -2490,7 +2490,7 @@ The heat in your body is reaching a critical point. If you keep holding the seam
       },
     ],
     onEnter: [{ type: 'addVibration', value: 5 }],
-  },,
+  },
 
   LION_ROAR_TRADE: {
     id: 'LION_ROAR_TRADE',
@@ -2536,5 +2536,5 @@ The Clerk materializes beside you with a carbon-paper contract. The price is you
       },
     ],
     onEnter: [],
-  },,
+  },
 }

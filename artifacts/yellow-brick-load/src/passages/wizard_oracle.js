@@ -43,7 +43,7 @@ export const wizardOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   WIZARD_ORACLE_DRAW: {
     id: 'WIZARD_ORACLE_DRAW',
@@ -105,7 +105,7 @@ export const wizardOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   WIZARD_ORACLE_1: {
     id: 'WIZARD_ORACLE_1',
@@ -144,7 +144,7 @@ export const wizardOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   WIZARD_ORACLE_2: {
     id: 'WIZARD_ORACLE_2',
@@ -184,7 +184,7 @@ export const wizardOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   WIZARD_ORACLE_3: {
     id: 'WIZARD_ORACLE_3',
@@ -223,7 +223,7 @@ export const wizardOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   WIZARD_ORACLE_4: {
     id: 'WIZARD_ORACLE_4',
@@ -263,7 +263,7 @@ export const wizardOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   WIZARD_ORACLE_5: {
     id: 'WIZARD_ORACLE_5',
@@ -305,7 +305,7 @@ export const wizardOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   WIZARD_ORACLE_6: {
     id: 'WIZARD_ORACLE_6',
@@ -346,7 +346,7 @@ export const wizardOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   WIZARD_ORACLE_7: {
     id: 'WIZARD_ORACLE_7',
@@ -388,7 +388,7 @@ export const wizardOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   WIZARD_ORACLE_8: {
     id: 'WIZARD_ORACLE_8',
@@ -428,5 +428,5 @@ export const wizardOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 }

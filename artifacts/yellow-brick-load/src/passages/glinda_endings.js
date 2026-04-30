@@ -41,7 +41,7 @@ export const glindaEndingPassages = {
     ],
     choices: [],
     onEnter: [],
-  },,
+  },
 
   GLINDA_END_INSULATED: {
     id: 'GLINDA_END_INSULATED',
@@ -77,7 +77,7 @@ export const glindaEndingPassages = {
     ],
     choices: [],
     onEnter: [],
-  },,
+  },
 
   GLINDA_END_REFRACTION: {
     id: 'GLINDA_END_REFRACTION',
@@ -113,7 +113,7 @@ export const glindaEndingPassages = {
     ],
     choices: [],
     onEnter: [],
-  },,
+  },
 
   GLINDA_END_DRIFT: {
     id: 'GLINDA_END_DRIFT',
@@ -149,7 +149,7 @@ export const glindaEndingPassages = {
     ],
     choices: [],
     onEnter: [],
-  },,
+  },
 
   GLINDA_END_SILVER_ECHO: {
     id: 'GLINDA_END_SILVER_ECHO',
@@ -185,7 +185,7 @@ export const glindaEndingPassages = {
     ],
     choices: [],
     onEnter: [],
-  },,
+  },
 
   GLINDA_END_BURST: {
     id: 'GLINDA_END_BURST',
@@ -221,5 +221,5 @@ export const glindaEndingPassages = {
     ],
     choices: [],
     onEnter: [],
-  },,
+  },
 }

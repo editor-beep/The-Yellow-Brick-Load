@@ -46,7 +46,7 @@ export const lionOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   LION_ORACLE_DRAW: {
     id: 'LION_ORACLE_DRAW',
@@ -108,7 +108,7 @@ export const lionOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   LION_ORACLE_1: {
     id: 'LION_ORACLE_1',
@@ -149,7 +149,7 @@ export const lionOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   LION_ORACLE_2: {
     id: 'LION_ORACLE_2',
@@ -189,7 +189,7 @@ export const lionOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   LION_ORACLE_3: {
     id: 'LION_ORACLE_3',
@@ -230,7 +230,7 @@ export const lionOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   LION_ORACLE_4: {
     id: 'LION_ORACLE_4',
@@ -270,7 +270,7 @@ export const lionOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   LION_ORACLE_5: {
     id: 'LION_ORACLE_5',
@@ -310,7 +310,7 @@ export const lionOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   LION_ORACLE_6: {
     id: 'LION_ORACLE_6',
@@ -350,7 +350,7 @@ export const lionOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   LION_ORACLE_7: {
     id: 'LION_ORACLE_7',
@@ -391,7 +391,7 @@ export const lionOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 
   LION_ORACLE_8: {
     id: 'LION_ORACLE_8',
@@ -433,5 +433,5 @@ export const lionOraclePassages = {
       },
     ],
     onEnter: [],
-  },,
+  },
 }

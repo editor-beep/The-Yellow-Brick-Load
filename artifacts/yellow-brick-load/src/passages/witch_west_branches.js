@@ -59,7 +59,7 @@ You take what the Bureau needs and discard the rest as beautiful, screaming wast
       },
     ],
     onEnter: [{ type: 'checkGhostSignal' }, { type: 'triggerOracle' }],
-  },,
+  },
 
   WITCH_WEST_INIT_B: {
     id: 'WITCH_WEST_INIT_B',
@@ -125,7 +125,7 @@ How delightful.`,
       },
     ],
     onEnter: [{ type: 'checkGhostSignal' }, { type: 'triggerOracle' }],
-  },,
+  },
 
   WITCH_WEST_PATH_MONKEYS: {
     id: 'WITCH_WEST_PATH_MONKEYS',
@@ -166,7 +166,7 @@ How delightful.`,
       },
     ],
     onEnter: [{ type: 'triggerOracle' }],
-  },,
+  },
 
   WITCH_WEST_MONKEY_SWEEP_B: {
     id: 'WITCH_WEST_MONKEY_SWEEP_B',
@@ -235,7 +235,7 @@ Toward the table where meat learns its place.`,
       },
     ],
     onEnter: [{ type: 'addWarrant', value: 3 }, { type: 'triggerOracle' }],
-  },,
+  },
 
   WITCH_WEST_FIELD_CONFRONTATION: {
     id: 'WITCH_WEST_FIELD_CONFRONTATION',
@@ -309,7 +309,7 @@ This is going to be exquisite.`,
       },
     ],
     onEnter: [{ type: 'addWarrant', value: 4 }, { type: 'triggerOracle' }],
-  },,
+  },
 
   WITCH_WEST_SELECT_TARGET: {
     id: 'WITCH_WEST_SELECT_TARGET',
@@ -344,7 +344,7 @@ Select the body that takes the blade first.` }],
       },
     ],
     onEnter: [],
-  },,
+  },
 
   WITCH_WEST_POPPY_BUFFER: {
     id: 'WITCH_WEST_POPPY_BUFFER',
@@ -393,7 +393,7 @@ The obsidian eye dilates with clinical satisfaction.
       },
     ],
     onEnter: [{ type: 'addWarrant', value: 2 }, { type: 'triggerOracle' }],
-  },,
+  },
 
   WITCH_WEST_OBSIDIAN_VIEW: {
     id: 'WITCH_WEST_OBSIDIAN_VIEW',
@@ -449,7 +449,7 @@ The eye records everything. So do you.`,
       },
     ],
     onEnter: [{ type: 'addWarrant', value: 3 }],
-  },,
+  },
 
   WITCH_WEST_MID_AIR_HARVEST: {
     id: 'WITCH_WEST_MID_AIR_HARVEST',
@@ -503,7 +503,7 @@ You are merely here to confirm the verdict.`,
       },
     ],
     onEnter: [{ type: 'addWarrant', value: 4 }, { type: 'addDesynctear', value: 3 }],
-  },,
+  },
 
   WITCH_WEST_TOWER_PREP: {
     id: 'WITCH_WEST_TOWER_PREP',
@@ -555,7 +555,7 @@ The room smells of iron and anticipation.
       },
     ],
     onEnter: [{ type: 'addWarrant', value: 3 }],
-  },,
+  },
 
   WITCH_WEST_PSYCHOLOGICAL_TORMENT: {
     id: 'WITCH_WEST_PSYCHOLOGICAL_TORMENT',
@@ -653,7 +653,7 @@ The Lion makes a sound—a soft, broken whine that would be pathetic if it weren
       },
     ],
     onEnter: [{ type: 'triggerOracle' }],
-  },,
+  },
 
   WITCH_WEST_MID_AIR_HARVEST_DETAIL: {
     id: 'WITCH_WEST_MID_AIR_HARVEST_DETAIL',
@@ -682,7 +682,7 @@ You watch the red poppies below blur into a smear of judicial pigment. By the ti
       },
     ],
     onEnter: [],
-  },,
+  },
 
   WITCH_WEST_CLERK_INTERLUDE: {
     id: 'WITCH_WEST_CLERK_INTERLUDE',
@@ -709,7 +709,7 @@ The obsidian eye pulses a deep, rhythmic violet. You feel the weight of the Bure
       },
     ],
     onEnter: [],
-  },,
+  },
 
   WITCH_WEST_GRID_FAILURE: {
     id: 'WITCH_WEST_GRID_FAILURE',
@@ -737,7 +737,7 @@ The system is hungry. If you don't feed it a conclusion soon, it will start eati
       },
     ],
     onEnter: [{ type: 'triggerOracle' }],
-  },,
+  },
 
   WITCH_WEST_COMMAND_DECK: {
     id: 'WITCH_WEST_COMMAND_DECK',
@@ -777,7 +777,7 @@ The air is thin and tastes of static. The Clerk stands behind you, a living tall
       },
     ],
     onEnter: [],
-  },,
+  },
 
   WITCH_WEST_MONKEY_MANAGEMENT: {
     id: 'WITCH_WEST_MONKEY_MANAGEMENT',
@@ -808,7 +808,7 @@ The Winged Monkeys are circling the target. You can see the Lion's heat signatur
       },
     ],
     onEnter: [],
-  },,
+  },
 
   WITCH_WEST_POPPY_CALIBRATION: {
     id: 'WITCH_WEST_POPPY_CALIBRATION',
@@ -834,7 +834,7 @@ You adjust the chemical output of the field. The red petals below begin to weep 
       },
     ],
     onEnter: [],
-  },,
+  },
 
   WITCH_WEST_BUREAU_LOG_CHECK: {
     id: 'WITCH_WEST_BUREAU_LOG_CHECK',
@@ -860,7 +860,7 @@ The Clerk slams a heavy ledger onto the command console.
       },
     ],
     onEnter: [],
-  },,
+  },
 
   WITCH_WEST_COMMAND_DECK_V2: {
     id: 'WITCH_WEST_COMMAND_DECK_V2',
@@ -907,7 +907,7 @@ The Lion is pinned. The Scarecrow is unspooling. The Tin Man is seized. You are 
       },
     ],
     onEnter: [{ type: 'incrementLoopCounter' }],
-  },,
+  },
 
   WITCH_WEST_LION_AUDIT_HUB: {
     id: 'WITCH_WEST_LION_AUDIT_HUB',
@@ -942,7 +942,7 @@ You zoom the obsidian eye into the Lion's pinned form. His anatomy is a map of f
       },
     ],
     onEnter: [],
-  },,
+  },
 
   WITCH_WEST_SCRAPE_MANE: {
     id: 'WITCH_WEST_SCRAPE_MANE',
@@ -969,7 +969,7 @@ The Lion flinches—a sharp, electric spasm.
       },
     ],
     onEnter: [],
-  },,
+  },
 
   WITCH_WEST_BUREAU_FILING: {
     id: 'WITCH_WEST_BUREAU_FILING',
@@ -995,7 +995,7 @@ The Clerk presents a series of forms. To the unindexed, these are just paper. To
       },
     ],
     onEnter: [],
-  },,
+  },
 
   WITCH_WEST_SIGNAL_BLEED: {
     id: 'WITCH_WEST_SIGNAL_BLEED',
@@ -1022,7 +1022,7 @@ The Clerk's face is just a smudge of carbon paper.
       },
     ],
     onEnter: [],
-  },,
+  },
 
   WITCH_WEST_WINKIE_CORRIDOR: {
     id: 'WITCH_WEST_WINKIE_CORRIDOR',
@@ -1050,7 +1050,7 @@ The Clerk marks the beat with a twitching finger. "The guards are reaching their
       },
     ],
     onEnter: [],
-  },,
+  },
 
   WITCH_WEST_THERMAL_SURGE: {
     id: 'WITCH_WEST_THERMAL_SURGE',
@@ -1080,7 +1080,7 @@ Home = Null.
       },
     ],
     onEnter: [{ type: 'triggerOracle' }],
-  },,
+  },
 
   WITCH_WEST_UNLIT_BASEMENT: {
     id: 'WITCH_WEST_UNLIT_BASEMENT',
@@ -1115,5 +1115,5 @@ You see a pile of discarded **Ruby Slippers**. They aren't glowing. They look li
       },
     ],
     onEnter: [],
-  },,
+  },
 }

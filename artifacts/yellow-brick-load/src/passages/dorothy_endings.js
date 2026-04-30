@@ -41,7 +41,7 @@ export const dorothyEndingPassages = {
     ],
     choices: [],
     onEnter: [],
-  },,
+  },
 
   DOROTHY_END_POPPY: {
     id: 'DOROTHY_END_POPPY',
@@ -77,7 +77,7 @@ export const dorothyEndingPassages = {
     ],
     choices: [],
     onEnter: [],
-  },,
+  },
 
   DOROTHY_END_SEAL: {
     id: 'DOROTHY_END_SEAL',
@@ -113,7 +113,7 @@ export const dorothyEndingPassages = {
     ],
     choices: [],
     onEnter: [],
-  },,
+  },
 
   DOROTHY_END_DISPLACEMENT: {
     id: 'DOROTHY_END_DISPLACEMENT',
@@ -149,5 +149,5 @@ export const dorothyEndingPassages = {
     ],
     choices: [],
     onEnter: [],
-  },,
+  },
 }

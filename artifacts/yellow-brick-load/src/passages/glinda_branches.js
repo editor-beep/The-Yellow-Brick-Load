@@ -47,7 +47,7 @@ export const glindaBranchPassages = {
       },
     ],
     onEnter: [{ type: 'checkGhostSignal' }, { type: 'triggerOracle' }],
-  },,
+  },
 
   GLINDA_PATH_ALTITUDE: {
     id: 'GLINDA_PATH_ALTITUDE',
@@ -87,5 +87,5 @@ export const glindaBranchPassages = {
       },
     ],
     onEnter: [{ type: 'triggerOracle' }],
-  },,
+  },
 }
