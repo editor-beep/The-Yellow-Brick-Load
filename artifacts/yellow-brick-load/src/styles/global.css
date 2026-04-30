@@ -629,7 +629,14 @@ body::before {
   display: block;
   object-fit: contain;
   image-rendering: crisp-edges;
-  filter: url(#oracle-jitter) drop-shadow(0 0 6px rgba(255, 191, 0, 0.04));
+  /* NOTE: do NOT apply `filter: url(#…)` to <img> tags here.
+   * Mobile Safari fails to render <img> elements that reference an
+   * inline-SVG filter defined in a hidden (width:0/height:0/overflow:hidden)
+   * <svg>, leaving the image invisible — which on Bureau cards (cream
+   * #F2EBDD background) reads as a blank cream rectangle to the player.
+   * Native CSS filters like drop-shadow are safe.
+   */
+  filter: drop-shadow(0 0 6px rgba(255, 191, 0, 0.04));
   transform: rotate(var(--card-tilt));
   animation: oracle-art-fade 0.55s ease both;
 }
@@ -637,15 +644,6 @@ body::before {
 @keyframes oracle-art-fade {
   from { opacity: 0; transform: translateY(4px) scale(0.985) rotate(var(--card-tilt)); }
   to   { opacity: 1; transform: translateY(0) scale(1) rotate(var(--card-tilt)); }
-}
-
-/* Hide the inline svg defs holder. */
-.oracle-svg-filters {
-  position: absolute;
-  width: 0;
-  height: 0;
-  overflow: hidden;
-  pointer-events: none;
 }
 
 /* Phase: SHUFFLE — fan-out card flutter. */
@@ -893,6 +891,74 @@ body::before {
   color: var(--amber-bright);
   background: var(--bg-raised);
   outline: none;
+}
+
+/* Phone-viewport tightening — keep the card art, name, body, and
+ * dismiss button reachable on a typical phone (e.g. 390×844) without
+ * forcing the player to scroll inside the dialog. The card art is
+ * sized by HEIGHT (capped at ~36dvh) and lets aspect-ratio derive
+ * the width, so the tall 720/1080 face never dominates the screen.
+ * Placed after all base oracle rules so its smaller type / margin
+ * values win on cascade order.
+ */
+@media (max-width: 600px) {
+  .oracle-overlay {
+    padding: clamp(0.5rem, 2vw, 1rem);
+    align-items: stretch;
+  }
+  .oracle-card {
+    padding: 1rem 1rem 1.25rem;
+    max-height: 100dvh;
+    position: relative;
+  }
+  /* Subtle bottom-fade affordance so any leftover overflow on very
+   * short viewports reads as scrollable rather than truncated. The
+   * pseudo-element sticks to the bottom of the scroll viewport. */
+  .oracle-card::after {
+    content: '';
+    position: sticky;
+    display: block;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    height: 22px;
+    margin-top: -22px;
+    pointer-events: none;
+    background: linear-gradient(to top, var(--bg-surface) 10%, rgba(15, 15, 12, 0));
+  }
+  .oracle-card-header {
+    margin-bottom: 0.875rem;
+  }
+  .oracle-card-art {
+    width: auto;
+    max-width: 100%;
+    height: 36dvh;
+    max-height: 360px;
+    margin: 0 auto 0.875rem;
+  }
+  .oracle-card-name {
+    font-size: 1rem;
+    margin-bottom: 0.875rem;
+  }
+  .oracle-card-body {
+    margin-bottom: 1rem;
+  }
+  .oracle-card-text {
+    font-size: 0.82rem;
+    line-height: 1.45;
+    margin-bottom: 0.875rem;
+  }
+  .oracle-ritual-text {
+    font-size: 0.8rem;
+    line-height: 1.45;
+  }
+  .oracle-ritual-block {
+    padding-left: 0.75rem;
+  }
+  .oracle-effect-bar {
+    padding-top: 0.625rem;
+    margin-bottom: 0.875rem;
+  }
 }
 
 /* ── Responsive ──────────────────────────────────────────── */

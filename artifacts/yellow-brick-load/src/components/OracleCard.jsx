@@ -13,9 +13,9 @@ import { interloperFor } from '../data/oracleInterlopers.js'
  *
  * The reveal is fully driven by the existing `oracleCard` store flag —
  * no new persistent state. Per-draw cosmetic variance (stamp placement,
- * jitter phase, ink-bleed strength, flicker timing) is computed once
- * per card and applied as inline style; it never alters card geometry
- * or semantics.
+ * ink-bleed strength, flicker timing, card tilt) is computed once per
+ * card and applied as inline style; it never alters card geometry or
+ * semantics.
  *
  * Honors `prefers-reduced-motion: reduce` by skipping straight to the
  * revealed phase with no animations.
@@ -87,8 +87,6 @@ export default function OracleCard() {
       aria-label={`Oracle card: ${name}`}
       data-phase={phase}
     >
-      <OracleSvgFilters />
-
       <div className="oracle-card">
         <div className="oracle-card-header">
           <span className="oracle-deck-label">
@@ -321,41 +319,6 @@ function PlaceholderCard({ interloperName }) {
           CUSTODY: {interloperName.toUpperCase()}
         </text>
       )}
-    </svg>
-  )
-}
-
-/**
- * Inline SVG filter defs used by the card art for line-jitter.
- * Defined once per overlay so multiple openings don't accumulate.
- */
-function OracleSvgFilters() {
-  return (
-    <svg
-      className="oracle-svg-filters"
-      width="0"
-      height="0"
-      aria-hidden="true"
-      focusable="false"
-    >
-      <defs>
-        <filter id="oracle-jitter" x="-2%" y="-2%" width="104%" height="104%">
-          <feTurbulence
-            type="fractalNoise"
-            baseFrequency="0.012 0.018"
-            numOctaves="2"
-            seed="3"
-            result="noise"
-          />
-          <feDisplacementMap
-            in="SourceGraphic"
-            in2="noise"
-            scale="1.6"
-            xChannelSelector="R"
-            yChannelSelector="G"
-          />
-        </filter>
-      </defs>
     </svg>
   )
 }
