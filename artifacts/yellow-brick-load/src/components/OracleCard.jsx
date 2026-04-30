@@ -1,4 +1,5 @@
 import { useGameStore } from '../engine/store.js'
+import { cardSvgs } from '../assets/cards/index.js'
 
 /**
  * OracleCard — full-screen overlay that displays a drawn oracle card.
@@ -40,6 +41,7 @@ export default function OracleCard() {
   }
 
   const effectLabel = describeEffect(effect)
+  const artUrl = cardSvgs[oracleCard.id]
 
   return (
     <div className="oracle-overlay" role="dialog" aria-modal="true" aria-label={`Oracle card: ${name}`}>
@@ -52,6 +54,12 @@ export default function OracleCard() {
             </span>
           )}
         </div>
+
+        {artUrl && (
+          <div className="oracle-card-art">
+            <img src={artUrl} alt="" aria-hidden="true" />
+          </div>
+        )}
 
         <h2 className="oracle-card-name">{name}</h2>
 
