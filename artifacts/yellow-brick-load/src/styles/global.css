@@ -570,9 +570,12 @@ body::before {
   border: 1px solid var(--amber-dim);
   max-width: 560px;
   width: 100%;
+  max-height: calc(100dvh - 2 * var(--gutter));
+  overflow-y: auto;
   padding: clamp(1.5rem, 5vw, 2.5rem);
   position: relative;
   animation: oracle-slide-in 0.35s ease;
+  scrollbar-gutter: stable;
 }
 
 @keyframes oracle-slide-in {
@@ -613,25 +616,196 @@ body::before {
   box-shadow:
     0 0 0 1px rgba(0, 0, 0, 0.6) inset,
     0 8px 24px rgba(0, 0, 0, 0.55);
-  display: flex;
-  align-items: stretch;
-  justify-content: stretch;
+  position: relative;
   overflow: hidden;
-  animation: oracle-art-fade 0.55s ease both;
+  isolation: isolate;
+  --ink-bleed: 0.08;
+  --card-tilt: 0deg;
 }
 
-.oracle-card-art img {
+.oracle-card-art .oracle-card-art__image {
   width: 100%;
   height: 100%;
   display: block;
   object-fit: contain;
   image-rendering: crisp-edges;
-  filter: drop-shadow(0 0 6px rgba(255, 191, 0, 0.04));
+  filter: url(#oracle-jitter) drop-shadow(0 0 6px rgba(255, 191, 0, 0.04));
+  transform: rotate(var(--card-tilt));
+  animation: oracle-art-fade 0.55s ease both;
 }
 
 @keyframes oracle-art-fade {
-  from { opacity: 0; transform: translateY(4px) scale(0.985); }
-  to   { opacity: 1; transform: translateY(0) scale(1); }
+  from { opacity: 0; transform: translateY(4px) scale(0.985) rotate(var(--card-tilt)); }
+  to   { opacity: 1; transform: translateY(0) scale(1) rotate(var(--card-tilt)); }
+}
+
+/* Hide the inline svg defs holder. */
+.oracle-svg-filters {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+/* Phase: SHUFFLE — fan-out card flutter. */
+.oracle-shuffle-burst {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #F2EBDD;
+}
+.oracle-shuffle-card {
+  position: absolute;
+  width: 38%;
+  height: 56%;
+  border: 1.5px solid #141414;
+  background: #F2EBDD;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.18);
+  transform-origin: 50% 100%;
+  animation: oracle-shuffle-fan 0.42s cubic-bezier(0.55, 0.1, 0.4, 1) forwards;
+  will-change: transform, opacity;
+}
+.oracle-shuffle-card--0 { animation-delay: 0ms;   --shuffle-rot: -22deg; --shuffle-x: -38px; }
+.oracle-shuffle-card--1 { animation-delay: 40ms;  --shuffle-rot: -10deg; --shuffle-x: -18px; }
+.oracle-shuffle-card--2 { animation-delay: 80ms;  --shuffle-rot:   2deg; --shuffle-x:   2px; }
+.oracle-shuffle-card--3 { animation-delay: 120ms; --shuffle-rot:  14deg; --shuffle-x:  22px; }
+.oracle-shuffle-card--4 { animation-delay: 160ms; --shuffle-rot:  26deg; --shuffle-x:  42px; }
+
+@keyframes oracle-shuffle-fan {
+  0% {
+    transform: translate(0, 0) rotate(0deg) scale(0.92);
+    opacity: 0;
+  }
+  35% {
+    opacity: 1;
+  }
+  70% {
+    transform: translate(var(--shuffle-x), -8px) rotate(var(--shuffle-rot)) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(0, 0) rotate(0deg) scale(0.96);
+    opacity: 0;
+  }
+}
+
+/* Phase: FLICKER — static noise + glyph over the silhouette. */
+.oracle-flicker-layer {
+  position: absolute;
+  inset: 0;
+  background: #141414;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  --flicker-delay: 0s;
+}
+.oracle-flicker-noise {
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 240 240' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.4' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.65'/%3E%3C/svg%3E");
+  background-size: 220px 220px;
+  mix-blend-mode: screen;
+  opacity: 0.55;
+  animation: oracle-noise-shift 0.18s steps(3) infinite;
+  animation-delay: var(--flicker-delay);
+}
+.oracle-flicker-glyph {
+  position: relative;
+  width: 56%;
+  height: 56%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: oracle-glyph-flicker 0.34s steps(8) infinite;
+  animation-delay: var(--flicker-delay);
+}
+.oracle-flicker-glyph svg {
+  width: 100%;
+  height: 100%;
+}
+.oracle-flicker-layer[data-fallback="true"] {
+  background: #2a1010;
+}
+
+@keyframes oracle-noise-shift {
+  0%   { transform: translate(0, 0); }
+  33%  { transform: translate(-6px, 4px); }
+  66%  { transform: translate(5px, -3px); }
+  100% { transform: translate(0, 0); }
+}
+@keyframes oracle-glyph-flicker {
+  0%, 100% { opacity: 0.85; transform: scale(1); }
+  20%      { opacity: 0.15; }
+  35%      { opacity: 0.95; transform: scale(1.04); }
+  55%      { opacity: 0.10; }
+  70%      { opacity: 0.80; transform: scale(0.98); }
+  85%      { opacity: 0.30; }
+}
+
+/* Ink-bleed noise mask — subtle multiply layer over revealed art. */
+.oracle-card-art__bleed {
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 320 320' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='b'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23b)' opacity='0.6'/%3E%3C/svg%3E");
+  background-size: 320px 320px;
+  mix-blend-mode: multiply;
+  opacity: var(--ink-bleed);
+  pointer-events: none;
+}
+
+/* Interloper stamp — round red administrative seal.
+ * The randomized per-draw position/rotation arrives via the inline
+ * --stamp-transform CSS variable; the keyframe composes its own scale
+ * on top of that variable so the press effect doesn't clobber placement.
+ */
+.oracle-card-art__stamp {
+  position: absolute;
+  bottom: 6%;
+  right: 6%;
+  width: 22%;
+  max-width: 92px;
+  aspect-ratio: 1 / 1;
+  pointer-events: none;
+  opacity: 0.92;
+  filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.25));
+  --stamp-transform: translate(0, 0) rotate(0deg);
+  transform: var(--stamp-transform);
+  animation: oracle-stamp-press 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) 0.12s both;
+}
+.oracle-card-art__stamp-svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+@keyframes oracle-stamp-press {
+  0%   { opacity: 0;    transform: var(--stamp-transform) scale(1.45); }
+  60%  { opacity: 0.95; transform: var(--stamp-transform) scale(0.98); }
+  100% { opacity: 0.92; transform: var(--stamp-transform) scale(1);    }
+}
+
+/* Reduced motion override — strip ALL ritual / overlay animations,
+ * including the outer overlay fade, the card slide-in, and the
+ * card-name 6s flicker loop.
+ */
+@media (prefers-reduced-motion: reduce) {
+  .oracle-overlay,
+  .oracle-card,
+  .oracle-shuffle-card,
+  .oracle-flicker-noise,
+  .oracle-flicker-glyph,
+  .oracle-card-art__image,
+  .oracle-card-art__stamp,
+  .oracle-card-name {
+    animation: none !important;
+    transition: none !important;
+  }
+  .oracle-card-art__stamp { opacity: 0.92; transform: var(--stamp-transform); }
+  .oracle-card-art__image { opacity: 1; }
+  .oracle-card-name       { opacity: 1; }
 }
 
 .oracle-card-name {

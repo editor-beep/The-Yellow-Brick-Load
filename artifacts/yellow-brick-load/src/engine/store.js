@@ -174,6 +174,15 @@ export const useGameStore = create((set, get) => ({
   hardReset: () => set({ ...INITIAL_STATE }),
 }))
 
+// ── Dev-only debug handle ───────────────────────────────────────────────
+// Exposes the store on `window.__yblStore` for browser-console debugging
+// and end-to-end testing of overlays (e.g. injecting an oracleCard
+// without walking the full passage graph). Stripped from production
+// builds via the import.meta.env.DEV gate.
+if (typeof window !== 'undefined' && import.meta.env?.DEV) {
+  window.__yblStore = useGameStore
+}
+
 // ── Residual Signal (localStorage persistence) ──────────────────────────────
 export const RESIDUAL_KEY = 'ybl_visited'
 export const VISIT_COUNT_KEY = 'ybl_visit_count'
