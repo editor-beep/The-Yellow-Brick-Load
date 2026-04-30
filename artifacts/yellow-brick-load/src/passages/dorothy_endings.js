@@ -150,4 +150,116 @@ export const dorothyEndingPassages = {
     choices: [],
     onEnter: [],
   },
+
+  D_END_HOME_SIM: {
+    id: 'D_END_HOME_SIM',
+    character: 'dorothy',
+    endingId: 'D-END-02',
+    endingName: 'The Grey Stasis',
+    institution: 'Meteorological',
+    systemStatus: 'GRAYSCALE / RECURSIVE',
+    surreality: 6,
+    isEnding: true,
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE HOME FREQUENCY [D-END-02]
+
+  You click your heels. *There's no place like home.* The world shatters into grayscale shards. You wake up in a bed in Kansas. Aunt Em is there. Uncle Henry is there. But when Aunt Em leans in to kiss your forehead, you smell the copper-tang of Oz OS cooling fluid.
+
+  You look out the window. The corn is gray. The sky is gray. But if you look closely at the horizon, you can see the faint, green flicker of a 'Refresh Rate.' You didn't leave Oz. The Bureau simply built a smaller, duller cage and labeled it 'Home.'
+
+  Status: GRAYSCALE / RECURSIVE
+  Theme: Home is a signal you can no longer hear clearly.
+  Final Log: If the simulation is perfect, does it matter that the wind is just a recording?`,
+      },
+    ],
+    choices: [],
+    onEnter: [],
+  },
+
+  D_END_WIZARD_MARRIAGE: {
+    id: 'D_END_WIZARD_MARRIAGE',
+    character: 'dorothy',
+    endingId: 'D-END-30',
+    endingName: 'The Projected Queen',
+    institution: 'Marketing',
+    systemStatus: 'PROJECTED / STABILIZED',
+    surreality: 8,
+    isEnding: true,
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE PROJECTED QUEEN [D-END-30]
+
+  The Wizard takes your hand. He is no longer a head; he is a tired man behind a curtain of heavy velvet. "I need a Co-Processor," he whispers. "A Signal Unit to make the people believe the projection is real."
+
+  You marry the Humbug. The ceremony is broadcast across every sector in Oz. You wear a gown of green fiber-optics. Now, you spend your days sitting on a throne of smoke, waving at units you know are failing. You are the 'First Lady of the Simulation.'
+
+  Your heart is a placebo. Your life is a testimonial.
+
+  Status: PROJECTED / STABILIZED
+  Theme: Identity is a brand that cannot be scrubbed.
+  Final Log: When the curtain finally falls, which one of you will be real enough to vanish?`,
+      },
+    ],
+    choices: [],
+    onEnter: [],
+  },
+
+  D_END_WITCH_ASCENSION: {
+    id: 'D_END_WITCH_ASCENSION',
+    character: 'dorothy',
+    endingId: 'D-END-26',
+    endingName: 'The Witch\'s Shadow',
+    institution: 'Judicial',
+    systemStatus: 'AUTHORIZED / WICKED',
+    surreality: 9,
+    isEnding: true,
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE WITCH'S SHADOW [D-END-26]
+
+  You don't just wear the slippers; you fuse with them. The silver metal crawls up your ankles, replacing skin with conductive slag. You realize that 'Wickedness' is just a high-bandwidth refusal to follow the Bureau's path.
+
+  You occupy the Castle in the West. You re-index the Winged Monkeys as your personal audit-force. The Dorothy-signal is gone, replaced by a high-frequency scream of absolute authority. You aren't going home. You are going to overwrite the world.
+
+  Status: AUTHORIZED / WICKED
+  Theme: The enemy is a shadow you cast on the system.
+  Final Log: If you melt the world with your shadow, will there be any light left to prove you exist?`,
+      },
+    ],
+    choices: [],
+    onEnter: [],
+  },
+
+  D_VOID_DESCENT_15: {
+    id: 'D_VOID_DESCENT_15',
+    character: 'dorothy',
+    endingId: 'D-END-04',
+    endingName: 'The Unlit Basement',
+    institution: 'Void',
+    systemStatus: 'DELETED / UNINDEXED',
+    surreality: 10,
+    isEnding: true,
+    text: [
+      {
+        minOverrender: 5,
+        content: `THE UNLIT BASEMENT [D-END-04]
+
+  Audit Entry: Sector Null / The Void — Terminal Displacement
+
+  The stairs dissolve behind you. You are in a space without coordinates. There are no walls, only stacks of carbon paper that reach into an infinite ceiling. You see other 'Ghost Bits' here—the faded remains of munchkins and lions who wandered off the path.
+
+  You are not dead. You are merely 'Unindexed.' You are a signal that never reached its destination and was never formally deleted. You are the noise between the channels.
+
+  Status: DELETED / UNINDEXED
+  Theme: The horizon is a line of code you cannot cross.
+  Final Log: If no one is logging your signal, do you still have a frequency?`,
+      },
+    ],
+    choices: [],
+    onEnter: [],
+  },
 }
