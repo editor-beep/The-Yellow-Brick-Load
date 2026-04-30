@@ -31,6 +31,7 @@ export default function OracleCard() {
   const variance = useMemo(makeVariance, [oracleCard?.id])
   const dismissRef = useRef(null)
   const cardRef = useRef(null)
+  const overlayRef = useRef(null)
   const [artFailed, setArtFailed] = useState(false)
   const [isOverflowing, setIsOverflowing] = useState(false)
 
@@ -44,9 +45,19 @@ export default function OracleCard() {
   // Subscribe to oracleCard transitions outside of React's commit cycle
   // so we can capture/restore keyboard focus at the right moment:
   //   • opening (null → card): grab document.activeElement *before* any
-  //     re-render swaps the passage out from under us.
-  //   • closing (card → null): defer focus restoration to the next frame
-  //     so the dismiss button has fully unmounted first.
+  //     re-render swaps the passage out from under us, then blur it so
+  //     Tab can't continue navigating the hidden passage during the
+  //     brief window between this synchronous transition and React
+  //     committing the overlay (the modal Tab-trap can't query
+  //     focusables until overlayRef is populated).
+  //   • closing (card → null): restore focus to the saved node
+  //     immediately, *before* React unmounts the dismiss button. This
+  //     avoids a one-frame window where activeElement falls back to
+  //     document.body — which was previously visible to keyboard users
+  //     who dismissed via Escape (the click path is masked because
+  //     synthetic clicks already pump a frame). A second pass on the
+  //     next animation frame catches the rare case where the saved
+  //     node wasn't yet focusable at sync-time (e.g. mid-transition).
   useEffect(() => {
     return useGameStore.subscribe((state, prev) => {
       const opening = !!state.oracleCard && !prev.oracleCard
@@ -54,11 +65,22 @@ export default function OracleCard() {
       if (opening) {
         const active = typeof document !== 'undefined' ? document.activeElement : null
         previousFocusRef.current = isRestorableElement(active) ? active : null
+        if (active && active !== document.body && typeof active.blur === 'function') {
+          try { active.blur() } catch { /* noop */ }
+        }
       } else if (closing) {
         const node = previousFocusRef.current
         previousFocusRef.current = null
+        restoreFocus(node)
         if (typeof window !== 'undefined') {
-          window.requestAnimationFrame(() => restoreFocus(node))
+          window.requestAnimationFrame(() => {
+            // Only re-attempt if focus drifted back to body (e.g. the
+            // dismiss button unmounted *after* our sync restore and its
+            // blur was the most recent focus event).
+            if (typeof document !== 'undefined' && document.activeElement === document.body) {
+              restoreFocus(node)
+            }
+          })
         }
       }
     })
@@ -101,6 +123,66 @@ export default function OracleCard() {
     })
     return () => window.cancelAnimationFrame(id)
   }, [phase, oracleCard?.id])
+
+  // Modal keyboard contract:
+  //   • Escape dismisses the overlay (mirrors the acknowledge button and
+  //     therefore the existing focus-restoration behavior).
+  //   • Tab / Shift-Tab cycle focus only among focusable descendants of
+  //     the overlay so it cannot land on the underlying passage choices,
+  //     which remain in the DOM behind the modal.
+  //
+  // The listener is installed exactly once for the lifetime of the
+  // OracleCard component (which itself lives for the lifetime of the
+  // app) and consults the store on every keystroke. Installing it via
+  // an oracleCard-keyed effect would leave a render-flush window
+  // immediately after `setOracleCard` during which the new listener
+  // isn't bound yet — so a keypress fired in the same task could
+  // escape to the underlying passage. Reading from the store inside
+  // the handler closes that race.
+  useEffect(() => {
+    const handleKeyDown = (event) => {
+      const { oracleCard: currentCard, dismissOracleCard: dismiss } =
+        useGameStore.getState()
+      if (!currentCard) return
+      if (event.defaultPrevented) return
+      if (event.key === 'Escape' || event.key === 'Esc') {
+        event.preventDefault()
+        event.stopPropagation()
+        dismiss()
+        return
+      }
+      if (event.key !== 'Tab') return
+      const overlay = overlayRef.current
+      // No overlay rendered yet (race between store update and React
+      // commit) or no focusable targets yet (shuffle/flicker phases):
+      // swallow Tab outright so focus cannot escape onto the hidden
+      // passage.
+      if (!overlay) {
+        event.preventDefault()
+        return
+      }
+      const focusables = getFocusableElements(overlay)
+      if (focusables.length === 0) {
+        event.preventDefault()
+        return
+      }
+      const first = focusables[0]
+      const last = focusables[focusables.length - 1]
+      const active = typeof document !== 'undefined' ? document.activeElement : null
+      const insideOverlay = !!active && overlay.contains(active)
+      if (event.shiftKey) {
+        if (!insideOverlay || active === first) {
+          event.preventDefault()
+          try { last.focus({ preventScroll: true }) } catch { /* noop */ }
+        }
+      } else if (!insideOverlay || active === last) {
+        event.preventDefault()
+        try { first.focus({ preventScroll: true }) } catch { /* noop */ }
+      }
+    }
+    document.addEventListener('keydown', handleKeyDown)
+    return () => document.removeEventListener('keydown', handleKeyDown)
+  }, [])
 
   // Detect whether the card content actually overflows its scroll
   // container. The mobile bottom-fade affordance is only painted when
@@ -154,6 +236,7 @@ export default function OracleCard() {
       aria-modal="true"
       aria-label={`Oracle card: ${name}`}
       data-phase={phase}
+      ref={overlayRef}
     >
       <div
         className={`oracle-card${isOverflowing ? ' is-overflowing' : ''}`}
@@ -482,6 +565,46 @@ function restoreFocus(node) {
   if (fallback && typeof fallback.focus === 'function') {
     try { fallback.focus({ preventScroll: true }) } catch { /* noop */ }
   }
+}
+
+/**
+ * Collect every element inside `root` that is plausibly focusable via
+ * keyboard navigation. Used by the modal Tab-trap to determine the
+ * boundaries it should cycle focus between.
+ *
+ * The selector matches the standard tabbable element types (links,
+ * form controls, summary, content-editables, anything with an explicit
+ * non-negative tabindex) and the visibility filter rejects elements
+ * that are display:none / visibility:hidden / hidden-attr — those can
+ * be in the DOM during reveal phase transitions but should never
+ * receive focus.
+ */
+function getFocusableElements(root) {
+  if (!root || typeof root.querySelectorAll !== 'function') return []
+  const selector = [
+    'a[href]',
+    'area[href]',
+    'button:not([disabled])',
+    'input:not([disabled]):not([type="hidden"])',
+    'select:not([disabled])',
+    'textarea:not([disabled])',
+    'summary',
+    '[contenteditable=""]',
+    '[contenteditable="true"]',
+    '[tabindex]:not([tabindex="-1"])',
+  ].join(',')
+  return Array.from(root.querySelectorAll(selector)).filter((el) => {
+    if (el.hasAttribute('disabled')) return false
+    if (el.getAttribute('aria-hidden') === 'true') return false
+    if (el.hidden) return false
+    // getClientRects().length === 0 covers display:none and detached
+    // subtrees; offsetParent is null for fixed-position descendants too,
+    // so we prefer the rects check.
+    if (typeof el.getClientRects === 'function' && el.getClientRects().length === 0) {
+      return false
+    }
+    return true
+  })
 }
 
 function prefersReducedMotion() {
