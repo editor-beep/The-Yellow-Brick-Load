@@ -37,7 +37,7 @@ Before you can respond to the road, you must decide what kind of body you are br
       },
     ],
     onEnter: [{ type: "checkGhostSignal" }],
-  },,
+  },
 
   LION_INIT_W: {
     id: "LION_INIT_W",
