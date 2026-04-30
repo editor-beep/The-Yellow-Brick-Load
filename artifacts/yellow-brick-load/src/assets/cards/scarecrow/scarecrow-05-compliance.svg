@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1080" width="720" height="1080" preserveAspectRatio="xMidYMid meet">
+<rect x="0" y="0" width="720" height="1080" fill="#F2EBDD" stroke="none" stroke-width="1.5"/>
+<rect x="22" y="22" width="676" height="1036" fill="none" stroke="#141414" stroke-width="2"/><rect x="30" y="30" width="660" height="1020" fill="none" stroke="#141414" stroke-width="0.75" opacity="0.5"/><rect x="26" y="26" width="668" height="1028" fill="none" stroke="#1F7A53" stroke-width="1" stroke-dasharray="6 4" opacity="0.7"/><line x1="70" y1="70" x2="90" y2="90" stroke="#141414" stroke-width="1.5"/><line x1="70" y1="90" x2="90" y2="70" stroke="#141414" stroke-width="1.5"/><line x1="70" y1="990" x2="90" y2="1010" stroke="#141414" stroke-width="1.5"/><line x1="70" y1="1010" x2="90" y2="990" stroke="#141414" stroke-width="1.5"/><line x1="630" y1="70" x2="650" y2="90" stroke="#141414" stroke-width="1.5"/><line x1="630" y1="90" x2="650" y2="70" stroke="#141414" stroke-width="1.5"/><line x1="630" y1="990" x2="650" y2="1010" stroke="#141414" stroke-width="1.5"/><line x1="630" y1="1010" x2="650" y2="990" stroke="#141414" stroke-width="1.5"/>
+<g>
+    <rect x="0" y="0" width="720" height="162" fill="#F2EBDD" stroke="none" stroke-width="1.5"/>
+    <line x1="0" y1="162" x2="720" y2="162" stroke="#141414" stroke-width="2"/>
+    <line x1="0" y1="156" x2="720" y2="156" stroke="#141414" stroke-width="0.75" opacity="0.5"/>
+    <!-- sigil left -->
+    <g transform="translate(50, 50)"><path d="M8,28 L52,28 L46,20 L14,20 Z" fill="#1F7A53" fill-opacity="0.4" stroke="#141414" stroke-width="1.5"/><line x1="14" y1="28" x2="14" y2="52" stroke="#141414" stroke-width="1.5"/><line x1="46" y1="28" x2="46" y2="52" stroke="#141414" stroke-width="1.5"/><line x1="8" y1="52" x2="52" y2="52" stroke="#141414" stroke-width="1.5"/><line x1="20" y1="38" x2="40" y2="38" stroke="#141414" stroke-width="1.5"/><line x1="20" y1="42" x2="40" y2="38" stroke="#141414" stroke-width="1.5"/><line x1="40" y1="42" x2="20" y2="38" stroke="#141414" stroke-width="1.5"/></g>
+    <!-- deck name center -->
+    <text x="360" y="70" font-family="Georgia, serif" font-size="16" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="5">STRAW ORACLE</text>
+    <text x="360" y="95" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" letter-spacing="3" opacity="0.55">— ORACLE DRAW —</text>
+    <!-- card index right -->
+    <rect x="610" y="30" width="60" height="80" fill="none" stroke="#141414" stroke-width="1.5"/>
+    <rect x="610" y="30" width="60" height="18" fill="#141414" stroke="none" stroke-width="1.5"/>
+    <text x="640" y="43" font-family="Georgia, serif" font-size="8" fill="#F2EBDD" text-anchor="middle" font-weight="bold" letter-spacing="1.5">IDX</text>
+    <text x="640" y="90" font-family="Georgia, serif" font-size="32" fill="#141414" text-anchor="middle" font-weight="bold">V</text>
+    <!-- minor tick row above scene line -->
+    <text x="120" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">I</text><text x="184" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">II</text><text x="248" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">III</text><text x="312" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">IV</text><text x="376" y="130" font-family="Georgia, serif" font-size="9" fill="#1F7A53" text-anchor="middle" font-weight="bold" opacity="1">V</text><text x="440" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">VI</text><text x="504" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">VII</text><text x="568" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">VIII</text>
+    <line x1="108" y1="138" x2="612" y2="138" stroke="#141414" stroke-width="0.5" opacity="0.4"/>
+  </g>
+<g transform="translate(0, 162)">
+    
+  <rect x="40" y="20" width="640" height="600" fill="#F2EBDD" stroke="#141414" stroke-width="1.5"/>
+  <rect x="48" y="28" width="624" height="584" fill="none" stroke="#141414" stroke-width="0.5" opacity="0.4"/>
+  <rect x="60" y="40" width="600" height="20" fill="#141414" stroke="none" stroke-width="1.5"/><text x="360" y="55" font-family="Georgia, serif" font-size="11" fill="#F2EBDD" text-anchor="middle" font-weight="bold" letter-spacing="4">PLANTING FIELD — COORDINATE SURVEY</text>
+
+    <rect x="80" y="90" width="560" height="380" fill="none" stroke="#141414" stroke-width="1.5"/>
+    <line x1="80" y1="90" x2="80" y2="470" stroke="#141414" stroke-width="0.4" opacity="0.4"/><line x1="136" y1="90" x2="136" y2="470" stroke="#141414" stroke-width="0.4" opacity="0.4"/><line x1="192" y1="90" x2="192" y2="470" stroke="#141414" stroke-width="0.4" opacity="0.4"/><line x1="248" y1="90" x2="248" y2="470" stroke="#141414" stroke-width="0.4" opacity="0.4"/><line x1="304" y1="90" x2="304" y2="470" stroke="#141414" stroke-width="0.4" opacity="0.4"/><line x1="360" y1="90" x2="360" y2="470" stroke="#141414" stroke-width="0.4" opacity="0.4"/><line x1="416" y1="90" x2="416" y2="470" stroke="#141414" stroke-width="0.4" opacity="0.4"/><line x1="472" y1="90" x2="472" y2="470" stroke="#141414" stroke-width="0.4" opacity="0.4"/><line x1="528" y1="90" x2="528" y2="470" stroke="#141414" stroke-width="0.4" opacity="0.4"/><line x1="584" y1="90" x2="584" y2="470" stroke="#141414" stroke-width="0.4" opacity="0.4"/><line x1="640" y1="90" x2="640" y2="470" stroke="#141414" stroke-width="0.4" opacity="0.4"/>
+    <line x1="80" y1="90" x2="640" y2="90" stroke="#141414" stroke-width="0.4" opacity="0.4"/><line x1="80" y1="146" x2="640" y2="146" stroke="#141414" stroke-width="0.4" opacity="0.4"/><line x1="80" y1="202" x2="640" y2="202" stroke="#141414" stroke-width="0.4" opacity="0.4"/><line x1="80" y1="258" x2="640" y2="258" stroke="#141414" stroke-width="0.4" opacity="0.4"/><line x1="80" y1="314" x2="640" y2="314" stroke="#141414" stroke-width="0.4" opacity="0.4"/><line x1="80" y1="370" x2="640" y2="370" stroke="#141414" stroke-width="0.4" opacity="0.4"/><line x1="80" y1="426" x2="640" y2="426" stroke="#141414" stroke-width="0.4" opacity="0.4"/><line x1="80" y1="482" x2="640" y2="482" stroke="#141414" stroke-width="0.4" opacity="0.4"/>
+    <text x="88" y="104" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="start" font-weight="bold" letter-spacing="1">A1</text><text x="632" y="104" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="end" font-weight="bold" letter-spacing="1">F1</text><text x="88" y="462" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="start" font-weight="bold" letter-spacing="1">A8</text><text x="632" y="462" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="end" font-weight="bold" letter-spacing="1">F8</text>
+    <circle cx="360" cy="280" r="8" fill="#9E5C2C" stroke="#141414" stroke-width="2"/>
+    <circle cx="360" cy="280" r="18" fill="none" stroke="#141414" stroke-width="1" stroke-dasharray="2 2"/>
+    <path d="M200,180 L290,250" fill="none" stroke="#141414" stroke-width="1" stroke-dasharray="4 4"/>
+    <path d="M520,180 L430,250" fill="none" stroke="#141414" stroke-width="1" stroke-dasharray="4 4"/>
+    <path d="M200,400 L290,310" fill="none" stroke="#141414" stroke-width="1" stroke-dasharray="4 4"/>
+    <path d="M520,400 L430,310" fill="none" stroke="#141414" stroke-width="1" stroke-dasharray="4 4"/>
+    <polygon points="194,188 206,188 200,170" fill="#141414" stroke="#141414" stroke-width="1.5"/><text x="200" y="204" font-family="Georgia, serif" font-size="8" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="1.5">STAKE-A</text><polygon points="514,188 526,188 520,170" fill="#141414" stroke="#141414" stroke-width="1.5"/><text x="520" y="204" font-family="Georgia, serif" font-size="8" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="1.5">STAKE-B</text><polygon points="194,408 206,408 200,390" fill="#141414" stroke="#141414" stroke-width="1.5"/><text x="200" y="424" font-family="Georgia, serif" font-size="8" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="1.5">STAKE-C</text><polygon points="514,408 526,408 520,390" fill="#141414" stroke="#141414" stroke-width="1.5"/><text x="520" y="424" font-family="Georgia, serif" font-size="8" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="1.5">STAKE-D</text>
+    <text x="360" y="270" font-family="Georgia, serif" font-size="8" fill="#F2EBDD" text-anchor="middle" font-weight="bold">POST</text>
+    <rect x="180" y="490" width="360" height="60" fill="#F2EBDD" stroke="#141414" stroke-width="1.5"/>
+    <text x="360" y="510" font-family="Georgia, serif" font-size="12" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="3">DRIFT: 0.0 UNITS</text>
+    <text x="360" y="532" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" letter-spacing="2" opacity="0.7" font-style="italic">NO COORDINATE LABELED &quot;AWAY&quot;</text>
+    <g transform="rotate(-14 120 130)"><circle cx="120" cy="130" r="26" fill="#1F7A53" fill-opacity="0.08" stroke="#1F7A53" stroke-width="2"/><circle cx="120" cy="130" r="22" fill="none" stroke="#1F7A53" stroke-width="0.75" opacity="0.6"/><text x="120" y="133" font-family="Georgia, serif" font-size="8" fill="#1F7A53" text-anchor="middle" font-weight="bold" letter-spacing="1.5">GRID</text></g>
+    
+  <line x1="60" y1="540" x2="660" y2="540" stroke="#141414" stroke-width="0.75" opacity="0.5"/>
+  <text x="360" y="562" font-family="Georgia, serif" font-size="11" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="2">STAMP INSIDE HAT</text>
+  <text x="360" y="585" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" letter-spacing="1.5" opacity="0.6">TO BE READ BY WHATEVER LOOKS LATER</text>
+  <text x="360" y="605" font-family="Georgia, serif" font-size="8" fill="#1F7A53" text-anchor="middle" letter-spacing="3" opacity="0.8">FS-N · 05</text>
+
+  </g>
+<g transform="translate(0, 810)">
+    <rect x="0" y="0" width="720" height="270" fill="#F2EBDD" stroke="none" stroke-width="1.5"/>
+    <line x1="0" y1="0" x2="720" y2="0" stroke="#141414" stroke-width="2"/>
+    <line x1="0" y1="6" x2="720" y2="6" stroke="#141414" stroke-width="0.75" opacity="0.5"/>
+    <!-- ladder badge -->
+    <rect x="40" y="30" width="200" height="24" fill="#1F7A53" fill-opacity="0.25" stroke="#141414" stroke-width="1"/>
+    <text x="140" y="47" font-family="Georgia, serif" font-size="11" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="3">[COMPLIANCE]</text>
+    <!-- title -->
+    <text x="360" y="110" font-family="Georgia, serif" font-size="28" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="2.5">FIELD SURVEY</text>
+    <line x1="200" y1="124" x2="520" y2="124" stroke="#141414" stroke-width="0.75" opacity="0.5"/>
+    <!-- cue line -->
+    <text x="360" y="158" font-family="Georgia, serif" font-size="10" fill="#141414" text-anchor="middle" letter-spacing="2" opacity="0.65" font-style="italic">NO DIRECTION CALLED &quot;AWAY&quot;</text>
+    <!-- interloper mark + name -->
+    <g transform="translate(40, 200)"><path d="M2,16 Q8,8 14,4 Q20,10 16,18 Q10,22 2,16 Z" fill="#1F7A53" fill-opacity="0.5" stroke="#141414" stroke-width="1"/><line x1="2" y1="16" x2="16" y2="18" stroke="#141414" stroke-width="1"/></g>
+    <text x="70" y="215" font-family="Georgia, serif" font-size="9" fill="#141414" font-weight="bold" letter-spacing="2.5" opacity="0.7">STRAW CLERK</text>
+    <text x="680" y="215" font-family="Georgia, serif" font-size="8" fill="#1F7A53" text-anchor="end" letter-spacing="2" opacity="0.5">STAMPED — COMPLIANT</text>
+    <!-- bottom stamp -->
+    <g transform="rotate(-12 650 215)"><circle cx="650" cy="215" r="22" fill="#1F7A53" fill-opacity="0.1" stroke="#1F7A53" stroke-width="2"/><circle cx="650" cy="215" r="18" fill="none" stroke="#1F7A53" stroke-width="0.75" opacity="0.6"/><text x="650" y="218" font-family="Georgia, serif" font-size="9" fill="#1F7A53" text-anchor="middle" font-weight="bold" letter-spacing="1.5">OZ</text></g>
+    <!-- spec line -->
+    <text x="40" y="250" font-family="Georgia, serif" font-size="8" fill="#141414" letter-spacing="2" opacity="0.45">UNIT REF: SCARECROW-05</text>
+    <text x="680" y="250" font-family="Georgia, serif" font-size="8" fill="#141414" text-anchor="end" letter-spacing="2" opacity="0.45">CLASSIFICATION: RITUAL</text>
+  </g>
+</svg>

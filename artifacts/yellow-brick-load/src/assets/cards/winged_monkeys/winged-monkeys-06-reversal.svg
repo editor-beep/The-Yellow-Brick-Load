@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1080" width="720" height="1080" preserveAspectRatio="xMidYMid meet">
+<rect x="0" y="0" width="720" height="1080" fill="#F2EBDD" stroke="none" stroke-width="1.5"/>
+<rect x="22" y="22" width="676" height="1036" fill="none" stroke="#141414" stroke-width="2"/><rect x="30" y="30" width="660" height="1020" fill="none" stroke="#141414" stroke-width="0.75" opacity="0.5"/><g transform="translate(82 34) rotate(0)"><path d="M0,0 Q12,-6 24,0 Q14,4 0,0" fill="#B7BDC7" fill-opacity="0.3" stroke="#B7BDC7" stroke-width="1"/></g><g transform="translate(82 1046) rotate(180)"><path d="M0,0 Q12,-6 24,0 Q14,4 0,0" fill="#B7BDC7" fill-opacity="0.3" stroke="#B7BDC7" stroke-width="1"/></g><g transform="translate(152 34) rotate(0)"><path d="M0,0 Q12,-6 24,0 Q14,4 0,0" fill="#B7BDC7" fill-opacity="0.3" stroke="#B7BDC7" stroke-width="1"/></g><g transform="translate(152 1046) rotate(180)"><path d="M0,0 Q12,-6 24,0 Q14,4 0,0" fill="#B7BDC7" fill-opacity="0.3" stroke="#B7BDC7" stroke-width="1"/></g><g transform="translate(222 34) rotate(0)"><path d="M0,0 Q12,-6 24,0 Q14,4 0,0" fill="#B7BDC7" fill-opacity="0.3" stroke="#B7BDC7" stroke-width="1"/></g><g transform="translate(222 1046) rotate(180)"><path d="M0,0 Q12,-6 24,0 Q14,4 0,0" fill="#B7BDC7" fill-opacity="0.3" stroke="#B7BDC7" stroke-width="1"/></g><g transform="translate(292 34) rotate(0)"><path d="M0,0 Q12,-6 24,0 Q14,4 0,0" fill="#B7BDC7" fill-opacity="0.3" stroke="#B7BDC7" stroke-width="1"/></g><g transform="translate(292 1046) rotate(180)"><path d="M0,0 Q12,-6 24,0 Q14,4 0,0" fill="#B7BDC7" fill-opacity="0.3" stroke="#B7BDC7" stroke-width="1"/></g><g transform="translate(362 34) rotate(0)"><path d="M0,0 Q12,-6 24,0 Q14,4 0,0" fill="#B7BDC7" fill-opacity="0.3" stroke="#B7BDC7" stroke-width="1"/></g><g transform="translate(362 1046) rotate(180)"><path d="M0,0 Q12,-6 24,0 Q14,4 0,0" fill="#B7BDC7" fill-opacity="0.3" stroke="#B7BDC7" stroke-width="1"/></g><g transform="translate(432 34) rotate(0)"><path d="M0,0 Q12,-6 24,0 Q14,4 0,0" fill="#B7BDC7" fill-opacity="0.3" stroke="#B7BDC7" stroke-width="1"/></g><g transform="translate(432 1046) rotate(180)"><path d="M0,0 Q12,-6 24,0 Q14,4 0,0" fill="#B7BDC7" fill-opacity="0.3" stroke="#B7BDC7" stroke-width="1"/></g><g transform="translate(502 34) rotate(0)"><path d="M0,0 Q12,-6 24,0 Q14,4 0,0" fill="#B7BDC7" fill-opacity="0.3" stroke="#B7BDC7" stroke-width="1"/></g><g transform="translate(502 1046) rotate(180)"><path d="M0,0 Q12,-6 24,0 Q14,4 0,0" fill="#B7BDC7" fill-opacity="0.3" stroke="#B7BDC7" stroke-width="1"/></g><g transform="translate(572 34) rotate(0)"><path d="M0,0 Q12,-6 24,0 Q14,4 0,0" fill="#B7BDC7" fill-opacity="0.3" stroke="#B7BDC7" stroke-width="1"/></g><g transform="translate(572 1046) rotate(180)"><path d="M0,0 Q12,-6 24,0 Q14,4 0,0" fill="#B7BDC7" fill-opacity="0.3" stroke="#B7BDC7" stroke-width="1"/></g><g transform="translate(642 34) rotate(0)"><path d="M0,0 Q12,-6 24,0 Q14,4 0,0" fill="#B7BDC7" fill-opacity="0.3" stroke="#B7BDC7" stroke-width="1"/></g><g transform="translate(642 1046) rotate(180)"><path d="M0,0 Q12,-6 24,0 Q14,4 0,0" fill="#B7BDC7" fill-opacity="0.3" stroke="#B7BDC7" stroke-width="1"/></g>
+<g>
+    <rect x="0" y="0" width="720" height="162" fill="#F2EBDD" stroke="none" stroke-width="1.5"/>
+    <line x1="0" y1="162" x2="720" y2="162" stroke="#141414" stroke-width="2"/>
+    <line x1="0" y1="156" x2="720" y2="156" stroke="#141414" stroke-width="0.75" opacity="0.5"/>
+    <!-- sigil left -->
+    <g transform="translate(50, 50)"><path d="M8,28 Q30,12 52,28 L52,40 L8,40 Z" fill="#B7BDC7" fill-opacity="0.5" stroke="#141414" stroke-width="1.5"/><line x1="16" y1="40" x2="16" y2="48" stroke="#141414" stroke-width="1"/><line x1="30" y1="40" x2="30" y2="48" stroke="#141414" stroke-width="1"/><line x1="44" y1="40" x2="44" y2="48" stroke="#141414" stroke-width="1"/><path d="M22,20 L24,16 M30,18 L30,12 M38,20 L36,16" fill="none" stroke="#141414" stroke-width="1"/></g>
+    <!-- deck name center -->
+    <text x="360" y="70" font-family="Georgia, serif" font-size="16" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="5">KINETIC HARVEST</text>
+    <text x="360" y="95" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" letter-spacing="3" opacity="0.55">— ORACLE DRAW —</text>
+    <!-- card index right -->
+    <rect x="610" y="30" width="60" height="80" fill="none" stroke="#141414" stroke-width="1.5"/>
+    <rect x="610" y="30" width="60" height="18" fill="#141414" stroke="none" stroke-width="1.5"/>
+    <text x="640" y="43" font-family="Georgia, serif" font-size="8" fill="#F2EBDD" text-anchor="middle" font-weight="bold" letter-spacing="1.5">IDX</text>
+    <text x="640" y="90" font-family="Georgia, serif" font-size="32" fill="#141414" text-anchor="middle" font-weight="bold">VI</text>
+    <!-- minor tick row above scene line -->
+    <text x="120" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">I</text><text x="184" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">II</text><text x="248" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">III</text><text x="312" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">IV</text><text x="376" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">V</text><text x="440" y="130" font-family="Georgia, serif" font-size="9" fill="#B7BDC7" text-anchor="middle" font-weight="bold" opacity="1">VI</text><text x="504" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">VII</text><text x="568" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">VIII</text>
+    <line x1="108" y1="138" x2="612" y2="138" stroke="#141414" stroke-width="0.5" opacity="0.4"/>
+  </g>
+<g transform="translate(0, 162)">
+    
+  <rect x="40" y="20" width="640" height="600" fill="#F2EBDD" stroke="#141414" stroke-width="1.5"/>
+  <rect x="48" y="28" width="624" height="584" fill="none" stroke="#141414" stroke-width="0.5" opacity="0.4"/>
+  <rect x="60" y="40" width="600" height="20" fill="#141414" stroke="none" stroke-width="1.5"/><text x="360" y="55" font-family="Georgia, serif" font-size="11" fill="#F2EBDD" text-anchor="middle" font-weight="bold" letter-spacing="4">CONTROL FAILURE — CAP DEPLETED</text>
+
+    <path d="M180,180 Q360,120 540,180 L540,240 L180,240 Z" fill="#D4A72C" fill-opacity="0.4" stroke="#141414" stroke-width="2.5"/>
+    <path d="M180,240 L160,280 L560,280 L540,240" fill="#D4A72C" fill-opacity="0.3" stroke="#141414" stroke-width="2.5"/>
+    <circle cx="200" cy="310" r="14" fill="#9E1B1B" fill-opacity="0.5" stroke="#141414" stroke-width="1.5"/><path d="M190,300 L210,320 M210,300 L190,320" fill="none" stroke="#141414" stroke-width="2"/><circle cx="300" cy="310" r="14" fill="#9E1B1B" fill-opacity="0.5" stroke="#141414" stroke-width="1.5"/><path d="M290,300 L310,320 M310,300 L290,320" fill="none" stroke="#141414" stroke-width="2"/><circle cx="400" cy="310" r="14" fill="#9E1B1B" fill-opacity="0.5" stroke="#141414" stroke-width="1.5"/><path d="M390,300 L410,320 M410,300 L390,320" fill="none" stroke="#141414" stroke-width="2"/>
+    <path d="M460,300 Q500,310 540,330" fill="none" stroke="#9E1B1B" stroke-width="2" stroke-dasharray="4 3"/>
+    <path d="M540,330 L535,320 L530,335 Z" fill="#9E1B1B" stroke="#141414" stroke-width="2"/>
+    <path d="M540,360 Q580,340 600,310 Q620,360 580,400 Q540,400 540,360 Z" fill="#141414" fill-opacity="0.6" stroke="#141414" stroke-width="2"/>
+    <path d="M580,360 Q600,330 620,300" fill="none" stroke="#9E1B1B" stroke-width="2"/>
+    <path d="M540,400 L530,440 L545,440" fill="none" stroke="#141414" stroke-width="1.5"/>
+    <path d="M590,400 L595,440 L605,440" fill="none" stroke="#141414" stroke-width="1.5"/>
+    <rect x="140" y="460" width="440" height="90" fill="#F2EBDD" stroke="#141414" stroke-width="1.5"/>
+    <text x="360" y="482" font-family="Georgia, serif" font-size="11" fill="#9E1B1B" text-anchor="middle" font-weight="bold" letter-spacing="2.5">CAP: DEPLETED · 0/3</text>
+    <text x="360" y="504" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" letter-spacing="2" opacity="0.7">BRIDLE INTACT · WILL OF MONKEY: FREE</text>
+    <text x="360" y="526" font-family="Georgia, serif" font-size="8" fill="#141414" text-anchor="middle" letter-spacing="2" opacity="0.6" font-style="italic">NEW MASTER UNDESIGNATED</text>
+    <g transform="rotate(-14 620 110)"><circle cx="620" cy="110" r="26" fill="#9E1B1B" fill-opacity="0.08" stroke="#9E1B1B" stroke-width="2"/><circle cx="620" cy="110" r="22" fill="none" stroke="#9E1B1B" stroke-width="0.75" opacity="0.6"/><text x="620" y="113" font-family="Georgia, serif" font-size="8" fill="#9E1B1B" text-anchor="middle" font-weight="bold" letter-spacing="1.5">EMPTY</text></g>
+    
+  <line x1="60" y1="540" x2="660" y2="540" stroke="#141414" stroke-width="0.75" opacity="0.5"/>
+  <text x="360" y="562" font-family="Georgia, serif" font-size="11" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="2">WISH-COUNT · ZERO</text>
+  <text x="360" y="585" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" letter-spacing="1.5" opacity="0.6">CAP IS ARTIFACT NOT WEAPON</text>
+  <text x="360" y="605" font-family="Georgia, serif" font-size="8" fill="#B7BDC7" text-anchor="middle" letter-spacing="3" opacity="0.8">BF-06</text>
+
+  </g>
+<g transform="translate(0, 810)">
+    <rect x="0" y="0" width="720" height="270" fill="#F2EBDD" stroke="none" stroke-width="1.5"/>
+    <line x1="0" y1="0" x2="720" y2="0" stroke="#141414" stroke-width="2"/>
+    <line x1="0" y1="6" x2="720" y2="6" stroke="#141414" stroke-width="0.75" opacity="0.5"/>
+    <!-- ladder badge -->
+    <rect x="40" y="30" width="200" height="24" fill="#B7BDC7" fill-opacity="0.25" stroke="#141414" stroke-width="1"/>
+    <text x="140" y="47" font-family="Georgia, serif" font-size="11" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="3">[REVERSAL]</text>
+    <!-- title -->
+    <text x="360" y="110" font-family="Georgia, serif" font-size="28" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="2.5">BRIDLE FAILURE</text>
+    <line x1="200" y1="124" x2="520" y2="124" stroke="#141414" stroke-width="0.75" opacity="0.5"/>
+    <!-- cue line -->
+    <text x="360" y="158" font-family="Georgia, serif" font-size="10" fill="#141414" text-anchor="middle" letter-spacing="2" opacity="0.65" font-style="italic">CAP LOSES THREE WISHES</text>
+    <!-- interloper mark + name -->
+    <g transform="translate(40, 200)"><path d="M2,18 Q4,10 10,4 Q16,10 18,18 Q12,16 10,18 Q8,16 2,18 Z" fill="#B7BDC7" fill-opacity="0.4" stroke="#141414" stroke-width="1.5"/></g>
+    <text x="70" y="215" font-family="Georgia, serif" font-size="9" fill="#141414" font-weight="bold" letter-spacing="2.5" opacity="0.7">WING CAPTAIN</text>
+    <text x="680" y="215" font-family="Georgia, serif" font-size="8" fill="#B7BDC7" text-anchor="end" letter-spacing="2" opacity="0.5">STAMPED — COMPLIANT</text>
+    <!-- bottom stamp -->
+    <g transform="rotate(-12 650 215)"><circle cx="650" cy="215" r="22" fill="#B7BDC7" fill-opacity="0.1" stroke="#B7BDC7" stroke-width="2"/><circle cx="650" cy="215" r="18" fill="none" stroke="#B7BDC7" stroke-width="0.75" opacity="0.6"/><text x="650" y="218" font-family="Georgia, serif" font-size="9" fill="#B7BDC7" text-anchor="middle" font-weight="bold" letter-spacing="1.5">OZ</text></g>
+    <!-- spec line -->
+    <text x="40" y="250" font-family="Georgia, serif" font-size="8" fill="#141414" letter-spacing="2" opacity="0.45">UNIT REF: WINGED-MONKEYS-06</text>
+    <text x="680" y="250" font-family="Georgia, serif" font-size="8" fill="#141414" text-anchor="end" letter-spacing="2" opacity="0.45">CLASSIFICATION: RITUAL</text>
+  </g>
+</svg>

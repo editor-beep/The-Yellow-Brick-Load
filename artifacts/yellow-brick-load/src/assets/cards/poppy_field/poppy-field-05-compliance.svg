@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1080" width="720" height="1080" preserveAspectRatio="xMidYMid meet">
+<rect x="0" y="0" width="720" height="1080" fill="#F2EBDD" stroke="none" stroke-width="1.5"/>
+<rect x="22" y="22" width="676" height="1036" fill="none" stroke="#141414" stroke-width="2"/><rect x="30" y="30" width="660" height="1020" fill="none" stroke="#141414" stroke-width="0.75" opacity="0.5"/><path d="M52,34 Q180,44 360,34 Q540,24 668,34" fill="none" stroke="#1F7A53" stroke-width="1" opacity="0.7"/><path d="M52,1046 Q180,1036 360,1046 Q540,1056 668,1046" fill="none" stroke="#1F7A53" stroke-width="1" opacity="0.7"/><circle cx="180" cy="34" r="4" fill="#1F7A53" stroke="none" stroke-width="1.5"/><circle cx="180" cy="34" r="7" fill="none" stroke="#1F7A53" stroke-width="0.75" opacity="0.5"/><circle cx="180" cy="1046" r="4" fill="#1F7A53" stroke="none" stroke-width="1.5"/><circle cx="180" cy="1046" r="7" fill="none" stroke="#1F7A53" stroke-width="0.75" opacity="0.5"/><circle cx="360" cy="34" r="4" fill="#1F7A53" stroke="none" stroke-width="1.5"/><circle cx="360" cy="34" r="7" fill="none" stroke="#1F7A53" stroke-width="0.75" opacity="0.5"/><circle cx="360" cy="1046" r="4" fill="#1F7A53" stroke="none" stroke-width="1.5"/><circle cx="360" cy="1046" r="7" fill="none" stroke="#1F7A53" stroke-width="0.75" opacity="0.5"/><circle cx="540" cy="34" r="4" fill="#1F7A53" stroke="none" stroke-width="1.5"/><circle cx="540" cy="34" r="7" fill="none" stroke="#1F7A53" stroke-width="0.75" opacity="0.5"/><circle cx="540" cy="1046" r="4" fill="#1F7A53" stroke="none" stroke-width="1.5"/><circle cx="540" cy="1046" r="7" fill="none" stroke="#1F7A53" stroke-width="0.75" opacity="0.5"/>
+<g>
+    <rect x="0" y="0" width="720" height="162" fill="#F2EBDD" stroke="none" stroke-width="1.5"/>
+    <line x1="0" y1="162" x2="720" y2="162" stroke="#141414" stroke-width="2"/>
+    <line x1="0" y1="156" x2="720" y2="156" stroke="#141414" stroke-width="0.75" opacity="0.5"/>
+    <!-- sigil left -->
+    <g transform="translate(50, 50)"><path d="M30,8 Q22,18 24,28 Q14,26 12,36 Q22,40 30,36 Q38,40 48,36 Q46,26 36,28 Q38,18 30,8 Z" fill="#1F7A53" fill-opacity="0.4" stroke="#141414" stroke-width="1.5"/><circle cx="30" cy="30" r="3" fill="#141414" stroke="none" stroke-width="1.5"/><path d="M30,38 Q26,46 28,54 M30,38 Q34,46 32,54" fill="none" stroke="#1F7A53" stroke-width="1"/></g>
+    <!-- deck name center -->
+    <text x="360" y="70" font-family="Georgia, serif" font-size="16" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="5">PHARMACEUTICAL ORACLE</text>
+    <text x="360" y="95" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" letter-spacing="3" opacity="0.55">— ORACLE DRAW —</text>
+    <!-- card index right -->
+    <rect x="610" y="30" width="60" height="80" fill="none" stroke="#141414" stroke-width="1.5"/>
+    <rect x="610" y="30" width="60" height="18" fill="#141414" stroke="none" stroke-width="1.5"/>
+    <text x="640" y="43" font-family="Georgia, serif" font-size="8" fill="#F2EBDD" text-anchor="middle" font-weight="bold" letter-spacing="1.5">IDX</text>
+    <text x="640" y="90" font-family="Georgia, serif" font-size="32" fill="#141414" text-anchor="middle" font-weight="bold">V</text>
+    <!-- minor tick row above scene line -->
+    <text x="120" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">I</text><text x="184" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">II</text><text x="248" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">III</text><text x="312" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">IV</text><text x="376" y="130" font-family="Georgia, serif" font-size="9" fill="#1F7A53" text-anchor="middle" font-weight="bold" opacity="1">V</text><text x="440" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">VI</text><text x="504" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">VII</text><text x="568" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">VIII</text>
+    <line x1="108" y1="138" x2="612" y2="138" stroke="#141414" stroke-width="0.5" opacity="0.4"/>
+  </g>
+<g transform="translate(0, 162)">
+    
+  <rect x="40" y="20" width="640" height="600" fill="#F2EBDD" stroke="#141414" stroke-width="1.5"/>
+  <rect x="48" y="28" width="624" height="584" fill="none" stroke="#141414" stroke-width="0.5" opacity="0.4"/>
+  <rect x="60" y="40" width="600" height="20" fill="#141414" stroke="none" stroke-width="1.5"/><text x="360" y="55" font-family="Georgia, serif" font-size="11" fill="#F2EBDD" text-anchor="middle" font-weight="bold" letter-spacing="4">PRESCRIPTION FORM 9-PHA</text>
+
+    <rect x="80" y="100" width="560" height="380" fill="#F2EBDD" stroke="#141414" stroke-width="2"/>
+    <rect x="80" y="100" width="560" height="26" fill="#141414" stroke="none" stroke-width="1.5"/>
+    <text x="360" y="119" font-family="Georgia, serif" font-size="11" fill="#F2EBDD" text-anchor="middle" font-weight="bold" letter-spacing="3">FORM 9-PHA · PRESCRIPTION</text>
+    <text x="100" y="160" font-family="Georgia, serif" font-size="10" fill="#141414" font-weight="bold" letter-spacing="2">UNIT:</text><rect x="240" y="146" width="360" height="22" fill="none" stroke="#141414" stroke-width="0.75"/><text x="252" y="160" font-family="Georgia, serif" font-size="10" fill="#141414" font-weight="normal" letter-spacing="2">UNIT 04 (DOROTHY)</text><text x="100" y="198" font-family="Georgia, serif" font-size="10" fill="#141414" font-weight="bold" letter-spacing="2">MEDICATION:</text><rect x="240" y="184" width="360" height="22" fill="none" stroke="#141414" stroke-width="0.75"/><text x="252" y="198" font-family="Georgia, serif" font-size="10" fill="#141414" font-weight="normal" letter-spacing="2">POPPY ALKALOID-A</text><text x="100" y="236" font-family="Georgia, serif" font-size="10" fill="#141414" font-weight="bold" letter-spacing="2">DOSAGE:</text><rect x="240" y="222" width="360" height="22" fill="none" stroke="#141414" stroke-width="0.75"/><text x="252" y="236" font-family="Georgia, serif" font-size="10" fill="#141414" font-weight="normal" letter-spacing="2">AMBIENT (FIELD)</text><text x="100" y="274" font-family="Georgia, serif" font-size="10" fill="#141414" font-weight="bold" letter-spacing="2">DURATION:</text><rect x="240" y="260" width="360" height="22" fill="none" stroke="#141414" stroke-width="0.75"/><text x="252" y="274" font-family="Georgia, serif" font-size="10" fill="#141414" font-weight="normal" letter-spacing="2">UNTIL RESCUED</text><text x="100" y="312" font-family="Georgia, serif" font-size="10" fill="#141414" font-weight="bold" letter-spacing="2">PROVIDER:</text><rect x="240" y="298" width="360" height="22" fill="none" stroke="#141414" stroke-width="0.75"/><text x="252" y="312" font-family="Georgia, serif" font-size="10" fill="#141414" font-weight="normal" letter-spacing="2">FIELD PHARMACIST</text><text x="100" y="350" font-family="Georgia, serif" font-size="10" fill="#141414" font-weight="bold" letter-spacing="2">INDICATION:</text><rect x="240" y="336" width="360" height="22" fill="none" stroke="#141414" stroke-width="0.75"/><text x="252" y="350" font-family="Georgia, serif" font-size="10" fill="#141414" font-weight="normal" letter-spacing="2">TRANSIT DELAY</text><text x="100" y="388" font-family="Georgia, serif" font-size="10" fill="#141414" font-weight="bold" letter-spacing="2">SIDE EFFECTS:</text><rect x="240" y="374" width="360" height="22" fill="none" stroke="#141414" stroke-width="0.75"/><text x="252" y="388" font-family="Georgia, serif" font-size="10" fill="#D4A72C" font-weight="normal" letter-spacing="2">SLEEP · DREAMS · DEATH</text><text x="100" y="426" font-family="Georgia, serif" font-size="10" fill="#141414" font-weight="bold" letter-spacing="2">CONSENT:</text><rect x="240" y="412" width="360" height="22" fill="none" stroke="#141414" stroke-width="0.75"/><text x="252" y="426" font-family="Georgia, serif" font-size="10" fill="#D4A72C" font-weight="bold" letter-spacing="2">— BLANK —</text>
+    <g transform="rotate(-14 580 440)"><circle cx="580" cy="440" r="26" fill="#1F7A53" fill-opacity="0.08" stroke="#1F7A53" stroke-width="2"/><circle cx="580" cy="440" r="22" fill="none" stroke="#1F7A53" stroke-width="0.75" opacity="0.6"/><text x="580" y="443" font-family="Georgia, serif" font-size="8" fill="#1F7A53" text-anchor="middle" font-weight="bold" letter-spacing="1.5">RX</text></g>
+    <g transform="rotate(-14 120 440)"><circle cx="120" cy="440" r="26" fill="#D4A72C" fill-opacity="0.08" stroke="#D4A72C" stroke-width="2"/><circle cx="120" cy="440" r="22" fill="none" stroke="#D4A72C" stroke-width="0.75" opacity="0.6"/><text x="120" y="443" font-family="Georgia, serif" font-size="8" fill="#D4A72C" text-anchor="middle" font-weight="bold" letter-spacing="1.5">NO·SIG</text></g>
+    
+  <line x1="60" y1="540" x2="660" y2="540" stroke="#141414" stroke-width="0.75" opacity="0.5"/>
+  <text x="360" y="562" font-family="Georgia, serif" font-size="11" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="2">RX ISSUED · STAMPED</text>
+  <text x="360" y="585" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" letter-spacing="1.5" opacity="0.6">NO COUNTERSIGNATURE REQUIRED</text>
+  <text x="360" y="605" font-family="Georgia, serif" font-size="8" fill="#1F7A53" text-anchor="middle" letter-spacing="3" opacity="0.8">PC-05</text>
+
+  </g>
+<g transform="translate(0, 810)">
+    <rect x="0" y="0" width="720" height="270" fill="#F2EBDD" stroke="none" stroke-width="1.5"/>
+    <line x1="0" y1="0" x2="720" y2="0" stroke="#141414" stroke-width="2"/>
+    <line x1="0" y1="6" x2="720" y2="6" stroke="#141414" stroke-width="0.75" opacity="0.5"/>
+    <!-- ladder badge -->
+    <rect x="40" y="30" width="200" height="24" fill="#1F7A53" fill-opacity="0.25" stroke="#141414" stroke-width="1"/>
+    <text x="140" y="47" font-family="Georgia, serif" font-size="11" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="3">[COMPLIANCE]</text>
+    <!-- title -->
+    <text x="360" y="110" font-family="Georgia, serif" font-size="28" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="2.5">PHARMACEUTICAL COMPLIANCE</text>
+    <line x1="200" y1="124" x2="520" y2="124" stroke="#141414" stroke-width="0.75" opacity="0.5"/>
+    <!-- cue line -->
+    <text x="360" y="158" font-family="Georgia, serif" font-size="10" fill="#141414" text-anchor="middle" letter-spacing="2" opacity="0.65" font-style="italic">SLEEP · SCHEDULED</text>
+    <!-- interloper mark + name -->
+    <g transform="translate(40, 200)"><path d="M4,18 Q4,10 10,8 Q16,10 16,18 Z" fill="#1F7A53" fill-opacity="0.4" stroke="#141414" stroke-width="1.5"/><rect x="8" y="2" width="4" height="8" fill="#141414" stroke="none" stroke-width="1.5"/></g>
+    <text x="70" y="215" font-family="Georgia, serif" font-size="9" fill="#141414" font-weight="bold" letter-spacing="2.5" opacity="0.7">FIELD PHARMACIST</text>
+    <text x="680" y="215" font-family="Georgia, serif" font-size="8" fill="#1F7A53" text-anchor="end" letter-spacing="2" opacity="0.5">STAMPED — COMPLIANT</text>
+    <!-- bottom stamp -->
+    <g transform="rotate(-12 650 215)"><circle cx="650" cy="215" r="22" fill="#1F7A53" fill-opacity="0.1" stroke="#1F7A53" stroke-width="2"/><circle cx="650" cy="215" r="18" fill="none" stroke="#1F7A53" stroke-width="0.75" opacity="0.6"/><text x="650" y="218" font-family="Georgia, serif" font-size="9" fill="#1F7A53" text-anchor="middle" font-weight="bold" letter-spacing="1.5">OZ</text></g>
+    <!-- spec line -->
+    <text x="40" y="250" font-family="Georgia, serif" font-size="8" fill="#141414" letter-spacing="2" opacity="0.45">UNIT REF: POPPY-FIELD-05</text>
+    <text x="680" y="250" font-family="Georgia, serif" font-size="8" fill="#141414" text-anchor="end" letter-spacing="2" opacity="0.45">CLASSIFICATION: RITUAL</text>
+  </g>
+</svg>

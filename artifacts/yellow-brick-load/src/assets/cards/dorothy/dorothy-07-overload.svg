@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1080" width="720" height="1080" preserveAspectRatio="xMidYMid meet">
+<rect x="0" y="0" width="720" height="1080" fill="#F2EBDD" stroke="none" stroke-width="1.5"/>
+<rect x="22" y="22" width="676" height="1036" fill="none" stroke="#141414" stroke-width="2"/><rect x="30" y="30" width="660" height="1020" fill="none" stroke="#141414" stroke-width="0.75" opacity="0.5"/><line x1="52" y1="34" x2="76" y2="34" stroke="#9E1B1B" stroke-width="1.5" opacity="0.7"/><line x1="52" y1="1046" x2="76" y2="1046" stroke="#9E1B1B" stroke-width="1.5" opacity="0.7"/><line x1="88" y1="34" x2="112" y2="34" stroke="#9E1B1B" stroke-width="1.5" opacity="0.7"/><line x1="88" y1="1046" x2="112" y2="1046" stroke="#9E1B1B" stroke-width="1.5" opacity="0.7"/><line x1="124" y1="34" x2="148" y2="34" stroke="#9E1B1B" stroke-width="1.5" opacity="0.7"/><line x1="124" y1="1046" x2="148" y2="1046" stroke="#9E1B1B" stroke-width="1.5" opacity="0.7"/><line x1="160" y1="34" x2="184" y2="34" stroke="#9E1B1B" stroke-width="1.5" opacity="0.7"/><line x1="160" y1="1046" x2="184" y2="1046" stroke="#9E1B1B" stroke-width="1.5" opacity="0.7"/><line x1="196" y1="34" x2="220" y2="34" stroke="#9E1B1B" stroke-width="1.5" opacity="0.7"/><line x1="196" y1="1046" x2="220" y2="1046" stroke="#9E1B1B" stroke-width="1.5" opacity="0.7"/><line x1="232" y1="34" x2="256" y2="34" stroke="#9E1B1B" stroke-width="1.5" opacity="0.7"/><line x1="232" y1="1046" x2="256" y2="1046" stroke="#9E1B1B" stroke-width="1.5" opacity="0.7"/><line x1="268" y1="34" x2="292" y2="34" stroke="#9E1B1B" stroke-width="1.5" opacity="0.7"/><line x1="268" y1="1046" x2="292" y2="1046" stroke="#9E1B1B" stroke-width="1.5" opacity="0.7"/><line x1="304" y1="34" x2="328" y2="34" stroke="#9E1B1B" stroke-width="1.5" opacity="0.7"/><line x1="304" y1="1046" x2="328" y2="1046" stroke="#9E1B1B" stroke-width="1.5" opacity="0.7"/><line x1="340" y1="34" x2="364" y2="34" stroke="#9E1B1B" stroke-width="1.5" opacity="0.7"/><line x1="340" y1="1046" x2="364" y2="1046" stroke="#9E1B1B" stroke-width="1.5" opacity="0.7"/><line x1="376" y1="34" x2="400" y2="34" stroke="#9E1B1B" stroke-width="1.5" opacity="0.7"/><line x1="376" y1="1046" x2="400" y2="1046" stroke="#9E1B1B" stroke-width="1.5" opacity="0.7"/><line x1="412" y1="34" x2="436" y2="34" stroke="#9E1B1B" stroke-width="1.5" opacity="0.7"/><line x1="412" y1="1046" x2="436" y2="1046" stroke="#9E1B1B" stroke-width="1.5" opacity="0.7"/><line x1="448" y1="34" x2="472" y2="34" stroke="#9E1B1B" stroke-width="1.5" opacity="0.7"/><line x1="448" y1="1046" x2="472" y2="1046" stroke="#9E1B1B" stroke-width="1.5" opacity="0.7"/><line x1="484" y1="34" x2="508" y2="34" stroke="#9E1B1B" stroke-width="1.5" opacity="0.7"/><line x1="484" y1="1046" x2="508" y2="1046" stroke="#9E1B1B" stroke-width="1.5" opacity="0.7"/><line x1="520" y1="34" x2="544" y2="34" stroke="#9E1B1B" stroke-width="1.5" opacity="0.7"/><line x1="520" y1="1046" x2="544" y2="1046" stroke="#9E1B1B" stroke-width="1.5" opacity="0.7"/><line x1="556" y1="34" x2="580" y2="34" stroke="#9E1B1B" stroke-width="1.5" opacity="0.7"/><line x1="556" y1="1046" x2="580" y2="1046" stroke="#9E1B1B" stroke-width="1.5" opacity="0.7"/><line x1="592" y1="34" x2="616" y2="34" stroke="#9E1B1B" stroke-width="1.5" opacity="0.7"/><line x1="592" y1="1046" x2="616" y2="1046" stroke="#9E1B1B" stroke-width="1.5" opacity="0.7"/><line x1="628" y1="34" x2="652" y2="34" stroke="#9E1B1B" stroke-width="1.5" opacity="0.7"/><line x1="628" y1="1046" x2="652" y2="1046" stroke="#9E1B1B" stroke-width="1.5" opacity="0.7"/><line x1="664" y1="34" x2="688" y2="34" stroke="#9E1B1B" stroke-width="1.5" opacity="0.7"/><line x1="664" y1="1046" x2="688" y2="1046" stroke="#9E1B1B" stroke-width="1.5" opacity="0.7"/><g transform="translate(60 60) rotate(45)"><path d="M-12,0 L12,0 M6,-6 L12,0 L6,6" fill="none" stroke="#141414" stroke-width="1.5"/></g><g transform="translate(660 60) rotate(135)"><path d="M-12,0 L12,0 M6,-6 L12,0 L6,6" fill="none" stroke="#141414" stroke-width="1.5"/></g><g transform="translate(60 1020) rotate(-45)"><path d="M-12,0 L12,0 M6,-6 L12,0 L6,6" fill="none" stroke="#141414" stroke-width="1.5"/></g><g transform="translate(660 1020) rotate(-135)"><path d="M-12,0 L12,0 M6,-6 L12,0 L6,6" fill="none" stroke="#141414" stroke-width="1.5"/></g>
+<g>
+    <rect x="0" y="0" width="720" height="162" fill="#F2EBDD" stroke="none" stroke-width="1.5"/>
+    <line x1="0" y1="162" x2="720" y2="162" stroke="#141414" stroke-width="2"/>
+    <line x1="0" y1="156" x2="720" y2="156" stroke="#141414" stroke-width="0.75" opacity="0.5"/>
+    <!-- sigil left -->
+    <g transform="translate(50, 50)"><circle cx="30" cy="30" r="26" fill="none" stroke="#141414" stroke-width="1" stroke-dasharray="3 3"/><path d="M16,38 Q22,28 30,30 Q42,32 44,38 Q44,44 30,44 Q18,44 16,38 Z" fill="#9E1B1B" fill-opacity="0.5" stroke="#141414" stroke-width="1.5"/><line x1="30" y1="4" x2="30" y2="12" stroke="#141414" stroke-width="1.5"/><line x1="30" y1="48" x2="30" y2="56" stroke="#141414" stroke-width="1.5"/><line x1="4" y1="30" x2="12" y2="30" stroke="#141414" stroke-width="1.5"/><line x1="48" y1="30" x2="56" y2="30" stroke="#141414" stroke-width="1.5"/></g>
+    <!-- deck name center -->
+    <text x="360" y="70" font-family="Georgia, serif" font-size="16" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="5">DUST ORACLE</text>
+    <text x="360" y="95" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" letter-spacing="3" opacity="0.55">— ORACLE DRAW —</text>
+    <!-- card index right -->
+    <rect x="610" y="30" width="60" height="80" fill="none" stroke="#141414" stroke-width="1.5"/>
+    <rect x="610" y="30" width="60" height="18" fill="#141414" stroke="none" stroke-width="1.5"/>
+    <text x="640" y="43" font-family="Georgia, serif" font-size="8" fill="#F2EBDD" text-anchor="middle" font-weight="bold" letter-spacing="1.5">IDX</text>
+    <text x="640" y="90" font-family="Georgia, serif" font-size="32" fill="#141414" text-anchor="middle" font-weight="bold">VII</text>
+    <!-- minor tick row above scene line -->
+    <text x="120" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">I</text><text x="184" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">II</text><text x="248" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">III</text><text x="312" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">IV</text><text x="376" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">V</text><text x="440" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">VI</text><text x="504" y="130" font-family="Georgia, serif" font-size="9" fill="#9E1B1B" text-anchor="middle" font-weight="bold" opacity="1">VII</text><text x="568" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">VIII</text>
+    <line x1="108" y1="138" x2="612" y2="138" stroke="#141414" stroke-width="0.5" opacity="0.4"/>
+  </g>
+<g transform="translate(0, 162)">
+    
+  <rect x="40" y="20" width="640" height="600" fill="#F2EBDD" stroke="#141414" stroke-width="1.5"/>
+  <rect x="48" y="28" width="624" height="584" fill="none" stroke="#141414" stroke-width="0.5" opacity="0.4"/>
+  <rect x="60" y="40" width="600" height="20" fill="#141414" stroke="none" stroke-width="1.5"/><text x="360" y="55" font-family="Georgia, serif" font-size="11" fill="#F2EBDD" text-anchor="middle" font-weight="bold" letter-spacing="4">SIGNAL TRANSMITTER — UNREAD CHANNEL</text>
+
+    <path d="M180,260 Q190,220 230,210 Q260,205 280,220 L320,210 L340,230 L340,300 Q340,330 320,340 L280,340 L260,360 L240,340 L220,340 Q190,330 180,300 Z" fill="#141414" fill-opacity="0.85" stroke="#141414" stroke-width="2.5"/>
+    <path d="M340,230 Q360,225 365,215" fill="none" stroke="#141414" stroke-width="2"/>
+    <circle cx="290" cy="260" r="3" fill="#F2EBDD" stroke="none" stroke-width="1.5"/>
+    <circle cx="310" cy="260" r="3" fill="#F2EBDD" stroke="none" stroke-width="1.5"/>
+    <path d="M280,290 L320,295" fill="none" stroke="#F2EBDD" stroke-width="1"/>
+    <circle cx="300" cy="285" r="2" fill="#8E8A83" stroke="none" stroke-width="1.5"/>
+    <path d="M380,250 Q400,250 400,280 Q400,310 380,310" fill="none" stroke="#141414" stroke-width="1.5" opacity="0.6"/>
+    <path d="M400,230 Q430,230 430,280 Q430,330 400,330" fill="none" stroke="#141414" stroke-width="1.5" opacity="0.5"/>
+    <path d="M420,210 Q460,210 460,280 Q460,350 420,350" fill="none" stroke="#141414" stroke-width="1.5" opacity="0.4"/>
+    <path d="M440,190 Q490,190 490,280 Q490,370 440,370" fill="none" stroke="#141414" stroke-width="1.5" opacity="0.3"/>
+    <path d="M520,180 Q580,200 580,280 Q580,360 520,380" fill="none" stroke="#141414" stroke-width="1.5" opacity="0.2"/>
+    <rect x="120" y="410" width="480" height="30" fill="#F2EBDD" stroke="#141414" stroke-width="1"/>
+    <path d="M130,425 Q150,395 170,425 Q190,455 210,425 Q230,395 250,425 Q270,455 290,425 Q310,395 330,425 Q350,455 370,425 Q390,395 410,425 Q430,455 450,425 Q470,395 490,425 Q510,455 530,425 Q550,395 570,425 Q590,455 600,425" fill="none" stroke="#9E1B1B" stroke-width="1.5"/>
+    <rect x="140" y="460" width="440" height="90" fill="#F2EBDD" stroke="#141414" stroke-width="1.5"/>
+    <text x="360" y="482" font-family="Georgia, serif" font-size="11" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="2">COMPANION-LOCK · DETECTED</text>
+    <text x="360" y="504" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" letter-spacing="2" opacity="0.7">CONTRABAND: EMOTIONAL</text>
+    <text x="360" y="526" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="2" opacity="0.7" font-style="italic">FILED · NOT REMOVED</text>
+    <g transform="rotate(-14 620 110)"><circle cx="620" cy="110" r="26" fill="#9E1B1B" fill-opacity="0.08" stroke="#9E1B1B" stroke-width="2"/><circle cx="620" cy="110" r="22" fill="none" stroke="#9E1B1B" stroke-width="0.75" opacity="0.6"/><text x="620" y="113" font-family="Georgia, serif" font-size="8" fill="#9E1B1B" text-anchor="middle" font-weight="bold" letter-spacing="1.5">TOTO</text></g>
+    
+  <line x1="60" y1="540" x2="660" y2="540" stroke="#141414" stroke-width="0.75" opacity="0.5"/>
+  <text x="360" y="562" font-family="Georgia, serif" font-size="11" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="2">CONTINUOUS WAVE · CLEAR</text>
+  <text x="360" y="585" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" letter-spacing="1.5" opacity="0.6">NO ONE LISTENING</text>
+  <text x="360" y="605" font-family="Georgia, serif" font-size="8" fill="#9E1B1B" text-anchor="middle" letter-spacing="3" opacity="0.8">TS-07</text>
+
+  </g>
+<g transform="translate(0, 810)">
+    <rect x="0" y="0" width="720" height="270" fill="#F2EBDD" stroke="none" stroke-width="1.5"/>
+    <line x1="0" y1="0" x2="720" y2="0" stroke="#141414" stroke-width="2"/>
+    <line x1="0" y1="6" x2="720" y2="6" stroke="#141414" stroke-width="0.75" opacity="0.5"/>
+    <!-- ladder badge -->
+    <rect x="40" y="30" width="200" height="24" fill="#9E1B1B" fill-opacity="0.25" stroke="#141414" stroke-width="1"/>
+    <text x="140" y="47" font-family="Georgia, serif" font-size="11" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="3">[OVERLOAD]</text>
+    <!-- title -->
+    <text x="360" y="110" font-family="Georgia, serif" font-size="28" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="2.5">TOTO SIGNAL</text>
+    <line x1="200" y1="124" x2="520" y2="124" stroke="#141414" stroke-width="0.75" opacity="0.5"/>
+    <!-- cue line -->
+    <text x="360" y="158" font-family="Georgia, serif" font-size="10" fill="#141414" text-anchor="middle" letter-spacing="2" opacity="0.65" font-style="italic">CLEAREST · UNHEARD</text>
+    <!-- interloper mark + name -->
+    <g transform="translate(40, 200)"><circle cx="10" cy="12" r="8" fill="none" stroke="#141414" stroke-width="1.5"/><path d="M2,12 L18,12 M10,4 L10,20" fill="none" stroke="#141414" stroke-width="1" stroke-dasharray="2 2"/></g>
+    <text x="70" y="215" font-family="Georgia, serif" font-size="9" fill="#141414" font-weight="bold" letter-spacing="2.5" opacity="0.7">DUST CLERK</text>
+    <text x="680" y="215" font-family="Georgia, serif" font-size="8" fill="#9E1B1B" text-anchor="end" letter-spacing="2" opacity="0.5">STAMPED — COMPLIANT</text>
+    <!-- bottom stamp -->
+    <g transform="rotate(-12 650 215)"><circle cx="650" cy="215" r="22" fill="#9E1B1B" fill-opacity="0.1" stroke="#9E1B1B" stroke-width="2"/><circle cx="650" cy="215" r="18" fill="none" stroke="#9E1B1B" stroke-width="0.75" opacity="0.6"/><text x="650" y="218" font-family="Georgia, serif" font-size="9" fill="#9E1B1B" text-anchor="middle" font-weight="bold" letter-spacing="1.5">OZ</text></g>
+    <!-- spec line -->
+    <text x="40" y="250" font-family="Georgia, serif" font-size="8" fill="#141414" letter-spacing="2" opacity="0.45">UNIT REF: DOROTHY-07</text>
+    <text x="680" y="250" font-family="Georgia, serif" font-size="8" fill="#141414" text-anchor="end" letter-spacing="2" opacity="0.45">CLASSIFICATION: RITUAL</text>
+  </g>
+</svg>

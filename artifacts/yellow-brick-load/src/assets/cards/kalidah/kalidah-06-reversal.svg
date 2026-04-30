@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1080" width="720" height="1080" preserveAspectRatio="xMidYMid meet">
+<rect x="0" y="0" width="720" height="1080" fill="#F2EBDD" stroke="none" stroke-width="1.5"/>
+<rect x="22" y="22" width="676" height="1036" fill="none" stroke="#141414" stroke-width="2"/><rect x="30" y="30" width="660" height="1020" fill="none" stroke="#141414" stroke-width="0.75" opacity="0.5"/><circle cx="350" cy="40" r="7" fill="none" stroke="#9E1B1B" stroke-width="1.5"/><circle cx="370" cy="40" r="7" fill="none" stroke="#9E1B1B" stroke-width="1.5"/><line x1="360" y1="33" x2="360" y2="47" stroke="#9E1B1B" stroke-width="1"/><circle cx="350" cy="1040" r="7" fill="none" stroke="#9E1B1B" stroke-width="1.5"/><circle cx="370" cy="1040" r="7" fill="none" stroke="#9E1B1B" stroke-width="1.5"/><line x1="360" y1="1033" x2="360" y2="1047" stroke="#9E1B1B" stroke-width="1"/><circle cx="42" cy="540" r="7" fill="none" stroke="#9E1B1B" stroke-width="1.5"/><circle cx="62" cy="540" r="7" fill="none" stroke="#9E1B1B" stroke-width="1.5"/><line x1="52" y1="533" x2="52" y2="547" stroke="#9E1B1B" stroke-width="1"/><circle cx="658" cy="540" r="7" fill="none" stroke="#9E1B1B" stroke-width="1.5"/><circle cx="678" cy="540" r="7" fill="none" stroke="#9E1B1B" stroke-width="1.5"/><line x1="668" y1="533" x2="668" y2="547" stroke="#9E1B1B" stroke-width="1"/>
+<g>
+    <rect x="0" y="0" width="720" height="162" fill="#F2EBDD" stroke="none" stroke-width="1.5"/>
+    <line x1="0" y1="162" x2="720" y2="162" stroke="#141414" stroke-width="2"/>
+    <line x1="0" y1="156" x2="720" y2="156" stroke="#141414" stroke-width="0.75" opacity="0.5"/>
+    <!-- sigil left -->
+    <g transform="translate(50, 50)"><circle cx="20" cy="30" r="14" fill="#9E1B1B" fill-opacity="0.3" stroke="#141414" stroke-width="2"/><circle cx="40" cy="30" r="14" fill="#9E1B1B" fill-opacity="0.3" stroke="#141414" stroke-width="2"/><line x1="30" y1="16" x2="30" y2="44" stroke="#141414" stroke-width="1.5"/><circle cx="18" cy="28" r="1.5" fill="#141414" stroke="none" stroke-width="1.5"/><circle cx="42" cy="28" r="1.5" fill="#141414" stroke="none" stroke-width="1.5"/><path d="M14,38 L20,38 M40,38 L46,38" fill="none" stroke="#141414" stroke-width="1"/></g>
+    <!-- deck name center -->
+    <text x="360" y="70" font-family="Georgia, serif" font-size="16" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="5">MERGE ORACLE</text>
+    <text x="360" y="95" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" letter-spacing="3" opacity="0.55">— ORACLE DRAW —</text>
+    <!-- card index right -->
+    <rect x="610" y="30" width="60" height="80" fill="none" stroke="#141414" stroke-width="1.5"/>
+    <rect x="610" y="30" width="60" height="18" fill="#141414" stroke="none" stroke-width="1.5"/>
+    <text x="640" y="43" font-family="Georgia, serif" font-size="8" fill="#F2EBDD" text-anchor="middle" font-weight="bold" letter-spacing="1.5">IDX</text>
+    <text x="640" y="90" font-family="Georgia, serif" font-size="32" fill="#141414" text-anchor="middle" font-weight="bold">VI</text>
+    <!-- minor tick row above scene line -->
+    <text x="120" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">I</text><text x="184" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">II</text><text x="248" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">III</text><text x="312" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">IV</text><text x="376" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">V</text><text x="440" y="130" font-family="Georgia, serif" font-size="9" fill="#9E1B1B" text-anchor="middle" font-weight="bold" opacity="1">VI</text><text x="504" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">VII</text><text x="568" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">VIII</text>
+    <line x1="108" y1="138" x2="612" y2="138" stroke="#141414" stroke-width="0.5" opacity="0.4"/>
+  </g>
+<g transform="translate(0, 162)">
+    
+  <rect x="40" y="20" width="640" height="600" fill="#F2EBDD" stroke="#141414" stroke-width="1.5"/>
+  <rect x="48" y="28" width="624" height="584" fill="none" stroke="#141414" stroke-width="0.5" opacity="0.4"/>
+  <rect x="60" y="40" width="600" height="20" fill="#141414" stroke="none" stroke-width="1.5"/><text x="360" y="55" font-family="Georgia, serif" font-size="11" fill="#F2EBDD" text-anchor="middle" font-weight="bold" letter-spacing="4">SEPARATION EVENT — INCOMPLETE</text>
+
+    <path d="M180,200 Q200,160 280,160 Q340,160 360,200 L360,300 Q340,340 280,340 Q200,340 180,300 Z" fill="#141414" fill-opacity="0.85" stroke="#141414" stroke-width="2.5"/>
+    <path d="M460,200 Q480,160 540,160 Q580,160 580,200 L580,300 Q580,340 540,340 Q480,340 460,300 Z" fill="#141414" fill-opacity="0.85" stroke="#141414" stroke-width="2.5"/>
+    <path d="M360,260 L380,265 L390,255 L400,270 L410,260 L420,275 L430,265 L440,275 L460,260" fill="none" stroke="#141414" stroke-width="4"/>
+    <circle cx="380" cy="265" r="3" fill="#141414" stroke="none" stroke-width="1.5"/><circle cx="400" cy="270" r="3" fill="#141414" stroke="none" stroke-width="1.5"/><circle cx="420" cy="275" r="3" fill="#141414" stroke="none" stroke-width="1.5"/><circle cx="440" cy="275" r="3" fill="#141414" stroke="none" stroke-width="1.5"/>
+    <path d="M360,260 L355,290 L380,295 L370,310" fill="none" stroke="#141414" stroke-width="1.5"/>
+    <path d="M460,260 L465,290 L440,295 L450,310" fill="none" stroke="#141414" stroke-width="1.5"/>
+    <path d="M365,330 Q367.5,322 370,322 Q372.5,322 375,330 Q370,332.5 365,330 Z" fill="#141414" fill-opacity="0.7" stroke="#141414" stroke-width="0.75"/><path d="M396,340 Q398,333.6 400,333.6 Q402,333.6 404,340 Q400,342 396,340 Z" fill="#141414" fill-opacity="0.7" stroke="#141414" stroke-width="0.75"/><path d="M425,340 Q427.5,332 430,332 Q432.5,332 435,340 Q430,342.5 425,340 Z" fill="#141414" fill-opacity="0.7" stroke="#141414" stroke-width="0.75"/><path d="M446,330 Q448,323.6 450,323.6 Q452,323.6 454,330 Q450,332 446,330 Z" fill="#141414" fill-opacity="0.7" stroke="#141414" stroke-width="0.75"/>
+    <rect x="140" y="460" width="440" height="90" fill="#F2EBDD" stroke="#141414" stroke-width="1.5"/>
+    <text x="360" y="482" font-family="Georgia, serif" font-size="12" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="3">CORD: SEVERED</text>
+    <text x="360" y="504" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" letter-spacing="2" opacity="0.7">NEITHER PARTY · WHOLE</text>
+    <text x="360" y="526" font-family="Georgia, serif" font-size="8" fill="#141414" text-anchor="middle" letter-spacing="2" opacity="0.6" font-style="italic">BOTH SURVIVE · WITH SHADOWS</text>
+    <g transform="rotate(-14 620 110)"><circle cx="620" cy="110" r="26" fill="#141414" fill-opacity="0.08" stroke="#141414" stroke-width="2"/><circle cx="620" cy="110" r="22" fill="none" stroke="#141414" stroke-width="0.75" opacity="0.6"/><text x="620" y="113" font-family="Georgia, serif" font-size="8" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="1.5">CUT</text></g>
+    
+  <line x1="60" y1="540" x2="660" y2="540" stroke="#141414" stroke-width="0.75" opacity="0.5"/>
+  <text x="360" y="562" font-family="Georgia, serif" font-size="11" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="2">COORDINATOR · WAS ABSENT</text>
+  <text x="360" y="585" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" letter-spacing="1.5" opacity="0.6">INCIDENT REPORT · OUTSTANDING</text>
+  <text x="360" y="605" font-family="Georgia, serif" font-size="8" fill="#9E1B1B" text-anchor="middle" letter-spacing="3" opacity="0.8">CS-06</text>
+
+  </g>
+<g transform="translate(0, 810)">
+    <rect x="0" y="0" width="720" height="270" fill="#F2EBDD" stroke="none" stroke-width="1.5"/>
+    <line x1="0" y1="0" x2="720" y2="0" stroke="#141414" stroke-width="2"/>
+    <line x1="0" y1="6" x2="720" y2="6" stroke="#141414" stroke-width="0.75" opacity="0.5"/>
+    <!-- ladder badge -->
+    <rect x="40" y="30" width="200" height="24" fill="#9E1B1B" fill-opacity="0.25" stroke="#141414" stroke-width="1"/>
+    <text x="140" y="47" font-family="Georgia, serif" font-size="11" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="3">[REVERSAL]</text>
+    <!-- title -->
+    <text x="360" y="110" font-family="Georgia, serif" font-size="28" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="2.5">CORD SEVERED</text>
+    <line x1="200" y1="124" x2="520" y2="124" stroke="#141414" stroke-width="0.75" opacity="0.5"/>
+    <!-- cue line -->
+    <text x="360" y="158" font-family="Georgia, serif" font-size="10" fill="#141414" text-anchor="middle" letter-spacing="2" opacity="0.65" font-style="italic">UNMERGE · INCOMPLETE</text>
+    <!-- interloper mark + name -->
+    <g transform="translate(40, 200)"><path d="M2,4 L8,10 L2,16 M18,4 L12,10 L18,16" fill="none" stroke="#141414" stroke-width="1.5"/><line x1="8" y1="10" x2="12" y2="10" stroke="#141414" stroke-width="1.5"/></g>
+    <text x="70" y="215" font-family="Georgia, serif" font-size="9" fill="#141414" font-weight="bold" letter-spacing="2.5" opacity="0.7">MERGE COORDINATOR</text>
+    <text x="680" y="215" font-family="Georgia, serif" font-size="8" fill="#9E1B1B" text-anchor="end" letter-spacing="2" opacity="0.5">STAMPED — COMPLIANT</text>
+    <!-- bottom stamp -->
+    <g transform="rotate(-12 650 215)"><circle cx="650" cy="215" r="22" fill="#9E1B1B" fill-opacity="0.1" stroke="#9E1B1B" stroke-width="2"/><circle cx="650" cy="215" r="18" fill="none" stroke="#9E1B1B" stroke-width="0.75" opacity="0.6"/><text x="650" y="218" font-family="Georgia, serif" font-size="9" fill="#9E1B1B" text-anchor="middle" font-weight="bold" letter-spacing="1.5">OZ</text></g>
+    <!-- spec line -->
+    <text x="40" y="250" font-family="Georgia, serif" font-size="8" fill="#141414" letter-spacing="2" opacity="0.45">UNIT REF: KALIDAH-06</text>
+    <text x="680" y="250" font-family="Georgia, serif" font-size="8" fill="#141414" text-anchor="end" letter-spacing="2" opacity="0.45">CLASSIFICATION: RITUAL</text>
+  </g>
+</svg>

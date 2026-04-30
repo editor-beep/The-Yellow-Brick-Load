@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1080" width="720" height="1080" preserveAspectRatio="xMidYMid meet">
+<rect x="0" y="0" width="720" height="1080" fill="#F2EBDD" stroke="none" stroke-width="1.5"/>
+<rect x="22" y="22" width="676" height="1036" fill="none" stroke="#141414" stroke-width="2"/><rect x="30" y="30" width="660" height="1020" fill="none" stroke="#141414" stroke-width="0.75" opacity="0.5"/><path d="M56,80 A24,24 0 0 1 104,80" fill="none" stroke="#D4A72C" stroke-width="2" opacity="0.85"/><path d="M616,80 A24,24 0 0 1 664,80" fill="none" stroke="#D4A72C" stroke-width="2" opacity="0.85"/><g transform="rotate(180 80 1000)"><path d="M56,80 A24,24 0 0 1 104,80" fill="none" stroke="#D4A72C" stroke-width="2" opacity="0.85"/></g><g transform="rotate(180 640 1000)"><path d="M56,80 A24,24 0 0 1 104,80" fill="none" stroke="#D4A72C" stroke-width="2" opacity="0.85"/></g><path d="M348,32 Q354,24 360,32 Q366,24 372,32" fill="none" stroke="#141414" stroke-width="1.5"/><path d="M348,1048 Q354,1040 360,1048 Q366,1040 372,1048" fill="none" stroke="#141414" stroke-width="1.5"/><g transform="rotate(90 32 540)"><path d="M528,32 Q534,24 540,32 Q546,24 552,32" fill="none" stroke="#141414" stroke-width="1.5"/></g><g transform="rotate(-90 688 540)"><path d="M528,32 Q534,24 540,32 Q546,24 552,32" fill="none" stroke="#141414" stroke-width="1.5"/></g>
+<g>
+    <rect x="0" y="0" width="720" height="162" fill="#F2EBDD" stroke="none" stroke-width="1.5"/>
+    <line x1="0" y1="162" x2="720" y2="162" stroke="#141414" stroke-width="2"/>
+    <line x1="0" y1="156" x2="720" y2="156" stroke="#141414" stroke-width="0.75" opacity="0.5"/>
+    <!-- sigil left -->
+    <g transform="translate(50, 50)"><circle cx="30" cy="30" r="24" fill="none" stroke="#141414" stroke-width="2"/><path d="M14,32 Q30,18 46,32 Q46,40 30,38 Q14,40 14,32 Z" fill="#D4A72C" fill-opacity="0.4" stroke="#141414" stroke-width="1.5"/><circle cx="30" cy="28" r="2" fill="#141414" stroke="none" stroke-width="1.5"/><path d="M30,4 L26,12 M30,4 L34,12 M6,30 L14,30 M54,30 L46,30 M30,56 L26,48 M30,56 L34,48 M12,12 L18,18 M48,12 L42,18 M12,48 L18,42 M48,48 L42,42" fill="none" stroke="#141414" stroke-width="1.5"/></g>
+    <!-- deck name center -->
+    <text x="360" y="70" font-family="Georgia, serif" font-size="16" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="5">OZ-TAROT</text>
+    <text x="360" y="95" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" letter-spacing="3" opacity="0.55">— ORACLE DRAW —</text>
+    <!-- card index right -->
+    <rect x="610" y="30" width="60" height="80" fill="none" stroke="#141414" stroke-width="1.5"/>
+    <rect x="610" y="30" width="60" height="18" fill="#141414" stroke="none" stroke-width="1.5"/>
+    <text x="640" y="43" font-family="Georgia, serif" font-size="8" fill="#F2EBDD" text-anchor="middle" font-weight="bold" letter-spacing="1.5">IDX</text>
+    <text x="640" y="90" font-family="Georgia, serif" font-size="32" fill="#141414" text-anchor="middle" font-weight="bold">VI</text>
+    <!-- minor tick row above scene line -->
+    <text x="120" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">I</text><text x="184" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">II</text><text x="248" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">III</text><text x="312" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">IV</text><text x="376" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">V</text><text x="440" y="130" font-family="Georgia, serif" font-size="9" fill="#D4A72C" text-anchor="middle" font-weight="bold" opacity="1">VI</text><text x="504" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">VII</text><text x="568" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">VIII</text>
+    <line x1="108" y1="138" x2="612" y2="138" stroke="#141414" stroke-width="0.5" opacity="0.4"/>
+  </g>
+<g transform="translate(0, 162)">
+    
+  <rect x="40" y="20" width="640" height="600" fill="#F2EBDD" stroke="#141414" stroke-width="1.5"/>
+  <rect x="48" y="28" width="624" height="584" fill="none" stroke="#141414" stroke-width="0.5" opacity="0.4"/>
+  <rect x="60" y="40" width="600" height="20" fill="#141414" stroke="none" stroke-width="1.5"/><text x="360" y="55" font-family="Georgia, serif" font-size="11" fill="#F2EBDD" text-anchor="middle" font-weight="bold" letter-spacing="4">PAW INVENTORY — REGISTRATION DOC</text>
+
+    <path d="M280,160 Q200,260 220,360 Q260,420 360,420 Q460,420 500,360 Q520,260 440,160 Q400,140 360,150 Q320,140 280,160 Z" fill="#D4A72C" fill-opacity="0.18" stroke="#141414" stroke-width="2.5"/>
+    <path d="M230,180 Q224,150 230,130" fill="none" stroke="#141414" stroke-width="2.5"/><circle cx="230" cy="130" r="5" fill="#D4A72C" stroke="#141414" stroke-width="1"/><text x="230" y="122" font-family="Georgia, serif" font-size="8" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="1.5">C-001</text><path d="M300,140 Q294,110 300,90" fill="none" stroke="#141414" stroke-width="2.5"/><circle cx="300" cy="90" r="5" fill="#D4A72C" stroke="#141414" stroke-width="1"/><text x="300" y="82" font-family="Georgia, serif" font-size="8" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="1.5">C-002</text><path d="M360,128 Q354,98 360,78" fill="none" stroke="#141414" stroke-width="2.5"/><circle cx="360" cy="78" r="5" fill="#9E1B1B" stroke="#141414" stroke-width="1"/><text x="360" y="70" font-family="Georgia, serif" font-size="8" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="1.5">C-003</text><path d="M420,140 Q414,110 420,90" fill="none" stroke="#141414" stroke-width="2.5"/><circle cx="420" cy="90" r="5" fill="#D4A72C" stroke="#141414" stroke-width="1"/><text x="420" y="82" font-family="Georgia, serif" font-size="8" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="1.5">C-004</text><path d="M490,180 Q484,150 490,130" fill="none" stroke="#141414" stroke-width="2.5"/><circle cx="490" cy="130" r="5" fill="#D4A72C" stroke="#141414" stroke-width="1"/><text x="490" y="122" font-family="Georgia, serif" font-size="8" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="1.5">C-005</text>
+    <line x1="348" y1="86" x2="372" y2="114" stroke="#9E1B1B" stroke-width="2.5"/><line x1="348" y1="114" x2="372" y2="86" stroke="#9E1B1B" stroke-width="2.5"/>
+    <rect x="180" y="460" width="360" height="60" fill="#F2EBDD" stroke="#141414" stroke-width="1.5"/>
+    <text x="360" y="478" font-family="Georgia, serif" font-size="11" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="2.5">PAW: REGISTERED</text>
+    <text x="360" y="498" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" letter-spacing="1.5" opacity="0.7">CLAW C-003: NOTICE OF FORMAL BITE</text>
+    <g transform="rotate(-14 110 200)"><circle cx="110" cy="200" r="26" fill="#D4A72C" fill-opacity="0.08" stroke="#D4A72C" stroke-width="2"/><circle cx="110" cy="200" r="22" fill="none" stroke="#D4A72C" stroke-width="0.75" opacity="0.6"/><text x="110" y="203" font-family="Georgia, serif" font-size="8" fill="#D4A72C" text-anchor="middle" font-weight="bold" letter-spacing="1.5">ID</text></g>
+    
+  <line x1="60" y1="540" x2="660" y2="540" stroke="#141414" stroke-width="0.75" opacity="0.5"/>
+  <text x="360" y="562" font-family="Georgia, serif" font-size="11" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="2">NUMBNESS — STANDARD</text>
+  <text x="360" y="585" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" letter-spacing="1.5" opacity="0.6">OFFENSIVE USE: PERMIT PENDING</text>
+  <text x="360" y="605" font-family="Georgia, serif" font-size="8" fill="#D4A72C" text-anchor="middle" letter-spacing="3" opacity="0.8">CLAW-REG · L-77</text>
+
+  </g>
+<g transform="translate(0, 810)">
+    <rect x="0" y="0" width="720" height="270" fill="#F2EBDD" stroke="none" stroke-width="1.5"/>
+    <line x1="0" y1="0" x2="720" y2="0" stroke="#141414" stroke-width="2"/>
+    <line x1="0" y1="6" x2="720" y2="6" stroke="#141414" stroke-width="0.75" opacity="0.5"/>
+    <!-- ladder badge -->
+    <rect x="40" y="30" width="200" height="24" fill="#D4A72C" fill-opacity="0.25" stroke="#141414" stroke-width="1"/>
+    <text x="140" y="47" font-family="Georgia, serif" font-size="11" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="3">[REVERSAL]</text>
+    <!-- title -->
+    <text x="360" y="110" font-family="Georgia, serif" font-size="28" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="2.5">CLAW REGISTRATION</text>
+    <line x1="200" y1="124" x2="520" y2="124" stroke="#141414" stroke-width="0.75" opacity="0.5"/>
+    <!-- cue line -->
+    <text x="360" y="158" font-family="Georgia, serif" font-size="10" fill="#141414" text-anchor="middle" letter-spacing="2" opacity="0.65" font-style="italic">SERIAL: 5/5 · AUTHORIZED</text>
+    <!-- interloper mark + name -->
+    <g transform="translate(40, 200)"><path d="M0,12 L10,4 L20,10 L14,18 Z" fill="#141414" stroke="#141414" stroke-width="1.5"/><path d="M14,18 L20,28 M16,16 L24,22" fill="none" stroke="#141414" stroke-width="1.5"/></g>
+    <text x="70" y="215" font-family="Georgia, serif" font-size="9" fill="#141414" font-weight="bold" letter-spacing="2.5" opacity="0.7">BUREAU CROW</text>
+    <text x="680" y="215" font-family="Georgia, serif" font-size="8" fill="#D4A72C" text-anchor="end" letter-spacing="2" opacity="0.5">STAMPED — COMPLIANT</text>
+    <!-- bottom stamp -->
+    <g transform="rotate(-12 650 215)"><circle cx="650" cy="215" r="22" fill="#D4A72C" fill-opacity="0.1" stroke="#D4A72C" stroke-width="2"/><circle cx="650" cy="215" r="18" fill="none" stroke="#D4A72C" stroke-width="0.75" opacity="0.6"/><text x="650" y="218" font-family="Georgia, serif" font-size="9" fill="#D4A72C" text-anchor="middle" font-weight="bold" letter-spacing="1.5">OZ</text></g>
+    <!-- spec line -->
+    <text x="40" y="250" font-family="Georgia, serif" font-size="8" fill="#141414" letter-spacing="2" opacity="0.45">UNIT REF: LION-06</text>
+    <text x="680" y="250" font-family="Georgia, serif" font-size="8" fill="#141414" text-anchor="end" letter-spacing="2" opacity="0.45">CLASSIFICATION: RITUAL</text>
+  </g>
+</svg>

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1080" width="720" height="1080" preserveAspectRatio="xMidYMid meet">
+<rect x="0" y="0" width="720" height="1080" fill="#F2EBDD" stroke="none" stroke-width="1.5"/>
+<rect x="22" y="22" width="676" height="1036" fill="none" stroke="#141414" stroke-width="2"/><rect x="30" y="30" width="660" height="1020" fill="none" stroke="#141414" stroke-width="0.75" opacity="0.5"/><path d="M72,34 Q78,52 72,72" fill="none" stroke="#D4A72C" stroke-width="1.5" opacity="0.85"/><path d="M96,34 Q102,52 96,72" fill="none" stroke="#D4A72C" stroke-width="1.5" opacity="0.85"/><path d="M120,34 Q126,52 120,72" fill="none" stroke="#D4A72C" stroke-width="1.5" opacity="0.85"/><path d="M144,34 Q150,52 144,72" fill="none" stroke="#D4A72C" stroke-width="1.5" opacity="0.85"/><path d="M168,34 Q174,52 168,72" fill="none" stroke="#D4A72C" stroke-width="1.5" opacity="0.85"/><path d="M192,34 Q198,52 192,72" fill="none" stroke="#D4A72C" stroke-width="1.5" opacity="0.85"/><path d="M216,34 Q222,52 216,72" fill="none" stroke="#D4A72C" stroke-width="1.5" opacity="0.85"/><path d="M240,34 Q246,52 240,72" fill="none" stroke="#D4A72C" stroke-width="1.5" opacity="0.85"/><path d="M264,34 Q270,52 264,72" fill="none" stroke="#D4A72C" stroke-width="1.5" opacity="0.85"/><path d="M288,34 Q294,52 288,72" fill="none" stroke="#D4A72C" stroke-width="1.5" opacity="0.85"/><path d="M312,34 Q318,52 312,72" fill="none" stroke="#D4A72C" stroke-width="1.5" opacity="0.85"/><path d="M336,34 Q342,52 336,72" fill="none" stroke="#D4A72C" stroke-width="1.5" opacity="0.85"/><path d="M360,34 Q366,52 360,72" fill="none" stroke="#D4A72C" stroke-width="1.5" opacity="0.85"/><path d="M384,34 Q390,52 384,72" fill="none" stroke="#D4A72C" stroke-width="1.5" opacity="0.85"/><path d="M408,34 Q414,52 408,72" fill="none" stroke="#D4A72C" stroke-width="1.5" opacity="0.85"/><path d="M432,34 Q438,52 432,72" fill="none" stroke="#D4A72C" stroke-width="1.5" opacity="0.85"/><path d="M456,34 Q462,52 456,72" fill="none" stroke="#D4A72C" stroke-width="1.5" opacity="0.85"/><path d="M480,34 Q486,52 480,72" fill="none" stroke="#D4A72C" stroke-width="1.5" opacity="0.85"/><path d="M504,34 Q510,52 504,72" fill="none" stroke="#D4A72C" stroke-width="1.5" opacity="0.85"/><path d="M528,34 Q534,52 528,72" fill="none" stroke="#D4A72C" stroke-width="1.5" opacity="0.85"/><path d="M552,34 Q558,52 552,72" fill="none" stroke="#D4A72C" stroke-width="1.5" opacity="0.85"/><path d="M576,34 Q582,52 576,72" fill="none" stroke="#D4A72C" stroke-width="1.5" opacity="0.85"/><path d="M600,34 Q606,52 600,72" fill="none" stroke="#D4A72C" stroke-width="1.5" opacity="0.85"/><path d="M624,34 Q630,52 624,72" fill="none" stroke="#D4A72C" stroke-width="1.5" opacity="0.85"/><path d="M648,34 Q654,52 648,72" fill="none" stroke="#D4A72C" stroke-width="1.5" opacity="0.85"/><path d="M672,34 Q678,52 672,72" fill="none" stroke="#D4A72C" stroke-width="1.5" opacity="0.85"/><path d="M696,34 Q702,52 696,72" fill="none" stroke="#D4A72C" stroke-width="1.5" opacity="0.85"/><circle cx="52" cy="72" r="5" fill="#D4A72C" stroke="#141414" stroke-width="1"/><circle cx="668" cy="72" r="5" fill="#D4A72C" stroke="#141414" stroke-width="1"/>
+<g>
+    <rect x="0" y="0" width="720" height="162" fill="#F2EBDD" stroke="none" stroke-width="1.5"/>
+    <line x1="0" y1="162" x2="720" y2="162" stroke="#141414" stroke-width="2"/>
+    <line x1="0" y1="156" x2="720" y2="156" stroke="#141414" stroke-width="0.75" opacity="0.5"/>
+    <!-- sigil left -->
+    <g transform="translate(50, 50)"><path d="M16,18 Q30,8 44,18 Q44,38 30,42 Q16,38 16,18 Z" fill="#D4A72C" fill-opacity="0.4" stroke="#141414" stroke-width="1.5"/><circle cx="24" cy="24" r="2" fill="#141414" stroke="none" stroke-width="1.5"/><circle cx="36" cy="24" r="2" fill="#141414" stroke="none" stroke-width="1.5"/><path d="M22,32 Q30,36 38,32" fill="none" stroke="#141414" stroke-width="1.5"/><rect x="28" y="46" width="4" height="8" fill="#141414" stroke="none" stroke-width="1.5"/></g>
+    <!-- deck name center -->
+    <text x="360" y="70" font-family="Georgia, serif" font-size="16" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="5">PROJECTION ORACLE</text>
+    <text x="360" y="95" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" letter-spacing="3" opacity="0.55">— ORACLE DRAW —</text>
+    <!-- card index right -->
+    <rect x="610" y="30" width="60" height="80" fill="none" stroke="#141414" stroke-width="1.5"/>
+    <rect x="610" y="30" width="60" height="18" fill="#141414" stroke="none" stroke-width="1.5"/>
+    <text x="640" y="43" font-family="Georgia, serif" font-size="8" fill="#F2EBDD" text-anchor="middle" font-weight="bold" letter-spacing="1.5">IDX</text>
+    <text x="640" y="90" font-family="Georgia, serif" font-size="32" fill="#141414" text-anchor="middle" font-weight="bold">III</text>
+    <!-- minor tick row above scene line -->
+    <text x="120" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">I</text><text x="184" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">II</text><text x="248" y="130" font-family="Georgia, serif" font-size="9" fill="#D4A72C" text-anchor="middle" font-weight="bold" opacity="1">III</text><text x="312" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">IV</text><text x="376" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">V</text><text x="440" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">VI</text><text x="504" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">VII</text><text x="568" y="130" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="normal" opacity="0.3">VIII</text>
+    <line x1="108" y1="138" x2="612" y2="138" stroke="#141414" stroke-width="0.5" opacity="0.4"/>
+  </g>
+<g transform="translate(0, 162)">
+    
+  <rect x="40" y="20" width="640" height="600" fill="#F2EBDD" stroke="#141414" stroke-width="1.5"/>
+  <rect x="48" y="28" width="624" height="584" fill="none" stroke="#141414" stroke-width="0.5" opacity="0.4"/>
+  <rect x="60" y="40" width="600" height="20" fill="#141414" stroke="none" stroke-width="1.5"/><text x="360" y="55" font-family="Georgia, serif" font-size="11" fill="#F2EBDD" text-anchor="middle" font-weight="bold" letter-spacing="4">FOG SOURCE — CABINET ANALYSIS</text>
+
+    <rect x="220" y="200" width="280" height="220" fill="#141414" fill-opacity="0.85" stroke="#141414" stroke-width="2.5"/>
+    <rect x="230" y="210" width="130" height="60" fill="#F2EBDD" stroke="#141414" stroke-width="1"/>
+    <rect x="370" y="210" width="130" height="60" fill="#F2EBDD" stroke="#141414" stroke-width="1"/>
+    <rect x="230" y="280" width="130" height="60" fill="#F2EBDD" stroke="#141414" stroke-width="1"/>
+    <rect x="370" y="280" width="130" height="60" fill="#F2EBDD" stroke="#141414" stroke-width="1"/>
+    <rect x="230" y="350" width="270" height="60" fill="#F2EBDD" stroke="#141414" stroke-width="1"/>
+    <circle cx="295" cy="240" r="4" fill="#141414" stroke="#141414" stroke-width="1.5"/><circle cx="435" cy="240" r="4" fill="#141414" stroke="#141414" stroke-width="1.5"/><circle cx="295" cy="310" r="4" fill="#141414" stroke="#141414" stroke-width="1.5"/><circle cx="435" cy="310" r="4" fill="#141414" stroke="#141414" stroke-width="1.5"/>
+    <text x="295" y="245" font-family="Georgia, serif" font-size="8" fill="#141414" text-anchor="middle" font-weight="bold">FILE 1</text>
+    <text x="435" y="245" font-family="Georgia, serif" font-size="8" fill="#141414" text-anchor="middle" font-weight="bold">FILE 2</text>
+    <text x="295" y="315" font-family="Georgia, serif" font-size="8" fill="#141414" text-anchor="middle" font-weight="bold">FILE 3</text>
+    <text x="435" y="315" font-family="Georgia, serif" font-size="8" fill="#141414" text-anchor="middle" font-weight="bold">FILE 4</text>
+    <text x="360" y="386" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="2">FOG GENERATOR</text>
+    <path d="M260,200 Q250,160 265,120 Q255,80 270,60" fill="none" stroke="#141414" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.4"/><path d="M300,200 Q295,160 305,120 Q298,80 306,60" fill="none" stroke="#141414" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.5"/><path d="M360,200 Q360,160 365,120 Q361,80 362,60" fill="none" stroke="#141414" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.6000000000000001"/><path d="M420,200 Q425,160 425,120 Q424,80 418,60" fill="none" stroke="#141414" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.7000000000000001"/><path d="M460,200 Q470,160 465,120 Q467,80 454,60" fill="none" stroke="#141414" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.8"/>
+    <circle cx="180" cy="110" r="6.525074626279648" fill="#8E8A83" stroke="none" stroke-width="1.5" opacity="0.3"/><circle cx="280" cy="110" r="5.104185003748632" fill="#8E8A83" stroke="none" stroke-width="1.5" opacity="0.3"/><circle cx="440" cy="110" r="4.35010048997621" fill="#8E8A83" stroke="none" stroke-width="1.5" opacity="0.3"/><circle cx="540" cy="110" r="7.980895366549967" fill="#8E8A83" stroke="none" stroke-width="1.5" opacity="0.3"/>
+    <rect x="140" y="460" width="440" height="80" fill="#F2EBDD" stroke="#141414" stroke-width="1.5"/>
+    <text x="360" y="482" font-family="Georgia, serif" font-size="11" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="2.5">SMOKE: ACCOUNTING-DERIVED</text>
+    <text x="360" y="504" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" letter-spacing="2" opacity="0.7">PAPER COMBUSTION · CONTROLLED</text>
+    <text x="360" y="526" font-family="Georgia, serif" font-size="8" fill="#141414" text-anchor="middle" letter-spacing="2" opacity="0.6" font-style="italic">EFFECT &gt; SOURCE</text>
+    <g transform="rotate(-14 620 110)"><circle cx="620" cy="110" r="26" fill="#D4A72C" fill-opacity="0.08" stroke="#D4A72C" stroke-width="2"/><circle cx="620" cy="110" r="22" fill="none" stroke="#D4A72C" stroke-width="0.75" opacity="0.6"/><text x="620" y="113" font-family="Georgia, serif" font-size="8" fill="#D4A72C" text-anchor="middle" font-weight="bold" letter-spacing="1.5">FOG</text></g>
+    
+  <line x1="60" y1="540" x2="660" y2="540" stroke="#141414" stroke-width="0.75" opacity="0.5"/>
+  <text x="360" y="562" font-family="Georgia, serif" font-size="11" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="2">FILES BURNED · GAUGED</text>
+  <text x="360" y="585" font-family="Georgia, serif" font-size="9" fill="#141414" text-anchor="middle" letter-spacing="1.5" opacity="0.6">AUDIT TRAIL: PARTIAL</text>
+  <text x="360" y="605" font-family="Georgia, serif" font-size="8" fill="#D4A72C" text-anchor="middle" letter-spacing="3" opacity="0.8">SE-03</text>
+
+  </g>
+<g transform="translate(0, 810)">
+    <rect x="0" y="0" width="720" height="270" fill="#F2EBDD" stroke="none" stroke-width="1.5"/>
+    <line x1="0" y1="0" x2="720" y2="0" stroke="#141414" stroke-width="2"/>
+    <line x1="0" y1="6" x2="720" y2="6" stroke="#141414" stroke-width="0.75" opacity="0.5"/>
+    <!-- ladder badge -->
+    <rect x="40" y="30" width="200" height="24" fill="#D4A72C" fill-opacity="0.25" stroke="#141414" stroke-width="1"/>
+    <text x="140" y="47" font-family="Georgia, serif" font-size="11" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="3">[EXTRACTION]</text>
+    <!-- title -->
+    <text x="360" y="110" font-family="Georgia, serif" font-size="28" fill="#141414" text-anchor="middle" font-weight="bold" letter-spacing="2.5">SMOKE EXTRACTION</text>
+    <line x1="200" y1="124" x2="520" y2="124" stroke="#141414" stroke-width="0.75" opacity="0.5"/>
+    <!-- cue line -->
+    <text x="360" y="158" font-family="Georgia, serif" font-size="10" fill="#141414" text-anchor="middle" letter-spacing="2" opacity="0.65" font-style="italic">FOG FROM ACCOUNTING CABINET</text>
+    <!-- interloper mark + name -->
+    <g transform="translate(40, 200)"><polygon points="10,2 18,8 16,18 4,18 2,8" fill="#D4A72C" fill-opacity="0.5" stroke="#141414" stroke-width="1.5"/></g>
+    <text x="70" y="215" font-family="Georgia, serif" font-size="9" fill="#141414" font-weight="bold" letter-spacing="2.5" opacity="0.7">HUMBUG SURGEON</text>
+    <text x="680" y="215" font-family="Georgia, serif" font-size="8" fill="#D4A72C" text-anchor="end" letter-spacing="2" opacity="0.5">STAMPED — COMPLIANT</text>
+    <!-- bottom stamp -->
+    <g transform="rotate(-12 650 215)"><circle cx="650" cy="215" r="22" fill="#D4A72C" fill-opacity="0.1" stroke="#D4A72C" stroke-width="2"/><circle cx="650" cy="215" r="18" fill="none" stroke="#D4A72C" stroke-width="0.75" opacity="0.6"/><text x="650" y="218" font-family="Georgia, serif" font-size="9" fill="#D4A72C" text-anchor="middle" font-weight="bold" letter-spacing="1.5">OZ</text></g>
+    <!-- spec line -->
+    <text x="40" y="250" font-family="Georgia, serif" font-size="8" fill="#141414" letter-spacing="2" opacity="0.45">UNIT REF: WIZARD-03</text>
+    <text x="680" y="250" font-family="Georgia, serif" font-size="8" fill="#141414" text-anchor="end" letter-spacing="2" opacity="0.45">CLASSIFICATION: RITUAL</text>
+  </g>
+</svg>
