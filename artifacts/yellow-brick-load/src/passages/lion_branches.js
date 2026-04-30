@@ -5,8 +5,8 @@
  * All non-ending passages (branches, decisions, oracle nodes).
  * Endings are in lion_endings.js.
  */
-
 export const lionBranchPassages = {
+
   LION_INIT: {
     id: "LION_INIT",
     character: "lion",
@@ -38,6 +38,7 @@ Before you can respond to the road, you must decide what kind of body you are br
     ],
     onEnter: [{ type: "checkGhostSignal" }],
   },
+
   LION_INIT_W: {
     id: "LION_INIT_W",
     character: "lion",
@@ -100,7 +101,8 @@ You open your mouth. What comes out is a dry rasp. A dry rasp. A dry—`,
       },
     ],
     onEnter: [],
-  },
+  },,
+
   LION_DENIAL: {
     id: "LION_DENIAL",
     character: "lion",
@@ -155,7 +157,8 @@ You keep walking. The tremor moves up into your chest now, a wet fluttering like
       },
     ],
     onEnter: [{ type: 'triggerOracle' }],
-  },
+  },,
+
   LION_ASSIMILATION: {
     id: "LION_ASSIMILATION",
     character: "lion",
@@ -213,7 +216,8 @@ A figure appears at the edge of the grid. It wears the skin of a technician but 
       },
     ],
     onEnter: [],
-  },
+  },,
+
   LION_SEDATION: {
     id: "LION_SEDATION",
     character: "lion",
@@ -267,7 +271,8 @@ The technician makes a note. The technician has always been making a note.`,
       },
     ],
     onEnter: [],
-  },
+  },,
+
   LION_NOMINALIZATION: {
     id: "LION_NOMINALIZATION",
     character: "lion",
@@ -308,7 +313,8 @@ The technician turns to leave.`,
       },
     ],
     onEnter: [],
-  },
+  },,
+
   LION_MIRROR_ASSIMILATION: {
     id: "LION_MIRROR_ASSIMILATION",
     character: "lion",
@@ -351,7 +357,8 @@ The figure begins to fade. It does not vanish; it loses its opacity, becoming a 
       },
     ],
     onEnter: [{ type: "addSmudge", value: 1 }],
-  },
+  },,
+
   LION_NOMINAL_ECHO: {
     id: 'LION_NOMINAL_ECHO',
     character: 'lion',
@@ -395,7 +402,8 @@ You try to shake your head. The movement is blocked. The shaking is now a DESIGN
       },
     ],
     onEnter: [{ type: 'addDesynctear', value: 2 }],
-  },
+  },,
+
   LION_LATENCY: {
     id: 'LION_LATENCY',
     character: 'lion',
@@ -459,7 +467,8 @@ The white room has no malice. No malice. Only throughput. Only throughput.`,
       },
     ],
     onEnter: [{ type: 'addDesynctear', value: 2 }],
-  },
+  },,
+
   LION_CLOSED_SYSTEM: {
     id: 'LION_CLOSED_SYSTEM',
     character: 'lion',
@@ -508,7 +517,8 @@ You lie down. The yellow bricks feel neither cold nor warm. They feel like a con
       },
     ],
     onEnter: [{ type: 'addVibration', value: 8 }],
-  },
+  },,
+
   LION_VIOLENCE: {
     id: "LION_VIOLENCE",
     character: "lion",
@@ -552,7 +562,8 @@ It does not charge. It simply watches, waiting to see whether you will help it f
       },
     ],
     onEnter: [{ type: "addSmudge", value: 1 }],
-  },
+  },,
+
   LION_KALIDAH_FIGHT: {
     id: "LION_KALIDAH_FIGHT",
     character: "lion",
@@ -590,7 +601,8 @@ The tremor in your jaw locks in perfect rhythm with the Kalidah's failing whine.
       },
     ],
     onEnter: [],
-  },
+  },,
+
   LION_AUDIO_EVENT: {
     id: "LION_AUDIO_EVENT",
     character: "lion",
@@ -626,7 +638,8 @@ You are a King of a broken frame.`,
       },
     ],
     onEnter: [],
-  },
+  },,
+
   LION_LATENCY_GAP: {
     id: 'LION_LATENCY_GAP',
     character: 'lion',
@@ -671,7 +684,8 @@ The gap is where the self used to live. Now it is only unallocated meat and dela
       },
     ],
     onEnter: [{ type: 'addDesynctear', value: 3 }],
-  },
+  },,
+
   LION_RESONANCE_COLLAPSE: {
     id: "LION_RESONANCE_COLLAPSE",
     character: "lion",
@@ -736,7 +750,8 @@ The columns dissolve. The columns dissolve. The Kalidah loses its outline loses 
       },
     ],
     onEnter: [{ type: "addOverrender", value: 1 }],
-  },
+  },,
+
   LION_KALIDAH_PATCH: {
     id: "LION_KALIDAH_PATCH",
     character: "lion",
@@ -777,7 +792,8 @@ The reset fails. You are too heavy now. You are the friction that the road could
       },
     ],
     onEnter: [{ type: "addSmudge", value: 1 }],
-  },
+  },,
+
   LION_MUFFLED_CHAMBER: {
     id: "LION_MUFFLED_CHAMBER",
     character: "lion",
@@ -820,7 +836,8 @@ You are a lion in a box made of lion. You are the silence that follows a roar.`,
       },
     ],
     onEnter: [{ type: "addOverrender", value: 1 }],
-  },
+  },,
+
   LION_MANE_FRACTURE: {
     id: 'LION_MANE_FRACTURE',
     character: 'lion',
@@ -865,7 +882,8 @@ The skin beneath the broken mane is already pulsing, wet and raw, waiting for th
       },
     ],
     onEnter: [{ type: 'addVibration', value: 3 }],
-  },
+  },,
+
   LION_SYSTEM_SPASM: {
     id: 'LION_SYSTEM_SPASM',
     character: 'lion',
@@ -916,7 +934,8 @@ Your spine is screaming. The mane is gone. There is only raw, shaking meat and t
       { type: 'addDesynctear', value: 3 },
       { type: 'setCompliance', value: 'low' },
     ],
-  },
+  },,
+
   LION_VOID_FRAGMENT: {
     id: 'LION_VOID_FRAGMENT',
     character: 'lion',
@@ -965,7 +984,8 @@ A single notification pulses in the dark:
       },
     ],
     onEnter: [{ type: 'addDesynctear', value: 4 }],
-  },
+  },,
+
   LION_HARD_RESET: {
     id: "LION_HARD_RESET",
     character: "lion",
@@ -1006,7 +1026,8 @@ The road behind you is gone.`,
       },
     ],
     onEnter: [],
-  },
+  },,
+
   LION_ROYAL_COMPLIANCE: {
     id: "LION_ROYAL_COMPLIANCE",
     character: "lion",
@@ -1047,7 +1068,8 @@ The road behind you is gone.`,
       },
     ],
     onEnter: [],
-  },
+  },,
+
   LION_GEAR_HIDING: {
     id: "LION_GEAR_HIDING",
     character: "lion",
@@ -1088,7 +1110,8 @@ The road behind you is gone.`,
       },
     ],
     onEnter: [{ type: "addDesync", value: 2 }],
-  },
+  },,
+
   LION_CALIBRATION_POINT: {
     id: 'LION_CALIBRATION_POINT',
     character: 'lion',
@@ -1131,7 +1154,8 @@ The bird tilts its head. A small needle extends from its beak and hovers near th
       },
     ],
     onEnter: [{ type: 'addVibration', value: 4 }],
-  },
+  },,
+
   LION_HARMONIC_ALIGNMENT: {
     id: "LION_HARMONIC_ALIGNMENT",
     character: "lion",
@@ -1158,7 +1182,8 @@ The bird tilts its head. A small needle extends from its beak and hovers near th
       },
     ],
     onEnter: [{ type: "addVibration", value: 10 }],
-  },
+  },,
+
   LION_ACOUSTIC_REBELLION: {
     id: 'LION_ACOUSTIC_REBELLION',
     character: 'lion',
@@ -1201,7 +1226,8 @@ The sky answers with a wet, tearing static. Somewhere in the distance, something
       },
     ],
     onEnter: [{ type: 'addVibration', value: 6 }],
-  },
+  },,
+
   LION_INIT_H: {
     id: "LION_INIT_H",
     character: "lion",
@@ -1251,7 +1277,8 @@ The sky answers with a wet, tearing static. Somewhere in the distance, something
       },
     ],
     onEnter: [],
-  },
+  },,
+
   LION_ASSIMILATION_H: {
     id: 'LION_ASSIMILATION_H',
     character: 'lion',
@@ -1304,7 +1331,8 @@ It is architecture.`,
       },
     ],
     onEnter: [{ type: 'addVibration', value: -5 }],
-  },
+  },,
+
   LION_DENIAL_H: {
     id: "LION_DENIAL_H",
     character: "lion",
@@ -1348,7 +1376,8 @@ It is architecture.`,
       },
     ],
     onEnter: [],
-  },
+  },,
+
   LION_VIOLENCE_H: {
     id: "LION_VIOLENCE_H",
     character: "lion",
@@ -1396,7 +1425,8 @@ It is architecture.`,
       },
     ],
     onEnter: [{ type: "addSmudge", value: 1 }],
-  },
+  },,
+
   LION_UNINDEXED_MANY: {
     id: "LION_UNINDEXED_MANY",
     character: "lion",
@@ -1423,7 +1453,8 @@ It is architecture.`,
       },
     ],
     onEnter: [{ type: "addOverrender", value: 1 }],
-  },
+  },,
+
   LION_RITUAL_WORK: {
     id: "LION_RITUAL_WORK",
     character: "lion",
@@ -1463,424 +1494,8 @@ It is architecture.`,
       },
     ],
     onEnter: [{ type: "addSmudge", value: 1 }],
-  },
-  LION_ORACLE_ENTRY: {
-    id: 'LION_ORACLE_ENTRY',
-    character: 'lion',
-    text: [
-      {
-        minOverrender: 0,
-        content: `THE INK-CROW DESCENDS
+  },,
 
-  The Milestone Marker bleeds a fresh rivulet of dark fluid. The tremor in your spine hits its peak — 14Hz, resonant, unmistakable — and the black bird drops from the iron post in a single, deliberate fold of wings.
-
-  It is not a crow. It is a Bureau Crow: a glossy, filing-cabinet black, with a beak of hammered iron that ends in a stamp instead of a point. Its eyes are polished glass lenses that rotate with the click of a hole-puncher. It lands on your shoulder. Its claws sink through your mane into the meat beneath.
-
-  [ WETWARE EXTRACTION AUTHORIZED ]
-  [ PROCEDURE: TREMOR FLUID READING ]
-  [ OPERATOR: BUREAU INK-READER UNIT ]
-
-  "Unit L-77," the bird clicks. "Your tremor has reached a reportable frequency. Standard procedure requires a fluid sample." Its beak angles toward the base of your skull. You feel the cold precision of iron against the jaw hinge. "The ink does not lie. It only smears."
-
-  The incision is small. A bead of lymph mixed with tremor fluid wells up and is immediately absorbed into the crow's stamp-beak. It regurgitates a wet ink pattern onto a scrap of carbon paper held in its secondary claw. The Clerk makes a note while your flesh is still open.`,
-      },
-    ],
-    choices: [
-      {
-        label: 'Submit to the reading. (The Authorized Extraction)',
-        target: 'LION_ORACLE_DRAW',
-        effects: [{ type: 'addVibration', value: 2 }],
-      },
-      {
-        label: 'Attempt to shake the crow loose. (The Refusal)',
-        target: 'LION_DENIAL',
-        effects: [
-          { type: 'addVibration', value: 5 },
-          { type: 'addDesync', value: 1 },
-          { type: 'setFlag', key: 'oracle_lion_refused', value: true },
-        ],
-      },
-    ],
-    onEnter: [],
-  },
-  LION_ORACLE_DRAW: {
-    id: 'LION_ORACLE_DRAW',
-    character: 'lion',
-    text: [
-      {
-        minOverrender: 0,
-        content: `THE INK READING
-
-  The Bureau Crow tilts its carbon-paper print into the light. The ink pattern is wet, blotched, alive with the rhythm of your tremor. It is The Weighted King — a lion whose mane has become a waterfall of filing cabinets, held upright only by the volume of paperwork beneath him. The crown is a rubber stamp. The eyes are closed.
-
-  "Eight possible readings," the Crow announces. "The smear will determine your vector."
-
-  It waits. The incision at your jaw hinge is still open. The Clerk makes another note.
-
-  [ SELECT INTERPRETATION — THE CROW READS THE SMEAR ]`,
-      },
-    ],
-    choices: [
-      {
-        label: '1. The Spasming Lymph — lean into the surge.',
-        target: 'LION_ORACLE_1',
-        effects: [],
-      },
-      {
-        label: '2. The Clotted Stamp — accept the official seal.',
-        target: 'LION_ORACLE_2',
-        effects: [],
-      },
-      {
-        label: '3. The Kalidah Stain — follow the black ink toward the merge.',
-        target: 'LION_ORACLE_3',
-        effects: [],
-      },
-      {
-        label: '4. The Jaw Fracture — let the pressure lock the jaw.',
-        target: 'LION_ORACLE_4',
-        effects: [],
-      },
-      {
-        label: '5. The Wet Gypsum Bead — accept the sensory weight.',
-        target: 'LION_ORACLE_5',
-        effects: [],
-      },
-      {
-        label: '6. The Roaring Residue — hear the echo in another unit\'s chest.',
-        target: 'LION_ORACLE_6',
-        effects: [],
-      },
-      {
-        label: '7. The Stapled Tremor — let the crow suture the shaking.',
-        target: 'LION_ORACLE_7',
-        effects: [],
-      },
-      {
-        label: '8. The Unlogged Spasm — go off the record entirely.',
-        target: 'LION_ORACLE_8',
-        effects: [],
-      },
-    ],
-    onEnter: [],
-  },
-  LION_ORACLE_1: {
-    id: 'LION_ORACLE_1',
-    character: 'lion',
-    text: [
-      {
-        minOverrender: 0,
-        content: `THE SPASMING LYMPH
-
-  The crow reads the jittering fluid and stamps the carbon paper twice. "Surge confirmed. Roar vector: unlocked."
-
-  Your neck meat convulses as the crow withdraws its beak. The tremor doubles — a full-body shudder that knocks your jaw open and floods your mouth with the taste of copper and wet ink. The system logs this as "Kinetic Overexpression." Your claws are out. Your mane is standing.
-
-  [ VIBRATION: SURGE +5 ]
-  [ COMPLIANCE SOFT-OUTS: GRAY ]
-  [ VIOLENT VECTOR: UNLOCKED ]
-
-  The Crow makes a final note. "The King is expressing." It departs. You are vibrating at a frequency that shakes the yellow bricks loose from the road.`,
-      },
-    ],
-    choices: [
-      {
-        label: 'Channel the surge into the unmapped thicket.',
-        target: 'LION_VIOLENCE',
-        effects: [
-          { type: 'addVibration', value: 5 },
-          { type: 'addDesync', value: 1 },
-          { type: 'grayOut', key: 'LION_ROYAL_COMPLIANCE' },
-        ],
-      },
-      {
-        label: 'Let the surge burn through the system spasm node.',
-        target: 'LION_SYSTEM_SPASM',
-        effects: [
-          { type: 'addVibration', value: 5 },
-          { type: 'addSmudge', value: 1 },
-        ],
-      },
-    ],
-    onEnter: [],
-  },
-  LION_ORACLE_2: {
-    id: 'LION_ORACLE_2',
-    character: 'lion',
-    text: [
-      {
-        minOverrender: 0,
-        content: `THE CLOTTED STAMP
-
-  The crow presses its beak-stamp directly into the open incision. You feel the hot, wet pressure of official certification applied to exposed meat. A Bureau seal blooms in bruised purple across your jaw hinge. The lymph clots immediately around the stamp; the tremor subsides to a low, compliant hum.
-
-  [ COMPLIANCE: HIGH ]
-  [ DESYNC TEAR: +3 ]
-  [ ASSIMILATION VECTOR: OPEN ]
-  [ WOUND STATUS: OFFICIALLY SEALED ]
-
-  "Unit L-77 has been read," the crow announces to no one in particular. "Status: Pending Assimilation." It departs. You feel the stamp scar pulling every time you open your mouth. The Clerk has made a note. The note is already filed.`,
-      },
-    ],
-    choices: [
-      {
-        label: 'Accept the certified compliance and walk toward assimilation.',
-        target: 'LION_ASSIMILATION',
-        effects: [
-          { type: 'setCompliance', value: 'high' },
-          { type: 'addDesynctear', value: 3 },
-          { type: 'graft', material: 'lion_compliance_stamp', target: 'lion' },
-        ],
-      },
-      {
-        label: 'Follow the desync tear inward toward the root.',
-        target: 'LION_ROOT_ACCESS',
-        effects: [
-          { type: 'addDesynctear', value: 5 },
-          { type: 'addDesync', value: 2 },
-        ],
-      },
-    ],
-    onEnter: [],
-  },
-  LION_ORACLE_3: {
-    id: 'LION_ORACLE_3',
-    character: 'lion',
-    text: [
-      {
-        minOverrender: 0,
-        content: `THE KALIDAH STAIN
-
-  The ink pattern is wrong. The crow tilts the carbon paper and the smear resolves into something that is neither lion-lymph nor bureau-standard: a black-and-copper hybrid slurry, the unmistakable signature of Kalidah merge fluid.
-
-  [ DESYNC TEAR: CRITICAL ]
-  [ MERGE VECTOR: ACTIVE ]
-  [ HYBRID SIGNATURE DETECTED ]
-
-  "The smear contains foreign tissue," the crow announces, without inflection. "Merge contamination. Routing accordingly."
-
-  You feel the jaw incision widen slightly as something that is not your tremor pulses through the wound. The yellow bricks ahead begin to look more like vertebrae than paving stones. The thicket has found you even here.`,
-      },
-    ],
-    choices: [
-      {
-        label: 'Follow the merge signal toward the thicket.',
-        target: 'LION_END_28',
-        effects: [
-          { type: 'addDesynctear', value: 8 },
-          { type: 'addDesync', value: 3 },
-          { type: 'graft', material: 'kalidah_lymph', target: 'lion' },
-        ],
-      },
-      {
-        label: 'Purge the foreign signature through the root directory.',
-        target: 'LION_ROOT_ACCESS',
-        effects: [
-          { type: 'addDesynctear', value: 5 },
-          { type: 'addSmudge', value: 2 },
-        ],
-      },
-    ],
-    onEnter: [],
-  },
-  LION_ORACLE_4: {
-    id: 'LION_ORACLE_4',
-    character: 'lion',
-    text: [
-      {
-        minOverrender: 0,
-        content: `THE JAW FRACTURE
-
-  The stamp-beak catches on something when the crow withdraws. A small, wet crack propagates through the jaw hinge joint. Your mouth locks. Not fully — you can still breathe — but the lateral movement required for speech is gone. You try to say "Status: Nominal." What comes out is a low, pressurized click.
-
-  [ JAW: FRACTURED / LOCKED ]
-  [ SPEECH CHOICES: GRAYED ]
-  [ PHYSICAL BREACH OPTIONS: UNLOCKED ]
-  [ VIBRATION: LOCKED AT CURRENT LEVEL ]
-
-  The crow makes a note. "Vocal hardware non-functional. Routing to kinetic expression." You feel the silence of a King who can no longer negotiate. All that is left is the tremor — and the direction it wants to move.`,
-      },
-    ],
-    choices: [
-      {
-        label: 'Express through kinetic breach — launch into the thicket.',
-        target: 'LION_VIOLENCE',
-        effects: [
-          { type: 'addVibration', value: 3 },
-          { type: 'grayOut', key: 'LION_ASSIMILATION' },
-          { type: 'setFlag', key: 'jaw_locked', value: true },
-        ],
-      },
-      {
-        label: 'Route the locked pressure through the echo chamber.',
-        target: 'LION_ECHO_CHAMBER',
-        effects: [
-          { type: 'addVibration', value: 3 },
-          { type: 'addOverrender', value: 1 },
-        ],
-      },
-    ],
-    onEnter: [],
-  },
-  LION_ORACLE_5: {
-    id: 'LION_ORACLE_5',
-    character: 'lion',
-    text: [
-      {
-        minOverrender: 0,
-        content: `THE WET GYPSUM BEAD
-
-  The ink pattern resolves into a dense, grey smear — the color and texture of wet plaster. The crow reads it as "Load Accumulation: Sensory Overload." Its beak returns to the wound and deposits something: a small bead of wet gypsum, the same substance that coats the walls of the Bureau's lower levels.
-
-  [ LOAD: +15 ]
-  [ SENSORY OVERLOAD: ACTIVE ]
-  [ STATUS: BURDENED ]
-
-  Your mane grows heavier. Everything tastes of wet plaster and raw meat. The yellow bricks seem to be sinking into something soft. The crow stamps the reading: "Weighted King confirmed. Load is the diagnosis." It departs, already filing the result.
-
-  You are carrying more than you were before. The gypsum bead sits somewhere behind your sternum, dense and patient.`,
-      },
-    ],
-    choices: [
-      {
-        label: 'Carry the weight to the Assimilation node.',
-        target: 'LION_ASSIMILATION',
-        effects: [
-          { type: 'addLoad', value: 15 },
-          { type: 'addSmudge', value: 1 },
-        ],
-      },
-      {
-        label: 'Attempt to purge the gypsum through the taxidermy route.',
-        target: 'LION_TAXIDERMY_HUB',
-        effects: [
-          { type: 'addLoad', value: 15 },
-          { type: 'addOverrender', value: 1 },
-        ],
-      },
-    ],
-    onEnter: [],
-  },
-  LION_ORACLE_6: {
-    id: 'LION_ORACLE_6',
-    character: 'lion',
-    text: [
-      {
-        minOverrender: 0,
-        content: `THE ROARING RESIDUE
-
-  The ink pattern shows two overlapping smears — yours, and a faint, foreign echo. The crow reads it quietly: "Cross-unit resonance. Your roar has been registered in another unit's chassis."
-
-  [ CROSS-UNIT ECHO: ACTIVE ]
-  [ GRAFT MATERIAL: LION_ROAR → DOROTHY / TIN MAN ]
-  [ SURREALITY: ELEVATED ]
-
-  You hear it then: your own roar, slightly delayed, resonating from somewhere else. Not from your throat — from a hollow space that isn't yours. It sounds like it's echoing from inside a tin chest, or from the Kansas-flat interior of someone who carries too much displacement. The Clerk notes: "Echo confirmed. Material allocated."
-
-  {{#flags.graft_lion_roar_echo_in_tinman}}A wet clicking that doesn't belong to you — a tremor borrowed from another unit's jaw — rises briefly in your chest and subsides.{{/flags.graft_lion_roar_echo_in_tinman}}`,
-      },
-    ],
-    choices: [
-      {
-        label: 'Follow the echo toward the audio event node.',
-        target: 'LION_AUDIO_EVENT',
-        effects: [
-          { type: 'addDesync', value: 2 },
-          { type: 'graft', material: 'lion_roar_echo', target: 'tinman' },
-        ],
-      },
-      {
-        label: 'Let the echo fade and continue down the Road.',
-        target: 'LION_DENIAL',
-        effects: [
-          { type: 'addOverrender', value: 1 },
-          { type: 'graft', material: 'lion_roar_echo', target: 'dorothy' },
-        ],
-      },
-    ],
-    onEnter: [],
-  },
-  LION_ORACLE_7: {
-    id: 'LION_ORACLE_7',
-    character: 'lion',
-    text: [
-      {
-        minOverrender: 0,
-        content: `THE STAPLED TREMOR
-
-  The crow produces a small, Bureau-standard staple gun from its secondary claw. With three precise impacts, it drives staples through the jaw incision and into the tremor-muscle beneath. The shaking decreases. Not gone — suppressed. Nailed down. The tremor is still there, but it cannot move.
-
-  [ VIBRATION: -4 (STAPLE SUPPRESSION) ]
-  [ STAPLE SCARS: LOGGED ]
-  [ COMPLIANCE GRAFT: ACTIVE ]
-  [ NOTE: SUPPRESSION IS NOT RESOLUTION ]
-
-  The crow stamps its final note. "Tremor management: complete. Reassignment to compliance path." The staples itch. They will always itch. The Clerk has noted that the King is now presentable.`,
-      },
-    ],
-    choices: [
-      {
-        label: 'Accept the staple compliance and walk toward Royal Compliance.',
-        target: 'LION_ROYAL_COMPLIANCE',
-        effects: [
-          { type: 'addVibration', value: -4 },
-          { type: 'setCompliance', value: 'high' },
-          { type: 'setFlag', key: 'staple_scars', value: true },
-        ],
-      },
-      {
-        label: 'Let the staples hold while heading toward the Harmonic Alignment.',
-        target: 'LION_ASSIMILATION',
-        effects: [
-          { type: 'addVibration', value: -4 },
-          { type: 'addLoad', value: 10 },
-          { type: 'setFlag', key: 'staple_scars', value: true },
-        ],
-      },
-    ],
-    onEnter: [],
-  },
-  LION_ORACLE_8: {
-    id: 'LION_ORACLE_8',
-    character: 'lion',
-    text: [
-      {
-        minOverrender: 0,
-        content: `THE UNLOGGED SPASM
-
-  The crow reads the smear and stops. A long pause. The glass-lens eyes rotate. Then: "This pattern is not in the index."
-
-  [ DESYNC TEAR: CRITICAL ]
-  [ COMPLIANCE: BROKEN ]
-  [ ORACLE RESULT: UNINDEXED ]
-  [ CROW STATUS: WITHDRAWING ]
-
-  The crow departs without stamping. Without filing. The carbon paper falls to the yellow bricks and dissolves in the dark fluid leaking from the Milestone Marker. The incision at your jaw hinge is still open. The Clerk never finished the note. Somewhere in the Bureau's records, there is now a gap where Unit L-77's tremor reading should be.
-
-  You are off the record. The system doesn't know what you are. The tremor accelerates, uncatalogued and free.`,
-      },
-    ],
-    choices: [
-      {
-        label: 'Accelerate into the unindexed dark.',
-        target: 'LION_DATA_LEAK',
-        effects: [
-          { type: 'addDesynctear', value: 8 },
-          { type: 'addDesync', value: 5 },
-          { type: 'setCompliance', value: 'broken' },
-        ],
-      },
-      {
-        label: 'Use the unlogged moment to reach the Ghost Bit node.',
-        target: 'LION_VOID_FRAGMENT',
-        effects: [
-          { type: 'addDesynctear', value: 5 },
-          { type: 'checkGhostSignal' },
-        ],
-      },
-    ],
-    onEnter: [],
-  },
   LION_EMPTY_PROMENADE: {
     id: "LION_EMPTY_PROMENADE",
     character: "lion",
@@ -1910,7 +1525,8 @@ It is architecture.`,
       },
     ],
     onEnter: [],
-  },
+  },,
+
   LION_TAXIDERMY_HUB: {
     id: "LION_TAXIDERMY_HUB",
     character: "lion",
@@ -1936,7 +1552,8 @@ It is architecture.`,
       },
     ],
     onEnter: [],
-  },
+  },,
+
   LION_REMAINTENANCE: {
   id: 'LION_REMAINTENANCE',
   character: 'lion',
@@ -1967,7 +1584,8 @@ It is architecture.`,
   }
   ],
   onEnter: [{ type: 'setCompliance', value: 'high' }]
-  },
+  },,
+
   LION_VOID_TREK: {
     id: 'LION_VOID_TREK',
     character: 'lion',
@@ -2006,7 +1624,8 @@ It feels almost peaceful.`,
       }
     ],
     onEnter: [{ type: 'addDesynctear', value: 6 }],
-  },
+  },,
+
   LION_INK_REJECTION: {
   id: 'LION_INK_REJECTION',
   character: 'lion',
@@ -2037,7 +1656,8 @@ It feels almost peaceful.`,
   }
   ],
   onEnter: [{ type: 'addSmudge', value: 3 }]
-  },
+  },,
+
   LION_WHITE_LOGIC: {
   id: 'LION_WHITE_LOGIC',
   character: 'lion',
@@ -2066,7 +1686,8 @@ It feels almost peaceful.`,
   }
   ],
   onEnter: [{ type: 'addOverrender', value: 2 }]
-  },
+  },,
+
   LION_ECHO_CHAMBER: {
   id: 'LION_ECHO_CHAMBER',
   character: 'lion',
@@ -2092,7 +1713,8 @@ It feels almost peaceful.`,
   }
   ],
   onEnter: [{ type: 'addVibration', value: 10 }]
-  },
+  },,
+
   LION_GATES_OF_OZ: {
     id: 'LION_GATES_OF_OZ',
     character: 'lion',
@@ -2136,7 +1758,8 @@ This is the place where kings are rewritten.`,
       }
     ],
     onEnter: [{ type: 'addVibration', value: 5 }],
-  },
+  },,
+
   LION_AUDIENCE_CHAMBER: {
     id: 'LION_AUDIENCE_CHAMBER',
     character: 'lion',
@@ -2173,7 +1796,8 @@ This is an interrogation wearing a smile.`,
       }
     ],
     onEnter: [{ type: 'addVibration', value: 4 }],
-  },
+  },,
+
   LION_QUADLING_SECTOR: {
   id: 'LION_QUADLING_SECTOR',
   character: 'lion',
@@ -2213,7 +1837,8 @@ The Hammer-Heads watch. They are waiting for your decision about what this means
   }
   ],
   onEnter: []
-  },
+  },,
+
   LION_WIZARD_MISSION: {
     id: 'LION_WIZARD_MISSION',
     character: 'lion',
@@ -2260,7 +1885,8 @@ You feel the lie in every vibrating fiber of your failing body.`,
       }
     ],
     onEnter: [{ type: 'addVibration', value: 6 }],
-  },
+  },,
+
   LION_FOREST_THRONE: {
     id: 'LION_FOREST_THRONE',
     character: 'lion',
@@ -2299,7 +1925,8 @@ This is your cage.`,
       }
     ],
     onEnter: [{ type: 'addVibration', value: 7 }],
-  },
+  },,
+
   LION_GLINDA_RECORD: {
     id: 'LION_GLINDA_RECORD',
     character: 'lion',
@@ -2334,7 +1961,8 @@ The tremor is still there. It has simply been beautified.
       }
     ],
     onEnter: [{ type: 'addVibration', value: 5 }],
-  },
+  },,
+
   LION_POPPY_BUFFER: {
     id: 'LION_POPPY_BUFFER',
     character: 'lion',
@@ -2379,11 +2007,8 @@ New red poppies are already beginning to sprout from the puncture wounds, their 
       }
     ],
     onEnter: [{ type: 'addVibration', value: -8 }],
-  },
+  },,
 
-  // ─────────────────────────────────────────────────────────────────────────
-  // LION EXPAND: THE SPINE-TUNING STATION (Audit Cycle Hub)
-  // ─────────────────────────────────────────────────────────────────────────
   LION_SPINE_HUB: {
     id: 'LION_SPINE_HUB',
     character: 'lion',
@@ -2442,11 +2067,8 @@ A Bureau Technician waits by the forks, its face a blank sheet of carbon paper. 
       },
     ],
     onEnter: [{ type: 'addOverrender', value: 1 }],
-  },
+  },,
 
-  // ─────────────────────────────────────────────────────────────────────────
-  // REPEATABLE SUB-LOOP: THE MANE SCRAPE
-  // ─────────────────────────────────────────────────────────────────────────
   LION_MANE_SCRAPE_LOOP: {
     id: 'LION_MANE_SCRAPE_LOOP',
     character: 'lion',
@@ -2475,11 +2097,8 @@ The Technician uses a silver file to scrape the edges.
       },
     ],
     onEnter: [],
-  },
+  },,
 
-  // ─────────────────────────────────────────────────────────────────────────
-  // REPEATABLE SUB-LOOP: THE CLERK (Administrative Friction)
-  // ─────────────────────────────────────────────────────────────────────────
   LION_CLERK_LOOP: {
     id: 'LION_CLERK_LOOP',
     character: 'lion',
@@ -2506,11 +2125,8 @@ The Clerk is a tall, spindly thing made of overstuffed folders. It smells of ced
       },
     ],
     onEnter: [],
-  },
+  },,
 
-  // ─────────────────────────────────────────────────────────────────────────
-  // REPEATABLE SUB-LOOP: THE ROAR TEST
-  // ─────────────────────────────────────────────────────────────────────────
   LION_ROAR_TEST_LOOP: {
     id: 'LION_ROAR_TEST_LOOP',
     character: 'lion',
@@ -2537,11 +2153,8 @@ You open your jaw. The shims between your vertebrae grind together. You are aske
       },
     ],
     onEnter: [],
-  },
+  },,
 
-  // ─────────────────────────────────────────────────────────────────────────
-  // BLUE FLUID MAINTENANCE (Wetware sub-loop)
-  // ─────────────────────────────────────────────────────────────────────────
   LION_BLUE_FLUID_LOOP: {
     id: 'LION_BLUE_FLUID_LOOP',
     character: 'lion',
@@ -2573,11 +2186,8 @@ The tremor does not stop. It migrates. From your jaw to your spine to the base o
       },
     ],
     onEnter: [],
-  },
+  },,
 
-  // ─────────────────────────────────────────────────────────────────────────
-  // FINAL PUSH: TOTAL SYSTEM ENTROPY (After long Audit Cycle)
-  // ─────────────────────────────────────────────────────────────────────────
   LION_SYSTEM_ENTROPY: {
     id: 'LION_SYSTEM_ENTROPY',
     character: 'lion',
@@ -2604,11 +2214,8 @@ The Technician is gone. The Clerk is gone. There is only the white light behind 
       },
     ],
     onEnter: [{ type: 'addOverrender', value: 2 }],
-  },
+  },,
 
-  // ─────────────────────────────────────────────────────────────────────────
-  // SUB-HUB: THE VERTEBRAL ALIGNMENT (Internal Hardware)
-  // ─────────────────────────────────────────────────────────────────────────
   LION_VERTEBRAE_HUB: {
     id: 'LION_VERTEBRAE_HUB',
     character: 'lion',
@@ -2652,11 +2259,8 @@ The internal fans in your ribcage are whirring, trying to exhaust the heat of yo
       },
     ],
     onEnter: [],
-  },
+  },,
 
-  // ─────────────────────────────────────────────────────────────────────────
-  // GRANULAR CHOICE: THE NECK TENSION (Vertebral sub-node)
-  // ─────────────────────────────────────────────────────────────────────────
   LION_NECK_TENSION: {
     id: 'LION_NECK_TENSION',
     character: 'lion',
@@ -2685,11 +2289,8 @@ The skin at the back of your neck is raw. Every time you try to look at the hori
       },
     ],
     onEnter: [],
-  },
+  },,
 
-  // ─────────────────────────────────────────────────────────────────────────
-  // GRANULAR CHOICE: THE RIB EXPANSION (Vertebral sub-node)
-  // ─────────────────────────────────────────────────────────────────────────
   LION_RIB_EXPANSION: {
     id: 'LION_RIB_EXPANSION',
     character: 'lion',
@@ -2723,11 +2324,8 @@ The heat is building. The fans cannot keep pace. Something must give.`,
       },
     ],
     onEnter: [{ type: 'addVibration', value: 4 }],
-  },
+  },,
 
-  // ─────────────────────────────────────────────────────────────────────────
-  // GRANULAR CHOICE: THE TAIL DRAG (Vertebral sub-node)
-  // ─────────────────────────────────────────────────────────────────────────
   LION_TAIL_DRAG: {
     id: 'LION_TAIL_DRAG',
     character: 'lion',
@@ -2756,11 +2354,8 @@ Behind you, a small, silver "Eraser-Drone" follows, trying to buff the scratches
       },
     ],
     onEnter: [],
-  },
+  },,
 
-  // ─────────────────────────────────────────────────────────────────────────
-  // NEW INTERCONNECT: THE GHOST SIGNAL (Surreality / Cross-Unit Resonance)
-  // ─────────────────────────────────────────────────────────────────────────
   LION_GHOST_SIGNAL: {
     id: 'LION_GHOST_SIGNAL',
     character: 'lion',
@@ -2791,11 +2386,8 @@ You are a King who has become an antenna for the entire simulation's pain.`,
       },
     ],
     onEnter: [{ type: 'checkGhostSignal' }],
-  },
+  },,
 
-  // ─────────────────────────────────────────────────────────────────────────
-  // THE SURFACE INTERFACE: THE HARVESTER'S HUB (Western Tower)
-  // ─────────────────────────────────────────────────────────────────────────
   LION_HARVEST_HUB: {
     id: 'LION_HARVEST_HUB',
     character: 'lion',
@@ -2834,11 +2426,8 @@ You feel the first cold tug at the base of your skull. The tremor in your jaw hi
       },
     ],
     onEnter: [{ type: 'triggerOracle' }],
-  },
+  },,
 
-  // ─────────────────────────────────────────────────────────────────────────
-  // GRANULAR CHOICE: MANE STRIPPING (Harvest sub-node)
-  // ─────────────────────────────────────────────────────────────────────────
   LION_MANE_STRIPPING: {
     id: 'LION_MANE_STRIPPING',
     character: 'lion',
@@ -2869,11 +2458,8 @@ You feel lighter. You feel colder. You feel like a document that has been stripp
       },
     ],
     onEnter: [{ type: 'addSmudge', value: 1 }],
-  },
+  },,
 
-  // ─────────────────────────────────────────────────────────────────────────
-  // GRANULAR CHOICE: THE SEAM LOCK (Harvest sub-node)
-  // ─────────────────────────────────────────────────────────────────────────
   LION_SEAM_LOCK: {
     id: 'LION_SEAM_LOCK',
     character: 'lion',
@@ -2904,11 +2490,8 @@ The heat in your body is reaching a critical point. If you keep holding the seam
       },
     ],
     onEnter: [{ type: 'addVibration', value: 5 }],
-  },
+  },,
 
-  // ─────────────────────────────────────────────────────────────────────────
-  // GRANULAR CHOICE: THE ROAR TRADE (Harvest sub-node)
-  // ─────────────────────────────────────────────────────────────────────────
   LION_ROAR_TRADE: {
     id: 'LION_ROAR_TRADE',
     character: 'lion',
@@ -2953,5 +2536,5 @@ The Clerk materializes beside you with a carbon-paper contract. The price is you
       },
     ],
     onEnter: [],
-  },
+  },,
 }
