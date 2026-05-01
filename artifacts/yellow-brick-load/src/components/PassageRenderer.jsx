@@ -3,7 +3,7 @@ import { useGameStore } from '../engine/store.js'
 import { applyEffects, resolveText, interpolate, isChoiceAvailable } from '../engine/interpreter.js'
 import { getPassage } from '../passages/index.js'
 import OracleCard from './OracleCard.jsx'
-import { getNodeMeta, NODE_POSITIONS } from '../data/nodeMetadata.js'
+import { getNodeMeta } from '../data/nodeMetadata.js'
 
 export default function PassageRenderer() {
   const {
@@ -46,16 +46,47 @@ export default function PassageRenderer() {
   const availableChoices = passage.choices.filter(c => isChoiceAvailable(c, state))
   const trail = [...history.slice(-3), currentNode]
 
-  const mapNodes = useMemo(() => {
-    const relevantIds = new Set([...history.slice(-12), currentNode])
-    availableChoices.forEach((choice) => relevantIds.add(choice.target))
+  const mapLayout = useMemo(() => {
+    const baseY = 110
+    const stepX = 110
+    const choiceOffsetX = 120
+    const choiceStepY = 65
+    const nodes = []
 
-    return [...relevantIds].map((id, idx) => {
-      const stored = NODE_POSITIONS[id]
-      const fallback = { x: 80 + (idx % 6) * 120, y: 120 + Math.floor(idx / 6) * 110 }
-      return { id, ...(stored || fallback), active: id === currentNode }
+    const visited = [...new Set([...history.slice(-6), currentNode])]
+    visited.forEach((id, idx) => {
+      nodes.push({ id, x: 40 + idx * stepX, y: baseY, isVisited: true })
     })
+
+    const currentX = 40 + (visited.length - 1) * stepX
+    const choiceCount = availableChoices.length
+    availableChoices.forEach((choice, idx) => {
+      if (nodes.find(n => n.id === choice.target)) return
+      const totalSpread = (choiceCount - 1) * choiceStepY
+      const choiceY = baseY - totalSpread / 2 + idx * choiceStepY
+      nodes.push({ id: choice.target, x: currentX + choiceOffsetX, y: choiceY, isFuture: true })
+    })
+
+    const padding = 30
+    const xs = nodes.map(n => n.x)
+    const ys = nodes.map(n => n.y)
+    const vbX = Math.min(...xs) - padding
+    const vbY = Math.min(...ys) - padding
+    const vbW = Math.max(...xs) - vbX + padding + 20
+    const vbH = Math.max(...ys) - vbY + padding + 20
+
+    return { nodes, viewBox: `${vbX} ${vbY} ${vbW} ${vbH}` }
   }, [history, currentNode, availableChoices])
+
+  function getMapNodeClass(id, p) {
+    if (!p) return ''
+    if (p.isGhostSignal) return 'map-node--ghost'
+    if (p.isEnding) return 'map-node--ending'
+    if (id.includes('ORACLE')) return 'map-node--oracle'
+    if (p.fake) return 'map-node--fake'
+    if (p.stub) return 'map-node--stub'
+    return ''
+  }
 
   function handleChoice(choice) {
     const target = passage.fake && availableChoices.length > 0 ? availableChoices[0].target : choice.target
@@ -78,11 +109,12 @@ export default function PassageRenderer() {
       </div>
 
       <div className="state-card" ref={contentRef}>
-        <svg className="state-card__frame" viewBox="0 0 100 100" aria-hidden="true">
+        <svg className="state-card__frame" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
           <rect x="1" y="1" width="98" height="98" className="state-card__frame-outer" />
-          <rect x="4" y="4" width="92" height="15" className="state-card__frame-header" />
-          <rect x="4" y="22" width="92" height="54" className="state-card__frame-body" />
-          <rect x="4" y="79" width="92" height="17" className="state-card__frame-footer" />
+          <path d="M 1 16 L 1 1 L 16 1" className="state-card__frame-bracket" />
+          <path d="M 84 1 L 99 1 L 99 16" className="state-card__frame-bracket" />
+          <path d="M 1 84 L 1 99 L 16 99" className="state-card__frame-bracket" />
+          <path d="M 84 99 L 99 99 L 99 84" className="state-card__frame-bracket" />
         </svg>
         <p className="state-card__title">{nodeMeta.title}</p>
         <div className="state-card__tags">
@@ -98,18 +130,29 @@ export default function PassageRenderer() {
         </div>
       </div>
 
-      <svg className="constellation-map" viewBox="0 0 760 340" role="img" aria-label="Node route map">
-        {history.slice(-8).map((nodeId, idx) => {
-          const from = mapNodes.find((node) => node.id === nodeId)
-          const to = mapNodes.find((node) => node.id === history.slice(-8)[idx + 1])
-          if (!from || !to) return null
-          return <line key={`${from.id}-${to.id}`} x1={from.x} y1={from.y} x2={to.x} y2={to.y} className="map-edge" />
+      <svg className="constellation-map" viewBox={mapLayout.viewBox} role="img" aria-label="Node route map">
+        {mapLayout.nodes.filter(n => n.isVisited).map((node, idx, arr) => {
+          const next = arr[idx + 1]
+          if (!next) return null
+          return <line key={`${node.id}-${next.id}`} x1={node.x} y1={node.y} x2={next.x} y2={next.y} className="map-edge" />
         })}
-        {mapNodes.map((node) => (
-          <g key={node.id}>
-            <circle cx={node.x} cy={node.y} r={node.active ? 10 : 6} className={`map-node ${node.active ? 'map-node--active' : ''}`} />
-          </g>
-        ))}
+        {mapLayout.nodes.filter(n => n.isFuture).map(node => {
+          const curr = mapLayout.nodes.find(n => n.id === currentNode)
+          if (!curr) return null
+          return <line key={`curr-${node.id}`} x1={curr.x} y1={curr.y} x2={node.x} y2={node.y} className="map-edge map-edge--future" />
+        })}
+        {mapLayout.nodes.map((node) => {
+          const p = getPassage(node.id)
+          const typeClass = getMapNodeClass(node.id, p)
+          const activeClass = node.id === currentNode ? 'map-node--active' : ''
+          const futureClass = node.isFuture ? 'map-node--future' : ''
+          const r = node.id === currentNode ? 10 : 6
+          return (
+            <g key={node.id}>
+              <circle cx={node.x} cy={node.y} r={r} className={`map-node ${typeClass} ${activeClass} ${futureClass}`} />
+            </g>
+          )
+        })}
       </svg>
 
       <div className="load-bar-wrapper" aria-label={`Load: ${load}%`}><div className="load-bar-fill" style={{ width: `${load}%` }} /><span className="load-bar-label">LOAD: {load}%</span></div>
