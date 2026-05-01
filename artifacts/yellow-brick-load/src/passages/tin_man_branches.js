@@ -108,4 +108,229 @@ You are now fully indexed as a Labor Unit. The void in your chest is no longer a
     ],
     onEnter: [],
   },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // THE WOODS SECTOR: TIN MAN (UNIT T-CLUSTER)
+  // ─────────────────────────────────────────────────────────────────────────
+
+  T_WOODS_START: {
+    id: 'T_WOODS_START',
+    character: 'tinman',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE LOW-FIDELITY FOREST
+The trees here are rendered in a resolution that suggests the Oz OS has forgotten the purpose of shade. The air smells of wet gypsum and oxygen-starved mulch. You are standing in Sector West, a zone where biological assets are flagged for 'De-prioritization.'
+
+Your internal sensors detect a Cache Collision. This is not a memory of a life; it is a system conflict between the 'Nick Chopper' data-legacy and your current metallic housing. The forest floor is a slurry of grey mud and carbon paper.`
+      }
+    ],
+    choices: [
+      {
+        label: 'Seek the Source (Wetware Path)',
+        target: 'T_FELLED_TREE',
+        effects: [{ type: 'addLoad', value: 2 }, { type: 'setPath', value: 'wetware' }]
+      },
+      {
+        label: 'Locate Maintenance (Hardware Path)',
+        target: 'T_OIL_STATION',
+        effects: [{ type: 'addCompliance', value: 2 }, { type: 'setPath', value: 'hardware' }]
+      }
+    ]
+  },
+
+  T_FELLED_TREE: {
+    id: 'T_FELLED_TREE',
+    character: 'tinman',
+    text: [
+      {
+        minOverrender: 0,
+        content: `COORDINATE T-X77: THE INDEXED WOUND
+The tree is no longer biological; it is a Static Data Point rendered in high-contrast grayscale. Lodged in its center is the axe. It is not a tool. It is the Auditor's Gavel.
+
+It vibrates at the frequency of a closed file. Standing here triggers a Seizure Check. The friction of the coordinate—the literal emotional resistance of this space—is drying your joints. Every second you remain costs Lubrication.`
+      }
+    ],
+    choices: [
+      {
+        label: 'Touch the Axe (Audit the Impact)',
+        target: 'T_HOUSE_NEVER_WAS',
+        effects: [{ type: 'addSeizure', value: 5 }, { type: 'addDesync', value: 3 }]
+      },
+      {
+        label: 'File a Dispute (Judicial Protocol)',
+        target: 'T_PILE_OF_LIMBS',
+        effects: [
+          { type: 'addLoad', value: 8 },
+          { type: 'setArrivalState', value: 'dispute' }
+        ]
+      },
+      {
+        label: 'Pull the Axe (The Kinetic Harvest)',
+        target: 'T_PILE_OF_LIMBS',
+        effects: [
+          { type: 'subLubrication', value: 10 },
+          { type: 'setArrivalState', value: 'extraction' }
+        ]
+      }
+    ]
+  },
+
+  T_HOUSE_NEVER_WAS: {
+    id: 'T_HOUSE_NEVER_WAS',
+    character: 'tinman',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE HOUSE THAT NEVER WAS
+The walls are the color of unpolished zinc and smell of a construction site abandoned mid-breath. This is an architectural glitch—a home rendered from a corrupted cache. The floorboards do not meet the walls.
+
+You are searching for a User Signal (Nimmie Amee), but the registry is empty. There is only a High-Frequency Silence that tastes like cold metal.`
+      }
+    ],
+    choices: [
+      {
+        label: 'Occupy the Blueprint',
+        target: 'T_END_01',
+        effects: [{ type: 'setCompliance', value: 'high' }]
+      },
+      {
+        label: 'Deconstruct the Walls',
+        target: 'T_PILE_OF_LIMBS',
+        effects: [
+          { type: 'addDesync', value: 10 },
+          { type: 'setArrivalState', value: 'ghost_signal' }
+        ]
+      },
+      {
+        label: 'Trigger Maintenance Log (The Bureau-Crow Query)',
+        target: 'T_END_06',
+        effects: [
+          { type: 'addLoad', value: 5 },
+          { type: 'setCompliance', value: 'absolute' }
+        ]
+      }
+    ]
+  },
+
+  T_OIL_STATION: {
+    id: 'T_OIL_STATION',
+    character: 'tinman',
+    text: [
+      {
+        minOverrender: 0,
+        content: `COORDINATE T-LUBE: MAINTENANCE KIOSK
+Hoses fray overhead like dead vines. Iridescent sludge coats the ground. The station does not offer relief; it offers an exchange. You can hear the system humming, waiting for your authorization code.`
+      }
+    ],
+    choices: [
+      {
+        label: 'The Automated Patch',
+        target: 'T_LOGGING_SCRIPT',
+        effects: [{ type: 'addCompliance', value: 5 }, { type: 'addLubrication', value: 5 }]
+      },
+      {
+        label: 'The Manual Scavenge',
+        target: 'T_LOGGING_SCRIPT',
+        effects: [{ type: 'addCorrosion', value: 5 }, { type: 'subCompliance', value: 2 }]
+      }
+    ]
+  },
+
+  T_LOGGING_SCRIPT: {
+    id: 'T_LOGGING_SCRIPT',
+    character: 'tinman',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE LOGGING SCRIPT
+The 'trees' here are vertical columns of compressed carbon paper. When you strike them, they do not splinter; they produce a sound like a filing cabinet slamming shut. You are caught in an iterative labor loop.`
+      }
+    ],
+    choices: [
+      {
+        label: 'Efficiency Optimization',
+        target: 'T_HOLLOW',
+        effects: [{ type: 'addLoad', value: 5 }, { type: 'subVibration', value: 3 }]
+      },
+      {
+        label: 'Mechanical Jam',
+        target: 'T_HOLLOW',
+        effects: [{ type: 'addSeizure', value: 5 }, { type: 'setPath', value: 'error' }]
+      }
+    ]
+  },
+
+  T_HOLLOW: {
+    id: 'T_HOLLOW',
+    character: 'tinman',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE HOLLOW (COORDINATE T-VOID)
+An atmospheric puncture. The Oz OS has stopped rendering environmental detail. There is only a flat, grey plane and the sound of your own internal cooling fans. You are a hollow vessel (Theorem 7).`
+      }
+    ],
+    choices: [
+      {
+        label: 'The Internal Echo',
+        target: 'T_PILE_OF_LIMBS',
+        effects: [{ type: 'setArrivalState', value: 'surplus' }]
+      },
+      {
+        label: 'The Diagnostic Query',
+        target: 'T_PILE_OF_LIMBS',
+        effects: [{ type: 'setArrivalState', value: 'grave' }]
+      }
+    ]
+  },
+
+  T_PILE_OF_LIMBS: {
+    id: 'T_PILE_OF_LIMBS',
+    character: 'tinman',
+    onEnter: [
+      {
+        // surplus path sees industrial waste; all other paths (the informed/the wounded) see the grave
+        action: 'evaluateOverrender',
+        mapping: {
+          'surplus': 0,
+          'grave': 5,
+          'ghost_signal': 5,
+          'dispute': 5,
+          'extraction': 5
+        }
+      }
+    ],
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE PILE OF LIMBS (INDUSTRIAL SURPLUS)
+You arrive at a mountain of discarded components. These are standardized valves and hydraulic struts, identical to your own. You strike your chest and the sound matches the resonance of the pile. You are walking over a history of failed maintenance cycles. This is not a graveyard; it is an overstocked warehouse of your own obsolescence.`
+      },
+      {
+        minOverrender: 5,
+        content: `THE PILE OF LIMBS (THE MASS GRAVE)
+The system's audit trail leads here. These are not just parts; they are 'Meat Legacies.' You see the transition from organic to tin frozen in the rust. The pile is a vertical record of every time a part of 'Nick' was traded for a part of 'Unit T.' The metallic fingers seem to twitch in the flickering light.`
+      }
+    ],
+    choices: [
+      {
+        label: 'The Self-Inventory',
+        target: 'T_END_13',
+        effects: [{ type: 'addLoad', value: 10 }],
+        content: `You reach into the scrap and pull out a heart-shaped clock. It is rusted shut—a timepiece that can no longer measure anything but the decay of the void.`
+      },
+      {
+        label: 'Re-Integration',
+        target: 'T_END_20',
+        effects: [{ type: 'addLubrication', value: 10 }, { type: 'addDesync', value: 5 }]
+      },
+      {
+        label: 'The Pyre',
+        target: 'T_END_19',
+        effects: [{ type: 'triggerThermalEvent', value: true }],
+        content: `You strike your heel against the iron. You don't want the parts; you want the friction. As the pile ignites, the heat begins to soften your joints. Heat is the final empathy the system allows.`
+      }
+    ]
+  },
 }
