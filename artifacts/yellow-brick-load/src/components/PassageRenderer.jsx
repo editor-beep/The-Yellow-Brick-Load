@@ -53,18 +53,44 @@ export default function PassageRenderer() {
     const choiceOffsetX = 120
     const choiceStepY = 65
     const nodes = []
+    const recentPath = [...history.slice(-8), currentNode]
+    const nodePositions = new Map()
+    const visitedOrder = []
 
-    const visited = [...new Set([...history.slice(-8), currentNode])]
-    visited.forEach((id, idx) => {
-      nodes.push({ id, x: 40 + idx * stepX, y: baseY, active: id === currentNode, isVisited: true })
+    recentPath.forEach((id, idx) => {
+      if (idx === 0) {
+        nodePositions.set(id, { x: 40, y: baseY })
+        visitedOrder.push(id)
+        return
+      }
+
+      if (nodePositions.has(id)) return
+
+      const prevId = recentPath[idx - 1]
+      const prevPos = nodePositions.get(prevId)
+      if (!prevPos) return
+
+      const prevPassage = getPassage(prevId)
+      const prevChoices = (prevPassage?.choices || []).filter(choice => isChoiceAvailable(choice, state))
+      const choiceIdx = prevChoices.findIndex((choice) => choice.target === id)
+      const spread = (prevChoices.length - 1) * choiceStepY
+      const branchYOffset = choiceIdx >= 0 ? (-spread / 2 + choiceIdx * choiceStepY) : 0
+      nodePositions.set(id, { x: prevPos.x + stepX, y: prevPos.y + branchYOffset })
+      visitedOrder.push(id)
     })
 
-    const currentX = 40 + (visited.length - 1) * stepX
+    visitedOrder.forEach((id) => {
+      const pos = nodePositions.get(id)
+      nodes.push({ id, x: pos.x, y: pos.y, active: id === currentNode, isVisited: true })
+    })
+
+    const currentPos = nodePositions.get(currentNode) || { x: 40, y: baseY }
+    const currentX = currentPos.x
     const choiceCount = availableChoices.length
     availableChoices.forEach((choice, idx) => {
       if (nodes.find((node) => node.id === choice.target)) return
       const totalSpread = (choiceCount - 1) * choiceStepY
-      const choiceY = baseY - totalSpread / 2 + idx * choiceStepY
+      const choiceY = currentPos.y - totalSpread / 2 + idx * choiceStepY
       nodes.push({ id: choice.target, x: currentX + choiceOffsetX, y: choiceY, active: false, isVisited: false })
     })
 
