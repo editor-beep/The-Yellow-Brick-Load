@@ -75,7 +75,7 @@ export function resolveText(passage, overrender) {
 // ── Oracle trigger thresholds (keyed by character ID) ───────────────────────
 const ORACLE_THRESHOLDS = {
   lion:       (s) => s.vibration     >= 7,
-  tinman:     (s) => s.corrosion     >= 10,
+  tin_man:    (s) => s.corrosion     >= 10,
   scarecrow:  (s) => s.scatter       >= 5,
   dorothy:    (s) => s.displacement  >= 5,
   glinda:     (s) => s.refraction    >= 5,
@@ -87,7 +87,7 @@ const ORACLE_THRESHOLDS = {
 // Maps character IDs to their oracle entry passage IDs
 const ORACLE_ENTRY_NODES = {
   lion:       'LION_ORACLE_ENTRY',
-  tinman:     'TIN_MAN_ORACLE_ENTRY',
+  tin_man:    'TIN_MAN_ORACLE_ENTRY',
   scarecrow:  'SCARECROW_ORACLE_ENTRY',
   dorothy:    'DOROTHY_ORACLE_ENTRY',
   glinda:     'GLINDA_ORACLE_ENTRY',
@@ -117,6 +117,7 @@ export function applyEffects(effects) {
       case 'addSmudge':          store.addSmudge(effect.value); break
       case 'addOverrender':      store.addOverrender(effect.value); break
       case 'setCompliance': {
+        if (effect.value == null) break
         // Normalise signal-bleed compliance aliases to canonical values
         const complianceMap = { baseline: 'low', static: 'high', none: 'low', high: 'high', med: 'med', low: 'low', broken: 'broken' }
         const normalised = complianceMap[String(effect.value).toLowerCase()] ?? effect.value

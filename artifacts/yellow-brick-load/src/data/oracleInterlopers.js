@@ -36,7 +36,7 @@ export const INTERLOPERS = {
  */
 export function deckFromCardId(id) {
   if (typeof id !== 'string') return null
-  const match = id.match(/^(.+)_\d{2}$/)
+  const match = id.match(/^(.+)_\d+$/)
   return match ? match[1] : null
 }
 
