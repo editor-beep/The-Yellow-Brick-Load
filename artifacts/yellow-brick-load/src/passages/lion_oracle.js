@@ -51,6 +51,7 @@ export const lionOraclePassages = {
   LION_ORACLE_DRAW: {
     id: 'LION_ORACLE_DRAW',
     character: 'lion',
+    isOracleDraw: true,
     text: [
       {
         minOverrender: 0,
@@ -434,4 +435,177 @@ export const lionOraclePassages = {
     ],
     onEnter: [],
   },
+
+  // ── New: Core Esoteric outcomes ──────────────────────────────────────────
+
+  LION_ORACLE_9: {
+    id: 'LION_ORACLE_9',
+    character: 'lion',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE SEALED ROAR
+
+  The Bureau Crow inserts the lead-weighted scroll directly into the jaw joint. There is a sound — a wet, muffled thud — and then nothing. The tremor stops. Not gradually. All at once. The silence that replaces it is not peace; it is the specific silence of something that has been officially terminated.
+
+  [ VIBRATION: RESET TO 0 ]
+  [ LOAD: +15 ]
+  [ COMPLIANCE: HIGH ]
+  [ STATUS: AMBIENT DISTURBANCE — FILED ]
+
+  You are no longer a threat. You are heavier than you have ever been. The Crow stamps the carbon paper and departs without comment. The roar is now a case number. Case number L-77-ARD.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Accept the silence. File forward.',
+        target: 'LION_COMPLIANCE_TRACK',
+        effects: [
+          { type: 'setWetwareStat', stat: 'vibration', value: 0 },
+          { type: 'addLoad', value: 15 },
+          { type: 'setCompliance', value: 'high' },
+        ],
+      },
+      {
+        label: 'Search for the vibration inside the silence.',
+        target: 'LION_ROOT_ACCESS',
+        effects: [
+          { type: 'setWetwareStat', stat: 'vibration', value: 0 },
+          { type: 'addDesync', value: 3 },
+        ],
+      },
+    ],
+    onEnter: [],
+  },
+
+  LION_ORACLE_10: {
+    id: 'LION_ORACLE_10',
+    character: 'lion',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE KINETIC AUDITOR
+
+  The Crow weighs your mass. Not your body mass — your kinetic potential. It finds the center of gravity has shifted. Your mind used to be the heaviest part. It is no longer the heaviest part. The shoulders are heavier now. The jaw is heavier. The claws register on the Auditor's scale in a way that a mind cannot.
+
+  [ VIBRATION: +8 ]
+  [ DESYNC: +5 ]
+  [ TAG: KINETICNODE — ACTIVE ]
+  [ COMPLIANCE BYPASS: NEXT CHOICE ONLY ]
+
+  "You are being reassigned," the Crow says. "From a psychological asset to a kinetic one." It stamps REDISTRIBUTION OF MASS on your sternum. The stamp leaves an impression you can feel when you breathe.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Follow the kinetic vector into the Military filter.',
+        target: 'LION_VIOLENCE',
+        effects: [
+          { type: 'addVibration', value: 8 },
+          { type: 'addDesync', value: 5 },
+          { type: 'modifyTag', value: 'KineticNode' },
+        ],
+      },
+      {
+        label: 'Resist the reassignment. Stay in the mind.',
+        target: 'LION_SYSTEM_SPASM',
+        effects: [
+          { type: 'addVibration', value: 4 },
+          { type: 'addLoad', value: 8 },
+        ],
+      },
+    ],
+    onEnter: [],
+  },
+
+  // ── New: Signal Bleed outcomes ───────────────────────────────────────────
+
+  LION_ORACLE_11: {
+    id: 'LION_ORACLE_11',
+    character: 'lion',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE BURLAP MANE
+
+  The Straw Oracle's signal has bled into the Bureau Crow's reading. The Crow is confused. It has indexed a lion and found a scarecrow. Your mane is dry. The fur has not fallen out; it has been replaced, fiber by fiber, with corn husks that crackle when you breathe.
+
+  Your mouth is sewn shut with twine.
+
+  [ VIBRATION: RESET TO 0 ]
+  [ NEURAL DENSITY: +15 ]
+  [ LOAD: +10 ]
+  [ STATUS: STATIONED — CANNOT FLEE ]
+  [ FEAR RESET: IMMUNE ]
+
+  You are no longer mobile in the kinetic sense. You are stationed. The crows do not come near a scarecrow. This is the protection. The protection is also the trap.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Accept the Stationed status. Guard this coordinate.',
+        target: 'LION_COMPLIANCE_TRACK',
+        effects: [
+          { type: 'setWetwareStat', stat: 'vibration', value: 0 },
+          { type: 'addNeuralDensity', value: 15 },
+          { type: 'addLoad', value: 10 },
+          { type: 'setFlag', key: 'lion_stationed', value: true },
+        ],
+      },
+      {
+        label: 'Tear the twine. Force the roar back.',
+        target: 'LION_SYSTEM_SPASM',
+        effects: [
+          { type: 'addVibration', value: 10 },
+          { type: 'addScatter', value: 5 },
+          { type: 'addDesync', value: 3 },
+        ],
+      },
+    ],
+    onEnter: [],
+  },
+
+  LION_ORACLE_12: {
+    id: 'LION_ORACLE_12',
+    character: 'lion',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE SCARECROW'S NERVE
+
+  The Oracle asks for a donation. You have structural tension. The Scarecrow has scatter. The redistribution is being processed in real time — a gold thread extracted from your tail, routed through Bureau channels, and grafted into a burlap seam several hundred yards away.
+
+  You feel lighter. The lightness is not courage. It is evacuation.
+
+  [ LOAD: -15 ]
+  [ HOLLOWING: +10 ]
+  [ DESYNC: +8 ]
+  [ CONVERGENCE: S-END-03 PROXIMITY INCREASED ]
+
+  The crow completes the transfer and leaves you the receipt. The receipt says "STRUCTURAL DONOR — UNIT L-77." You feel the hollow where the tension used to be.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Follow the thread toward the Scarecrow.',
+        target: 'LION_ASSIMILATION',
+        effects: [
+          { type: 'addLoad', value: -15 },
+          { type: 'addHollowing', value: 10 },
+          { type: 'addDesync', value: 8 },
+          { type: 'setFlag', key: 'lion_structural_donor', value: true },
+        ],
+      },
+      {
+        label: 'Refuse the transfer. Reclaim the thread.',
+        target: 'LION_ROOT_ACCESS',
+        effects: [
+          { type: 'addVibration', value: 6 },
+          { type: 'addLoad', value: 5 },
+        ],
+      },
+    ],
+    onEnter: [],
+  },
+
 }

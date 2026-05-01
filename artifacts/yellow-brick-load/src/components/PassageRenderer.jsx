@@ -3,6 +3,7 @@ import { useGameStore } from '../engine/store.js'
 import { applyEffects, resolveText, interpolate, isChoiceAvailable } from '../engine/interpreter.js'
 import { getPassage } from '../passages/index.js'
 import OracleCard from './OracleCard.jsx'
+import OracleDraw from './OracleDraw.jsx'
 import { getNodeMeta, NODE_POSITIONS } from '../data/nodeMetadata.js'
 
 export default function PassageRenderer() {
@@ -114,7 +115,8 @@ export default function PassageRenderer() {
 
       <div className="load-bar-wrapper" aria-label={`Load: ${load}%`}><div className="load-bar-fill" style={{ width: `${load}%` }} /><span className="load-bar-label">LOAD: {load}%</span></div>
 
-      {!passage.isEnding && availableChoices.length > 0 && <nav className="choices-wrapper" aria-label="Available choices">{availableChoices.map((choice, i) => <button key={i} className="choice-button" onClick={() => handleChoice(choice)}><span className="choice-arrow">▸</span>{choice.label}</button>)}</nav>}
+      {!passage.isEnding && passage.isOracleDraw && <OracleDraw />}
+      {!passage.isEnding && !passage.isOracleDraw && availableChoices.length > 0 && <nav className="choices-wrapper" aria-label="Available choices">{availableChoices.map((choice, i) => <button key={i} className="choice-button" onClick={() => handleChoice(choice)}><span className="choice-arrow">▸</span>{choice.label}</button>)}</nav>}
 
       {passage.isEnding && <div className="ending-footer"><button className="choice-button choice-button--restart" onClick={() => useGameStore.getState().hardReset()}><span className="choice-arrow">↺</span>{passage.isGhostSignal ? '[ TERMINATE SESSION ]' : 'Begin new session'}</button></div>}
       {desync >= 2 && <div className="desync-indicator" aria-hidden="true">[ DESYNC: {desync} ]</div>}

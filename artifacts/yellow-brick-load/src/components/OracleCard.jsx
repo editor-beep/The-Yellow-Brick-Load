@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { useGameStore } from '../engine/store.js'
+import { applyEffects } from '../engine/interpreter.js'
 import { cardSvgs } from '../assets/cards/index.js'
 import { interloperFor } from '../data/oracleInterlopers.js'
 
@@ -222,11 +223,16 @@ export default function OracleCard() {
 
   if (!oracleCard) return null
 
-  const { name, cardText, ritualText, effect, surreality, id } = oracleCard
+  const { name, cardText, ritualText, effects, effect, surreality, id } = oracleCard
+  // Support both new `effects` array and legacy single `effect` field
+  const effectsArray = effects ?? (effect ? [effect] : [])
   const rawArtUrl = cardSvgs[id]
   const artUrl = artFailed ? null : rawArtUrl
   const interloper = interloperFor(id) || { name: 'Bureau', stamp: 'OZ-RGSTR' }
-  const effectLabel = describeEffect(effect)
+  const primaryLabel = describeEffect(effectsArray[0])
+  const effectLabel = effectsArray.length > 1
+    ? `${primaryLabel} +${effectsArray.length - 1} MORE`
+    : primaryLabel
   const isRevealed = phase === 'revealed'
 
   return (
@@ -319,7 +325,7 @@ export default function OracleCard() {
               ref={dismissRef}
               type="button"
               className="oracle-dismiss"
-              onClick={dismissOracleCard}
+              onClick={() => { applyEffects(effectsArray); dismissOracleCard() }}
             >
               <span className="choice-arrow">▸</span>
               [ ACKNOWLEDGE — CONTINUE ]
@@ -503,6 +509,13 @@ function describeEffect(fx) {
     case 'addInsulation':      return `INSULATION +${fx.value}`
     case 'addObfuscation':     return `OBFUSCATION +${fx.value}`
     case 'addDesynctear':      return `DESYNCTEAR +${fx.value}`
+    case 'addNeuralDensity':   return `NEURAL DENSITY ${fx.value >= 0 ? '+' : ''}${fx.value}`
+    case 'addHollowing':       return `HOLLOWING +${fx.value}`
+    case 'addSignalStrength':  return `SIGNAL STRENGTH ${fx.value >= 0 ? '+' : ''}${fx.value}`
+    case 'addRubyFriction':    return `RUBY FRICTION +${fx.value}`
+    case 'setWetwareStat':     return `${String(fx.stat).toUpperCase()} → ${fx.value}`
+    case 'modifyTag':          return `TAG: ${String(fx.value).toUpperCase()}`
+    case 'triggerEvent':       return `EVENT: ${String(fx.value).toUpperCase()}`
     default:
       return fx.type.replace(/([a-z])([A-Z])/g, '$1 $2').toUpperCase()
   }
