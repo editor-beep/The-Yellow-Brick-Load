@@ -830,13 +830,294 @@ export const dorothyBranchPassages = {
     choices: [
       {
         label: "Run through the loop: Find the 'Real' kitchen.",
-        target: 'D_VOID_DESCENT_14',
+        target: 'D_VOID_MAZE_16',
         effects: [{ type: 'addLoad', value: 15 }, { type: 'addOverrender', value: 1 }],
       },
       {
         label: 'Stop in the hallway: Admit the house is a ghost-signal.',
         target: 'D_VOID_DESCENT_14',
         effects: [{ type: 'addDesync', value: 10 }, { type: 'addSignalStrength', value: -20 }],
+      },
+    ],
+    onEnter: [],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // DOROTHY VOLUME 4: THE STATIC DRIFT MAZE (STAGES 16-25)
+  // ─────────────────────────────────────────────────────────────────────────
+
+  D_VOID_MAZE_16: {
+    id: 'D_VOID_MAZE_16',
+    character: 'dorothy',
+    text: [
+      {
+        minOverrender: 4,
+        content: `THE KANSAS RECURSION: ITERATION 02
+
+You open the farmhouse door again. This time, the kitchen table is made of hardened yellow bricks. Aunt Em is sitting there, but her face is a blur of gray pixels. She is holding a Silver Slipper and cleaning it with a rag made of carbon paper.
+
+"You're late for the audit, Dorothy," she says. Her voice is a low-frequency hum that makes your teeth ache.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Sit at the table: Accept the household audit.',
+        target: 'D_VOID_MAZE_17',
+        effects: [{ type: 'setCompliance', value: 'high' }, { type: 'addLoad', value: 10 }],
+      },
+      {
+        label: 'Run back into the hallway: This Em is a logic error.',
+        target: 'D_VOID_MAZE_18',
+        effects: [{ type: 'addDesync', value: 5 }, { type: 'addSignalStrength', value: -5 }],
+      },
+    ],
+    onEnter: [],
+  },
+
+  D_VOID_MAZE_17: {
+    id: 'D_VOID_MAZE_17',
+    character: 'dorothy',
+    text: [
+      {
+        minOverrender: 4,
+        content: `THE DOMESTIC INQUEST
+
+The pixelated Em hands you a form. It is a 'Declaration of Origin.' Every line you try to read shifts into a different language—Munchkin-script, Binary, and finally, just raw hex-code.
+
+The kitchen window shows the Cyclone, but it isn't moving. It is a static image of a disaster, pinned to the sky by the Bureau's judicial restraints.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Sign the Form: Claim Kansas as your primary jurisdiction.',
+        target: 'D_VOID_MAZE_19',
+        effects: [{ type: 'addWarrant', value: 15 }, { type: 'addSignalStrength', value: 10 }],
+      },
+      {
+        label: 'Break the Window: Attempt to reach the static storm.',
+        target: 'D_VOID_MAZE_20',
+        effects: [{ type: 'addSmudge', value: 1 }, { type: 'addDisplacement', value: 10 }],
+      },
+    ],
+    onEnter: [],
+  },
+
+  D_VOID_MAZE_18: {
+    id: 'D_VOID_MAZE_18',
+    character: 'dorothy',
+    text: [
+      {
+        minOverrender: 5,
+        content: `THE HALLWAY OF ECHOES
+
+The hallway has no floor. You are walking on a suspension of 'Unrendered Data'—gray, gelatinous blocks of logic that hiss when your Silver Slippers touch them.
+
+You hear the Tin Man's axe hitting wood in the distance, but the sound is coming from *inside* your own chest. The signal is cross-contaminating.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Follow the Axe-Sound: Try to find a hardware anchor.',
+        target: 'D_VOID_MAZE_21',
+        effects: [{ type: 'addDesynctear', value: 5 }, { type: 'addLoad', value: 5 }],
+      },
+      {
+        label: 'Scream into the Hallway: Force a signal spike.',
+        target: 'D_VOID_MAZE_22',
+        effects: [{ type: 'addSilverFriction', value: 20 }, { type: 'addWarrant', value: 10 }],
+      },
+    ],
+    onEnter: [],
+  },
+
+  D_VOID_MAZE_19: {
+    id: 'D_VOID_MAZE_19',
+    character: 'dorothy',
+    text: [
+      {
+        minOverrender: 5,
+        content: `THE PAPERWORK BLIZZARD
+
+You sign the form. It immediately dissolves into a thousand white flakes of carbon paper. They swirl around you, blocking your vision. They aren't cold; they are dry and smell of ancient dust.
+
+[WARRANT ISSUED: UNAUTHORIZED CLAIM OF ORIGIN]`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Wade through the paper: The stairs must be here.',
+        target: 'D_VOID_MAZE_23',
+        effects: [{ type: 'addLoad', value: 10 }, { type: 'addDisplacement', value: 5 }],
+      },
+    ],
+    onEnter: [],
+  },
+
+  D_VOID_MAZE_20: {
+    id: 'D_VOID_MAZE_20',
+    character: 'dorothy',
+    text: [
+      {
+        minOverrender: 5,
+        content: `THE GLASS FRACTURE
+
+The window shatters, but there is no wind. Outside is just the 'Master Grid'—a black void filled with green flickering lines of code. You see the farmhouse from the outside; it is a small, gray box floating in a sea of nothing.
+
+You are leaning out over the edge of the world.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Jump: If Kansas is a signal, I must find the broadcast tower.',
+        target: 'D_VOID_MAZE_24',
+        effects: [{ type: 'addDisplacement', value: 50 }, { type: 'setCompliance', value: 'broken' }],
+      },
+      {
+        label: 'Cling to the Frame: The box is the only home I have left.',
+        target: 'D_VOID_MAZE_23',
+        effects: [{ type: 'addLoad', value: 20 }],
+      },
+    ],
+    onEnter: [],
+  },
+
+  D_VOID_MAZE_21: {
+    id: 'D_VOID_MAZE_21',
+    character: 'dorothy',
+    text: [
+      {
+        minOverrender: 5,
+        content: `THE TIN RESONANCE
+
+You find a Tin Arm embedded in the hallway wall. It is still twitching, its fingers trying to grip a non-existent axe. It is leaking a mixture of black oil and silver solder.
+
+The Silver Slippers begin to pull toward the arm. The magnetism is high-bandwidth and painful.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Touch the Arm: Share the load of the hardware failure.',
+        target: 'D_VOID_MAZE_25',
+        effects: [{ type: 'addDesynctear', value: 10 }, { type: 'graft', material: 'silver_friction', target: 'tinman' }],
+      },
+      {
+        label: 'Sever the Connection: Click the heels to repel the magnetism.',
+        target: 'D_VOID_MAZE_25',
+        effects: [{ type: 'addSilverFriction', value: 15 }, { type: 'addWarrant', value: 10 }],
+      },
+    ],
+    onEnter: [],
+  },
+
+  D_VOID_MAZE_22: {
+    id: 'D_VOID_MAZE_22',
+    character: 'dorothy',
+    text: [
+      {
+        minOverrender: 5,
+        content: `THE SIGNAL SPIKE
+
+Your scream fills the hallway. The Silver Slippers conduct it—the sound becomes visible, a white-hot arc of distortion that etches a warrant number into the unrendered data beneath your feet.
+
+[WARRANT ESCALATION: UNAUTHORIZED SIGNAL EMISSION]
+
+The echo returns altered. It is no longer your voice. It is the Bureau's Confirmation Tone, played back at maximum amplitude. The hallway walls flicker: they are rendering and un-rendering in rhythm with the sound.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Follow the Tone: It came from somewhere structural.',
+        target: 'D_VOID_MAZE_25',
+        effects: [{ type: 'addDisplacement', value: 10 }, { type: 'addLoad', value: 5 }],
+      },
+      {
+        label: 'Collapse the Signal: Click the heels to cancel the frequency.',
+        target: 'D_VOID_MAZE_25',
+        effects: [{ type: 'addSilverFriction', value: 10 }, { type: 'addSmudge', value: 1 }],
+      },
+    ],
+    onEnter: [],
+  },
+
+  D_VOID_MAZE_23: {
+    id: 'D_VOID_MAZE_23',
+    character: 'dorothy',
+    text: [
+      {
+        minOverrender: 5,
+        content: `THE PAPER MAELSTROM
+
+The carbon paper is everywhere now—ceiling, floor, walls replaced by a continuous slow whirl of dry white flakes. Each sheet carries a partial record: a munchkin census entry, a Cyclone damage report, a Declaration of Origin with your name replaced by a case number.
+
+[CASE FILE: D-01 / STATUS: UNRESOLVED]
+
+The Silver Slippers leave scorched footprints in the paper. The heat is not burning; it is filing. Every step is being logged by a system you cannot see.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Push through: The cellar door must be at the center.',
+        target: 'D_VOID_MAZE_25',
+        effects: [{ type: 'addLoad', value: 10 }, { type: 'addDisplacement', value: 5 }],
+      },
+      {
+        label: 'Read a Sheet: Find your case number in the archive.',
+        target: 'D_VOID_MAZE_25',
+        effects: [{ type: 'addWarrant', value: 10 }, { type: 'setFlag', key: 'read_case_file', value: true }],
+      },
+    ],
+    onEnter: [],
+  },
+
+  D_VOID_MAZE_24: {
+    id: 'D_VOID_MAZE_24',
+    character: 'dorothy',
+    text: [
+      {
+        minOverrender: 5,
+        content: `THE BROADCAST TOWER FALL
+
+There is no ground. There is no broadcast tower. There is only the Master Grid—an infinite lattice of green light that recedes in every direction. The farmhouse is a gray speck somewhere above you, shrinking.
+
+[DISPLACEMENT: CRITICAL]
+[JURISDICTION: NONE APPLICABLE]
+
+The Silver Slippers are the only solid objects in the void. They hum at a frequency that has no name in the Bureau's codec. Kansas is not a place. It is a frequency. You are falling toward it.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Click the heels: Broadcast the home signal from inside the void.',
+        target: 'D_VOID_MAZE_25',
+        effects: [{ type: 'addSilverFriction', value: 20 }, { type: 'addDisplacement', value: 10 }],
+      },
+      {
+        label: 'Stop falling: Anchor to the nearest line of code.',
+        target: 'D_VOID_MAZE_25',
+        effects: [{ type: 'addLoad', value: 15 }, { type: 'setCompliance', value: 'broken' }],
+      },
+    ],
+    onEnter: [],
+  },
+
+  D_VOID_MAZE_25: {
+    id: 'D_VOID_MAZE_25',
+    character: 'dorothy',
+    text: [
+      {
+        minOverrender: 5,
+        content: `THE FINAL FLOOR-WEIGHT
+
+The hallway terminates at a door labeled 'STORM CELLAR / ARCHIVE ACCESS.' The wood is rotten, the grain of the door replaced by a texture of wet carbon paper.
+
+You can hear the Bureau's central cooling fans humming behind the wood. It is the sound of a billion files being sorted at once. It is the sound of your own deletion.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Open the door: Enter the Unlit Basement.',
+        target: 'D_VOID_DESCENT_15',
+        effects: [{ type: 'addDisplacement', value: 100 }],
       },
     ],
     onEnter: [],
