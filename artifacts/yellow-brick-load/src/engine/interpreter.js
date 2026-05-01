@@ -116,7 +116,16 @@ export function applyEffects(effects) {
       case 'addDesync':          store.addDesync(effect.value); break
       case 'addSmudge':          store.addSmudge(effect.value); break
       case 'addOverrender':      store.addOverrender(effect.value); break
-      case 'setCompliance':      store.setCompliance(effect.value); break
+      case 'setCompliance': {
+        // Normalise signal-bleed compliance aliases to canonical values
+        const complianceMap = { baseline: 'low', static: 'high', none: 'low', high: 'high', med: 'med', low: 'low', broken: 'broken' }
+        const normalised = complianceMap[String(effect.value).toLowerCase()] ?? effect.value
+        if (normalised === 'high' && String(effect.value).toLowerCase() === 'static') {
+          store.setFlag('compliance_locked', true)
+        }
+        store.setCompliance(normalised)
+        break
+      }
       case 'setFlag':            store.setFlag(effect.key, effect.value); break
       case 'softReset':          store.softReset(); break
       case 'checkGhostSignal':   store.checkGhostSignal(); break
@@ -130,9 +139,13 @@ export function applyEffects(effects) {
       case 'addUtility':         store.addUtility(effect.value); break
       case 'addScatter':         store.addScatter(effect.value); break
       case 'addStitchIntegrity': store.addStitchIntegrity(effect.value); break
+      case 'addNeuralDensity':   store.addNeuralDensity(effect.value); break
+      case 'addHollowing':       store.addHollowing(effect.value); break
       case 'addDisplacement':    store.addDisplacement(effect.value); break
       case 'addWarrant':         store.addWarrant(effect.value); break
       case 'addSilverFriction':  store.addSilverFriction(effect.value); break
+      case 'addSignalStrength':  store.addSignalStrength(effect.value); break
+      case 'addRubyFriction':    store.addRubyFriction(effect.value); break
       case 'addRefraction':      store.addRefraction(effect.value); break
       case 'addInsulation':      store.addInsulation(effect.value); break
       case 'addObfuscation':     store.addObfuscation(effect.value); break
@@ -145,6 +158,8 @@ export function applyEffects(effects) {
       case 'checkLoopCount':     break    // evaluated by UI, no-op here
       case 'setSystemStatus':    break    // narrative label, no-op here
       case 'setWetwareStat':     store.setWetwareStat(effect.stat, effect.value); break
+      case 'modifyTag':          store.setFlag(`tag_${effect.value}`, true); break
+      case 'triggerEvent':       store.setFlag(`event_${effect.value}`, true); break
       // ── Graft / gray-out / unlock effects ───────────────────────────────
       case 'graft':
         // Records cross-character material application: flags.graft_<material>_in_<target>
@@ -170,7 +185,8 @@ export function applyEffects(effects) {
           if (interloper) {
             store.setOracleCard(interloper)
             // Apply the interloper's game effect immediately
-            if (interloper.effect) applyEffects([interloper.effect])
+            const fx = interloper.effects ?? (interloper.effect ? [interloper.effect] : null)
+            if (fx) applyEffects(fx)
           }
           const entryNode = ORACLE_ENTRY_NODES[character]
           if (entryNode) store.goTo(entryNode)
