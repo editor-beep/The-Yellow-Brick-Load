@@ -14,7 +14,7 @@ import { sampleOracleCards, passageIdFromCardId, getActiveBucket } from '../engi
  */
 export default function OracleDraw() {
   const store = useGameStore()
-  const { character, goTo } = store
+  const { character, goTo, currentNode } = store
 
   const { cards, bucket } = useMemo(() => {
     const state = useGameStore.getState()
@@ -22,7 +22,7 @@ export default function OracleDraw() {
       cards: sampleOracleCards(character, state),
       bucket: getActiveBucket(character, state),
     }
-  }, [character]) // sampled once when the draw passage loads
+  }, [character, currentNode]) // resamples when draw passage loads or character changes
 
   function handleSelect(card) {
     const passageId = passageIdFromCardId(card.id)

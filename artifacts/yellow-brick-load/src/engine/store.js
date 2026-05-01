@@ -43,6 +43,8 @@ import { create } from 'zustand'
 
 export const COMPLIANCE_LEVELS = ['low', 'med', 'high', 'broken']
 
+let _ghostSignalTimerPending = false
+
 const INITIAL_STATE = {
   load: 0,
   desync: 0,
@@ -96,6 +98,7 @@ export const useGameStore = create((set, get) => ({
 
   // ── Character Selection ──────────────────────────────────────────────────
   selectCharacter: (character) => {
+    if (!character) return
     let initNode = `${character.toUpperCase()}_INIT`
     if (character === 'witch_west') {
       initNode = Math.random() < 0.5 ? 'WITCH_WEST_INIT' : 'WITCH_WEST_INIT_B'
@@ -146,20 +149,20 @@ export const useGameStore = create((set, get) => ({
    * narrative/condition purposes.
    */
   softReset: () => {
-    const { reset_count, character } = get()
+    const { character } = get()
     let initNode = `${character.toUpperCase()}_INIT`
     if (character === 'witch_west') {
       initNode = Math.random() < 0.5 ? 'WITCH_WEST_INIT' : 'WITCH_WEST_INIT_B'
     }
-    set({
+    set((s) => ({
       load: 0,
-      desync: Math.max(0, get().desync - 1),
+      desync: Math.max(0, s.desync - 1),
       smudge: 0,
       compliance: 'high',
-      reset_count: reset_count + 1,
+      reset_count: s.reset_count + 1,
       overrender: 0,
       currentNode: initNode,
-    })
+    }))
   },
 
   // ── Oracle Card ──────────────────────────────────────────────────────────
@@ -173,10 +176,12 @@ export const useGameStore = create((set, get) => ({
   // ── Check Ghost Signal Conditions ────────────────────────────────────────
   checkGhostSignal: () => {
     const { smudge, desync, compliance, reset_count, ghostSignalArmed, ghostSignalFired } = get()
-    if (ghostSignalFired || ghostSignalArmed) return
+    if (ghostSignalFired || ghostSignalArmed || _ghostSignalTimerPending) return
     if (smudge >= 2 && desync >= 3 && compliance === 'broken' && reset_count === 0) {
       set({ ghostSignalArmed: true })
+      _ghostSignalTimerPending = true
       setTimeout(() => {
+        _ghostSignalTimerPending = false
         if (!get().ghostSignalFired) get().fireGhostSignal()
       }, 60000) // 60s silent delay
     }

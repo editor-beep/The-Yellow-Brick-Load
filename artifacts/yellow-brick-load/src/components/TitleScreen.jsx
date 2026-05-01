@@ -43,7 +43,6 @@
         const [unavailableCharacters, setUnavailableCharacters] = useState(getUnavailableCharacters)
 
         useEffect(() => {
-          setUnavailableCharacters(getUnavailableCharacters())
           const interval = setInterval(() => {
             setFlicker(true)
             setTimeout(() => setFlicker(false), 80)

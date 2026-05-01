@@ -29,7 +29,7 @@ export default function PassageRenderer() {
       lastFiredNode.current = currentNode
       applyEffects(passage.onEnter)
     }
-  }, [currentNode]) // eslint-disable-line react-hooks/exhaustive-deps
+  }, [currentNode, passage])
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' })
@@ -91,10 +91,10 @@ export default function PassageRenderer() {
         </div>
         <div className={`passage-content ${passage.stub ? 'passage-stub' : ''} ${passage.isGhostSignal ? 'ghost-signal' : ''}`}>
           {text.split('\n').map((line, i) => {
-            if (line.trim() === '') return <br key={i} />
-            if (line.startsWith('[') && line.endsWith(']')) return <p key={i} className="system-log">{line}</p>
-            if (line === line.toUpperCase() && line.trim().length > 3 && !line.startsWith('[')) return <p key={i} className="passage-header">{line}</p>
-            return <p key={i}>{line}</p>
+            if (line.trim() === '') return <br key={`${currentNode}-line-${i}`} />
+            if (line.startsWith('[') && line.endsWith(']')) return <p key={`${currentNode}-line-${i}`} className="system-log">{line}</p>
+            if (line === line.toUpperCase() && line.trim().length > 3 && !line.startsWith('[')) return <p key={`${currentNode}-line-${i}`} className="passage-header">{line}</p>
+            return <p key={`${currentNode}-line-${i}`}>{line}</p>
           })}
         </div>
       </div>
@@ -116,7 +116,7 @@ export default function PassageRenderer() {
       <div className="load-bar-wrapper" aria-label={`Load: ${load}%`}><div className="load-bar-fill" style={{ width: `${load}%` }} /><span className="load-bar-label">LOAD: {load}%</span></div>
 
       {!passage.isEnding && passage.isOracleDraw && <OracleDraw />}
-      {!passage.isEnding && !passage.isOracleDraw && availableChoices.length > 0 && <nav className="choices-wrapper" aria-label="Available choices">{availableChoices.map((choice, i) => <button key={i} className="choice-button" onClick={() => handleChoice(choice)}><span className="choice-arrow">▸</span>{choice.label}</button>)}</nav>}
+      {!passage.isEnding && !passage.isOracleDraw && availableChoices.length > 0 && <nav className="choices-wrapper" aria-label="Available choices">{availableChoices.map((choice) => <button key={`${currentNode}-choice-${choice.label}`} className="choice-button" onClick={() => handleChoice(choice)}><span className="choice-arrow">▸</span>{choice.label}</button>)}</nav>}
 
       {passage.isEnding && <div className="ending-footer"><button className="choice-button choice-button--restart" onClick={() => useGameStore.getState().hardReset()}><span className="choice-arrow">↺</span>{passage.isGhostSignal ? '[ TERMINATE SESSION ]' : 'Begin new session'}</button></div>}
       {desync >= 2 && <div className="desync-indicator" aria-hidden="true">[ DESYNC: {desync} ]</div>}
