@@ -4,7 +4,7 @@ import { applyEffects, resolveText, interpolate, isChoiceAvailable } from '../en
 import { getPassage } from '../passages/index.js'
 import OracleCard from './OracleCard.jsx'
 import OracleDraw from './OracleDraw.jsx'
-import { getNodeMeta, NODE_POSITIONS } from '../data/nodeMetadata.js'
+import { getNodeMeta } from '../data/nodeMetadata.js'
 
 export default function PassageRenderer() {
   const {
@@ -47,15 +47,36 @@ export default function PassageRenderer() {
   const availableChoices = passage.choices.filter(c => isChoiceAvailable(c, state))
   const trail = [...history.slice(-3), currentNode]
 
-  const mapNodes = useMemo(() => {
-    const relevantIds = new Set([...history.slice(-12), currentNode])
-    availableChoices.forEach((choice) => relevantIds.add(choice.target))
+  const mapLayout = useMemo(() => {
+    const baseY = 110
+    const stepX = 110
+    const choiceOffsetX = 120
+    const choiceStepY = 65
+    const nodes = []
 
-    return [...relevantIds].map((id, idx) => {
-      const stored = NODE_POSITIONS[id]
-      const fallback = { x: 80 + (idx % 6) * 120, y: 120 + Math.floor(idx / 6) * 110 }
-      return { id, ...(stored || fallback), active: id === currentNode }
+    const visited = [...new Set([...history.slice(-8), currentNode])]
+    visited.forEach((id, idx) => {
+      nodes.push({ id, x: 40 + idx * stepX, y: baseY, active: id === currentNode, isVisited: true })
     })
+
+    const currentX = 40 + (visited.length - 1) * stepX
+    const choiceCount = availableChoices.length
+    availableChoices.forEach((choice, idx) => {
+      if (nodes.find((node) => node.id === choice.target)) return
+      const totalSpread = (choiceCount - 1) * choiceStepY
+      const choiceY = baseY - totalSpread / 2 + idx * choiceStepY
+      nodes.push({ id: choice.target, x: currentX + choiceOffsetX, y: choiceY, active: false, isVisited: false })
+    })
+
+    const padding = 30
+    const xs = nodes.map((node) => node.x)
+    const ys = nodes.map((node) => node.y)
+    const vbX = Math.min(...xs) - padding
+    const vbY = Math.min(...ys) - padding
+    const vbW = Math.max(...xs) - vbX + padding
+    const vbH = Math.max(...ys) - vbY + padding
+
+    return { nodes, viewBox: `${vbX} ${vbY} ${vbW} ${vbH}` }
   }, [history, currentNode, availableChoices])
 
   function handleChoice(choice) {
@@ -79,11 +100,12 @@ export default function PassageRenderer() {
       </div>
 
       <div className="state-card" ref={contentRef}>
-        <svg className="state-card__frame" viewBox="0 0 100 100" aria-hidden="true">
+        <svg className="state-card__frame" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
           <rect x="1" y="1" width="98" height="98" className="state-card__frame-outer" />
-          <rect x="4" y="4" width="92" height="15" className="state-card__frame-header" />
-          <rect x="4" y="22" width="92" height="54" className="state-card__frame-body" />
-          <rect x="4" y="79" width="92" height="17" className="state-card__frame-footer" />
+          <path d="M 1 16 L 1 1 L 16 1" className="state-card__frame-bracket" />
+          <path d="M 84 1 L 99 1 L 99 16" className="state-card__frame-bracket" />
+          <path d="M 1 84 L 1 99 L 16 99" className="state-card__frame-bracket" />
+          <path d="M 84 99 L 99 99 L 99 84" className="state-card__frame-bracket" />
         </svg>
         <p className="state-card__title">{nodeMeta.title}</p>
         <div className="state-card__tags">
@@ -99,16 +121,22 @@ export default function PassageRenderer() {
         </div>
       </div>
 
-      <svg className="constellation-map" viewBox="0 0 760 340" role="img" aria-label="Node route map">
+      <svg className="constellation-map" viewBox={mapLayout.viewBox} role="img" aria-label="Node route map">
         {history.slice(-8).map((nodeId, idx) => {
-          const from = mapNodes.find((node) => node.id === nodeId)
-          const to = mapNodes.find((node) => node.id === history.slice(-8)[idx + 1])
+          const from = mapLayout.nodes.find((node) => node.id === nodeId)
+          const to = mapLayout.nodes.find((node) => node.id === history.slice(-8)[idx + 1])
           if (!from || !to) return null
           return <line key={`${from.id}-${to.id}`} x1={from.x} y1={from.y} x2={to.x} y2={to.y} className="map-edge" />
         })}
-        {mapNodes.map((node) => (
+        {availableChoices.map((choice) => {
+          const from = mapLayout.nodes.find((node) => node.id === currentNode)
+          const to = mapLayout.nodes.find((node) => node.id === choice.target)
+          if (!from || !to) return null
+          return <line key={`future-${from.id}-${to.id}`} x1={from.x} y1={from.y} x2={to.x} y2={to.y} className="map-edge map-edge--future" />
+        })}
+        {mapLayout.nodes.map((node) => (
           <g key={node.id}>
-            <circle cx={node.x} cy={node.y} r={node.active ? 10 : 6} className={`map-node ${node.active ? 'map-node--active' : ''}`} />
+            <circle cx={node.x} cy={node.y} r={node.active ? 10 : 6} className={`map-node ${node.active ? 'map-node--active' : ''} ${node.isVisited ? 'map-node--visited' : 'map-node--future'}`} />
           </g>
         ))}
       </svg>
