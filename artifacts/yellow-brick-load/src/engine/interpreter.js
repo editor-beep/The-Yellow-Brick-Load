@@ -39,6 +39,8 @@ import { useGameStore } from './store.js'
 import { getInterloperForCharacter } from '../data/statInterlopers.js'
 import { checkAllPersistentFlags } from './store.js'
 
+let _globalResetPending = false
+
 // ── Token replacement ────────────────────────────────────────────────────────
 export function interpolate(text, state) {
   return text
@@ -191,6 +193,16 @@ export function applyEffects(effects) {
         store.addLoad(30)
         store.addSmudge(3)
         store.setFlag('thermal_event_fired', true)
+        break
+      case 'globalReset':
+        // UNRECOGNIZED CONFIGURATION: total state wipe after a reading delay.
+        // Fires hardReset after 8 seconds so the player can read the final prose.
+        if (_globalResetPending) break
+        _globalResetPending = true
+        setTimeout(() => {
+          _globalResetPending = false
+          useGameStore.getState().hardReset()
+        }, 8000)
         break
       // ── Graft / gray-out / unlock effects ───────────────────────────────
       case 'graft':
