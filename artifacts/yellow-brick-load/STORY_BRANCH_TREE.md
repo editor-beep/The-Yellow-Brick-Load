@@ -1,6 +1,6 @@
 # Yellow Brick Load Story Passage Branch Tree
 
-Generated: 2026-05-01T21:04:29.436Z
+Generated: 2026-05-02T17:45:26.167Z
 
 ## DOROTHY_INIT
 - DOROTHY_INIT
@@ -25,8 +25,7 @@ Generated: 2026-05-01T21:04:29.436Z
                       - "Use the silver power — attempt the home-frequency reality bend." → DOROTHY_END_HOME
                         - DOROTHY_END_HOME [ENDING]
                       - "Save the silver friction — route the power toward the road." → DOROTHY_PATH_ROAD
-                        - DOROTHY_PATH_ROAD
-                          - ↩ cycle
+                        - ↩ cycle
                   - "3. The Warrant Thread — accept the Bureau's escalation." → DOROTHY_ORACLE_3
                     - DOROTHY_ORACLE_3
                       - "Accept the warrant — become compliant enough to be archived." → DOROTHY_END_SEAL
@@ -48,8 +47,7 @@ Generated: 2026-05-01T21:04:29.436Z
                       - "Use the slipper power at full cost — force a home route." → DOROTHY_END_HOME
                         - DOROTHY_END_HOME [ENDING]
                       - "Bank the power and continue — route toward the road." → DOROTHY_PATH_ROAD
-                        - DOROTHY_PATH_ROAD
-                          - ↩ cycle
+                        - ↩ cycle
                   - "6. The Grafted Echo — let the nerve fiber mix with foreign material." → DOROTHY_ORACLE_6
                     - DOROTHY_ORACLE_6
                       - "Let the grafted echoes route toward universal displacement." → DOROTHY_END_DISPLACEMENT
@@ -63,11 +61,9 @@ Generated: 2026-05-01T21:04:29.436Z
                       - "Unseal the dust — reopen the wound and the home signal." → DOROTHY_PATH_SLIPPERS
                         - DOROTHY_PATH_SLIPPERS
                           - "Click again — force the home frequency through." → DOROTHY_ORACLE_ENTRY
-                            - DOROTHY_ORACLE_ENTRY
-                              - ↩ cycle
+                            - ↩ cycle
                           - "Stop clicking — accept the road and the displacement." → DOROTHY_PATH_ROAD
-                            - DOROTHY_PATH_ROAD
-                              - ↩ cycle
+                            - ↩ cycle
                   - "8. The Terminal Pull — catastrophic displacement." → DOROTHY_ORACLE_8
                     - DOROTHY_ORACLE_8
                       - "Follow the terminal displacement — let the frequency route home." → DOROTHY_END_HOME
@@ -75,8 +71,7 @@ Generated: 2026-05-01T21:04:29.436Z
                       - "Let the severed nerve route toward universal deletion." → DOROTHY_END_DISPLACEMENT
                         - DOROTHY_END_DISPLACEMENT [ENDING]
               - "Pull your heel back — resist the nerve pull." → DOROTHY_PATH_COMPLIANCE
-                - DOROTHY_PATH_COMPLIANCE
-                  - ↩ cycle
+                - ↩ cycle
       - "Refuse the lollipop — continue along the road toward the oracle." → DOROTHY_ORACLE_ENTRY
         - DOROTHY_ORACLE_ENTRY
           - "Allow the extraction — let her pull the nerve thread." → DOROTHY_ORACLE_DRAW
@@ -92,8 +87,7 @@ Generated: 2026-05-01T21:04:29.436Z
                   - "Use the silver power — attempt the home-frequency reality bend." → DOROTHY_END_HOME
                     - DOROTHY_END_HOME [ENDING]
                   - "Save the silver friction — route the power toward the road." → DOROTHY_PATH_ROAD
-                    - DOROTHY_PATH_ROAD
-                      - ↩ cycle
+                    - ↩ cycle
               - "3. The Warrant Thread — accept the Bureau's escalation." → DOROTHY_ORACLE_3
                 - DOROTHY_ORACLE_3
                   - "Accept the warrant — become compliant enough to be archived." → DOROTHY_END_SEAL
@@ -115,8 +109,7 @@ Generated: 2026-05-01T21:04:29.436Z
                   - "Use the slipper power at full cost — force a home route." → DOROTHY_END_HOME
                     - DOROTHY_END_HOME [ENDING]
                   - "Bank the power and continue — route toward the road." → DOROTHY_PATH_ROAD
-                    - DOROTHY_PATH_ROAD
-                      - ↩ cycle
+                    - ↩ cycle
               - "6. The Grafted Echo — let the nerve fiber mix with foreign material." → DOROTHY_ORACLE_6
                 - DOROTHY_ORACLE_6
                   - "Let the grafted echoes route toward universal displacement." → DOROTHY_END_DISPLACEMENT
@@ -130,11 +123,9 @@ Generated: 2026-05-01T21:04:29.436Z
                   - "Unseal the dust — reopen the wound and the home signal." → DOROTHY_PATH_SLIPPERS
                     - DOROTHY_PATH_SLIPPERS
                       - "Click again — force the home frequency through." → DOROTHY_ORACLE_ENTRY
-                        - DOROTHY_ORACLE_ENTRY
-                          - ↩ cycle
+                        - ↩ cycle
                       - "Stop clicking — accept the road and the displacement." → DOROTHY_PATH_ROAD
-                        - DOROTHY_PATH_ROAD
-                          - ↩ cycle
+                        - ↩ cycle
               - "8. The Terminal Pull — catastrophic displacement." → DOROTHY_ORACLE_8
                 - DOROTHY_ORACLE_8
                   - "Follow the terminal displacement — let the frequency route home." → DOROTHY_END_HOME
@@ -146,8 +137,7 @@ Generated: 2026-05-01T21:04:29.436Z
               - "Follow the compliant road toward the Emerald City." → DOROTHY_END_SEAL
                 - DOROTHY_END_SEAL [ENDING]
               - "Let the muffled signal build until the Dust Clerk must respond." → DOROTHY_ORACLE_ENTRY
-                - DOROTHY_ORACLE_ENTRY
-                  - ↩ cycle
+                - ↩ cycle
   - "Try to click the slippers — attempt home-frequency contact." → DOROTHY_PATH_SLIPPERS
     - DOROTHY_PATH_SLIPPERS
       - "Click again — force the home frequency through." → DOROTHY_ORACLE_ENTRY
@@ -171,11 +161,9 @@ Generated: 2026-05-01T21:04:29.436Z
                           - "Follow the compliant road toward the Emerald City." → DOROTHY_END_SEAL
                             - DOROTHY_END_SEAL [ENDING]
                           - "Let the muffled signal build until the Dust Clerk must respond." → DOROTHY_ORACLE_ENTRY
-                            - DOROTHY_ORACLE_ENTRY
-                              - ↩ cycle
+                            - ↩ cycle
                       - "Refuse the lollipop — continue along the road toward the oracle." → DOROTHY_ORACLE_ENTRY
-                        - DOROTHY_ORACLE_ENTRY
-                          - ↩ cycle
+                        - ↩ cycle
               - "3. The Warrant Thread — accept the Bureau's escalation." → DOROTHY_ORACLE_3
                 - DOROTHY_ORACLE_3
                   - "Accept the warrant — become compliant enough to be archived." → DOROTHY_END_SEAL
@@ -203,11 +191,9 @@ Generated: 2026-05-01T21:04:29.436Z
                           - "Follow the compliant road toward the Emerald City." → DOROTHY_END_SEAL
                             - DOROTHY_END_SEAL [ENDING]
                           - "Let the muffled signal build until the Dust Clerk must respond." → DOROTHY_ORACLE_ENTRY
-                            - DOROTHY_ORACLE_ENTRY
-                              - ↩ cycle
+                            - ↩ cycle
                       - "Refuse the lollipop — continue along the road toward the oracle." → DOROTHY_ORACLE_ENTRY
-                        - DOROTHY_ORACLE_ENTRY
-                          - ↩ cycle
+                        - ↩ cycle
               - "6. The Grafted Echo — let the nerve fiber mix with foreign material." → DOROTHY_ORACLE_6
                 - DOROTHY_ORACLE_6
                   - "Let the grafted echoes route toward universal displacement." → DOROTHY_END_DISPLACEMENT
@@ -219,8 +205,7 @@ Generated: 2026-05-01T21:04:29.436Z
                   - "Accept the sealed safety — route toward the compliance ending." → DOROTHY_END_SEAL
                     - DOROTHY_END_SEAL [ENDING]
                   - "Unseal the dust — reopen the wound and the home signal." → DOROTHY_PATH_SLIPPERS
-                    - DOROTHY_PATH_SLIPPERS
-                      - ↩ cycle
+                    - ↩ cycle
               - "8. The Terminal Pull — catastrophic displacement." → DOROTHY_ORACLE_8
                 - DOROTHY_ORACLE_8
                   - "Follow the terminal displacement — let the frequency route home." → DOROTHY_END_HOME
@@ -232,8 +217,7 @@ Generated: 2026-05-01T21:04:29.436Z
               - "Follow the compliant road toward the Emerald City." → DOROTHY_END_SEAL
                 - DOROTHY_END_SEAL [ENDING]
               - "Let the muffled signal build until the Dust Clerk must respond." → DOROTHY_ORACLE_ENTRY
-                - DOROTHY_ORACLE_ENTRY
-                  - ↩ cycle
+                - ↩ cycle
       - "Stop clicking — accept the road and the displacement." → DOROTHY_PATH_ROAD
         - DOROTHY_PATH_ROAD
           - "Accept the lollipop — accept the pharmaceutical compliance." → DOROTHY_PATH_COMPLIANCE
@@ -255,8 +239,7 @@ Generated: 2026-05-01T21:04:29.436Z
                           - "Use the silver power — attempt the home-frequency reality bend." → DOROTHY_END_HOME
                             - DOROTHY_END_HOME [ENDING]
                           - "Save the silver friction — route the power toward the road." → DOROTHY_PATH_ROAD
-                            - DOROTHY_PATH_ROAD
-                              - ↩ cycle
+                            - ↩ cycle
                       - "3. The Warrant Thread — accept the Bureau's escalation." → DOROTHY_ORACLE_3
                         - DOROTHY_ORACLE_3
                           - "Accept the warrant — become compliant enough to be archived." → DOROTHY_END_SEAL
@@ -278,8 +261,7 @@ Generated: 2026-05-01T21:04:29.436Z
                           - "Use the slipper power at full cost — force a home route." → DOROTHY_END_HOME
                             - DOROTHY_END_HOME [ENDING]
                           - "Bank the power and continue — route toward the road." → DOROTHY_PATH_ROAD
-                            - DOROTHY_PATH_ROAD
-                              - ↩ cycle
+                            - ↩ cycle
                       - "6. The Grafted Echo — let the nerve fiber mix with foreign material." → DOROTHY_ORACLE_6
                         - DOROTHY_ORACLE_6
                           - "Let the grafted echoes route toward universal displacement." → DOROTHY_END_DISPLACEMENT
@@ -291,8 +273,7 @@ Generated: 2026-05-01T21:04:29.436Z
                           - "Accept the sealed safety — route toward the compliance ending." → DOROTHY_END_SEAL
                             - DOROTHY_END_SEAL [ENDING]
                           - "Unseal the dust — reopen the wound and the home signal." → DOROTHY_PATH_SLIPPERS
-                            - DOROTHY_PATH_SLIPPERS
-                              - ↩ cycle
+                            - ↩ cycle
                       - "8. The Terminal Pull — catastrophic displacement." → DOROTHY_ORACLE_8
                         - DOROTHY_ORACLE_8
                           - "Follow the terminal displacement — let the frequency route home." → DOROTHY_END_HOME
@@ -300,8 +281,7 @@ Generated: 2026-05-01T21:04:29.436Z
                           - "Let the severed nerve route toward universal deletion." → DOROTHY_END_DISPLACEMENT
                             - DOROTHY_END_DISPLACEMENT [ENDING]
                   - "Pull your heel back — resist the nerve pull." → DOROTHY_PATH_COMPLIANCE
-                    - DOROTHY_PATH_COMPLIANCE
-                      - ↩ cycle
+                    - ↩ cycle
           - "Refuse the lollipop — continue along the road toward the oracle." → DOROTHY_ORACLE_ENTRY
             - DOROTHY_ORACLE_ENTRY
               - "Allow the extraction — let her pull the nerve thread." → DOROTHY_ORACLE_DRAW
@@ -317,8 +297,7 @@ Generated: 2026-05-01T21:04:29.436Z
                       - "Use the silver power — attempt the home-frequency reality bend." → DOROTHY_END_HOME
                         - DOROTHY_END_HOME [ENDING]
                       - "Save the silver friction — route the power toward the road." → DOROTHY_PATH_ROAD
-                        - DOROTHY_PATH_ROAD
-                          - ↩ cycle
+                        - ↩ cycle
                   - "3. The Warrant Thread — accept the Bureau's escalation." → DOROTHY_ORACLE_3
                     - DOROTHY_ORACLE_3
                       - "Accept the warrant — become compliant enough to be archived." → DOROTHY_END_SEAL
@@ -340,8 +319,7 @@ Generated: 2026-05-01T21:04:29.436Z
                       - "Use the slipper power at full cost — force a home route." → DOROTHY_END_HOME
                         - DOROTHY_END_HOME [ENDING]
                       - "Bank the power and continue — route toward the road." → DOROTHY_PATH_ROAD
-                        - DOROTHY_PATH_ROAD
-                          - ↩ cycle
+                        - ↩ cycle
                   - "6. The Grafted Echo — let the nerve fiber mix with foreign material." → DOROTHY_ORACLE_6
                     - DOROTHY_ORACLE_6
                       - "Let the grafted echoes route toward universal displacement." → DOROTHY_END_DISPLACEMENT
@@ -353,8 +331,7 @@ Generated: 2026-05-01T21:04:29.436Z
                       - "Accept the sealed safety — route toward the compliance ending." → DOROTHY_END_SEAL
                         - DOROTHY_END_SEAL [ENDING]
                       - "Unseal the dust — reopen the wound and the home signal." → DOROTHY_PATH_SLIPPERS
-                        - DOROTHY_PATH_SLIPPERS
-                          - ↩ cycle
+                        - ↩ cycle
                   - "8. The Terminal Pull — catastrophic displacement." → DOROTHY_ORACLE_8
                     - DOROTHY_ORACLE_8
                       - "Follow the terminal displacement — let the frequency route home." → DOROTHY_END_HOME
@@ -366,8 +343,7 @@ Generated: 2026-05-01T21:04:29.436Z
                   - "Follow the compliant road toward the Emerald City." → DOROTHY_END_SEAL
                     - DOROTHY_END_SEAL [ENDING]
                   - "Let the muffled signal build until the Dust Clerk must respond." → DOROTHY_ORACLE_ENTRY
-                    - DOROTHY_ORACLE_ENTRY
-                      - ↩ cycle
+                    - ↩ cycle
 
 ## GLINDA_INIT
 - GLINDA_INIT
@@ -434,8 +410,7 @@ Generated: 2026-05-01T21:04:29.436Z
       - "Resist the procedure — maintain the surface perfection." → GLINDA_PATH_ALTITUDE
         - GLINDA_PATH_ALTITUDE
           - "Descend when refraction reaches critical — the oracle waits." → GLINDA_ORACLE_ENTRY
-            - GLINDA_ORACLE_ENTRY
-              - ↩ cycle
+            - ↩ cycle
           - "Remain at altitude — route toward atmospheric drift ending." → GLINDA_END_DRIFT
             - GLINDA_END_DRIFT [ENDING]
   - "Observe from altitude — maintain the insulating distance." → GLINDA_PATH_ALTITUDE
@@ -501,8 +476,7 @@ Generated: 2026-05-01T21:04:29.436Z
                   - "Reseal the bubble — route toward the insulated ending." → GLINDA_END_INSULATED
                     - GLINDA_END_INSULATED [ENDING]
           - "Resist the procedure — maintain the surface perfection." → GLINDA_PATH_ALTITUDE
-            - GLINDA_PATH_ALTITUDE
-              - ↩ cycle
+            - ↩ cycle
       - "Remain at altitude — route toward atmospheric drift ending." → GLINDA_END_DRIFT
         - GLINDA_END_DRIFT [ENDING]
 
@@ -521,21 +495,19 @@ Generated: 2026-05-01T21:04:29.436Z
                   - "Search the soft walls for a seam—a place where the fur does not match." → LION_MANE_FRACTURE
                     - LION_MANE_FRACTURE
                       - "Sweep up the debris and return to the Muffled Chamber. (The Audit)" → LION_MUFFLED_CHAMBER
-                        - LION_MUFFLED_CHAMBER
-                          - ↩ cycle
+                        - ↩ cycle
                       - "Allow the fracture to spread. Let the tremor reach the spine. (The Breach)" → LION_SYSTEM_SPASM
                         - LION_SYSTEM_SPASM
                           - "Hold the bite until the simulation collapses." → LION_HARD_RESET
                             - LION_HARD_RESET
                               - "Accept the reset." → LION_INIT
-                                - LION_INIT
-                                  - ↩ cycle
+                                - ↩ cycle
                               - "Refuse the reset." → LION_END_21
                                 - LION_END_21 [ENDING]
                           - "Release and run into the tearing sky." → LION_VOID_FRAGMENT
                             - LION_VOID_FRAGMENT
                               - "Accept the displacement. Let the last of your meat dissolve." → LION_END_19
-                                - LION_END_19 ⚠️ missing
+                                - LION_END_19
                               - "Cling desperately to the remaining fragments of your body." → LION_END_27
                                 - LION_END_27 [ENDING]
               - "Spit the capsule out." → LION_SYSTEM_SPASM
@@ -543,14 +515,13 @@ Generated: 2026-05-01T21:04:29.436Z
                   - "Hold the bite until the simulation collapses." → LION_HARD_RESET
                     - LION_HARD_RESET
                       - "Accept the reset." → LION_INIT
-                        - LION_INIT
-                          - ↩ cycle
+                        - ↩ cycle
                       - "Refuse the reset." → LION_END_21
                         - LION_END_21 [ENDING]
                   - "Release and run into the tearing sky." → LION_VOID_FRAGMENT
                     - LION_VOID_FRAGMENT
                       - "Accept the displacement. Let the last of your meat dissolve." → LION_END_19
-                        - LION_END_19 ⚠️ missing
+                        - LION_END_19
                       - "Cling desperately to the remaining fragments of your body." → LION_END_27
                         - LION_END_27 [ENDING]
           - "Log the shaking as a feature." → LION_NOMINALIZATION
@@ -593,7 +564,7 @@ Generated: 2026-05-01T21:04:29.436Z
                     - LION_END_17 [ENDING]
           - "Swallow the roar and try to hide among the rusted gears and broken cabinets." → LION_GEAR_HIDING
             - LION_GEAR_HIDING
-              - "Stay perfectly still until the "L-77" tag expires." → LION_DE_INDEXING
+              - "Stay perfectly still until the \"L-77\" tag expires." → LION_DE_INDEXING
                 - LION_DE_INDEXING [ENDING]
               - "Follow the trail of old paper deeper into the unlit dark." → LION_VOID_TREK
                 - LION_VOID_TREK
@@ -643,7 +614,7 @@ Generated: 2026-05-01T21:04:29.436Z
                             - LION_END_17 [ENDING]
                   - "Swallow the roar and try to hide among the rusted gears and broken cabinets." → LION_GEAR_HIDING
                     - LION_GEAR_HIDING
-                      - "Stay perfectly still until the "L-77" tag expires." → LION_DE_INDEXING
+                      - "Stay perfectly still until the \"L-77\" tag expires." → LION_DE_INDEXING
                         - LION_DE_INDEXING [ENDING]
                       - "Follow the trail of old paper deeper into the unlit dark." → LION_VOID_TREK
                         - LION_VOID_TREK
@@ -655,36 +626,28 @@ Generated: 2026-05-01T21:04:29.436Z
             - LION_SPINE_HUB
               - "MANE MAINTENANCE: Scrape the crystallized fear from your scalp." → LION_MANE_SCRAPE_LOOP
                 - LION_MANE_SCRAPE_LOOP
-                  - "Scrape the "Poppy Shard" (Adds Vibration)." → LION_SPINE_HUB
-                    - LION_SPINE_HUB
-                      - ↩ cycle
-                  - "Scrape the "Empty Chest" shard (Adds Load)." → LION_SPINE_HUB
-                    - LION_SPINE_HUB
-                      - ↩ cycle
+                  - "Scrape the \"Poppy Shard\" (Adds Vibration)." → LION_SPINE_HUB
+                    - ↩ cycle
+                  - "Scrape the \"Empty Chest\" shard (Adds Load)." → LION_SPINE_HUB
+                    - ↩ cycle
               - "JOINT LUBRICATION: Apply the Blue Fluid (Wetware route — {{#flags.mode_wetware}}available{{/flags.mode_wetware}}{{^flags.mode_wetware}}hardware mode only, reduced effect{{/flags.mode_wetware}})." → LION_BLUE_FLUID_LOOP
                 - LION_BLUE_FLUID_LOOP
                   - "Accept the full application. Let the fluid cycle." → LION_SPINE_HUB
-                    - LION_SPINE_HUB
-                      - ↩ cycle
+                    - ↩ cycle
                   - "Accept only a partial dose. Maintain some friction." → LION_SPINE_HUB
-                    - LION_SPINE_HUB
-                      - ↩ cycle
+                    - ↩ cycle
               - "DIAGNOSTIC ROAR: Test the acoustic integrity of the corridor." → LION_ROAR_TEST_LOOP
                 - LION_ROAR_TEST_LOOP
                   - "Compliance Roar: Low, rhythmic, and safe." → LION_SPINE_HUB
-                    - LION_SPINE_HUB
-                      - ↩ cycle
+                    - ↩ cycle
                   - "Acoustic Leak: Let a piece of the real scream through." → LION_SPINE_HUB
-                    - LION_SPINE_HUB
-                      - ↩ cycle
+                    - ↩ cycle
               - "ADMINISTRATIVE LOG: Check in with the Clerk." → LION_CLERK_LOOP
                 - LION_CLERK_LOOP
                   - "Pay in Wetware: Surrender a clump of fur." → LION_SPINE_HUB
-                    - LION_SPINE_HUB
-                      - ↩ cycle
+                    - ↩ cycle
                   - "Pay in Signal: Allow the Clerk to redact your last memory." → LION_SPINE_HUB
-                    - LION_SPINE_HUB
-                      - ↩ cycle
+                    - ↩ cycle
               - "VERTEBRAL AUDIT: Descend into the Spinal Switchboard." → LION_VERTEBRAE_HUB
                 - LION_VERTEBRAE_HUB
                   - "Shift the Vibration to the NECK (Cervical — Administrative)." → LION_NECK_TENSION
@@ -696,26 +659,23 @@ Generated: 2026-05-01T21:04:29.436Z
                               - "Close your eyes and accept the redistribution of your mass." → LION_END_11
                                 - LION_END_11 [ENDING]
                               - "Search the soft walls for a seam—a place where the fur does not match." → LION_MANE_FRACTURE
-                                - LION_MANE_FRACTURE
-                                  - ↩ cycle
+                                - ↩ cycle
                           - "Allow the fracture to spread. Let the tremor reach the spine. (The Breach)" → LION_SYSTEM_SPASM
                             - LION_SYSTEM_SPASM
                               - "Hold the bite until the simulation collapses." → LION_HARD_RESET
                                 - LION_HARD_RESET
                                   - "Accept the reset." → LION_INIT
-                                    - LION_INIT
-                                      - ↩ cycle
+                                    - ↩ cycle
                                   - "Refuse the reset." → LION_END_21
                                     - LION_END_21 [ENDING]
                               - "Release and run into the tearing sky." → LION_VOID_FRAGMENT
                                 - LION_VOID_FRAGMENT
                                   - "Accept the displacement. Let the last of your meat dissolve." → LION_END_19
-                                    - LION_END_19 ⚠️ missing
+                                    - LION_END_19
                                   - "Cling desperately to the remaining fragments of your body." → LION_END_27
                                     - LION_END_27 [ENDING]
                       - "Accept the downward gaze (Compliance)." → LION_VERTEBRAE_HUB
-                        - LION_VERTEBRAE_HUB
-                          - ↩ cycle
+                        - ↩ cycle
                   - "Shift the Vibration to the RIBS (Thoracic — Kinetic)." → LION_RIB_EXPANSION
                     - LION_RIB_EXPANSION
                       - "Let the resonance build until the signal crosses over." → LION_GHOST_SIGNAL
@@ -729,28 +689,23 @@ Generated: 2026-05-01T21:04:29.436Z
                                   - "Attempt one final, discordant roar." → LION_END_23
                                     - LION_END_23 [ENDING]
                               - "Step into the white gap and leave the body behind." → LION_DATA_LEAK
-                                - LION_DATA_LEAK ⚠️ missing
+                                - LION_DATA_LEAK
                               - "Let the overloaded system finally unravel." → LION_SYSTEM_ENTROPY
                                 - LION_SYSTEM_ENTROPY
                                   - "One. Last. Roar." → LION_END_32
                                     - LION_END_32 [ENDING]
                           - "Swallow the signal (Dampen the overtones)." → LION_SPINE_HUB
-                            - LION_SPINE_HUB
-                              - ↩ cycle
+                            - ↩ cycle
                       - "Force a controlled exhale. Vent the frequency." → LION_VERTEBRAE_HUB
-                        - LION_VERTEBRAE_HUB
-                          - ↩ cycle
+                        - ↩ cycle
                   - "Shift the Vibration to the TAIL (Lumbar — Residue)." → LION_TAIL_DRAG
                     - LION_TAIL_DRAG
                       - "Wag the tail violently to overwhelm the drone." → LION_VERTEBRAE_HUB
-                        - LION_VERTEBRAE_HUB
-                          - ↩ cycle
+                        - ↩ cycle
                       - "Tuck the tail (Hide the residue)." → LION_VERTEBRAE_HUB
-                        - LION_VERTEBRAE_HUB
-                          - ↩ cycle
+                        - ↩ cycle
                   - "Return to the Spine-Tuning Station." → LION_SPINE_HUB
-                    - LION_SPINE_HUB
-                      - ↩ cycle
+                    - ↩ cycle
               - "RE-ENTER THE LOAD: Continue toward the City." → LION_GATES_OF_OZ
                 - LION_GATES_OF_OZ
                   - "Declare yourself cured. Demand entry as a model unit." → L_END_01
@@ -800,21 +755,19 @@ Generated: 2026-05-01T21:04:29.436Z
               - "Search the soft walls for a seam—a place where the fur does not match." → LION_MANE_FRACTURE
                 - LION_MANE_FRACTURE
                   - "Sweep up the debris and return to the Muffled Chamber. (The Audit)" → LION_MUFFLED_CHAMBER
-                    - LION_MUFFLED_CHAMBER
-                      - ↩ cycle
+                    - ↩ cycle
                   - "Allow the fracture to spread. Let the tremor reach the spine. (The Breach)" → LION_SYSTEM_SPASM
                     - LION_SYSTEM_SPASM
                       - "Hold the bite until the simulation collapses." → LION_HARD_RESET
                         - LION_HARD_RESET
                           - "Accept the reset." → LION_INIT
-                            - LION_INIT
-                              - ↩ cycle
+                            - ↩ cycle
                           - "Refuse the reset." → LION_END_21
                             - LION_END_21 [ENDING]
                       - "Release and run into the tearing sky." → LION_VOID_FRAGMENT
                         - LION_VOID_FRAGMENT
                           - "Accept the displacement. Let the last of your meat dissolve." → LION_END_19
-                            - LION_END_19 ⚠️ missing
+                            - LION_END_19
                           - "Cling desperately to the remaining fragments of your body." → LION_END_27
                             - LION_END_27 [ENDING]
           - "Resist at the last moment. Tear the shims out." → LION_SYSTEM_SPASM
@@ -822,14 +775,13 @@ Generated: 2026-05-01T21:04:29.436Z
               - "Hold the bite until the simulation collapses." → LION_HARD_RESET
                 - LION_HARD_RESET
                   - "Accept the reset." → LION_INIT
-                    - LION_INIT
-                      - ↩ cycle
+                    - ↩ cycle
                   - "Refuse the reset." → LION_END_21
                     - LION_END_21 [ENDING]
               - "Release and run into the tearing sky." → LION_VOID_FRAGMENT
                 - LION_VOID_FRAGMENT
                   - "Accept the displacement. Let the last of your meat dissolve." → LION_END_19
-                    - LION_END_19 ⚠️ missing
+                    - LION_END_19
                   - "Cling desperately to the remaining fragments of your body." → LION_END_27
                     - LION_END_27 [ENDING]
       - "Reject the instruction and breach the perimeter." → LION_VIOLENCE_H
@@ -841,12 +793,12 @@ Generated: 2026-05-01T21:04:29.436Z
                   - "Initiate the final upload." → LION_END_28
                     - LION_END_28 [ENDING]
               - "Use the Kalidah's eyes to find the source of the simulation." → LION_ROOT_ACCESS
-                - LION_ROOT_ACCESS ⚠️ missing
+                - LION_ROOT_ACCESS
           - "Attempt to bypass the unit and find the Root Access." → LION_ROOT_ACCESS
-            - LION_ROOT_ACCESS ⚠️ missing
+            - LION_ROOT_ACCESS
           - "Stop moving. Let the Winged Monkeys take you to the Western Tower." → LION_HARVEST_HUB
             - LION_HARVEST_HUB
-              - "Submit to the "Streamlining" (Mane Stripping)." → LION_MANE_STRIPPING
+              - "Submit to the \"Streamlining\" (Mane Stripping)." → LION_MANE_STRIPPING
                 - LION_MANE_STRIPPING
                   - "Look into the obsidian eye and roar (Bald Resonance)." → LION_AUDIO_EVENT
                     - LION_AUDIO_EVENT
@@ -859,7 +811,7 @@ Generated: 2026-05-01T21:04:29.436Z
                               - "Attempt one final, discordant roar." → LION_END_23
                                 - LION_END_23 [ENDING]
                           - "Step into the white gap and leave the body behind." → LION_DATA_LEAK
-                            - LION_DATA_LEAK ⚠️ missing
+                            - LION_DATA_LEAK
                           - "Let the overloaded system finally unravel." → LION_SYSTEM_ENTROPY
                             - LION_SYSTEM_ENTROPY
                               - "One. Last. Roar." → LION_END_32
@@ -869,10 +821,10 @@ Generated: 2026-05-01T21:04:29.436Z
                           - "Attempt to sync with the ghosting. Force the tremor back into alignment." → LION_END_14
                             - LION_END_14 [ENDING]
                           - "Step deliberately into the unallocated gap. Let the delay consume you." → LION_END_19
-                            - LION_END_19 ⚠️ missing
-                  - "Close your eyes and wait for the "Re-Skinning"." → L_END_01
+                            - LION_END_19
+                  - "Close your eyes and wait for the \"Re-Skinning\"." → L_END_01
                     - L_END_01 [ENDING]
-              - "Clinch every muscle to "Lock the Seams"." → LION_SEAM_LOCK
+              - "Clinch every muscle to \"Lock the Seams\"." → LION_SEAM_LOCK
                 - LION_SEAM_LOCK
                   - "Hold the lock until the table cracks." → LION_END_21
                     - LION_END_21 [ENDING]
@@ -883,35 +835,32 @@ Generated: 2026-05-01T21:04:29.436Z
                       - "Search the soft walls for a seam—a place where the fur does not match." → LION_MANE_FRACTURE
                         - LION_MANE_FRACTURE
                           - "Sweep up the debris and return to the Muffled Chamber. (The Audit)" → LION_MUFFLED_CHAMBER
-                            - LION_MUFFLED_CHAMBER
-                              - ↩ cycle
+                            - ↩ cycle
                           - "Allow the fracture to spread. Let the tremor reach the spine. (The Breach)" → LION_SYSTEM_SPASM
                             - LION_SYSTEM_SPASM
                               - "Hold the bite until the simulation collapses." → LION_HARD_RESET
                                 - LION_HARD_RESET
                                   - "Accept the reset." → LION_INIT
-                                    - LION_INIT
-                                      - ↩ cycle
+                                    - ↩ cycle
                                   - "Refuse the reset." → LION_END_21
                                     - LION_END_21 [ENDING]
                               - "Release and run into the tearing sky." → LION_VOID_FRAGMENT
                                 - LION_VOID_FRAGMENT
                                   - "Accept the displacement. Let the last of your meat dissolve." → LION_END_19
-                                    - LION_END_19 ⚠️ missing
+                                    - LION_END_19
                                   - "Cling desperately to the remaining fragments of your body." → LION_END_27
                                     - LION_END_27 [ENDING]
-              - "Offer the "Roar-Log" as a trade for your skin." → LION_ROAR_TRADE
+              - "Offer the \"Roar-Log\" as a trade for your skin." → LION_ROAR_TRADE
                 - LION_ROAR_TRADE
                   - "Complete the transfer. Give her the roar-log." → LION_END_25
                     - LION_END_25 [ENDING]
                   - "Reclaim the data. Swallow the offer." → LION_HARVEST_HUB
-                    - LION_HARVEST_HUB
-                      - ↩ cycle
+                    - ↩ cycle
       - "Maintain the walk and file nothing. (The Rigid Proceed)" → LION_DENIAL_H
         - LION_DENIAL_H
           - "Push through the heat and maintain the pace." → LION_STRUCTURAL_FAILURE
             - LION_STRUCTURAL_FAILURE [ENDING]
-          - "Pause at the Industrial Press to seek "Lubrication."" → LION_REMAINTENANCE
+          - "Pause at the Industrial Press to seek \"Lubrication.\"" → LION_REMAINTENANCE
             - LION_REMAINTENANCE
               - "Accept the post and begin the watch." → LION_END_20
                 - LION_END_20 [ENDING]
@@ -935,8 +884,7 @@ Generated: 2026-05-01T21:04:29.436Z
                       - "Follow the scattered fragments toward surreal dissolution." → SCARECROW_END_SCATTER
                         - SCARECROW_END_SCATTER [ENDING]
                       - "Let the fragments feed back into the road." → SCARECROW_DIPLOMA_HUB
-                        - SCARECROW_DIPLOMA_HUB
-                          - ↩ cycle
+                        - ↩ cycle
                   - "2. The Diploma Graft — accept the knowledge patch." → SCARECROW_ORACLE_2
                     - SCARECROW_ORACLE_2
                       - "Accept the patched knowledge — route toward the diploma ending." → SCARECROW_END_DIPLOMA
@@ -958,11 +906,9 @@ Generated: 2026-05-01T21:04:29.436Z
                           - "Accept the patched stability — function as intended." → SCARECROW_PATH_COMPLIANCE
                             - SCARECROW_PATH_COMPLIANCE
                               - "Accept the infrastructure role — route toward the diploma." → SCARECROW_DIPLOMA_HUB
-                                - SCARECROW_DIPLOMA_HUB
-                                  - ↩ cycle
+                                - ↩ cycle
                           - "Use the temporary cohesion to reach the diploma hub." → SCARECROW_DIPLOMA_HUB
-                            - SCARECROW_DIPLOMA_HUB
-                              - ↩ cycle
+                            - ↩ cycle
                   - "5. The Mold Prophecy — unlock the meta branches." → SCARECROW_ORACLE_5
                     - SCARECROW_ORACLE_5
                       - "Accept the paralysis — sit with the prophecy." → SCARECROW_END_HOLLOW
@@ -974,18 +920,15 @@ Generated: 2026-05-01T21:04:29.436Z
                       - "Follow the wind — let the scatter route cross-character." → SCARECROW_END_SCATTER
                         - SCARECROW_END_SCATTER [ENDING]
                       - "Recollect what's left and restuff through the diploma hub." → SCARECROW_DIPLOMA_HUB
-                        - SCARECROW_DIPLOMA_HUB
-                          - ↩ cycle
+                        - ↩ cycle
                   - "7. The Pinned Patch — accept temporary cohesion." → SCARECROW_ORACLE_7
                     - SCARECROW_ORACLE_7
                       - "Accept the patched stability — function as intended." → SCARECROW_PATH_COMPLIANCE
                         - SCARECROW_PATH_COMPLIANCE
                           - "Accept the infrastructure role — route toward the diploma." → SCARECROW_DIPLOMA_HUB
-                            - SCARECROW_DIPLOMA_HUB
-                              - ↩ cycle
+                            - ↩ cycle
                       - "Use the temporary cohesion to reach the diploma hub." → SCARECROW_DIPLOMA_HUB
-                        - SCARECROW_DIPLOMA_HUB
-                          - ↩ cycle
+                        - ↩ cycle
                   - "8. The Empty Cavity — total hollowing." → SCARECROW_ORACLE_8
                     - SCARECROW_ORACLE_8
                       - "Let the empty cavity route toward total dissolution." → SCARECROW_END_HOLLOW
@@ -995,8 +938,7 @@ Generated: 2026-05-01T21:04:29.436Z
               - "Try to restuff the seam — resist the harvest." → SCARECROW_PATH_COMPLIANCE
                 - SCARECROW_PATH_COMPLIANCE
                   - "Accept the infrastructure role — route toward the diploma." → SCARECROW_DIPLOMA_HUB
-                    - SCARECROW_DIPLOMA_HUB
-                      - ↩ cycle
+                    - ↩ cycle
       - "Let the scatter reach critical and accept the harvest." → SCARECROW_ORACLE_ENTRY
         - SCARECROW_ORACLE_ENTRY
           - "Allow the extraction — open the seam fully." → SCARECROW_ORACLE_DRAW
@@ -1010,8 +952,7 @@ Generated: 2026-05-01T21:04:29.436Z
                       - "Accept the certified brain — route toward the educational ending." → SCARECROW_END_DIPLOMA
                         - SCARECROW_END_DIPLOMA [ENDING]
                       - "Reject the diploma — let the scatter reach the field surgeon." → SCARECROW_ORACLE_ENTRY
-                        - SCARECROW_ORACLE_ENTRY
-                          - ↩ cycle
+                        - ↩ cycle
               - "2. The Diploma Graft — accept the knowledge patch." → SCARECROW_ORACLE_2
                 - SCARECROW_ORACLE_2
                   - "Accept the patched knowledge — route toward the diploma ending." → SCARECROW_END_DIPLOMA
@@ -1037,15 +978,13 @@ Generated: 2026-05-01T21:04:29.436Z
                               - "Accept the certified brain — route toward the educational ending." → SCARECROW_END_DIPLOMA
                                 - SCARECROW_END_DIPLOMA [ENDING]
                               - "Reject the diploma — let the scatter reach the field surgeon." → SCARECROW_ORACLE_ENTRY
-                                - SCARECROW_ORACLE_ENTRY
-                                  - ↩ cycle
+                                - ↩ cycle
                       - "Use the temporary cohesion to reach the diploma hub." → SCARECROW_DIPLOMA_HUB
                         - SCARECROW_DIPLOMA_HUB
                           - "Accept the certified brain — route toward the educational ending." → SCARECROW_END_DIPLOMA
                             - SCARECROW_END_DIPLOMA [ENDING]
                           - "Reject the diploma — let the scatter reach the field surgeon." → SCARECROW_ORACLE_ENTRY
-                            - SCARECROW_ORACLE_ENTRY
-                              - ↩ cycle
+                            - ↩ cycle
               - "5. The Mold Prophecy — unlock the meta branches." → SCARECROW_ORACLE_5
                 - SCARECROW_ORACLE_5
                   - "Accept the paralysis — sit with the prophecy." → SCARECROW_END_HOLLOW
@@ -1061,8 +1000,7 @@ Generated: 2026-05-01T21:04:29.436Z
                       - "Accept the certified brain — route toward the educational ending." → SCARECROW_END_DIPLOMA
                         - SCARECROW_END_DIPLOMA [ENDING]
                       - "Reject the diploma — let the scatter reach the field surgeon." → SCARECROW_ORACLE_ENTRY
-                        - SCARECROW_ORACLE_ENTRY
-                          - ↩ cycle
+                        - ↩ cycle
               - "7. The Pinned Patch — accept temporary cohesion." → SCARECROW_ORACLE_7
                 - SCARECROW_ORACLE_7
                   - "Accept the patched stability — function as intended." → SCARECROW_PATH_COMPLIANCE
@@ -1072,15 +1010,13 @@ Generated: 2026-05-01T21:04:29.436Z
                           - "Accept the certified brain — route toward the educational ending." → SCARECROW_END_DIPLOMA
                             - SCARECROW_END_DIPLOMA [ENDING]
                           - "Reject the diploma — let the scatter reach the field surgeon." → SCARECROW_ORACLE_ENTRY
-                            - SCARECROW_ORACLE_ENTRY
-                              - ↩ cycle
+                            - ↩ cycle
                   - "Use the temporary cohesion to reach the diploma hub." → SCARECROW_DIPLOMA_HUB
                     - SCARECROW_DIPLOMA_HUB
                       - "Accept the certified brain — route toward the educational ending." → SCARECROW_END_DIPLOMA
                         - SCARECROW_END_DIPLOMA [ENDING]
                       - "Reject the diploma — let the scatter reach the field surgeon." → SCARECROW_ORACLE_ENTRY
-                        - SCARECROW_ORACLE_ENTRY
-                          - ↩ cycle
+                        - ↩ cycle
               - "8. The Empty Cavity — total hollowing." → SCARECROW_ORACLE_8
                 - SCARECROW_ORACLE_8
                   - "Let the empty cavity route toward total dissolution." → SCARECROW_END_HOLLOW
@@ -1094,8 +1030,7 @@ Generated: 2026-05-01T21:04:29.436Z
                   - "Accept the certified brain — route toward the educational ending." → SCARECROW_END_DIPLOMA
                     - SCARECROW_END_DIPLOMA [ENDING]
                   - "Reject the diploma — let the scatter reach the field surgeon." → SCARECROW_ORACLE_ENTRY
-                    - SCARECROW_ORACLE_ENTRY
-                      - ↩ cycle
+                    - ↩ cycle
   - "Remain on the post — function as intended." → SCARECROW_PATH_COMPLIANCE
     - SCARECROW_PATH_COMPLIANCE
       - "Accept the infrastructure role — route toward the diploma." → SCARECROW_DIPLOMA_HUB
@@ -1111,8 +1046,7 @@ Generated: 2026-05-01T21:04:29.436Z
                       - "Follow the scattered fragments toward surreal dissolution." → SCARECROW_END_SCATTER
                         - SCARECROW_END_SCATTER [ENDING]
                       - "Let the fragments feed back into the road." → SCARECROW_DIPLOMA_HUB
-                        - SCARECROW_DIPLOMA_HUB
-                          - ↩ cycle
+                        - ↩ cycle
                   - "2. The Diploma Graft — accept the knowledge patch." → SCARECROW_ORACLE_2
                     - SCARECROW_ORACLE_2
                       - "Accept the patched knowledge — route toward the diploma ending." → SCARECROW_END_DIPLOMA
@@ -1132,11 +1066,9 @@ Generated: 2026-05-01T21:04:29.436Z
                       - "Request emergency re-stitching — route toward patched compliance." → SCARECROW_ORACLE_7
                         - SCARECROW_ORACLE_7
                           - "Accept the patched stability — function as intended." → SCARECROW_PATH_COMPLIANCE
-                            - SCARECROW_PATH_COMPLIANCE
-                              - ↩ cycle
+                            - ↩ cycle
                           - "Use the temporary cohesion to reach the diploma hub." → SCARECROW_DIPLOMA_HUB
-                            - SCARECROW_DIPLOMA_HUB
-                              - ↩ cycle
+                            - ↩ cycle
                   - "5. The Mold Prophecy — unlock the meta branches." → SCARECROW_ORACLE_5
                     - SCARECROW_ORACLE_5
                       - "Accept the paralysis — sit with the prophecy." → SCARECROW_END_HOLLOW
@@ -1148,16 +1080,13 @@ Generated: 2026-05-01T21:04:29.436Z
                       - "Follow the wind — let the scatter route cross-character." → SCARECROW_END_SCATTER
                         - SCARECROW_END_SCATTER [ENDING]
                       - "Recollect what's left and restuff through the diploma hub." → SCARECROW_DIPLOMA_HUB
-                        - SCARECROW_DIPLOMA_HUB
-                          - ↩ cycle
+                        - ↩ cycle
                   - "7. The Pinned Patch — accept temporary cohesion." → SCARECROW_ORACLE_7
                     - SCARECROW_ORACLE_7
                       - "Accept the patched stability — function as intended." → SCARECROW_PATH_COMPLIANCE
-                        - SCARECROW_PATH_COMPLIANCE
-                          - ↩ cycle
+                        - ↩ cycle
                       - "Use the temporary cohesion to reach the diploma hub." → SCARECROW_DIPLOMA_HUB
-                        - SCARECROW_DIPLOMA_HUB
-                          - ↩ cycle
+                        - ↩ cycle
                   - "8. The Empty Cavity — total hollowing." → SCARECROW_ORACLE_8
                     - SCARECROW_ORACLE_8
                       - "Let the empty cavity route toward total dissolution." → SCARECROW_END_HOLLOW
@@ -1165,8 +1094,7 @@ Generated: 2026-05-01T21:04:29.436Z
                       - "Fill the cavity with the road itself — become the soil." → SCARECROW_END_SCATTER
                         - SCARECROW_END_SCATTER [ENDING]
               - "Try to restuff the seam — resist the harvest." → SCARECROW_PATH_COMPLIANCE
-                - SCARECROW_PATH_COMPLIANCE
-                  - ↩ cycle
+                - ↩ cycle
 
 ## TIN_MAN_INIT
 - TIN_MAN_INIT
@@ -1240,8 +1168,7 @@ Generated: 2026-05-01T21:04:29.436Z
       - "Reject the assay — project gravitational counter-force." → WITCH_EAST_PATH_GRAVITY
         - WITCH_EAST_PATH_GRAVITY
           - "Maintain the field until impact — read the displacement pattern." → WITCH_EAST_ORACLE_ENTRY
-            - WITCH_EAST_ORACLE_ENTRY
-              - ↩ cycle
+            - ↩ cycle
           - "Attempt evacuation — route toward the silver shoes transfer." → WITCH_EAST_END_SHOES
             - WITCH_EAST_END_SHOES [ENDING]
   - "Attempt to redirect the falling mass — deploy regulatory pressure." → WITCH_EAST_PATH_GRAVITY
@@ -1299,8 +1226,7 @@ Generated: 2026-05-01T21:04:29.436Z
                   - "Route the final data through the shoes — end at the silver transfer." → WITCH_EAST_END_SHOES
                     - WITCH_EAST_END_SHOES [ENDING]
           - "Reject the assay — project gravitational counter-force." → WITCH_EAST_PATH_GRAVITY
-            - WITCH_EAST_PATH_GRAVITY
-              - ↩ cycle
+            - ↩ cycle
       - "Attempt evacuation — route toward the silver shoes transfer." → WITCH_EAST_END_SHOES
         - WITCH_EAST_END_SHOES [ENDING]
 
@@ -1325,8 +1251,7 @@ Generated: 2026-05-01T21:04:29.436Z
                       - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                         - WITCH_WEST_END_MELTING [ENDING]
                       - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                        - WITCH_WEST_MONKEY_SWEEP_B
-                          - ↩ cycle
+                        - ↩ cycle
                   - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                     - WITCH_WEST_ORACLE_3
                       - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -1364,8 +1289,7 @@ Generated: 2026-05-01T21:04:29.436Z
                       - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                         - WITCH_WEST_END_SCRAP [ENDING]
               - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                - WITCH_WEST_MONKEY_SWEEP_B
-                  - ↩ cycle
+                - ↩ cycle
           - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
             - WITCH_WEST_FIELD_CONFRONTATION
               - "Pick who gets the first incision, then begin the Obsidian Eye ritual." → WITCH_WEST_SELECT_TARGET
@@ -1385,8 +1309,7 @@ Generated: 2026-05-01T21:04:29.436Z
                               - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                 - WITCH_WEST_END_MELTING [ENDING]
                               - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                - WITCH_WEST_MONKEY_SWEEP_B
-                                  - ↩ cycle
+                                - ↩ cycle
                           - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                             - WITCH_WEST_ORACLE_3
                               - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -1438,8 +1361,7 @@ Generated: 2026-05-01T21:04:29.436Z
                               - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                 - WITCH_WEST_END_MELTING [ENDING]
                               - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                - WITCH_WEST_MONKEY_SWEEP_B
-                                  - ↩ cycle
+                                - ↩ cycle
                           - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                             - WITCH_WEST_ORACLE_3
                               - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -1491,8 +1413,7 @@ Generated: 2026-05-01T21:04:29.436Z
                               - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                 - WITCH_WEST_END_MELTING [ENDING]
                               - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                - WITCH_WEST_MONKEY_SWEEP_B
-                                  - ↩ cycle
+                                - ↩ cycle
                           - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                             - WITCH_WEST_ORACLE_3
                               - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -1544,8 +1465,7 @@ Generated: 2026-05-01T21:04:29.436Z
                               - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                 - WITCH_WEST_END_MELTING [ENDING]
                               - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                - WITCH_WEST_MONKEY_SWEEP_B
-                                  - ↩ cycle
+                                - ↩ cycle
                           - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                             - WITCH_WEST_ORACLE_3
                               - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -1599,8 +1519,7 @@ Generated: 2026-05-01T21:04:29.436Z
                               - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                 - WITCH_WEST_END_MELTING [ENDING]
                               - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                - WITCH_WEST_MONKEY_SWEEP_B
-                                  - ↩ cycle
+                                - ↩ cycle
                           - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                             - WITCH_WEST_ORACLE_3
                               - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -1638,8 +1557,7 @@ Generated: 2026-05-01T21:04:29.436Z
                               - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                 - WITCH_WEST_END_SCRAP [ENDING]
                       - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                        - WITCH_WEST_MONKEY_SWEEP_B
-                          - ↩ cycle
+                        - ↩ cycle
                   - "The Clerk signals a compliance concern — attend to the warning." → WITCH_WEST_CLERK_INTERLUDE
                     - WITCH_WEST_CLERK_INTERLUDE
                       - "Force the verdict now — Summon the Obsidian Matron." → WITCH_WEST_ORACLE_ENTRY
@@ -1657,8 +1575,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                   - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                     - WITCH_WEST_END_MELTING [ENDING]
                                   - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                      - ↩ cycle
+                                    - ↩ cycle
                               - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                 - WITCH_WEST_ORACLE_3
                                   - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -1696,8 +1613,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                   - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                     - WITCH_WEST_END_SCRAP [ENDING]
                           - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                            - WITCH_WEST_MONKEY_SWEEP_B
-                              - ↩ cycle
+                            - ↩ cycle
                       - "Ignore the Clerk. Proceed with psychological pressure." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
                         - WITCH_WEST_PSYCHOLOGICAL_TORMENT
                           - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
@@ -1715,8 +1631,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                       - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                         - WITCH_WEST_END_MELTING [ENDING]
                                       - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                        - WITCH_WEST_MONKEY_SWEEP_B
-                                          - ↩ cycle
+                                        - ↩ cycle
                                   - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                     - WITCH_WEST_ORACLE_3
                                       - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -1754,8 +1669,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                       - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                         - WITCH_WEST_END_SCRAP [ENDING]
                               - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                - WITCH_WEST_MONKEY_SWEEP_B
-                                  - ↩ cycle
+                                - ↩ cycle
                           - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
                             - WITCH_WEST_END_MELTING [ENDING]
                           - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
@@ -1775,8 +1689,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                           - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                             - WITCH_WEST_END_MELTING [ENDING]
                                           - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                            - WITCH_WEST_MONKEY_SWEEP_B
-                                              - ↩ cycle
+                                            - ↩ cycle
                                       - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                         - WITCH_WEST_ORACLE_3
                                           - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -1814,9 +1727,8 @@ Generated: 2026-05-01T21:04:29.436Z
                                           - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                             - WITCH_WEST_END_SCRAP [ENDING]
                                   - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                      - ↩ cycle
-                              - "Signal the Monkeys to begin "The Scrap Reallocation."" → WITCH_WEST_END_SCRAP
+                                    - ↩ cycle
+                              - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
                                 - WITCH_WEST_END_SCRAP [ENDING]
                   - "Walk the perimeter — let the Winkie chant stabilize the ritual chamber." → WITCH_WEST_WINKIE_CORRIDOR
                     - WITCH_WEST_WINKIE_CORRIDOR
@@ -1833,40 +1745,54 @@ Generated: 2026-05-01T21:04:29.436Z
                               - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
                                 - WITCH_WEST_SCRAPE_MANE
                                   - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
-                                    - WITCH_WEST_LION_AUDIT_HUB
-                                      - ↩ cycle
-                                  - "Braid the hairs into a "Fear-Whip"." → WITCH_WEST_LION_AUDIT_HUB
-                                    - WITCH_WEST_LION_AUDIT_HUB
-                                      - ↩ cycle
+                                    - ↩ cycle
+                                  - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
                               - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
                                 - WITCH_WEST_LION_AUDIT_HUB
-                                  - ↩ cycle
+                                  - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                    - WITCH_WEST_SCRAPE_MANE
+                                      - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                  - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
                               - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
                                 - WITCH_WEST_LION_AUDIT_HUB
-                                  - ↩ cycle
+                                  - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                    - WITCH_WEST_SCRAPE_MANE
+                                      - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                  - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
                               - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
-                                - WITCH_WEST_COMMAND_DECK_V2
-                                  - ↩ cycle
-                          - "SURVEILLANCE: Deploy "Eye-on-a-String" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
-                            - WITCH_WEST_OBSIDIAN_VIEW
-                              - ↩ cycle
+                                - ↩ cycle
+                          - "SURVEILLANCE: Deploy \"Eye-on-a-String\" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
+                            - ↩ cycle
                           - "PHARMACOLOGY: Refine the Poppy Resin in the crucible." → WITCH_WEST_POPPY_BUFFER
                             - WITCH_WEST_POPPY_BUFFER
                               - "Wait for them at the tower gate. Receive them at full compliance." → WITCH_WEST_FIELD_CONFRONTATION
-                                - WITCH_WEST_FIELD_CONFRONTATION
-                                  - ↩ cycle
+                                - ↩ cycle
                               - "Send the monkeys to accelerate their arrival." → WITCH_WEST_MONKEY_SWEEP_B
-                                - WITCH_WEST_MONKEY_SWEEP_B
-                                  - ↩ cycle
-                          - "ADMINISTRATION: File a "Pre-emptive Deletion" warrant." → WITCH_WEST_BUREAU_FILING
+                                - ↩ cycle
+                          - "ADMINISTRATION: File a \"Pre-emptive Deletion\" warrant." → WITCH_WEST_BUREAU_FILING
                             - WITCH_WEST_BUREAU_FILING
-                              - "Label it "Maintenance Disposal" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
-                                - WITCH_WEST_COMMAND_DECK_V2
-                                  - ↩ cycle
-                              - "Label it "Judicial Reclamation" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
-                                - WITCH_WEST_COMMAND_DECK_V2
-                                  - ↩ cycle
-                          - "THE FINAL INCISION: Trigger "The Melting Point"." → WITCH_WEST_END_MELTING
+                              - "Label it \"Maintenance Disposal\" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                - ↩ cycle
+                              - "Label it \"Judicial Reclamation\" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
+                                - ↩ cycle
+                          - "THE FINAL INCISION: Trigger \"The Melting Point\"." → WITCH_WEST_END_MELTING
                             - WITCH_WEST_END_MELTING [ENDING]
               - "Toy with him first. Make him beg for the mercy of the scalpel." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
                 - WITCH_WEST_PSYCHOLOGICAL_TORMENT
@@ -1885,8 +1811,7 @@ Generated: 2026-05-01T21:04:29.436Z
                               - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                 - WITCH_WEST_END_MELTING [ENDING]
                               - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                - WITCH_WEST_MONKEY_SWEEP_B
-                                  - ↩ cycle
+                                - ↩ cycle
                           - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                             - WITCH_WEST_ORACLE_3
                               - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -1924,8 +1849,7 @@ Generated: 2026-05-01T21:04:29.436Z
                               - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                 - WITCH_WEST_END_SCRAP [ENDING]
                       - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                        - WITCH_WEST_MONKEY_SWEEP_B
-                          - ↩ cycle
+                        - ↩ cycle
                   - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
                     - WITCH_WEST_END_MELTING [ENDING]
                   - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
@@ -1945,8 +1869,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                   - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                     - WITCH_WEST_END_MELTING [ENDING]
                                   - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                      - ↩ cycle
+                                    - ↩ cycle
                               - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                 - WITCH_WEST_ORACLE_3
                                   - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -1984,23 +1907,20 @@ Generated: 2026-05-01T21:04:29.436Z
                                   - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                     - WITCH_WEST_END_SCRAP [ENDING]
                           - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                            - WITCH_WEST_MONKEY_SWEEP_B
-                              - ↩ cycle
-                      - "Signal the Monkeys to begin "The Scrap Reallocation."" → WITCH_WEST_END_SCRAP
+                            - ↩ cycle
+                      - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
                         - WITCH_WEST_END_SCRAP [ENDING]
               - "The Clerk flags the warrant status — review the audit logs." → WITCH_WEST_BUREAU_LOG_CHECK
                 - WITCH_WEST_BUREAU_LOG_CHECK
-                  - ""It is a Judicial Necessity." (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
+                  - "\"It is a Judicial Necessity.\" (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
                     - WITCH_WEST_COMMAND_DECK
                       - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
                         - WITCH_WEST_MONKEY_MANAGEMENT
-                          - "Order a "Kinetic Brush-By" (Increase Load)." → WITCH_WEST_COMMAND_DECK
-                            - WITCH_WEST_COMMAND_DECK
-                              - ↩ cycle
-                          - "Order "Silent Hover" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
-                            - WITCH_WEST_COMMAND_DECK
-                              - ↩ cycle
-                          - "Order "Aggressive Shriek" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                          - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                            - ↩ cycle
+                          - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                            - ↩ cycle
+                          - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
                             - WITCH_WEST_ORACLE_ENTRY
                               - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
                                 - WITCH_WEST_ORACLE_DRAW
@@ -2015,8 +1935,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                       - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                         - WITCH_WEST_END_MELTING [ENDING]
                                       - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                        - WITCH_WEST_MONKEY_SWEEP_B
-                                          - ↩ cycle
+                                        - ↩ cycle
                                   - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                     - WITCH_WEST_ORACLE_3
                                       - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -2054,20 +1973,16 @@ Generated: 2026-05-01T21:04:29.436Z
                                       - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                         - WITCH_WEST_END_SCRAP [ENDING]
                               - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                - WITCH_WEST_MONKEY_SWEEP_B
-                                  - ↩ cycle
+                                - ↩ cycle
                       - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
                         - WITCH_WEST_POPPY_CALIBRATION
                           - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
-                            - WITCH_WEST_COMMAND_DECK
-                              - ↩ cycle
-                          - "Pulse the Field: Create a "Lullaby Spike"." → WITCH_WEST_COMMAND_DECK
-                            - WITCH_WEST_COMMAND_DECK
-                              - ↩ cycle
+                            - ↩ cycle
+                          - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                            - ↩ cycle
                       - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
-                        - WITCH_WEST_OBSIDIAN_VIEW
-                          - ↩ cycle
-                      - "Initialize Ritual: "The Obsidian Matron"." → WITCH_WEST_ORACLE_ENTRY
+                        - ↩ cycle
+                      - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
                         - WITCH_WEST_ORACLE_ENTRY
                           - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
                             - WITCH_WEST_ORACLE_DRAW
@@ -2082,8 +1997,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                   - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                     - WITCH_WEST_END_MELTING [ENDING]
                                   - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                      - ↩ cycle
+                                    - ↩ cycle
                               - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                 - WITCH_WEST_ORACLE_3
                                   - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -2121,19 +2035,16 @@ Generated: 2026-05-01T21:04:29.436Z
                                   - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                     - WITCH_WEST_END_SCRAP [ENDING]
                           - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                            - WITCH_WEST_MONKEY_SWEEP_B
-                              - ↩ cycle
-                  - ""The target is non-compliant." (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                            - ↩ cycle
+                  - "\"The target is non-compliant.\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
                     - WITCH_WEST_COMMAND_DECK
                       - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
                         - WITCH_WEST_MONKEY_MANAGEMENT
-                          - "Order a "Kinetic Brush-By" (Increase Load)." → WITCH_WEST_COMMAND_DECK
-                            - WITCH_WEST_COMMAND_DECK
-                              - ↩ cycle
-                          - "Order "Silent Hover" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
-                            - WITCH_WEST_COMMAND_DECK
-                              - ↩ cycle
-                          - "Order "Aggressive Shriek" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                          - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                            - ↩ cycle
+                          - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                            - ↩ cycle
+                          - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
                             - WITCH_WEST_ORACLE_ENTRY
                               - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
                                 - WITCH_WEST_ORACLE_DRAW
@@ -2148,8 +2059,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                       - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                         - WITCH_WEST_END_MELTING [ENDING]
                                       - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                        - WITCH_WEST_MONKEY_SWEEP_B
-                                          - ↩ cycle
+                                        - ↩ cycle
                                   - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                     - WITCH_WEST_ORACLE_3
                                       - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -2187,20 +2097,16 @@ Generated: 2026-05-01T21:04:29.436Z
                                       - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                         - WITCH_WEST_END_SCRAP [ENDING]
                               - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                - WITCH_WEST_MONKEY_SWEEP_B
-                                  - ↩ cycle
+                                - ↩ cycle
                       - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
                         - WITCH_WEST_POPPY_CALIBRATION
                           - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
-                            - WITCH_WEST_COMMAND_DECK
-                              - ↩ cycle
-                          - "Pulse the Field: Create a "Lullaby Spike"." → WITCH_WEST_COMMAND_DECK
-                            - WITCH_WEST_COMMAND_DECK
-                              - ↩ cycle
+                            - ↩ cycle
+                          - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                            - ↩ cycle
                       - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
-                        - WITCH_WEST_OBSIDIAN_VIEW
-                          - ↩ cycle
-                      - "Initialize Ritual: "The Obsidian Matron"." → WITCH_WEST_ORACLE_ENTRY
+                        - ↩ cycle
+                      - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
                         - WITCH_WEST_ORACLE_ENTRY
                           - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
                             - WITCH_WEST_ORACLE_DRAW
@@ -2215,8 +2121,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                   - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                     - WITCH_WEST_END_MELTING [ENDING]
                                   - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                      - ↩ cycle
+                                    - ↩ cycle
                               - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                 - WITCH_WEST_ORACLE_3
                                   - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -2254,8 +2159,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                   - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                     - WITCH_WEST_END_SCRAP [ENDING]
                           - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                            - WITCH_WEST_MONKEY_SWEEP_B
-                              - ↩ cycle
+                            - ↩ cycle
           - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
             - WITCH_WEST_SIGNAL_BLEED
               - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
@@ -2265,23 +2169,41 @@ Generated: 2026-05-01T21:04:29.436Z
                       - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
                         - WITCH_WEST_SCRAPE_MANE
                           - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
-                            - WITCH_WEST_LION_AUDIT_HUB
-                              - ↩ cycle
-                          - "Braid the hairs into a "Fear-Whip"." → WITCH_WEST_LION_AUDIT_HUB
-                            - WITCH_WEST_LION_AUDIT_HUB
-                              - ↩ cycle
+                            - ↩ cycle
+                          - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                            - ↩ cycle
                       - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
                         - WITCH_WEST_LION_AUDIT_HUB
-                          - ↩ cycle
+                          - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                            - WITCH_WEST_SCRAPE_MANE
+                              - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                - ↩ cycle
+                              - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                - ↩ cycle
+                          - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                            - ↩ cycle
+                          - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                            - ↩ cycle
+                          - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                            - ↩ cycle
                       - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
                         - WITCH_WEST_LION_AUDIT_HUB
-                          - ↩ cycle
+                          - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                            - WITCH_WEST_SCRAPE_MANE
+                              - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                - ↩ cycle
+                              - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                - ↩ cycle
+                          - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                            - ↩ cycle
+                          - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                            - ↩ cycle
+                          - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                            - ↩ cycle
                       - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
-                        - WITCH_WEST_COMMAND_DECK_V2
-                          - ↩ cycle
-                  - "SURVEILLANCE: Deploy "Eye-on-a-String" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
-                    - WITCH_WEST_OBSIDIAN_VIEW
-                      - ↩ cycle
+                        - ↩ cycle
+                  - "SURVEILLANCE: Deploy \"Eye-on-a-String\" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
+                    - ↩ cycle
                   - "PHARMACOLOGY: Refine the Poppy Resin in the crucible." → WITCH_WEST_POPPY_BUFFER
                     - WITCH_WEST_POPPY_BUFFER
                       - "Wait for them at the tower gate. Receive them at full compliance." → WITCH_WEST_FIELD_CONFRONTATION
@@ -2303,8 +2225,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                           - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                             - WITCH_WEST_END_MELTING [ENDING]
                                           - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                            - WITCH_WEST_MONKEY_SWEEP_B
-                                              - ↩ cycle
+                                            - ↩ cycle
                                       - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                         - WITCH_WEST_ORACLE_3
                                           - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -2356,8 +2277,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                           - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                             - WITCH_WEST_END_MELTING [ENDING]
                                           - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                            - WITCH_WEST_MONKEY_SWEEP_B
-                                              - ↩ cycle
+                                            - ↩ cycle
                                       - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                         - WITCH_WEST_ORACLE_3
                                           - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -2409,8 +2329,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                           - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                             - WITCH_WEST_END_MELTING [ENDING]
                                           - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                            - WITCH_WEST_MONKEY_SWEEP_B
-                                              - ↩ cycle
+                                            - ↩ cycle
                                       - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                         - WITCH_WEST_ORACLE_3
                                           - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -2462,8 +2381,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                           - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                             - WITCH_WEST_END_MELTING [ENDING]
                                           - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                            - WITCH_WEST_MONKEY_SWEEP_B
-                                              - ↩ cycle
+                                            - ↩ cycle
                                       - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                         - WITCH_WEST_ORACLE_3
                                           - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -2517,8 +2435,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                           - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                             - WITCH_WEST_END_MELTING [ENDING]
                                           - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                            - WITCH_WEST_MONKEY_SWEEP_B
-                                              - ↩ cycle
+                                            - ↩ cycle
                                       - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                         - WITCH_WEST_ORACLE_3
                                           - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -2556,8 +2473,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                           - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                             - WITCH_WEST_END_SCRAP [ENDING]
                                   - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                      - ↩ cycle
+                                    - ↩ cycle
                               - "The Clerk signals a compliance concern — attend to the warning." → WITCH_WEST_CLERK_INTERLUDE
                                 - WITCH_WEST_CLERK_INTERLUDE
                                   - "Force the verdict now — Summon the Obsidian Matron." → WITCH_WEST_ORACLE_ENTRY
@@ -2575,8 +2491,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                               - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                 - WITCH_WEST_END_MELTING [ENDING]
                                               - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                - WITCH_WEST_MONKEY_SWEEP_B
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                           - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                             - WITCH_WEST_ORACLE_3
                                               - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -2614,8 +2529,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                               - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                                 - WITCH_WEST_END_SCRAP [ENDING]
                                       - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                        - WITCH_WEST_MONKEY_SWEEP_B
-                                          - ↩ cycle
+                                        - ↩ cycle
                                   - "Ignore the Clerk. Proceed with psychological pressure." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
                                     - WITCH_WEST_PSYCHOLOGICAL_TORMENT
                                       - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
@@ -2633,8 +2547,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                     - WITCH_WEST_END_MELTING [ENDING]
                                                   - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                               - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                 - WITCH_WEST_ORACLE_3
                                                   - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -2672,8 +2585,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                                     - WITCH_WEST_END_SCRAP [ENDING]
                                           - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                            - WITCH_WEST_MONKEY_SWEEP_B
-                                              - ↩ cycle
+                                            - ↩ cycle
                                       - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
                                         - WITCH_WEST_END_MELTING [ENDING]
                                       - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
@@ -2693,8 +2605,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                       - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                         - WITCH_WEST_END_MELTING [ENDING]
                                                       - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                        - WITCH_WEST_MONKEY_SWEEP_B
-                                                          - ↩ cycle
+                                                        - ↩ cycle
                                                   - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                     - WITCH_WEST_ORACLE_3
                                                       - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -2732,9 +2643,8 @@ Generated: 2026-05-01T21:04:29.436Z
                                                       - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                                         - WITCH_WEST_END_SCRAP [ENDING]
                                               - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                                - WITCH_WEST_MONKEY_SWEEP_B
-                                                  - ↩ cycle
-                                          - "Signal the Monkeys to begin "The Scrap Reallocation."" → WITCH_WEST_END_SCRAP
+                                                - ↩ cycle
+                                          - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
                                             - WITCH_WEST_END_SCRAP [ENDING]
                               - "Walk the perimeter — let the Winkie chant stabilize the ritual chamber." → WITCH_WEST_WINKIE_CORRIDOR
                                 - WITCH_WEST_WINKIE_CORRIDOR
@@ -2745,8 +2655,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                       - "Try to vent the heat (Requires Water Protocol)." → WITCH_WEST_END_MELTING
                                         - WITCH_WEST_END_MELTING [ENDING]
                                   - "Use the chant to soothe the Lion's tremor (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
-                                    - WITCH_WEST_COMMAND_DECK_V2
-                                      - ↩ cycle
+                                    - ↩ cycle
                           - "Toy with him first. Make him beg for the mercy of the scalpel." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
                             - WITCH_WEST_PSYCHOLOGICAL_TORMENT
                               - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
@@ -2764,8 +2673,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                           - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                             - WITCH_WEST_END_MELTING [ENDING]
                                           - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                            - WITCH_WEST_MONKEY_SWEEP_B
-                                              - ↩ cycle
+                                            - ↩ cycle
                                       - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                         - WITCH_WEST_ORACLE_3
                                           - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -2803,8 +2711,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                           - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                             - WITCH_WEST_END_SCRAP [ENDING]
                                   - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                      - ↩ cycle
+                                    - ↩ cycle
                               - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
                                 - WITCH_WEST_END_MELTING [ENDING]
                               - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
@@ -2824,8 +2731,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                               - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                 - WITCH_WEST_END_MELTING [ENDING]
                                               - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                - WITCH_WEST_MONKEY_SWEEP_B
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                           - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                             - WITCH_WEST_ORACLE_3
                                               - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -2863,23 +2769,20 @@ Generated: 2026-05-01T21:04:29.436Z
                                               - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                                 - WITCH_WEST_END_SCRAP [ENDING]
                                       - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                        - WITCH_WEST_MONKEY_SWEEP_B
-                                          - ↩ cycle
-                                  - "Signal the Monkeys to begin "The Scrap Reallocation."" → WITCH_WEST_END_SCRAP
+                                        - ↩ cycle
+                                  - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
                                     - WITCH_WEST_END_SCRAP [ENDING]
                           - "The Clerk flags the warrant status — review the audit logs." → WITCH_WEST_BUREAU_LOG_CHECK
                             - WITCH_WEST_BUREAU_LOG_CHECK
-                              - ""It is a Judicial Necessity." (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
+                              - "\"It is a Judicial Necessity.\" (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
                                 - WITCH_WEST_COMMAND_DECK
                                   - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
                                     - WITCH_WEST_MONKEY_MANAGEMENT
-                                      - "Order a "Kinetic Brush-By" (Increase Load)." → WITCH_WEST_COMMAND_DECK
-                                        - WITCH_WEST_COMMAND_DECK
-                                          - ↩ cycle
-                                      - "Order "Silent Hover" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
-                                        - WITCH_WEST_COMMAND_DECK
-                                          - ↩ cycle
-                                      - "Order "Aggressive Shriek" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                      - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                        - ↩ cycle
+                                      - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                        - ↩ cycle
+                                      - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
                                         - WITCH_WEST_ORACLE_ENTRY
                                           - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
                                             - WITCH_WEST_ORACLE_DRAW
@@ -2894,8 +2797,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                     - WITCH_WEST_END_MELTING [ENDING]
                                                   - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                               - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                 - WITCH_WEST_ORACLE_3
                                                   - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -2933,20 +2835,16 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                                     - WITCH_WEST_END_SCRAP [ENDING]
                                           - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                            - WITCH_WEST_MONKEY_SWEEP_B
-                                              - ↩ cycle
+                                            - ↩ cycle
                                   - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
                                     - WITCH_WEST_POPPY_CALIBRATION
                                       - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
-                                        - WITCH_WEST_COMMAND_DECK
-                                          - ↩ cycle
-                                      - "Pulse the Field: Create a "Lullaby Spike"." → WITCH_WEST_COMMAND_DECK
-                                        - WITCH_WEST_COMMAND_DECK
-                                          - ↩ cycle
+                                        - ↩ cycle
+                                      - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                        - ↩ cycle
                                   - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
-                                    - WITCH_WEST_OBSIDIAN_VIEW
-                                      - ↩ cycle
-                                  - "Initialize Ritual: "The Obsidian Matron"." → WITCH_WEST_ORACLE_ENTRY
+                                    - ↩ cycle
+                                  - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
                                     - WITCH_WEST_ORACLE_ENTRY
                                       - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
                                         - WITCH_WEST_ORACLE_DRAW
@@ -2961,8 +2859,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                               - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                 - WITCH_WEST_END_MELTING [ENDING]
                                               - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                - WITCH_WEST_MONKEY_SWEEP_B
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                           - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                             - WITCH_WEST_ORACLE_3
                                               - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -3000,19 +2897,16 @@ Generated: 2026-05-01T21:04:29.436Z
                                               - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                                 - WITCH_WEST_END_SCRAP [ENDING]
                                       - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                        - WITCH_WEST_MONKEY_SWEEP_B
-                                          - ↩ cycle
-                              - ""The target is non-compliant." (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                        - ↩ cycle
+                              - "\"The target is non-compliant.\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
                                 - WITCH_WEST_COMMAND_DECK
                                   - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
                                     - WITCH_WEST_MONKEY_MANAGEMENT
-                                      - "Order a "Kinetic Brush-By" (Increase Load)." → WITCH_WEST_COMMAND_DECK
-                                        - WITCH_WEST_COMMAND_DECK
-                                          - ↩ cycle
-                                      - "Order "Silent Hover" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
-                                        - WITCH_WEST_COMMAND_DECK
-                                          - ↩ cycle
-                                      - "Order "Aggressive Shriek" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                      - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                        - ↩ cycle
+                                      - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                        - ↩ cycle
+                                      - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
                                         - WITCH_WEST_ORACLE_ENTRY
                                           - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
                                             - WITCH_WEST_ORACLE_DRAW
@@ -3027,8 +2921,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                     - WITCH_WEST_END_MELTING [ENDING]
                                                   - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                               - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                 - WITCH_WEST_ORACLE_3
                                                   - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -3066,20 +2959,16 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                                     - WITCH_WEST_END_SCRAP [ENDING]
                                           - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                            - WITCH_WEST_MONKEY_SWEEP_B
-                                              - ↩ cycle
+                                            - ↩ cycle
                                   - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
                                     - WITCH_WEST_POPPY_CALIBRATION
                                       - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
-                                        - WITCH_WEST_COMMAND_DECK
-                                          - ↩ cycle
-                                      - "Pulse the Field: Create a "Lullaby Spike"." → WITCH_WEST_COMMAND_DECK
-                                        - WITCH_WEST_COMMAND_DECK
-                                          - ↩ cycle
+                                        - ↩ cycle
+                                      - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                        - ↩ cycle
                                   - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
-                                    - WITCH_WEST_OBSIDIAN_VIEW
-                                      - ↩ cycle
-                                  - "Initialize Ritual: "The Obsidian Matron"." → WITCH_WEST_ORACLE_ENTRY
+                                    - ↩ cycle
+                                  - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
                                     - WITCH_WEST_ORACLE_ENTRY
                                       - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
                                         - WITCH_WEST_ORACLE_DRAW
@@ -3094,8 +2983,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                               - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                 - WITCH_WEST_END_MELTING [ENDING]
                                               - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                - WITCH_WEST_MONKEY_SWEEP_B
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                           - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                             - WITCH_WEST_ORACLE_3
                                               - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -3133,20 +3021,16 @@ Generated: 2026-05-01T21:04:29.436Z
                                               - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                                 - WITCH_WEST_END_SCRAP [ENDING]
                                       - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                        - WITCH_WEST_MONKEY_SWEEP_B
-                                          - ↩ cycle
+                                        - ↩ cycle
                       - "Send the monkeys to accelerate their arrival." → WITCH_WEST_MONKEY_SWEEP_B
-                        - WITCH_WEST_MONKEY_SWEEP_B
-                          - ↩ cycle
-                  - "ADMINISTRATION: File a "Pre-emptive Deletion" warrant." → WITCH_WEST_BUREAU_FILING
+                        - ↩ cycle
+                  - "ADMINISTRATION: File a \"Pre-emptive Deletion\" warrant." → WITCH_WEST_BUREAU_FILING
                     - WITCH_WEST_BUREAU_FILING
-                      - "Label it "Maintenance Disposal" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
-                        - WITCH_WEST_COMMAND_DECK_V2
-                          - ↩ cycle
-                      - "Label it "Judicial Reclamation" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
-                        - WITCH_WEST_COMMAND_DECK_V2
-                          - ↩ cycle
-                  - "THE FINAL INCISION: Trigger "The Melting Point"." → WITCH_WEST_END_MELTING
+                      - "Label it \"Maintenance Disposal\" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                        - ↩ cycle
+                      - "Label it \"Judicial Reclamation\" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
+                        - ↩ cycle
+                  - "THE FINAL INCISION: Trigger \"The Melting Point\"." → WITCH_WEST_END_MELTING
                     - WITCH_WEST_END_MELTING [ENDING]
               - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
                 - WITCH_WEST_END_MELTING [ENDING]
@@ -3169,8 +3053,7 @@ Generated: 2026-05-01T21:04:29.436Z
                           - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                             - WITCH_WEST_END_MELTING [ENDING]
                           - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                            - WITCH_WEST_MONKEY_SWEEP_B
-                              - ↩ cycle
+                            - ↩ cycle
                       - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                         - WITCH_WEST_ORACLE_3
                           - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -3222,8 +3105,7 @@ Generated: 2026-05-01T21:04:29.436Z
                           - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                             - WITCH_WEST_END_MELTING [ENDING]
                           - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                            - WITCH_WEST_MONKEY_SWEEP_B
-                              - ↩ cycle
+                            - ↩ cycle
                       - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                         - WITCH_WEST_ORACLE_3
                           - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -3275,8 +3157,7 @@ Generated: 2026-05-01T21:04:29.436Z
                           - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                             - WITCH_WEST_END_MELTING [ENDING]
                           - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                            - WITCH_WEST_MONKEY_SWEEP_B
-                              - ↩ cycle
+                            - ↩ cycle
                       - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                         - WITCH_WEST_ORACLE_3
                           - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -3328,8 +3209,7 @@ Generated: 2026-05-01T21:04:29.436Z
                           - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                             - WITCH_WEST_END_MELTING [ENDING]
                           - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                            - WITCH_WEST_MONKEY_SWEEP_B
-                              - ↩ cycle
+                            - ↩ cycle
                       - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                         - WITCH_WEST_ORACLE_3
                           - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -3383,8 +3263,7 @@ Generated: 2026-05-01T21:04:29.436Z
                           - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                             - WITCH_WEST_END_MELTING [ENDING]
                           - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                            - WITCH_WEST_MONKEY_SWEEP_B
-                              - ↩ cycle
+                            - ↩ cycle
                       - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                         - WITCH_WEST_ORACLE_3
                           - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -3422,8 +3301,7 @@ Generated: 2026-05-01T21:04:29.436Z
                           - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                             - WITCH_WEST_END_SCRAP [ENDING]
                   - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                    - WITCH_WEST_MONKEY_SWEEP_B
-                      - ↩ cycle
+                    - ↩ cycle
               - "The Clerk signals a compliance concern — attend to the warning." → WITCH_WEST_CLERK_INTERLUDE
                 - WITCH_WEST_CLERK_INTERLUDE
                   - "Force the verdict now — Summon the Obsidian Matron." → WITCH_WEST_ORACLE_ENTRY
@@ -3441,8 +3319,7 @@ Generated: 2026-05-01T21:04:29.436Z
                               - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                 - WITCH_WEST_END_MELTING [ENDING]
                               - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                - WITCH_WEST_MONKEY_SWEEP_B
-                                  - ↩ cycle
+                                - ↩ cycle
                           - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                             - WITCH_WEST_ORACLE_3
                               - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -3480,8 +3357,7 @@ Generated: 2026-05-01T21:04:29.436Z
                               - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                 - WITCH_WEST_END_SCRAP [ENDING]
                       - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                        - WITCH_WEST_MONKEY_SWEEP_B
-                          - ↩ cycle
+                        - ↩ cycle
                   - "Ignore the Clerk. Proceed with psychological pressure." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
                     - WITCH_WEST_PSYCHOLOGICAL_TORMENT
                       - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
@@ -3499,8 +3375,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                   - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                     - WITCH_WEST_END_MELTING [ENDING]
                                   - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                      - ↩ cycle
+                                    - ↩ cycle
                               - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                 - WITCH_WEST_ORACLE_3
                                   - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -3538,8 +3413,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                   - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                     - WITCH_WEST_END_SCRAP [ENDING]
                           - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                            - WITCH_WEST_MONKEY_SWEEP_B
-                              - ↩ cycle
+                            - ↩ cycle
                       - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
                         - WITCH_WEST_END_MELTING [ENDING]
                       - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
@@ -3559,8 +3433,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                       - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                         - WITCH_WEST_END_MELTING [ENDING]
                                       - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                        - WITCH_WEST_MONKEY_SWEEP_B
-                                          - ↩ cycle
+                                        - ↩ cycle
                                   - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                     - WITCH_WEST_ORACLE_3
                                       - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -3598,9 +3471,8 @@ Generated: 2026-05-01T21:04:29.436Z
                                       - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                         - WITCH_WEST_END_SCRAP [ENDING]
                               - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                - WITCH_WEST_MONKEY_SWEEP_B
-                                  - ↩ cycle
-                          - "Signal the Monkeys to begin "The Scrap Reallocation."" → WITCH_WEST_END_SCRAP
+                                - ↩ cycle
+                          - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
                             - WITCH_WEST_END_SCRAP [ENDING]
               - "Walk the perimeter — let the Winkie chant stabilize the ritual chamber." → WITCH_WEST_WINKIE_CORRIDOR
                 - WITCH_WEST_WINKIE_CORRIDOR
@@ -3617,21 +3489,40 @@ Generated: 2026-05-01T21:04:29.436Z
                           - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
                             - WITCH_WEST_SCRAPE_MANE
                               - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
-                                - WITCH_WEST_LION_AUDIT_HUB
-                                  - ↩ cycle
-                              - "Braid the hairs into a "Fear-Whip"." → WITCH_WEST_LION_AUDIT_HUB
-                                - WITCH_WEST_LION_AUDIT_HUB
-                                  - ↩ cycle
+                                - ↩ cycle
+                              - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                - ↩ cycle
                           - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
                             - WITCH_WEST_LION_AUDIT_HUB
-                              - ↩ cycle
+                              - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                - WITCH_WEST_SCRAPE_MANE
+                                  - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                              - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                - ↩ cycle
+                              - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                - ↩ cycle
+                              - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                - ↩ cycle
                           - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
                             - WITCH_WEST_LION_AUDIT_HUB
-                              - ↩ cycle
+                              - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                - WITCH_WEST_SCRAPE_MANE
+                                  - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                              - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                - ↩ cycle
+                              - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                - ↩ cycle
+                              - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                - ↩ cycle
                           - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
-                            - WITCH_WEST_COMMAND_DECK_V2
-                              - ↩ cycle
-                      - "SURVEILLANCE: Deploy "Eye-on-a-String" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
+                            - ↩ cycle
+                      - "SURVEILLANCE: Deploy \"Eye-on-a-String\" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
                         - WITCH_WEST_OBSIDIAN_VIEW
                           - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
                             - WITCH_WEST_ORACLE_ENTRY
@@ -3648,8 +3539,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                       - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                         - WITCH_WEST_END_MELTING [ENDING]
                                       - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                        - WITCH_WEST_MONKEY_SWEEP_B
-                                          - ↩ cycle
+                                        - ↩ cycle
                                   - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                     - WITCH_WEST_ORACLE_3
                                       - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -3687,35 +3577,28 @@ Generated: 2026-05-01T21:04:29.436Z
                                       - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                         - WITCH_WEST_END_SCRAP [ENDING]
                               - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                - WITCH_WEST_MONKEY_SWEEP_B
-                                  - ↩ cycle
+                                - ↩ cycle
                           - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
-                            - WITCH_WEST_FIELD_CONFRONTATION
-                              - ↩ cycle
+                            - ↩ cycle
                           - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
                             - WITCH_WEST_SIGNAL_BLEED
                               - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
-                                - WITCH_WEST_COMMAND_DECK_V2
-                                  - ↩ cycle
+                                - ↩ cycle
                               - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
                                 - WITCH_WEST_END_MELTING [ENDING]
                       - "PHARMACOLOGY: Refine the Poppy Resin in the crucible." → WITCH_WEST_POPPY_BUFFER
                         - WITCH_WEST_POPPY_BUFFER
                           - "Wait for them at the tower gate. Receive them at full compliance." → WITCH_WEST_FIELD_CONFRONTATION
-                            - WITCH_WEST_FIELD_CONFRONTATION
-                              - ↩ cycle
+                            - ↩ cycle
                           - "Send the monkeys to accelerate their arrival." → WITCH_WEST_MONKEY_SWEEP_B
-                            - WITCH_WEST_MONKEY_SWEEP_B
-                              - ↩ cycle
-                      - "ADMINISTRATION: File a "Pre-emptive Deletion" warrant." → WITCH_WEST_BUREAU_FILING
+                            - ↩ cycle
+                      - "ADMINISTRATION: File a \"Pre-emptive Deletion\" warrant." → WITCH_WEST_BUREAU_FILING
                         - WITCH_WEST_BUREAU_FILING
-                          - "Label it "Maintenance Disposal" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
-                            - WITCH_WEST_COMMAND_DECK_V2
-                              - ↩ cycle
-                          - "Label it "Judicial Reclamation" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
-                            - WITCH_WEST_COMMAND_DECK_V2
-                              - ↩ cycle
-                      - "THE FINAL INCISION: Trigger "The Melting Point"." → WITCH_WEST_END_MELTING
+                          - "Label it \"Maintenance Disposal\" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                            - ↩ cycle
+                          - "Label it \"Judicial Reclamation\" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
+                            - ↩ cycle
+                      - "THE FINAL INCISION: Trigger \"The Melting Point\"." → WITCH_WEST_END_MELTING
                         - WITCH_WEST_END_MELTING [ENDING]
           - "Toy with him first. Make him beg for the mercy of the scalpel." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
             - WITCH_WEST_PSYCHOLOGICAL_TORMENT
@@ -3734,8 +3617,7 @@ Generated: 2026-05-01T21:04:29.436Z
                           - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                             - WITCH_WEST_END_MELTING [ENDING]
                           - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                            - WITCH_WEST_MONKEY_SWEEP_B
-                              - ↩ cycle
+                            - ↩ cycle
                       - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                         - WITCH_WEST_ORACLE_3
                           - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -3773,8 +3655,7 @@ Generated: 2026-05-01T21:04:29.436Z
                           - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                             - WITCH_WEST_END_SCRAP [ENDING]
                   - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                    - WITCH_WEST_MONKEY_SWEEP_B
-                      - ↩ cycle
+                    - ↩ cycle
               - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
                 - WITCH_WEST_END_MELTING [ENDING]
               - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
@@ -3794,8 +3675,7 @@ Generated: 2026-05-01T21:04:29.436Z
                               - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                 - WITCH_WEST_END_MELTING [ENDING]
                               - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                - WITCH_WEST_MONKEY_SWEEP_B
-                                  - ↩ cycle
+                                - ↩ cycle
                           - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                             - WITCH_WEST_ORACLE_3
                               - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -3833,23 +3713,20 @@ Generated: 2026-05-01T21:04:29.436Z
                               - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                 - WITCH_WEST_END_SCRAP [ENDING]
                       - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                        - WITCH_WEST_MONKEY_SWEEP_B
-                          - ↩ cycle
-                  - "Signal the Monkeys to begin "The Scrap Reallocation."" → WITCH_WEST_END_SCRAP
+                        - ↩ cycle
+                  - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
                     - WITCH_WEST_END_SCRAP [ENDING]
           - "The Clerk flags the warrant status — review the audit logs." → WITCH_WEST_BUREAU_LOG_CHECK
             - WITCH_WEST_BUREAU_LOG_CHECK
-              - ""It is a Judicial Necessity." (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
+              - "\"It is a Judicial Necessity.\" (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
                 - WITCH_WEST_COMMAND_DECK
                   - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
                     - WITCH_WEST_MONKEY_MANAGEMENT
-                      - "Order a "Kinetic Brush-By" (Increase Load)." → WITCH_WEST_COMMAND_DECK
-                        - WITCH_WEST_COMMAND_DECK
-                          - ↩ cycle
-                      - "Order "Silent Hover" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
-                        - WITCH_WEST_COMMAND_DECK
-                          - ↩ cycle
-                      - "Order "Aggressive Shriek" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                      - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                        - ↩ cycle
+                      - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                        - ↩ cycle
+                      - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
                         - WITCH_WEST_ORACLE_ENTRY
                           - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
                             - WITCH_WEST_ORACLE_DRAW
@@ -3864,8 +3741,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                   - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                     - WITCH_WEST_END_MELTING [ENDING]
                                   - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                      - ↩ cycle
+                                    - ↩ cycle
                               - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                 - WITCH_WEST_ORACLE_3
                                   - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -3903,16 +3779,13 @@ Generated: 2026-05-01T21:04:29.436Z
                                   - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                     - WITCH_WEST_END_SCRAP [ENDING]
                           - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                            - WITCH_WEST_MONKEY_SWEEP_B
-                              - ↩ cycle
+                            - ↩ cycle
                   - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
                     - WITCH_WEST_POPPY_CALIBRATION
                       - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
-                        - WITCH_WEST_COMMAND_DECK
-                          - ↩ cycle
-                      - "Pulse the Field: Create a "Lullaby Spike"." → WITCH_WEST_COMMAND_DECK
-                        - WITCH_WEST_COMMAND_DECK
-                          - ↩ cycle
+                        - ↩ cycle
+                      - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                        - ↩ cycle
                   - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
                     - WITCH_WEST_OBSIDIAN_VIEW
                       - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
@@ -3930,8 +3803,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                   - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                     - WITCH_WEST_END_MELTING [ENDING]
                                   - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                      - ↩ cycle
+                                    - ↩ cycle
                               - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                 - WITCH_WEST_ORACLE_3
                                   - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -3969,11 +3841,9 @@ Generated: 2026-05-01T21:04:29.436Z
                                   - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                     - WITCH_WEST_END_SCRAP [ENDING]
                           - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                            - WITCH_WEST_MONKEY_SWEEP_B
-                              - ↩ cycle
+                            - ↩ cycle
                       - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
-                        - WITCH_WEST_FIELD_CONFRONTATION
-                          - ↩ cycle
+                        - ↩ cycle
                       - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
                         - WITCH_WEST_SIGNAL_BLEED
                           - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
@@ -3983,44 +3853,58 @@ Generated: 2026-05-01T21:04:29.436Z
                                   - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
                                     - WITCH_WEST_SCRAPE_MANE
                                       - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
-                                        - WITCH_WEST_LION_AUDIT_HUB
-                                          - ↩ cycle
-                                      - "Braid the hairs into a "Fear-Whip"." → WITCH_WEST_LION_AUDIT_HUB
-                                        - WITCH_WEST_LION_AUDIT_HUB
-                                          - ↩ cycle
+                                        - ↩ cycle
+                                      - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
                                   - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
                                     - WITCH_WEST_LION_AUDIT_HUB
-                                      - ↩ cycle
+                                      - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                        - WITCH_WEST_SCRAPE_MANE
+                                          - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                      - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                        - ↩ cycle
                                   - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
                                     - WITCH_WEST_LION_AUDIT_HUB
-                                      - ↩ cycle
+                                      - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                        - WITCH_WEST_SCRAPE_MANE
+                                          - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                      - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                        - ↩ cycle
                                   - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
-                                    - WITCH_WEST_COMMAND_DECK_V2
-                                      - ↩ cycle
-                              - "SURVEILLANCE: Deploy "Eye-on-a-String" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
-                                - WITCH_WEST_OBSIDIAN_VIEW
-                                  - ↩ cycle
+                                    - ↩ cycle
+                              - "SURVEILLANCE: Deploy \"Eye-on-a-String\" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
+                                - ↩ cycle
                               - "PHARMACOLOGY: Refine the Poppy Resin in the crucible." → WITCH_WEST_POPPY_BUFFER
                                 - WITCH_WEST_POPPY_BUFFER
                                   - "Wait for them at the tower gate. Receive them at full compliance." → WITCH_WEST_FIELD_CONFRONTATION
-                                    - WITCH_WEST_FIELD_CONFRONTATION
-                                      - ↩ cycle
+                                    - ↩ cycle
                                   - "Send the monkeys to accelerate their arrival." → WITCH_WEST_MONKEY_SWEEP_B
-                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                      - ↩ cycle
-                              - "ADMINISTRATION: File a "Pre-emptive Deletion" warrant." → WITCH_WEST_BUREAU_FILING
+                                    - ↩ cycle
+                              - "ADMINISTRATION: File a \"Pre-emptive Deletion\" warrant." → WITCH_WEST_BUREAU_FILING
                                 - WITCH_WEST_BUREAU_FILING
-                                  - "Label it "Maintenance Disposal" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
-                                    - WITCH_WEST_COMMAND_DECK_V2
-                                      - ↩ cycle
-                                  - "Label it "Judicial Reclamation" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
-                                    - WITCH_WEST_COMMAND_DECK_V2
-                                      - ↩ cycle
-                              - "THE FINAL INCISION: Trigger "The Melting Point"." → WITCH_WEST_END_MELTING
+                                  - "Label it \"Maintenance Disposal\" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
+                                  - "Label it \"Judicial Reclamation\" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
+                              - "THE FINAL INCISION: Trigger \"The Melting Point\"." → WITCH_WEST_END_MELTING
                                 - WITCH_WEST_END_MELTING [ENDING]
                           - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
                             - WITCH_WEST_END_MELTING [ENDING]
-                  - "Initialize Ritual: "The Obsidian Matron"." → WITCH_WEST_ORACLE_ENTRY
+                  - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
                     - WITCH_WEST_ORACLE_ENTRY
                       - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
                         - WITCH_WEST_ORACLE_DRAW
@@ -4035,8 +3919,7 @@ Generated: 2026-05-01T21:04:29.436Z
                               - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                 - WITCH_WEST_END_MELTING [ENDING]
                               - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                - WITCH_WEST_MONKEY_SWEEP_B
-                                  - ↩ cycle
+                                - ↩ cycle
                           - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                             - WITCH_WEST_ORACLE_3
                               - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -4074,19 +3957,16 @@ Generated: 2026-05-01T21:04:29.436Z
                               - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                 - WITCH_WEST_END_SCRAP [ENDING]
                       - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                        - WITCH_WEST_MONKEY_SWEEP_B
-                          - ↩ cycle
-              - ""The target is non-compliant." (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                        - ↩ cycle
+              - "\"The target is non-compliant.\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
                 - WITCH_WEST_COMMAND_DECK
                   - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
                     - WITCH_WEST_MONKEY_MANAGEMENT
-                      - "Order a "Kinetic Brush-By" (Increase Load)." → WITCH_WEST_COMMAND_DECK
-                        - WITCH_WEST_COMMAND_DECK
-                          - ↩ cycle
-                      - "Order "Silent Hover" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
-                        - WITCH_WEST_COMMAND_DECK
-                          - ↩ cycle
-                      - "Order "Aggressive Shriek" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                      - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                        - ↩ cycle
+                      - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                        - ↩ cycle
+                      - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
                         - WITCH_WEST_ORACLE_ENTRY
                           - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
                             - WITCH_WEST_ORACLE_DRAW
@@ -4101,8 +3981,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                   - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                     - WITCH_WEST_END_MELTING [ENDING]
                                   - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                      - ↩ cycle
+                                    - ↩ cycle
                               - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                 - WITCH_WEST_ORACLE_3
                                   - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -4140,16 +4019,13 @@ Generated: 2026-05-01T21:04:29.436Z
                                   - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                     - WITCH_WEST_END_SCRAP [ENDING]
                           - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                            - WITCH_WEST_MONKEY_SWEEP_B
-                              - ↩ cycle
+                            - ↩ cycle
                   - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
                     - WITCH_WEST_POPPY_CALIBRATION
                       - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
-                        - WITCH_WEST_COMMAND_DECK
-                          - ↩ cycle
-                      - "Pulse the Field: Create a "Lullaby Spike"." → WITCH_WEST_COMMAND_DECK
-                        - WITCH_WEST_COMMAND_DECK
-                          - ↩ cycle
+                        - ↩ cycle
+                      - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                        - ↩ cycle
                   - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
                     - WITCH_WEST_OBSIDIAN_VIEW
                       - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
@@ -4167,8 +4043,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                   - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                     - WITCH_WEST_END_MELTING [ENDING]
                                   - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                      - ↩ cycle
+                                    - ↩ cycle
                               - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                 - WITCH_WEST_ORACLE_3
                                   - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -4206,11 +4081,9 @@ Generated: 2026-05-01T21:04:29.436Z
                                   - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                     - WITCH_WEST_END_SCRAP [ENDING]
                           - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                            - WITCH_WEST_MONKEY_SWEEP_B
-                              - ↩ cycle
+                            - ↩ cycle
                       - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
-                        - WITCH_WEST_FIELD_CONFRONTATION
-                          - ↩ cycle
+                        - ↩ cycle
                       - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
                         - WITCH_WEST_SIGNAL_BLEED
                           - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
@@ -4220,44 +4093,58 @@ Generated: 2026-05-01T21:04:29.436Z
                                   - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
                                     - WITCH_WEST_SCRAPE_MANE
                                       - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
-                                        - WITCH_WEST_LION_AUDIT_HUB
-                                          - ↩ cycle
-                                      - "Braid the hairs into a "Fear-Whip"." → WITCH_WEST_LION_AUDIT_HUB
-                                        - WITCH_WEST_LION_AUDIT_HUB
-                                          - ↩ cycle
+                                        - ↩ cycle
+                                      - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
                                   - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
                                     - WITCH_WEST_LION_AUDIT_HUB
-                                      - ↩ cycle
+                                      - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                        - WITCH_WEST_SCRAPE_MANE
+                                          - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                      - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                        - ↩ cycle
                                   - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
                                     - WITCH_WEST_LION_AUDIT_HUB
-                                      - ↩ cycle
+                                      - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                        - WITCH_WEST_SCRAPE_MANE
+                                          - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                      - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                        - ↩ cycle
                                   - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
-                                    - WITCH_WEST_COMMAND_DECK_V2
-                                      - ↩ cycle
-                              - "SURVEILLANCE: Deploy "Eye-on-a-String" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
-                                - WITCH_WEST_OBSIDIAN_VIEW
-                                  - ↩ cycle
+                                    - ↩ cycle
+                              - "SURVEILLANCE: Deploy \"Eye-on-a-String\" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
+                                - ↩ cycle
                               - "PHARMACOLOGY: Refine the Poppy Resin in the crucible." → WITCH_WEST_POPPY_BUFFER
                                 - WITCH_WEST_POPPY_BUFFER
                                   - "Wait for them at the tower gate. Receive them at full compliance." → WITCH_WEST_FIELD_CONFRONTATION
-                                    - WITCH_WEST_FIELD_CONFRONTATION
-                                      - ↩ cycle
+                                    - ↩ cycle
                                   - "Send the monkeys to accelerate their arrival." → WITCH_WEST_MONKEY_SWEEP_B
-                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                      - ↩ cycle
-                              - "ADMINISTRATION: File a "Pre-emptive Deletion" warrant." → WITCH_WEST_BUREAU_FILING
+                                    - ↩ cycle
+                              - "ADMINISTRATION: File a \"Pre-emptive Deletion\" warrant." → WITCH_WEST_BUREAU_FILING
                                 - WITCH_WEST_BUREAU_FILING
-                                  - "Label it "Maintenance Disposal" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
-                                    - WITCH_WEST_COMMAND_DECK_V2
-                                      - ↩ cycle
-                                  - "Label it "Judicial Reclamation" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
-                                    - WITCH_WEST_COMMAND_DECK_V2
-                                      - ↩ cycle
-                              - "THE FINAL INCISION: Trigger "The Melting Point"." → WITCH_WEST_END_MELTING
+                                  - "Label it \"Maintenance Disposal\" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
+                                  - "Label it \"Judicial Reclamation\" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
+                              - "THE FINAL INCISION: Trigger \"The Melting Point\"." → WITCH_WEST_END_MELTING
                                 - WITCH_WEST_END_MELTING [ENDING]
                           - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
                             - WITCH_WEST_END_MELTING [ENDING]
-                  - "Initialize Ritual: "The Obsidian Matron"." → WITCH_WEST_ORACLE_ENTRY
+                  - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
                     - WITCH_WEST_ORACLE_ENTRY
                       - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
                         - WITCH_WEST_ORACLE_DRAW
@@ -4272,8 +4159,7 @@ Generated: 2026-05-01T21:04:29.436Z
                               - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                 - WITCH_WEST_END_MELTING [ENDING]
                               - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                - WITCH_WEST_MONKEY_SWEEP_B
-                                  - ↩ cycle
+                                - ↩ cycle
                           - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                             - WITCH_WEST_ORACLE_3
                               - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -4311,8 +4197,7 @@ Generated: 2026-05-01T21:04:29.436Z
                               - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                 - WITCH_WEST_END_SCRAP [ENDING]
                       - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                        - WITCH_WEST_MONKEY_SWEEP_B
-                          - ↩ cycle
+                        - ↩ cycle
       - "Order the monkeys to begin preliminary harvesting en route." → WITCH_WEST_MID_AIR_HARVEST
         - WITCH_WEST_MID_AIR_HARVEST
           - "Complete the harvest — proceed to the full Obsidian Eye ritual." → WITCH_WEST_ORACLE_ENTRY
@@ -4330,8 +4215,7 @@ Generated: 2026-05-01T21:04:29.436Z
                       - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                         - WITCH_WEST_END_MELTING [ENDING]
                       - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                        - WITCH_WEST_MONKEY_SWEEP_B
-                          - ↩ cycle
+                        - ↩ cycle
                   - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                     - WITCH_WEST_ORACLE_3
                       - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -4369,8 +4253,7 @@ Generated: 2026-05-01T21:04:29.436Z
                       - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                         - WITCH_WEST_END_SCRAP [ENDING]
               - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                - WITCH_WEST_MONKEY_SWEEP_B
-                  - ↩ cycle
+                - ↩ cycle
           - "Carry what remains to the tower for proper documentation." → WITCH_WEST_TOWER_PREP
             - WITCH_WEST_TOWER_PREP
               - "The chamber is prepared. Begin the Obsidian Eye procedure." → WITCH_WEST_ORACLE_ENTRY
@@ -4388,8 +4271,7 @@ Generated: 2026-05-01T21:04:29.436Z
                           - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                             - WITCH_WEST_END_MELTING [ENDING]
                           - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                            - WITCH_WEST_MONKEY_SWEEP_B
-                              - ↩ cycle
+                            - ↩ cycle
                       - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                         - WITCH_WEST_ORACLE_3
                           - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -4427,8 +4309,7 @@ Generated: 2026-05-01T21:04:29.436Z
                           - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                             - WITCH_WEST_END_SCRAP [ENDING]
                   - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                    - WITCH_WEST_MONKEY_SWEEP_B
-                      - ↩ cycle
+                    - ↩ cycle
               - "The Clerk signals a compliance concern — attend to the warning." → WITCH_WEST_CLERK_INTERLUDE
                 - WITCH_WEST_CLERK_INTERLUDE
                   - "Force the verdict now — Summon the Obsidian Matron." → WITCH_WEST_ORACLE_ENTRY
@@ -4446,8 +4327,7 @@ Generated: 2026-05-01T21:04:29.436Z
                               - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                 - WITCH_WEST_END_MELTING [ENDING]
                               - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                - WITCH_WEST_MONKEY_SWEEP_B
-                                  - ↩ cycle
+                                - ↩ cycle
                           - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                             - WITCH_WEST_ORACLE_3
                               - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -4485,8 +4365,7 @@ Generated: 2026-05-01T21:04:29.436Z
                               - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                 - WITCH_WEST_END_SCRAP [ENDING]
                       - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                        - WITCH_WEST_MONKEY_SWEEP_B
-                          - ↩ cycle
+                        - ↩ cycle
                   - "Ignore the Clerk. Proceed with psychological pressure." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
                     - WITCH_WEST_PSYCHOLOGICAL_TORMENT
                       - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
@@ -4504,8 +4383,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                   - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                     - WITCH_WEST_END_MELTING [ENDING]
                                   - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                      - ↩ cycle
+                                    - ↩ cycle
                               - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                 - WITCH_WEST_ORACLE_3
                                   - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -4543,8 +4421,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                   - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                     - WITCH_WEST_END_SCRAP [ENDING]
                           - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                            - WITCH_WEST_MONKEY_SWEEP_B
-                              - ↩ cycle
+                            - ↩ cycle
                       - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
                         - WITCH_WEST_END_MELTING [ENDING]
                       - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
@@ -4564,8 +4441,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                       - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                         - WITCH_WEST_END_MELTING [ENDING]
                                       - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                        - WITCH_WEST_MONKEY_SWEEP_B
-                                          - ↩ cycle
+                                        - ↩ cycle
                                   - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                     - WITCH_WEST_ORACLE_3
                                       - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -4603,9 +4479,8 @@ Generated: 2026-05-01T21:04:29.436Z
                                       - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                         - WITCH_WEST_END_SCRAP [ENDING]
                               - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                - WITCH_WEST_MONKEY_SWEEP_B
-                                  - ↩ cycle
-                          - "Signal the Monkeys to begin "The Scrap Reallocation."" → WITCH_WEST_END_SCRAP
+                                - ↩ cycle
+                          - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
                             - WITCH_WEST_END_SCRAP [ENDING]
               - "Walk the perimeter — let the Winkie chant stabilize the ritual chamber." → WITCH_WEST_WINKIE_CORRIDOR
                 - WITCH_WEST_WINKIE_CORRIDOR
@@ -4622,21 +4497,40 @@ Generated: 2026-05-01T21:04:29.436Z
                           - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
                             - WITCH_WEST_SCRAPE_MANE
                               - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
-                                - WITCH_WEST_LION_AUDIT_HUB
-                                  - ↩ cycle
-                              - "Braid the hairs into a "Fear-Whip"." → WITCH_WEST_LION_AUDIT_HUB
-                                - WITCH_WEST_LION_AUDIT_HUB
-                                  - ↩ cycle
+                                - ↩ cycle
+                              - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                - ↩ cycle
                           - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
                             - WITCH_WEST_LION_AUDIT_HUB
-                              - ↩ cycle
+                              - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                - WITCH_WEST_SCRAPE_MANE
+                                  - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                              - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                - ↩ cycle
+                              - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                - ↩ cycle
+                              - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                - ↩ cycle
                           - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
                             - WITCH_WEST_LION_AUDIT_HUB
-                              - ↩ cycle
+                              - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                - WITCH_WEST_SCRAPE_MANE
+                                  - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                              - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                - ↩ cycle
+                              - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                - ↩ cycle
+                              - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                - ↩ cycle
                           - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
-                            - WITCH_WEST_COMMAND_DECK_V2
-                              - ↩ cycle
-                      - "SURVEILLANCE: Deploy "Eye-on-a-String" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
+                            - ↩ cycle
+                      - "SURVEILLANCE: Deploy \"Eye-on-a-String\" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
                         - WITCH_WEST_OBSIDIAN_VIEW
                           - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
                             - WITCH_WEST_ORACLE_ENTRY
@@ -4653,8 +4547,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                       - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                         - WITCH_WEST_END_MELTING [ENDING]
                                       - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                        - WITCH_WEST_MONKEY_SWEEP_B
-                                          - ↩ cycle
+                                        - ↩ cycle
                                   - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                     - WITCH_WEST_ORACLE_3
                                       - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -4692,8 +4585,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                       - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                         - WITCH_WEST_END_SCRAP [ENDING]
                               - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                - WITCH_WEST_MONKEY_SWEEP_B
-                                  - ↩ cycle
+                                - ↩ cycle
                           - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
                             - WITCH_WEST_FIELD_CONFRONTATION
                               - "Pick who gets the first incision, then begin the Obsidian Eye ritual." → WITCH_WEST_SELECT_TARGET
@@ -4713,8 +4605,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                               - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                 - WITCH_WEST_END_MELTING [ENDING]
                                               - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                - WITCH_WEST_MONKEY_SWEEP_B
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                           - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                             - WITCH_WEST_ORACLE_3
                                               - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -4766,8 +4657,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                               - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                 - WITCH_WEST_END_MELTING [ENDING]
                                               - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                - WITCH_WEST_MONKEY_SWEEP_B
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                           - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                             - WITCH_WEST_ORACLE_3
                                               - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -4819,8 +4709,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                               - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                 - WITCH_WEST_END_MELTING [ENDING]
                                               - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                - WITCH_WEST_MONKEY_SWEEP_B
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                           - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                             - WITCH_WEST_ORACLE_3
                                               - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -4872,8 +4761,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                               - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                 - WITCH_WEST_END_MELTING [ENDING]
                                               - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                - WITCH_WEST_MONKEY_SWEEP_B
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                           - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                             - WITCH_WEST_ORACLE_3
                                               - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -4911,8 +4799,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                               - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                                 - WITCH_WEST_END_SCRAP [ENDING]
                               - "Have the monkeys carry him back to the tower for a proper procedure." → WITCH_WEST_TOWER_PREP
-                                - WITCH_WEST_TOWER_PREP
-                                  - ↩ cycle
+                                - ↩ cycle
                               - "Toy with him first. Make him beg for the mercy of the scalpel." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
                                 - WITCH_WEST_PSYCHOLOGICAL_TORMENT
                                   - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
@@ -4930,8 +4817,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                               - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                 - WITCH_WEST_END_MELTING [ENDING]
                                               - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                - WITCH_WEST_MONKEY_SWEEP_B
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                           - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                             - WITCH_WEST_ORACLE_3
                                               - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -4969,8 +4855,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                               - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                                 - WITCH_WEST_END_SCRAP [ENDING]
                                       - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                        - WITCH_WEST_MONKEY_SWEEP_B
-                                          - ↩ cycle
+                                        - ↩ cycle
                                   - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
                                     - WITCH_WEST_END_MELTING [ENDING]
                                   - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
@@ -4990,8 +4875,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                     - WITCH_WEST_END_MELTING [ENDING]
                                                   - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                               - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                 - WITCH_WEST_ORACLE_3
                                                   - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -5029,23 +4913,20 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                                     - WITCH_WEST_END_SCRAP [ENDING]
                                           - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                            - WITCH_WEST_MONKEY_SWEEP_B
-                                              - ↩ cycle
-                                      - "Signal the Monkeys to begin "The Scrap Reallocation."" → WITCH_WEST_END_SCRAP
+                                            - ↩ cycle
+                                      - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
                                         - WITCH_WEST_END_SCRAP [ENDING]
                               - "The Clerk flags the warrant status — review the audit logs." → WITCH_WEST_BUREAU_LOG_CHECK
                                 - WITCH_WEST_BUREAU_LOG_CHECK
-                                  - ""It is a Judicial Necessity." (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
+                                  - "\"It is a Judicial Necessity.\" (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
                                     - WITCH_WEST_COMMAND_DECK
                                       - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
                                         - WITCH_WEST_MONKEY_MANAGEMENT
-                                          - "Order a "Kinetic Brush-By" (Increase Load)." → WITCH_WEST_COMMAND_DECK
-                                            - WITCH_WEST_COMMAND_DECK
-                                              - ↩ cycle
-                                          - "Order "Silent Hover" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
-                                            - WITCH_WEST_COMMAND_DECK
-                                              - ↩ cycle
-                                          - "Order "Aggressive Shriek" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                          - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
+                                          - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
+                                          - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
                                             - WITCH_WEST_ORACLE_ENTRY
                                               - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
                                                 - WITCH_WEST_ORACLE_DRAW
@@ -5060,8 +4941,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                       - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                         - WITCH_WEST_END_MELTING [ENDING]
                                                       - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                        - WITCH_WEST_MONKEY_SWEEP_B
-                                                          - ↩ cycle
+                                                        - ↩ cycle
                                                   - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                     - WITCH_WEST_ORACLE_3
                                                       - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -5099,20 +4979,16 @@ Generated: 2026-05-01T21:04:29.436Z
                                                       - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                                         - WITCH_WEST_END_SCRAP [ENDING]
                                               - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                                - WITCH_WEST_MONKEY_SWEEP_B
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                       - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
                                         - WITCH_WEST_POPPY_CALIBRATION
                                           - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
-                                            - WITCH_WEST_COMMAND_DECK
-                                              - ↩ cycle
-                                          - "Pulse the Field: Create a "Lullaby Spike"." → WITCH_WEST_COMMAND_DECK
-                                            - WITCH_WEST_COMMAND_DECK
-                                              - ↩ cycle
+                                            - ↩ cycle
+                                          - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
                                       - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
-                                        - WITCH_WEST_OBSIDIAN_VIEW
-                                          - ↩ cycle
-                                      - "Initialize Ritual: "The Obsidian Matron"." → WITCH_WEST_ORACLE_ENTRY
+                                        - ↩ cycle
+                                      - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
                                         - WITCH_WEST_ORACLE_ENTRY
                                           - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
                                             - WITCH_WEST_ORACLE_DRAW
@@ -5127,8 +5003,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                     - WITCH_WEST_END_MELTING [ENDING]
                                                   - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                               - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                 - WITCH_WEST_ORACLE_3
                                                   - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -5166,19 +5041,16 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                                     - WITCH_WEST_END_SCRAP [ENDING]
                                           - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                            - WITCH_WEST_MONKEY_SWEEP_B
-                                              - ↩ cycle
-                                  - ""The target is non-compliant." (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
+                                  - "\"The target is non-compliant.\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
                                     - WITCH_WEST_COMMAND_DECK
                                       - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
                                         - WITCH_WEST_MONKEY_MANAGEMENT
-                                          - "Order a "Kinetic Brush-By" (Increase Load)." → WITCH_WEST_COMMAND_DECK
-                                            - WITCH_WEST_COMMAND_DECK
-                                              - ↩ cycle
-                                          - "Order "Silent Hover" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
-                                            - WITCH_WEST_COMMAND_DECK
-                                              - ↩ cycle
-                                          - "Order "Aggressive Shriek" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                          - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
+                                          - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
+                                          - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
                                             - WITCH_WEST_ORACLE_ENTRY
                                               - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
                                                 - WITCH_WEST_ORACLE_DRAW
@@ -5193,8 +5065,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                       - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                         - WITCH_WEST_END_MELTING [ENDING]
                                                       - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                        - WITCH_WEST_MONKEY_SWEEP_B
-                                                          - ↩ cycle
+                                                        - ↩ cycle
                                                   - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                     - WITCH_WEST_ORACLE_3
                                                       - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -5232,20 +5103,16 @@ Generated: 2026-05-01T21:04:29.436Z
                                                       - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                                         - WITCH_WEST_END_SCRAP [ENDING]
                                               - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                                - WITCH_WEST_MONKEY_SWEEP_B
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                       - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
                                         - WITCH_WEST_POPPY_CALIBRATION
                                           - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
-                                            - WITCH_WEST_COMMAND_DECK
-                                              - ↩ cycle
-                                          - "Pulse the Field: Create a "Lullaby Spike"." → WITCH_WEST_COMMAND_DECK
-                                            - WITCH_WEST_COMMAND_DECK
-                                              - ↩ cycle
+                                            - ↩ cycle
+                                          - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
                                       - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
-                                        - WITCH_WEST_OBSIDIAN_VIEW
-                                          - ↩ cycle
-                                      - "Initialize Ritual: "The Obsidian Matron"." → WITCH_WEST_ORACLE_ENTRY
+                                        - ↩ cycle
+                                      - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
                                         - WITCH_WEST_ORACLE_ENTRY
                                           - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
                                             - WITCH_WEST_ORACLE_DRAW
@@ -5260,8 +5127,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                     - WITCH_WEST_END_MELTING [ENDING]
                                                   - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                               - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                 - WITCH_WEST_ORACLE_3
                                                   - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -5299,13 +5165,11 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                                     - WITCH_WEST_END_SCRAP [ENDING]
                                           - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                            - WITCH_WEST_MONKEY_SWEEP_B
-                                              - ↩ cycle
+                                            - ↩ cycle
                           - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
                             - WITCH_WEST_SIGNAL_BLEED
                               - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
-                                - WITCH_WEST_COMMAND_DECK_V2
-                                  - ↩ cycle
+                                - ↩ cycle
                               - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
                                 - WITCH_WEST_END_MELTING [ENDING]
                       - "PHARMACOLOGY: Refine the Poppy Resin in the crucible." → WITCH_WEST_POPPY_BUFFER
@@ -5329,8 +5193,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                               - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                 - WITCH_WEST_END_MELTING [ENDING]
                                               - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                - WITCH_WEST_MONKEY_SWEEP_B
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                           - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                             - WITCH_WEST_ORACLE_3
                                               - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -5382,8 +5245,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                               - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                 - WITCH_WEST_END_MELTING [ENDING]
                                               - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                - WITCH_WEST_MONKEY_SWEEP_B
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                           - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                             - WITCH_WEST_ORACLE_3
                                               - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -5435,8 +5297,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                               - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                 - WITCH_WEST_END_MELTING [ENDING]
                                               - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                - WITCH_WEST_MONKEY_SWEEP_B
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                           - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                             - WITCH_WEST_ORACLE_3
                                               - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -5488,8 +5349,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                               - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                 - WITCH_WEST_END_MELTING [ENDING]
                                               - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                - WITCH_WEST_MONKEY_SWEEP_B
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                           - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                             - WITCH_WEST_ORACLE_3
                                               - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -5527,8 +5387,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                               - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                                 - WITCH_WEST_END_SCRAP [ENDING]
                               - "Have the monkeys carry him back to the tower for a proper procedure." → WITCH_WEST_TOWER_PREP
-                                - WITCH_WEST_TOWER_PREP
-                                  - ↩ cycle
+                                - ↩ cycle
                               - "Toy with him first. Make him beg for the mercy of the scalpel." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
                                 - WITCH_WEST_PSYCHOLOGICAL_TORMENT
                                   - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
@@ -5546,8 +5405,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                               - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                 - WITCH_WEST_END_MELTING [ENDING]
                                               - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                - WITCH_WEST_MONKEY_SWEEP_B
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                           - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                             - WITCH_WEST_ORACLE_3
                                               - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -5585,8 +5443,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                               - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                                 - WITCH_WEST_END_SCRAP [ENDING]
                                       - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                        - WITCH_WEST_MONKEY_SWEEP_B
-                                          - ↩ cycle
+                                        - ↩ cycle
                                   - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
                                     - WITCH_WEST_END_MELTING [ENDING]
                                   - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
@@ -5606,8 +5463,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                     - WITCH_WEST_END_MELTING [ENDING]
                                                   - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                               - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                 - WITCH_WEST_ORACLE_3
                                                   - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -5645,23 +5501,20 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                                     - WITCH_WEST_END_SCRAP [ENDING]
                                           - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                            - WITCH_WEST_MONKEY_SWEEP_B
-                                              - ↩ cycle
-                                      - "Signal the Monkeys to begin "The Scrap Reallocation."" → WITCH_WEST_END_SCRAP
+                                            - ↩ cycle
+                                      - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
                                         - WITCH_WEST_END_SCRAP [ENDING]
                               - "The Clerk flags the warrant status — review the audit logs." → WITCH_WEST_BUREAU_LOG_CHECK
                                 - WITCH_WEST_BUREAU_LOG_CHECK
-                                  - ""It is a Judicial Necessity." (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
+                                  - "\"It is a Judicial Necessity.\" (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
                                     - WITCH_WEST_COMMAND_DECK
                                       - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
                                         - WITCH_WEST_MONKEY_MANAGEMENT
-                                          - "Order a "Kinetic Brush-By" (Increase Load)." → WITCH_WEST_COMMAND_DECK
-                                            - WITCH_WEST_COMMAND_DECK
-                                              - ↩ cycle
-                                          - "Order "Silent Hover" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
-                                            - WITCH_WEST_COMMAND_DECK
-                                              - ↩ cycle
-                                          - "Order "Aggressive Shriek" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                          - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
+                                          - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
+                                          - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
                                             - WITCH_WEST_ORACLE_ENTRY
                                               - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
                                                 - WITCH_WEST_ORACLE_DRAW
@@ -5676,8 +5529,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                       - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                         - WITCH_WEST_END_MELTING [ENDING]
                                                       - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                        - WITCH_WEST_MONKEY_SWEEP_B
-                                                          - ↩ cycle
+                                                        - ↩ cycle
                                                   - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                     - WITCH_WEST_ORACLE_3
                                                       - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -5715,16 +5567,13 @@ Generated: 2026-05-01T21:04:29.436Z
                                                       - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                                         - WITCH_WEST_END_SCRAP [ENDING]
                                               - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                                - WITCH_WEST_MONKEY_SWEEP_B
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                       - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
                                         - WITCH_WEST_POPPY_CALIBRATION
                                           - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
-                                            - WITCH_WEST_COMMAND_DECK
-                                              - ↩ cycle
-                                          - "Pulse the Field: Create a "Lullaby Spike"." → WITCH_WEST_COMMAND_DECK
-                                            - WITCH_WEST_COMMAND_DECK
-                                              - ↩ cycle
+                                            - ↩ cycle
+                                          - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
                                       - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
                                         - WITCH_WEST_OBSIDIAN_VIEW
                                           - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
@@ -5742,8 +5591,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                       - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                         - WITCH_WEST_END_MELTING [ENDING]
                                                       - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                        - WITCH_WEST_MONKEY_SWEEP_B
-                                                          - ↩ cycle
+                                                        - ↩ cycle
                                                   - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                     - WITCH_WEST_ORACLE_3
                                                       - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -5781,19 +5629,16 @@ Generated: 2026-05-01T21:04:29.436Z
                                                       - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                                         - WITCH_WEST_END_SCRAP [ENDING]
                                               - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                                - WITCH_WEST_MONKEY_SWEEP_B
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                           - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
-                                            - WITCH_WEST_FIELD_CONFRONTATION
-                                              - ↩ cycle
+                                            - ↩ cycle
                                           - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
                                             - WITCH_WEST_SIGNAL_BLEED
                                               - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
-                                                - WITCH_WEST_COMMAND_DECK_V2
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                               - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
                                                 - WITCH_WEST_END_MELTING [ENDING]
-                                      - "Initialize Ritual: "The Obsidian Matron"." → WITCH_WEST_ORACLE_ENTRY
+                                      - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
                                         - WITCH_WEST_ORACLE_ENTRY
                                           - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
                                             - WITCH_WEST_ORACLE_DRAW
@@ -5808,8 +5653,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                     - WITCH_WEST_END_MELTING [ENDING]
                                                   - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                               - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                 - WITCH_WEST_ORACLE_3
                                                   - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -5847,19 +5691,16 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                                     - WITCH_WEST_END_SCRAP [ENDING]
                                           - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                            - WITCH_WEST_MONKEY_SWEEP_B
-                                              - ↩ cycle
-                                  - ""The target is non-compliant." (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
+                                  - "\"The target is non-compliant.\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
                                     - WITCH_WEST_COMMAND_DECK
                                       - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
                                         - WITCH_WEST_MONKEY_MANAGEMENT
-                                          - "Order a "Kinetic Brush-By" (Increase Load)." → WITCH_WEST_COMMAND_DECK
-                                            - WITCH_WEST_COMMAND_DECK
-                                              - ↩ cycle
-                                          - "Order "Silent Hover" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
-                                            - WITCH_WEST_COMMAND_DECK
-                                              - ↩ cycle
-                                          - "Order "Aggressive Shriek" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                          - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
+                                          - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
+                                          - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
                                             - WITCH_WEST_ORACLE_ENTRY
                                               - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
                                                 - WITCH_WEST_ORACLE_DRAW
@@ -5874,8 +5715,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                       - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                         - WITCH_WEST_END_MELTING [ENDING]
                                                       - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                        - WITCH_WEST_MONKEY_SWEEP_B
-                                                          - ↩ cycle
+                                                        - ↩ cycle
                                                   - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                     - WITCH_WEST_ORACLE_3
                                                       - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -5913,16 +5753,13 @@ Generated: 2026-05-01T21:04:29.436Z
                                                       - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                                         - WITCH_WEST_END_SCRAP [ENDING]
                                               - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                                - WITCH_WEST_MONKEY_SWEEP_B
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                       - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
                                         - WITCH_WEST_POPPY_CALIBRATION
                                           - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
-                                            - WITCH_WEST_COMMAND_DECK
-                                              - ↩ cycle
-                                          - "Pulse the Field: Create a "Lullaby Spike"." → WITCH_WEST_COMMAND_DECK
-                                            - WITCH_WEST_COMMAND_DECK
-                                              - ↩ cycle
+                                            - ↩ cycle
+                                          - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
                                       - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
                                         - WITCH_WEST_OBSIDIAN_VIEW
                                           - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
@@ -5940,8 +5777,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                       - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                         - WITCH_WEST_END_MELTING [ENDING]
                                                       - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                        - WITCH_WEST_MONKEY_SWEEP_B
-                                                          - ↩ cycle
+                                                        - ↩ cycle
                                                   - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                     - WITCH_WEST_ORACLE_3
                                                       - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -5979,19 +5815,16 @@ Generated: 2026-05-01T21:04:29.436Z
                                                       - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                                         - WITCH_WEST_END_SCRAP [ENDING]
                                               - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                                - WITCH_WEST_MONKEY_SWEEP_B
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                           - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
-                                            - WITCH_WEST_FIELD_CONFRONTATION
-                                              - ↩ cycle
+                                            - ↩ cycle
                                           - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
                                             - WITCH_WEST_SIGNAL_BLEED
                                               - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
-                                                - WITCH_WEST_COMMAND_DECK_V2
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                               - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
                                                 - WITCH_WEST_END_MELTING [ENDING]
-                                      - "Initialize Ritual: "The Obsidian Matron"." → WITCH_WEST_ORACLE_ENTRY
+                                      - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
                                         - WITCH_WEST_ORACLE_ENTRY
                                           - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
                                             - WITCH_WEST_ORACLE_DRAW
@@ -6006,8 +5839,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                     - WITCH_WEST_END_MELTING [ENDING]
                                                   - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                               - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                 - WITCH_WEST_ORACLE_3
                                                   - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -6045,20 +5877,16 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                                     - WITCH_WEST_END_SCRAP [ENDING]
                                           - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                            - WITCH_WEST_MONKEY_SWEEP_B
-                                              - ↩ cycle
+                                            - ↩ cycle
                           - "Send the monkeys to accelerate their arrival." → WITCH_WEST_MONKEY_SWEEP_B
-                            - WITCH_WEST_MONKEY_SWEEP_B
-                              - ↩ cycle
-                      - "ADMINISTRATION: File a "Pre-emptive Deletion" warrant." → WITCH_WEST_BUREAU_FILING
+                            - ↩ cycle
+                      - "ADMINISTRATION: File a \"Pre-emptive Deletion\" warrant." → WITCH_WEST_BUREAU_FILING
                         - WITCH_WEST_BUREAU_FILING
-                          - "Label it "Maintenance Disposal" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
-                            - WITCH_WEST_COMMAND_DECK_V2
-                              - ↩ cycle
-                          - "Label it "Judicial Reclamation" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
-                            - WITCH_WEST_COMMAND_DECK_V2
-                              - ↩ cycle
-                      - "THE FINAL INCISION: Trigger "The Melting Point"." → WITCH_WEST_END_MELTING
+                          - "Label it \"Maintenance Disposal\" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                            - ↩ cycle
+                          - "Label it \"Judicial Reclamation\" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
+                            - ↩ cycle
+                      - "THE FINAL INCISION: Trigger \"The Melting Point\"." → WITCH_WEST_END_MELTING
                         - WITCH_WEST_END_MELTING [ENDING]
           - "Monitor the kinetic audit in granular detail." → WITCH_WEST_MID_AIR_HARVEST_DETAIL
             - WITCH_WEST_MID_AIR_HARVEST_DETAIL
@@ -6079,8 +5907,7 @@ Generated: 2026-05-01T21:04:29.436Z
                               - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                 - WITCH_WEST_END_MELTING [ENDING]
                               - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                - WITCH_WEST_MONKEY_SWEEP_B
-                                  - ↩ cycle
+                                - ↩ cycle
                           - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                             - WITCH_WEST_ORACLE_3
                               - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -6118,8 +5945,7 @@ Generated: 2026-05-01T21:04:29.436Z
                               - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                 - WITCH_WEST_END_SCRAP [ENDING]
                       - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                        - WITCH_WEST_MONKEY_SWEEP_B
-                          - ↩ cycle
+                        - ↩ cycle
                   - "The Clerk signals a compliance concern — attend to the warning." → WITCH_WEST_CLERK_INTERLUDE
                     - WITCH_WEST_CLERK_INTERLUDE
                       - "Force the verdict now — Summon the Obsidian Matron." → WITCH_WEST_ORACLE_ENTRY
@@ -6137,8 +5963,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                   - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                     - WITCH_WEST_END_MELTING [ENDING]
                                   - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                      - ↩ cycle
+                                    - ↩ cycle
                               - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                 - WITCH_WEST_ORACLE_3
                                   - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -6176,8 +6001,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                   - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                     - WITCH_WEST_END_SCRAP [ENDING]
                           - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                            - WITCH_WEST_MONKEY_SWEEP_B
-                              - ↩ cycle
+                            - ↩ cycle
                       - "Ignore the Clerk. Proceed with psychological pressure." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
                         - WITCH_WEST_PSYCHOLOGICAL_TORMENT
                           - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
@@ -6195,8 +6019,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                       - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                         - WITCH_WEST_END_MELTING [ENDING]
                                       - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                        - WITCH_WEST_MONKEY_SWEEP_B
-                                          - ↩ cycle
+                                        - ↩ cycle
                                   - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                     - WITCH_WEST_ORACLE_3
                                       - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -6234,8 +6057,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                       - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                         - WITCH_WEST_END_SCRAP [ENDING]
                               - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                - WITCH_WEST_MONKEY_SWEEP_B
-                                  - ↩ cycle
+                                - ↩ cycle
                           - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
                             - WITCH_WEST_END_MELTING [ENDING]
                           - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
@@ -6255,8 +6077,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                           - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                             - WITCH_WEST_END_MELTING [ENDING]
                                           - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                            - WITCH_WEST_MONKEY_SWEEP_B
-                                              - ↩ cycle
+                                            - ↩ cycle
                                       - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                         - WITCH_WEST_ORACLE_3
                                           - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -6294,9 +6115,8 @@ Generated: 2026-05-01T21:04:29.436Z
                                           - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                             - WITCH_WEST_END_SCRAP [ENDING]
                                   - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                      - ↩ cycle
-                              - "Signal the Monkeys to begin "The Scrap Reallocation."" → WITCH_WEST_END_SCRAP
+                                    - ↩ cycle
+                              - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
                                 - WITCH_WEST_END_SCRAP [ENDING]
                   - "Walk the perimeter — let the Winkie chant stabilize the ritual chamber." → WITCH_WEST_WINKIE_CORRIDOR
                     - WITCH_WEST_WINKIE_CORRIDOR
@@ -6313,21 +6133,40 @@ Generated: 2026-05-01T21:04:29.436Z
                               - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
                                 - WITCH_WEST_SCRAPE_MANE
                                   - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
-                                    - WITCH_WEST_LION_AUDIT_HUB
-                                      - ↩ cycle
-                                  - "Braid the hairs into a "Fear-Whip"." → WITCH_WEST_LION_AUDIT_HUB
-                                    - WITCH_WEST_LION_AUDIT_HUB
-                                      - ↩ cycle
+                                    - ↩ cycle
+                                  - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
                               - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
                                 - WITCH_WEST_LION_AUDIT_HUB
-                                  - ↩ cycle
+                                  - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                    - WITCH_WEST_SCRAPE_MANE
+                                      - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                  - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
                               - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
                                 - WITCH_WEST_LION_AUDIT_HUB
-                                  - ↩ cycle
+                                  - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                    - WITCH_WEST_SCRAPE_MANE
+                                      - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                  - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
                               - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
-                                - WITCH_WEST_COMMAND_DECK_V2
-                                  - ↩ cycle
-                          - "SURVEILLANCE: Deploy "Eye-on-a-String" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
+                                - ↩ cycle
+                          - "SURVEILLANCE: Deploy \"Eye-on-a-String\" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
                             - WITCH_WEST_OBSIDIAN_VIEW
                               - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
                                 - WITCH_WEST_ORACLE_ENTRY
@@ -6344,8 +6183,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                           - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                             - WITCH_WEST_END_MELTING [ENDING]
                                           - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                            - WITCH_WEST_MONKEY_SWEEP_B
-                                              - ↩ cycle
+                                            - ↩ cycle
                                       - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                         - WITCH_WEST_ORACLE_3
                                           - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -6383,8 +6221,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                           - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                             - WITCH_WEST_END_SCRAP [ENDING]
                                   - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                      - ↩ cycle
+                                    - ↩ cycle
                               - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
                                 - WITCH_WEST_FIELD_CONFRONTATION
                                   - "Pick who gets the first incision, then begin the Obsidian Eye ritual." → WITCH_WEST_SELECT_TARGET
@@ -6404,8 +6241,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                     - WITCH_WEST_END_MELTING [ENDING]
                                                   - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                               - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                 - WITCH_WEST_ORACLE_3
                                                   - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -6457,8 +6293,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                     - WITCH_WEST_END_MELTING [ENDING]
                                                   - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                               - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                 - WITCH_WEST_ORACLE_3
                                                   - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -6510,8 +6345,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                     - WITCH_WEST_END_MELTING [ENDING]
                                                   - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                               - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                 - WITCH_WEST_ORACLE_3
                                                   - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -6563,8 +6397,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                     - WITCH_WEST_END_MELTING [ENDING]
                                                   - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                               - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                 - WITCH_WEST_ORACLE_3
                                                   - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -6602,8 +6435,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                                     - WITCH_WEST_END_SCRAP [ENDING]
                                   - "Have the monkeys carry him back to the tower for a proper procedure." → WITCH_WEST_TOWER_PREP
-                                    - WITCH_WEST_TOWER_PREP
-                                      - ↩ cycle
+                                    - ↩ cycle
                                   - "Toy with him first. Make him beg for the mercy of the scalpel." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
                                     - WITCH_WEST_PSYCHOLOGICAL_TORMENT
                                       - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
@@ -6621,8 +6453,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                     - WITCH_WEST_END_MELTING [ENDING]
                                                   - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                               - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                 - WITCH_WEST_ORACLE_3
                                                   - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -6660,8 +6491,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                                     - WITCH_WEST_END_SCRAP [ENDING]
                                           - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                            - WITCH_WEST_MONKEY_SWEEP_B
-                                              - ↩ cycle
+                                            - ↩ cycle
                                       - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
                                         - WITCH_WEST_END_MELTING [ENDING]
                                       - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
@@ -6681,8 +6511,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                       - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                         - WITCH_WEST_END_MELTING [ENDING]
                                                       - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                        - WITCH_WEST_MONKEY_SWEEP_B
-                                                          - ↩ cycle
+                                                        - ↩ cycle
                                                   - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                     - WITCH_WEST_ORACLE_3
                                                       - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -6720,23 +6549,20 @@ Generated: 2026-05-01T21:04:29.436Z
                                                       - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                                         - WITCH_WEST_END_SCRAP [ENDING]
                                               - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                                - WITCH_WEST_MONKEY_SWEEP_B
-                                                  - ↩ cycle
-                                          - "Signal the Monkeys to begin "The Scrap Reallocation."" → WITCH_WEST_END_SCRAP
+                                                - ↩ cycle
+                                          - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
                                             - WITCH_WEST_END_SCRAP [ENDING]
                                   - "The Clerk flags the warrant status — review the audit logs." → WITCH_WEST_BUREAU_LOG_CHECK
                                     - WITCH_WEST_BUREAU_LOG_CHECK
-                                      - ""It is a Judicial Necessity." (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
+                                      - "\"It is a Judicial Necessity.\" (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
                                         - WITCH_WEST_COMMAND_DECK
                                           - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
                                             - WITCH_WEST_MONKEY_MANAGEMENT
-                                              - "Order a "Kinetic Brush-By" (Increase Load)." → WITCH_WEST_COMMAND_DECK
-                                                - WITCH_WEST_COMMAND_DECK
-                                                  - ↩ cycle
-                                              - "Order "Silent Hover" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
-                                                - WITCH_WEST_COMMAND_DECK
-                                                  - ↩ cycle
-                                              - "Order "Aggressive Shriek" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                              - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                              - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                              - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
                                                 - WITCH_WEST_ORACLE_ENTRY
                                                   - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
                                                     - WITCH_WEST_ORACLE_DRAW
@@ -6751,8 +6577,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                           - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                             - WITCH_WEST_END_MELTING [ENDING]
                                                           - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                            - WITCH_WEST_MONKEY_SWEEP_B
-                                                              - ↩ cycle
+                                                            - ↩ cycle
                                                       - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                         - WITCH_WEST_ORACLE_3
                                                           - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -6790,20 +6615,16 @@ Generated: 2026-05-01T21:04:29.436Z
                                                           - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                                             - WITCH_WEST_END_SCRAP [ENDING]
                                                   - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                           - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
                                             - WITCH_WEST_POPPY_CALIBRATION
                                               - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
-                                                - WITCH_WEST_COMMAND_DECK
-                                                  - ↩ cycle
-                                              - "Pulse the Field: Create a "Lullaby Spike"." → WITCH_WEST_COMMAND_DECK
-                                                - WITCH_WEST_COMMAND_DECK
-                                                  - ↩ cycle
+                                                - ↩ cycle
+                                              - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
                                           - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
-                                            - WITCH_WEST_OBSIDIAN_VIEW
-                                              - ↩ cycle
-                                          - "Initialize Ritual: "The Obsidian Matron"." → WITCH_WEST_ORACLE_ENTRY
+                                            - ↩ cycle
+                                          - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
                                             - WITCH_WEST_ORACLE_ENTRY
                                               - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
                                                 - WITCH_WEST_ORACLE_DRAW
@@ -6818,8 +6639,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                       - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                         - WITCH_WEST_END_MELTING [ENDING]
                                                       - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                        - WITCH_WEST_MONKEY_SWEEP_B
-                                                          - ↩ cycle
+                                                        - ↩ cycle
                                                   - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                     - WITCH_WEST_ORACLE_3
                                                       - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -6857,19 +6677,16 @@ Generated: 2026-05-01T21:04:29.436Z
                                                       - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                                         - WITCH_WEST_END_SCRAP [ENDING]
                                               - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                                - WITCH_WEST_MONKEY_SWEEP_B
-                                                  - ↩ cycle
-                                      - ""The target is non-compliant." (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                      - "\"The target is non-compliant.\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
                                         - WITCH_WEST_COMMAND_DECK
                                           - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
                                             - WITCH_WEST_MONKEY_MANAGEMENT
-                                              - "Order a "Kinetic Brush-By" (Increase Load)." → WITCH_WEST_COMMAND_DECK
-                                                - WITCH_WEST_COMMAND_DECK
-                                                  - ↩ cycle
-                                              - "Order "Silent Hover" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
-                                                - WITCH_WEST_COMMAND_DECK
-                                                  - ↩ cycle
-                                              - "Order "Aggressive Shriek" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                              - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                              - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                              - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
                                                 - WITCH_WEST_ORACLE_ENTRY
                                                   - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
                                                     - WITCH_WEST_ORACLE_DRAW
@@ -6884,8 +6701,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                           - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                             - WITCH_WEST_END_MELTING [ENDING]
                                                           - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                            - WITCH_WEST_MONKEY_SWEEP_B
-                                                              - ↩ cycle
+                                                            - ↩ cycle
                                                       - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                         - WITCH_WEST_ORACLE_3
                                                           - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -6923,20 +6739,16 @@ Generated: 2026-05-01T21:04:29.436Z
                                                           - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                                             - WITCH_WEST_END_SCRAP [ENDING]
                                                   - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                           - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
                                             - WITCH_WEST_POPPY_CALIBRATION
                                               - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
-                                                - WITCH_WEST_COMMAND_DECK
-                                                  - ↩ cycle
-                                              - "Pulse the Field: Create a "Lullaby Spike"." → WITCH_WEST_COMMAND_DECK
-                                                - WITCH_WEST_COMMAND_DECK
-                                                  - ↩ cycle
+                                                - ↩ cycle
+                                              - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
                                           - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
-                                            - WITCH_WEST_OBSIDIAN_VIEW
-                                              - ↩ cycle
-                                          - "Initialize Ritual: "The Obsidian Matron"." → WITCH_WEST_ORACLE_ENTRY
+                                            - ↩ cycle
+                                          - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
                                             - WITCH_WEST_ORACLE_ENTRY
                                               - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
                                                 - WITCH_WEST_ORACLE_DRAW
@@ -6951,8 +6763,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                       - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                         - WITCH_WEST_END_MELTING [ENDING]
                                                       - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                        - WITCH_WEST_MONKEY_SWEEP_B
-                                                          - ↩ cycle
+                                                        - ↩ cycle
                                                   - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                     - WITCH_WEST_ORACLE_3
                                                       - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -6990,13 +6801,11 @@ Generated: 2026-05-01T21:04:29.436Z
                                                       - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                                         - WITCH_WEST_END_SCRAP [ENDING]
                                               - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                                - WITCH_WEST_MONKEY_SWEEP_B
-                                                  - ↩ cycle
+                                                - ↩ cycle
                               - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
                                 - WITCH_WEST_SIGNAL_BLEED
                                   - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
-                                    - WITCH_WEST_COMMAND_DECK_V2
-                                      - ↩ cycle
+                                    - ↩ cycle
                                   - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
                                     - WITCH_WEST_END_MELTING [ENDING]
                           - "PHARMACOLOGY: Refine the Poppy Resin in the crucible." → WITCH_WEST_POPPY_BUFFER
@@ -7020,8 +6829,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                     - WITCH_WEST_END_MELTING [ENDING]
                                                   - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                               - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                 - WITCH_WEST_ORACLE_3
                                                   - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -7073,8 +6881,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                     - WITCH_WEST_END_MELTING [ENDING]
                                                   - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                               - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                 - WITCH_WEST_ORACLE_3
                                                   - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -7126,8 +6933,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                     - WITCH_WEST_END_MELTING [ENDING]
                                                   - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                               - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                 - WITCH_WEST_ORACLE_3
                                                   - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -7179,8 +6985,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                     - WITCH_WEST_END_MELTING [ENDING]
                                                   - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                               - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                 - WITCH_WEST_ORACLE_3
                                                   - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -7218,8 +7023,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                                     - WITCH_WEST_END_SCRAP [ENDING]
                                   - "Have the monkeys carry him back to the tower for a proper procedure." → WITCH_WEST_TOWER_PREP
-                                    - WITCH_WEST_TOWER_PREP
-                                      - ↩ cycle
+                                    - ↩ cycle
                                   - "Toy with him first. Make him beg for the mercy of the scalpel." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
                                     - WITCH_WEST_PSYCHOLOGICAL_TORMENT
                                       - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
@@ -7237,8 +7041,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                     - WITCH_WEST_END_MELTING [ENDING]
                                                   - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                               - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                 - WITCH_WEST_ORACLE_3
                                                   - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -7276,8 +7079,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                                     - WITCH_WEST_END_SCRAP [ENDING]
                                           - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                            - WITCH_WEST_MONKEY_SWEEP_B
-                                              - ↩ cycle
+                                            - ↩ cycle
                                       - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
                                         - WITCH_WEST_END_MELTING [ENDING]
                                       - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
@@ -7297,8 +7099,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                       - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                         - WITCH_WEST_END_MELTING [ENDING]
                                                       - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                        - WITCH_WEST_MONKEY_SWEEP_B
-                                                          - ↩ cycle
+                                                        - ↩ cycle
                                                   - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                     - WITCH_WEST_ORACLE_3
                                                       - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -7336,23 +7137,20 @@ Generated: 2026-05-01T21:04:29.436Z
                                                       - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                                         - WITCH_WEST_END_SCRAP [ENDING]
                                               - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                                - WITCH_WEST_MONKEY_SWEEP_B
-                                                  - ↩ cycle
-                                          - "Signal the Monkeys to begin "The Scrap Reallocation."" → WITCH_WEST_END_SCRAP
+                                                - ↩ cycle
+                                          - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
                                             - WITCH_WEST_END_SCRAP [ENDING]
                                   - "The Clerk flags the warrant status — review the audit logs." → WITCH_WEST_BUREAU_LOG_CHECK
                                     - WITCH_WEST_BUREAU_LOG_CHECK
-                                      - ""It is a Judicial Necessity." (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
+                                      - "\"It is a Judicial Necessity.\" (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
                                         - WITCH_WEST_COMMAND_DECK
                                           - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
                                             - WITCH_WEST_MONKEY_MANAGEMENT
-                                              - "Order a "Kinetic Brush-By" (Increase Load)." → WITCH_WEST_COMMAND_DECK
-                                                - WITCH_WEST_COMMAND_DECK
-                                                  - ↩ cycle
-                                              - "Order "Silent Hover" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
-                                                - WITCH_WEST_COMMAND_DECK
-                                                  - ↩ cycle
-                                              - "Order "Aggressive Shriek" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                              - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                              - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                              - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
                                                 - WITCH_WEST_ORACLE_ENTRY
                                                   - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
                                                     - WITCH_WEST_ORACLE_DRAW
@@ -7367,8 +7165,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                           - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                             - WITCH_WEST_END_MELTING [ENDING]
                                                           - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                            - WITCH_WEST_MONKEY_SWEEP_B
-                                                              - ↩ cycle
+                                                            - ↩ cycle
                                                       - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                         - WITCH_WEST_ORACLE_3
                                                           - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -7406,16 +7203,13 @@ Generated: 2026-05-01T21:04:29.436Z
                                                           - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                                             - WITCH_WEST_END_SCRAP [ENDING]
                                                   - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                           - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
                                             - WITCH_WEST_POPPY_CALIBRATION
                                               - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
-                                                - WITCH_WEST_COMMAND_DECK
-                                                  - ↩ cycle
-                                              - "Pulse the Field: Create a "Lullaby Spike"." → WITCH_WEST_COMMAND_DECK
-                                                - WITCH_WEST_COMMAND_DECK
-                                                  - ↩ cycle
+                                                - ↩ cycle
+                                              - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
                                           - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
                                             - WITCH_WEST_OBSIDIAN_VIEW
                                               - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
@@ -7433,8 +7227,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                           - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                             - WITCH_WEST_END_MELTING [ENDING]
                                                           - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                            - WITCH_WEST_MONKEY_SWEEP_B
-                                                              - ↩ cycle
+                                                            - ↩ cycle
                                                       - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                         - WITCH_WEST_ORACLE_3
                                                           - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -7472,19 +7265,16 @@ Generated: 2026-05-01T21:04:29.436Z
                                                           - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                                             - WITCH_WEST_END_SCRAP [ENDING]
                                                   - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                               - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
-                                                - WITCH_WEST_FIELD_CONFRONTATION
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                               - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
                                                 - WITCH_WEST_SIGNAL_BLEED
                                                   - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
-                                                    - WITCH_WEST_COMMAND_DECK_V2
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                                   - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
                                                     - WITCH_WEST_END_MELTING [ENDING]
-                                          - "Initialize Ritual: "The Obsidian Matron"." → WITCH_WEST_ORACLE_ENTRY
+                                          - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
                                             - WITCH_WEST_ORACLE_ENTRY
                                               - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
                                                 - WITCH_WEST_ORACLE_DRAW
@@ -7499,8 +7289,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                       - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                         - WITCH_WEST_END_MELTING [ENDING]
                                                       - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                        - WITCH_WEST_MONKEY_SWEEP_B
-                                                          - ↩ cycle
+                                                        - ↩ cycle
                                                   - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                     - WITCH_WEST_ORACLE_3
                                                       - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -7538,19 +7327,16 @@ Generated: 2026-05-01T21:04:29.436Z
                                                       - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                                         - WITCH_WEST_END_SCRAP [ENDING]
                                               - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                                - WITCH_WEST_MONKEY_SWEEP_B
-                                                  - ↩ cycle
-                                      - ""The target is non-compliant." (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                      - "\"The target is non-compliant.\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
                                         - WITCH_WEST_COMMAND_DECK
                                           - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
                                             - WITCH_WEST_MONKEY_MANAGEMENT
-                                              - "Order a "Kinetic Brush-By" (Increase Load)." → WITCH_WEST_COMMAND_DECK
-                                                - WITCH_WEST_COMMAND_DECK
-                                                  - ↩ cycle
-                                              - "Order "Silent Hover" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
-                                                - WITCH_WEST_COMMAND_DECK
-                                                  - ↩ cycle
-                                              - "Order "Aggressive Shriek" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                              - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                              - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                              - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
                                                 - WITCH_WEST_ORACLE_ENTRY
                                                   - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
                                                     - WITCH_WEST_ORACLE_DRAW
@@ -7565,8 +7351,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                           - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                             - WITCH_WEST_END_MELTING [ENDING]
                                                           - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                            - WITCH_WEST_MONKEY_SWEEP_B
-                                                              - ↩ cycle
+                                                            - ↩ cycle
                                                       - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                         - WITCH_WEST_ORACLE_3
                                                           - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -7604,16 +7389,13 @@ Generated: 2026-05-01T21:04:29.436Z
                                                           - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                                             - WITCH_WEST_END_SCRAP [ENDING]
                                                   - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                           - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
                                             - WITCH_WEST_POPPY_CALIBRATION
                                               - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
-                                                - WITCH_WEST_COMMAND_DECK
-                                                  - ↩ cycle
-                                              - "Pulse the Field: Create a "Lullaby Spike"." → WITCH_WEST_COMMAND_DECK
-                                                - WITCH_WEST_COMMAND_DECK
-                                                  - ↩ cycle
+                                                - ↩ cycle
+                                              - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
                                           - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
                                             - WITCH_WEST_OBSIDIAN_VIEW
                                               - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
@@ -7631,8 +7413,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                           - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                             - WITCH_WEST_END_MELTING [ENDING]
                                                           - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                            - WITCH_WEST_MONKEY_SWEEP_B
-                                                              - ↩ cycle
+                                                            - ↩ cycle
                                                       - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                         - WITCH_WEST_ORACLE_3
                                                           - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -7670,19 +7451,16 @@ Generated: 2026-05-01T21:04:29.436Z
                                                           - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                                             - WITCH_WEST_END_SCRAP [ENDING]
                                                   - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                               - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
-                                                - WITCH_WEST_FIELD_CONFRONTATION
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                               - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
                                                 - WITCH_WEST_SIGNAL_BLEED
                                                   - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
-                                                    - WITCH_WEST_COMMAND_DECK_V2
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                                   - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
                                                     - WITCH_WEST_END_MELTING [ENDING]
-                                          - "Initialize Ritual: "The Obsidian Matron"." → WITCH_WEST_ORACLE_ENTRY
+                                          - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
                                             - WITCH_WEST_ORACLE_ENTRY
                                               - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
                                                 - WITCH_WEST_ORACLE_DRAW
@@ -7697,8 +7475,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                       - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                         - WITCH_WEST_END_MELTING [ENDING]
                                                       - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                        - WITCH_WEST_MONKEY_SWEEP_B
-                                                          - ↩ cycle
+                                                        - ↩ cycle
                                                   - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                     - WITCH_WEST_ORACLE_3
                                                       - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -7736,20 +7513,16 @@ Generated: 2026-05-01T21:04:29.436Z
                                                       - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                                         - WITCH_WEST_END_SCRAP [ENDING]
                                               - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                                                - WITCH_WEST_MONKEY_SWEEP_B
-                                                  - ↩ cycle
+                                                - ↩ cycle
                               - "Send the monkeys to accelerate their arrival." → WITCH_WEST_MONKEY_SWEEP_B
-                                - WITCH_WEST_MONKEY_SWEEP_B
-                                  - ↩ cycle
-                          - "ADMINISTRATION: File a "Pre-emptive Deletion" warrant." → WITCH_WEST_BUREAU_FILING
+                                - ↩ cycle
+                          - "ADMINISTRATION: File a \"Pre-emptive Deletion\" warrant." → WITCH_WEST_BUREAU_FILING
                             - WITCH_WEST_BUREAU_FILING
-                              - "Label it "Maintenance Disposal" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
-                                - WITCH_WEST_COMMAND_DECK_V2
-                                  - ↩ cycle
-                              - "Label it "Judicial Reclamation" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
-                                - WITCH_WEST_COMMAND_DECK_V2
-                                  - ↩ cycle
-                          - "THE FINAL INCISION: Trigger "The Melting Point"." → WITCH_WEST_END_MELTING
+                              - "Label it \"Maintenance Disposal\" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                - ↩ cycle
+                              - "Label it \"Judicial Reclamation\" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
+                                - ↩ cycle
+                          - "THE FINAL INCISION: Trigger \"The Melting Point\"." → WITCH_WEST_END_MELTING
                             - WITCH_WEST_END_MELTING [ENDING]
       - "Observe the aerial deployment from altitude — let the sweep run its course." → WITCH_WEST_PATH_MONKEYS
         - WITCH_WEST_PATH_MONKEYS
@@ -7770,8 +7543,7 @@ Generated: 2026-05-01T21:04:29.436Z
                       - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                         - WITCH_WEST_END_MELTING [ENDING]
                       - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                        - WITCH_WEST_MONKEY_SWEEP_B
-                          - ↩ cycle
+                        - ↩ cycle
                   - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                     - WITCH_WEST_ORACLE_3
                       - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -7809,8 +7581,7 @@ Generated: 2026-05-01T21:04:29.436Z
                       - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                         - WITCH_WEST_END_SCRAP [ENDING]
               - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
-                - WITCH_WEST_MONKEY_SWEEP_B
-                  - ↩ cycle
+                - ↩ cycle
   - "Perform the ritual directly — summon the Obsidian Eye." → WITCH_WEST_ORACLE_ENTRY
     - WITCH_WEST_ORACLE_ENTRY
       - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
@@ -7830,8 +7601,7 @@ Generated: 2026-05-01T21:04:29.436Z
                   - "Watch the capture through the obsidian eye. Savor every moment." → WITCH_WEST_OBSIDIAN_VIEW
                     - WITCH_WEST_OBSIDIAN_VIEW
                       - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
-                        - WITCH_WEST_ORACLE_ENTRY
-                          - ↩ cycle
+                        - ↩ cycle
                       - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
                         - WITCH_WEST_FIELD_CONFRONTATION
                           - "Pick who gets the first incision, then begin the Obsidian Eye ritual." → WITCH_WEST_SELECT_TARGET
@@ -7839,46 +7609,38 @@ Generated: 2026-05-01T21:04:29.436Z
                               - "Lion" → WITCH_WEST_ORACLE_ENTRY_LION
                                 - WITCH_WEST_ORACLE_ENTRY_LION
                                   - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
-                                    - WITCH_WEST_ORACLE_DRAW
-                                      - ↩ cycle
+                                    - ↩ cycle
                               - "Dorothy" → WITCH_WEST_ORACLE_ENTRY_DOROTHY
                                 - WITCH_WEST_ORACLE_ENTRY_DOROTHY
                                   - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
-                                    - WITCH_WEST_ORACLE_DRAW
-                                      - ↩ cycle
+                                    - ↩ cycle
                               - "Tin Man" → WITCH_WEST_ORACLE_ENTRY_TINMAN
                                 - WITCH_WEST_ORACLE_ENTRY_TINMAN
                                   - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
-                                    - WITCH_WEST_ORACLE_DRAW
-                                      - ↩ cycle
+                                    - ↩ cycle
                               - "Scarecrow" → WITCH_WEST_ORACLE_ENTRY_SCARECROW
                                 - WITCH_WEST_ORACLE_ENTRY_SCARECROW
                                   - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
-                                    - WITCH_WEST_ORACLE_DRAW
-                                      - ↩ cycle
+                                    - ↩ cycle
                           - "Have the monkeys carry him back to the tower for a proper procedure." → WITCH_WEST_TOWER_PREP
                             - WITCH_WEST_TOWER_PREP
                               - "The chamber is prepared. Begin the Obsidian Eye procedure." → WITCH_WEST_ORACLE_ENTRY
-                                - WITCH_WEST_ORACLE_ENTRY
-                                  - ↩ cycle
+                                - ↩ cycle
                               - "The Clerk signals a compliance concern — attend to the warning." → WITCH_WEST_CLERK_INTERLUDE
                                 - WITCH_WEST_CLERK_INTERLUDE
                                   - "Force the verdict now — Summon the Obsidian Matron." → WITCH_WEST_ORACLE_ENTRY
-                                    - WITCH_WEST_ORACLE_ENTRY
-                                      - ↩ cycle
+                                    - ↩ cycle
                                   - "Ignore the Clerk. Proceed with psychological pressure." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
                                     - WITCH_WEST_PSYCHOLOGICAL_TORMENT
                                       - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
-                                        - WITCH_WEST_ORACLE_ENTRY
-                                          - ↩ cycle
+                                        - ↩ cycle
                                       - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
                                         - WITCH_WEST_END_MELTING [ENDING]
                                       - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
                                         - WITCH_WEST_TORMENT_DETAIL
                                           - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
-                                            - WITCH_WEST_ORACLE_ENTRY
-                                              - ↩ cycle
-                                          - "Signal the Monkeys to begin "The Scrap Reallocation."" → WITCH_WEST_END_SCRAP
+                                            - ↩ cycle
+                                          - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
                                             - WITCH_WEST_END_SCRAP [ENDING]
                               - "Walk the perimeter — let the Winkie chant stabilize the ritual chamber." → WITCH_WEST_WINKIE_CORRIDOR
                                 - WITCH_WEST_WINKIE_CORRIDOR
@@ -7895,111 +7657,109 @@ Generated: 2026-05-01T21:04:29.436Z
                                           - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
                                             - WITCH_WEST_SCRAPE_MANE
                                               - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
-                                                - WITCH_WEST_LION_AUDIT_HUB
-                                                  - ↩ cycle
-                                              - "Braid the hairs into a "Fear-Whip"." → WITCH_WEST_LION_AUDIT_HUB
-                                                - WITCH_WEST_LION_AUDIT_HUB
-                                                  - ↩ cycle
+                                                - ↩ cycle
+                                              - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
                                           - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
                                             - WITCH_WEST_LION_AUDIT_HUB
-                                              - ↩ cycle
+                                              - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                                - WITCH_WEST_SCRAPE_MANE
+                                                  - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                                    - ↩ cycle
+                                                  - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                                    - ↩ cycle
+                                              - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                              - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                              - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                                - ↩ cycle
                                           - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
                                             - WITCH_WEST_LION_AUDIT_HUB
-                                              - ↩ cycle
+                                              - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                                - WITCH_WEST_SCRAPE_MANE
+                                                  - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                                    - ↩ cycle
+                                                  - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                                    - ↩ cycle
+                                              - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                              - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                              - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                                - ↩ cycle
                                           - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
-                                            - WITCH_WEST_COMMAND_DECK_V2
-                                              - ↩ cycle
-                                      - "SURVEILLANCE: Deploy "Eye-on-a-String" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
-                                        - WITCH_WEST_OBSIDIAN_VIEW
-                                          - ↩ cycle
+                                            - ↩ cycle
+                                      - "SURVEILLANCE: Deploy \"Eye-on-a-String\" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
+                                        - ↩ cycle
                                       - "PHARMACOLOGY: Refine the Poppy Resin in the crucible." → WITCH_WEST_POPPY_BUFFER
                                         - WITCH_WEST_POPPY_BUFFER
                                           - "Wait for them at the tower gate. Receive them at full compliance." → WITCH_WEST_FIELD_CONFRONTATION
-                                            - WITCH_WEST_FIELD_CONFRONTATION
-                                              - ↩ cycle
+                                            - ↩ cycle
                                           - "Send the monkeys to accelerate their arrival." → WITCH_WEST_MONKEY_SWEEP_B
-                                            - WITCH_WEST_MONKEY_SWEEP_B
-                                              - ↩ cycle
-                                      - "ADMINISTRATION: File a "Pre-emptive Deletion" warrant." → WITCH_WEST_BUREAU_FILING
+                                            - ↩ cycle
+                                      - "ADMINISTRATION: File a \"Pre-emptive Deletion\" warrant." → WITCH_WEST_BUREAU_FILING
                                         - WITCH_WEST_BUREAU_FILING
-                                          - "Label it "Maintenance Disposal" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
-                                            - WITCH_WEST_COMMAND_DECK_V2
-                                              - ↩ cycle
-                                          - "Label it "Judicial Reclamation" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
-                                            - WITCH_WEST_COMMAND_DECK_V2
-                                              - ↩ cycle
-                                      - "THE FINAL INCISION: Trigger "The Melting Point"." → WITCH_WEST_END_MELTING
+                                          - "Label it \"Maintenance Disposal\" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                            - ↩ cycle
+                                          - "Label it \"Judicial Reclamation\" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
+                                            - ↩ cycle
+                                      - "THE FINAL INCISION: Trigger \"The Melting Point\"." → WITCH_WEST_END_MELTING
                                         - WITCH_WEST_END_MELTING [ENDING]
                           - "Toy with him first. Make him beg for the mercy of the scalpel." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
                             - WITCH_WEST_PSYCHOLOGICAL_TORMENT
                               - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
-                                - WITCH_WEST_ORACLE_ENTRY
-                                  - ↩ cycle
+                                - ↩ cycle
                               - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
                                 - WITCH_WEST_END_MELTING [ENDING]
                               - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
                                 - WITCH_WEST_TORMENT_DETAIL
                                   - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
-                                    - WITCH_WEST_ORACLE_ENTRY
-                                      - ↩ cycle
-                                  - "Signal the Monkeys to begin "The Scrap Reallocation."" → WITCH_WEST_END_SCRAP
+                                    - ↩ cycle
+                                  - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
                                     - WITCH_WEST_END_SCRAP [ENDING]
                           - "The Clerk flags the warrant status — review the audit logs." → WITCH_WEST_BUREAU_LOG_CHECK
                             - WITCH_WEST_BUREAU_LOG_CHECK
-                              - ""It is a Judicial Necessity." (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
+                              - "\"It is a Judicial Necessity.\" (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
                                 - WITCH_WEST_COMMAND_DECK
                                   - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
                                     - WITCH_WEST_MONKEY_MANAGEMENT
-                                      - "Order a "Kinetic Brush-By" (Increase Load)." → WITCH_WEST_COMMAND_DECK
-                                        - WITCH_WEST_COMMAND_DECK
-                                          - ↩ cycle
-                                      - "Order "Silent Hover" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
-                                        - WITCH_WEST_COMMAND_DECK
-                                          - ↩ cycle
-                                      - "Order "Aggressive Shriek" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
-                                        - WITCH_WEST_ORACLE_ENTRY
-                                          - ↩ cycle
+                                      - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                        - ↩ cycle
+                                      - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                        - ↩ cycle
+                                      - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                        - ↩ cycle
                                   - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
                                     - WITCH_WEST_POPPY_CALIBRATION
                                       - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
-                                        - WITCH_WEST_COMMAND_DECK
-                                          - ↩ cycle
-                                      - "Pulse the Field: Create a "Lullaby Spike"." → WITCH_WEST_COMMAND_DECK
-                                        - WITCH_WEST_COMMAND_DECK
-                                          - ↩ cycle
+                                        - ↩ cycle
+                                      - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                        - ↩ cycle
                                   - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
-                                    - WITCH_WEST_OBSIDIAN_VIEW
-                                      - ↩ cycle
-                                  - "Initialize Ritual: "The Obsidian Matron"." → WITCH_WEST_ORACLE_ENTRY
-                                    - WITCH_WEST_ORACLE_ENTRY
-                                      - ↩ cycle
-                              - ""The target is non-compliant." (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                    - ↩ cycle
+                                  - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                    - ↩ cycle
+                              - "\"The target is non-compliant.\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
                                 - WITCH_WEST_COMMAND_DECK
                                   - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
                                     - WITCH_WEST_MONKEY_MANAGEMENT
-                                      - "Order a "Kinetic Brush-By" (Increase Load)." → WITCH_WEST_COMMAND_DECK
-                                        - WITCH_WEST_COMMAND_DECK
-                                          - ↩ cycle
-                                      - "Order "Silent Hover" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
-                                        - WITCH_WEST_COMMAND_DECK
-                                          - ↩ cycle
-                                      - "Order "Aggressive Shriek" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
-                                        - WITCH_WEST_ORACLE_ENTRY
-                                          - ↩ cycle
+                                      - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                        - ↩ cycle
+                                      - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                        - ↩ cycle
+                                      - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                        - ↩ cycle
                                   - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
                                     - WITCH_WEST_POPPY_CALIBRATION
                                       - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
-                                        - WITCH_WEST_COMMAND_DECK
-                                          - ↩ cycle
-                                      - "Pulse the Field: Create a "Lullaby Spike"." → WITCH_WEST_COMMAND_DECK
-                                        - WITCH_WEST_COMMAND_DECK
-                                          - ↩ cycle
+                                        - ↩ cycle
+                                      - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                        - ↩ cycle
                                   - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
-                                    - WITCH_WEST_OBSIDIAN_VIEW
-                                      - ↩ cycle
-                                  - "Initialize Ritual: "The Obsidian Matron"." → WITCH_WEST_ORACLE_ENTRY
-                                    - WITCH_WEST_ORACLE_ENTRY
-                                      - ↩ cycle
+                                    - ↩ cycle
+                                  - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                    - ↩ cycle
                       - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
                         - WITCH_WEST_SIGNAL_BLEED
                           - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
@@ -8009,23 +7769,41 @@ Generated: 2026-05-01T21:04:29.436Z
                                   - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
                                     - WITCH_WEST_SCRAPE_MANE
                                       - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
-                                        - WITCH_WEST_LION_AUDIT_HUB
-                                          - ↩ cycle
-                                      - "Braid the hairs into a "Fear-Whip"." → WITCH_WEST_LION_AUDIT_HUB
-                                        - WITCH_WEST_LION_AUDIT_HUB
-                                          - ↩ cycle
+                                        - ↩ cycle
+                                      - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
                                   - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
                                     - WITCH_WEST_LION_AUDIT_HUB
-                                      - ↩ cycle
+                                      - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                        - WITCH_WEST_SCRAPE_MANE
+                                          - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                      - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                        - ↩ cycle
                                   - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
                                     - WITCH_WEST_LION_AUDIT_HUB
-                                      - ↩ cycle
+                                      - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                        - WITCH_WEST_SCRAPE_MANE
+                                          - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                      - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                        - ↩ cycle
                                   - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
-                                    - WITCH_WEST_COMMAND_DECK_V2
-                                      - ↩ cycle
-                              - "SURVEILLANCE: Deploy "Eye-on-a-String" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
-                                - WITCH_WEST_OBSIDIAN_VIEW
-                                  - ↩ cycle
+                                    - ↩ cycle
+                              - "SURVEILLANCE: Deploy \"Eye-on-a-String\" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
+                                - ↩ cycle
                               - "PHARMACOLOGY: Refine the Poppy Resin in the crucible." → WITCH_WEST_POPPY_BUFFER
                                 - WITCH_WEST_POPPY_BUFFER
                                   - "Wait for them at the tower gate. Receive them at full compliance." → WITCH_WEST_FIELD_CONFRONTATION
@@ -8035,46 +7813,38 @@ Generated: 2026-05-01T21:04:29.436Z
                                           - "Lion" → WITCH_WEST_ORACLE_ENTRY_LION
                                             - WITCH_WEST_ORACLE_ENTRY_LION
                                               - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
-                                                - WITCH_WEST_ORACLE_DRAW
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                           - "Dorothy" → WITCH_WEST_ORACLE_ENTRY_DOROTHY
                                             - WITCH_WEST_ORACLE_ENTRY_DOROTHY
                                               - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
-                                                - WITCH_WEST_ORACLE_DRAW
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                           - "Tin Man" → WITCH_WEST_ORACLE_ENTRY_TINMAN
                                             - WITCH_WEST_ORACLE_ENTRY_TINMAN
                                               - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
-                                                - WITCH_WEST_ORACLE_DRAW
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                           - "Scarecrow" → WITCH_WEST_ORACLE_ENTRY_SCARECROW
                                             - WITCH_WEST_ORACLE_ENTRY_SCARECROW
                                               - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
-                                                - WITCH_WEST_ORACLE_DRAW
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                       - "Have the monkeys carry him back to the tower for a proper procedure." → WITCH_WEST_TOWER_PREP
                                         - WITCH_WEST_TOWER_PREP
                                           - "The chamber is prepared. Begin the Obsidian Eye procedure." → WITCH_WEST_ORACLE_ENTRY
-                                            - WITCH_WEST_ORACLE_ENTRY
-                                              - ↩ cycle
+                                            - ↩ cycle
                                           - "The Clerk signals a compliance concern — attend to the warning." → WITCH_WEST_CLERK_INTERLUDE
                                             - WITCH_WEST_CLERK_INTERLUDE
                                               - "Force the verdict now — Summon the Obsidian Matron." → WITCH_WEST_ORACLE_ENTRY
-                                                - WITCH_WEST_ORACLE_ENTRY
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                               - "Ignore the Clerk. Proceed with psychological pressure." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
                                                 - WITCH_WEST_PSYCHOLOGICAL_TORMENT
                                                   - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
-                                                    - WITCH_WEST_ORACLE_ENTRY
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                                   - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
                                                     - WITCH_WEST_END_MELTING [ENDING]
                                                   - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
                                                     - WITCH_WEST_TORMENT_DETAIL
                                                       - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
-                                                        - WITCH_WEST_ORACLE_ENTRY
-                                                          - ↩ cycle
-                                                      - "Signal the Monkeys to begin "The Scrap Reallocation."" → WITCH_WEST_END_SCRAP
+                                                        - ↩ cycle
+                                                      - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
                                                         - WITCH_WEST_END_SCRAP [ENDING]
                                           - "Walk the perimeter — let the Winkie chant stabilize the ritual chamber." → WITCH_WEST_WINKIE_CORRIDOR
                                             - WITCH_WEST_WINKIE_CORRIDOR
@@ -8085,90 +7855,70 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Try to vent the heat (Requires Water Protocol)." → WITCH_WEST_END_MELTING
                                                     - WITCH_WEST_END_MELTING [ENDING]
                                               - "Use the chant to soothe the Lion's tremor (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
-                                                - WITCH_WEST_COMMAND_DECK_V2
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                       - "Toy with him first. Make him beg for the mercy of the scalpel." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
                                         - WITCH_WEST_PSYCHOLOGICAL_TORMENT
                                           - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
-                                            - WITCH_WEST_ORACLE_ENTRY
-                                              - ↩ cycle
+                                            - ↩ cycle
                                           - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
                                             - WITCH_WEST_END_MELTING [ENDING]
                                           - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
                                             - WITCH_WEST_TORMENT_DETAIL
                                               - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
-                                                - WITCH_WEST_ORACLE_ENTRY
-                                                  - ↩ cycle
-                                              - "Signal the Monkeys to begin "The Scrap Reallocation."" → WITCH_WEST_END_SCRAP
+                                                - ↩ cycle
+                                              - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
                                                 - WITCH_WEST_END_SCRAP [ENDING]
                                       - "The Clerk flags the warrant status — review the audit logs." → WITCH_WEST_BUREAU_LOG_CHECK
                                         - WITCH_WEST_BUREAU_LOG_CHECK
-                                          - ""It is a Judicial Necessity." (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
+                                          - "\"It is a Judicial Necessity.\" (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
                                             - WITCH_WEST_COMMAND_DECK
                                               - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
                                                 - WITCH_WEST_MONKEY_MANAGEMENT
-                                                  - "Order a "Kinetic Brush-By" (Increase Load)." → WITCH_WEST_COMMAND_DECK
-                                                    - WITCH_WEST_COMMAND_DECK
-                                                      - ↩ cycle
-                                                  - "Order "Silent Hover" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
-                                                    - WITCH_WEST_COMMAND_DECK
-                                                      - ↩ cycle
-                                                  - "Order "Aggressive Shriek" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
-                                                    - WITCH_WEST_ORACLE_ENTRY
-                                                      - ↩ cycle
+                                                  - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                                    - ↩ cycle
+                                                  - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                    - ↩ cycle
+                                                  - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                                    - ↩ cycle
                                               - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
                                                 - WITCH_WEST_POPPY_CALIBRATION
                                                   - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
-                                                    - WITCH_WEST_COMMAND_DECK
-                                                      - ↩ cycle
-                                                  - "Pulse the Field: Create a "Lullaby Spike"." → WITCH_WEST_COMMAND_DECK
-                                                    - WITCH_WEST_COMMAND_DECK
-                                                      - ↩ cycle
+                                                    - ↩ cycle
+                                                  - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                                    - ↩ cycle
                                               - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
-                                                - WITCH_WEST_OBSIDIAN_VIEW
-                                                  - ↩ cycle
-                                              - "Initialize Ritual: "The Obsidian Matron"." → WITCH_WEST_ORACLE_ENTRY
-                                                - WITCH_WEST_ORACLE_ENTRY
-                                                  - ↩ cycle
-                                          - ""The target is non-compliant." (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                              - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                                - ↩ cycle
+                                          - "\"The target is non-compliant.\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
                                             - WITCH_WEST_COMMAND_DECK
                                               - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
                                                 - WITCH_WEST_MONKEY_MANAGEMENT
-                                                  - "Order a "Kinetic Brush-By" (Increase Load)." → WITCH_WEST_COMMAND_DECK
-                                                    - WITCH_WEST_COMMAND_DECK
-                                                      - ↩ cycle
-                                                  - "Order "Silent Hover" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
-                                                    - WITCH_WEST_COMMAND_DECK
-                                                      - ↩ cycle
-                                                  - "Order "Aggressive Shriek" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
-                                                    - WITCH_WEST_ORACLE_ENTRY
-                                                      - ↩ cycle
+                                                  - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                                    - ↩ cycle
+                                                  - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                    - ↩ cycle
+                                                  - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                                    - ↩ cycle
                                               - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
                                                 - WITCH_WEST_POPPY_CALIBRATION
                                                   - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
-                                                    - WITCH_WEST_COMMAND_DECK
-                                                      - ↩ cycle
-                                                  - "Pulse the Field: Create a "Lullaby Spike"." → WITCH_WEST_COMMAND_DECK
-                                                    - WITCH_WEST_COMMAND_DECK
-                                                      - ↩ cycle
+                                                    - ↩ cycle
+                                                  - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                                    - ↩ cycle
                                               - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
-                                                - WITCH_WEST_OBSIDIAN_VIEW
-                                                  - ↩ cycle
-                                              - "Initialize Ritual: "The Obsidian Matron"." → WITCH_WEST_ORACLE_ENTRY
-                                                - WITCH_WEST_ORACLE_ENTRY
-                                                  - ↩ cycle
+                                                - ↩ cycle
+                                              - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                                - ↩ cycle
                                   - "Send the monkeys to accelerate their arrival." → WITCH_WEST_MONKEY_SWEEP_B
-                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                      - ↩ cycle
-                              - "ADMINISTRATION: File a "Pre-emptive Deletion" warrant." → WITCH_WEST_BUREAU_FILING
+                                    - ↩ cycle
+                              - "ADMINISTRATION: File a \"Pre-emptive Deletion\" warrant." → WITCH_WEST_BUREAU_FILING
                                 - WITCH_WEST_BUREAU_FILING
-                                  - "Label it "Maintenance Disposal" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
-                                    - WITCH_WEST_COMMAND_DECK_V2
-                                      - ↩ cycle
-                                  - "Label it "Judicial Reclamation" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
-                                    - WITCH_WEST_COMMAND_DECK_V2
-                                      - ↩ cycle
-                              - "THE FINAL INCISION: Trigger "The Melting Point"." → WITCH_WEST_END_MELTING
+                                  - "Label it \"Maintenance Disposal\" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
+                                  - "Label it \"Judicial Reclamation\" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
+                              - "THE FINAL INCISION: Trigger \"The Melting Point\"." → WITCH_WEST_END_MELTING
                                 - WITCH_WEST_END_MELTING [ENDING]
                           - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
                             - WITCH_WEST_END_MELTING [ENDING]
@@ -8179,46 +7929,38 @@ Generated: 2026-05-01T21:04:29.436Z
                           - "Lion" → WITCH_WEST_ORACLE_ENTRY_LION
                             - WITCH_WEST_ORACLE_ENTRY_LION
                               - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
-                                - WITCH_WEST_ORACLE_DRAW
-                                  - ↩ cycle
+                                - ↩ cycle
                           - "Dorothy" → WITCH_WEST_ORACLE_ENTRY_DOROTHY
                             - WITCH_WEST_ORACLE_ENTRY_DOROTHY
                               - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
-                                - WITCH_WEST_ORACLE_DRAW
-                                  - ↩ cycle
+                                - ↩ cycle
                           - "Tin Man" → WITCH_WEST_ORACLE_ENTRY_TINMAN
                             - WITCH_WEST_ORACLE_ENTRY_TINMAN
                               - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
-                                - WITCH_WEST_ORACLE_DRAW
-                                  - ↩ cycle
+                                - ↩ cycle
                           - "Scarecrow" → WITCH_WEST_ORACLE_ENTRY_SCARECROW
                             - WITCH_WEST_ORACLE_ENTRY_SCARECROW
                               - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
-                                - WITCH_WEST_ORACLE_DRAW
-                                  - ↩ cycle
+                                - ↩ cycle
                       - "Have the monkeys carry him back to the tower for a proper procedure." → WITCH_WEST_TOWER_PREP
                         - WITCH_WEST_TOWER_PREP
                           - "The chamber is prepared. Begin the Obsidian Eye procedure." → WITCH_WEST_ORACLE_ENTRY
-                            - WITCH_WEST_ORACLE_ENTRY
-                              - ↩ cycle
+                            - ↩ cycle
                           - "The Clerk signals a compliance concern — attend to the warning." → WITCH_WEST_CLERK_INTERLUDE
                             - WITCH_WEST_CLERK_INTERLUDE
                               - "Force the verdict now — Summon the Obsidian Matron." → WITCH_WEST_ORACLE_ENTRY
-                                - WITCH_WEST_ORACLE_ENTRY
-                                  - ↩ cycle
+                                - ↩ cycle
                               - "Ignore the Clerk. Proceed with psychological pressure." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
                                 - WITCH_WEST_PSYCHOLOGICAL_TORMENT
                                   - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
-                                    - WITCH_WEST_ORACLE_ENTRY
-                                      - ↩ cycle
+                                    - ↩ cycle
                                   - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
                                     - WITCH_WEST_END_MELTING [ENDING]
                                   - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
                                     - WITCH_WEST_TORMENT_DETAIL
                                       - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
-                                        - WITCH_WEST_ORACLE_ENTRY
-                                          - ↩ cycle
-                                      - "Signal the Monkeys to begin "The Scrap Reallocation."" → WITCH_WEST_END_SCRAP
+                                        - ↩ cycle
+                                      - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
                                         - WITCH_WEST_END_SCRAP [ENDING]
                           - "Walk the perimeter — let the Winkie chant stabilize the ritual chamber." → WITCH_WEST_WINKIE_CORRIDOR
                             - WITCH_WEST_WINKIE_CORRIDOR
@@ -8235,98 +7977,101 @@ Generated: 2026-05-01T21:04:29.436Z
                                       - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
                                         - WITCH_WEST_SCRAPE_MANE
                                           - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
-                                            - WITCH_WEST_LION_AUDIT_HUB
-                                              - ↩ cycle
-                                          - "Braid the hairs into a "Fear-Whip"." → WITCH_WEST_LION_AUDIT_HUB
-                                            - WITCH_WEST_LION_AUDIT_HUB
-                                              - ↩ cycle
+                                            - ↩ cycle
+                                          - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
                                       - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
                                         - WITCH_WEST_LION_AUDIT_HUB
-                                          - ↩ cycle
+                                          - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                            - WITCH_WEST_SCRAPE_MANE
+                                              - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                              - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                          - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                            - ↩ cycle
                                       - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
                                         - WITCH_WEST_LION_AUDIT_HUB
-                                          - ↩ cycle
+                                          - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                            - WITCH_WEST_SCRAPE_MANE
+                                              - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                              - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                          - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                            - ↩ cycle
                                       - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
-                                        - WITCH_WEST_COMMAND_DECK_V2
-                                          - ↩ cycle
-                                  - "SURVEILLANCE: Deploy "Eye-on-a-String" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
+                                        - ↩ cycle
+                                  - "SURVEILLANCE: Deploy \"Eye-on-a-String\" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
                                     - WITCH_WEST_OBSIDIAN_VIEW
                                       - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
-                                        - WITCH_WEST_ORACLE_ENTRY
-                                          - ↩ cycle
+                                        - ↩ cycle
                                       - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
-                                        - WITCH_WEST_FIELD_CONFRONTATION
-                                          - ↩ cycle
+                                        - ↩ cycle
                                       - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
                                         - WITCH_WEST_SIGNAL_BLEED
                                           - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
-                                            - WITCH_WEST_COMMAND_DECK_V2
-                                              - ↩ cycle
+                                            - ↩ cycle
                                           - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
                                             - WITCH_WEST_END_MELTING [ENDING]
                                   - "PHARMACOLOGY: Refine the Poppy Resin in the crucible." → WITCH_WEST_POPPY_BUFFER
                                     - WITCH_WEST_POPPY_BUFFER
                                       - "Wait for them at the tower gate. Receive them at full compliance." → WITCH_WEST_FIELD_CONFRONTATION
-                                        - WITCH_WEST_FIELD_CONFRONTATION
-                                          - ↩ cycle
+                                        - ↩ cycle
                                       - "Send the monkeys to accelerate their arrival." → WITCH_WEST_MONKEY_SWEEP_B
-                                        - WITCH_WEST_MONKEY_SWEEP_B
-                                          - ↩ cycle
-                                  - "ADMINISTRATION: File a "Pre-emptive Deletion" warrant." → WITCH_WEST_BUREAU_FILING
+                                        - ↩ cycle
+                                  - "ADMINISTRATION: File a \"Pre-emptive Deletion\" warrant." → WITCH_WEST_BUREAU_FILING
                                     - WITCH_WEST_BUREAU_FILING
-                                      - "Label it "Maintenance Disposal" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
-                                        - WITCH_WEST_COMMAND_DECK_V2
-                                          - ↩ cycle
-                                      - "Label it "Judicial Reclamation" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
-                                        - WITCH_WEST_COMMAND_DECK_V2
-                                          - ↩ cycle
-                                  - "THE FINAL INCISION: Trigger "The Melting Point"." → WITCH_WEST_END_MELTING
+                                      - "Label it \"Maintenance Disposal\" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                        - ↩ cycle
+                                      - "Label it \"Judicial Reclamation\" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
+                                        - ↩ cycle
+                                  - "THE FINAL INCISION: Trigger \"The Melting Point\"." → WITCH_WEST_END_MELTING
                                     - WITCH_WEST_END_MELTING [ENDING]
                       - "Toy with him first. Make him beg for the mercy of the scalpel." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
                         - WITCH_WEST_PSYCHOLOGICAL_TORMENT
                           - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
-                            - WITCH_WEST_ORACLE_ENTRY
-                              - ↩ cycle
+                            - ↩ cycle
                           - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
                             - WITCH_WEST_END_MELTING [ENDING]
                           - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
                             - WITCH_WEST_TORMENT_DETAIL
                               - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
-                                - WITCH_WEST_ORACLE_ENTRY
-                                  - ↩ cycle
-                              - "Signal the Monkeys to begin "The Scrap Reallocation."" → WITCH_WEST_END_SCRAP
+                                - ↩ cycle
+                              - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
                                 - WITCH_WEST_END_SCRAP [ENDING]
                       - "The Clerk flags the warrant status — review the audit logs." → WITCH_WEST_BUREAU_LOG_CHECK
                         - WITCH_WEST_BUREAU_LOG_CHECK
-                          - ""It is a Judicial Necessity." (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
+                          - "\"It is a Judicial Necessity.\" (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
                             - WITCH_WEST_COMMAND_DECK
                               - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
                                 - WITCH_WEST_MONKEY_MANAGEMENT
-                                  - "Order a "Kinetic Brush-By" (Increase Load)." → WITCH_WEST_COMMAND_DECK
-                                    - WITCH_WEST_COMMAND_DECK
-                                      - ↩ cycle
-                                  - "Order "Silent Hover" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
-                                    - WITCH_WEST_COMMAND_DECK
-                                      - ↩ cycle
-                                  - "Order "Aggressive Shriek" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
-                                    - WITCH_WEST_ORACLE_ENTRY
-                                      - ↩ cycle
+                                  - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                    - ↩ cycle
+                                  - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                    - ↩ cycle
+                                  - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                    - ↩ cycle
                               - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
                                 - WITCH_WEST_POPPY_CALIBRATION
                                   - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
-                                    - WITCH_WEST_COMMAND_DECK
-                                      - ↩ cycle
-                                  - "Pulse the Field: Create a "Lullaby Spike"." → WITCH_WEST_COMMAND_DECK
-                                    - WITCH_WEST_COMMAND_DECK
-                                      - ↩ cycle
+                                    - ↩ cycle
+                                  - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                    - ↩ cycle
                               - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
                                 - WITCH_WEST_OBSIDIAN_VIEW
                                   - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
-                                    - WITCH_WEST_ORACLE_ENTRY
-                                      - ↩ cycle
+                                    - ↩ cycle
                                   - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
-                                    - WITCH_WEST_FIELD_CONFRONTATION
-                                      - ↩ cycle
+                                    - ↩ cycle
                                   - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
                                     - WITCH_WEST_SIGNAL_BLEED
                                       - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
@@ -8336,75 +8081,81 @@ Generated: 2026-05-01T21:04:29.436Z
                                               - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
                                                 - WITCH_WEST_SCRAPE_MANE
                                                   - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
-                                                    - WITCH_WEST_LION_AUDIT_HUB
-                                                      - ↩ cycle
-                                                  - "Braid the hairs into a "Fear-Whip"." → WITCH_WEST_LION_AUDIT_HUB
-                                                    - WITCH_WEST_LION_AUDIT_HUB
-                                                      - ↩ cycle
+                                                    - ↩ cycle
+                                                  - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                                    - ↩ cycle
                                               - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
                                                 - WITCH_WEST_LION_AUDIT_HUB
-                                                  - ↩ cycle
+                                                  - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                                    - WITCH_WEST_SCRAPE_MANE
+                                                      - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                                        - ↩ cycle
+                                                      - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                                        - ↩ cycle
+                                                  - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                                    - ↩ cycle
+                                                  - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                                    - ↩ cycle
+                                                  - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                                    - ↩ cycle
                                               - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
                                                 - WITCH_WEST_LION_AUDIT_HUB
-                                                  - ↩ cycle
+                                                  - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                                    - WITCH_WEST_SCRAPE_MANE
+                                                      - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                                        - ↩ cycle
+                                                      - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                                        - ↩ cycle
+                                                  - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                                    - ↩ cycle
+                                                  - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                                    - ↩ cycle
+                                                  - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                                    - ↩ cycle
                                               - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
-                                                - WITCH_WEST_COMMAND_DECK_V2
-                                                  - ↩ cycle
-                                          - "SURVEILLANCE: Deploy "Eye-on-a-String" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
-                                            - WITCH_WEST_OBSIDIAN_VIEW
-                                              - ↩ cycle
+                                                - ↩ cycle
+                                          - "SURVEILLANCE: Deploy \"Eye-on-a-String\" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
+                                            - ↩ cycle
                                           - "PHARMACOLOGY: Refine the Poppy Resin in the crucible." → WITCH_WEST_POPPY_BUFFER
                                             - WITCH_WEST_POPPY_BUFFER
                                               - "Wait for them at the tower gate. Receive them at full compliance." → WITCH_WEST_FIELD_CONFRONTATION
-                                                - WITCH_WEST_FIELD_CONFRONTATION
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                               - "Send the monkeys to accelerate their arrival." → WITCH_WEST_MONKEY_SWEEP_B
-                                                - WITCH_WEST_MONKEY_SWEEP_B
-                                                  - ↩ cycle
-                                          - "ADMINISTRATION: File a "Pre-emptive Deletion" warrant." → WITCH_WEST_BUREAU_FILING
+                                                - ↩ cycle
+                                          - "ADMINISTRATION: File a \"Pre-emptive Deletion\" warrant." → WITCH_WEST_BUREAU_FILING
                                             - WITCH_WEST_BUREAU_FILING
-                                              - "Label it "Maintenance Disposal" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
-                                                - WITCH_WEST_COMMAND_DECK_V2
-                                                  - ↩ cycle
-                                              - "Label it "Judicial Reclamation" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
-                                                - WITCH_WEST_COMMAND_DECK_V2
-                                                  - ↩ cycle
-                                          - "THE FINAL INCISION: Trigger "The Melting Point"." → WITCH_WEST_END_MELTING
+                                              - "Label it \"Maintenance Disposal\" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                                - ↩ cycle
+                                              - "Label it \"Judicial Reclamation\" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
+                                                - ↩ cycle
+                                          - "THE FINAL INCISION: Trigger \"The Melting Point\"." → WITCH_WEST_END_MELTING
                                             - WITCH_WEST_END_MELTING [ENDING]
                                       - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
                                         - WITCH_WEST_END_MELTING [ENDING]
-                              - "Initialize Ritual: "The Obsidian Matron"." → WITCH_WEST_ORACLE_ENTRY
-                                - WITCH_WEST_ORACLE_ENTRY
-                                  - ↩ cycle
-                          - ""The target is non-compliant." (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                              - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                - ↩ cycle
+                          - "\"The target is non-compliant.\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
                             - WITCH_WEST_COMMAND_DECK
                               - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
                                 - WITCH_WEST_MONKEY_MANAGEMENT
-                                  - "Order a "Kinetic Brush-By" (Increase Load)." → WITCH_WEST_COMMAND_DECK
-                                    - WITCH_WEST_COMMAND_DECK
-                                      - ↩ cycle
-                                  - "Order "Silent Hover" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
-                                    - WITCH_WEST_COMMAND_DECK
-                                      - ↩ cycle
-                                  - "Order "Aggressive Shriek" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
-                                    - WITCH_WEST_ORACLE_ENTRY
-                                      - ↩ cycle
+                                  - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                    - ↩ cycle
+                                  - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                    - ↩ cycle
+                                  - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                    - ↩ cycle
                               - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
                                 - WITCH_WEST_POPPY_CALIBRATION
                                   - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
-                                    - WITCH_WEST_COMMAND_DECK
-                                      - ↩ cycle
-                                  - "Pulse the Field: Create a "Lullaby Spike"." → WITCH_WEST_COMMAND_DECK
-                                    - WITCH_WEST_COMMAND_DECK
-                                      - ↩ cycle
+                                    - ↩ cycle
+                                  - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                    - ↩ cycle
                               - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
                                 - WITCH_WEST_OBSIDIAN_VIEW
                                   - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
-                                    - WITCH_WEST_ORACLE_ENTRY
-                                      - ↩ cycle
+                                    - ↩ cycle
                                   - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
-                                    - WITCH_WEST_FIELD_CONFRONTATION
-                                      - ↩ cycle
+                                    - ↩ cycle
                                   - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
                                     - WITCH_WEST_SIGNAL_BLEED
                                       - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
@@ -8414,74 +8165,82 @@ Generated: 2026-05-01T21:04:29.436Z
                                               - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
                                                 - WITCH_WEST_SCRAPE_MANE
                                                   - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
-                                                    - WITCH_WEST_LION_AUDIT_HUB
-                                                      - ↩ cycle
-                                                  - "Braid the hairs into a "Fear-Whip"." → WITCH_WEST_LION_AUDIT_HUB
-                                                    - WITCH_WEST_LION_AUDIT_HUB
-                                                      - ↩ cycle
+                                                    - ↩ cycle
+                                                  - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                                    - ↩ cycle
                                               - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
                                                 - WITCH_WEST_LION_AUDIT_HUB
-                                                  - ↩ cycle
+                                                  - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                                    - WITCH_WEST_SCRAPE_MANE
+                                                      - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                                        - ↩ cycle
+                                                      - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                                        - ↩ cycle
+                                                  - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                                    - ↩ cycle
+                                                  - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                                    - ↩ cycle
+                                                  - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                                    - ↩ cycle
                                               - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
                                                 - WITCH_WEST_LION_AUDIT_HUB
-                                                  - ↩ cycle
+                                                  - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                                    - WITCH_WEST_SCRAPE_MANE
+                                                      - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                                        - ↩ cycle
+                                                      - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                                        - ↩ cycle
+                                                  - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                                    - ↩ cycle
+                                                  - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                                    - ↩ cycle
+                                                  - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                                    - ↩ cycle
                                               - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
-                                                - WITCH_WEST_COMMAND_DECK_V2
-                                                  - ↩ cycle
-                                          - "SURVEILLANCE: Deploy "Eye-on-a-String" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
-                                            - WITCH_WEST_OBSIDIAN_VIEW
-                                              - ↩ cycle
+                                                - ↩ cycle
+                                          - "SURVEILLANCE: Deploy \"Eye-on-a-String\" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
+                                            - ↩ cycle
                                           - "PHARMACOLOGY: Refine the Poppy Resin in the crucible." → WITCH_WEST_POPPY_BUFFER
                                             - WITCH_WEST_POPPY_BUFFER
                                               - "Wait for them at the tower gate. Receive them at full compliance." → WITCH_WEST_FIELD_CONFRONTATION
-                                                - WITCH_WEST_FIELD_CONFRONTATION
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                               - "Send the monkeys to accelerate their arrival." → WITCH_WEST_MONKEY_SWEEP_B
-                                                - WITCH_WEST_MONKEY_SWEEP_B
-                                                  - ↩ cycle
-                                          - "ADMINISTRATION: File a "Pre-emptive Deletion" warrant." → WITCH_WEST_BUREAU_FILING
+                                                - ↩ cycle
+                                          - "ADMINISTRATION: File a \"Pre-emptive Deletion\" warrant." → WITCH_WEST_BUREAU_FILING
                                             - WITCH_WEST_BUREAU_FILING
-                                              - "Label it "Maintenance Disposal" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
-                                                - WITCH_WEST_COMMAND_DECK_V2
-                                                  - ↩ cycle
-                                              - "Label it "Judicial Reclamation" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
-                                                - WITCH_WEST_COMMAND_DECK_V2
-                                                  - ↩ cycle
-                                          - "THE FINAL INCISION: Trigger "The Melting Point"." → WITCH_WEST_END_MELTING
+                                              - "Label it \"Maintenance Disposal\" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                                - ↩ cycle
+                                              - "Label it \"Judicial Reclamation\" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
+                                                - ↩ cycle
+                                          - "THE FINAL INCISION: Trigger \"The Melting Point\"." → WITCH_WEST_END_MELTING
                                             - WITCH_WEST_END_MELTING [ENDING]
                                       - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
                                         - WITCH_WEST_END_MELTING [ENDING]
-                              - "Initialize Ritual: "The Obsidian Matron"." → WITCH_WEST_ORACLE_ENTRY
-                                - WITCH_WEST_ORACLE_ENTRY
-                                  - ↩ cycle
+                              - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                - ↩ cycle
                   - "Order the monkeys to begin preliminary harvesting en route." → WITCH_WEST_MID_AIR_HARVEST
                     - WITCH_WEST_MID_AIR_HARVEST
                       - "Complete the harvest — proceed to the full Obsidian Eye ritual." → WITCH_WEST_ORACLE_ENTRY
-                        - WITCH_WEST_ORACLE_ENTRY
-                          - ↩ cycle
+                        - ↩ cycle
                       - "Carry what remains to the tower for proper documentation." → WITCH_WEST_TOWER_PREP
                         - WITCH_WEST_TOWER_PREP
                           - "The chamber is prepared. Begin the Obsidian Eye procedure." → WITCH_WEST_ORACLE_ENTRY
-                            - WITCH_WEST_ORACLE_ENTRY
-                              - ↩ cycle
+                            - ↩ cycle
                           - "The Clerk signals a compliance concern — attend to the warning." → WITCH_WEST_CLERK_INTERLUDE
                             - WITCH_WEST_CLERK_INTERLUDE
                               - "Force the verdict now — Summon the Obsidian Matron." → WITCH_WEST_ORACLE_ENTRY
-                                - WITCH_WEST_ORACLE_ENTRY
-                                  - ↩ cycle
+                                - ↩ cycle
                               - "Ignore the Clerk. Proceed with psychological pressure." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
                                 - WITCH_WEST_PSYCHOLOGICAL_TORMENT
                                   - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
-                                    - WITCH_WEST_ORACLE_ENTRY
-                                      - ↩ cycle
+                                    - ↩ cycle
                                   - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
                                     - WITCH_WEST_END_MELTING [ENDING]
                                   - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
                                     - WITCH_WEST_TORMENT_DETAIL
                                       - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
-                                        - WITCH_WEST_ORACLE_ENTRY
-                                          - ↩ cycle
-                                      - "Signal the Monkeys to begin "The Scrap Reallocation."" → WITCH_WEST_END_SCRAP
+                                        - ↩ cycle
+                                      - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
                                         - WITCH_WEST_END_SCRAP [ENDING]
                           - "Walk the perimeter — let the Winkie chant stabilize the ritual chamber." → WITCH_WEST_WINKIE_CORRIDOR
                             - WITCH_WEST_WINKIE_CORRIDOR
@@ -8498,25 +8257,43 @@ Generated: 2026-05-01T21:04:29.436Z
                                       - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
                                         - WITCH_WEST_SCRAPE_MANE
                                           - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
-                                            - WITCH_WEST_LION_AUDIT_HUB
-                                              - ↩ cycle
-                                          - "Braid the hairs into a "Fear-Whip"." → WITCH_WEST_LION_AUDIT_HUB
-                                            - WITCH_WEST_LION_AUDIT_HUB
-                                              - ↩ cycle
+                                            - ↩ cycle
+                                          - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
                                       - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
                                         - WITCH_WEST_LION_AUDIT_HUB
-                                          - ↩ cycle
+                                          - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                            - WITCH_WEST_SCRAPE_MANE
+                                              - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                              - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                          - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                            - ↩ cycle
                                       - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
                                         - WITCH_WEST_LION_AUDIT_HUB
-                                          - ↩ cycle
+                                          - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                            - WITCH_WEST_SCRAPE_MANE
+                                              - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                              - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                          - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                            - ↩ cycle
                                       - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
-                                        - WITCH_WEST_COMMAND_DECK_V2
-                                          - ↩ cycle
-                                  - "SURVEILLANCE: Deploy "Eye-on-a-String" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
+                                        - ↩ cycle
+                                  - "SURVEILLANCE: Deploy \"Eye-on-a-String\" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
                                     - WITCH_WEST_OBSIDIAN_VIEW
                                       - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
-                                        - WITCH_WEST_ORACLE_ENTRY
-                                          - ↩ cycle
+                                        - ↩ cycle
                                       - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
                                         - WITCH_WEST_FIELD_CONFRONTATION
                                           - "Pick who gets the first incision, then begin the Obsidian Eye ritual." → WITCH_WEST_SELECT_TARGET
@@ -8524,101 +8301,79 @@ Generated: 2026-05-01T21:04:29.436Z
                                               - "Lion" → WITCH_WEST_ORACLE_ENTRY_LION
                                                 - WITCH_WEST_ORACLE_ENTRY_LION
                                                   - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
-                                                    - WITCH_WEST_ORACLE_DRAW
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                               - "Dorothy" → WITCH_WEST_ORACLE_ENTRY_DOROTHY
                                                 - WITCH_WEST_ORACLE_ENTRY_DOROTHY
                                                   - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
-                                                    - WITCH_WEST_ORACLE_DRAW
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                               - "Tin Man" → WITCH_WEST_ORACLE_ENTRY_TINMAN
                                                 - WITCH_WEST_ORACLE_ENTRY_TINMAN
                                                   - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
-                                                    - WITCH_WEST_ORACLE_DRAW
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                               - "Scarecrow" → WITCH_WEST_ORACLE_ENTRY_SCARECROW
                                                 - WITCH_WEST_ORACLE_ENTRY_SCARECROW
                                                   - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
-                                                    - WITCH_WEST_ORACLE_DRAW
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                           - "Have the monkeys carry him back to the tower for a proper procedure." → WITCH_WEST_TOWER_PREP
-                                            - WITCH_WEST_TOWER_PREP
-                                              - ↩ cycle
+                                            - ↩ cycle
                                           - "Toy with him first. Make him beg for the mercy of the scalpel." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
                                             - WITCH_WEST_PSYCHOLOGICAL_TORMENT
                                               - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
-                                                - WITCH_WEST_ORACLE_ENTRY
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                               - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
                                                 - WITCH_WEST_END_MELTING [ENDING]
                                               - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
                                                 - WITCH_WEST_TORMENT_DETAIL
                                                   - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
-                                                    - WITCH_WEST_ORACLE_ENTRY
-                                                      - ↩ cycle
-                                                  - "Signal the Monkeys to begin "The Scrap Reallocation."" → WITCH_WEST_END_SCRAP
+                                                    - ↩ cycle
+                                                  - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
                                                     - WITCH_WEST_END_SCRAP [ENDING]
                                           - "The Clerk flags the warrant status — review the audit logs." → WITCH_WEST_BUREAU_LOG_CHECK
                                             - WITCH_WEST_BUREAU_LOG_CHECK
-                                              - ""It is a Judicial Necessity." (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
+                                              - "\"It is a Judicial Necessity.\" (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
                                                 - WITCH_WEST_COMMAND_DECK
                                                   - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
                                                     - WITCH_WEST_MONKEY_MANAGEMENT
-                                                      - "Order a "Kinetic Brush-By" (Increase Load)." → WITCH_WEST_COMMAND_DECK
-                                                        - WITCH_WEST_COMMAND_DECK
-                                                          - ↩ cycle
-                                                      - "Order "Silent Hover" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
-                                                        - WITCH_WEST_COMMAND_DECK
-                                                          - ↩ cycle
-                                                      - "Order "Aggressive Shriek" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
-                                                        - WITCH_WEST_ORACLE_ENTRY
-                                                          - ↩ cycle
+                                                      - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                                        - ↩ cycle
+                                                      - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                        - ↩ cycle
+                                                      - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                                        - ↩ cycle
                                                   - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
                                                     - WITCH_WEST_POPPY_CALIBRATION
                                                       - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
-                                                        - WITCH_WEST_COMMAND_DECK
-                                                          - ↩ cycle
-                                                      - "Pulse the Field: Create a "Lullaby Spike"." → WITCH_WEST_COMMAND_DECK
-                                                        - WITCH_WEST_COMMAND_DECK
-                                                          - ↩ cycle
+                                                        - ↩ cycle
+                                                      - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                                        - ↩ cycle
                                                   - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
-                                                    - WITCH_WEST_OBSIDIAN_VIEW
-                                                      - ↩ cycle
-                                                  - "Initialize Ritual: "The Obsidian Matron"." → WITCH_WEST_ORACLE_ENTRY
-                                                    - WITCH_WEST_ORACLE_ENTRY
-                                                      - ↩ cycle
-                                              - ""The target is non-compliant." (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                    - ↩ cycle
+                                                  - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                                    - ↩ cycle
+                                              - "\"The target is non-compliant.\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
                                                 - WITCH_WEST_COMMAND_DECK
                                                   - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
                                                     - WITCH_WEST_MONKEY_MANAGEMENT
-                                                      - "Order a "Kinetic Brush-By" (Increase Load)." → WITCH_WEST_COMMAND_DECK
-                                                        - WITCH_WEST_COMMAND_DECK
-                                                          - ↩ cycle
-                                                      - "Order "Silent Hover" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
-                                                        - WITCH_WEST_COMMAND_DECK
-                                                          - ↩ cycle
-                                                      - "Order "Aggressive Shriek" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
-                                                        - WITCH_WEST_ORACLE_ENTRY
-                                                          - ↩ cycle
+                                                      - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                                        - ↩ cycle
+                                                      - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                        - ↩ cycle
+                                                      - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                                        - ↩ cycle
                                                   - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
                                                     - WITCH_WEST_POPPY_CALIBRATION
                                                       - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
-                                                        - WITCH_WEST_COMMAND_DECK
-                                                          - ↩ cycle
-                                                      - "Pulse the Field: Create a "Lullaby Spike"." → WITCH_WEST_COMMAND_DECK
-                                                        - WITCH_WEST_COMMAND_DECK
-                                                          - ↩ cycle
+                                                        - ↩ cycle
+                                                      - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                                        - ↩ cycle
                                                   - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
-                                                    - WITCH_WEST_OBSIDIAN_VIEW
-                                                      - ↩ cycle
-                                                  - "Initialize Ritual: "The Obsidian Matron"." → WITCH_WEST_ORACLE_ENTRY
-                                                    - WITCH_WEST_ORACLE_ENTRY
-                                                      - ↩ cycle
+                                                    - ↩ cycle
+                                                  - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                                    - ↩ cycle
                                       - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
                                         - WITCH_WEST_SIGNAL_BLEED
                                           - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
-                                            - WITCH_WEST_COMMAND_DECK_V2
-                                              - ↩ cycle
+                                            - ↩ cycle
                                           - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
                                             - WITCH_WEST_END_MELTING [ENDING]
                                   - "PHARMACOLOGY: Refine the Poppy Resin in the crucible." → WITCH_WEST_POPPY_BUFFER
@@ -8630,158 +8385,126 @@ Generated: 2026-05-01T21:04:29.436Z
                                               - "Lion" → WITCH_WEST_ORACLE_ENTRY_LION
                                                 - WITCH_WEST_ORACLE_ENTRY_LION
                                                   - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
-                                                    - WITCH_WEST_ORACLE_DRAW
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                               - "Dorothy" → WITCH_WEST_ORACLE_ENTRY_DOROTHY
                                                 - WITCH_WEST_ORACLE_ENTRY_DOROTHY
                                                   - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
-                                                    - WITCH_WEST_ORACLE_DRAW
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                               - "Tin Man" → WITCH_WEST_ORACLE_ENTRY_TINMAN
                                                 - WITCH_WEST_ORACLE_ENTRY_TINMAN
                                                   - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
-                                                    - WITCH_WEST_ORACLE_DRAW
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                               - "Scarecrow" → WITCH_WEST_ORACLE_ENTRY_SCARECROW
                                                 - WITCH_WEST_ORACLE_ENTRY_SCARECROW
                                                   - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
-                                                    - WITCH_WEST_ORACLE_DRAW
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                           - "Have the monkeys carry him back to the tower for a proper procedure." → WITCH_WEST_TOWER_PREP
-                                            - WITCH_WEST_TOWER_PREP
-                                              - ↩ cycle
+                                            - ↩ cycle
                                           - "Toy with him first. Make him beg for the mercy of the scalpel." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
                                             - WITCH_WEST_PSYCHOLOGICAL_TORMENT
                                               - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
-                                                - WITCH_WEST_ORACLE_ENTRY
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                               - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
                                                 - WITCH_WEST_END_MELTING [ENDING]
                                               - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
                                                 - WITCH_WEST_TORMENT_DETAIL
                                                   - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
-                                                    - WITCH_WEST_ORACLE_ENTRY
-                                                      - ↩ cycle
-                                                  - "Signal the Monkeys to begin "The Scrap Reallocation."" → WITCH_WEST_END_SCRAP
+                                                    - ↩ cycle
+                                                  - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
                                                     - WITCH_WEST_END_SCRAP [ENDING]
                                           - "The Clerk flags the warrant status — review the audit logs." → WITCH_WEST_BUREAU_LOG_CHECK
                                             - WITCH_WEST_BUREAU_LOG_CHECK
-                                              - ""It is a Judicial Necessity." (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
+                                              - "\"It is a Judicial Necessity.\" (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
                                                 - WITCH_WEST_COMMAND_DECK
                                                   - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
                                                     - WITCH_WEST_MONKEY_MANAGEMENT
-                                                      - "Order a "Kinetic Brush-By" (Increase Load)." → WITCH_WEST_COMMAND_DECK
-                                                        - WITCH_WEST_COMMAND_DECK
-                                                          - ↩ cycle
-                                                      - "Order "Silent Hover" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
-                                                        - WITCH_WEST_COMMAND_DECK
-                                                          - ↩ cycle
-                                                      - "Order "Aggressive Shriek" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
-                                                        - WITCH_WEST_ORACLE_ENTRY
-                                                          - ↩ cycle
+                                                      - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                                        - ↩ cycle
+                                                      - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                        - ↩ cycle
+                                                      - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                                        - ↩ cycle
                                                   - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
                                                     - WITCH_WEST_POPPY_CALIBRATION
                                                       - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
-                                                        - WITCH_WEST_COMMAND_DECK
-                                                          - ↩ cycle
-                                                      - "Pulse the Field: Create a "Lullaby Spike"." → WITCH_WEST_COMMAND_DECK
-                                                        - WITCH_WEST_COMMAND_DECK
-                                                          - ↩ cycle
+                                                        - ↩ cycle
+                                                      - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                                        - ↩ cycle
                                                   - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
                                                     - WITCH_WEST_OBSIDIAN_VIEW
                                                       - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
-                                                        - WITCH_WEST_ORACLE_ENTRY
-                                                          - ↩ cycle
+                                                        - ↩ cycle
                                                       - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
-                                                        - WITCH_WEST_FIELD_CONFRONTATION
-                                                          - ↩ cycle
+                                                        - ↩ cycle
                                                       - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
                                                         - WITCH_WEST_SIGNAL_BLEED
                                                           - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
-                                                            - WITCH_WEST_COMMAND_DECK_V2
-                                                              - ↩ cycle
+                                                            - ↩ cycle
                                                           - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
                                                             - WITCH_WEST_END_MELTING [ENDING]
-                                                  - "Initialize Ritual: "The Obsidian Matron"." → WITCH_WEST_ORACLE_ENTRY
-                                                    - WITCH_WEST_ORACLE_ENTRY
-                                                      - ↩ cycle
-                                              - ""The target is non-compliant." (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                  - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                                    - ↩ cycle
+                                              - "\"The target is non-compliant.\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
                                                 - WITCH_WEST_COMMAND_DECK
                                                   - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
                                                     - WITCH_WEST_MONKEY_MANAGEMENT
-                                                      - "Order a "Kinetic Brush-By" (Increase Load)." → WITCH_WEST_COMMAND_DECK
-                                                        - WITCH_WEST_COMMAND_DECK
-                                                          - ↩ cycle
-                                                      - "Order "Silent Hover" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
-                                                        - WITCH_WEST_COMMAND_DECK
-                                                          - ↩ cycle
-                                                      - "Order "Aggressive Shriek" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
-                                                        - WITCH_WEST_ORACLE_ENTRY
-                                                          - ↩ cycle
+                                                      - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                                        - ↩ cycle
+                                                      - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                        - ↩ cycle
+                                                      - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                                        - ↩ cycle
                                                   - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
                                                     - WITCH_WEST_POPPY_CALIBRATION
                                                       - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
-                                                        - WITCH_WEST_COMMAND_DECK
-                                                          - ↩ cycle
-                                                      - "Pulse the Field: Create a "Lullaby Spike"." → WITCH_WEST_COMMAND_DECK
-                                                        - WITCH_WEST_COMMAND_DECK
-                                                          - ↩ cycle
+                                                        - ↩ cycle
+                                                      - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                                        - ↩ cycle
                                                   - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
                                                     - WITCH_WEST_OBSIDIAN_VIEW
                                                       - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
-                                                        - WITCH_WEST_ORACLE_ENTRY
-                                                          - ↩ cycle
+                                                        - ↩ cycle
                                                       - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
-                                                        - WITCH_WEST_FIELD_CONFRONTATION
-                                                          - ↩ cycle
+                                                        - ↩ cycle
                                                       - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
                                                         - WITCH_WEST_SIGNAL_BLEED
                                                           - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
-                                                            - WITCH_WEST_COMMAND_DECK_V2
-                                                              - ↩ cycle
+                                                            - ↩ cycle
                                                           - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
                                                             - WITCH_WEST_END_MELTING [ENDING]
-                                                  - "Initialize Ritual: "The Obsidian Matron"." → WITCH_WEST_ORACLE_ENTRY
-                                                    - WITCH_WEST_ORACLE_ENTRY
-                                                      - ↩ cycle
+                                                  - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                                    - ↩ cycle
                                       - "Send the monkeys to accelerate their arrival." → WITCH_WEST_MONKEY_SWEEP_B
-                                        - WITCH_WEST_MONKEY_SWEEP_B
-                                          - ↩ cycle
-                                  - "ADMINISTRATION: File a "Pre-emptive Deletion" warrant." → WITCH_WEST_BUREAU_FILING
+                                        - ↩ cycle
+                                  - "ADMINISTRATION: File a \"Pre-emptive Deletion\" warrant." → WITCH_WEST_BUREAU_FILING
                                     - WITCH_WEST_BUREAU_FILING
-                                      - "Label it "Maintenance Disposal" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
-                                        - WITCH_WEST_COMMAND_DECK_V2
-                                          - ↩ cycle
-                                      - "Label it "Judicial Reclamation" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
-                                        - WITCH_WEST_COMMAND_DECK_V2
-                                          - ↩ cycle
-                                  - "THE FINAL INCISION: Trigger "The Melting Point"." → WITCH_WEST_END_MELTING
+                                      - "Label it \"Maintenance Disposal\" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                        - ↩ cycle
+                                      - "Label it \"Judicial Reclamation\" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
+                                        - ↩ cycle
+                                  - "THE FINAL INCISION: Trigger \"The Melting Point\"." → WITCH_WEST_END_MELTING
                                     - WITCH_WEST_END_MELTING [ENDING]
                       - "Monitor the kinetic audit in granular detail." → WITCH_WEST_MID_AIR_HARVEST_DETAIL
                         - WITCH_WEST_MID_AIR_HARVEST_DETAIL
                           - "Receive the parts in the Ritual Chamber." → WITCH_WEST_TOWER_PREP
                             - WITCH_WEST_TOWER_PREP
                               - "The chamber is prepared. Begin the Obsidian Eye procedure." → WITCH_WEST_ORACLE_ENTRY
-                                - WITCH_WEST_ORACLE_ENTRY
-                                  - ↩ cycle
+                                - ↩ cycle
                               - "The Clerk signals a compliance concern — attend to the warning." → WITCH_WEST_CLERK_INTERLUDE
                                 - WITCH_WEST_CLERK_INTERLUDE
                                   - "Force the verdict now — Summon the Obsidian Matron." → WITCH_WEST_ORACLE_ENTRY
-                                    - WITCH_WEST_ORACLE_ENTRY
-                                      - ↩ cycle
+                                    - ↩ cycle
                                   - "Ignore the Clerk. Proceed with psychological pressure." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
                                     - WITCH_WEST_PSYCHOLOGICAL_TORMENT
                                       - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
-                                        - WITCH_WEST_ORACLE_ENTRY
-                                          - ↩ cycle
+                                        - ↩ cycle
                                       - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
                                         - WITCH_WEST_END_MELTING [ENDING]
                                       - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
                                         - WITCH_WEST_TORMENT_DETAIL
                                           - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
-                                            - WITCH_WEST_ORACLE_ENTRY
-                                              - ↩ cycle
-                                          - "Signal the Monkeys to begin "The Scrap Reallocation."" → WITCH_WEST_END_SCRAP
+                                            - ↩ cycle
+                                          - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
                                             - WITCH_WEST_END_SCRAP [ENDING]
                               - "Walk the perimeter — let the Winkie chant stabilize the ritual chamber." → WITCH_WEST_WINKIE_CORRIDOR
                                 - WITCH_WEST_WINKIE_CORRIDOR
@@ -8798,25 +8521,43 @@ Generated: 2026-05-01T21:04:29.436Z
                                           - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
                                             - WITCH_WEST_SCRAPE_MANE
                                               - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
-                                                - WITCH_WEST_LION_AUDIT_HUB
-                                                  - ↩ cycle
-                                              - "Braid the hairs into a "Fear-Whip"." → WITCH_WEST_LION_AUDIT_HUB
-                                                - WITCH_WEST_LION_AUDIT_HUB
-                                                  - ↩ cycle
+                                                - ↩ cycle
+                                              - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
                                           - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
                                             - WITCH_WEST_LION_AUDIT_HUB
-                                              - ↩ cycle
+                                              - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                                - WITCH_WEST_SCRAPE_MANE
+                                                  - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                                    - ↩ cycle
+                                                  - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                                    - ↩ cycle
+                                              - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                              - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                              - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                                - ↩ cycle
                                           - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
                                             - WITCH_WEST_LION_AUDIT_HUB
-                                              - ↩ cycle
+                                              - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                                - WITCH_WEST_SCRAPE_MANE
+                                                  - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                                    - ↩ cycle
+                                                  - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                                    - ↩ cycle
+                                              - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                              - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                              - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                                - ↩ cycle
                                           - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
-                                            - WITCH_WEST_COMMAND_DECK_V2
-                                              - ↩ cycle
-                                      - "SURVEILLANCE: Deploy "Eye-on-a-String" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
+                                            - ↩ cycle
+                                      - "SURVEILLANCE: Deploy \"Eye-on-a-String\" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
                                         - WITCH_WEST_OBSIDIAN_VIEW
                                           - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
-                                            - WITCH_WEST_ORACLE_ENTRY
-                                              - ↩ cycle
+                                            - ↩ cycle
                                           - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
                                             - WITCH_WEST_FIELD_CONFRONTATION
                                               - "Pick who gets the first incision, then begin the Obsidian Eye ritual." → WITCH_WEST_SELECT_TARGET
@@ -8824,101 +8565,79 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Lion" → WITCH_WEST_ORACLE_ENTRY_LION
                                                     - WITCH_WEST_ORACLE_ENTRY_LION
                                                       - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
-                                                        - WITCH_WEST_ORACLE_DRAW
-                                                          - ↩ cycle
+                                                        - ↩ cycle
                                                   - "Dorothy" → WITCH_WEST_ORACLE_ENTRY_DOROTHY
                                                     - WITCH_WEST_ORACLE_ENTRY_DOROTHY
                                                       - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
-                                                        - WITCH_WEST_ORACLE_DRAW
-                                                          - ↩ cycle
+                                                        - ↩ cycle
                                                   - "Tin Man" → WITCH_WEST_ORACLE_ENTRY_TINMAN
                                                     - WITCH_WEST_ORACLE_ENTRY_TINMAN
                                                       - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
-                                                        - WITCH_WEST_ORACLE_DRAW
-                                                          - ↩ cycle
+                                                        - ↩ cycle
                                                   - "Scarecrow" → WITCH_WEST_ORACLE_ENTRY_SCARECROW
                                                     - WITCH_WEST_ORACLE_ENTRY_SCARECROW
                                                       - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
-                                                        - WITCH_WEST_ORACLE_DRAW
-                                                          - ↩ cycle
+                                                        - ↩ cycle
                                               - "Have the monkeys carry him back to the tower for a proper procedure." → WITCH_WEST_TOWER_PREP
-                                                - WITCH_WEST_TOWER_PREP
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                               - "Toy with him first. Make him beg for the mercy of the scalpel." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
                                                 - WITCH_WEST_PSYCHOLOGICAL_TORMENT
                                                   - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
-                                                    - WITCH_WEST_ORACLE_ENTRY
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                                   - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
                                                     - WITCH_WEST_END_MELTING [ENDING]
                                                   - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
                                                     - WITCH_WEST_TORMENT_DETAIL
                                                       - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
-                                                        - WITCH_WEST_ORACLE_ENTRY
-                                                          - ↩ cycle
-                                                      - "Signal the Monkeys to begin "The Scrap Reallocation."" → WITCH_WEST_END_SCRAP
+                                                        - ↩ cycle
+                                                      - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
                                                         - WITCH_WEST_END_SCRAP [ENDING]
                                               - "The Clerk flags the warrant status — review the audit logs." → WITCH_WEST_BUREAU_LOG_CHECK
                                                 - WITCH_WEST_BUREAU_LOG_CHECK
-                                                  - ""It is a Judicial Necessity." (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
+                                                  - "\"It is a Judicial Necessity.\" (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
                                                     - WITCH_WEST_COMMAND_DECK
                                                       - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
                                                         - WITCH_WEST_MONKEY_MANAGEMENT
-                                                          - "Order a "Kinetic Brush-By" (Increase Load)." → WITCH_WEST_COMMAND_DECK
-                                                            - WITCH_WEST_COMMAND_DECK
-                                                              - ↩ cycle
-                                                          - "Order "Silent Hover" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
-                                                            - WITCH_WEST_COMMAND_DECK
-                                                              - ↩ cycle
-                                                          - "Order "Aggressive Shriek" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
-                                                            - WITCH_WEST_ORACLE_ENTRY
-                                                              - ↩ cycle
+                                                          - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                                            - ↩ cycle
+                                                          - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                            - ↩ cycle
+                                                          - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                                            - ↩ cycle
                                                       - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
                                                         - WITCH_WEST_POPPY_CALIBRATION
                                                           - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
-                                                            - WITCH_WEST_COMMAND_DECK
-                                                              - ↩ cycle
-                                                          - "Pulse the Field: Create a "Lullaby Spike"." → WITCH_WEST_COMMAND_DECK
-                                                            - WITCH_WEST_COMMAND_DECK
-                                                              - ↩ cycle
+                                                            - ↩ cycle
+                                                          - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                                            - ↩ cycle
                                                       - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
-                                                        - WITCH_WEST_OBSIDIAN_VIEW
-                                                          - ↩ cycle
-                                                      - "Initialize Ritual: "The Obsidian Matron"." → WITCH_WEST_ORACLE_ENTRY
-                                                        - WITCH_WEST_ORACLE_ENTRY
-                                                          - ↩ cycle
-                                                  - ""The target is non-compliant." (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                        - ↩ cycle
+                                                      - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                                        - ↩ cycle
+                                                  - "\"The target is non-compliant.\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
                                                     - WITCH_WEST_COMMAND_DECK
                                                       - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
                                                         - WITCH_WEST_MONKEY_MANAGEMENT
-                                                          - "Order a "Kinetic Brush-By" (Increase Load)." → WITCH_WEST_COMMAND_DECK
-                                                            - WITCH_WEST_COMMAND_DECK
-                                                              - ↩ cycle
-                                                          - "Order "Silent Hover" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
-                                                            - WITCH_WEST_COMMAND_DECK
-                                                              - ↩ cycle
-                                                          - "Order "Aggressive Shriek" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
-                                                            - WITCH_WEST_ORACLE_ENTRY
-                                                              - ↩ cycle
+                                                          - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                                            - ↩ cycle
+                                                          - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                            - ↩ cycle
+                                                          - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                                            - ↩ cycle
                                                       - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
                                                         - WITCH_WEST_POPPY_CALIBRATION
                                                           - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
-                                                            - WITCH_WEST_COMMAND_DECK
-                                                              - ↩ cycle
-                                                          - "Pulse the Field: Create a "Lullaby Spike"." → WITCH_WEST_COMMAND_DECK
-                                                            - WITCH_WEST_COMMAND_DECK
-                                                              - ↩ cycle
+                                                            - ↩ cycle
+                                                          - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                                            - ↩ cycle
                                                       - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
-                                                        - WITCH_WEST_OBSIDIAN_VIEW
-                                                          - ↩ cycle
-                                                      - "Initialize Ritual: "The Obsidian Matron"." → WITCH_WEST_ORACLE_ENTRY
-                                                        - WITCH_WEST_ORACLE_ENTRY
-                                                          - ↩ cycle
+                                                        - ↩ cycle
+                                                      - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                                        - ↩ cycle
                                           - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
                                             - WITCH_WEST_SIGNAL_BLEED
                                               - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
-                                                - WITCH_WEST_COMMAND_DECK_V2
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                               - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
                                                 - WITCH_WEST_END_MELTING [ENDING]
                                       - "PHARMACOLOGY: Refine the Poppy Resin in the crucible." → WITCH_WEST_POPPY_BUFFER
@@ -8930,140 +8649,111 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Lion" → WITCH_WEST_ORACLE_ENTRY_LION
                                                     - WITCH_WEST_ORACLE_ENTRY_LION
                                                       - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
-                                                        - WITCH_WEST_ORACLE_DRAW
-                                                          - ↩ cycle
+                                                        - ↩ cycle
                                                   - "Dorothy" → WITCH_WEST_ORACLE_ENTRY_DOROTHY
                                                     - WITCH_WEST_ORACLE_ENTRY_DOROTHY
                                                       - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
-                                                        - WITCH_WEST_ORACLE_DRAW
-                                                          - ↩ cycle
+                                                        - ↩ cycle
                                                   - "Tin Man" → WITCH_WEST_ORACLE_ENTRY_TINMAN
                                                     - WITCH_WEST_ORACLE_ENTRY_TINMAN
                                                       - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
-                                                        - WITCH_WEST_ORACLE_DRAW
-                                                          - ↩ cycle
+                                                        - ↩ cycle
                                                   - "Scarecrow" → WITCH_WEST_ORACLE_ENTRY_SCARECROW
                                                     - WITCH_WEST_ORACLE_ENTRY_SCARECROW
                                                       - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
-                                                        - WITCH_WEST_ORACLE_DRAW
-                                                          - ↩ cycle
+                                                        - ↩ cycle
                                               - "Have the monkeys carry him back to the tower for a proper procedure." → WITCH_WEST_TOWER_PREP
-                                                - WITCH_WEST_TOWER_PREP
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                               - "Toy with him first. Make him beg for the mercy of the scalpel." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
                                                 - WITCH_WEST_PSYCHOLOGICAL_TORMENT
                                                   - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
-                                                    - WITCH_WEST_ORACLE_ENTRY
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                                   - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
                                                     - WITCH_WEST_END_MELTING [ENDING]
                                                   - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
                                                     - WITCH_WEST_TORMENT_DETAIL
                                                       - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
-                                                        - WITCH_WEST_ORACLE_ENTRY
-                                                          - ↩ cycle
-                                                      - "Signal the Monkeys to begin "The Scrap Reallocation."" → WITCH_WEST_END_SCRAP
+                                                        - ↩ cycle
+                                                      - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
                                                         - WITCH_WEST_END_SCRAP [ENDING]
                                               - "The Clerk flags the warrant status — review the audit logs." → WITCH_WEST_BUREAU_LOG_CHECK
                                                 - WITCH_WEST_BUREAU_LOG_CHECK
-                                                  - ""It is a Judicial Necessity." (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
+                                                  - "\"It is a Judicial Necessity.\" (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
                                                     - WITCH_WEST_COMMAND_DECK
                                                       - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
                                                         - WITCH_WEST_MONKEY_MANAGEMENT
-                                                          - "Order a "Kinetic Brush-By" (Increase Load)." → WITCH_WEST_COMMAND_DECK
-                                                            - WITCH_WEST_COMMAND_DECK
-                                                              - ↩ cycle
-                                                          - "Order "Silent Hover" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
-                                                            - WITCH_WEST_COMMAND_DECK
-                                                              - ↩ cycle
-                                                          - "Order "Aggressive Shriek" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
-                                                            - WITCH_WEST_ORACLE_ENTRY
-                                                              - ↩ cycle
+                                                          - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                                            - ↩ cycle
+                                                          - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                            - ↩ cycle
+                                                          - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                                            - ↩ cycle
                                                       - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
                                                         - WITCH_WEST_POPPY_CALIBRATION
                                                           - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
-                                                            - WITCH_WEST_COMMAND_DECK
-                                                              - ↩ cycle
-                                                          - "Pulse the Field: Create a "Lullaby Spike"." → WITCH_WEST_COMMAND_DECK
-                                                            - WITCH_WEST_COMMAND_DECK
-                                                              - ↩ cycle
+                                                            - ↩ cycle
+                                                          - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                                            - ↩ cycle
                                                       - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
                                                         - WITCH_WEST_OBSIDIAN_VIEW
                                                           - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
-                                                            - WITCH_WEST_ORACLE_ENTRY
-                                                              - ↩ cycle
+                                                            - ↩ cycle
                                                           - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
-                                                            - WITCH_WEST_FIELD_CONFRONTATION
-                                                              - ↩ cycle
+                                                            - ↩ cycle
                                                           - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
                                                             - WITCH_WEST_SIGNAL_BLEED
                                                               - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
-                                                                - WITCH_WEST_COMMAND_DECK_V2
-                                                                  - ↩ cycle
+                                                                - ↩ cycle
                                                               - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
                                                                 - WITCH_WEST_END_MELTING [ENDING]
-                                                      - "Initialize Ritual: "The Obsidian Matron"." → WITCH_WEST_ORACLE_ENTRY
-                                                        - WITCH_WEST_ORACLE_ENTRY
-                                                          - ↩ cycle
-                                                  - ""The target is non-compliant." (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                      - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                                        - ↩ cycle
+                                                  - "\"The target is non-compliant.\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
                                                     - WITCH_WEST_COMMAND_DECK
                                                       - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
                                                         - WITCH_WEST_MONKEY_MANAGEMENT
-                                                          - "Order a "Kinetic Brush-By" (Increase Load)." → WITCH_WEST_COMMAND_DECK
-                                                            - WITCH_WEST_COMMAND_DECK
-                                                              - ↩ cycle
-                                                          - "Order "Silent Hover" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
-                                                            - WITCH_WEST_COMMAND_DECK
-                                                              - ↩ cycle
-                                                          - "Order "Aggressive Shriek" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
-                                                            - WITCH_WEST_ORACLE_ENTRY
-                                                              - ↩ cycle
+                                                          - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                                            - ↩ cycle
+                                                          - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                            - ↩ cycle
+                                                          - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                                            - ↩ cycle
                                                       - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
                                                         - WITCH_WEST_POPPY_CALIBRATION
                                                           - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
-                                                            - WITCH_WEST_COMMAND_DECK
-                                                              - ↩ cycle
-                                                          - "Pulse the Field: Create a "Lullaby Spike"." → WITCH_WEST_COMMAND_DECK
-                                                            - WITCH_WEST_COMMAND_DECK
-                                                              - ↩ cycle
+                                                            - ↩ cycle
+                                                          - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                                            - ↩ cycle
                                                       - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
                                                         - WITCH_WEST_OBSIDIAN_VIEW
                                                           - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
-                                                            - WITCH_WEST_ORACLE_ENTRY
-                                                              - ↩ cycle
+                                                            - ↩ cycle
                                                           - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
-                                                            - WITCH_WEST_FIELD_CONFRONTATION
-                                                              - ↩ cycle
+                                                            - ↩ cycle
                                                           - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
                                                             - WITCH_WEST_SIGNAL_BLEED
                                                               - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
-                                                                - WITCH_WEST_COMMAND_DECK_V2
-                                                                  - ↩ cycle
+                                                                - ↩ cycle
                                                               - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
                                                                 - WITCH_WEST_END_MELTING [ENDING]
-                                                      - "Initialize Ritual: "The Obsidian Matron"." → WITCH_WEST_ORACLE_ENTRY
-                                                        - WITCH_WEST_ORACLE_ENTRY
-                                                          - ↩ cycle
+                                                      - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                                        - ↩ cycle
                                           - "Send the monkeys to accelerate their arrival." → WITCH_WEST_MONKEY_SWEEP_B
-                                            - WITCH_WEST_MONKEY_SWEEP_B
-                                              - ↩ cycle
-                                      - "ADMINISTRATION: File a "Pre-emptive Deletion" warrant." → WITCH_WEST_BUREAU_FILING
+                                            - ↩ cycle
+                                      - "ADMINISTRATION: File a \"Pre-emptive Deletion\" warrant." → WITCH_WEST_BUREAU_FILING
                                         - WITCH_WEST_BUREAU_FILING
-                                          - "Label it "Maintenance Disposal" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
-                                            - WITCH_WEST_COMMAND_DECK_V2
-                                              - ↩ cycle
-                                          - "Label it "Judicial Reclamation" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
-                                            - WITCH_WEST_COMMAND_DECK_V2
-                                              - ↩ cycle
-                                      - "THE FINAL INCISION: Trigger "The Melting Point"." → WITCH_WEST_END_MELTING
+                                          - "Label it \"Maintenance Disposal\" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                            - ↩ cycle
+                                          - "Label it \"Judicial Reclamation\" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
+                                            - ↩ cycle
+                                      - "THE FINAL INCISION: Trigger \"The Melting Point\"." → WITCH_WEST_END_MELTING
                                         - WITCH_WEST_END_MELTING [ENDING]
                   - "Observe the aerial deployment from altitude — let the sweep run its course." → WITCH_WEST_PATH_MONKEYS
                     - WITCH_WEST_PATH_MONKEYS
                       - "Escalate the warrant — route toward total enforcement." → WITCH_WEST_END_MELTING
                         - WITCH_WEST_END_MELTING [ENDING]
                       - "Recall the monkeys — perform the ritual personally." → WITCH_WEST_ORACLE_ENTRY
-                        - WITCH_WEST_ORACLE_ENTRY
-                          - ↩ cycle
+                        - ↩ cycle
           - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
             - WITCH_WEST_ORACLE_3
               - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -9105,8 +8795,7 @@ Generated: 2026-05-01T21:04:29.436Z
           - "Watch the capture through the obsidian eye. Savor every moment." → WITCH_WEST_OBSIDIAN_VIEW
             - WITCH_WEST_OBSIDIAN_VIEW
               - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
-                - WITCH_WEST_ORACLE_ENTRY
-                  - ↩ cycle
+                - ↩ cycle
               - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
                 - WITCH_WEST_FIELD_CONFRONTATION
                   - "Pick who gets the first incision, then begin the Obsidian Eye ritual." → WITCH_WEST_SELECT_TARGET
@@ -9126,8 +8815,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                   - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                     - WITCH_WEST_END_MELTING [ENDING]
                                   - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                      - ↩ cycle
+                                    - ↩ cycle
                               - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                 - WITCH_WEST_ORACLE_3
                                   - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -9179,8 +8867,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                   - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                     - WITCH_WEST_END_MELTING [ENDING]
                                   - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                      - ↩ cycle
+                                    - ↩ cycle
                               - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                 - WITCH_WEST_ORACLE_3
                                   - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -9232,8 +8919,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                   - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                     - WITCH_WEST_END_MELTING [ENDING]
                                   - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                      - ↩ cycle
+                                    - ↩ cycle
                               - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                 - WITCH_WEST_ORACLE_3
                                   - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -9285,8 +8971,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                   - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                     - WITCH_WEST_END_MELTING [ENDING]
                                   - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                      - ↩ cycle
+                                    - ↩ cycle
                               - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                 - WITCH_WEST_ORACLE_3
                                   - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -9326,26 +9011,22 @@ Generated: 2026-05-01T21:04:29.436Z
                   - "Have the monkeys carry him back to the tower for a proper procedure." → WITCH_WEST_TOWER_PREP
                     - WITCH_WEST_TOWER_PREP
                       - "The chamber is prepared. Begin the Obsidian Eye procedure." → WITCH_WEST_ORACLE_ENTRY
-                        - WITCH_WEST_ORACLE_ENTRY
-                          - ↩ cycle
+                        - ↩ cycle
                       - "The Clerk signals a compliance concern — attend to the warning." → WITCH_WEST_CLERK_INTERLUDE
                         - WITCH_WEST_CLERK_INTERLUDE
                           - "Force the verdict now — Summon the Obsidian Matron." → WITCH_WEST_ORACLE_ENTRY
-                            - WITCH_WEST_ORACLE_ENTRY
-                              - ↩ cycle
+                            - ↩ cycle
                           - "Ignore the Clerk. Proceed with psychological pressure." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
                             - WITCH_WEST_PSYCHOLOGICAL_TORMENT
                               - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
-                                - WITCH_WEST_ORACLE_ENTRY
-                                  - ↩ cycle
+                                - ↩ cycle
                               - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
                                 - WITCH_WEST_END_MELTING [ENDING]
                               - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
                                 - WITCH_WEST_TORMENT_DETAIL
                                   - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
-                                    - WITCH_WEST_ORACLE_ENTRY
-                                      - ↩ cycle
-                                  - "Signal the Monkeys to begin "The Scrap Reallocation."" → WITCH_WEST_END_SCRAP
+                                    - ↩ cycle
+                                  - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
                                     - WITCH_WEST_END_SCRAP [ENDING]
                       - "Walk the perimeter — let the Winkie chant stabilize the ritual chamber." → WITCH_WEST_WINKIE_CORRIDOR
                         - WITCH_WEST_WINKIE_CORRIDOR
@@ -9362,111 +9043,109 @@ Generated: 2026-05-01T21:04:29.436Z
                                   - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
                                     - WITCH_WEST_SCRAPE_MANE
                                       - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
-                                        - WITCH_WEST_LION_AUDIT_HUB
-                                          - ↩ cycle
-                                      - "Braid the hairs into a "Fear-Whip"." → WITCH_WEST_LION_AUDIT_HUB
-                                        - WITCH_WEST_LION_AUDIT_HUB
-                                          - ↩ cycle
+                                        - ↩ cycle
+                                      - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
                                   - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
                                     - WITCH_WEST_LION_AUDIT_HUB
-                                      - ↩ cycle
+                                      - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                        - WITCH_WEST_SCRAPE_MANE
+                                          - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                      - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                        - ↩ cycle
                                   - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
                                     - WITCH_WEST_LION_AUDIT_HUB
-                                      - ↩ cycle
+                                      - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                        - WITCH_WEST_SCRAPE_MANE
+                                          - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                      - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                        - ↩ cycle
                                   - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
-                                    - WITCH_WEST_COMMAND_DECK_V2
-                                      - ↩ cycle
-                              - "SURVEILLANCE: Deploy "Eye-on-a-String" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
-                                - WITCH_WEST_OBSIDIAN_VIEW
-                                  - ↩ cycle
+                                    - ↩ cycle
+                              - "SURVEILLANCE: Deploy \"Eye-on-a-String\" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
+                                - ↩ cycle
                               - "PHARMACOLOGY: Refine the Poppy Resin in the crucible." → WITCH_WEST_POPPY_BUFFER
                                 - WITCH_WEST_POPPY_BUFFER
                                   - "Wait for them at the tower gate. Receive them at full compliance." → WITCH_WEST_FIELD_CONFRONTATION
-                                    - WITCH_WEST_FIELD_CONFRONTATION
-                                      - ↩ cycle
+                                    - ↩ cycle
                                   - "Send the monkeys to accelerate their arrival." → WITCH_WEST_MONKEY_SWEEP_B
-                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                      - ↩ cycle
-                              - "ADMINISTRATION: File a "Pre-emptive Deletion" warrant." → WITCH_WEST_BUREAU_FILING
+                                    - ↩ cycle
+                              - "ADMINISTRATION: File a \"Pre-emptive Deletion\" warrant." → WITCH_WEST_BUREAU_FILING
                                 - WITCH_WEST_BUREAU_FILING
-                                  - "Label it "Maintenance Disposal" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
-                                    - WITCH_WEST_COMMAND_DECK_V2
-                                      - ↩ cycle
-                                  - "Label it "Judicial Reclamation" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
-                                    - WITCH_WEST_COMMAND_DECK_V2
-                                      - ↩ cycle
-                              - "THE FINAL INCISION: Trigger "The Melting Point"." → WITCH_WEST_END_MELTING
+                                  - "Label it \"Maintenance Disposal\" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
+                                  - "Label it \"Judicial Reclamation\" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
+                              - "THE FINAL INCISION: Trigger \"The Melting Point\"." → WITCH_WEST_END_MELTING
                                 - WITCH_WEST_END_MELTING [ENDING]
                   - "Toy with him first. Make him beg for the mercy of the scalpel." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
                     - WITCH_WEST_PSYCHOLOGICAL_TORMENT
                       - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
-                        - WITCH_WEST_ORACLE_ENTRY
-                          - ↩ cycle
+                        - ↩ cycle
                       - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
                         - WITCH_WEST_END_MELTING [ENDING]
                       - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
                         - WITCH_WEST_TORMENT_DETAIL
                           - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
-                            - WITCH_WEST_ORACLE_ENTRY
-                              - ↩ cycle
-                          - "Signal the Monkeys to begin "The Scrap Reallocation."" → WITCH_WEST_END_SCRAP
+                            - ↩ cycle
+                          - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
                             - WITCH_WEST_END_SCRAP [ENDING]
                   - "The Clerk flags the warrant status — review the audit logs." → WITCH_WEST_BUREAU_LOG_CHECK
                     - WITCH_WEST_BUREAU_LOG_CHECK
-                      - ""It is a Judicial Necessity." (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
+                      - "\"It is a Judicial Necessity.\" (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
                         - WITCH_WEST_COMMAND_DECK
                           - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
                             - WITCH_WEST_MONKEY_MANAGEMENT
-                              - "Order a "Kinetic Brush-By" (Increase Load)." → WITCH_WEST_COMMAND_DECK
-                                - WITCH_WEST_COMMAND_DECK
-                                  - ↩ cycle
-                              - "Order "Silent Hover" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
-                                - WITCH_WEST_COMMAND_DECK
-                                  - ↩ cycle
-                              - "Order "Aggressive Shriek" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
-                                - WITCH_WEST_ORACLE_ENTRY
-                                  - ↩ cycle
+                              - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                - ↩ cycle
+                              - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                - ↩ cycle
+                              - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                - ↩ cycle
                           - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
                             - WITCH_WEST_POPPY_CALIBRATION
                               - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
-                                - WITCH_WEST_COMMAND_DECK
-                                  - ↩ cycle
-                              - "Pulse the Field: Create a "Lullaby Spike"." → WITCH_WEST_COMMAND_DECK
-                                - WITCH_WEST_COMMAND_DECK
-                                  - ↩ cycle
+                                - ↩ cycle
+                              - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                - ↩ cycle
                           - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
-                            - WITCH_WEST_OBSIDIAN_VIEW
-                              - ↩ cycle
-                          - "Initialize Ritual: "The Obsidian Matron"." → WITCH_WEST_ORACLE_ENTRY
-                            - WITCH_WEST_ORACLE_ENTRY
-                              - ↩ cycle
-                      - ""The target is non-compliant." (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                            - ↩ cycle
+                          - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                            - ↩ cycle
+                      - "\"The target is non-compliant.\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
                         - WITCH_WEST_COMMAND_DECK
                           - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
                             - WITCH_WEST_MONKEY_MANAGEMENT
-                              - "Order a "Kinetic Brush-By" (Increase Load)." → WITCH_WEST_COMMAND_DECK
-                                - WITCH_WEST_COMMAND_DECK
-                                  - ↩ cycle
-                              - "Order "Silent Hover" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
-                                - WITCH_WEST_COMMAND_DECK
-                                  - ↩ cycle
-                              - "Order "Aggressive Shriek" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
-                                - WITCH_WEST_ORACLE_ENTRY
-                                  - ↩ cycle
+                              - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                - ↩ cycle
+                              - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                - ↩ cycle
+                              - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                - ↩ cycle
                           - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
                             - WITCH_WEST_POPPY_CALIBRATION
                               - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
-                                - WITCH_WEST_COMMAND_DECK
-                                  - ↩ cycle
-                              - "Pulse the Field: Create a "Lullaby Spike"." → WITCH_WEST_COMMAND_DECK
-                                - WITCH_WEST_COMMAND_DECK
-                                  - ↩ cycle
+                                - ↩ cycle
+                              - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                - ↩ cycle
                           - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
-                            - WITCH_WEST_OBSIDIAN_VIEW
-                              - ↩ cycle
-                          - "Initialize Ritual: "The Obsidian Matron"." → WITCH_WEST_ORACLE_ENTRY
-                            - WITCH_WEST_ORACLE_ENTRY
-                              - ↩ cycle
+                            - ↩ cycle
+                          - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                            - ↩ cycle
               - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
                 - WITCH_WEST_SIGNAL_BLEED
                   - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
@@ -9476,23 +9155,41 @@ Generated: 2026-05-01T21:04:29.436Z
                           - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
                             - WITCH_WEST_SCRAPE_MANE
                               - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
-                                - WITCH_WEST_LION_AUDIT_HUB
-                                  - ↩ cycle
-                              - "Braid the hairs into a "Fear-Whip"." → WITCH_WEST_LION_AUDIT_HUB
-                                - WITCH_WEST_LION_AUDIT_HUB
-                                  - ↩ cycle
+                                - ↩ cycle
+                              - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                - ↩ cycle
                           - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
                             - WITCH_WEST_LION_AUDIT_HUB
-                              - ↩ cycle
+                              - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                - WITCH_WEST_SCRAPE_MANE
+                                  - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                              - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                - ↩ cycle
+                              - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                - ↩ cycle
+                              - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                - ↩ cycle
                           - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
                             - WITCH_WEST_LION_AUDIT_HUB
-                              - ↩ cycle
+                              - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                - WITCH_WEST_SCRAPE_MANE
+                                  - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                              - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                - ↩ cycle
+                              - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                - ↩ cycle
+                              - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                - ↩ cycle
                           - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
-                            - WITCH_WEST_COMMAND_DECK_V2
-                              - ↩ cycle
-                      - "SURVEILLANCE: Deploy "Eye-on-a-String" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
-                        - WITCH_WEST_OBSIDIAN_VIEW
-                          - ↩ cycle
+                            - ↩ cycle
+                      - "SURVEILLANCE: Deploy \"Eye-on-a-String\" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
+                        - ↩ cycle
                       - "PHARMACOLOGY: Refine the Poppy Resin in the crucible." → WITCH_WEST_POPPY_BUFFER
                         - WITCH_WEST_POPPY_BUFFER
                           - "Wait for them at the tower gate. Receive them at full compliance." → WITCH_WEST_FIELD_CONFRONTATION
@@ -9514,8 +9211,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                               - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                 - WITCH_WEST_END_MELTING [ENDING]
                                               - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                - WITCH_WEST_MONKEY_SWEEP_B
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                           - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                             - WITCH_WEST_ORACLE_3
                                               - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -9567,8 +9263,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                               - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                 - WITCH_WEST_END_MELTING [ENDING]
                                               - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                - WITCH_WEST_MONKEY_SWEEP_B
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                           - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                             - WITCH_WEST_ORACLE_3
                                               - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -9620,8 +9315,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                               - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                 - WITCH_WEST_END_MELTING [ENDING]
                                               - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                - WITCH_WEST_MONKEY_SWEEP_B
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                           - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                             - WITCH_WEST_ORACLE_3
                                               - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -9673,8 +9367,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                               - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                 - WITCH_WEST_END_MELTING [ENDING]
                                               - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                - WITCH_WEST_MONKEY_SWEEP_B
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                           - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                             - WITCH_WEST_ORACLE_3
                                               - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -9714,26 +9407,22 @@ Generated: 2026-05-01T21:04:29.436Z
                               - "Have the monkeys carry him back to the tower for a proper procedure." → WITCH_WEST_TOWER_PREP
                                 - WITCH_WEST_TOWER_PREP
                                   - "The chamber is prepared. Begin the Obsidian Eye procedure." → WITCH_WEST_ORACLE_ENTRY
-                                    - WITCH_WEST_ORACLE_ENTRY
-                                      - ↩ cycle
+                                    - ↩ cycle
                                   - "The Clerk signals a compliance concern — attend to the warning." → WITCH_WEST_CLERK_INTERLUDE
                                     - WITCH_WEST_CLERK_INTERLUDE
                                       - "Force the verdict now — Summon the Obsidian Matron." → WITCH_WEST_ORACLE_ENTRY
-                                        - WITCH_WEST_ORACLE_ENTRY
-                                          - ↩ cycle
+                                        - ↩ cycle
                                       - "Ignore the Clerk. Proceed with psychological pressure." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
                                         - WITCH_WEST_PSYCHOLOGICAL_TORMENT
                                           - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
-                                            - WITCH_WEST_ORACLE_ENTRY
-                                              - ↩ cycle
+                                            - ↩ cycle
                                           - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
                                             - WITCH_WEST_END_MELTING [ENDING]
                                           - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
                                             - WITCH_WEST_TORMENT_DETAIL
                                               - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
-                                                - WITCH_WEST_ORACLE_ENTRY
-                                                  - ↩ cycle
-                                              - "Signal the Monkeys to begin "The Scrap Reallocation."" → WITCH_WEST_END_SCRAP
+                                                - ↩ cycle
+                                              - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
                                                 - WITCH_WEST_END_SCRAP [ENDING]
                                   - "Walk the perimeter — let the Winkie chant stabilize the ritual chamber." → WITCH_WEST_WINKIE_CORRIDOR
                                     - WITCH_WEST_WINKIE_CORRIDOR
@@ -9744,90 +9433,70 @@ Generated: 2026-05-01T21:04:29.436Z
                                           - "Try to vent the heat (Requires Water Protocol)." → WITCH_WEST_END_MELTING
                                             - WITCH_WEST_END_MELTING [ENDING]
                                       - "Use the chant to soothe the Lion's tremor (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
-                                        - WITCH_WEST_COMMAND_DECK_V2
-                                          - ↩ cycle
+                                        - ↩ cycle
                               - "Toy with him first. Make him beg for the mercy of the scalpel." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
                                 - WITCH_WEST_PSYCHOLOGICAL_TORMENT
                                   - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
-                                    - WITCH_WEST_ORACLE_ENTRY
-                                      - ↩ cycle
+                                    - ↩ cycle
                                   - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
                                     - WITCH_WEST_END_MELTING [ENDING]
                                   - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
                                     - WITCH_WEST_TORMENT_DETAIL
                                       - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
-                                        - WITCH_WEST_ORACLE_ENTRY
-                                          - ↩ cycle
-                                      - "Signal the Monkeys to begin "The Scrap Reallocation."" → WITCH_WEST_END_SCRAP
+                                        - ↩ cycle
+                                      - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
                                         - WITCH_WEST_END_SCRAP [ENDING]
                               - "The Clerk flags the warrant status — review the audit logs." → WITCH_WEST_BUREAU_LOG_CHECK
                                 - WITCH_WEST_BUREAU_LOG_CHECK
-                                  - ""It is a Judicial Necessity." (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
+                                  - "\"It is a Judicial Necessity.\" (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
                                     - WITCH_WEST_COMMAND_DECK
                                       - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
                                         - WITCH_WEST_MONKEY_MANAGEMENT
-                                          - "Order a "Kinetic Brush-By" (Increase Load)." → WITCH_WEST_COMMAND_DECK
-                                            - WITCH_WEST_COMMAND_DECK
-                                              - ↩ cycle
-                                          - "Order "Silent Hover" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
-                                            - WITCH_WEST_COMMAND_DECK
-                                              - ↩ cycle
-                                          - "Order "Aggressive Shriek" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
-                                            - WITCH_WEST_ORACLE_ENTRY
-                                              - ↩ cycle
+                                          - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
+                                          - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
+                                          - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                            - ↩ cycle
                                       - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
                                         - WITCH_WEST_POPPY_CALIBRATION
                                           - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
-                                            - WITCH_WEST_COMMAND_DECK
-                                              - ↩ cycle
-                                          - "Pulse the Field: Create a "Lullaby Spike"." → WITCH_WEST_COMMAND_DECK
-                                            - WITCH_WEST_COMMAND_DECK
-                                              - ↩ cycle
+                                            - ↩ cycle
+                                          - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
                                       - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
-                                        - WITCH_WEST_OBSIDIAN_VIEW
-                                          - ↩ cycle
-                                      - "Initialize Ritual: "The Obsidian Matron"." → WITCH_WEST_ORACLE_ENTRY
-                                        - WITCH_WEST_ORACLE_ENTRY
-                                          - ↩ cycle
-                                  - ""The target is non-compliant." (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                        - ↩ cycle
+                                      - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                        - ↩ cycle
+                                  - "\"The target is non-compliant.\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
                                     - WITCH_WEST_COMMAND_DECK
                                       - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
                                         - WITCH_WEST_MONKEY_MANAGEMENT
-                                          - "Order a "Kinetic Brush-By" (Increase Load)." → WITCH_WEST_COMMAND_DECK
-                                            - WITCH_WEST_COMMAND_DECK
-                                              - ↩ cycle
-                                          - "Order "Silent Hover" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
-                                            - WITCH_WEST_COMMAND_DECK
-                                              - ↩ cycle
-                                          - "Order "Aggressive Shriek" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
-                                            - WITCH_WEST_ORACLE_ENTRY
-                                              - ↩ cycle
+                                          - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
+                                          - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
+                                          - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                            - ↩ cycle
                                       - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
                                         - WITCH_WEST_POPPY_CALIBRATION
                                           - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
-                                            - WITCH_WEST_COMMAND_DECK
-                                              - ↩ cycle
-                                          - "Pulse the Field: Create a "Lullaby Spike"." → WITCH_WEST_COMMAND_DECK
-                                            - WITCH_WEST_COMMAND_DECK
-                                              - ↩ cycle
+                                            - ↩ cycle
+                                          - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
                                       - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
-                                        - WITCH_WEST_OBSIDIAN_VIEW
-                                          - ↩ cycle
-                                      - "Initialize Ritual: "The Obsidian Matron"." → WITCH_WEST_ORACLE_ENTRY
-                                        - WITCH_WEST_ORACLE_ENTRY
-                                          - ↩ cycle
+                                        - ↩ cycle
+                                      - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                        - ↩ cycle
                           - "Send the monkeys to accelerate their arrival." → WITCH_WEST_MONKEY_SWEEP_B
-                            - WITCH_WEST_MONKEY_SWEEP_B
-                              - ↩ cycle
-                      - "ADMINISTRATION: File a "Pre-emptive Deletion" warrant." → WITCH_WEST_BUREAU_FILING
+                            - ↩ cycle
+                      - "ADMINISTRATION: File a \"Pre-emptive Deletion\" warrant." → WITCH_WEST_BUREAU_FILING
                         - WITCH_WEST_BUREAU_FILING
-                          - "Label it "Maintenance Disposal" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
-                            - WITCH_WEST_COMMAND_DECK_V2
-                              - ↩ cycle
-                          - "Label it "Judicial Reclamation" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
-                            - WITCH_WEST_COMMAND_DECK_V2
-                              - ↩ cycle
-                      - "THE FINAL INCISION: Trigger "The Melting Point"." → WITCH_WEST_END_MELTING
+                          - "Label it \"Maintenance Disposal\" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                            - ↩ cycle
+                          - "Label it \"Judicial Reclamation\" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
+                            - ↩ cycle
+                      - "THE FINAL INCISION: Trigger \"The Melting Point\"." → WITCH_WEST_END_MELTING
                         - WITCH_WEST_END_MELTING [ENDING]
                   - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
                     - WITCH_WEST_END_MELTING [ENDING]
@@ -9850,8 +9519,7 @@ Generated: 2026-05-01T21:04:29.436Z
                               - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                 - WITCH_WEST_END_MELTING [ENDING]
                               - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                - WITCH_WEST_MONKEY_SWEEP_B
-                                  - ↩ cycle
+                                - ↩ cycle
                           - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                             - WITCH_WEST_ORACLE_3
                               - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -9903,8 +9571,7 @@ Generated: 2026-05-01T21:04:29.436Z
                               - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                 - WITCH_WEST_END_MELTING [ENDING]
                               - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                - WITCH_WEST_MONKEY_SWEEP_B
-                                  - ↩ cycle
+                                - ↩ cycle
                           - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                             - WITCH_WEST_ORACLE_3
                               - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -9956,8 +9623,7 @@ Generated: 2026-05-01T21:04:29.436Z
                               - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                 - WITCH_WEST_END_MELTING [ENDING]
                               - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                - WITCH_WEST_MONKEY_SWEEP_B
-                                  - ↩ cycle
+                                - ↩ cycle
                           - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                             - WITCH_WEST_ORACLE_3
                               - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -10009,8 +9675,7 @@ Generated: 2026-05-01T21:04:29.436Z
                               - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                 - WITCH_WEST_END_MELTING [ENDING]
                               - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                - WITCH_WEST_MONKEY_SWEEP_B
-                                  - ↩ cycle
+                                - ↩ cycle
                           - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                             - WITCH_WEST_ORACLE_3
                               - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -10050,26 +9715,22 @@ Generated: 2026-05-01T21:04:29.436Z
               - "Have the monkeys carry him back to the tower for a proper procedure." → WITCH_WEST_TOWER_PREP
                 - WITCH_WEST_TOWER_PREP
                   - "The chamber is prepared. Begin the Obsidian Eye procedure." → WITCH_WEST_ORACLE_ENTRY
-                    - WITCH_WEST_ORACLE_ENTRY
-                      - ↩ cycle
+                    - ↩ cycle
                   - "The Clerk signals a compliance concern — attend to the warning." → WITCH_WEST_CLERK_INTERLUDE
                     - WITCH_WEST_CLERK_INTERLUDE
                       - "Force the verdict now — Summon the Obsidian Matron." → WITCH_WEST_ORACLE_ENTRY
-                        - WITCH_WEST_ORACLE_ENTRY
-                          - ↩ cycle
+                        - ↩ cycle
                       - "Ignore the Clerk. Proceed with psychological pressure." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
                         - WITCH_WEST_PSYCHOLOGICAL_TORMENT
                           - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
-                            - WITCH_WEST_ORACLE_ENTRY
-                              - ↩ cycle
+                            - ↩ cycle
                           - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
                             - WITCH_WEST_END_MELTING [ENDING]
                           - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
                             - WITCH_WEST_TORMENT_DETAIL
                               - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
-                                - WITCH_WEST_ORACLE_ENTRY
-                                  - ↩ cycle
-                              - "Signal the Monkeys to begin "The Scrap Reallocation."" → WITCH_WEST_END_SCRAP
+                                - ↩ cycle
+                              - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
                                 - WITCH_WEST_END_SCRAP [ENDING]
                   - "Walk the perimeter — let the Winkie chant stabilize the ritual chamber." → WITCH_WEST_WINKIE_CORRIDOR
                     - WITCH_WEST_WINKIE_CORRIDOR
@@ -10086,98 +9747,101 @@ Generated: 2026-05-01T21:04:29.436Z
                               - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
                                 - WITCH_WEST_SCRAPE_MANE
                                   - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
-                                    - WITCH_WEST_LION_AUDIT_HUB
-                                      - ↩ cycle
-                                  - "Braid the hairs into a "Fear-Whip"." → WITCH_WEST_LION_AUDIT_HUB
-                                    - WITCH_WEST_LION_AUDIT_HUB
-                                      - ↩ cycle
+                                    - ↩ cycle
+                                  - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
                               - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
                                 - WITCH_WEST_LION_AUDIT_HUB
-                                  - ↩ cycle
+                                  - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                    - WITCH_WEST_SCRAPE_MANE
+                                      - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                  - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
                               - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
                                 - WITCH_WEST_LION_AUDIT_HUB
-                                  - ↩ cycle
+                                  - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                    - WITCH_WEST_SCRAPE_MANE
+                                      - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                  - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
                               - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
-                                - WITCH_WEST_COMMAND_DECK_V2
-                                  - ↩ cycle
-                          - "SURVEILLANCE: Deploy "Eye-on-a-String" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
+                                - ↩ cycle
+                          - "SURVEILLANCE: Deploy \"Eye-on-a-String\" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
                             - WITCH_WEST_OBSIDIAN_VIEW
                               - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
-                                - WITCH_WEST_ORACLE_ENTRY
-                                  - ↩ cycle
+                                - ↩ cycle
                               - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
-                                - WITCH_WEST_FIELD_CONFRONTATION
-                                  - ↩ cycle
+                                - ↩ cycle
                               - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
                                 - WITCH_WEST_SIGNAL_BLEED
                                   - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
-                                    - WITCH_WEST_COMMAND_DECK_V2
-                                      - ↩ cycle
+                                    - ↩ cycle
                                   - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
                                     - WITCH_WEST_END_MELTING [ENDING]
                           - "PHARMACOLOGY: Refine the Poppy Resin in the crucible." → WITCH_WEST_POPPY_BUFFER
                             - WITCH_WEST_POPPY_BUFFER
                               - "Wait for them at the tower gate. Receive them at full compliance." → WITCH_WEST_FIELD_CONFRONTATION
-                                - WITCH_WEST_FIELD_CONFRONTATION
-                                  - ↩ cycle
+                                - ↩ cycle
                               - "Send the monkeys to accelerate their arrival." → WITCH_WEST_MONKEY_SWEEP_B
-                                - WITCH_WEST_MONKEY_SWEEP_B
-                                  - ↩ cycle
-                          - "ADMINISTRATION: File a "Pre-emptive Deletion" warrant." → WITCH_WEST_BUREAU_FILING
+                                - ↩ cycle
+                          - "ADMINISTRATION: File a \"Pre-emptive Deletion\" warrant." → WITCH_WEST_BUREAU_FILING
                             - WITCH_WEST_BUREAU_FILING
-                              - "Label it "Maintenance Disposal" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
-                                - WITCH_WEST_COMMAND_DECK_V2
-                                  - ↩ cycle
-                              - "Label it "Judicial Reclamation" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
-                                - WITCH_WEST_COMMAND_DECK_V2
-                                  - ↩ cycle
-                          - "THE FINAL INCISION: Trigger "The Melting Point"." → WITCH_WEST_END_MELTING
+                              - "Label it \"Maintenance Disposal\" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                - ↩ cycle
+                              - "Label it \"Judicial Reclamation\" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
+                                - ↩ cycle
+                          - "THE FINAL INCISION: Trigger \"The Melting Point\"." → WITCH_WEST_END_MELTING
                             - WITCH_WEST_END_MELTING [ENDING]
               - "Toy with him first. Make him beg for the mercy of the scalpel." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
                 - WITCH_WEST_PSYCHOLOGICAL_TORMENT
                   - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
-                    - WITCH_WEST_ORACLE_ENTRY
-                      - ↩ cycle
+                    - ↩ cycle
                   - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
                     - WITCH_WEST_END_MELTING [ENDING]
                   - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
                     - WITCH_WEST_TORMENT_DETAIL
                       - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
-                        - WITCH_WEST_ORACLE_ENTRY
-                          - ↩ cycle
-                      - "Signal the Monkeys to begin "The Scrap Reallocation."" → WITCH_WEST_END_SCRAP
+                        - ↩ cycle
+                      - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
                         - WITCH_WEST_END_SCRAP [ENDING]
               - "The Clerk flags the warrant status — review the audit logs." → WITCH_WEST_BUREAU_LOG_CHECK
                 - WITCH_WEST_BUREAU_LOG_CHECK
-                  - ""It is a Judicial Necessity." (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
+                  - "\"It is a Judicial Necessity.\" (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
                     - WITCH_WEST_COMMAND_DECK
                       - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
                         - WITCH_WEST_MONKEY_MANAGEMENT
-                          - "Order a "Kinetic Brush-By" (Increase Load)." → WITCH_WEST_COMMAND_DECK
-                            - WITCH_WEST_COMMAND_DECK
-                              - ↩ cycle
-                          - "Order "Silent Hover" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
-                            - WITCH_WEST_COMMAND_DECK
-                              - ↩ cycle
-                          - "Order "Aggressive Shriek" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
-                            - WITCH_WEST_ORACLE_ENTRY
-                              - ↩ cycle
+                          - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                            - ↩ cycle
+                          - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                            - ↩ cycle
+                          - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                            - ↩ cycle
                       - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
                         - WITCH_WEST_POPPY_CALIBRATION
                           - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
-                            - WITCH_WEST_COMMAND_DECK
-                              - ↩ cycle
-                          - "Pulse the Field: Create a "Lullaby Spike"." → WITCH_WEST_COMMAND_DECK
-                            - WITCH_WEST_COMMAND_DECK
-                              - ↩ cycle
+                            - ↩ cycle
+                          - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                            - ↩ cycle
                       - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
                         - WITCH_WEST_OBSIDIAN_VIEW
                           - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
-                            - WITCH_WEST_ORACLE_ENTRY
-                              - ↩ cycle
+                            - ↩ cycle
                           - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
-                            - WITCH_WEST_FIELD_CONFRONTATION
-                              - ↩ cycle
+                            - ↩ cycle
                           - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
                             - WITCH_WEST_SIGNAL_BLEED
                               - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
@@ -10187,75 +9851,81 @@ Generated: 2026-05-01T21:04:29.436Z
                                       - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
                                         - WITCH_WEST_SCRAPE_MANE
                                           - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
-                                            - WITCH_WEST_LION_AUDIT_HUB
-                                              - ↩ cycle
-                                          - "Braid the hairs into a "Fear-Whip"." → WITCH_WEST_LION_AUDIT_HUB
-                                            - WITCH_WEST_LION_AUDIT_HUB
-                                              - ↩ cycle
+                                            - ↩ cycle
+                                          - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
                                       - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
                                         - WITCH_WEST_LION_AUDIT_HUB
-                                          - ↩ cycle
+                                          - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                            - WITCH_WEST_SCRAPE_MANE
+                                              - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                              - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                          - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                            - ↩ cycle
                                       - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
                                         - WITCH_WEST_LION_AUDIT_HUB
-                                          - ↩ cycle
+                                          - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                            - WITCH_WEST_SCRAPE_MANE
+                                              - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                              - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                          - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                            - ↩ cycle
                                       - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
-                                        - WITCH_WEST_COMMAND_DECK_V2
-                                          - ↩ cycle
-                                  - "SURVEILLANCE: Deploy "Eye-on-a-String" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
-                                    - WITCH_WEST_OBSIDIAN_VIEW
-                                      - ↩ cycle
+                                        - ↩ cycle
+                                  - "SURVEILLANCE: Deploy \"Eye-on-a-String\" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
+                                    - ↩ cycle
                                   - "PHARMACOLOGY: Refine the Poppy Resin in the crucible." → WITCH_WEST_POPPY_BUFFER
                                     - WITCH_WEST_POPPY_BUFFER
                                       - "Wait for them at the tower gate. Receive them at full compliance." → WITCH_WEST_FIELD_CONFRONTATION
-                                        - WITCH_WEST_FIELD_CONFRONTATION
-                                          - ↩ cycle
+                                        - ↩ cycle
                                       - "Send the monkeys to accelerate their arrival." → WITCH_WEST_MONKEY_SWEEP_B
-                                        - WITCH_WEST_MONKEY_SWEEP_B
-                                          - ↩ cycle
-                                  - "ADMINISTRATION: File a "Pre-emptive Deletion" warrant." → WITCH_WEST_BUREAU_FILING
+                                        - ↩ cycle
+                                  - "ADMINISTRATION: File a \"Pre-emptive Deletion\" warrant." → WITCH_WEST_BUREAU_FILING
                                     - WITCH_WEST_BUREAU_FILING
-                                      - "Label it "Maintenance Disposal" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
-                                        - WITCH_WEST_COMMAND_DECK_V2
-                                          - ↩ cycle
-                                      - "Label it "Judicial Reclamation" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
-                                        - WITCH_WEST_COMMAND_DECK_V2
-                                          - ↩ cycle
-                                  - "THE FINAL INCISION: Trigger "The Melting Point"." → WITCH_WEST_END_MELTING
+                                      - "Label it \"Maintenance Disposal\" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                        - ↩ cycle
+                                      - "Label it \"Judicial Reclamation\" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
+                                        - ↩ cycle
+                                  - "THE FINAL INCISION: Trigger \"The Melting Point\"." → WITCH_WEST_END_MELTING
                                     - WITCH_WEST_END_MELTING [ENDING]
                               - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
                                 - WITCH_WEST_END_MELTING [ENDING]
-                      - "Initialize Ritual: "The Obsidian Matron"." → WITCH_WEST_ORACLE_ENTRY
-                        - WITCH_WEST_ORACLE_ENTRY
-                          - ↩ cycle
-                  - ""The target is non-compliant." (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                      - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                        - ↩ cycle
+                  - "\"The target is non-compliant.\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
                     - WITCH_WEST_COMMAND_DECK
                       - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
                         - WITCH_WEST_MONKEY_MANAGEMENT
-                          - "Order a "Kinetic Brush-By" (Increase Load)." → WITCH_WEST_COMMAND_DECK
-                            - WITCH_WEST_COMMAND_DECK
-                              - ↩ cycle
-                          - "Order "Silent Hover" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
-                            - WITCH_WEST_COMMAND_DECK
-                              - ↩ cycle
-                          - "Order "Aggressive Shriek" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
-                            - WITCH_WEST_ORACLE_ENTRY
-                              - ↩ cycle
+                          - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                            - ↩ cycle
+                          - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                            - ↩ cycle
+                          - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                            - ↩ cycle
                       - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
                         - WITCH_WEST_POPPY_CALIBRATION
                           - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
-                            - WITCH_WEST_COMMAND_DECK
-                              - ↩ cycle
-                          - "Pulse the Field: Create a "Lullaby Spike"." → WITCH_WEST_COMMAND_DECK
-                            - WITCH_WEST_COMMAND_DECK
-                              - ↩ cycle
+                            - ↩ cycle
+                          - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                            - ↩ cycle
                       - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
                         - WITCH_WEST_OBSIDIAN_VIEW
                           - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
-                            - WITCH_WEST_ORACLE_ENTRY
-                              - ↩ cycle
+                            - ↩ cycle
                           - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
-                            - WITCH_WEST_FIELD_CONFRONTATION
-                              - ↩ cycle
+                            - ↩ cycle
                           - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
                             - WITCH_WEST_SIGNAL_BLEED
                               - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
@@ -10265,74 +9935,82 @@ Generated: 2026-05-01T21:04:29.436Z
                                       - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
                                         - WITCH_WEST_SCRAPE_MANE
                                           - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
-                                            - WITCH_WEST_LION_AUDIT_HUB
-                                              - ↩ cycle
-                                          - "Braid the hairs into a "Fear-Whip"." → WITCH_WEST_LION_AUDIT_HUB
-                                            - WITCH_WEST_LION_AUDIT_HUB
-                                              - ↩ cycle
+                                            - ↩ cycle
+                                          - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
                                       - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
                                         - WITCH_WEST_LION_AUDIT_HUB
-                                          - ↩ cycle
+                                          - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                            - WITCH_WEST_SCRAPE_MANE
+                                              - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                              - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                          - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                            - ↩ cycle
                                       - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
                                         - WITCH_WEST_LION_AUDIT_HUB
-                                          - ↩ cycle
+                                          - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                            - WITCH_WEST_SCRAPE_MANE
+                                              - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                              - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                          - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                            - ↩ cycle
                                       - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
-                                        - WITCH_WEST_COMMAND_DECK_V2
-                                          - ↩ cycle
-                                  - "SURVEILLANCE: Deploy "Eye-on-a-String" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
-                                    - WITCH_WEST_OBSIDIAN_VIEW
-                                      - ↩ cycle
+                                        - ↩ cycle
+                                  - "SURVEILLANCE: Deploy \"Eye-on-a-String\" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
+                                    - ↩ cycle
                                   - "PHARMACOLOGY: Refine the Poppy Resin in the crucible." → WITCH_WEST_POPPY_BUFFER
                                     - WITCH_WEST_POPPY_BUFFER
                                       - "Wait for them at the tower gate. Receive them at full compliance." → WITCH_WEST_FIELD_CONFRONTATION
-                                        - WITCH_WEST_FIELD_CONFRONTATION
-                                          - ↩ cycle
+                                        - ↩ cycle
                                       - "Send the monkeys to accelerate their arrival." → WITCH_WEST_MONKEY_SWEEP_B
-                                        - WITCH_WEST_MONKEY_SWEEP_B
-                                          - ↩ cycle
-                                  - "ADMINISTRATION: File a "Pre-emptive Deletion" warrant." → WITCH_WEST_BUREAU_FILING
+                                        - ↩ cycle
+                                  - "ADMINISTRATION: File a \"Pre-emptive Deletion\" warrant." → WITCH_WEST_BUREAU_FILING
                                     - WITCH_WEST_BUREAU_FILING
-                                      - "Label it "Maintenance Disposal" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
-                                        - WITCH_WEST_COMMAND_DECK_V2
-                                          - ↩ cycle
-                                      - "Label it "Judicial Reclamation" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
-                                        - WITCH_WEST_COMMAND_DECK_V2
-                                          - ↩ cycle
-                                  - "THE FINAL INCISION: Trigger "The Melting Point"." → WITCH_WEST_END_MELTING
+                                      - "Label it \"Maintenance Disposal\" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                        - ↩ cycle
+                                      - "Label it \"Judicial Reclamation\" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
+                                        - ↩ cycle
+                                  - "THE FINAL INCISION: Trigger \"The Melting Point\"." → WITCH_WEST_END_MELTING
                                     - WITCH_WEST_END_MELTING [ENDING]
                               - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
                                 - WITCH_WEST_END_MELTING [ENDING]
-                      - "Initialize Ritual: "The Obsidian Matron"." → WITCH_WEST_ORACLE_ENTRY
-                        - WITCH_WEST_ORACLE_ENTRY
-                          - ↩ cycle
+                      - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                        - ↩ cycle
           - "Order the monkeys to begin preliminary harvesting en route." → WITCH_WEST_MID_AIR_HARVEST
             - WITCH_WEST_MID_AIR_HARVEST
               - "Complete the harvest — proceed to the full Obsidian Eye ritual." → WITCH_WEST_ORACLE_ENTRY
-                - WITCH_WEST_ORACLE_ENTRY
-                  - ↩ cycle
+                - ↩ cycle
               - "Carry what remains to the tower for proper documentation." → WITCH_WEST_TOWER_PREP
                 - WITCH_WEST_TOWER_PREP
                   - "The chamber is prepared. Begin the Obsidian Eye procedure." → WITCH_WEST_ORACLE_ENTRY
-                    - WITCH_WEST_ORACLE_ENTRY
-                      - ↩ cycle
+                    - ↩ cycle
                   - "The Clerk signals a compliance concern — attend to the warning." → WITCH_WEST_CLERK_INTERLUDE
                     - WITCH_WEST_CLERK_INTERLUDE
                       - "Force the verdict now — Summon the Obsidian Matron." → WITCH_WEST_ORACLE_ENTRY
-                        - WITCH_WEST_ORACLE_ENTRY
-                          - ↩ cycle
+                        - ↩ cycle
                       - "Ignore the Clerk. Proceed with psychological pressure." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
                         - WITCH_WEST_PSYCHOLOGICAL_TORMENT
                           - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
-                            - WITCH_WEST_ORACLE_ENTRY
-                              - ↩ cycle
+                            - ↩ cycle
                           - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
                             - WITCH_WEST_END_MELTING [ENDING]
                           - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
                             - WITCH_WEST_TORMENT_DETAIL
                               - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
-                                - WITCH_WEST_ORACLE_ENTRY
-                                  - ↩ cycle
-                              - "Signal the Monkeys to begin "The Scrap Reallocation."" → WITCH_WEST_END_SCRAP
+                                - ↩ cycle
+                              - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
                                 - WITCH_WEST_END_SCRAP [ENDING]
                   - "Walk the perimeter — let the Winkie chant stabilize the ritual chamber." → WITCH_WEST_WINKIE_CORRIDOR
                     - WITCH_WEST_WINKIE_CORRIDOR
@@ -10349,25 +10027,43 @@ Generated: 2026-05-01T21:04:29.436Z
                               - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
                                 - WITCH_WEST_SCRAPE_MANE
                                   - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
-                                    - WITCH_WEST_LION_AUDIT_HUB
-                                      - ↩ cycle
-                                  - "Braid the hairs into a "Fear-Whip"." → WITCH_WEST_LION_AUDIT_HUB
-                                    - WITCH_WEST_LION_AUDIT_HUB
-                                      - ↩ cycle
+                                    - ↩ cycle
+                                  - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
                               - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
                                 - WITCH_WEST_LION_AUDIT_HUB
-                                  - ↩ cycle
+                                  - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                    - WITCH_WEST_SCRAPE_MANE
+                                      - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                  - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
                               - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
                                 - WITCH_WEST_LION_AUDIT_HUB
-                                  - ↩ cycle
+                                  - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                    - WITCH_WEST_SCRAPE_MANE
+                                      - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                  - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
                               - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
-                                - WITCH_WEST_COMMAND_DECK_V2
-                                  - ↩ cycle
-                          - "SURVEILLANCE: Deploy "Eye-on-a-String" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
+                                - ↩ cycle
+                          - "SURVEILLANCE: Deploy \"Eye-on-a-String\" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
                             - WITCH_WEST_OBSIDIAN_VIEW
                               - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
-                                - WITCH_WEST_ORACLE_ENTRY
-                                  - ↩ cycle
+                                - ↩ cycle
                               - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
                                 - WITCH_WEST_FIELD_CONFRONTATION
                                   - "Pick who gets the first incision, then begin the Obsidian Eye ritual." → WITCH_WEST_SELECT_TARGET
@@ -10387,8 +10083,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                     - WITCH_WEST_END_MELTING [ENDING]
                                                   - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                               - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                 - WITCH_WEST_ORACLE_3
                                                   - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -10440,8 +10135,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                     - WITCH_WEST_END_MELTING [ENDING]
                                                   - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                               - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                 - WITCH_WEST_ORACLE_3
                                                   - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -10493,8 +10187,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                     - WITCH_WEST_END_MELTING [ENDING]
                                                   - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                               - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                 - WITCH_WEST_ORACLE_3
                                                   - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -10546,8 +10239,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                     - WITCH_WEST_END_MELTING [ENDING]
                                                   - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                               - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                 - WITCH_WEST_ORACLE_3
                                                   - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -10585,83 +10277,65 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                                     - WITCH_WEST_END_SCRAP [ENDING]
                                   - "Have the monkeys carry him back to the tower for a proper procedure." → WITCH_WEST_TOWER_PREP
-                                    - WITCH_WEST_TOWER_PREP
-                                      - ↩ cycle
+                                    - ↩ cycle
                                   - "Toy with him first. Make him beg for the mercy of the scalpel." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
                                     - WITCH_WEST_PSYCHOLOGICAL_TORMENT
                                       - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
-                                        - WITCH_WEST_ORACLE_ENTRY
-                                          - ↩ cycle
+                                        - ↩ cycle
                                       - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
                                         - WITCH_WEST_END_MELTING [ENDING]
                                       - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
                                         - WITCH_WEST_TORMENT_DETAIL
                                           - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
-                                            - WITCH_WEST_ORACLE_ENTRY
-                                              - ↩ cycle
-                                          - "Signal the Monkeys to begin "The Scrap Reallocation."" → WITCH_WEST_END_SCRAP
+                                            - ↩ cycle
+                                          - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
                                             - WITCH_WEST_END_SCRAP [ENDING]
                                   - "The Clerk flags the warrant status — review the audit logs." → WITCH_WEST_BUREAU_LOG_CHECK
                                     - WITCH_WEST_BUREAU_LOG_CHECK
-                                      - ""It is a Judicial Necessity." (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
+                                      - "\"It is a Judicial Necessity.\" (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
                                         - WITCH_WEST_COMMAND_DECK
                                           - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
                                             - WITCH_WEST_MONKEY_MANAGEMENT
-                                              - "Order a "Kinetic Brush-By" (Increase Load)." → WITCH_WEST_COMMAND_DECK
-                                                - WITCH_WEST_COMMAND_DECK
-                                                  - ↩ cycle
-                                              - "Order "Silent Hover" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
-                                                - WITCH_WEST_COMMAND_DECK
-                                                  - ↩ cycle
-                                              - "Order "Aggressive Shriek" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
-                                                - WITCH_WEST_ORACLE_ENTRY
-                                                  - ↩ cycle
+                                              - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                              - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                              - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                                - ↩ cycle
                                           - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
                                             - WITCH_WEST_POPPY_CALIBRATION
                                               - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
-                                                - WITCH_WEST_COMMAND_DECK
-                                                  - ↩ cycle
-                                              - "Pulse the Field: Create a "Lullaby Spike"." → WITCH_WEST_COMMAND_DECK
-                                                - WITCH_WEST_COMMAND_DECK
-                                                  - ↩ cycle
+                                                - ↩ cycle
+                                              - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
                                           - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
-                                            - WITCH_WEST_OBSIDIAN_VIEW
-                                              - ↩ cycle
-                                          - "Initialize Ritual: "The Obsidian Matron"." → WITCH_WEST_ORACLE_ENTRY
-                                            - WITCH_WEST_ORACLE_ENTRY
-                                              - ↩ cycle
-                                      - ""The target is non-compliant." (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
+                                          - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                            - ↩ cycle
+                                      - "\"The target is non-compliant.\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
                                         - WITCH_WEST_COMMAND_DECK
                                           - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
                                             - WITCH_WEST_MONKEY_MANAGEMENT
-                                              - "Order a "Kinetic Brush-By" (Increase Load)." → WITCH_WEST_COMMAND_DECK
-                                                - WITCH_WEST_COMMAND_DECK
-                                                  - ↩ cycle
-                                              - "Order "Silent Hover" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
-                                                - WITCH_WEST_COMMAND_DECK
-                                                  - ↩ cycle
-                                              - "Order "Aggressive Shriek" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
-                                                - WITCH_WEST_ORACLE_ENTRY
-                                                  - ↩ cycle
+                                              - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                              - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                              - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                                - ↩ cycle
                                           - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
                                             - WITCH_WEST_POPPY_CALIBRATION
                                               - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
-                                                - WITCH_WEST_COMMAND_DECK
-                                                  - ↩ cycle
-                                              - "Pulse the Field: Create a "Lullaby Spike"." → WITCH_WEST_COMMAND_DECK
-                                                - WITCH_WEST_COMMAND_DECK
-                                                  - ↩ cycle
+                                                - ↩ cycle
+                                              - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
                                           - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
-                                            - WITCH_WEST_OBSIDIAN_VIEW
-                                              - ↩ cycle
-                                          - "Initialize Ritual: "The Obsidian Matron"." → WITCH_WEST_ORACLE_ENTRY
-                                            - WITCH_WEST_ORACLE_ENTRY
-                                              - ↩ cycle
+                                            - ↩ cycle
+                                          - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                            - ↩ cycle
                               - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
                                 - WITCH_WEST_SIGNAL_BLEED
                                   - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
-                                    - WITCH_WEST_COMMAND_DECK_V2
-                                      - ↩ cycle
+                                    - ↩ cycle
                                   - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
                                     - WITCH_WEST_END_MELTING [ENDING]
                           - "PHARMACOLOGY: Refine the Poppy Resin in the crucible." → WITCH_WEST_POPPY_BUFFER
@@ -10685,8 +10359,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                     - WITCH_WEST_END_MELTING [ENDING]
                                                   - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                               - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                 - WITCH_WEST_ORACLE_3
                                                   - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -10738,8 +10411,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                     - WITCH_WEST_END_MELTING [ENDING]
                                                   - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                               - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                 - WITCH_WEST_ORACLE_3
                                                   - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -10791,8 +10463,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                     - WITCH_WEST_END_MELTING [ENDING]
                                                   - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                               - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                 - WITCH_WEST_ORACLE_3
                                                   - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -10844,8 +10515,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                     - WITCH_WEST_END_MELTING [ENDING]
                                                   - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                               - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                 - WITCH_WEST_ORACLE_3
                                                   - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -10883,140 +10553,112 @@ Generated: 2026-05-01T21:04:29.436Z
                                                   - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                                     - WITCH_WEST_END_SCRAP [ENDING]
                                   - "Have the monkeys carry him back to the tower for a proper procedure." → WITCH_WEST_TOWER_PREP
-                                    - WITCH_WEST_TOWER_PREP
-                                      - ↩ cycle
+                                    - ↩ cycle
                                   - "Toy with him first. Make him beg for the mercy of the scalpel." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
                                     - WITCH_WEST_PSYCHOLOGICAL_TORMENT
                                       - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
-                                        - WITCH_WEST_ORACLE_ENTRY
-                                          - ↩ cycle
+                                        - ↩ cycle
                                       - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
                                         - WITCH_WEST_END_MELTING [ENDING]
                                       - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
                                         - WITCH_WEST_TORMENT_DETAIL
                                           - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
-                                            - WITCH_WEST_ORACLE_ENTRY
-                                              - ↩ cycle
-                                          - "Signal the Monkeys to begin "The Scrap Reallocation."" → WITCH_WEST_END_SCRAP
+                                            - ↩ cycle
+                                          - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
                                             - WITCH_WEST_END_SCRAP [ENDING]
                                   - "The Clerk flags the warrant status — review the audit logs." → WITCH_WEST_BUREAU_LOG_CHECK
                                     - WITCH_WEST_BUREAU_LOG_CHECK
-                                      - ""It is a Judicial Necessity." (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
+                                      - "\"It is a Judicial Necessity.\" (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
                                         - WITCH_WEST_COMMAND_DECK
                                           - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
                                             - WITCH_WEST_MONKEY_MANAGEMENT
-                                              - "Order a "Kinetic Brush-By" (Increase Load)." → WITCH_WEST_COMMAND_DECK
-                                                - WITCH_WEST_COMMAND_DECK
-                                                  - ↩ cycle
-                                              - "Order "Silent Hover" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
-                                                - WITCH_WEST_COMMAND_DECK
-                                                  - ↩ cycle
-                                              - "Order "Aggressive Shriek" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
-                                                - WITCH_WEST_ORACLE_ENTRY
-                                                  - ↩ cycle
+                                              - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                              - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                              - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                                - ↩ cycle
                                           - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
                                             - WITCH_WEST_POPPY_CALIBRATION
                                               - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
-                                                - WITCH_WEST_COMMAND_DECK
-                                                  - ↩ cycle
-                                              - "Pulse the Field: Create a "Lullaby Spike"." → WITCH_WEST_COMMAND_DECK
-                                                - WITCH_WEST_COMMAND_DECK
-                                                  - ↩ cycle
+                                                - ↩ cycle
+                                              - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
                                           - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
                                             - WITCH_WEST_OBSIDIAN_VIEW
                                               - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
-                                                - WITCH_WEST_ORACLE_ENTRY
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                               - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
-                                                - WITCH_WEST_FIELD_CONFRONTATION
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                               - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
                                                 - WITCH_WEST_SIGNAL_BLEED
                                                   - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
-                                                    - WITCH_WEST_COMMAND_DECK_V2
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                                   - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
                                                     - WITCH_WEST_END_MELTING [ENDING]
-                                          - "Initialize Ritual: "The Obsidian Matron"." → WITCH_WEST_ORACLE_ENTRY
-                                            - WITCH_WEST_ORACLE_ENTRY
-                                              - ↩ cycle
-                                      - ""The target is non-compliant." (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                          - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                            - ↩ cycle
+                                      - "\"The target is non-compliant.\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
                                         - WITCH_WEST_COMMAND_DECK
                                           - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
                                             - WITCH_WEST_MONKEY_MANAGEMENT
-                                              - "Order a "Kinetic Brush-By" (Increase Load)." → WITCH_WEST_COMMAND_DECK
-                                                - WITCH_WEST_COMMAND_DECK
-                                                  - ↩ cycle
-                                              - "Order "Silent Hover" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
-                                                - WITCH_WEST_COMMAND_DECK
-                                                  - ↩ cycle
-                                              - "Order "Aggressive Shriek" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
-                                                - WITCH_WEST_ORACLE_ENTRY
-                                                  - ↩ cycle
+                                              - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                              - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                              - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                                - ↩ cycle
                                           - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
                                             - WITCH_WEST_POPPY_CALIBRATION
                                               - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
-                                                - WITCH_WEST_COMMAND_DECK
-                                                  - ↩ cycle
-                                              - "Pulse the Field: Create a "Lullaby Spike"." → WITCH_WEST_COMMAND_DECK
-                                                - WITCH_WEST_COMMAND_DECK
-                                                  - ↩ cycle
+                                                - ↩ cycle
+                                              - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
                                           - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
                                             - WITCH_WEST_OBSIDIAN_VIEW
                                               - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
-                                                - WITCH_WEST_ORACLE_ENTRY
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                               - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
-                                                - WITCH_WEST_FIELD_CONFRONTATION
-                                                  - ↩ cycle
+                                                - ↩ cycle
                                               - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
                                                 - WITCH_WEST_SIGNAL_BLEED
                                                   - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
-                                                    - WITCH_WEST_COMMAND_DECK_V2
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                                   - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
                                                     - WITCH_WEST_END_MELTING [ENDING]
-                                          - "Initialize Ritual: "The Obsidian Matron"." → WITCH_WEST_ORACLE_ENTRY
-                                            - WITCH_WEST_ORACLE_ENTRY
-                                              - ↩ cycle
+                                          - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                            - ↩ cycle
                               - "Send the monkeys to accelerate their arrival." → WITCH_WEST_MONKEY_SWEEP_B
-                                - WITCH_WEST_MONKEY_SWEEP_B
-                                  - ↩ cycle
-                          - "ADMINISTRATION: File a "Pre-emptive Deletion" warrant." → WITCH_WEST_BUREAU_FILING
+                                - ↩ cycle
+                          - "ADMINISTRATION: File a \"Pre-emptive Deletion\" warrant." → WITCH_WEST_BUREAU_FILING
                             - WITCH_WEST_BUREAU_FILING
-                              - "Label it "Maintenance Disposal" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
-                                - WITCH_WEST_COMMAND_DECK_V2
-                                  - ↩ cycle
-                              - "Label it "Judicial Reclamation" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
-                                - WITCH_WEST_COMMAND_DECK_V2
-                                  - ↩ cycle
-                          - "THE FINAL INCISION: Trigger "The Melting Point"." → WITCH_WEST_END_MELTING
+                              - "Label it \"Maintenance Disposal\" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                - ↩ cycle
+                              - "Label it \"Judicial Reclamation\" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
+                                - ↩ cycle
+                          - "THE FINAL INCISION: Trigger \"The Melting Point\"." → WITCH_WEST_END_MELTING
                             - WITCH_WEST_END_MELTING [ENDING]
               - "Monitor the kinetic audit in granular detail." → WITCH_WEST_MID_AIR_HARVEST_DETAIL
                 - WITCH_WEST_MID_AIR_HARVEST_DETAIL
                   - "Receive the parts in the Ritual Chamber." → WITCH_WEST_TOWER_PREP
                     - WITCH_WEST_TOWER_PREP
                       - "The chamber is prepared. Begin the Obsidian Eye procedure." → WITCH_WEST_ORACLE_ENTRY
-                        - WITCH_WEST_ORACLE_ENTRY
-                          - ↩ cycle
+                        - ↩ cycle
                       - "The Clerk signals a compliance concern — attend to the warning." → WITCH_WEST_CLERK_INTERLUDE
                         - WITCH_WEST_CLERK_INTERLUDE
                           - "Force the verdict now — Summon the Obsidian Matron." → WITCH_WEST_ORACLE_ENTRY
-                            - WITCH_WEST_ORACLE_ENTRY
-                              - ↩ cycle
+                            - ↩ cycle
                           - "Ignore the Clerk. Proceed with psychological pressure." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
                             - WITCH_WEST_PSYCHOLOGICAL_TORMENT
                               - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
-                                - WITCH_WEST_ORACLE_ENTRY
-                                  - ↩ cycle
+                                - ↩ cycle
                               - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
                                 - WITCH_WEST_END_MELTING [ENDING]
                               - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
                                 - WITCH_WEST_TORMENT_DETAIL
                                   - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
-                                    - WITCH_WEST_ORACLE_ENTRY
-                                      - ↩ cycle
-                                  - "Signal the Monkeys to begin "The Scrap Reallocation."" → WITCH_WEST_END_SCRAP
+                                    - ↩ cycle
+                                  - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
                                     - WITCH_WEST_END_SCRAP [ENDING]
                       - "Walk the perimeter — let the Winkie chant stabilize the ritual chamber." → WITCH_WEST_WINKIE_CORRIDOR
                         - WITCH_WEST_WINKIE_CORRIDOR
@@ -11033,25 +10675,43 @@ Generated: 2026-05-01T21:04:29.436Z
                                   - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
                                     - WITCH_WEST_SCRAPE_MANE
                                       - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
-                                        - WITCH_WEST_LION_AUDIT_HUB
-                                          - ↩ cycle
-                                      - "Braid the hairs into a "Fear-Whip"." → WITCH_WEST_LION_AUDIT_HUB
-                                        - WITCH_WEST_LION_AUDIT_HUB
-                                          - ↩ cycle
+                                        - ↩ cycle
+                                      - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
                                   - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
                                     - WITCH_WEST_LION_AUDIT_HUB
-                                      - ↩ cycle
+                                      - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                        - WITCH_WEST_SCRAPE_MANE
+                                          - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                      - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                        - ↩ cycle
                                   - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
                                     - WITCH_WEST_LION_AUDIT_HUB
-                                      - ↩ cycle
+                                      - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                        - WITCH_WEST_SCRAPE_MANE
+                                          - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                      - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                        - ↩ cycle
                                   - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
-                                    - WITCH_WEST_COMMAND_DECK_V2
-                                      - ↩ cycle
-                              - "SURVEILLANCE: Deploy "Eye-on-a-String" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
+                                    - ↩ cycle
+                              - "SURVEILLANCE: Deploy \"Eye-on-a-String\" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
                                 - WITCH_WEST_OBSIDIAN_VIEW
                                   - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
-                                    - WITCH_WEST_ORACLE_ENTRY
-                                      - ↩ cycle
+                                    - ↩ cycle
                                   - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
                                     - WITCH_WEST_FIELD_CONFRONTATION
                                       - "Pick who gets the first incision, then begin the Obsidian Eye ritual." → WITCH_WEST_SELECT_TARGET
@@ -11071,8 +10731,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                       - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                         - WITCH_WEST_END_MELTING [ENDING]
                                                       - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                        - WITCH_WEST_MONKEY_SWEEP_B
-                                                          - ↩ cycle
+                                                        - ↩ cycle
                                                   - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                     - WITCH_WEST_ORACLE_3
                                                       - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -11124,8 +10783,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                       - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                         - WITCH_WEST_END_MELTING [ENDING]
                                                       - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                        - WITCH_WEST_MONKEY_SWEEP_B
-                                                          - ↩ cycle
+                                                        - ↩ cycle
                                                   - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                     - WITCH_WEST_ORACLE_3
                                                       - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -11177,8 +10835,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                       - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                         - WITCH_WEST_END_MELTING [ENDING]
                                                       - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                        - WITCH_WEST_MONKEY_SWEEP_B
-                                                          - ↩ cycle
+                                                        - ↩ cycle
                                                   - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                     - WITCH_WEST_ORACLE_3
                                                       - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -11230,8 +10887,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                       - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                         - WITCH_WEST_END_MELTING [ENDING]
                                                       - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                        - WITCH_WEST_MONKEY_SWEEP_B
-                                                          - ↩ cycle
+                                                        - ↩ cycle
                                                   - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                     - WITCH_WEST_ORACLE_3
                                                       - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -11269,83 +10925,65 @@ Generated: 2026-05-01T21:04:29.436Z
                                                       - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                                         - WITCH_WEST_END_SCRAP [ENDING]
                                       - "Have the monkeys carry him back to the tower for a proper procedure." → WITCH_WEST_TOWER_PREP
-                                        - WITCH_WEST_TOWER_PREP
-                                          - ↩ cycle
+                                        - ↩ cycle
                                       - "Toy with him first. Make him beg for the mercy of the scalpel." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
                                         - WITCH_WEST_PSYCHOLOGICAL_TORMENT
                                           - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
-                                            - WITCH_WEST_ORACLE_ENTRY
-                                              - ↩ cycle
+                                            - ↩ cycle
                                           - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
                                             - WITCH_WEST_END_MELTING [ENDING]
                                           - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
                                             - WITCH_WEST_TORMENT_DETAIL
                                               - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
-                                                - WITCH_WEST_ORACLE_ENTRY
-                                                  - ↩ cycle
-                                              - "Signal the Monkeys to begin "The Scrap Reallocation."" → WITCH_WEST_END_SCRAP
+                                                - ↩ cycle
+                                              - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
                                                 - WITCH_WEST_END_SCRAP [ENDING]
                                       - "The Clerk flags the warrant status — review the audit logs." → WITCH_WEST_BUREAU_LOG_CHECK
                                         - WITCH_WEST_BUREAU_LOG_CHECK
-                                          - ""It is a Judicial Necessity." (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
+                                          - "\"It is a Judicial Necessity.\" (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
                                             - WITCH_WEST_COMMAND_DECK
                                               - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
                                                 - WITCH_WEST_MONKEY_MANAGEMENT
-                                                  - "Order a "Kinetic Brush-By" (Increase Load)." → WITCH_WEST_COMMAND_DECK
-                                                    - WITCH_WEST_COMMAND_DECK
-                                                      - ↩ cycle
-                                                  - "Order "Silent Hover" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
-                                                    - WITCH_WEST_COMMAND_DECK
-                                                      - ↩ cycle
-                                                  - "Order "Aggressive Shriek" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
-                                                    - WITCH_WEST_ORACLE_ENTRY
-                                                      - ↩ cycle
+                                                  - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                                    - ↩ cycle
+                                                  - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                    - ↩ cycle
+                                                  - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                                    - ↩ cycle
                                               - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
                                                 - WITCH_WEST_POPPY_CALIBRATION
                                                   - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
-                                                    - WITCH_WEST_COMMAND_DECK
-                                                      - ↩ cycle
-                                                  - "Pulse the Field: Create a "Lullaby Spike"." → WITCH_WEST_COMMAND_DECK
-                                                    - WITCH_WEST_COMMAND_DECK
-                                                      - ↩ cycle
+                                                    - ↩ cycle
+                                                  - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                                    - ↩ cycle
                                               - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
-                                                - WITCH_WEST_OBSIDIAN_VIEW
-                                                  - ↩ cycle
-                                              - "Initialize Ritual: "The Obsidian Matron"." → WITCH_WEST_ORACLE_ENTRY
-                                                - WITCH_WEST_ORACLE_ENTRY
-                                                  - ↩ cycle
-                                          - ""The target is non-compliant." (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                              - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                                - ↩ cycle
+                                          - "\"The target is non-compliant.\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
                                             - WITCH_WEST_COMMAND_DECK
                                               - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
                                                 - WITCH_WEST_MONKEY_MANAGEMENT
-                                                  - "Order a "Kinetic Brush-By" (Increase Load)." → WITCH_WEST_COMMAND_DECK
-                                                    - WITCH_WEST_COMMAND_DECK
-                                                      - ↩ cycle
-                                                  - "Order "Silent Hover" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
-                                                    - WITCH_WEST_COMMAND_DECK
-                                                      - ↩ cycle
-                                                  - "Order "Aggressive Shriek" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
-                                                    - WITCH_WEST_ORACLE_ENTRY
-                                                      - ↩ cycle
+                                                  - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                                    - ↩ cycle
+                                                  - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                    - ↩ cycle
+                                                  - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                                    - ↩ cycle
                                               - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
                                                 - WITCH_WEST_POPPY_CALIBRATION
                                                   - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
-                                                    - WITCH_WEST_COMMAND_DECK
-                                                      - ↩ cycle
-                                                  - "Pulse the Field: Create a "Lullaby Spike"." → WITCH_WEST_COMMAND_DECK
-                                                    - WITCH_WEST_COMMAND_DECK
-                                                      - ↩ cycle
+                                                    - ↩ cycle
+                                                  - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                                    - ↩ cycle
                                               - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
-                                                - WITCH_WEST_OBSIDIAN_VIEW
-                                                  - ↩ cycle
-                                              - "Initialize Ritual: "The Obsidian Matron"." → WITCH_WEST_ORACLE_ENTRY
-                                                - WITCH_WEST_ORACLE_ENTRY
-                                                  - ↩ cycle
+                                                - ↩ cycle
+                                              - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                                - ↩ cycle
                                   - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
                                     - WITCH_WEST_SIGNAL_BLEED
                                       - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
-                                        - WITCH_WEST_COMMAND_DECK_V2
-                                          - ↩ cycle
+                                        - ↩ cycle
                                       - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
                                         - WITCH_WEST_END_MELTING [ENDING]
                               - "PHARMACOLOGY: Refine the Poppy Resin in the crucible." → WITCH_WEST_POPPY_BUFFER
@@ -11369,8 +11007,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                       - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                         - WITCH_WEST_END_MELTING [ENDING]
                                                       - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                        - WITCH_WEST_MONKEY_SWEEP_B
-                                                          - ↩ cycle
+                                                        - ↩ cycle
                                                   - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                     - WITCH_WEST_ORACLE_3
                                                       - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -11422,8 +11059,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                       - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                         - WITCH_WEST_END_MELTING [ENDING]
                                                       - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                        - WITCH_WEST_MONKEY_SWEEP_B
-                                                          - ↩ cycle
+                                                        - ↩ cycle
                                                   - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                     - WITCH_WEST_ORACLE_3
                                                       - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -11475,8 +11111,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                       - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                         - WITCH_WEST_END_MELTING [ENDING]
                                                       - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                        - WITCH_WEST_MONKEY_SWEEP_B
-                                                          - ↩ cycle
+                                                        - ↩ cycle
                                                   - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                     - WITCH_WEST_ORACLE_3
                                                       - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -11528,8 +11163,7 @@ Generated: 2026-05-01T21:04:29.436Z
                                                       - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
                                                         - WITCH_WEST_END_MELTING [ENDING]
                                                       - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
-                                                        - WITCH_WEST_MONKEY_SWEEP_B
-                                                          - ↩ cycle
+                                                        - ↩ cycle
                                                   - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
                                                     - WITCH_WEST_ORACLE_3
                                                       - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
@@ -11567,122 +11201,97 @@ Generated: 2026-05-01T21:04:29.436Z
                                                       - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
                                                         - WITCH_WEST_END_SCRAP [ENDING]
                                       - "Have the monkeys carry him back to the tower for a proper procedure." → WITCH_WEST_TOWER_PREP
-                                        - WITCH_WEST_TOWER_PREP
-                                          - ↩ cycle
+                                        - ↩ cycle
                                       - "Toy with him first. Make him beg for the mercy of the scalpel." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
                                         - WITCH_WEST_PSYCHOLOGICAL_TORMENT
                                           - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
-                                            - WITCH_WEST_ORACLE_ENTRY
-                                              - ↩ cycle
+                                            - ↩ cycle
                                           - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
                                             - WITCH_WEST_END_MELTING [ENDING]
                                           - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
                                             - WITCH_WEST_TORMENT_DETAIL
                                               - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
-                                                - WITCH_WEST_ORACLE_ENTRY
-                                                  - ↩ cycle
-                                              - "Signal the Monkeys to begin "The Scrap Reallocation."" → WITCH_WEST_END_SCRAP
+                                                - ↩ cycle
+                                              - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
                                                 - WITCH_WEST_END_SCRAP [ENDING]
                                       - "The Clerk flags the warrant status — review the audit logs." → WITCH_WEST_BUREAU_LOG_CHECK
                                         - WITCH_WEST_BUREAU_LOG_CHECK
-                                          - ""It is a Judicial Necessity." (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
+                                          - "\"It is a Judicial Necessity.\" (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
                                             - WITCH_WEST_COMMAND_DECK
                                               - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
                                                 - WITCH_WEST_MONKEY_MANAGEMENT
-                                                  - "Order a "Kinetic Brush-By" (Increase Load)." → WITCH_WEST_COMMAND_DECK
-                                                    - WITCH_WEST_COMMAND_DECK
-                                                      - ↩ cycle
-                                                  - "Order "Silent Hover" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
-                                                    - WITCH_WEST_COMMAND_DECK
-                                                      - ↩ cycle
-                                                  - "Order "Aggressive Shriek" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
-                                                    - WITCH_WEST_ORACLE_ENTRY
-                                                      - ↩ cycle
+                                                  - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                                    - ↩ cycle
+                                                  - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                    - ↩ cycle
+                                                  - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                                    - ↩ cycle
                                               - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
                                                 - WITCH_WEST_POPPY_CALIBRATION
                                                   - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
-                                                    - WITCH_WEST_COMMAND_DECK
-                                                      - ↩ cycle
-                                                  - "Pulse the Field: Create a "Lullaby Spike"." → WITCH_WEST_COMMAND_DECK
-                                                    - WITCH_WEST_COMMAND_DECK
-                                                      - ↩ cycle
+                                                    - ↩ cycle
+                                                  - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                                    - ↩ cycle
                                               - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
                                                 - WITCH_WEST_OBSIDIAN_VIEW
                                                   - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
-                                                    - WITCH_WEST_ORACLE_ENTRY
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                                   - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
-                                                    - WITCH_WEST_FIELD_CONFRONTATION
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                                   - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
                                                     - WITCH_WEST_SIGNAL_BLEED
                                                       - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
-                                                        - WITCH_WEST_COMMAND_DECK_V2
-                                                          - ↩ cycle
+                                                        - ↩ cycle
                                                       - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
                                                         - WITCH_WEST_END_MELTING [ENDING]
-                                              - "Initialize Ritual: "The Obsidian Matron"." → WITCH_WEST_ORACLE_ENTRY
-                                                - WITCH_WEST_ORACLE_ENTRY
-                                                  - ↩ cycle
-                                          - ""The target is non-compliant." (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                              - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                                - ↩ cycle
+                                          - "\"The target is non-compliant.\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
                                             - WITCH_WEST_COMMAND_DECK
                                               - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
                                                 - WITCH_WEST_MONKEY_MANAGEMENT
-                                                  - "Order a "Kinetic Brush-By" (Increase Load)." → WITCH_WEST_COMMAND_DECK
-                                                    - WITCH_WEST_COMMAND_DECK
-                                                      - ↩ cycle
-                                                  - "Order "Silent Hover" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
-                                                    - WITCH_WEST_COMMAND_DECK
-                                                      - ↩ cycle
-                                                  - "Order "Aggressive Shriek" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
-                                                    - WITCH_WEST_ORACLE_ENTRY
-                                                      - ↩ cycle
+                                                  - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                                    - ↩ cycle
+                                                  - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                    - ↩ cycle
+                                                  - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                                    - ↩ cycle
                                               - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
                                                 - WITCH_WEST_POPPY_CALIBRATION
                                                   - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
-                                                    - WITCH_WEST_COMMAND_DECK
-                                                      - ↩ cycle
-                                                  - "Pulse the Field: Create a "Lullaby Spike"." → WITCH_WEST_COMMAND_DECK
-                                                    - WITCH_WEST_COMMAND_DECK
-                                                      - ↩ cycle
+                                                    - ↩ cycle
+                                                  - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                                    - ↩ cycle
                                               - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
                                                 - WITCH_WEST_OBSIDIAN_VIEW
                                                   - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
-                                                    - WITCH_WEST_ORACLE_ENTRY
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                                   - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
-                                                    - WITCH_WEST_FIELD_CONFRONTATION
-                                                      - ↩ cycle
+                                                    - ↩ cycle
                                                   - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
                                                     - WITCH_WEST_SIGNAL_BLEED
                                                       - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
-                                                        - WITCH_WEST_COMMAND_DECK_V2
-                                                          - ↩ cycle
+                                                        - ↩ cycle
                                                       - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
                                                         - WITCH_WEST_END_MELTING [ENDING]
-                                              - "Initialize Ritual: "The Obsidian Matron"." → WITCH_WEST_ORACLE_ENTRY
-                                                - WITCH_WEST_ORACLE_ENTRY
-                                                  - ↩ cycle
+                                              - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                                - ↩ cycle
                                   - "Send the monkeys to accelerate their arrival." → WITCH_WEST_MONKEY_SWEEP_B
-                                    - WITCH_WEST_MONKEY_SWEEP_B
-                                      - ↩ cycle
-                              - "ADMINISTRATION: File a "Pre-emptive Deletion" warrant." → WITCH_WEST_BUREAU_FILING
+                                    - ↩ cycle
+                              - "ADMINISTRATION: File a \"Pre-emptive Deletion\" warrant." → WITCH_WEST_BUREAU_FILING
                                 - WITCH_WEST_BUREAU_FILING
-                                  - "Label it "Maintenance Disposal" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
-                                    - WITCH_WEST_COMMAND_DECK_V2
-                                      - ↩ cycle
-                                  - "Label it "Judicial Reclamation" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
-                                    - WITCH_WEST_COMMAND_DECK_V2
-                                      - ↩ cycle
-                              - "THE FINAL INCISION: Trigger "The Melting Point"." → WITCH_WEST_END_MELTING
+                                  - "Label it \"Maintenance Disposal\" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
+                                  - "Label it \"Judicial Reclamation\" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
+                              - "THE FINAL INCISION: Trigger \"The Melting Point\"." → WITCH_WEST_END_MELTING
                                 - WITCH_WEST_END_MELTING [ENDING]
           - "Observe the aerial deployment from altitude — let the sweep run its course." → WITCH_WEST_PATH_MONKEYS
             - WITCH_WEST_PATH_MONKEYS
               - "Escalate the warrant — route toward total enforcement." → WITCH_WEST_END_MELTING
                 - WITCH_WEST_END_MELTING [ENDING]
               - "Recall the monkeys — perform the ritual personally." → WITCH_WEST_ORACLE_ENTRY
-                - WITCH_WEST_ORACLE_ENTRY
-                  - ↩ cycle
+                - ↩ cycle
 
 ## WIZARD_INIT
 - WIZARD_INIT
@@ -11747,8 +11356,7 @@ Generated: 2026-05-01T21:04:29.436Z
           - "Continue the projection — route toward the marketing audit." → WIZARD_END_AUDIT
             - WIZARD_END_AUDIT [ENDING]
           - "Let a lever stick too long — invite the malfunction." → WIZARD_ORACLE_ENTRY
-            - WIZARD_ORACLE_ENTRY
-              - ↩ cycle
+            - ↩ cycle
   - "Keep the curtain closed — maintain the projection." → WIZARD_PATH_PROJECTION
     - WIZARD_PATH_PROJECTION
       - "Continue the projection — route toward the marketing audit." → WIZARD_END_AUDIT
@@ -11810,5 +11418,4 @@ Generated: 2026-05-01T21:04:29.436Z
                   - "Accept the humbug index — route toward the projection fail ending." → WIZARD_END_FAIL
                     - WIZARD_END_FAIL [ENDING]
           - "Pull the curtain back over the Surgeon — maintain the fiction." → WIZARD_PATH_PROJECTION
-            - WIZARD_PATH_PROJECTION
-              - ↩ cycle
+            - ↩ cycle
