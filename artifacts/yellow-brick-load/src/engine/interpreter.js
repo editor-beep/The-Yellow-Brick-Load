@@ -185,6 +185,13 @@ export function applyEffects(effects) {
         store.setCompliance('broken')
         store.addSmudge(3)
         break
+      case 'triggerThermalEvent':
+        // Searing Grace: the bubble hits the slag — grace as heat at impact velocity
+        store.addOverrender(5)
+        store.addLoad(30)
+        store.addSmudge(3)
+        store.setFlag('thermal_event_fired', true)
+        break
       // ── Graft / gray-out / unlock effects ───────────────────────────────
       case 'graft':
         // Records cross-character material application: flags.graft_<material>_in_<target>

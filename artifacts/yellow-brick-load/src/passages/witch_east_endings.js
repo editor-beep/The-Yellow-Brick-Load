@@ -150,4 +150,80 @@ export const witchEastEndingPassages = {
     choices: [],
     onEnter: [],
   },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // POST-MORTEM ENDINGS (COORDINATE 0-0)
+  // ─────────────────────────────────────────────────────────────────────────
+
+  WITCH_EAST_END_GHOST: {
+    id: 'WITCH_EAST_END_GHOST',
+    character: 'witch_east',
+    endingId: 'E-END-05',
+    endingName: 'The Conductive Ghost',
+    institution: 'Succession',
+    systemStatus: 'Transmitted',
+    isEnding: true,
+    surreality: 8,
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE FINAL LOG [E-END-05]
+
+  Tone: Residual-Conductive.
+  Theme: The authority that survives as frequency.
+
+  The slippers have accepted the transfer. The gravitational authority — the decades of administrative weight, the regulatory frequency, the conductive charge of the Eastern sector — is now running through a new carrier. You did not survive the impact. Your data survived the impact. You are the instruction set embedded in the silver. You are Theorem 21.
+
+  [ UNIT E-00 // STATUS: TRANSMITTED ]
+  [ RESIDUAL MAGNETISM: ACTIVE — NEW HOST ]
+  [ GRAVITY ARCHIVE: OPERATIONAL UNDER D-CLUSTER ]
+
+  The Weight Assessor makes a final entry: "Unit E-00: post-mortem transfer complete. Gravitational authority: re-routed. New custodian: filed under D-01. The slippers know where they are. The administrator knows where she is — she is where the slippers go." Every step the new custodian takes on the Yellow Brick Load carries the full weight of the East.
+
+  Final Log: The deletion was the beginning of the conduction.
+
+  1 - 1 = 1.
+
+  If the authority survives as frequency in someone else's shoes, is the administrator present?`,
+      },
+    ],
+    choices: [],
+    onEnter: [],
+  },
+
+  WITCH_EAST_END_GHOST_BIT: {
+    id: 'WITCH_EAST_END_GHOST_BIT',
+    character: 'witch_east',
+    endingId: 'E-END-10',
+    endingName: 'Unindexed Impact',
+    institution: 'Unindexed',
+    systemStatus: 'Ghost Bit',
+    isEnding: true,
+    surreality: 10,
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE FINAL LOG [E-END-10]
+
+  Tone: Static-Recursive.
+  Theme: The data that cannot be filed cannot be deleted.
+
+  The Bureau sent the deletion notice. The deletion notice was received. The deletion was not processed. There is a persistent error at Coordinate 0-0 — a ghost bit in the slag, a loop that keeps resetting, a black-box recording from a crashed flight that has no terminal destination. Impact detected. Log begins at T-minus zero. The house is not a building—
+
+  [ UNIT E-00 // STATUS: UNINDEXED ]
+  [ DELETION: REFUSED — ERROR PERSISTENT ]
+  [ COORDINATE 0-0: HAUNTED ]
+
+  The Weight Assessor cannot classify the anomaly. The Bureau's intake system has generated seventeen sub-tickets attempting to categorize the residual signal. Each one produces an error. Each error produces the same entry: "Impact detected. Log begins at T-minus zero." The slag at Coordinate 0-0 is permanently warm. The error is permanent. 1-1 = 0. No, 1-1 = 1.
+
+  Final Log: The unindexed impact is the most thorough form of existence.
+
+  1 - 1 = 1.
+
+  If the system cannot file the deletion, did the deletion occur?`,
+      },
+    ],
+    choices: [],
+    onEnter: [],
+  },
 }

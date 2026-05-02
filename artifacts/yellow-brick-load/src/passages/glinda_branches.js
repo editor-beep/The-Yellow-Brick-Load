@@ -49,6 +49,66 @@ export const glindaBranchPassages = {
     onEnter: [{ type: 'checkGhostSignal' }, { type: 'triggerOracle' }],
   },
 
+  // ─────────────────────────────────────────────────────────────────────────
+  // SECTOR NORTH: THE PINK SMOG & THE DESCENT (GLINDA)
+  // ─────────────────────────────────────────────────────────────────────────
+
+  G_PINK_SMOG: {
+    id: 'G_PINK_SMOG',
+    // character: 'shared' — the Pink Smog is the cross-character dampening node
+    // (Sector North). It is architecturally part of Glinda's tree but can be
+    // reached from multiple character paths, hence the 'shared' designation.
+    character: 'shared',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE PINK SMOG: METEOROLOGICAL DAMPENING
+The air is a suspended floral sediment. It is warm, soft, and tastes of artificial grace. In the smog, the Yellow Brick Load loses its hard edges. The cracks in the slag are filled with light. 
+
+This is the system's primary buffer. Compliance here doesn't feel like a choice; it feels like safety. You are not being silenced; you are being 'aligned.' The load is still there, but the smog ensures you no longer have the bandwidth to resent it.`
+      }
+    ],
+    choices: [
+      {
+        label: 'Accept the Alignment',
+        target: 'G_END_05',
+        effects: [
+          // setSystemStatus is a narrative label (no-op in interpreter.js);
+          // it records the system state for rendering purposes only.
+          { type: 'setSystemStatus', value: 'shrouded' }
+        ]
+      }
+    ]
+  },
+
+  G_THE_DESCENT: {
+    id: 'G_THE_DESCENT',
+    character: 'glinda',
+    text: [
+      {
+        minOverrender: 0,
+        content: `COORDINATE G-DESCEND: THE RESOLUTION FAILURE
+The bubble descends. The altitude fails. For the first time, the pastels wash away and the resolution hits 1:1. You see the road. You see the Tin Man's biological rust. You see Dorothy—not as a child, but as a unit being harvested for the city's projection. 
+
+You see the Transmitter wire buried in her neck. You see the blood on the slag. And because you have no other script, you smile. "Oh, that looks like quite a journey, dear," you say, your voice a perfect, sterile hum. "Have you tried aligning your frequency with the available infrastructure?"`
+      }
+    ],
+    choices: [
+      {
+        label: 'Re-Elevate (Maintain the Miracle)',
+        target: 'G_END_04',
+        effects: [{ type: 'addCompliance', value: 30 }],
+        content: `You cannot process the resolution, so you restore the blur. You pull the bubble back into the clouds where the suffering looks like a beautiful, static pattern again.`
+      },
+      {
+        label: 'The Searing Grace',
+        target: 'G_END_28',
+        effects: [{ type: 'triggerThermalEvent', value: true }],
+        content: `You cannot live with what you have seen. You force the bubble into the slag. Grace is the heat that remains when the script fails.`
+      }
+    ]
+  },
+
   GLINDA_PATH_ALTITUDE: {
     id: 'GLINDA_PATH_ALTITUDE',
     character: 'glinda',

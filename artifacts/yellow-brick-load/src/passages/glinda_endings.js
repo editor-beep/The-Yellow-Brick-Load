@@ -222,4 +222,116 @@ export const glindaEndingPassages = {
     choices: [],
     onEnter: [],
   },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // SECTOR NORTH: PINK SMOG & DESCENT ENDINGS
+  // ─────────────────────────────────────────────────────────────────────────
+
+  G_END_05: {
+    id: 'G_END_05',
+    character: 'glinda',
+    endingId: 'G-END-05',
+    endingName: 'The Pink Smog',
+    institution: 'Meteorological',
+    systemStatus: 'Shrouded',
+    isEnding: true,
+    surreality: 5,
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE FINAL LOG [G-END-05]
+
+  Tone: Pharmaceutical-Warm.
+  Theme: The mercy that removes the capacity to need it.
+
+  The alignment is complete. The smog has reached full saturation. The units below move through the suspended floral sediment with the gentle efficiency of units who have forgotten what they were moving toward. The load is still there — the cracks in the slag, the biological rust, the straw-rot — but the resolution has been reduced to the point where none of it is legible as suffering.
+
+  [ UNIT GLINDA // STATUS: SHROUDED ]
+  [ SMOG DENSITY: OPTIMAL ]
+  [ UNIT RESENTMENT: BELOW DETECTABLE THRESHOLD ]
+
+  The Clerk makes a final note: "Alignment complete. Benevolence index: nominal. Units: compliant." The Pink Smog is the kindest ending available in the system. It is also the one that requires no further maintenance.
+
+  Final Log: The smog is the mercy. The mercy is the smog. The units are comfortable.
+
+  1 - 1 = 1.
+
+  If the suffering is too blurry to name, was it ever suffering at all?`,
+      },
+    ],
+    choices: [],
+    onEnter: [],
+  },
+
+  G_END_04: {
+    id: 'G_END_04',
+    character: 'glinda',
+    endingId: 'G-END-04',
+    endingName: 'Scripted Benevolence',
+    institution: 'Optical',
+    systemStatus: 'Re-Elevated',
+    isEnding: true,
+    surreality: 7,
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE FINAL LOG [G-END-04]
+
+  Tone: Clinical-Pastoral.
+  Theme: The miracle is the distance. The distance is the miracle.
+
+  The bubble has returned to altitude. The pastels are back. The 1:1 resolution has been safely archived and the render has been restored to its operational blur. Below, the Tin Man's rust looks like texture. The Transmitter wire in Dorothy's neck looks like jewelry. The blood on the slag looks like the road's natural coloration.
+
+  [ UNIT GLINDA // STATUS: RE-ELEVATED ]
+  [ RESOLUTION: RESTORED TO OPERATIONAL BLUR ]
+  [ TRAUMA LOG: ARCHIVED / NOT PROCESSED ]
+
+  You saw it. You chose not to know it. The script continues. The mercy continues. The bubble membrane hums with refined fluid, and the lilac scent returns, and you smile at the beautiful, static pattern of suffering below that you will never have to touch again.
+
+  Final Log: The script is the protection. The protection is the script. The Miracle is maintained.
+
+  1 - 1 = 1.
+
+  If you choose not to process the resolution, did the resolution happen?`,
+      },
+    ],
+    choices: [],
+    onEnter: [],
+  },
+
+  G_END_28: {
+    id: 'G_END_28',
+    character: 'glinda',
+    endingId: 'G-END-28',
+    endingName: 'The Searing Grace',
+    institution: 'Thermal',
+    systemStatus: 'Impact',
+    isEnding: true,
+    surreality: 10,
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE FINAL LOG [G-END-28]
+
+  Tone: Thermal-Absolute.
+  Theme: The grace that can no longer maintain its distance.
+
+  The bubble hits the slag at velocity. The membrane does not rupture; it burns. The subdermal tubing ignites. The refined fluid vaporizes into a pink thermal event that the Bureau's sensors classify as "Unauthorized Meteorological Discharge — Class: Thermal." The road receives the heat. The units on the road receive the heat. It is not mercy. It is also not distance.
+
+  [ UNIT GLINDA // STATUS: IMPACT ]
+  [ GRACE PROTOCOL: THERMAL FAILURE ]
+  [ RESOLUTION: 1:1 — PERMANENT ]
+
+  The Clerk makes a final note: "Refraction Operator: unscheduled descent. Bubble integrity: zero. Mercy classification: indeterminate." You saw the blood on the slag and the wire in the neck and the beautiful, terrible 1:1 resolution of what you had been blessing from above. You could not unknow it. Grace is the heat that remains when the script fails. The slag is warm now. It will stay warm.
+
+  Final Log: The grace was real. It arrived at impact velocity.
+
+  1 - 1 = 1.
+
+  If the mercy burns, is it still mercy?`,
+      },
+    ],
+    choices: [],
+    onEnter: [],
+  },
 }
