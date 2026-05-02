@@ -1,0 +1,391 @@
+# Yellow Brick Load Story Passage Branch Tree
+
+Generated: 2026-05-02T17:45:26.167Z
+
+
+## LION_INIT
+- LION_INIT
+  - "WETWARE — You are meat under pressure. The shaking is a body problem." → LION_INIT_W
+    - LION_INIT_W
+      - "Accept the ASSIMILATION and report the shaking as a mechanical error." → LION_ASSIMILATION
+        - LION_ASSIMILATION
+          - "Accept the dampeners." → LION_SEDATION
+            - LION_SEDATION
+              - "Proceed to the Muffled Chamber." → LION_MUFFLED_CHAMBER
+                - LION_MUFFLED_CHAMBER
+                  - "Close your eyes and accept the redistribution of your mass." → LION_END_11
+                    - LION_END_11 [ENDING]
+                  - "Search the soft walls for a seam—a place where the fur does not match." → LION_MANE_FRACTURE
+                    - LION_MANE_FRACTURE
+                      - "Sweep up the debris and return to the Muffled Chamber. (The Audit)" → LION_MUFFLED_CHAMBER
+                        - ↩ cycle
+                      - "Allow the fracture to spread. Let the tremor reach the spine. (The Breach)" → LION_SYSTEM_SPASM
+                        - LION_SYSTEM_SPASM
+                          - "Hold the bite until the simulation collapses." → LION_HARD_RESET
+                            - LION_HARD_RESET
+                              - "Accept the reset." → LION_INIT
+                                - ↩ cycle
+                              - "Refuse the reset." → LION_END_21
+                                - LION_END_21 [ENDING]
+                          - "Release and run into the tearing sky." → LION_VOID_FRAGMENT
+                            - LION_VOID_FRAGMENT
+                              - "Accept the displacement. Let the last of your meat dissolve." → LION_END_19
+                                - LION_END_19
+                              - "Cling desperately to the remaining fragments of your body." → LION_END_27
+                                - LION_END_27 [ENDING]
+              - "Spit the capsule out." → LION_SYSTEM_SPASM
+                - LION_SYSTEM_SPASM
+                  - "Hold the bite until the simulation collapses." → LION_HARD_RESET
+                    - LION_HARD_RESET
+                      - "Accept the reset." → LION_INIT
+                        - ↩ cycle
+                      - "Refuse the reset." → LION_END_21
+                        - LION_END_21 [ENDING]
+                  - "Release and run into the tearing sky." → LION_VOID_FRAGMENT
+                    - LION_VOID_FRAGMENT
+                      - "Accept the displacement. Let the last of your meat dissolve." → LION_END_19
+                        - LION_END_19
+                      - "Cling desperately to the remaining fragments of your body." → LION_END_27
+                        - LION_END_27 [ENDING]
+          - "Log the shaking as a feature." → LION_NOMINALIZATION
+            - LION_NOMINALIZATION
+              - "Ask the technician what happens to high-variance units." → LION_MIRROR_ASSIMILATION
+                - LION_MIRROR_ASSIMILATION
+                  - "Turn away and walk into the green light." → LION_EMPTY_PROMENADE
+                    - LION_EMPTY_PROMENADE
+                      - "Step onto the pedestal and embrace the mineral chill." → LION_END_24
+                        - LION_END_24 [ENDING]
+                  - "Shout a name—any name—to see if the smudge responds." → LION_NOMINAL_ECHO
+                    - LION_NOMINAL_ECHO
+                      - "Acknowledge the final entry. Accept the label." → LION_CLOSED_SYSTEM
+                        - LION_CLOSED_SYSTEM
+                          - "Submit to the equilibrium. Let the system finish its audit." → LION_END_15
+                            - LION_END_15 [ENDING]
+                          - "Attempt one final, destructive roar. Tear the dome from the inside." → LION_END_21
+                            - LION_END_21 [ENDING]
+                      - "Wait in the white room until the next cycle begins." → LION_LATENCY
+                        - LION_LATENCY
+                          - "Continue waiting. Accept the queue. Let the next cycle claim you." → LION_END_25
+                            - LION_END_25 [ENDING]
+                          - "Force the cycle. Move before the permission arrives." → LION_END_26
+                            - LION_END_26 [ENDING]
+              - "Walk forward into the green light." → LION_EMPTY_PROMENADE
+                - LION_EMPTY_PROMENADE
+                  - "Step onto the pedestal and embrace the mineral chill." → LION_END_24
+                    - LION_END_24 [ENDING]
+      - "Ignore the instruction and lunge into the unmapped thicket." → LION_VIOLENCE
+        - LION_VIOLENCE
+          - "Charge and tear into the Kalidah with teeth and claws." → LION_KALIDAH_FIGHT
+            - LION_KALIDAH_FIGHT
+              - "Keep tearing until there is nothing left to separate." → LION_END_33
+                - LION_END_33 [ENDING]
+              - "Pull back and try to vomit out the ink and paper lodged in your throat." → LION_INK_REJECTION
+                - LION_INK_REJECTION
+                  - "Submit to the total neurological surge." → LION_END_23
+                    - LION_END_23 [ENDING]
+                  - "Attempt to stabilize the leak by freezing your joints." → LION_END_17
+                    - LION_END_17 [ENDING]
+          - "Swallow the roar and try to hide among the rusted gears and broken cabinets." → LION_GEAR_HIDING
+            - LION_GEAR_HIDING
+              - "Stay perfectly still until the \"L-77\" tag expires." → LION_DE_INDEXING
+                - LION_DE_INDEXING [ENDING]
+              - "Follow the trail of old paper deeper into the unlit dark." → LION_VOID_TREK
+                - LION_VOID_TREK
+                  - "Keep walking until you dissolve completely." → LION_END_16
+                    - LION_END_16 [ENDING]
+                  - "Turn back toward the last traces of structure." → LION_END_26
+                    - LION_END_26 [ENDING]
+      - "Pretend the shaking isn't happening and keep walking the Load as if nothing is wrong." → LION_DENIAL
+        - LION_DENIAL
+          - "Maintain the gaze and keep walking. (The Royal Walk)" → LION_ROYAL_COMPLIANCE
+            - LION_ROYAL_COMPLIANCE
+              - "Take the throne and accept the Crown of Restraint." → LION_END_15
+                - LION_END_15 [ENDING]
+              - "Attempt to roar one last time before the coronation." → LION_TESTIMONY_ERROR
+                - LION_TESTIMONY_ERROR [ENDING]
+          - "Stop and observe the bird more closely. (The Audit)" → LION_CALIBRATION_POINT
+            - LION_CALIBRATION_POINT
+              - "Submit to recalibration." → LION_HARMONIC_ALIGNMENT
+                - LION_HARMONIC_ALIGNMENT
+                  - "Accept the final calibration." → LION_END_25
+                    - LION_END_25 [ENDING]
+              - "Reject the audit. Let the bird witness the full tremor." → LION_ACOUSTIC_REBELLION
+                - LION_ACOUSTIC_REBELLION
+                  - "Push the roar until the sky tears open." → LION_END_21
+                    - LION_END_21 [ENDING]
+                  - "Let the roar collapse back into your chest. Swallow it." → LION_CLOSED_SYSTEM
+                    - LION_CLOSED_SYSTEM
+                      - "Submit to the equilibrium. Let the system finish its audit." → LION_END_15
+                        - LION_END_15 [ENDING]
+                      - "Attempt one final, destructive roar. Tear the dome from the inside." → LION_END_21
+                        - LION_END_21 [ENDING]
+          - "Pause to fix the leaking Milestone Marker. (The Ritual)" → LION_RITUAL_WORK
+            - LION_RITUAL_WORK
+              - "Allow the Shearers to begin the harvest. (The Offering)" → LION_THE_SHEARING
+                - LION_THE_SHEARING [ENDING]
+              - "Fight the harvest. (The Market Correction)" → LION_VIOLENCE
+                - LION_VIOLENCE
+                  - "Charge and tear into the Kalidah with teeth and claws." → LION_KALIDAH_FIGHT
+                    - LION_KALIDAH_FIGHT
+                      - "Keep tearing until there is nothing left to separate." → LION_END_33
+                        - LION_END_33 [ENDING]
+                      - "Pull back and try to vomit out the ink and paper lodged in your throat." → LION_INK_REJECTION
+                        - LION_INK_REJECTION
+                          - "Submit to the total neurological surge." → LION_END_23
+                            - LION_END_23 [ENDING]
+                          - "Attempt to stabilize the leak by freezing your joints." → LION_END_17
+                            - LION_END_17 [ENDING]
+                  - "Swallow the roar and try to hide among the rusted gears and broken cabinets." → LION_GEAR_HIDING
+                    - LION_GEAR_HIDING
+                      - "Stay perfectly still until the \"L-77\" tag expires." → LION_DE_INDEXING
+                        - LION_DE_INDEXING [ENDING]
+                      - "Follow the trail of old paper deeper into the unlit dark." → LION_VOID_TREK
+                        - LION_VOID_TREK
+                          - "Keep walking until you dissolve completely." → LION_END_16
+                            - LION_END_16 [ENDING]
+                          - "Turn back toward the last traces of structure." → LION_END_26
+                            - LION_END_26 [ENDING]
+          - "Stop at the Spine-Tuning Station and attend to the tremor. (The Audit Cycle)" → LION_SPINE_HUB
+            - LION_SPINE_HUB
+              - "MANE MAINTENANCE: Scrape the crystallized fear from your scalp." → LION_MANE_SCRAPE_LOOP
+                - LION_MANE_SCRAPE_LOOP
+                  - "Scrape the \"Poppy Shard\" (Adds Vibration)." → LION_SPINE_HUB
+                    - ↩ cycle
+                  - "Scrape the \"Empty Chest\" shard (Adds Load)." → LION_SPINE_HUB
+                    - ↩ cycle
+              - "JOINT LUBRICATION: Apply the Blue Fluid (Wetware route — {{#flags.mode_wetware}}available{{/flags.mode_wetware}}{{^flags.mode_wetware}}hardware mode only, reduced effect{{/flags.mode_wetware}})." → LION_BLUE_FLUID_LOOP
+                - LION_BLUE_FLUID_LOOP
+                  - "Accept the full application. Let the fluid cycle." → LION_SPINE_HUB
+                    - ↩ cycle
+                  - "Accept only a partial dose. Maintain some friction." → LION_SPINE_HUB
+                    - ↩ cycle
+              - "DIAGNOSTIC ROAR: Test the acoustic integrity of the corridor." → LION_ROAR_TEST_LOOP
+                - LION_ROAR_TEST_LOOP
+                  - "Compliance Roar: Low, rhythmic, and safe." → LION_SPINE_HUB
+                    - ↩ cycle
+                  - "Acoustic Leak: Let a piece of the real scream through." → LION_SPINE_HUB
+                    - ↩ cycle
+              - "ADMINISTRATIVE LOG: Check in with the Clerk." → LION_CLERK_LOOP
+                - LION_CLERK_LOOP
+                  - "Pay in Wetware: Surrender a clump of fur." → LION_SPINE_HUB
+                    - ↩ cycle
+                  - "Pay in Signal: Allow the Clerk to redact your last memory." → LION_SPINE_HUB
+                    - ↩ cycle
+              - "VERTEBRAL AUDIT: Descend into the Spinal Switchboard." → LION_VERTEBRAE_HUB
+                - LION_VERTEBRAE_HUB
+                  - "Shift the Vibration to the NECK (Cervical — Administrative)." → LION_NECK_TENSION
+                    - LION_NECK_TENSION
+                      - "Force the gaze upward (Tear the staples)." → LION_MANE_FRACTURE
+                        - LION_MANE_FRACTURE
+                          - "Sweep up the debris and return to the Muffled Chamber. (The Audit)" → LION_MUFFLED_CHAMBER
+                            - LION_MUFFLED_CHAMBER
+                              - "Close your eyes and accept the redistribution of your mass." → LION_END_11
+                                - LION_END_11 [ENDING]
+                              - "Search the soft walls for a seam—a place where the fur does not match." → LION_MANE_FRACTURE
+                                - ↩ cycle
+                          - "Allow the fracture to spread. Let the tremor reach the spine. (The Breach)" → LION_SYSTEM_SPASM
+                            - LION_SYSTEM_SPASM
+                              - "Hold the bite until the simulation collapses." → LION_HARD_RESET
+                                - LION_HARD_RESET
+                                  - "Accept the reset." → LION_INIT
+                                    - ↩ cycle
+                                  - "Refuse the reset." → LION_END_21
+                                    - LION_END_21 [ENDING]
+                              - "Release and run into the tearing sky." → LION_VOID_FRAGMENT
+                                - LION_VOID_FRAGMENT
+                                  - "Accept the displacement. Let the last of your meat dissolve." → LION_END_19
+                                    - LION_END_19
+                                  - "Cling desperately to the remaining fragments of your body." → LION_END_27
+                                    - LION_END_27 [ENDING]
+                      - "Accept the downward gaze (Compliance)." → LION_VERTEBRAE_HUB
+                        - ↩ cycle
+                  - "Shift the Vibration to the RIBS (Thoracic — Kinetic)." → LION_RIB_EXPANSION
+                    - LION_RIB_EXPANSION
+                      - "Let the resonance build until the signal crosses over." → LION_GHOST_SIGNAL
+                        - LION_GHOST_SIGNAL
+                          - "Broadcast the pain (Roar at the system)." → LION_RESONANCE_COLLAPSE
+                            - LION_RESONANCE_COLLAPSE
+                              - "Push the broadcast until the tear consumes the field." → LION_WHITE_LOGIC
+                                - LION_WHITE_LOGIC
+                                  - "Become the resonance." → LION_END_32
+                                    - LION_END_32 [ENDING]
+                                  - "Attempt one final, discordant roar." → LION_END_23
+                                    - LION_END_23 [ENDING]
+                              - "Step into the white gap and leave the body behind." → LION_DATA_LEAK
+                                - LION_DATA_LEAK
+                              - "Let the overloaded system finally unravel." → LION_SYSTEM_ENTROPY
+                                - LION_SYSTEM_ENTROPY
+                                  - "One. Last. Roar." → LION_END_32
+                                    - LION_END_32 [ENDING]
+                          - "Swallow the signal (Dampen the overtones)." → LION_SPINE_HUB
+                            - ↩ cycle
+                      - "Force a controlled exhale. Vent the frequency." → LION_VERTEBRAE_HUB
+                        - ↩ cycle
+                  - "Shift the Vibration to the TAIL (Lumbar — Residue)." → LION_TAIL_DRAG
+                    - LION_TAIL_DRAG
+                      - "Wag the tail violently to overwhelm the drone." → LION_VERTEBRAE_HUB
+                        - ↩ cycle
+                      - "Tuck the tail (Hide the residue)." → LION_VERTEBRAE_HUB
+                        - ↩ cycle
+                  - "Return to the Spine-Tuning Station." → LION_SPINE_HUB
+                    - ↩ cycle
+              - "RE-ENTER THE LOAD: Continue toward the City." → LION_GATES_OF_OZ
+                - LION_GATES_OF_OZ
+                  - "Declare yourself cured. Demand entry as a model unit." → L_END_01
+                    - L_END_01 [ENDING]
+                  - "Roar your true state. Demand to be seen as you are." → L_END_02
+                    - L_END_02 [ENDING]
+                  - "Enter and request an audience with the Wizard." → LION_WIZARD_MISSION
+                    - LION_WIZARD_MISSION
+                      - "Accept the mission. Play the hero one last time." → LION_FOREST_THRONE
+                        - LION_FOREST_THRONE
+                          - "Accept the throne and the title." → L_END_05
+                            - L_END_05 [ENDING]
+                          - "Rise and reject the farce." → L_END_06
+                            - L_END_06 [ENDING]
+                      - "Refuse. Demand courage here and now." → LION_AUDIENCE_CHAMBER
+                        - LION_AUDIENCE_CHAMBER
+                          - "Beg for courage. Plead for a cure." → L_END_03
+                            - L_END_03 [ENDING]
+                          - "Demand the truth behind the curtain." → L_END_04
+                            - L_END_04 [ENDING]
+                      - "Take the southern road. Fight through the Hammer-Heads to reach Quadling Country." → LION_QUADLING_SECTOR
+                        - LION_QUADLING_SECTOR
+                          - "Accept the impact as official registration. The mark on your sternum is the system's record." → L_END_08
+                            - L_END_08 [ENDING]
+                          - "Look at the crater in the earth where you landed. Consider what shape you have left behind." → L_END_09
+                            - L_END_09 [ENDING]
+                      - "Abandon the Wizard's game and seek Glinda's record in the south." → LION_GLINDA_RECORD
+                        - LION_GLINDA_RECORD
+                          - "Accept her graceful intervention." → L_END_07
+                            - L_END_07 [ENDING]
+                          - "Reject the pink light. Tear through the illusion." → L_END_10
+                            - L_END_10 [ENDING]
+              - "POPPY BUFFER: Take the detour through the red fields." → LION_POPPY_BUFFER
+                - LION_POPPY_BUFFER
+                  - "Surrender to the resin. Let the field silence the tremor." → LION_END_18
+                    - LION_END_18 [ENDING]
+                  - "Fight the drowsiness. Tear the roots out." → LION_END_29
+                    - LION_END_29 [ENDING]
+  - "HARDWARE — You are a unit with a filing error. The shaking is a system problem." → LION_INIT_H
+    - LION_INIT_H
+      - "Accept the ASSIMILATION and file the shaking as a system variance." → LION_ASSIMILATION_H
+        - LION_ASSIMILATION_H
+          - "Proceed to the Muffled Chamber for final sealing." → LION_MUFFLED_CHAMBER
+            - LION_MUFFLED_CHAMBER
+              - "Close your eyes and accept the redistribution of your mass." → LION_END_11
+                - LION_END_11 [ENDING]
+              - "Search the soft walls for a seam—a place where the fur does not match." → LION_MANE_FRACTURE
+                - LION_MANE_FRACTURE
+                  - "Sweep up the debris and return to the Muffled Chamber. (The Audit)" → LION_MUFFLED_CHAMBER
+                    - ↩ cycle
+                  - "Allow the fracture to spread. Let the tremor reach the spine. (The Breach)" → LION_SYSTEM_SPASM
+                    - LION_SYSTEM_SPASM
+                      - "Hold the bite until the simulation collapses." → LION_HARD_RESET
+                        - LION_HARD_RESET
+                          - "Accept the reset." → LION_INIT
+                            - ↩ cycle
+                          - "Refuse the reset." → LION_END_21
+                            - LION_END_21 [ENDING]
+                      - "Release and run into the tearing sky." → LION_VOID_FRAGMENT
+                        - LION_VOID_FRAGMENT
+                          - "Accept the displacement. Let the last of your meat dissolve." → LION_END_19
+                            - LION_END_19
+                          - "Cling desperately to the remaining fragments of your body." → LION_END_27
+                            - LION_END_27 [ENDING]
+          - "Resist at the last moment. Tear the shims out." → LION_SYSTEM_SPASM
+            - LION_SYSTEM_SPASM
+              - "Hold the bite until the simulation collapses." → LION_HARD_RESET
+                - LION_HARD_RESET
+                  - "Accept the reset." → LION_INIT
+                    - ↩ cycle
+                  - "Refuse the reset." → LION_END_21
+                    - LION_END_21 [ENDING]
+              - "Release and run into the tearing sky." → LION_VOID_FRAGMENT
+                - LION_VOID_FRAGMENT
+                  - "Accept the displacement. Let the last of your meat dissolve." → LION_END_19
+                    - LION_END_19
+                  - "Cling desperately to the remaining fragments of your body." → LION_END_27
+                    - LION_END_27 [ENDING]
+      - "Reject the instruction and breach the perimeter." → LION_VIOLENCE_H
+        - LION_VIOLENCE_H
+          - "Engage the Kalidah in a high-torque collision." → LION_KALIDAH_PATCH
+            - LION_KALIDAH_PATCH
+              - "Complete the merge and become the swarm." → LION_UNINDEXED_MANY
+                - LION_UNINDEXED_MANY
+                  - "Initiate the final upload." → LION_END_28
+                    - LION_END_28 [ENDING]
+              - "Use the Kalidah's eyes to find the source of the simulation." → LION_ROOT_ACCESS
+                - LION_ROOT_ACCESS
+          - "Attempt to bypass the unit and find the Root Access." → LION_ROOT_ACCESS
+            - LION_ROOT_ACCESS
+          - "Stop moving. Let the Winged Monkeys take you to the Western Tower." → LION_HARVEST_HUB
+            - LION_HARVEST_HUB
+              - "Submit to the \"Streamlining\" (Mane Stripping)." → LION_MANE_STRIPPING
+                - LION_MANE_STRIPPING
+                  - "Look into the obsidian eye and roar (Bald Resonance)." → LION_AUDIO_EVENT
+                    - LION_AUDIO_EVENT
+                      - "Roar again and finish the demolition of the thicket." → LION_RESONANCE_COLLAPSE
+                        - LION_RESONANCE_COLLAPSE
+                          - "Push the broadcast until the tear consumes the field." → LION_WHITE_LOGIC
+                            - LION_WHITE_LOGIC
+                              - "Become the resonance." → LION_END_32
+                                - LION_END_32 [ENDING]
+                              - "Attempt one final, discordant roar." → LION_END_23
+                                - LION_END_23 [ENDING]
+                          - "Step into the white gap and leave the body behind." → LION_DATA_LEAK
+                            - LION_DATA_LEAK
+                          - "Let the overloaded system finally unravel." → LION_SYSTEM_ENTROPY
+                            - LION_SYSTEM_ENTROPY
+                              - "One. Last. Roar." → LION_END_32
+                                - LION_END_32 [ENDING]
+                      - "Step toward the frozen leaf and touch the fracture in time." → LION_LATENCY_GAP
+                        - LION_LATENCY_GAP
+                          - "Attempt to sync with the ghosting. Force the tremor back into alignment." → LION_END_14
+                            - LION_END_14 [ENDING]
+                          - "Step deliberately into the unallocated gap. Let the delay consume you." → LION_END_19
+                            - LION_END_19
+                  - "Close your eyes and wait for the \"Re-Skinning\"." → L_END_01
+                    - L_END_01 [ENDING]
+              - "Clinch every muscle to \"Lock the Seams\"." → LION_SEAM_LOCK
+                - LION_SEAM_LOCK
+                  - "Hold the lock until the table cracks." → LION_END_21
+                    - LION_END_21 [ENDING]
+                  - "Release the tension and collapse." → LION_MUFFLED_CHAMBER
+                    - LION_MUFFLED_CHAMBER
+                      - "Close your eyes and accept the redistribution of your mass." → LION_END_11
+                        - LION_END_11 [ENDING]
+                      - "Search the soft walls for a seam—a place where the fur does not match." → LION_MANE_FRACTURE
+                        - LION_MANE_FRACTURE
+                          - "Sweep up the debris and return to the Muffled Chamber. (The Audit)" → LION_MUFFLED_CHAMBER
+                            - ↩ cycle
+                          - "Allow the fracture to spread. Let the tremor reach the spine. (The Breach)" → LION_SYSTEM_SPASM
+                            - LION_SYSTEM_SPASM
+                              - "Hold the bite until the simulation collapses." → LION_HARD_RESET
+                                - LION_HARD_RESET
+                                  - "Accept the reset." → LION_INIT
+                                    - ↩ cycle
+                                  - "Refuse the reset." → LION_END_21
+                                    - LION_END_21 [ENDING]
+                              - "Release and run into the tearing sky." → LION_VOID_FRAGMENT
+                                - LION_VOID_FRAGMENT
+                                  - "Accept the displacement. Let the last of your meat dissolve." → LION_END_19
+                                    - LION_END_19
+                                  - "Cling desperately to the remaining fragments of your body." → LION_END_27
+                                    - LION_END_27 [ENDING]
+              - "Offer the \"Roar-Log\" as a trade for your skin." → LION_ROAR_TRADE
+                - LION_ROAR_TRADE
+                  - "Complete the transfer. Give her the roar-log." → LION_END_25
+                    - LION_END_25 [ENDING]
+                  - "Reclaim the data. Swallow the offer." → LION_HARVEST_HUB
+                    - ↩ cycle
+      - "Maintain the walk and file nothing. (The Rigid Proceed)" → LION_DENIAL_H
+        - LION_DENIAL_H
+          - "Push through the heat and maintain the pace." → LION_STRUCTURAL_FAILURE
+            - LION_STRUCTURAL_FAILURE [ENDING]
+          - "Pause at the Industrial Press to seek \"Lubrication.\"" → LION_REMAINTENANCE
+            - LION_REMAINTENANCE
+              - "Accept the post and begin the watch." → LION_END_20
+                - LION_END_20 [ENDING]
+              - "Overload the harness to trigger a final surge." → LION_END_23
+                - LION_END_23 [ENDING]

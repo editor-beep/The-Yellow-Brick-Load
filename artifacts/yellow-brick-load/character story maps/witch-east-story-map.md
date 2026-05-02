@@ -1,0 +1,123 @@
+# Yellow Brick Load Story Passage Branch Tree
+
+Generated: 2026-05-02T17:45:26.167Z
+
+
+## WITCH_EAST_INIT
+- WITCH_EAST_INIT
+  - "Begin the assay — run the Gravity Crucible before impact." → WITCH_EAST_ORACLE_ENTRY
+    - WITCH_EAST_ORACLE_ENTRY
+      - "Submit to the assay — endure the pressure reading." → WITCH_EAST_ORACLE_DRAW
+        - WITCH_EAST_ORACLE_DRAW
+          - "1. The Gravitational Surge — let the weight overwhelm." → WITCH_EAST_ORACLE_1
+            - WITCH_EAST_ORACLE_1
+              - "Amplify the gravity field to its limit." → WITCH_EAST_END_CRUSH
+                - WITCH_EAST_END_CRUSH [ENDING]
+              - "Let the surge route toward the flat finish." → WITCH_EAST_END_FLAT
+                - WITCH_EAST_END_FLAT [ENDING]
+          - "2. The Silver Transfer — route the authority through the shoes." → WITCH_EAST_ORACLE_2
+            - WITCH_EAST_ORACLE_2
+              - "Transfer the authority to the shoes — route toward the shoes ending." → WITCH_EAST_END_SHOES
+                - WITCH_EAST_END_SHOES [ENDING]
+              - "Retain the authority in the body — route toward the crush." → WITCH_EAST_END_CRUSH
+                - WITCH_EAST_END_CRUSH [ENDING]
+          - "3. The Munchkin Echo — feel the weight through your administered." → WITCH_EAST_ORACLE_3
+            - WITCH_EAST_ORACLE_3
+              - "Follow the Munchkin echo toward the administration ending." → WITCH_EAST_END_ADMIN
+                - WITCH_EAST_END_ADMIN [ENDING]
+              - "Let the echo destabilize the gravity field — route toward the flat finish." → WITCH_EAST_END_FLAT
+                - WITCH_EAST_END_FLAT [ENDING]
+          - "4. The Seismic Scan — let the pressure read the pre-existing cracks." → WITCH_EAST_ORACLE_4
+            - WITCH_EAST_ORACLE_4
+              - "Follow the old fractures into the administrative archive." → WITCH_EAST_END_ADMIN
+                - WITCH_EAST_END_ADMIN [ENDING]
+              - "Let the fractures open further — route toward the flat finish." → WITCH_EAST_END_FLAT
+                - WITCH_EAST_END_FLAT [ENDING]
+          - "5. The Archive Leak — the past surfaces under pressure." → WITCH_EAST_ORACLE_5
+            - WITCH_EAST_ORACLE_5
+              - "Let the archive surface fully — route toward the crush ending." → WITCH_EAST_END_CRUSH
+                - WITCH_EAST_END_CRUSH [ENDING]
+              - "Use the archive surfacing to reroute authority through the shoes." → WITCH_EAST_END_SHOES
+                - WITCH_EAST_END_SHOES [ENDING]
+          - "6. The Flat Finish — accept the crushing flattening." → WITCH_EAST_ORACLE_6
+            - WITCH_EAST_ORACLE_6
+              - "Accept the flat finish — become the regulatory tablet." → WITCH_EAST_END_FLAT
+                - WITCH_EAST_END_FLAT [ENDING]
+              - "Resist the inversion — route toward the gravitational crush." → WITCH_EAST_END_CRUSH
+                - WITCH_EAST_END_CRUSH [ENDING]
+          - "7. The Density Graft — cross-echo with Lion or Tin Man weight." → WITCH_EAST_ORACLE_7
+            - WITCH_EAST_ORACLE_7
+              - "Let the composite density route toward the administration ending." → WITCH_EAST_END_ADMIN
+                - WITCH_EAST_END_ADMIN [ENDING]
+              - "Use the borrowed weight to reinforce the flat finish." → WITCH_EAST_END_FLAT
+                - WITCH_EAST_END_FLAT [ENDING]
+          - "8. The Terminal Crush — the house arrives during the reading." → WITCH_EAST_ORACLE_8
+            - WITCH_EAST_ORACLE_8
+              - "Accept the terminal crush — route toward the crushed ending." → WITCH_EAST_END_CRUSH
+                - WITCH_EAST_END_CRUSH [ENDING]
+              - "Route the final data through the shoes — end at the silver transfer." → WITCH_EAST_END_SHOES
+                - WITCH_EAST_END_SHOES [ENDING]
+      - "Reject the assay — project gravitational counter-force." → WITCH_EAST_PATH_GRAVITY
+        - WITCH_EAST_PATH_GRAVITY
+          - "Maintain the field until impact — read the displacement pattern." → WITCH_EAST_ORACLE_ENTRY
+            - ↩ cycle
+          - "Attempt evacuation — route toward the silver shoes transfer." → WITCH_EAST_END_SHOES
+            - WITCH_EAST_END_SHOES [ENDING]
+  - "Attempt to redirect the falling mass — deploy regulatory pressure." → WITCH_EAST_PATH_GRAVITY
+    - WITCH_EAST_PATH_GRAVITY
+      - "Maintain the field until impact — read the displacement pattern." → WITCH_EAST_ORACLE_ENTRY
+        - WITCH_EAST_ORACLE_ENTRY
+          - "Submit to the assay — endure the pressure reading." → WITCH_EAST_ORACLE_DRAW
+            - WITCH_EAST_ORACLE_DRAW
+              - "1. The Gravitational Surge — let the weight overwhelm." → WITCH_EAST_ORACLE_1
+                - WITCH_EAST_ORACLE_1
+                  - "Amplify the gravity field to its limit." → WITCH_EAST_END_CRUSH
+                    - WITCH_EAST_END_CRUSH [ENDING]
+                  - "Let the surge route toward the flat finish." → WITCH_EAST_END_FLAT
+                    - WITCH_EAST_END_FLAT [ENDING]
+              - "2. The Silver Transfer — route the authority through the shoes." → WITCH_EAST_ORACLE_2
+                - WITCH_EAST_ORACLE_2
+                  - "Transfer the authority to the shoes — route toward the shoes ending." → WITCH_EAST_END_SHOES
+                    - WITCH_EAST_END_SHOES [ENDING]
+                  - "Retain the authority in the body — route toward the crush." → WITCH_EAST_END_CRUSH
+                    - WITCH_EAST_END_CRUSH [ENDING]
+              - "3. The Munchkin Echo — feel the weight through your administered." → WITCH_EAST_ORACLE_3
+                - WITCH_EAST_ORACLE_3
+                  - "Follow the Munchkin echo toward the administration ending." → WITCH_EAST_END_ADMIN
+                    - WITCH_EAST_END_ADMIN [ENDING]
+                  - "Let the echo destabilize the gravity field — route toward the flat finish." → WITCH_EAST_END_FLAT
+                    - WITCH_EAST_END_FLAT [ENDING]
+              - "4. The Seismic Scan — let the pressure read the pre-existing cracks." → WITCH_EAST_ORACLE_4
+                - WITCH_EAST_ORACLE_4
+                  - "Follow the old fractures into the administrative archive." → WITCH_EAST_END_ADMIN
+                    - WITCH_EAST_END_ADMIN [ENDING]
+                  - "Let the fractures open further — route toward the flat finish." → WITCH_EAST_END_FLAT
+                    - WITCH_EAST_END_FLAT [ENDING]
+              - "5. The Archive Leak — the past surfaces under pressure." → WITCH_EAST_ORACLE_5
+                - WITCH_EAST_ORACLE_5
+                  - "Let the archive surface fully — route toward the crush ending." → WITCH_EAST_END_CRUSH
+                    - WITCH_EAST_END_CRUSH [ENDING]
+                  - "Use the archive surfacing to reroute authority through the shoes." → WITCH_EAST_END_SHOES
+                    - WITCH_EAST_END_SHOES [ENDING]
+              - "6. The Flat Finish — accept the crushing flattening." → WITCH_EAST_ORACLE_6
+                - WITCH_EAST_ORACLE_6
+                  - "Accept the flat finish — become the regulatory tablet." → WITCH_EAST_END_FLAT
+                    - WITCH_EAST_END_FLAT [ENDING]
+                  - "Resist the inversion — route toward the gravitational crush." → WITCH_EAST_END_CRUSH
+                    - WITCH_EAST_END_CRUSH [ENDING]
+              - "7. The Density Graft — cross-echo with Lion or Tin Man weight." → WITCH_EAST_ORACLE_7
+                - WITCH_EAST_ORACLE_7
+                  - "Let the composite density route toward the administration ending." → WITCH_EAST_END_ADMIN
+                    - WITCH_EAST_END_ADMIN [ENDING]
+                  - "Use the borrowed weight to reinforce the flat finish." → WITCH_EAST_END_FLAT
+                    - WITCH_EAST_END_FLAT [ENDING]
+              - "8. The Terminal Crush — the house arrives during the reading." → WITCH_EAST_ORACLE_8
+                - WITCH_EAST_ORACLE_8
+                  - "Accept the terminal crush — route toward the crushed ending." → WITCH_EAST_END_CRUSH
+                    - WITCH_EAST_END_CRUSH [ENDING]
+                  - "Route the final data through the shoes — end at the silver transfer." → WITCH_EAST_END_SHOES
+                    - WITCH_EAST_END_SHOES [ENDING]
+          - "Reject the assay — project gravitational counter-force." → WITCH_EAST_PATH_GRAVITY
+            - ↩ cycle
+      - "Attempt evacuation — route toward the silver shoes transfer." → WITCH_EAST_END_SHOES
+        - WITCH_EAST_END_SHOES [ENDING]
