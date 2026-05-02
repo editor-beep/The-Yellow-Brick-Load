@@ -30,8 +30,8 @@ const CHAR_CONFIG = {
   witch_west: {
     unit: 'W-66', name: 'WITCH WEST',
     stats: [
-      { key: 'warrantLevel', label: 'WNT', threshold: 5, scale: 8  },
-      { key: 'thermal',      label: 'THM', threshold: 8, scale: 12 },
+      { key: 'malice',      label: 'MAL', threshold: 6, scale: 10 },
+      { key: 'thermal',     label: 'THM', threshold: 8, scale: 12 },
     ],
   },
   witch_east: {
@@ -98,6 +98,9 @@ function LionPortrait() {
       <line x1="6"  y1="38" x2="16" y2="37" stroke="#9E1B1B" strokeWidth="0.75" opacity="0.4"/>
       <line x1="64" y1="33" x2="74" y2="31" stroke="#9E1B1B" strokeWidth="1"    opacity="0.65"/>
       <line x1="64" y1="38" x2="74" y2="37" stroke="#9E1B1B" strokeWidth="0.75" opacity="0.4"/>
+      {/* Blood-ink audit tally */}
+      <line x1="24" y1="62" x2="56" y2="62" stroke="#9E1B1B" strokeWidth="0.8" opacity="0.45"/>
+      <line x1="26" y1="58" x2="26" y2="66" stroke="#9E1B1B" strokeWidth="0.7" opacity="0.4"/>
       {/* Complaint form stubs */}
       <rect x="22" y="65" width="36" height="5"  fill="none" stroke="#141414" strokeWidth="0.5" opacity="0.4"/>
       <rect x="22" y="73" width="36" height="5"  fill="none" stroke="#141414" strokeWidth="0.5" opacity="0.4"/>
@@ -127,6 +130,8 @@ function TinManPortrait() {
       <circle cx="60" cy="43" r="1.5" fill="#D4A72C" fillOpacity="0.45"/>
       <circle cx="22" cy="38" r="1"   fill="#D4A72C" fillOpacity="0.45"/>
       <path d="M19,52 L17,60" stroke="#D4A72C" strokeWidth="1" opacity="0.5"/>
+      {/* Leak seam + rivet tears */}
+      <path d="M26,64 Q40,60 54,64" fill="none" stroke="#9E1B1B" strokeWidth="0.8" opacity="0.35"/>
       {/* Seam line */}
       <line x1="16" y1="55" x2="64" y2="55" stroke="#141414" strokeWidth="0.5" opacity="0.3"/>
       <text x="40" y="93" fontFamily="Georgia, serif" fontSize="5.5" fill="#141414" textAnchor="middle" letterSpacing="1.5" opacity="0.5">UNIT T-88</text>
@@ -158,6 +163,8 @@ function ScarecrowPortrait() {
       <line x1="60" y1="34" x2="75" y2="28" stroke="#D4A72C" strokeWidth="1.5" opacity="0.8"/>
       <line x1="60" y1="41" x2="76" y2="41" stroke="#D4A72C" strokeWidth="1"   opacity="0.6"/>
       <line x1="60" y1="48" x2="73" y2="54" stroke="#D4A72C" strokeWidth="1.5" opacity="0.7"/>
+      {/* Eviction notice tag */}
+      <rect x="30" y="56" width="20" height="6" fill="none" stroke="#9E1B1B" strokeWidth="0.6" opacity="0.45"/>
       {/* Hollow indicator */}
       <line x1="34" y1="60" x2="46" y2="60" stroke="#9E1B1B" strokeWidth="0.75" opacity="0.45"/>
       <text x="40" y="93" fontFamily="Georgia, serif" fontSize="5.5" fill="#141414" textAnchor="middle" letterSpacing="1.5" opacity="0.5">UNIT S-99</text>
@@ -183,6 +190,9 @@ function DorothyPortrait() {
       {/* Disconnected shoes */}
       <ellipse cx="31" cy="76" rx="7" ry="4" fill="#9E1B1B" fillOpacity="0.18" stroke="#141414" strokeWidth="1"/>
       <ellipse cx="49" cy="76" rx="7" ry="4" fill="#9E1B1B" fillOpacity="0.18" stroke="#141414" strokeWidth="1"/>
+      {/* Surveillance pinholes */}
+      <circle cx="16" cy="18" r="1.2" fill="#141414" opacity="0.6"/>
+      <circle cx="64" cy="22" r="1.2" fill="#141414" opacity="0.6"/>
       {/* Silver friction signal arcs */}
       <path d="M20,76 Q26,70 31,76" fill="none" stroke="#D4A72C" strokeWidth="0.75" opacity="0.65"/>
       <path d="M49,76 Q55,70 60,76" fill="none" stroke="#D4A72C" strokeWidth="0.75" opacity="0.65"/>
@@ -264,6 +274,9 @@ function GlindaPortrait() {
       <line x1="40" y1="24" x2="66" y2="68" stroke="#D4A72C" strokeWidth="1"    opacity="0.42"/>
       <line x1="40" y1="24" x2="40" y2="84" stroke="#D4A72C" strokeWidth="1"    opacity="0.42"/>
       <line x1="10" y1="54" x2="70" y2="54" stroke="#D4A72C" strokeWidth="0.75" opacity="0.32"/>
+      {/* Refraction fractures */}
+      <path d="M20,44 L32,52 L24,64" fill="none" stroke="#9E1B1B" strokeWidth="0.7" opacity="0.4"/>
+      <path d="M60,44 L48,52 L56,64" fill="none" stroke="#9E1B1B" strokeWidth="0.7" opacity="0.4"/>
       {/* Truth node — distorted */}
       <circle cx="40" cy="54" r="3.5" fill="#9E1B1B" fillOpacity="0.32" stroke="#9E1B1B" strokeWidth="0.75"/>
       <text x="40" y="93" fontFamily="Georgia, serif" fontSize="5.5" fill="#141414" textAnchor="middle" letterSpacing="1.5" opacity="0.5">UNIT G-01</text>
@@ -293,6 +306,10 @@ function WizardPortrait() {
       <path d="M34,50 Q42,42 38,50 Q34,58 42,52" fill="none" stroke="#141414" strokeWidth="0.75" opacity="0.3"/>
       {/* OZ ghost text */}
       <text x="40" y="54" fontFamily="Georgia, serif" fontSize="14" fill="#D4A72C" textAnchor="middle" fontWeight="bold" opacity="0.26" letterSpacing="2">OZ</text>
+      {/* Puppet guide wires */}
+      <line x1="40" y1="2" x2="40" y2="28" stroke="#141414" strokeWidth="0.6" opacity="0.35"/>
+      <line x1="26" y1="10" x2="34" y2="30" stroke="#141414" strokeWidth="0.5" opacity="0.3"/>
+      <line x1="54" y1="10" x2="46" y2="30" stroke="#141414" strokeWidth="0.5" opacity="0.3"/>
       {/* Null marker */}
       <line x1="28" y1="68" x2="52" y2="68" stroke="#9E1B1B" strokeWidth="0.75" opacity="0.42"/>
       <text x="40" y="77" fontFamily="Georgia, serif" fontSize="7" fill="#9E1B1B" textAnchor="middle" opacity="0.42" letterSpacing="1">NULL</text>
@@ -319,7 +336,7 @@ export default function StatsCard() {
     scatter, hollowing,
     displacement, warrantLevel,
     refraction, insulation,
-    obfuscation, thermal,
+    obfuscation, malice, thermal,
   } = useGameStore()
 
   const cardRef = useRef(null)
@@ -344,7 +361,7 @@ export default function StatsCard() {
   const statValues = {
     vibration, corrosion, seizure, scatter, hollowing,
     displacement, warrantLevel, refraction, insulation,
-    obfuscation, thermal,
+    obfuscation, malice, thermal,
   }
 
   return (
