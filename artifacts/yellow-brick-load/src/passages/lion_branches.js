@@ -2036,7 +2036,7 @@ A Bureau Technician waits by the forks, its face a blank sheet of carbon paper. 
         effects: [{ type: 'addVibration', value: 2 }, { type: 'addLoad', value: 5 }],
       },
       {
-        label: 'JOINT LUBRICATION: Apply the Blue Fluid (Wetware route — {{#flags.mode_wetware}}available{{/flags.mode_wetware}}{{^flags.mode_wetware}}hardware mode only, reduced effect{{/flags.mode_wetware}}).',
+        label: 'JOINT LUBRICATION: Apply the Blue Fluid.',
         target: 'LION_BLUE_FLUID_LOOP',
         effects: [{ type: 'addVibration', value: -5 }, { type: 'setCompliance', value: 'high' }],
       },

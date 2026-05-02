@@ -138,7 +138,7 @@ You see the Transmitter wire buried in her neck. You see the blood on the slag. 
         ],
       },
       {
-        label: 'Remain at altitude — route toward atmospheric drift ending.',
+        label: 'Remain at altitude and drift above it all.',
         target: 'GLINDA_END_DRIFT',
         effects: [
           { type: 'addInsulation', value: 10 },

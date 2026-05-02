@@ -148,7 +148,7 @@ How delightful.`,
     ],
     choices: [
       {
-        label: 'Escalate the warrant — route toward total enforcement.',
+        label: 'Escalate the warrant to full enforcement.',
         target: 'WITCH_WEST_END_MELTING',
         effects: [
           { type: 'addWarrant', value: 5 },
@@ -1016,7 +1016,7 @@ The Clerk's face is just a smudge of carbon paper.
         effects: [{ type: 'addLoad', value: 15 }, { type: 'addDesync', value: -5 }],
       },
       {
-        label: 'Accept the bleed. (Unlock W-END-04: Binary Cackle).',
+        label: 'Accept the bleed.',
         target: 'WITCH_WEST_END_MELTING',
         effects: [{ type: 'addDesync', value: 20 }],
       },

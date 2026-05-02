@@ -127,12 +127,12 @@ Your internal sensors detect a Cache Collision. This is not a memory of a life; 
     ],
     choices: [
       {
-        label: 'Seek the Source (Wetware Path)',
+        label: 'Seek the source.',
         target: 'T_FELLED_TREE',
         effects: [{ type: 'addLoad', value: 2 }, { type: 'setPath', value: 'wetware' }]
       },
       {
-        label: 'Locate Maintenance (Hardware Path)',
+        label: 'Locate maintenance.',
         target: 'T_OIL_STATION',
         effects: [{ type: 'addCompliance', value: 2 }, { type: 'setPath', value: 'hardware' }]
       }

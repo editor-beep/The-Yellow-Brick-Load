@@ -70,7 +70,7 @@ export const wizardBranchPassages = {
     ],
     choices: [
       {
-        label: 'Continue the projection — route toward the marketing audit.',
+        label: 'Continue the projection and keep the audience enthralled.',
         target: 'WIZARD_END_AUDIT',
         effects: [
           { type: 'addObfuscation', value: 5 },
