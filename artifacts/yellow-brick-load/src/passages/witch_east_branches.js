@@ -13,18 +13,11 @@ export const witchEastBranchPassages = {
     text: [
       {
         minOverrender: 0,
-        content: `THE GRAVITY ADMINISTRATOR — ARCHIVE ACCESS
+        content: `COORDINATE 0-0: THE ASSAY BEGINS
 
-  You are accessing an archived instance. Unit E-00 — the Wicked Witch of the East — was removed from active status when a Coordinate [Kansas, Coordinate-Null] residential structure executed an unauthorized kinetic event at Munchkin Landing Zone 7. The unit is no longer present. The archive runs from the last twelve hours of operation.
+Log begins at T-minus reset. You are Unit E-Cluster, the primary enforcer of Sector East. The sky is no longer a meteorological event; it is a falling mass of unindexed wood and gray displacement.
 
-  You are the Gravitational Operator. You manage the weight of things. The Munchkins operate under your administrative gravity — their compact bodies, their stout legs, their small movements — all are governed by the gravitational field you project. Silver shoes, silver regulatory filings, silver authority.
-
-  [ ARCHIVE INSTANCE: ACTIVE ]
-  [ LAST SESSION: PRE-HOUSE IMPACT ]
-  [ GRAVITY FIELD: STANDARD ]
-  [ NOTE: THE HOUSE IS APPROACHING ]
-
-  The displacement counter is already high. Something is moving that should not be moving. Something is falling that is not weather. The Weight Assessor has been dispatched for an emergency assay. There is very little time.`,
+The system has called for an audit. Gravity is the only auditor that doesn't accept bribes. You have seconds to calibrate the impact. Will you run the Crucible, or will you attempt to redirect the payload? 1-1 = ...calculating.`,
       },
     ],
     choices: [
@@ -32,15 +25,15 @@ export const witchEastBranchPassages = {
         label: 'Begin the assay — run the Gravity Crucible before impact.',
         target: 'WITCH_EAST_ORACLE_ENTRY',
         effects: [
+          { type: 'addLoad', value: 20 },
           { type: 'addDisplacement', value: 3 },
-          { type: 'addLoad', value: 5 },
         ],
       },
       {
         label: 'Attempt to redirect the falling mass — deploy regulatory pressure.',
         target: 'WITCH_EAST_PATH_GRAVITY',
         effects: [
-          { type: 'addWarrant', value: 3 },
+          { type: 'addWarrant', value: 5 },
           { type: 'addDisplacement', value: 2 },
         ],
       },

@@ -193,6 +193,19 @@ export function applyEffects(effects) {
         store.setDisplacement(dval)
         break
       }
+      case 'setDesync': {
+        const dsval = effect.value === 'max' ? 100 : Number(effect.value)
+        if (isNaN(dsval)) {
+          console.warn(`[YBL] setDesync: invalid value "${effect.value}"`)
+          break
+        }
+        store.setDesync(dsval)
+        break
+      }
+      case 'lockLocation':
+        // Prevents return-to-hub navigation once a terminal exit ramp is taken
+        store.setFlag('location_locked', Boolean(effect.value))
+        break
       case 'setPersistentFlag':  setPersistentFlag(effect.key, effect.value !== undefined ? effect.value : true); break
       // ── Shared / Marketing Filter effects ───────────────────────────────
       case 'addCompliance':

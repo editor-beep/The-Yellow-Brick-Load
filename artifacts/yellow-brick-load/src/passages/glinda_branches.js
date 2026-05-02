@@ -66,6 +66,13 @@ export const glindaBranchPassages = {
 The air is a suspended floral sediment. It is warm, soft, and tastes of artificial grace. In the smog, the Yellow Brick Load loses its hard edges. The cracks in the slag are filled with light. 
 
 This is the system's primary buffer. Compliance here doesn't feel like a choice; it feels like safety. You are not being silenced; you are being 'aligned.' The load is still there, but the smog ensures you no longer have the bandwidth to resent it.`
+      },
+      {
+        minOverrender: 5,
+        content: `THE PINK SMOG: RESIDUE BUFFERING
+The mist reacts to the damage you brought with you. The Lion's tremor becomes a soft, rhythmic purr in the air. The Tin Man's rust is covered in a fine layer of pink dust, making the corrosion look like a decorative patina. Even the Scarecrow's neural scatter is muffled, the patterns slowing until they resemble drifting clouds.
+
+Everything is 'Good' because the resolution is too low for 'Bad' to exist.`
       }
     ],
     voiceSwap: {
@@ -74,15 +81,32 @@ This is the system's primary buffer. Compliance here doesn't feel like a choice;
       tinman: `The pink dust settles into my hinges. It doesn't lubricate; it just hides the sound of the grinding. I am seizing in slow motion, and it feels like a nap.`,
       scarecrow: `The crows are turning into clouds. The numbers are losing their edges. For the first time, my head is empty. It is terrifying. It is wonderful.`,
     },
+    onEnter: [
+      // Records dampening activation; signal is locked below detectable threshold.
+      { type: 'setFlag', key: 'pink_smog_active', value: true },
+    ],
     choices: [
       {
-        label: 'Accept the Alignment',
+        label: 'Accept the Alignment (Submit to Stasis)',
         target: 'G_END_05',
         effects: [
           // setSystemStatus is a narrative label (no-op in interpreter.js);
           // it records the system state for rendering purposes only.
           { type: 'setSystemStatus', value: 'shrouded' }
-        ]
+        ],
+        content: `You inhale the lilac-scented static. You stop trying to see the road. The pastels are enough. You are a ghost-bit in a beautiful, static cage, perfectly aligned and utterly lost.`
+      },
+      {
+        label: 'Exert Kinetic Friction (Try to Clear the Air)',
+        target: 'G_THE_DESCENT',
+        // Only non-Glinda characters see this escape route — Glinda is the smog,
+        // not a unit trapped inside it.
+        condition: (state) => state.character !== 'glinda',
+        effects: [
+          { type: 'addLoad', value: 15 },
+          { type: 'addDesync', value: 2 },
+        ],
+        content: `You fight the comfort. You roar, or seize, or overclock until the heat of your struggle thins the smog. For a second, the pink washes out, and you see the gray slag beneath your feet. It hurts. It is real.`
       }
     ]
   },

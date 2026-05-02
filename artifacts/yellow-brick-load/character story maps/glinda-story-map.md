@@ -137,3 +137,14 @@ Generated: 2026-05-02T17:45:26.167Z
             - ↩ cycle
       - "Remain at altitude — route toward atmospheric drift ending." → GLINDA_END_DRIFT
         - GLINDA_END_DRIFT [ENDING]
+
+## G_PINK_SMOG (Shared — Sector North: Meteorological Dampening)
+- G_PINK_SMOG
+  - "Accept the Alignment (Submit to Stasis)" → G_END_05
+    - G_END_05 [ENDING]
+  - "Exert Kinetic Friction (Try to Clear the Air)" [non-Glinda only] → G_THE_DESCENT
+    - G_THE_DESCENT
+      - "Re-Elevate (Maintain the Miracle)" → G_END_04
+        - G_END_04 [ENDING]
+      - "The Searing Grace" → G_END_28
+        - G_END_28 [ENDING]

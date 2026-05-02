@@ -1,6 +1,6 @@
 # Yellow Brick Load Story Passage Branch Tree
 
-Generated: 2026-05-02T17:45:26.167Z
+Generated: 2026-05-02T22:15:14.018Z
 
 
 ## WITCH_EAST_INIT
@@ -43,9 +43,6 @@ Generated: 2026-05-02T17:45:26.167Z
             - WITCH_EAST_ORACLE_6
               - "Accept the flat finish — become the regulatory tablet." → WITCH_EAST_END_FLAT
                 - WITCH_EAST_END_FLAT [ENDING]
-              - "Resist the inversion — route toward the gravitational crush." → WITCH_EAST_END_CRUSH
-                - WITCH_EAST_END_CRUSH [ENDING]
-          - "7. The Density Graft — cross-echo with Lion or Tin Man weight." → WITCH_EAST_ORACLE_7
             - WITCH_EAST_ORACLE_7
               - "Let the composite density route toward the administration ending." → WITCH_EAST_END_ADMIN
                 - WITCH_EAST_END_ADMIN [ENDING]
@@ -103,8 +100,6 @@ Generated: 2026-05-02T17:45:26.167Z
                 - WITCH_EAST_ORACLE_6
                   - "Accept the flat finish — become the regulatory tablet." → WITCH_EAST_END_FLAT
                     - WITCH_EAST_END_FLAT [ENDING]
-                  - "Resist the inversion — route toward the gravitational crush." → WITCH_EAST_END_CRUSH
-                    - WITCH_EAST_END_CRUSH [ENDING]
               - "7. The Density Graft — cross-echo with Lion or Tin Man weight." → WITCH_EAST_ORACLE_7
                 - WITCH_EAST_ORACLE_7
                   - "Let the composite density route toward the administration ending." → WITCH_EAST_END_ADMIN

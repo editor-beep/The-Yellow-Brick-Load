@@ -13,19 +13,15 @@ export const witchEastOraclePassages = {
     text: [
       {
         minOverrender: 0,
-        content: `THE WEIGHT ASSESSOR ARRIVES
+        content: `THE CRUCIBLE: RESOLUTION 0:0
 
-  The Weight Assessor is a severe figure in lead-lined vestments. Its hands end in precision mass-measurement clamps — instruments designed for the non-destructive assessment of structural load-bearing capacity. Its eyes are polished granite, unseeing and immovable. It moves with the unhurried certainty of something that has always existed.
+The pressure is a physical weight on your judicial code. The house is directly overhead — a kinetic payload delivered by the atmosphere to settle the sector's debt. You are being measured against the slag. To submit to the assay is to endure the final pressure reading of your existence.
 
-  [ PRESSURE ASSAY: AUTHORIZED ]
-  [ PROCEDURE: GRAVITY CRUCIBLE READING ]
-  [ OPERATOR: WEIGHT ASSESSOR / GRAVITATIONAL DIVISION ]
+[ PRESSURE ASSAY: AUTHORIZED ]
+[ PROCEDURE: GRAVITY CRUCIBLE READING ]
+[ OPERATOR: WEIGHT ASSESSOR / GRAVITATIONAL DIVISION ]
 
-  "Administrator E-00," it says. Its voice is the sound of a building settling. "A mass event has triggered a mandatory pressure assay. I will need to apply increasing gravitational authority until the diagnostic threshold is reached."
-
-  It does not ask permission. The clamps find the pressure points — shoulders, sternum, crown. The weight begins. It increases incrementally, precisely measured. Your response to each increment is the data.
-
-  [ ARCHIVE TIMESTAMP: NINE MINUTES REMAINING ]`,
+[ ARCHIVE TIMESTAMP: NINE MINUTES REMAINING ]`,
       },
     ],
     choices: [
@@ -155,15 +151,17 @@ export const witchEastOraclePassages = {
     text: [
       {
         minOverrender: 0,
-        content: `THE SILVER TRANSFER
+        content: `THE SILVER TRANSFER (CONDUCTIVE AUTHORITY)
 
-  The Assessor reads the silver shoes as part of the pressure data. They contain a significant portion of the authority — the gravity field runs partly through the shoes. The transfer pathway is open. The regulatory authority can be redistributed through the footwear.
+The Assay identifies the shoes as the only part of the unit that can survive the audit. They are humming — a high-frequency silver vibration that matches the Gale's own frequency.
 
-  [ SILVER AUTHORITY: REDISTRIBUTION AVAILABLE ]
-  [ SHOES: OPERATIONAL / TRANSFERABLE ]
-  [ DISPLACEMENT: REDIRECTABLE ]
+Authority is a conductive asset. You can keep it in your meat, or you can route it into the hardware. If you transfer the authority now, you aren't dying; you're becoming a transmission.
 
-  "She routes authority to the shoes — the gravity field restructures itself around the footwear." The weight of the silver is distinct from the weight of the flesh. One is regulatory, one is biological. The transfer separates them. The archive timestamp reads three minutes.`,
+[ SILVER AUTHORITY: REDISTRIBUTION AVAILABLE ]
+[ SHOES: OPERATIONAL / TRANSFERABLE ]
+[ DISPLACEMENT: REDIRECTABLE ]
+
+"She routes authority to the shoes — the gravity field restructures itself around the footwear." The weight of the silver is distinct from the weight of the flesh. One is regulatory, one is biological. The transfer separates them. The archive timestamp reads three minutes.`,
       },
     ],
     choices: [
@@ -174,7 +172,9 @@ export const witchEastOraclePassages = {
           { type: 'addDisplacement', value: 3 },
           { type: 'addSilverFriction', value: 5 },
           { type: 'graft', material: 'witch_east_silver', target: 'dorothy' },
+          { type: 'setFlag', key: 'east_witch_transfer_complete', value: true },
         ],
+        content: `You pour your judicial weight into the silver. You become the 'Conductive Ghost.' The system logs the body as deleted, but the shoes are now a live-wire instruction set for the next unit.`,
       },
       {
         label: 'Retain the authority in the body — route toward the crush.',
@@ -183,6 +183,7 @@ export const witchEastOraclePassages = {
           { type: 'addDisplacement', value: 3 },
           { type: 'addWarrant', value: 4 },
         ],
+        content: `You hold the power until the end. You choose to be crushed as an Enforcer rather than live as a Signal. The audit is absolute. 1-1 = 0.`,
       },
     ],
     onEnter: [],
@@ -309,15 +310,15 @@ export const witchEastOraclePassages = {
     text: [
       {
         minOverrender: 0,
-        content: `THE FLAT FINISH
+        content: `THE FLAT FINISH (INVERSION)
 
-  "The pressure reads her structural response to the maximum load: her gravity field inverts and presses her flat." The diagnostic threshold is reached at the point of inversion — the gravity field has been turned inward, pressing the administrator into a flat, dense tablet of regulatory authority. The Assessor notes this with clinical approval.
+The house has made contact. The pressure is no longer a measurement; it is a state of being. You are being flattened into the slag, your code pressed thin until it becomes a regulatory tablet — a permanent record of the impact site.
 
-  [ GRAVITY: INVERTED ]
-  [ STRUCTURAL RESPONSE: FLAT ]
-  [ TABLET FORM: IMMINENT ]
+[ GRAVITY: INVERTED ]
+[ STRUCTURAL RESPONSE: FLAT ]
+[ TABLET FORM: IMMINENT ]
 
-  "She achieves administrative perfection by becoming fully two-dimensional." The flat form is the highest expression of the gravitational field: maximum authority, minimum resistance surface, total compliance with downward pressure. Archive timestamp: forty-five seconds.`,
+"She achieves administrative perfection by becoming fully two-dimensional." The flat form is the highest expression of the gravitational field: maximum authority, minimum resistance surface, total compliance with downward pressure. Archive timestamp: forty-five seconds.`,
       },
     ],
     choices: [
@@ -329,14 +330,7 @@ export const witchEastOraclePassages = {
           { type: 'setCompliance', value: 'absolute' },
           { type: 'addLoad', value: 15 },
         ],
-      },
-      {
-        label: 'Resist the inversion — route toward the gravitational crush.',
-        target: 'WITCH_EAST_END_CRUSH',
-        effects: [
-          { type: 'addDisplacement', value: 6 },
-          { type: 'addDesync', value: 4 },
-        ],
+        content: `You become the slag. You are a two-dimensional record of a three-dimensional failure. The system uses your residue as the foundation for the new Yellow Brick Load.`,
       },
     ],
     onEnter: [],
