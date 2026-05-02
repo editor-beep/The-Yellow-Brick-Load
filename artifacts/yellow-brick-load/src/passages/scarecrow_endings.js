@@ -191,8 +191,82 @@ If the brain is certified, does it matter that the certification is hollow?`,
     onEnter: [],
   },
 
-  S_END_03: {
-    id: 'S_END_03',
+  S_END_DIPLOMA: {
+    id: 'S_END_DIPLOMA',
+    character: 'scarecrow',
+    endingId: 'S-END-02',
+    endingName: 'The Diploma Script',
+    institution: 'Educational',
+    systemStatus: 'PATCHED / COMPLIANT',
+    isEnding: true,
+    surreality: 3,
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE FINAL LOG [S-END-02]
+
+Tone: Muffled-Clinical.
+Theme: Knowledge is a regulatory script.
+
+You allow the system to patch you. The paper is wet, and the ink is cold, but the patterns stop screaming. The field surgeon closes the seam. The Diploma is laminated and bolted to the inside of your forehead.
+
+You are certified. You are 'smart.' You are silent.
+
+[ UNIT S-CLUSTER // STATUS: CERTIFIED ]
+[ BRAIN: PATCHED / COMPLIANT / DIPLOMA INSTALLED ]
+
+The Bureau marks the intelligence requirement as MET (Synthetic). You return to the crossbar. The crows scatter on schedule. Your deterrence function is nominal. The forty-two crows are counted. The count is filed. The count is the thought. The thought is the count.
+
+Final Log: The diploma is the thought. The thought is the diploma. The straw is a detail.
+
+1 - 1 = 1.
+
+If the brain is certified, does it matter that the certification is wet?`,
+      },
+    ],
+    choices: [],
+    onEnter: [],
+  },
+
+  S_END_HOLLOW: {
+    id: 'S_END_HOLLOW',
+    character: 'scarecrow',
+    endingId: 'S-END-HOLLOW',
+    endingName: 'The Empty Cavity',
+    institution: 'Existential',
+    systemStatus: 'VOIDED / HOLLOW',
+    isEnding: true,
+    surreality: 8,
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE FINAL LOG [S-END-HOLLOW]
+
+Tone: Existential-Dry.
+Theme: Total hollowing.
+
+You don't restuff. You don't patch. You just let the wind blow through the hole where your thoughts used to be.
+
+The seam stays open. The stuffing is gone. The burlap shell stands at the crossroads. Inside: nothing. The field surgeon makes a final note and steps away. The crows still don't land. The shape is still scary. The fear is still real. The thing being feared is no longer there.
+
+[ UNIT S-CLUSTER // STATUS: VOIDED ]
+[ CONTENTS: NONE ]
+[ FUNCTION: NOMINAL (GEOMETRIC) ]
+
+The Bureau logs it as a successful optimization. You are deterrence without content. You are the scarecrow that stopped being afraid because it stopped being anything.
+
+Final Log: The emptiness is the point. The burlap holds the emptiness perfectly.
+
+1 - 1 = 1.
+
+If the Scarecrow is hollow, what exactly is the crow afraid of?`,
+      },
+    ],
+    choices: [],
+    onEnter: [],
+  },
+
+  S_END_03: {    id: 'S_END_03',
     character: 'scarecrow',
     endingId: 'S-END-03',
     endingName: 'The Unstuffed Truth',

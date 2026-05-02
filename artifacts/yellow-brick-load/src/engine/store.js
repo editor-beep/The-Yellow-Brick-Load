@@ -157,6 +157,7 @@ export const useGameStore = create((set, get) => ({
   // ── Convergence / shared-node mutations ─────────────────────────────────────
   setArrivalState: (val) => set({ arrivalState: val }),
   setDisplacement: (val) => set({ displacement: val }),
+  setDesync:       (val) => set({ desync: val }),
   pushToVisitedBy: (char) => set((s) => ({
     visitedBy: s.visitedBy.includes(char) ? s.visitedBy : [...s.visitedBy, char],
   })),
