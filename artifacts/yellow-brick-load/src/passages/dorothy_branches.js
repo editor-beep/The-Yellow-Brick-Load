@@ -1219,6 +1219,12 @@ The path is not a road; it is hardened slag, a physical instruction set that rec
 The air is thick with the scent of recycled ozone. Your displacement is a constant decibel count in the back of your mind, a reminder that you are a receiver trying to tune into a frequency the system is actively jamming.`,
       },
     ],
+    voiceSwap: {
+      lion: `The slag is a record of my cowardice. Every tremor I've ever felt is etched into the brick as a crack. The road isn't leading me; it's counting my shivers.`,
+      tinman: `My joints scream against the silence of the bricks. The oil streaks I leave behind are the only thing that looks like blood in this gray sector.`,
+      scarecrow: `The patterns in the brickwork are too loud. Forty-two rows of yellow. Forty-two crows in the sky. If I stop moving, the pattern will finish me.`,
+      dorothy: `I can feel the 'Home' signal under the soles of these shoes. It's muffled by the weight of a thousand rusted feet. The road is a graveyard of intentions.`,
+    },
     choices: [
       {
         label: "Follow the Vibration (Lion's Trace)",

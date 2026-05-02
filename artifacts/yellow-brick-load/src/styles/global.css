@@ -249,6 +249,55 @@ body::before {
   font-style: italic;
 }
 
+/* ── Voice-Swap Card ─────────────────────────────────────── */
+/* Character-specific internal signal rendered on shared/multi-character nodes */
+.voice-swap-card {
+  margin-top: 1.8rem;
+  padding: 1rem 1.2rem;
+  border-left: 2px solid var(--amber);
+  background: rgba(200, 150, 10, 0.05);
+  position: relative;
+}
+
+.voice-swap-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgba(200, 150, 10, 0.12);
+  pointer-events: none;
+}
+
+.voice-swap-label {
+  display: block;
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  color: var(--amber);
+  margin-bottom: 0.65rem;
+  text-transform: uppercase;
+}
+
+.voice-swap-card p {
+  color: var(--grey-light);
+  font-style: italic;
+  line-height: var(--line-height);
+  margin-bottom: 0.4em;
+}
+
+/* Assimilated fallback — unit has no unique signal, system voice instead */
+.voice-swap-card--assimilated {
+  border-left-color: var(--grey-text);
+  background: rgba(90, 90, 82, 0.05);
+}
+
+.voice-swap-card--assimilated .voice-swap-label {
+  color: var(--grey-text);
+}
+
+.voice-swap-card--assimilated p {
+  color: var(--grey-text);
+  font-style: normal;
+}
+
 /* ── Load Bar ────────────────────────────────────────────── */
 .load-bar-wrapper {
   position: fixed;

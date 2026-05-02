@@ -68,6 +68,12 @@ The air is a suspended floral sediment. It is warm, soft, and tastes of artifici
 This is the system's primary buffer. Compliance here doesn't feel like a choice; it feels like safety. You are not being silenced; you are being 'aligned.' The load is still there, but the smog ensures you no longer have the bandwidth to resent it.`
       }
     ],
+    voiceSwap: {
+      glinda: `Do you see how much better it is now, dear? We've removed the high-frequency noise from your signal. Stay in the lilac. Stay aligned.`,
+      lion: `The air is too thick to roar through. It tastes like sugar and lies. I want to be afraid, but the mist won't let the feeling land.`,
+      tinman: `The pink dust settles into my hinges. It doesn't lubricate; it just hides the sound of the grinding. I am seizing in slow motion, and it feels like a nap.`,
+      scarecrow: `The crows are turning into clouds. The numbers are losing their edges. For the first time, my head is empty. It is terrifying. It is wonderful.`,
+    },
     choices: [
       {
         label: 'Accept the Alignment',

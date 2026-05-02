@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef } from 'react'
 import { useGameStore } from '../engine/store.js'
-import { applyEffects, resolveText, interpolate, isChoiceAvailable } from '../engine/interpreter.js'
+import { applyEffects, resolveText, interpolate, isChoiceAvailable, getPassageContent } from '../engine/interpreter.js'
 import { getPassage } from '../passages/index.js'
 import OracleCard from './OracleCard.jsx'
 import OracleDraw from './OracleDraw.jsx'
@@ -148,6 +148,19 @@ export default function PassageRenderer() {
             return <p key={`${currentNode}-line-${i}`}>{line}</p>
           })}
         </div>
+        {(() => {
+          const voiceText = getPassageContent(passage, character)
+          if (!voiceText) return null
+          const isAssimilated = !passage.voiceSwap[character]
+          return (
+            <div className={`voice-swap-card${isAssimilated ? ' voice-swap-card--assimilated' : ''}`}>
+              <span className="voice-swap-label">[ {character ? character.toUpperCase().replace('_', ' ') : 'UNIT'}: INTERNAL SIGNAL ]</span>
+              {voiceText.split('\n').map((line, i) => (
+                <p key={`vs-${currentNode}-${i}`}>{line}</p>
+              ))}
+            </div>
+          )
+        })()}
       </div>
 
       <svg className="constellation-map" viewBox={mapLayout.viewBox} role="img" aria-label="Node route map">
