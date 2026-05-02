@@ -357,7 +357,7 @@ export const dorothyBranchPassages = {
         minOverrender: 0,
         content: `THE FRICTION OF THE SLAG
 
-  The Yellow Brick Road is a hardened ribbon of logic. Every step you take in the Silver Slippers generates a spark of 'Ruby Friction.' It isn't just movement; it's a chemical reaction between the girl from Kansas and the slag of Oz.
+  The Yellow Brick Road is a hardened ribbon of logic. Every step you take in the Silver Slippers generates a spark of 'Silver Friction.' It isn't just movement; it's a chemical reaction between the girl from Kansas and the slag of Oz.
 
   You feel the 'Home' signal fading. Kansas is no longer a memory of a farm; it is a grainy, black-and-white static at the back of your skull.`,
       },

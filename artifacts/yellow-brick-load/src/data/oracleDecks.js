@@ -295,13 +295,13 @@ export const oracleDecks = {
       },
       {
         id: 'tin_man_12',
-        name: 'The Ruby Piston',
+        name: 'The Silver Piston',
         category: 'signal-bleed',
         cardText: 'You are attempting to fuel your movement with Dorothy\'s displacement. The friction of her journey is being pumped into your joints. It provides a terrifying, temporary lubrication, but the heat is non-industrial. You are melting from the inside out.',
-        ritualText: 'A heart-shaped furnace burning with the intense, refracted red of the slippers. Conductive Empathy: you move with perfect grace, but you gain the "Smoldering" status.',
+        ritualText: 'A heart-shaped furnace burning with the intense, refracted glow of the silver slippers. Conductive Empathy: you move with perfect grace, but you gain the "Smoldering" status.',
         effects: [
           { type: 'addLubrication', value: 20 },
-          { type: 'addRubyFriction', value: 15 },
+          { type: 'addSilverFriction', value: 15 },
           { type: 'triggerEvent', value: 'ThermalThreshold' },
         ],
         surreality: 9,
@@ -536,13 +536,13 @@ export const oracleDecks = {
       // ── New: Core Esoteric ────────────────────────────────────────────────
       {
         id: 'dorothy_09',
-        name: 'The Ruby Friction',
+        name: 'The Silver Friction',
         category: 'friction',
         cardText: 'Movement is a chemical reaction between the slippers and the road. Every step is an audit. You are not walking "Home"; you are conducting power through your marrow to the system\'s core.',
-        ritualText: 'Two red heels grinding against gray slag, sparks forming binary code. Conductive Path: high Ruby Friction allows the "The Strike" archetype but drains Signal Strength over time.',
+        ritualText: 'Two silver heels grinding against gray slag, sparks forming binary code. Conductive Path: high Silver Friction allows the "The Strike" archetype but drains Signal Strength over time.',
         effects: [
           { type: 'addSignalStrength', value: 5 },
-          { type: 'addRubyFriction', value: 12 },
+          { type: 'addSilverFriction', value: 12 },
           { type: 'addWarrant', value: 5 },
         ],
         surreality: 8,
@@ -581,7 +581,7 @@ export const oracleDecks = {
         cardText: 'You are walking too fast for the system to log. The Tin Man\'s Oracle intervenes to "Slow the Feed." It applies a Seizure Protocol to your slippers. Movement is now a calculation of friction vs. joint failure. The road is no longer a path; it is a grinding stone.',
         ritualText: 'Dorothy\'s legs turning to rigid, unbending silver pipes mid-stride. The Rigid Step: you can only move one "Passage" at a time, but your Compliance is locked at maximum.',
         effects: [
-          { type: 'addRubyFriction', value: 20 },
+          { type: 'addSilverFriction', value: 20 },
           { type: 'addSeizure', value: 10 },
           { type: 'setCompliance', value: 'static' },
         ],

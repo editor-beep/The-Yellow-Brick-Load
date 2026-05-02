@@ -1094,7 +1094,7 @@ The Clerk has vanished. The obsidian eye is dark, its pupil retracted into a tin
 Here, the "Wicked Witch" is just a set of instructions for a one-eyed, ancient administrator that no longer has an office. You reach out and touch the wall; it feels like cold, damp television static.
 A voice—or the memory of a voice—vibrates through the floorboards.
 "1 - 1 = 1," it whispers. "But in the basement, 1 - 1 = ... nothing."
-You see a pile of discarded **Ruby Slippers**. They aren't glowing. They look like lead. They are heavy with the weight of every girl who tried to go home and hit the firewall instead.`,
+You see a pile of discarded **Silver Slippers**. They aren't glowing. They look like lead. They are heavy with the weight of every girl who tried to go home and hit the firewall instead.`,
       },
     ],
     choices: [

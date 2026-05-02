@@ -512,7 +512,6 @@ function describeEffect(fx) {
     case 'addNeuralDensity':   return `NEURAL DENSITY ${fx.value >= 0 ? '+' : ''}${fx.value}`
     case 'addHollowing':       return `HOLLOWING +${fx.value}`
     case 'addSignalStrength':  return `SIGNAL STRENGTH ${fx.value >= 0 ? '+' : ''}${fx.value}`
-    case 'addRubyFriction':    return `RUBY FRICTION +${fx.value}`
     case 'setWetwareStat':     return `${String(fx.stat).toUpperCase()} → ${fx.value}`
     case 'modifyTag':          return `TAG: ${String(fx.value).toUpperCase()}`
     case 'triggerEvent':       return `EVENT: ${String(fx.value).toUpperCase()}`

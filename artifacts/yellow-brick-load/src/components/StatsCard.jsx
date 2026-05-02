@@ -34,7 +34,6 @@ const CHAR_CONFIG = {
       { key: 'warrantLevel', label: 'WNT', threshold: 5, scale: 8 },
       { key: 'silverFriction', label: 'SLV', threshold: 5, scale: 8 },
       { key: 'signalStrength', label: 'SGN', threshold: 5, scale: 8 },
-      { key: 'rubyFriction', label: 'RBY', threshold: 5, scale: 8 },
     ],
   },
   witch_west: {
@@ -345,7 +344,7 @@ export default function StatsCard() {
     character, load, compliance, desync,
     vibration, desynctear, corrosion, seizure, lubrication, utility,
     scatter, hollowing, stitchIntegrity, neuralDensity,
-    displacement, warrantLevel, silverFriction, signalStrength, rubyFriction,
+    displacement, warrantLevel, silverFriction, signalStrength,
     refraction, insulation,
     obfuscation, malice, thermal, saturation,
   } = useGameStore()
@@ -372,7 +371,7 @@ export default function StatsCard() {
   const statValues = {
     vibration, desynctear, corrosion, seizure, lubrication, utility,
     scatter, hollowing, stitchIntegrity, neuralDensity,
-    displacement, warrantLevel, silverFriction, signalStrength, rubyFriction,
+    displacement, warrantLevel, silverFriction, signalStrength,
     refraction, insulation, obfuscation, malice, thermal, saturation,
   }
 

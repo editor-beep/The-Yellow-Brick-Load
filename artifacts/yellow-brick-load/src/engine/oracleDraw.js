@@ -27,7 +27,7 @@ const BUCKET_PRIORITIES = {
   ],
   dorothy: [
     { bucket: 'signal-bleed', check: (s) => s.desync >= 5 },
-    { bucket: 'friction',     check: (s) => s.rubyFriction >= 5 || s.displacement >= 5 },
+    { bucket: 'friction',     check: (s) => s.silverFriction >= 5 || s.displacement >= 5 },
     { bucket: 'signal',       check: (s) => s.signalStrength >= 3 },
     { bucket: 'archive',      check: () => true },
   ],

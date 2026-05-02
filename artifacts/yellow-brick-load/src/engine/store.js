@@ -27,9 +27,8 @@
  *   hollowing      — Scarecrow: void expansion (signal-bleed stat)
  *   displacement   — Dorothy: location drift
  *   warrantLevel   — Dorothy: Bureau attention level
- *   silverFriction — Dorothy: slippers charge
+ *   silverFriction — Dorothy: silver-slipper charge & slipper-road conductive heat (signal-bleed stat)
  *   signalStrength — Dorothy: Kansas signal amplitude (signal-bleed stat)
- *   rubyFriction   — Dorothy: slipper-road conductive heat (signal-bleed stat)
  *   refraction     — Glinda: light/truth distortion
  *   insulation     — Glinda: protective buffer
  *   obfuscation    — Wizard: smoke-and-mirrors density
@@ -72,9 +71,8 @@ const INITIAL_STATE = {
   hollowing: 0,        // Scarecrow — void expansion (signal-bleed)
   displacement: 0,     // Dorothy — location drift
   warrantLevel: 0,     // Dorothy — Bureau attention level
-  silverFriction: 0,   // Dorothy — slippers charge
+  silverFriction: 0,   // Dorothy — silver-slipper charge & slipper-road conductive heat (signal-bleed)
   signalStrength: 0,   // Dorothy — Kansas signal amplitude (signal-bleed)
-  rubyFriction: 0,     // Dorothy — slipper-road conductive heat (signal-bleed)
   refraction: 0,       // Glinda — light/truth distortion
   insulation: 0,       // Glinda — protective buffer
   obfuscation: 0,      // Wizard — smoke-and-mirrors density
@@ -144,7 +142,6 @@ export const useGameStore = create((set, get) => ({
   addWarrant:        (n) => set((s) => ({ warrantLevel:   s.warrantLevel   + n })),
   addSilverFriction: (n) => set((s) => ({ silverFriction: s.silverFriction + n })),
   addSignalStrength: (n) => set((s) => ({ signalStrength: s.signalStrength + n })),
-  addRubyFriction:   (n) => set((s) => ({ rubyFriction:   s.rubyFriction   + n })),
   addRefraction:     (n) => set((s) => ({ refraction:     s.refraction     + n })),
   addInsulation:     (n) => set((s) => ({ insulation:     s.insulation     + n })),
   addObfuscation:    (n) => set((s) => ({ obfuscation:    s.obfuscation    + n })),
