@@ -81,7 +81,7 @@ The session is live. Every decision from here is evidence.` }],
 
 The restraint field tightens around the target like a living corset made of invisible bone.
 
-You step forward, green fingers flexing. The obsidian orb in your left socket rotates with a wet click, projecting the restraint grid deeper into the target's flesh. The grid bites — pressing, measuring, mapping every tremor and leak.
+You step forward, withered fingers flexing. The obsidian orb in your left socket rotates with a wet click, projecting the restraint grid deeper into the target's flesh. The grid bites — pressing, measuring, mapping every tremor and leak.
 
 "My pretty," you croon, voice soft as wet silk over broken glass.
 
@@ -157,7 +157,7 @@ The eye dilates.
         effects: [],
       },
       {
-        label: '5. The Green Patina Burn — thermodynamic heat surge.',
+        label: '5. The Cackle Brand — thermodynamic heat surge.',
         target: 'WITCH_WEST_ORACLE_5',
         effects: [],
       },
@@ -200,7 +200,7 @@ Soft and evasive options gray out instantly. Only sharp, punitive, enforcement p
 
 The Clerk makes a satisfied note as blood and lymph run down the iron shafts.
 
-"Clean harvest," you murmur, green lips curling. "The meat learns so quickly when properly pinned."`,
+"Clean harvest," you murmur, thin lips curling. "The meat learns so quickly when properly pinned."`,
       },
     ],
     choices: [
@@ -337,11 +337,11 @@ The monkey drone tastes the exposed tissue with small hooks at the end of its wi
     text: [
       {
         minOverrender: 0,
-        content: `THE GREEN PATINA BURN
+        content: `THE CACKLE BRAND
 
 The obsidian eye increases its projection intensity until the restraint field itself generates searing heat.
 
-The green-tinged aura of the Wicked Witch — the institutional pigment, the Bureau-standard surveillance tint — burns into the open incision. Permanent chemical burns form in the exact shape of a cackle-pattern across the target's exposed meat.
+The dry, ash-toned aura of the Wicked Witch — the institutional pigment, the Bureau-standard surveillance tint — burns into the open incision. Permanent chemical burns form in the exact shape of a cackle-pattern across the target's exposed meat.
 
 The pain is exquisite. The burns are regulation.
 

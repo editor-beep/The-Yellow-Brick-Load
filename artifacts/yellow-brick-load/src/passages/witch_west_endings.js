@@ -95,7 +95,7 @@ Every choice on the Yellow Brick Load now routes through the obsidian eye before
 
 The Winged Monkeys circle in holding pattern, awaiting orders. The Clerk logs every transmission in real time. The road has become a perfectly monitored corridor.
 
-You sit upon your throne of bone and flechettes, green fingers drumming against the armrest, feeling the pulse of every monitored unit through the graft threads.
+You sit upon your throne of bone and flechettes, withered fingers drumming against the armrest, feeling the pulse of every monitored unit through the graft threads.
 
 Final Log: The surveillance is the command. The command is the law.
 

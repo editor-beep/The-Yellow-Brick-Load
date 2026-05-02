@@ -27,7 +27,7 @@ A new signal has entered your domain.
 
 The Lion trembles somewhere in the poppy fields. The Scarecrow leaks straw. The Tin Man rusts. And the girl still believes she is outside the system.
 
-Your green lips curl into a smile that does not reach your eyes.
+Your thin, withered lips curl into a smile that does not reach your eye.
 
 "Bring them to me," you whisper.
 
@@ -81,7 +81,7 @@ A new signal has entered your domain.
 
 The Lion — or what remains of him — trembles somewhere in the poppy fields. The Scarecrow leaks straw across the corn. The Tin Man rusts. And the girl… the girl still believes she is outside the system.
 
-Your green lips curl into a smile that does not reach your eyes.
+Your thin, withered lips curl into a smile that does not reach your eye.
 
 "Bring them to me," you whisper to the empty air. The words are logged instantly.
 
@@ -176,7 +176,7 @@ How delightful.`,
         minOverrender: 0,
         content: `THE MONKEY SWEEP
 
-You raise one green hand.
+You raise one withered, ink-stained hand.
 
 The command is simple, elegant, and cruel.
 
@@ -626,7 +626,7 @@ The Clerk notes the time with quiet satisfaction.`,
         content: `THE CALIBRATED SILENCE
 You lean in close to the Lion's ear. The smell of his fear is a high-frequency vibration that makes your teeth ache with a pleasant, electric hunger.
 "Do you know what the Bureau calls a King without a kingdom?" you whisper. Your breath is the scent of ozone and formaldehyde. "They call him a *redundant asset*. They call him *excess inventory*."
-You run a long, green-stained nail over the spot where his heart thumps—a frantic, irregular beat against his ribs. 1-1=1. One heartbeat, one cage.
+You run a long, ink-stained nail over the spot where his heart thumps—a frantic, irregular beat against his ribs. 1-1=1. One heartbeat, one cage.
 "I'm not going to kill you," you croon. "I'm going to index you. I'm going to map every stutter in your pulse until your cowardice is the only thing the system remembers."
 The obsidian eye hovers inches from his wide, watering eye. It records the contraction of his pupil. It logs the exact milligram of salt in his tear.
 The Lion makes a sound—a soft, broken whine that would be pathetic if it weren't so mathematically perfect.
@@ -693,7 +693,7 @@ You watch the red poppies below blur into a smear of judicial pigment. By the ti
         content: `THE LOGGING FRICTION
 The Bureau Clerk—a spindly thing made of carbon paper and calcified ink—scratches a nib across a sheet of the Lion's dried skin.
 "Mistress," the Clerk wheezes, "the Warrant Level is nearing a critical threshold. If we continue the extraction without a formal verdict, the signal may bleed into the Unlit Basement. We risk a *Ghost Event*."
-The obsidian eye pulses a deep, rhythmic violet. You feel the weight of the Bureau's eyes on your own green neck. They don't care about the Lion; they care about the *paperwork* of his disappearance.`,
+The obsidian eye pulses a deep, rhythmic violet. You feel the weight of the Bureau's eyes on your own withered neck. They don't care about the Lion; they care about the *paperwork* of his disappearance.`,
       },
     ],
     choices: [
@@ -875,7 +875,7 @@ The tower hums. It is the sound of a thousand flechettes vibrating in their rack
  * SYSTEM LOAD: {{load}}%
  * CRUCIBLE SATURATION: {{saturation}}%
  * ASSET STATUS: [ {{flags.asset_condition}} ]
-The Lion is pinned. The Scarecrow is unspooling. The Tin Man is seized. You are the operator. Every click of your green fingers on the bone-keys re-indexes reality.
+The Lion is pinned. The Scarecrow is unspooling. The Tin Man is seized. You are the operator. Every click of your withered fingers on the bone-keys re-indexes reality.
 "Mistress," the Clerk whispers, "the data is pooling. Shall we refine the residue or continue the harvest?"`,
       },
     ],
@@ -1064,7 +1064,7 @@ The obsidian eye is no longer showing you images; it is showing you **The Core L
 1 - 1 = 1.
 Courage = 0.
 Home = Null.
-"It's beautiful," you whisper. Your green skin is beginning to blister, turning a pale, toxic yellow. "The truth isn't a story. The truth is the friction we generate while trying to escape the system."`,
+"It's beautiful," you whisper. Your ancient, paper-dry skin is beginning to blister, sloughing away in a pale, toxic dust. "The truth isn't a story. The truth is the friction we generate while trying to escape the system."`,
       },
     ],
     choices: [
@@ -1091,7 +1091,7 @@ Home = Null.
         content: `THE UNLIT BASEMENT
 The stairs ended five minutes ago, but you are still walking down.
 The Clerk has vanished. The obsidian eye is dark, its pupil retracted into a tiny, painful point of grey light. You are standing in the **Unlit Basement**—the Bureau's recycling bin for failed logic.
-Here, the "Wicked Witch" is just a set of instructions for a green-skinned administrator that no longer has an office. You reach out and touch the wall; it feels like cold, damp television static.
+Here, the "Wicked Witch" is just a set of instructions for a one-eyed, ancient administrator that no longer has an office. You reach out and touch the wall; it feels like cold, damp television static.
 A voice—or the memory of a voice—vibrates through the floorboards.
 "1 - 1 = 1," it whispers. "But in the basement, 1 - 1 = ... nothing."
 You see a pile of discarded **Ruby Slippers**. They aren't glowing. They look like lead. They are heavy with the weight of every girl who tried to go home and hit the firewall instead.`,
