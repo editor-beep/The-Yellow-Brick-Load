@@ -26,6 +26,10 @@
  *     { type: 'checkGhostSignal' },
  *   ],
  *   fake: false,                // if true, all choices collapse to same target
+ *   voiceSwap: {               // optional: character-keyed internal signal text
+ *     lion: '...',             //   shown as a separate "voice card" below passage text
+ *     dorothy: '...',          //   missing character keys fall back to GENERIC_SYSTEM_VOICE
+ *   },                        //   use getVoiceSwapContent(passage, characterId) to resolve
  * }
  *
  * Text content supports simple token replacement:
@@ -314,6 +318,33 @@ function _applyAction(descriptor, store) {
 function _triggerUnrecognizedConfiguration(store) {
   store.setFlag('unrecognized_config_triggered', true)
   store.goTo('UNRECOGNIZED_CONFIG')
+}
+
+// ── Voice-Swap: Generic System Voice fallback ────────────────────────────────
+// Returned when a passage has voiceSwap content but the active character has
+// no entry in the swap object — signifies full assimilation into the system.
+const GENERIC_SYSTEM_VOICE =
+  `[ UNIT: UNCLASSIFIED ] Your frequency is within standard operational parameters. The system has no unique readout for your current designation. Your signal has been normalized. There is nothing to report at this node. Continue your load.`
+
+/**
+ * Returns the voice-swap text for a given passage and character.
+ *
+ * - If the passage has no `voiceSwap` property, returns null (nothing to show).
+ * - If `voiceSwap[characterId]` exists, returns that character's unique text.
+ * - Otherwise returns GENERIC_SYSTEM_VOICE, indicating the unit has been
+ *   fully assimilated and its individual frequency suppressed.
+ *
+ * @param {object} passage     - The resolved passage object
+ * @param {string} characterId - The active character ID (e.g. 'lion', 'tinman')
+ * @returns {string|null}
+ */
+export function getVoiceSwapContent(passage, characterId) {
+  if (!passage || !passage.voiceSwap) return null
+  const swap = passage.voiceSwap
+  if (characterId && Object.prototype.hasOwnProperty.call(swap, characterId)) {
+    return swap[characterId]
+  }
+  return GENERIC_SYSTEM_VOICE
 }
 
 // ── Check if a choice is available ──────────────────────────────────────────

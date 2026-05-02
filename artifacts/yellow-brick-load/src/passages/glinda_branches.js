@@ -75,6 +75,12 @@ The mist reacts to the damage you brought with you. The Lion's tremor becomes a 
 Everything is 'Good' because the resolution is too low for 'Bad' to exist.`
       }
     ],
+    voiceSwap: {
+      glinda: `Do you see how much better it is now, dear? We've removed the high-frequency noise from your signal. Stay in the lilac. Stay aligned.`,
+      lion: `The air is too thick to roar through. It tastes like sugar and lies. I want to be afraid, but the mist won't let the feeling land.`,
+      tinman: `The pink dust settles into my hinges. It doesn't lubricate; it just hides the sound of the grinding. I am seizing in slow motion, and it feels like a nap.`,
+      scarecrow: `The crows are turning into clouds. The numbers are losing their edges. For the first time, my head is empty. It is terrifying. It is wonderful.`,
+    },
     onEnter: [
       // Records dampening activation; signal is locked below detectable threshold.
       { type: 'setFlag', key: 'pink_smog_active', value: true },

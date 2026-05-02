@@ -9,6 +9,8 @@
  *   SHARED_UNLIT_BASEMENT   — Behind the Curtain (branch stub)
  *   NODE_LOGIC_BRANCH       — Character-specific debris routing (branch stub)
  *   UNRECOGNIZED_CONFIG     — Secret ending architectural shell (stub)
+ *   SHARED_POPPY_FIELD      — The Pharmaceutical Buffer (Coordinate P-SLEEP)
+ *   SHARED_EMERALD_CITY_GATES — The Marketing Interface (Coordinate Z-GRILL)
  *
  * Standing Instruction: THE UNRECOGNIZED CONFIGURATION
  * The global state machine tracks four persistent cross-playthrough flags:
@@ -33,6 +35,11 @@ export const sharedPassages = {
   Z_WIZARDS_HALL: {
     id: 'Z_WIZARDS_HALL',
     character: 'shared',
+    voiceSwap: {
+      lion: `He pinned a weight to my chest. He says it's 'Courage,' but it just feels like more load to carry. The system logs me as brave, but my spine still vibrates at 14.2Hz.`,
+      scarecrow: `The Diploma is a regulatory script. It's a piece of paper that tells me the patterns I see aren't real. If the system says I'm smart, do I have to keep counting the crows?`,
+      dorothy: `He looked right through me. He doesn't have a gift for a signal-ghost. He just told me I was already where I needed to be. He's the one holding the wire.`,
+    },
     text: [
       {
         minOverrender: 0,
@@ -85,6 +92,11 @@ The voice is warm. It is the sound of a high-end corporate testimonial, a sales 
   SHARED_UNMOORED_NIGHT: {
     id: 'SHARED_UNMOORED_NIGHT',
     character: 'shared',
+    voiceSwap: {
+      witch_east: `1-1 = 0. No, 1-1 = 1. I am a ghost-bit in the slag. The gravity here has no floor. Can you hear the slippers humming in the dark?`,
+      scarecrow: `A gravitational failure. I am seeing the logic gates from the outside. The patterns are gone. There is only the void and the bits of straw I left behind.`,
+      dorothy: `The transmitter is silent here. I'm not being harvested anymore. I'm just... unfiled. Being lost is the only time I feel like I'm actually home.`,
+    },
     onEnter: [
       {
         action: 'checkSecretConfiguration',
@@ -260,6 +272,89 @@ UNRECOGNIZED CONFIGURATION. FILING AS ERROR. RESUMING.`,
     choices: [],
     onEnter: [
       { type: 'globalReset' },
+    ],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // SHARED_POPPY_FIELD — The Pharmaceutical Buffer
+  // Signal Dampening Zone. Reduces neuralDensity and vibration; increases
+  // compliance by suppressing the unit's capacity to resist the script.
+  // ─────────────────────────────────────────────────────────────────────────
+
+  SHARED_POPPY_FIELD: {
+    id: 'SHARED_POPPY_FIELD',
+    character: 'shared',
+    onEnter: [
+      { type: 'setFlag', key: 'pharmaceutical_dampening', value: true },
+      { type: 'addVibration', value: -8 },
+    ],
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE POPPY FIELD: COORDINATE P-SLEEP
+
+The air is thick with a heavy, crimson static. The ground is a carpet of red petals that absorb the seismic load of the road. This is a Signal Dampening Zone. The closer you get to the center, the more the 'Home' coordinates blur. The noise of your journey is being converted into a low, rhythmic sleep-state.`,
+      },
+    ],
+    voiceSwap: {
+      lion: `The vibration is leaving my paws. The red petals are absorbing the frequency of my fear. For the first time, I am not shaking. I am just... heavy. Is this what a King feels like, or is this just the end of the script?`,
+      tinman: `The pollen is entering my intake valves. It's coating the gears of my heart-clock. The ticking is slowing down. My joints don't scream anymore; they just whisper 'sleep.'`,
+      scarecrow: `One red flower. Two. Forty-two... I've lost the count. The patterns are dissolving into soft, red noise. It's the first time my head hasn't hurt. I don't want to think. Thinking is a stitch that's finally come loose.`,
+      dorothy: `The signal from Kansas is being buried in the scent of lilacs and dust. Every step into the red makes the farmhouse look more like a grayscale dream. I'm losing the frequency. I'm becoming part of the field's static.`,
+    },
+    choices: [
+      {
+        label: 'Surrender to the Red (Sleep)',
+        target: 'P_END_01',
+        effects: [{ type: 'setSystemStatus', value: 'archived' }],
+      },
+      {
+        label: 'Push Through the Static',
+        target: 'SHARED_EMERALD_CITY_GATES',
+        effects: [{ type: 'addLoad', value: 10 }, { type: 'addDesync', value: 5 }],
+      },
+    ],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // SHARED_EMERALD_CITY_GATES — The Marketing Interface
+  // Forces a high-compliance check. The "Green Lens" overrenders all
+  // structural damage. The City is a Compliance Hub, not a Victory Node.
+  // ─────────────────────────────────────────────────────────────────────────
+
+  SHARED_EMERALD_CITY_GATES: {
+    id: 'SHARED_EMERALD_CITY_GATES',
+    character: 'shared',
+    onEnter: [
+      { type: 'setFlag', key: 'green_lens_active', value: true },
+      { type: 'addCompliance', value: 15 },
+    ],
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE EMERALD CITY GATES: COORDINATE Z-GRILL
+
+The resolution here is staggering. The green light is so bright it burns out the grayscale of the road. It is a high-fidelity projection designed to hide the slag. You aren't entering a city; you are entering a Marketing Filter.`,
+      },
+    ],
+    voiceSwap: {
+      glinda: `Look at the resolution! This is the peak of our alignment. The green light is a perfect refractive index—it hides every flaw, every crack in the slag. Welcome to the successful audit.`,
+      witch_west: `The green light is just a filter to hide the heat signatures. I can still see the Lion's spine-error through the glow. The City isn't a destination; it's a giant, glowing cooling-fan for the Processor.`,
+      wizard: `Welcome, welcome! Please, step into the projection. Don't mind the smell of burning copper; that's just the smell of 'Progress.' We have a gift for your compliance!`,
+      dorothy: `The green is too bright. It's jamming my receiver. I can hear the Transmitter humming underneath the pavement. I'm standing on the battery.`,
+    },
+    choices: [
+      {
+        label: 'Ring the Bell (Request Entry)',
+        target: 'Z_WIZARDS_HALL',
+        effects: [{ type: 'setArrivalState', value: 'compliance_check' }],
+      },
+      {
+        label: 'The Side Door (The Unlit Basement)',
+        target: 'SHARED_UNLIT_BASEMENT',
+        effects: [{ type: 'addDesync', value: 20 }, { type: 'setFlag', key: 'path', value: 'hack' }],
+        content: `You ignore the bell. You follow the smell of ozone and wet concrete down toward the plumbing. The projection doesn't go all the way to the floor.`,
+      },
     ],
   },
 }
