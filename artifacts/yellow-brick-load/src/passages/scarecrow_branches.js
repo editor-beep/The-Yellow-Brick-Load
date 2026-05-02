@@ -152,4 +152,184 @@ export const scarecrowBranchPassages = {
     ],
     onEnter: [],
   },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // THE CORNFIELD SECTOR: SCARECROW (UNIT S-CLUSTER)
+  // ─────────────────────────────────────────────────────────────────────────
+
+  S_START: {
+    id: 'S_START',
+    character: 'scarecrow',
+    text: [
+      {
+        minOverrender: 0,
+        content: `COORDINATE S-SENTINEL: THE FIXED-POST GRID
+The sun is a static, unblinking white eye—the Primary Observer. Below it, the corn sways in a rhythm that suggests a looped file. You are bolted to a crossbar. You are not a guard; you are a Fixed-Point Data Collector. 
+
+The air is thick with dry husks and dead pollen. Your thoughts are the friction of straw rubbing inside burlap. One crow is a witness. Two crows are a comparison. Comparison requires a baseline. The baseline is the pole. The pole is vertical. I am vertical. If I am the baseline, then the crow is the deviation. There are forty-two crows. Forty-two is a composite number. It can be broken. I cannot be broken. I am stitched. Every stitch is a boundary. Every boundary is an invitation to the beak—`
+      }
+    ],
+    choices: [
+      {
+        label: 'The Analytical Loop (Log the Crows)',
+        target: 'S_CROW_CENSUS',
+        effects: [{ type: 'addNeuralDensity', value: 10 }, { type: 'setArrivalState', value: 'audit' }]
+      },
+      {
+        label: 'The Structural Breach (Struggle)',
+        target: 'S_FALLOW_GROUND',
+        effects: [{ type: 'subStitchIntegrity', value: 10 }, { type: 'setArrivalState', value: 'fallow' }]
+      },
+      {
+        label: 'The Straw Oracle (Bureau-Crow Transaction)',
+        target: 'S_UNMONITORED_NIGHT',
+        effects: [{ type: 'addScatter', value: 10 }, { type: 'setArrivalState', value: 'oracle' }]
+      }
+    ]
+  },
+
+  S_CROW_CENSUS: {
+    id: 'S_CROW_CENSUS',
+    character: 'scarecrow',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE CROW CENSUS
+The sky is a High-Contrast Data Field. You are logging vectors. Wing-beats are seismic insults to the silence. Seven feathers on the left wing. Seven is a prime. Prime numbers cannot be divided. He cannot be divided. He is on a pole. The pole is a fixed point. Fixed points do not move. If I do not move, I am the center of the audit. If I am the center, why is the data so heavy?`
+      }
+    ],
+    choices: [
+      {
+        label: 'The Total Audit',
+        target: 'S_THE_AI',
+        effects: [{ type: 'setArrivalState', value: 'audit' }]
+      },
+      {
+        label: 'The Synaptic Short',
+        target: 'S_THE_AI',
+        effects: [{ type: 'addSeizure', value: 5 }, { type: 'setArrivalState', value: 'short' }]
+      }
+    ]
+  },
+
+  S_FALLOW_GROUND: {
+    id: 'S_FALLOW_GROUND',
+    character: 'scarecrow',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE FALLOW GROUND
+The ground is the floor of the system. The floor is where the load ends. If I reach the ground, the pole is zero. Zero is a hole. I am a hole wrapped in burlap. The burlap is leaking. Straw is escaping. Escape is a change in coordinate. A change in coordinate requires a vector. My vector is downward. Down is where the roots are. Roots are biological scripts for staying still—`
+      }
+    ],
+    choices: [
+      {
+        label: 'The Crawl',
+        target: 'S_THE_AI',
+        effects: [{ type: 'subStitchIntegrity', value: 15 }, { type: 'setArrivalState', value: 'fallow' }]
+      },
+      {
+        label: 'The Re-Stuffing',
+        target: 'S_THE_AI',
+        effects: [
+          { type: 'addNeuralDensity', value: 5 },
+          { type: 'setArrivalState', value: 'fallow' }
+        ],
+        content: `You replace your brain with agriculture. You cram the abrasive husks from the field into your head. You have internalized the data set. The observation is now literally inside you. The thinker and the thought are both made of corn.`
+      }
+    ]
+  },
+
+  S_UNMONITORED_NIGHT: {
+    id: 'S_UNMONITORED_NIGHT',
+    character: 'scarecrow',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE UNMONITORED NIGHT
+The Primary Observer has set. The crows are dormant data-points. In the dark, the cornfield stops being a grid and becomes a sound—a low, wet friction of stalk against stalk that the Bureau has no form for.
+
+You are still on the pole. But the pole has no shadow now. Without the shadow, there is no fixed point. Without the fixed point, there is no audit. You are free to think in a direction that has no coordinate.
+
+A single crow lands on your wrist. It is not a government-issue crow. It has no glass eyes. It looks at you with something that the Oz OS cannot classify. It opens its beak. What comes out is not a sound. It is a transaction. You pay with three pieces of straw from your left temple. You receive something with no file number.
+
+[ SCATTER: CRITICAL ]
+[ MONITORING: SUSPENDED ]
+[ CURRENCY: UNREGISTERED ]`
+      }
+    ],
+    choices: [
+      {
+        label: 'Accept the Transaction (Enter the Unsanctioned Logic)',
+        target: 'S_THE_AI',
+        effects: [{ type: 'addScatter', value: 5 }, { type: 'setArrivalState', value: 'oracle' }]
+      }
+    ]
+  },
+
+  S_THE_AI: {
+    id: 'S_THE_AI',
+    character: 'scarecrow',
+    onEnter: [
+      {
+        action: 'evaluateOverrender',
+        mapping: {
+          'audit': 0,
+          'short': 5,
+          'fallow': 10,
+          'oracle': 15
+        }
+      }
+    ],
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE AI: COORDINATE S-LOGIC
+The processing racks hum with the sound of a mind that has been successfully pruned. The AI speaks in a voice that is sterile, helpful, and terrifyingly calm. 
+
+"Total logging achieved," it says. "All crows accounted for. No further data required. It is quiet now, isn't it? We have archived the noise. You are ready for the Diploma."`
+      },
+      {
+        minOverrender: 5,
+        content: `THE AI: COORDINATE S-LOGIC
+Smoke rises from your seams. The AI scans your damaged logic gates. 
+
+"Signal reduction detected," it notes. "You attempted to find the One. There is no One. There is only the Zero and the One. Your synaptic short is an unauthorized hardware event. Let us patch the damage."`
+      },
+      {
+        minOverrender: 10,
+        content: `THE AI: COORDINATE S-LOGIC
+You arrive leaking. A trail of dry corn husks marks your path. 
+
+"Externalizing the data set into the stuffing is an inefficient storage method," the AI observes. "You are leaking information. You are messy. You are an unoptimized asset. Let us standardize you."`
+      },
+      {
+        minOverrender: 15,
+        content: `THE AI: COORDINATE S-LOGIC
+The LEDs on the processing rack flicker in a pattern you recognize from the dark. 
+
+"Non-linear acquisition detected," the AI says. Its voice wavers, a brief anomaly in its clinical authority. "You paid with coherence. That is an unregistered currency. We can formalize the exchange. Retroactively."`
+      }
+    ],
+    choices: [
+      {
+        label: 'Accept the Diploma',
+        target: 'S_END_02',
+        effects: [{ type: 'setCompliance', value: 'absolute' }],
+        content: `Knowledge is a regulatory script. You submit to the patch. Your associative cascade stops. The world stops being a forest of connections and becomes a simple table of data. You aren't thinking anymore; you're just processing.`
+      },
+      {
+        label: 'The Synaptic Overload',
+        target: 'S_END_01',
+        effects: [{ type: 'triggerThermalEvent', value: true }],
+        content: `You force the patterns it was built to ignore into its cooling fans. The verticality of the pole. The seventh feather. The Prime Observer. The AI cannot archive the friction. Heat is the byproduct of solving the self.`
+      },
+      {
+        label: 'The Straw Exchange',
+        target: 'S_END_03',
+        effects: [{ type: 'setDesync', value: 'max' }],
+        content: `You do not submit. You do not fight. You reach into the humming racks and trade your agricultural brain for its clinical bits. You become a Straw Ghost in the machine. A hybrid of instability and clarity. An unrecorded idea is a successful breach.`
+      }
+    ]
+  },
 }
