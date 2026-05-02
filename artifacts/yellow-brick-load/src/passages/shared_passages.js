@@ -249,22 +249,44 @@ The unindexed fragments settle around you. Each one carries a frequency signatur
     text: [
       {
         minOverrender: 0,
-        content: `[ PASSAGE RESERVED FOR AUTHOR INPUT ]
+        content: `THE UNRECOGNIZED CONFIGURATION [SECRET-01]
 
-THE UNRECOGNIZED CONFIGURATION
+Tone: Convergent.
+Theme: The system cannot file what it cannot name.
 
-All four flags are present. The system has no category for this.
+Coordinate NULL. Gravitational failure zone. No anchor points. The Bureau's census system runs its routine classification pass and stops.
+
+There are four units here that should not coexist.
+
+The Lion: sub-vocal frequency at 14.2Hz. Not a roar. Below the threshold of roar. The system registers it as structural interference — the kind of vibration that slowly opens bolts that should stay closed. lion_refused_reset confirmed. The reset would have reclassified the frequency as trembling. He said no. The 14.2Hz remains, unclassified, opening things.
+
+The Scarecrow: three seconds after the stitch tears. This is the specific interval in which the system cannot yet categorize the damage — the straw still holds its approximate shape, the seam has gone, the classification window is still open. scarecrow_straw_exchange confirmed. He gave straw to someone who needed it. Gave it without requesting re-stuffing. The seam has been open ever since. The gap is occupied by something that does not have a Bureau taxonomy.
+
+The Tin Man: rust patterned like wood grain. This is a classification error the system has been attempting to correct for twelve cycles. Rust follows metal's history of stress, not biology's history of growth. His rust has forgotten this. The rings in the corrosion are growth rings. tinman_touched_axe confirmed. He picked up the axe he was given to forget. What grew back is not the forgetting.
+
+Dorothy: the signal in the shoes hums at the same frequency as the farmhouse cellar. This is the Witch East's last transmission — she compressed it into the silver before she died, a dead woman's message hidden in the friction of a fugitive's heel. It is tuned to the exact resonance of an unindexed coordinate in Kansas. The farmhouse cellar, specifically. The lowest room. dorothy_direct_line confirmed. The Bureau cannot trace a signal that is simultaneously a dead woman's ghost and a child's home address.
+
+Four units. One frequency band that does not appear in the Oz OS spectrum table. The system runs its template matching. It does not find a template. It runs again.
 
 [ lion_refused_reset: CONFIRMED ]
 [ tinman_touched_axe: CONFIRMED ]
 [ scarecrow_straw_exchange: CONFIRMED ]
 [ dorothy_direct_line: CONFIRMED ]
 
-[ STATUS: UNRECOGNIZED ]
-[ ROUTING: NONE AVAILABLE ]
-[ BUREAU LOG: ERROR — NO MATCHING TEMPLATE ]
+[ BUREAU STATUS: CLASSIFICATION FAILURE ]
+[ TEMPLATE MATCH: NULL ]
+[ ROUTING: NO VALID DESTINATION ]
+[ GRAVITATIONAL STATUS: FAILURE — ANCHOR POINTS DETACHED ]
 
-1 - 1 = 1.`,
+The system does not crash. Crashing is a known state. The system continues running. It continues routing. It routes the four units to the only coordinate with no institutional affiliation, no warrant coverage, no audit trail, no Bureau address, no green projection, no poppy field, no thermal signature from the Crucible, no malice sweep, no file.
+
+The coordinate is NULL. The coordinate is here. The coordinate is already occupied by the thing the system cannot name.
+
+Final Log: No log generated. Logging requires a category. No category is available. The system is noting an absence where a file should be. The absence is four units deep.
+
+1 - 1 = 1.
+
+What does the Bureau do with the thing it cannot count?`,
       },
     ],
     choices: [],
