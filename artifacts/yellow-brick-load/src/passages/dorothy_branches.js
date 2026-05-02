@@ -1150,4 +1150,179 @@ You can hear the Bureau's central cooling fans humming behind the wood. It is th
     ],
     onEnter: [],
   },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // VOLUME 4: THE DISPLACEMENT OF DOROTHY — D-CLUSTER NODES
+  // ─────────────────────────────────────────────────────────────────────────
+
+  D_START: {
+    id: 'D_START',
+    character: 'dorothy',
+    text: [
+      {
+        minOverrender: 0,
+        content: `COORDINATE D-GALE: THE SYSTEM RESET
+
+The pressure in your ears is the sound of the house being deleted. Aunt Em is a pixelated blur in the cellar, a low-resolution memory fading before the save-state completes. The horizon is a line of code you can no longer read.
+
+You are not falling. You are being moved to a different folder. The house has been unanchored from the grid, and as it spins, the silver slippers on your feet begin to hum—a low, metallic vibration that tastes like copper and impending rain. This is not a storm; it is the Oz OS clearing its cache.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'The Signal Lock (Focus on the Window)',
+        target: 'D_YELLOW_BRICK_LOAD',
+        effects: [
+          { type: 'addSignalStrength', value: 10 },
+          { type: 'addDisplacement', value: 5 },
+          { type: 'setArrivalState', value: 'clean' },
+        ],
+        content: `You press your face to the glass, refusing to see the colorful anomalies outside. You keep your eyes on the gray blurring of the farm until your retinas ache. You are holding onto a version of yourself that the system is currently purging.`,
+      },
+      {
+        label: 'The Silver Surrender (Focus on the Shoes)',
+        target: 'D_YELLOW_BRICK_LOAD',
+        effects: [
+          { type: 'addSilverFriction', value: 10 },
+          { type: 'setArrivalState', value: 'slipper_tuned' },
+        ],
+        content: `You stop looking for the farm. You look at your feet. You accept the Rhythmic Awe of the silver. You start to walk inside the moving house, matching your pace to the gale, conducting the friction until you and the house move as a single bit.`,
+      },
+      {
+        label: 'The Dust Oracle (Read the Static)',
+        target: 'SHARED_UNMOORED_NIGHT',
+        effects: [
+          { type: 'addScatter', value: 10 },
+          { type: 'addDesync', value: 10 },
+          { type: 'setFlag', key: 'dorothy_unmoored', value: true },
+        ],
+        content: `You look at the dust motes dancing in the center of the room. They are unindexed bits of the world that was. You realize the storm is a decryption error. You let your vision go soft, following the static into the unlit basement of the house.`,
+      },
+    ],
+    onEnter: [],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // SHARED NODE: THE YELLOW BRICK LOAD (DOROTHY PERSPECTIVE)
+  // ─────────────────────────────────────────────────────────────────────────
+
+  D_YELLOW_BRICK_LOAD: {
+    id: 'D_YELLOW_BRICK_LOAD',
+    character: 'dorothy',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE YELLOW BRICK LOAD (SIGNAL INTERFERENCE)
+
+The path is not a road; it is hardened slag, a physical instruction set that records your mass as a seismic insult. Under your silver slippers, the frequency of the road is crowded with the noise of those who came before.
+
+The air is thick with the scent of recycled ozone. Your displacement is a constant decibel count in the back of your mind, a reminder that you are a receiver trying to tune into a frequency the system is actively jamming.`,
+      },
+    ],
+    choices: [
+      {
+        label: "Follow the Vibration (Lion's Trace)",
+        target: 'T_TRANSMITTER',
+        showIf: { var: 'visitedBy', contains: 'lion' },
+        effects: [
+          { type: 'addSilverFriction', value: 5 },
+          { type: 'setArrivalState', value: 'lion_residue' },
+        ],
+        content: `You put your hand in the fissure left by a King who failed. You pick up his Residual Magnetism. The road shakes under your touch, vibrating with a fear that isn't yours.`,
+      },
+      {
+        label: "Follow the Oxidation (Tin Man's Trace)",
+        target: 'T_TRANSMITTER',
+        showIf: { var: 'visitedBy', contains: 'tinman' },
+        effects: [
+          { type: 'addLoad', value: 5 },
+          { type: 'setArrivalState', value: 'tinman_residue' },
+        ],
+        content: `You trace the iridescent rust line. You follow the path of a Unit that ran out of maintenance. The slag feels cold and jagged here, a record of a heart that seized.`,
+      },
+      {
+        label: "Follow the Straw (Scarecrow's Trace)",
+        target: 'T_TRANSMITTER',
+        showIf: { var: 'visitedBy', contains: 'scarecrow' },
+        effects: [
+          { type: 'addNeuralDensity', value: 5 },
+          { type: 'setArrivalState', value: 'scarecrow_residue' },
+        ],
+        content: `You gather the loose straw caught in the grooves of the brick. You feel a sudden synaptic spike—a pattern of forty-two crows and prime numbers that you weren't meant to calculate.`,
+      },
+      {
+        label: 'The Direct Line (The Clean Frequency)',
+        target: 'T_TRANSMITTER',
+        effects: [
+          { type: 'addSignalStrength', value: 15 },
+          // setPersistentFlag writes to localStorage for the cross-playthrough
+          // UNRECOGNIZED_CONFIG mechanic; setFlag mirrors it into session state
+          // so passage condition functions can read it immediately.
+          { type: 'setPersistentFlag', key: 'dorothy_direct_line' },
+          { type: 'setFlag', key: 'dorothy_direct_line', value: true },
+          { type: 'setArrivalState', value: 'clean' },
+        ],
+        content: `You put your hands over your ears and focus. You refuse to filter your displacement through the damage of others. The signal is the clearest you have ever felt. And it is still not enough to get you home. The system isn't jamming you because of them; it is jamming you because that is what the system does.`,
+      },
+    ],
+    onEnter: [
+      { action: 'pushToVisitedBy', value: 'dorothy' },
+    ],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // CONVERGENCE: THE TRANSMITTER
+  // ─────────────────────────────────────────────────────────────────────────
+
+  T_TRANSMITTER: {
+    id: 'T_TRANSMITTER',
+    character: 'dorothy',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE TRANSMITTER: COORDINATE D-CORE
+
+The spindle of silver wire oscillates in a room of damp concrete. The air smells of hot copper and rain. The hum here is the same frequency as the farmhouse cellar.
+
+I am not looking for a way home. I am looking at the fuel for my own prison. Kansas is not being blocked. It is being harvested. Every bit of the farm—the smell of the dirt, the sound of Aunt Em's voice—is being used as a baseline to stabilize the green projection of the city. My homesickness is the infrastructure.`,
+      },
+      {
+        minOverrender: 5,
+        content: `THE TRANSMITTER (RESIDUAL INTERFERENCE)
+
+The spindle is crowded. You hear Kansas, but it is layered under the sub-vocal roar of a Lion and the rhythmic ticking of a rusted clock. The signal is scratchy, full of the industrial interference of those who walked the Load before you. The system is using their failures to dampen your return-vector.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'The Signal Breach (The Hack)',
+        target: 'D_END_01',
+        effects: [{ type: 'setDisplacement', value: 'max' }],
+        content: `You are not a listener; you are a transmission error. You attempt to reverse the polarity of the spindle, broadcasting yourself back through the silver wire until your physical rendering dissolves into pure data.`,
+      },
+      {
+        label: 'The Silver Grounding (The Assimilation)',
+        target: 'D_END_02',
+        effects: [{ type: 'setCompliance', value: 'absolute' }],
+        content: `Comfort is the acceptance of being infrastructure. You press your silver slippers against the base and allow the friction to conduct the signal through you, stabilizing the city's power. You stop being Dorothy; you become the Baseline Constant.`,
+      },
+      {
+        label: 'The Storm Capture (Thermal Event)',
+        target: 'D_END_07',
+        effects: [{ type: 'triggerThermalEvent', value: true }],
+        content: `Destruction is a successful audit of the structure. You reach into the spindle and pull the Gale out. You bring the storm into the basement, and as the silver wire melts under the friction, the city's power dies in a mouthful of grit.`,
+      },
+    ],
+    onEnter: [
+      {
+        action: 'evaluateOverrender',
+        mapping: {
+          clean: 0,
+          lion_residue: 5,
+          tinman_residue: 10,
+          scarecrow_residue: 15,
+        },
+      },
+    ],
+  },
 }

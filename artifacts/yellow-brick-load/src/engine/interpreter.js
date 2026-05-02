@@ -37,7 +37,7 @@
 
 import { useGameStore } from './store.js'
 import { getInterloperForCharacter } from '../data/statInterlopers.js'
-import { checkAllPersistentFlags } from './store.js'
+import { checkAllPersistentFlags, setPersistentFlag } from './store.js'
 
 let _globalResetPending = false
 
@@ -127,7 +127,16 @@ export function applyEffects(effects) {
       case 'setCompliance': {
         if (effect.value == null) break
         // Normalise signal-bleed compliance aliases to canonical values
-        const complianceMap = { baseline: 'low', static: 'high', none: 'low', high: 'high', med: 'med', low: 'low', broken: 'broken' }
+        const complianceMap = {
+          baseline: 'low',
+          static: 'high',
+          none: 'low',
+          high: 'high',
+          med: 'med',
+          low: 'low',
+          broken: 'broken',
+          absolute: 'broken',
+        }
         const normalised = complianceMap[String(effect.value).toLowerCase()] ?? effect.value
         if (normalised === 'high' && String(effect.value).toLowerCase() === 'static') {
           store.setFlag('compliance_locked', true)
@@ -169,6 +178,18 @@ export function applyEffects(effects) {
       case 'setWetwareStat':     store.setWetwareStat(effect.stat, effect.value); break
       case 'modifyTag':          store.setFlag(`tag_${effect.value}`, true); break
       case 'triggerEvent':       store.setFlag(`event_${effect.value}`, true); break
+      // ── Convergence / arrival-state effects ─────────────────────────────
+      case 'setArrivalState':    store.setArrivalState(effect.value); break
+      case 'setDisplacement': {
+        const dval = effect.value === 'max' ? 100 : Number(effect.value)
+        if (isNaN(dval)) {
+          console.warn(`[YBL] setDisplacement: invalid value "${effect.value}"`)
+          break
+        }
+        store.setDisplacement(dval)
+        break
+      }
+      case 'setPersistentFlag':  setPersistentFlag(effect.key, effect.value !== undefined ? effect.value : true); break
       // ── Shared / Marketing Filter effects ───────────────────────────────
       case 'addCompliance':
         // From problem-statement passage data. Semantically "raise compliance to max"
@@ -257,6 +278,21 @@ function _applyAction(descriptor, store) {
       }
       break
     }
+    case 'pushToVisitedBy': {
+      // Records that a character has visited the current convergence node.
+      store.pushToVisitedBy(descriptor.value)
+      break
+    }
+    case 'evaluateOverrender': {
+      // Maps the current arrivalState to an overrender increment and applies it.
+      const { mapping } = descriptor
+      const state = useGameStore.getState()
+      const arrived = state.arrivalState
+      if (mapping && arrived != null && mapping[arrived] !== undefined) {
+        store.addOverrender(mapping[arrived])
+      }
+      break
+    }
     default:
       console.warn(`[YBL] Unknown action: ${descriptor.action}`)
   }
@@ -269,6 +305,14 @@ function _triggerUnrecognizedConfiguration(store) {
 
 // ── Check if a choice is available ──────────────────────────────────────────
 export function isChoiceAvailable(choice, state) {
+  // showIf: { var: 'visitedBy', contains: 'lion' } — convergence-node visibility
+  if (choice.showIf) {
+    const { var: varName, contains } = choice.showIf
+    if (varName === 'visitedBy') {
+      const visitedBy = state.visitedBy || []
+      if (!visitedBy.includes(contains)) return false
+    }
+  }
   if (!choice.condition) return true
   return choice.condition(state)
 }
