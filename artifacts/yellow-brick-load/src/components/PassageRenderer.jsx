@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef } from 'react'
 import { useGameStore } from '../engine/store.js'
-import { applyEffects, resolveText, interpolate, isChoiceAvailable, getPassageContent } from '../engine/interpreter.js'
+import { applyEffects, resolveText, interpolate, isChoiceAvailable, getVoiceSwapContent } from '../engine/interpreter.js'
 import { getPassage } from '../passages/index.js'
 import OracleCard from './OracleCard.jsx'
 import OracleDraw from './OracleDraw.jsx'
@@ -149,9 +149,9 @@ export default function PassageRenderer() {
           })}
         </div>
         {(() => {
-          const voiceText = getPassageContent(passage, character)
+          const voiceText = getVoiceSwapContent(passage, character)
           if (!voiceText) return null
-          const isAssimilated = !passage.voiceSwap[character]
+          const isAssimilated = !passage.voiceSwap?.[character]
           return (
             <div className={`voice-swap-card${isAssimilated ? ' voice-swap-card--assimilated' : ''}`}>
               <span className="voice-swap-label">[ {character ? character.toUpperCase().replace('_', ' ') : 'UNIT'}: INTERNAL SIGNAL ]</span>

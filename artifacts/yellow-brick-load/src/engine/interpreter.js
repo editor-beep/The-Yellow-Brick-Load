@@ -29,7 +29,7 @@
  *   voiceSwap: {               // optional: character-keyed internal signal text
  *     lion: '...',             //   shown as a separate "voice card" below passage text
  *     dorothy: '...',          //   missing character keys fall back to GENERIC_SYSTEM_VOICE
- *   },
+ *   },                        //   use getVoiceSwapContent(passage, characterId) to resolve
  * }
  *
  * Text content supports simple token replacement:
@@ -325,7 +325,7 @@ const GENERIC_SYSTEM_VOICE =
  * @param {string} characterId - The active character ID (e.g. 'lion', 'tinman')
  * @returns {string|null}
  */
-export function getPassageContent(passage, characterId) {
+export function getVoiceSwapContent(passage, characterId) {
   if (!passage || !passage.voiceSwap) return null
   const swap = passage.voiceSwap
   if (characterId && Object.prototype.hasOwnProperty.call(swap, characterId)) {
