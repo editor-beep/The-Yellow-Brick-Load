@@ -1,0 +1,10067 @@
+# Yellow Brick Load Story Passage Branch Tree
+
+Generated: 2026-05-02T17:45:26.167Z
+
+
+## WITCH_WEST_INIT
+- WITCH_WEST_INIT
+  - "Deploy the Winged Monkeys — begin the aerial sweep." → WITCH_WEST_MONKEY_SWEEP_B
+    - WITCH_WEST_MONKEY_SWEEP_B
+      - "Watch the capture through the obsidian eye. Savor every moment." → WITCH_WEST_OBSIDIAN_VIEW
+        - WITCH_WEST_OBSIDIAN_VIEW
+          - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
+            - WITCH_WEST_ORACLE_ENTRY
+              - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                - WITCH_WEST_ORACLE_DRAW
+                  - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                    - WITCH_WEST_ORACLE_1
+                      - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                      - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                        - WITCH_WEST_END_MELTING [ENDING]
+                  - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                    - WITCH_WEST_ORACLE_2
+                      - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                        - WITCH_WEST_END_MELTING [ENDING]
+                      - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                        - ↩ cycle
+                  - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                    - WITCH_WEST_ORACLE_3
+                      - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                        - WITCH_WEST_END_SCRAP [ENDING]
+                      - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                        - WITCH_WEST_END_MELTING [ENDING]
+                  - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                    - WITCH_WEST_ORACLE_4
+                      - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                        - WITCH_WEST_END_COMMAND [ENDING]
+                      - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                  - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                    - WITCH_WEST_ORACLE_5
+                      - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                        - WITCH_WEST_END_MELTING [ENDING]
+                      - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                        - WITCH_WEST_END_COMMAND [ENDING]
+                  - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                    - WITCH_WEST_ORACLE_6
+                      - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                        - WITCH_WEST_END_COMMAND [ENDING]
+                      - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                        - WITCH_WEST_END_SCRAP [ENDING]
+                  - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                    - WITCH_WEST_ORACLE_7
+                      - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                        - WITCH_WEST_END_COMMAND [ENDING]
+                      - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                        - WITCH_WEST_END_MELTING [ENDING]
+                  - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                    - WITCH_WEST_ORACLE_8
+                      - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                        - WITCH_WEST_END_MELTING [ENDING]
+                      - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                        - WITCH_WEST_END_SCRAP [ENDING]
+              - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                - ↩ cycle
+          - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
+            - WITCH_WEST_FIELD_CONFRONTATION
+              - "Pick who gets the first incision, then begin the Obsidian Eye ritual." → WITCH_WEST_SELECT_TARGET
+                - WITCH_WEST_SELECT_TARGET
+                  - "Lion" → WITCH_WEST_ORACLE_ENTRY_LION
+                    - WITCH_WEST_ORACLE_ENTRY_LION
+                      - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                        - WITCH_WEST_ORACLE_DRAW
+                          - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                            - WITCH_WEST_ORACLE_1
+                              - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                              - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                            - WITCH_WEST_ORACLE_2
+                              - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                - ↩ cycle
+                          - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                            - WITCH_WEST_ORACLE_3
+                              - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                              - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                            - WITCH_WEST_ORACLE_4
+                              - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                          - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                            - WITCH_WEST_ORACLE_5
+                              - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                          - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                            - WITCH_WEST_ORACLE_6
+                              - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                          - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                            - WITCH_WEST_ORACLE_7
+                              - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                            - WITCH_WEST_ORACLE_8
+                              - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                  - "Dorothy" → WITCH_WEST_ORACLE_ENTRY_DOROTHY
+                    - WITCH_WEST_ORACLE_ENTRY_DOROTHY
+                      - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                        - WITCH_WEST_ORACLE_DRAW
+                          - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                            - WITCH_WEST_ORACLE_1
+                              - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                              - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                            - WITCH_WEST_ORACLE_2
+                              - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                - ↩ cycle
+                          - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                            - WITCH_WEST_ORACLE_3
+                              - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                              - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                            - WITCH_WEST_ORACLE_4
+                              - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                          - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                            - WITCH_WEST_ORACLE_5
+                              - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                          - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                            - WITCH_WEST_ORACLE_6
+                              - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                          - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                            - WITCH_WEST_ORACLE_7
+                              - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                            - WITCH_WEST_ORACLE_8
+                              - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                  - "Tin Man" → WITCH_WEST_ORACLE_ENTRY_TINMAN
+                    - WITCH_WEST_ORACLE_ENTRY_TINMAN
+                      - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                        - WITCH_WEST_ORACLE_DRAW
+                          - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                            - WITCH_WEST_ORACLE_1
+                              - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                              - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                            - WITCH_WEST_ORACLE_2
+                              - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                - ↩ cycle
+                          - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                            - WITCH_WEST_ORACLE_3
+                              - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                              - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                            - WITCH_WEST_ORACLE_4
+                              - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                          - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                            - WITCH_WEST_ORACLE_5
+                              - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                          - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                            - WITCH_WEST_ORACLE_6
+                              - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                          - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                            - WITCH_WEST_ORACLE_7
+                              - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                            - WITCH_WEST_ORACLE_8
+                              - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                  - "Scarecrow" → WITCH_WEST_ORACLE_ENTRY_SCARECROW
+                    - WITCH_WEST_ORACLE_ENTRY_SCARECROW
+                      - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                        - WITCH_WEST_ORACLE_DRAW
+                          - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                            - WITCH_WEST_ORACLE_1
+                              - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                              - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                            - WITCH_WEST_ORACLE_2
+                              - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                - ↩ cycle
+                          - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                            - WITCH_WEST_ORACLE_3
+                              - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                              - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                            - WITCH_WEST_ORACLE_4
+                              - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                          - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                            - WITCH_WEST_ORACLE_5
+                              - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                          - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                            - WITCH_WEST_ORACLE_6
+                              - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                          - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                            - WITCH_WEST_ORACLE_7
+                              - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                            - WITCH_WEST_ORACLE_8
+                              - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+              - "Have the monkeys carry him back to the tower for a proper procedure." → WITCH_WEST_TOWER_PREP
+                - WITCH_WEST_TOWER_PREP
+                  - "The chamber is prepared. Begin the Obsidian Eye procedure." → WITCH_WEST_ORACLE_ENTRY
+                    - WITCH_WEST_ORACLE_ENTRY
+                      - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                        - WITCH_WEST_ORACLE_DRAW
+                          - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                            - WITCH_WEST_ORACLE_1
+                              - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                              - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                            - WITCH_WEST_ORACLE_2
+                              - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                - ↩ cycle
+                          - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                            - WITCH_WEST_ORACLE_3
+                              - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                              - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                            - WITCH_WEST_ORACLE_4
+                              - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                          - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                            - WITCH_WEST_ORACLE_5
+                              - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                          - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                            - WITCH_WEST_ORACLE_6
+                              - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                          - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                            - WITCH_WEST_ORACLE_7
+                              - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                            - WITCH_WEST_ORACLE_8
+                              - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                      - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                        - ↩ cycle
+                  - "The Clerk signals a compliance concern — attend to the warning." → WITCH_WEST_CLERK_INTERLUDE
+                    - WITCH_WEST_CLERK_INTERLUDE
+                      - "Force the verdict now — Summon the Obsidian Matron." → WITCH_WEST_ORACLE_ENTRY
+                        - WITCH_WEST_ORACLE_ENTRY
+                          - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                            - WITCH_WEST_ORACLE_DRAW
+                              - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                - WITCH_WEST_ORACLE_1
+                                  - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                  - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                - WITCH_WEST_ORACLE_2
+                                  - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                    - ↩ cycle
+                              - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                - WITCH_WEST_ORACLE_3
+                                  - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                - WITCH_WEST_ORACLE_4
+                                  - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                              - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                - WITCH_WEST_ORACLE_5
+                                  - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                              - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                - WITCH_WEST_ORACLE_6
+                                  - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                              - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                - WITCH_WEST_ORACLE_7
+                                  - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                - WITCH_WEST_ORACLE_8
+                                  - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                          - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                            - ↩ cycle
+                      - "Ignore the Clerk. Proceed with psychological pressure." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                        - WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                          - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
+                            - WITCH_WEST_ORACLE_ENTRY
+                              - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                - WITCH_WEST_ORACLE_DRAW
+                                  - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                    - WITCH_WEST_ORACLE_1
+                                      - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                      - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                  - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                    - WITCH_WEST_ORACLE_2
+                                      - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                      - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                        - ↩ cycle
+                                  - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                    - WITCH_WEST_ORACLE_3
+                                      - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                      - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                  - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                    - WITCH_WEST_ORACLE_4
+                                      - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                      - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                  - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                    - WITCH_WEST_ORACLE_5
+                                      - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                      - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                    - WITCH_WEST_ORACLE_6
+                                      - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                      - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                    - WITCH_WEST_ORACLE_7
+                                      - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                      - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                  - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                    - WITCH_WEST_ORACLE_8
+                                      - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                      - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                        - WITCH_WEST_END_SCRAP [ENDING]
+                              - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                - ↩ cycle
+                          - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                          - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
+                            - WITCH_WEST_TORMENT_DETAIL
+                              - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
+                                - WITCH_WEST_ORACLE_ENTRY
+                                  - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                    - WITCH_WEST_ORACLE_DRAW
+                                      - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                        - WITCH_WEST_ORACLE_1
+                                          - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                            - WITCH_WEST_END_FLECHETTE [ENDING]
+                                          - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                      - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                        - WITCH_WEST_ORACLE_2
+                                          - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                          - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                            - ↩ cycle
+                                      - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                        - WITCH_WEST_ORACLE_3
+                                          - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                      - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                        - WITCH_WEST_ORACLE_4
+                                          - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                            - WITCH_WEST_END_FLECHETTE [ENDING]
+                                      - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                        - WITCH_WEST_ORACLE_5
+                                          - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                          - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                      - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                        - WITCH_WEST_ORACLE_6
+                                          - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                      - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                        - WITCH_WEST_ORACLE_7
+                                          - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                      - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                        - WITCH_WEST_ORACLE_8
+                                          - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                          - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                    - ↩ cycle
+                              - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                  - "Walk the perimeter — let the Winkie chant stabilize the ritual chamber." → WITCH_WEST_WINKIE_CORRIDOR
+                    - WITCH_WEST_WINKIE_CORRIDOR
+                      - "Force the Guards to double the tempo. (Add Load / Increase Heat)." → WITCH_WEST_THERMAL_SURGE
+                        - WITCH_WEST_THERMAL_SURGE
+                          - "Peer directly into the white-hot center." → WITCH_WEST_END_SEARING_TRUTH
+                            - WITCH_WEST_END_SEARING_TRUTH [ENDING]
+                          - "Try to vent the heat (Requires Water Protocol)." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                      - "Use the chant to soothe the Lion's tremor (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                        - WITCH_WEST_COMMAND_DECK_V2
+                          - "BIOMETRICS: Access the Lion's Tremor-Log." → WITCH_WEST_LION_AUDIT_HUB
+                            - WITCH_WEST_LION_AUDIT_HUB
+                              - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                - WITCH_WEST_SCRAPE_MANE
+                                  - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                              - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                - WITCH_WEST_LION_AUDIT_HUB
+                                  - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                    - WITCH_WEST_SCRAPE_MANE
+                                      - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                  - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
+                              - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                - WITCH_WEST_LION_AUDIT_HUB
+                                  - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                    - WITCH_WEST_SCRAPE_MANE
+                                      - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                  - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
+                              - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                - ↩ cycle
+                          - "SURVEILLANCE: Deploy \"Eye-on-a-String\" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
+                            - ↩ cycle
+                          - "PHARMACOLOGY: Refine the Poppy Resin in the crucible." → WITCH_WEST_POPPY_BUFFER
+                            - WITCH_WEST_POPPY_BUFFER
+                              - "Wait for them at the tower gate. Receive them at full compliance." → WITCH_WEST_FIELD_CONFRONTATION
+                                - ↩ cycle
+                              - "Send the monkeys to accelerate their arrival." → WITCH_WEST_MONKEY_SWEEP_B
+                                - ↩ cycle
+                          - "ADMINISTRATION: File a \"Pre-emptive Deletion\" warrant." → WITCH_WEST_BUREAU_FILING
+                            - WITCH_WEST_BUREAU_FILING
+                              - "Label it \"Maintenance Disposal\" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                - ↩ cycle
+                              - "Label it \"Judicial Reclamation\" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
+                                - ↩ cycle
+                          - "THE FINAL INCISION: Trigger \"The Melting Point\"." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+              - "Toy with him first. Make him beg for the mercy of the scalpel." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                - WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                  - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
+                    - WITCH_WEST_ORACLE_ENTRY
+                      - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                        - WITCH_WEST_ORACLE_DRAW
+                          - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                            - WITCH_WEST_ORACLE_1
+                              - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                              - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                            - WITCH_WEST_ORACLE_2
+                              - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                - ↩ cycle
+                          - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                            - WITCH_WEST_ORACLE_3
+                              - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                              - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                            - WITCH_WEST_ORACLE_4
+                              - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                          - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                            - WITCH_WEST_ORACLE_5
+                              - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                          - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                            - WITCH_WEST_ORACLE_6
+                              - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                          - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                            - WITCH_WEST_ORACLE_7
+                              - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                            - WITCH_WEST_ORACLE_8
+                              - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                      - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                        - ↩ cycle
+                  - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
+                    - WITCH_WEST_END_MELTING [ENDING]
+                  - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
+                    - WITCH_WEST_TORMENT_DETAIL
+                      - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
+                        - WITCH_WEST_ORACLE_ENTRY
+                          - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                            - WITCH_WEST_ORACLE_DRAW
+                              - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                - WITCH_WEST_ORACLE_1
+                                  - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                  - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                - WITCH_WEST_ORACLE_2
+                                  - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                    - ↩ cycle
+                              - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                - WITCH_WEST_ORACLE_3
+                                  - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                - WITCH_WEST_ORACLE_4
+                                  - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                              - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                - WITCH_WEST_ORACLE_5
+                                  - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                              - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                - WITCH_WEST_ORACLE_6
+                                  - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                              - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                - WITCH_WEST_ORACLE_7
+                                  - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                - WITCH_WEST_ORACLE_8
+                                  - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                          - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                            - ↩ cycle
+                      - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
+                        - WITCH_WEST_END_SCRAP [ENDING]
+              - "The Clerk flags the warrant status — review the audit logs." → WITCH_WEST_BUREAU_LOG_CHECK
+                - WITCH_WEST_BUREAU_LOG_CHECK
+                  - "\"It is a Judicial Necessity.\" (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
+                    - WITCH_WEST_COMMAND_DECK
+                      - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
+                        - WITCH_WEST_MONKEY_MANAGEMENT
+                          - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                            - ↩ cycle
+                          - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                            - ↩ cycle
+                          - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                            - WITCH_WEST_ORACLE_ENTRY
+                              - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                - WITCH_WEST_ORACLE_DRAW
+                                  - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                    - WITCH_WEST_ORACLE_1
+                                      - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                      - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                  - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                    - WITCH_WEST_ORACLE_2
+                                      - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                      - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                        - ↩ cycle
+                                  - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                    - WITCH_WEST_ORACLE_3
+                                      - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                      - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                  - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                    - WITCH_WEST_ORACLE_4
+                                      - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                      - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                  - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                    - WITCH_WEST_ORACLE_5
+                                      - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                      - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                    - WITCH_WEST_ORACLE_6
+                                      - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                      - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                    - WITCH_WEST_ORACLE_7
+                                      - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                      - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                  - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                    - WITCH_WEST_ORACLE_8
+                                      - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                      - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                        - WITCH_WEST_END_SCRAP [ENDING]
+                              - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                - ↩ cycle
+                      - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
+                        - WITCH_WEST_POPPY_CALIBRATION
+                          - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
+                            - ↩ cycle
+                          - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                            - ↩ cycle
+                      - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
+                        - ↩ cycle
+                      - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                        - WITCH_WEST_ORACLE_ENTRY
+                          - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                            - WITCH_WEST_ORACLE_DRAW
+                              - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                - WITCH_WEST_ORACLE_1
+                                  - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                  - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                - WITCH_WEST_ORACLE_2
+                                  - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                    - ↩ cycle
+                              - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                - WITCH_WEST_ORACLE_3
+                                  - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                - WITCH_WEST_ORACLE_4
+                                  - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                              - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                - WITCH_WEST_ORACLE_5
+                                  - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                              - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                - WITCH_WEST_ORACLE_6
+                                  - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                              - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                - WITCH_WEST_ORACLE_7
+                                  - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                - WITCH_WEST_ORACLE_8
+                                  - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                          - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                            - ↩ cycle
+                  - "\"The target is non-compliant.\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                    - WITCH_WEST_COMMAND_DECK
+                      - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
+                        - WITCH_WEST_MONKEY_MANAGEMENT
+                          - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                            - ↩ cycle
+                          - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                            - ↩ cycle
+                          - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                            - WITCH_WEST_ORACLE_ENTRY
+                              - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                - WITCH_WEST_ORACLE_DRAW
+                                  - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                    - WITCH_WEST_ORACLE_1
+                                      - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                      - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                  - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                    - WITCH_WEST_ORACLE_2
+                                      - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                      - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                        - ↩ cycle
+                                  - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                    - WITCH_WEST_ORACLE_3
+                                      - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                      - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                  - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                    - WITCH_WEST_ORACLE_4
+                                      - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                      - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                  - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                    - WITCH_WEST_ORACLE_5
+                                      - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                      - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                    - WITCH_WEST_ORACLE_6
+                                      - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                      - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                    - WITCH_WEST_ORACLE_7
+                                      - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                      - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                  - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                    - WITCH_WEST_ORACLE_8
+                                      - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                      - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                        - WITCH_WEST_END_SCRAP [ENDING]
+                              - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                - ↩ cycle
+                      - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
+                        - WITCH_WEST_POPPY_CALIBRATION
+                          - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
+                            - ↩ cycle
+                          - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                            - ↩ cycle
+                      - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
+                        - ↩ cycle
+                      - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                        - WITCH_WEST_ORACLE_ENTRY
+                          - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                            - WITCH_WEST_ORACLE_DRAW
+                              - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                - WITCH_WEST_ORACLE_1
+                                  - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                  - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                - WITCH_WEST_ORACLE_2
+                                  - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                    - ↩ cycle
+                              - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                - WITCH_WEST_ORACLE_3
+                                  - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                - WITCH_WEST_ORACLE_4
+                                  - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                              - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                - WITCH_WEST_ORACLE_5
+                                  - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                              - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                - WITCH_WEST_ORACLE_6
+                                  - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                              - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                - WITCH_WEST_ORACLE_7
+                                  - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                - WITCH_WEST_ORACLE_8
+                                  - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                          - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                            - ↩ cycle
+          - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
+            - WITCH_WEST_SIGNAL_BLEED
+              - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
+                - WITCH_WEST_COMMAND_DECK_V2
+                  - "BIOMETRICS: Access the Lion's Tremor-Log." → WITCH_WEST_LION_AUDIT_HUB
+                    - WITCH_WEST_LION_AUDIT_HUB
+                      - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                        - WITCH_WEST_SCRAPE_MANE
+                          - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                            - ↩ cycle
+                          - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                            - ↩ cycle
+                      - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                        - WITCH_WEST_LION_AUDIT_HUB
+                          - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                            - WITCH_WEST_SCRAPE_MANE
+                              - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                - ↩ cycle
+                              - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                - ↩ cycle
+                          - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                            - ↩ cycle
+                          - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                            - ↩ cycle
+                          - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                            - ↩ cycle
+                      - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                        - WITCH_WEST_LION_AUDIT_HUB
+                          - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                            - WITCH_WEST_SCRAPE_MANE
+                              - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                - ↩ cycle
+                              - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                - ↩ cycle
+                          - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                            - ↩ cycle
+                          - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                            - ↩ cycle
+                          - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                            - ↩ cycle
+                      - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                        - ↩ cycle
+                  - "SURVEILLANCE: Deploy \"Eye-on-a-String\" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
+                    - ↩ cycle
+                  - "PHARMACOLOGY: Refine the Poppy Resin in the crucible." → WITCH_WEST_POPPY_BUFFER
+                    - WITCH_WEST_POPPY_BUFFER
+                      - "Wait for them at the tower gate. Receive them at full compliance." → WITCH_WEST_FIELD_CONFRONTATION
+                        - WITCH_WEST_FIELD_CONFRONTATION
+                          - "Pick who gets the first incision, then begin the Obsidian Eye ritual." → WITCH_WEST_SELECT_TARGET
+                            - WITCH_WEST_SELECT_TARGET
+                              - "Lion" → WITCH_WEST_ORACLE_ENTRY_LION
+                                - WITCH_WEST_ORACLE_ENTRY_LION
+                                  - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                    - WITCH_WEST_ORACLE_DRAW
+                                      - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                        - WITCH_WEST_ORACLE_1
+                                          - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                            - WITCH_WEST_END_FLECHETTE [ENDING]
+                                          - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                      - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                        - WITCH_WEST_ORACLE_2
+                                          - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                          - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                            - ↩ cycle
+                                      - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                        - WITCH_WEST_ORACLE_3
+                                          - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                      - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                        - WITCH_WEST_ORACLE_4
+                                          - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                            - WITCH_WEST_END_FLECHETTE [ENDING]
+                                      - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                        - WITCH_WEST_ORACLE_5
+                                          - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                          - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                      - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                        - WITCH_WEST_ORACLE_6
+                                          - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                      - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                        - WITCH_WEST_ORACLE_7
+                                          - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                      - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                        - WITCH_WEST_ORACLE_8
+                                          - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                          - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                            - WITCH_WEST_END_SCRAP [ENDING]
+                              - "Dorothy" → WITCH_WEST_ORACLE_ENTRY_DOROTHY
+                                - WITCH_WEST_ORACLE_ENTRY_DOROTHY
+                                  - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                    - WITCH_WEST_ORACLE_DRAW
+                                      - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                        - WITCH_WEST_ORACLE_1
+                                          - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                            - WITCH_WEST_END_FLECHETTE [ENDING]
+                                          - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                      - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                        - WITCH_WEST_ORACLE_2
+                                          - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                          - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                            - ↩ cycle
+                                      - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                        - WITCH_WEST_ORACLE_3
+                                          - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                      - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                        - WITCH_WEST_ORACLE_4
+                                          - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                            - WITCH_WEST_END_FLECHETTE [ENDING]
+                                      - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                        - WITCH_WEST_ORACLE_5
+                                          - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                          - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                      - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                        - WITCH_WEST_ORACLE_6
+                                          - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                      - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                        - WITCH_WEST_ORACLE_7
+                                          - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                      - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                        - WITCH_WEST_ORACLE_8
+                                          - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                          - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                            - WITCH_WEST_END_SCRAP [ENDING]
+                              - "Tin Man" → WITCH_WEST_ORACLE_ENTRY_TINMAN
+                                - WITCH_WEST_ORACLE_ENTRY_TINMAN
+                                  - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                    - WITCH_WEST_ORACLE_DRAW
+                                      - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                        - WITCH_WEST_ORACLE_1
+                                          - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                            - WITCH_WEST_END_FLECHETTE [ENDING]
+                                          - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                      - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                        - WITCH_WEST_ORACLE_2
+                                          - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                          - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                            - ↩ cycle
+                                      - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                        - WITCH_WEST_ORACLE_3
+                                          - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                      - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                        - WITCH_WEST_ORACLE_4
+                                          - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                            - WITCH_WEST_END_FLECHETTE [ENDING]
+                                      - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                        - WITCH_WEST_ORACLE_5
+                                          - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                          - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                      - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                        - WITCH_WEST_ORACLE_6
+                                          - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                      - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                        - WITCH_WEST_ORACLE_7
+                                          - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                      - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                        - WITCH_WEST_ORACLE_8
+                                          - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                          - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                            - WITCH_WEST_END_SCRAP [ENDING]
+                              - "Scarecrow" → WITCH_WEST_ORACLE_ENTRY_SCARECROW
+                                - WITCH_WEST_ORACLE_ENTRY_SCARECROW
+                                  - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                    - WITCH_WEST_ORACLE_DRAW
+                                      - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                        - WITCH_WEST_ORACLE_1
+                                          - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                            - WITCH_WEST_END_FLECHETTE [ENDING]
+                                          - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                      - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                        - WITCH_WEST_ORACLE_2
+                                          - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                          - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                            - ↩ cycle
+                                      - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                        - WITCH_WEST_ORACLE_3
+                                          - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                      - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                        - WITCH_WEST_ORACLE_4
+                                          - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                            - WITCH_WEST_END_FLECHETTE [ENDING]
+                                      - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                        - WITCH_WEST_ORACLE_5
+                                          - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                          - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                      - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                        - WITCH_WEST_ORACLE_6
+                                          - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                      - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                        - WITCH_WEST_ORACLE_7
+                                          - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                      - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                        - WITCH_WEST_ORACLE_8
+                                          - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                          - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                            - WITCH_WEST_END_SCRAP [ENDING]
+                          - "Have the monkeys carry him back to the tower for a proper procedure." → WITCH_WEST_TOWER_PREP
+                            - WITCH_WEST_TOWER_PREP
+                              - "The chamber is prepared. Begin the Obsidian Eye procedure." → WITCH_WEST_ORACLE_ENTRY
+                                - WITCH_WEST_ORACLE_ENTRY
+                                  - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                    - WITCH_WEST_ORACLE_DRAW
+                                      - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                        - WITCH_WEST_ORACLE_1
+                                          - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                            - WITCH_WEST_END_FLECHETTE [ENDING]
+                                          - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                      - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                        - WITCH_WEST_ORACLE_2
+                                          - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                          - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                            - ↩ cycle
+                                      - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                        - WITCH_WEST_ORACLE_3
+                                          - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                      - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                        - WITCH_WEST_ORACLE_4
+                                          - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                            - WITCH_WEST_END_FLECHETTE [ENDING]
+                                      - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                        - WITCH_WEST_ORACLE_5
+                                          - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                          - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                      - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                        - WITCH_WEST_ORACLE_6
+                                          - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                      - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                        - WITCH_WEST_ORACLE_7
+                                          - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                      - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                        - WITCH_WEST_ORACLE_8
+                                          - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                          - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                    - ↩ cycle
+                              - "The Clerk signals a compliance concern — attend to the warning." → WITCH_WEST_CLERK_INTERLUDE
+                                - WITCH_WEST_CLERK_INTERLUDE
+                                  - "Force the verdict now — Summon the Obsidian Matron." → WITCH_WEST_ORACLE_ENTRY
+                                    - WITCH_WEST_ORACLE_ENTRY
+                                      - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                        - WITCH_WEST_ORACLE_DRAW
+                                          - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                            - WITCH_WEST_ORACLE_1
+                                              - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                            - WITCH_WEST_ORACLE_2
+                                              - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                - ↩ cycle
+                                          - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                            - WITCH_WEST_ORACLE_3
+                                              - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                            - WITCH_WEST_ORACLE_4
+                                              - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                                          - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                            - WITCH_WEST_ORACLE_5
+                                              - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                            - WITCH_WEST_ORACLE_6
+                                              - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                            - WITCH_WEST_ORACLE_7
+                                              - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                            - WITCH_WEST_ORACLE_8
+                                              - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                      - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                        - ↩ cycle
+                                  - "Ignore the Clerk. Proceed with psychological pressure." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                                    - WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                                      - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
+                                        - WITCH_WEST_ORACLE_ENTRY
+                                          - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                            - WITCH_WEST_ORACLE_DRAW
+                                              - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                - WITCH_WEST_ORACLE_1
+                                                  - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                - WITCH_WEST_ORACLE_2
+                                                  - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                    - ↩ cycle
+                                              - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                - WITCH_WEST_ORACLE_3
+                                                  - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                - WITCH_WEST_ORACLE_4
+                                                  - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                - WITCH_WEST_ORACLE_5
+                                                  - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                - WITCH_WEST_ORACLE_6
+                                                  - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                - WITCH_WEST_ORACLE_7
+                                                  - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                - WITCH_WEST_ORACLE_8
+                                                  - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                            - ↩ cycle
+                                      - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                      - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
+                                        - WITCH_WEST_TORMENT_DETAIL
+                                          - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
+                                            - WITCH_WEST_ORACLE_ENTRY
+                                              - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                - WITCH_WEST_ORACLE_DRAW
+                                                  - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                    - WITCH_WEST_ORACLE_1
+                                                      - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                      - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                    - WITCH_WEST_ORACLE_2
+                                                      - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                        - ↩ cycle
+                                                  - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                    - WITCH_WEST_ORACLE_3
+                                                      - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                                      - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                    - WITCH_WEST_ORACLE_4
+                                                      - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                    - WITCH_WEST_ORACLE_5
+                                                      - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                    - WITCH_WEST_ORACLE_6
+                                                      - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                    - WITCH_WEST_ORACLE_7
+                                                      - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                    - WITCH_WEST_ORACLE_8
+                                                      - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                                - ↩ cycle
+                                          - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
+                                            - WITCH_WEST_END_SCRAP [ENDING]
+                              - "Walk the perimeter — let the Winkie chant stabilize the ritual chamber." → WITCH_WEST_WINKIE_CORRIDOR
+                                - WITCH_WEST_WINKIE_CORRIDOR
+                                  - "Force the Guards to double the tempo. (Add Load / Increase Heat)." → WITCH_WEST_THERMAL_SURGE
+                                    - WITCH_WEST_THERMAL_SURGE
+                                      - "Peer directly into the white-hot center." → WITCH_WEST_END_SEARING_TRUTH
+                                        - WITCH_WEST_END_SEARING_TRUTH [ENDING]
+                                      - "Try to vent the heat (Requires Water Protocol)." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Use the chant to soothe the Lion's tremor (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
+                          - "Toy with him first. Make him beg for the mercy of the scalpel." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                            - WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                              - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
+                                - WITCH_WEST_ORACLE_ENTRY
+                                  - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                    - WITCH_WEST_ORACLE_DRAW
+                                      - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                        - WITCH_WEST_ORACLE_1
+                                          - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                            - WITCH_WEST_END_FLECHETTE [ENDING]
+                                          - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                      - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                        - WITCH_WEST_ORACLE_2
+                                          - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                          - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                            - ↩ cycle
+                                      - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                        - WITCH_WEST_ORACLE_3
+                                          - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                      - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                        - WITCH_WEST_ORACLE_4
+                                          - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                            - WITCH_WEST_END_FLECHETTE [ENDING]
+                                      - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                        - WITCH_WEST_ORACLE_5
+                                          - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                          - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                      - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                        - WITCH_WEST_ORACLE_6
+                                          - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                      - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                        - WITCH_WEST_ORACLE_7
+                                          - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                      - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                        - WITCH_WEST_ORACLE_8
+                                          - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                          - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                    - ↩ cycle
+                              - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
+                                - WITCH_WEST_TORMENT_DETAIL
+                                  - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
+                                    - WITCH_WEST_ORACLE_ENTRY
+                                      - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                        - WITCH_WEST_ORACLE_DRAW
+                                          - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                            - WITCH_WEST_ORACLE_1
+                                              - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                            - WITCH_WEST_ORACLE_2
+                                              - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                - ↩ cycle
+                                          - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                            - WITCH_WEST_ORACLE_3
+                                              - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                            - WITCH_WEST_ORACLE_4
+                                              - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                                          - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                            - WITCH_WEST_ORACLE_5
+                                              - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                            - WITCH_WEST_ORACLE_6
+                                              - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                            - WITCH_WEST_ORACLE_7
+                                              - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                            - WITCH_WEST_ORACLE_8
+                                              - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                      - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                        - ↩ cycle
+                                  - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                          - "The Clerk flags the warrant status — review the audit logs." → WITCH_WEST_BUREAU_LOG_CHECK
+                            - WITCH_WEST_BUREAU_LOG_CHECK
+                              - "\"It is a Judicial Necessity.\" (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
+                                - WITCH_WEST_COMMAND_DECK
+                                  - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
+                                    - WITCH_WEST_MONKEY_MANAGEMENT
+                                      - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                        - ↩ cycle
+                                      - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                        - ↩ cycle
+                                      - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                        - WITCH_WEST_ORACLE_ENTRY
+                                          - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                            - WITCH_WEST_ORACLE_DRAW
+                                              - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                - WITCH_WEST_ORACLE_1
+                                                  - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                - WITCH_WEST_ORACLE_2
+                                                  - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                    - ↩ cycle
+                                              - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                - WITCH_WEST_ORACLE_3
+                                                  - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                - WITCH_WEST_ORACLE_4
+                                                  - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                - WITCH_WEST_ORACLE_5
+                                                  - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                - WITCH_WEST_ORACLE_6
+                                                  - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                - WITCH_WEST_ORACLE_7
+                                                  - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                - WITCH_WEST_ORACLE_8
+                                                  - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                            - ↩ cycle
+                                  - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
+                                    - WITCH_WEST_POPPY_CALIBRATION
+                                      - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
+                                        - ↩ cycle
+                                      - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                        - ↩ cycle
+                                  - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
+                                    - ↩ cycle
+                                  - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                    - WITCH_WEST_ORACLE_ENTRY
+                                      - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                        - WITCH_WEST_ORACLE_DRAW
+                                          - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                            - WITCH_WEST_ORACLE_1
+                                              - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                            - WITCH_WEST_ORACLE_2
+                                              - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                - ↩ cycle
+                                          - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                            - WITCH_WEST_ORACLE_3
+                                              - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                            - WITCH_WEST_ORACLE_4
+                                              - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                                          - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                            - WITCH_WEST_ORACLE_5
+                                              - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                            - WITCH_WEST_ORACLE_6
+                                              - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                            - WITCH_WEST_ORACLE_7
+                                              - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                            - WITCH_WEST_ORACLE_8
+                                              - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                      - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                        - ↩ cycle
+                              - "\"The target is non-compliant.\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                - WITCH_WEST_COMMAND_DECK
+                                  - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
+                                    - WITCH_WEST_MONKEY_MANAGEMENT
+                                      - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                        - ↩ cycle
+                                      - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                        - ↩ cycle
+                                      - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                        - WITCH_WEST_ORACLE_ENTRY
+                                          - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                            - WITCH_WEST_ORACLE_DRAW
+                                              - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                - WITCH_WEST_ORACLE_1
+                                                  - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                - WITCH_WEST_ORACLE_2
+                                                  - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                    - ↩ cycle
+                                              - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                - WITCH_WEST_ORACLE_3
+                                                  - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                - WITCH_WEST_ORACLE_4
+                                                  - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                - WITCH_WEST_ORACLE_5
+                                                  - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                - WITCH_WEST_ORACLE_6
+                                                  - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                - WITCH_WEST_ORACLE_7
+                                                  - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                - WITCH_WEST_ORACLE_8
+                                                  - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                            - ↩ cycle
+                                  - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
+                                    - WITCH_WEST_POPPY_CALIBRATION
+                                      - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
+                                        - ↩ cycle
+                                      - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                        - ↩ cycle
+                                  - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
+                                    - ↩ cycle
+                                  - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                    - WITCH_WEST_ORACLE_ENTRY
+                                      - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                        - WITCH_WEST_ORACLE_DRAW
+                                          - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                            - WITCH_WEST_ORACLE_1
+                                              - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                            - WITCH_WEST_ORACLE_2
+                                              - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                - ↩ cycle
+                                          - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                            - WITCH_WEST_ORACLE_3
+                                              - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                            - WITCH_WEST_ORACLE_4
+                                              - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                                          - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                            - WITCH_WEST_ORACLE_5
+                                              - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                            - WITCH_WEST_ORACLE_6
+                                              - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                            - WITCH_WEST_ORACLE_7
+                                              - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                            - WITCH_WEST_ORACLE_8
+                                              - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                      - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                        - ↩ cycle
+                      - "Send the monkeys to accelerate their arrival." → WITCH_WEST_MONKEY_SWEEP_B
+                        - ↩ cycle
+                  - "ADMINISTRATION: File a \"Pre-emptive Deletion\" warrant." → WITCH_WEST_BUREAU_FILING
+                    - WITCH_WEST_BUREAU_FILING
+                      - "Label it \"Maintenance Disposal\" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                        - ↩ cycle
+                      - "Label it \"Judicial Reclamation\" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
+                        - ↩ cycle
+                  - "THE FINAL INCISION: Trigger \"The Melting Point\"." → WITCH_WEST_END_MELTING
+                    - WITCH_WEST_END_MELTING [ENDING]
+              - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
+                - WITCH_WEST_END_MELTING [ENDING]
+      - "Descend to the courtyard to greet your new prize personally." → WITCH_WEST_FIELD_CONFRONTATION
+        - WITCH_WEST_FIELD_CONFRONTATION
+          - "Pick who gets the first incision, then begin the Obsidian Eye ritual." → WITCH_WEST_SELECT_TARGET
+            - WITCH_WEST_SELECT_TARGET
+              - "Lion" → WITCH_WEST_ORACLE_ENTRY_LION
+                - WITCH_WEST_ORACLE_ENTRY_LION
+                  - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                    - WITCH_WEST_ORACLE_DRAW
+                      - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                        - WITCH_WEST_ORACLE_1
+                          - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                            - WITCH_WEST_END_FLECHETTE [ENDING]
+                          - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                      - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                        - WITCH_WEST_ORACLE_2
+                          - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                          - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                            - ↩ cycle
+                      - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                        - WITCH_WEST_ORACLE_3
+                          - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                            - WITCH_WEST_END_SCRAP [ENDING]
+                          - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                      - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                        - WITCH_WEST_ORACLE_4
+                          - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                            - WITCH_WEST_END_COMMAND [ENDING]
+                          - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                            - WITCH_WEST_END_FLECHETTE [ENDING]
+                      - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                        - WITCH_WEST_ORACLE_5
+                          - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                          - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                            - WITCH_WEST_END_COMMAND [ENDING]
+                      - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                        - WITCH_WEST_ORACLE_6
+                          - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                            - WITCH_WEST_END_COMMAND [ENDING]
+                          - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                            - WITCH_WEST_END_SCRAP [ENDING]
+                      - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                        - WITCH_WEST_ORACLE_7
+                          - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                            - WITCH_WEST_END_COMMAND [ENDING]
+                          - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                      - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                        - WITCH_WEST_ORACLE_8
+                          - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                          - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                            - WITCH_WEST_END_SCRAP [ENDING]
+              - "Dorothy" → WITCH_WEST_ORACLE_ENTRY_DOROTHY
+                - WITCH_WEST_ORACLE_ENTRY_DOROTHY
+                  - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                    - WITCH_WEST_ORACLE_DRAW
+                      - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                        - WITCH_WEST_ORACLE_1
+                          - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                            - WITCH_WEST_END_FLECHETTE [ENDING]
+                          - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                      - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                        - WITCH_WEST_ORACLE_2
+                          - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                          - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                            - ↩ cycle
+                      - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                        - WITCH_WEST_ORACLE_3
+                          - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                            - WITCH_WEST_END_SCRAP [ENDING]
+                          - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                      - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                        - WITCH_WEST_ORACLE_4
+                          - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                            - WITCH_WEST_END_COMMAND [ENDING]
+                          - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                            - WITCH_WEST_END_FLECHETTE [ENDING]
+                      - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                        - WITCH_WEST_ORACLE_5
+                          - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                          - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                            - WITCH_WEST_END_COMMAND [ENDING]
+                      - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                        - WITCH_WEST_ORACLE_6
+                          - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                            - WITCH_WEST_END_COMMAND [ENDING]
+                          - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                            - WITCH_WEST_END_SCRAP [ENDING]
+                      - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                        - WITCH_WEST_ORACLE_7
+                          - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                            - WITCH_WEST_END_COMMAND [ENDING]
+                          - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                      - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                        - WITCH_WEST_ORACLE_8
+                          - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                          - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                            - WITCH_WEST_END_SCRAP [ENDING]
+              - "Tin Man" → WITCH_WEST_ORACLE_ENTRY_TINMAN
+                - WITCH_WEST_ORACLE_ENTRY_TINMAN
+                  - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                    - WITCH_WEST_ORACLE_DRAW
+                      - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                        - WITCH_WEST_ORACLE_1
+                          - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                            - WITCH_WEST_END_FLECHETTE [ENDING]
+                          - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                      - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                        - WITCH_WEST_ORACLE_2
+                          - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                          - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                            - ↩ cycle
+                      - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                        - WITCH_WEST_ORACLE_3
+                          - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                            - WITCH_WEST_END_SCRAP [ENDING]
+                          - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                      - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                        - WITCH_WEST_ORACLE_4
+                          - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                            - WITCH_WEST_END_COMMAND [ENDING]
+                          - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                            - WITCH_WEST_END_FLECHETTE [ENDING]
+                      - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                        - WITCH_WEST_ORACLE_5
+                          - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                          - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                            - WITCH_WEST_END_COMMAND [ENDING]
+                      - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                        - WITCH_WEST_ORACLE_6
+                          - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                            - WITCH_WEST_END_COMMAND [ENDING]
+                          - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                            - WITCH_WEST_END_SCRAP [ENDING]
+                      - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                        - WITCH_WEST_ORACLE_7
+                          - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                            - WITCH_WEST_END_COMMAND [ENDING]
+                          - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                      - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                        - WITCH_WEST_ORACLE_8
+                          - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                          - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                            - WITCH_WEST_END_SCRAP [ENDING]
+              - "Scarecrow" → WITCH_WEST_ORACLE_ENTRY_SCARECROW
+                - WITCH_WEST_ORACLE_ENTRY_SCARECROW
+                  - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                    - WITCH_WEST_ORACLE_DRAW
+                      - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                        - WITCH_WEST_ORACLE_1
+                          - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                            - WITCH_WEST_END_FLECHETTE [ENDING]
+                          - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                      - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                        - WITCH_WEST_ORACLE_2
+                          - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                          - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                            - ↩ cycle
+                      - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                        - WITCH_WEST_ORACLE_3
+                          - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                            - WITCH_WEST_END_SCRAP [ENDING]
+                          - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                      - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                        - WITCH_WEST_ORACLE_4
+                          - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                            - WITCH_WEST_END_COMMAND [ENDING]
+                          - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                            - WITCH_WEST_END_FLECHETTE [ENDING]
+                      - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                        - WITCH_WEST_ORACLE_5
+                          - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                          - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                            - WITCH_WEST_END_COMMAND [ENDING]
+                      - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                        - WITCH_WEST_ORACLE_6
+                          - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                            - WITCH_WEST_END_COMMAND [ENDING]
+                          - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                            - WITCH_WEST_END_SCRAP [ENDING]
+                      - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                        - WITCH_WEST_ORACLE_7
+                          - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                            - WITCH_WEST_END_COMMAND [ENDING]
+                          - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                      - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                        - WITCH_WEST_ORACLE_8
+                          - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                          - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                            - WITCH_WEST_END_SCRAP [ENDING]
+          - "Have the monkeys carry him back to the tower for a proper procedure." → WITCH_WEST_TOWER_PREP
+            - WITCH_WEST_TOWER_PREP
+              - "The chamber is prepared. Begin the Obsidian Eye procedure." → WITCH_WEST_ORACLE_ENTRY
+                - WITCH_WEST_ORACLE_ENTRY
+                  - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                    - WITCH_WEST_ORACLE_DRAW
+                      - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                        - WITCH_WEST_ORACLE_1
+                          - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                            - WITCH_WEST_END_FLECHETTE [ENDING]
+                          - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                      - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                        - WITCH_WEST_ORACLE_2
+                          - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                          - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                            - ↩ cycle
+                      - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                        - WITCH_WEST_ORACLE_3
+                          - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                            - WITCH_WEST_END_SCRAP [ENDING]
+                          - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                      - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                        - WITCH_WEST_ORACLE_4
+                          - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                            - WITCH_WEST_END_COMMAND [ENDING]
+                          - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                            - WITCH_WEST_END_FLECHETTE [ENDING]
+                      - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                        - WITCH_WEST_ORACLE_5
+                          - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                          - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                            - WITCH_WEST_END_COMMAND [ENDING]
+                      - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                        - WITCH_WEST_ORACLE_6
+                          - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                            - WITCH_WEST_END_COMMAND [ENDING]
+                          - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                            - WITCH_WEST_END_SCRAP [ENDING]
+                      - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                        - WITCH_WEST_ORACLE_7
+                          - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                            - WITCH_WEST_END_COMMAND [ENDING]
+                          - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                      - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                        - WITCH_WEST_ORACLE_8
+                          - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                          - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                            - WITCH_WEST_END_SCRAP [ENDING]
+                  - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                    - ↩ cycle
+              - "The Clerk signals a compliance concern — attend to the warning." → WITCH_WEST_CLERK_INTERLUDE
+                - WITCH_WEST_CLERK_INTERLUDE
+                  - "Force the verdict now — Summon the Obsidian Matron." → WITCH_WEST_ORACLE_ENTRY
+                    - WITCH_WEST_ORACLE_ENTRY
+                      - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                        - WITCH_WEST_ORACLE_DRAW
+                          - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                            - WITCH_WEST_ORACLE_1
+                              - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                              - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                            - WITCH_WEST_ORACLE_2
+                              - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                - ↩ cycle
+                          - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                            - WITCH_WEST_ORACLE_3
+                              - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                              - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                            - WITCH_WEST_ORACLE_4
+                              - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                          - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                            - WITCH_WEST_ORACLE_5
+                              - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                          - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                            - WITCH_WEST_ORACLE_6
+                              - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                          - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                            - WITCH_WEST_ORACLE_7
+                              - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                            - WITCH_WEST_ORACLE_8
+                              - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                      - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                        - ↩ cycle
+                  - "Ignore the Clerk. Proceed with psychological pressure." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                    - WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                      - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
+                        - WITCH_WEST_ORACLE_ENTRY
+                          - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                            - WITCH_WEST_ORACLE_DRAW
+                              - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                - WITCH_WEST_ORACLE_1
+                                  - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                  - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                - WITCH_WEST_ORACLE_2
+                                  - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                    - ↩ cycle
+                              - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                - WITCH_WEST_ORACLE_3
+                                  - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                - WITCH_WEST_ORACLE_4
+                                  - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                              - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                - WITCH_WEST_ORACLE_5
+                                  - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                              - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                - WITCH_WEST_ORACLE_6
+                                  - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                              - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                - WITCH_WEST_ORACLE_7
+                                  - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                - WITCH_WEST_ORACLE_8
+                                  - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                          - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                            - ↩ cycle
+                      - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
+                        - WITCH_WEST_END_MELTING [ENDING]
+                      - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
+                        - WITCH_WEST_TORMENT_DETAIL
+                          - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
+                            - WITCH_WEST_ORACLE_ENTRY
+                              - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                - WITCH_WEST_ORACLE_DRAW
+                                  - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                    - WITCH_WEST_ORACLE_1
+                                      - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                      - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                  - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                    - WITCH_WEST_ORACLE_2
+                                      - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                      - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                        - ↩ cycle
+                                  - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                    - WITCH_WEST_ORACLE_3
+                                      - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                      - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                  - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                    - WITCH_WEST_ORACLE_4
+                                      - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                      - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                  - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                    - WITCH_WEST_ORACLE_5
+                                      - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                      - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                    - WITCH_WEST_ORACLE_6
+                                      - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                      - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                    - WITCH_WEST_ORACLE_7
+                                      - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                      - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                  - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                    - WITCH_WEST_ORACLE_8
+                                      - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                      - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                        - WITCH_WEST_END_SCRAP [ENDING]
+                              - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                - ↩ cycle
+                          - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
+                            - WITCH_WEST_END_SCRAP [ENDING]
+              - "Walk the perimeter — let the Winkie chant stabilize the ritual chamber." → WITCH_WEST_WINKIE_CORRIDOR
+                - WITCH_WEST_WINKIE_CORRIDOR
+                  - "Force the Guards to double the tempo. (Add Load / Increase Heat)." → WITCH_WEST_THERMAL_SURGE
+                    - WITCH_WEST_THERMAL_SURGE
+                      - "Peer directly into the white-hot center." → WITCH_WEST_END_SEARING_TRUTH
+                        - WITCH_WEST_END_SEARING_TRUTH [ENDING]
+                      - "Try to vent the heat (Requires Water Protocol)." → WITCH_WEST_END_MELTING
+                        - WITCH_WEST_END_MELTING [ENDING]
+                  - "Use the chant to soothe the Lion's tremor (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                    - WITCH_WEST_COMMAND_DECK_V2
+                      - "BIOMETRICS: Access the Lion's Tremor-Log." → WITCH_WEST_LION_AUDIT_HUB
+                        - WITCH_WEST_LION_AUDIT_HUB
+                          - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                            - WITCH_WEST_SCRAPE_MANE
+                              - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                - ↩ cycle
+                              - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                - ↩ cycle
+                          - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                            - WITCH_WEST_LION_AUDIT_HUB
+                              - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                - WITCH_WEST_SCRAPE_MANE
+                                  - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                              - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                - ↩ cycle
+                              - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                - ↩ cycle
+                              - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                - ↩ cycle
+                          - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                            - WITCH_WEST_LION_AUDIT_HUB
+                              - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                - WITCH_WEST_SCRAPE_MANE
+                                  - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                              - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                - ↩ cycle
+                              - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                - ↩ cycle
+                              - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                - ↩ cycle
+                          - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                            - ↩ cycle
+                      - "SURVEILLANCE: Deploy \"Eye-on-a-String\" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
+                        - WITCH_WEST_OBSIDIAN_VIEW
+                          - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
+                            - WITCH_WEST_ORACLE_ENTRY
+                              - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                - WITCH_WEST_ORACLE_DRAW
+                                  - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                    - WITCH_WEST_ORACLE_1
+                                      - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                      - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                  - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                    - WITCH_WEST_ORACLE_2
+                                      - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                      - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                        - ↩ cycle
+                                  - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                    - WITCH_WEST_ORACLE_3
+                                      - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                      - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                  - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                    - WITCH_WEST_ORACLE_4
+                                      - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                      - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                  - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                    - WITCH_WEST_ORACLE_5
+                                      - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                      - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                    - WITCH_WEST_ORACLE_6
+                                      - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                      - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                    - WITCH_WEST_ORACLE_7
+                                      - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                      - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                  - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                    - WITCH_WEST_ORACLE_8
+                                      - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                      - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                        - WITCH_WEST_END_SCRAP [ENDING]
+                              - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                - ↩ cycle
+                          - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
+                            - ↩ cycle
+                          - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
+                            - WITCH_WEST_SIGNAL_BLEED
+                              - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                - ↩ cycle
+                              - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                      - "PHARMACOLOGY: Refine the Poppy Resin in the crucible." → WITCH_WEST_POPPY_BUFFER
+                        - WITCH_WEST_POPPY_BUFFER
+                          - "Wait for them at the tower gate. Receive them at full compliance." → WITCH_WEST_FIELD_CONFRONTATION
+                            - ↩ cycle
+                          - "Send the monkeys to accelerate their arrival." → WITCH_WEST_MONKEY_SWEEP_B
+                            - ↩ cycle
+                      - "ADMINISTRATION: File a \"Pre-emptive Deletion\" warrant." → WITCH_WEST_BUREAU_FILING
+                        - WITCH_WEST_BUREAU_FILING
+                          - "Label it \"Maintenance Disposal\" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                            - ↩ cycle
+                          - "Label it \"Judicial Reclamation\" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
+                            - ↩ cycle
+                      - "THE FINAL INCISION: Trigger \"The Melting Point\"." → WITCH_WEST_END_MELTING
+                        - WITCH_WEST_END_MELTING [ENDING]
+          - "Toy with him first. Make him beg for the mercy of the scalpel." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
+            - WITCH_WEST_PSYCHOLOGICAL_TORMENT
+              - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
+                - WITCH_WEST_ORACLE_ENTRY
+                  - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                    - WITCH_WEST_ORACLE_DRAW
+                      - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                        - WITCH_WEST_ORACLE_1
+                          - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                            - WITCH_WEST_END_FLECHETTE [ENDING]
+                          - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                      - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                        - WITCH_WEST_ORACLE_2
+                          - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                          - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                            - ↩ cycle
+                      - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                        - WITCH_WEST_ORACLE_3
+                          - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                            - WITCH_WEST_END_SCRAP [ENDING]
+                          - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                      - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                        - WITCH_WEST_ORACLE_4
+                          - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                            - WITCH_WEST_END_COMMAND [ENDING]
+                          - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                            - WITCH_WEST_END_FLECHETTE [ENDING]
+                      - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                        - WITCH_WEST_ORACLE_5
+                          - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                          - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                            - WITCH_WEST_END_COMMAND [ENDING]
+                      - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                        - WITCH_WEST_ORACLE_6
+                          - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                            - WITCH_WEST_END_COMMAND [ENDING]
+                          - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                            - WITCH_WEST_END_SCRAP [ENDING]
+                      - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                        - WITCH_WEST_ORACLE_7
+                          - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                            - WITCH_WEST_END_COMMAND [ENDING]
+                          - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                      - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                        - WITCH_WEST_ORACLE_8
+                          - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                          - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                            - WITCH_WEST_END_SCRAP [ENDING]
+                  - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                    - ↩ cycle
+              - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
+                - WITCH_WEST_END_MELTING [ENDING]
+              - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
+                - WITCH_WEST_TORMENT_DETAIL
+                  - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
+                    - WITCH_WEST_ORACLE_ENTRY
+                      - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                        - WITCH_WEST_ORACLE_DRAW
+                          - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                            - WITCH_WEST_ORACLE_1
+                              - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                              - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                            - WITCH_WEST_ORACLE_2
+                              - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                - ↩ cycle
+                          - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                            - WITCH_WEST_ORACLE_3
+                              - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                              - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                            - WITCH_WEST_ORACLE_4
+                              - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                          - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                            - WITCH_WEST_ORACLE_5
+                              - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                          - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                            - WITCH_WEST_ORACLE_6
+                              - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                          - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                            - WITCH_WEST_ORACLE_7
+                              - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                            - WITCH_WEST_ORACLE_8
+                              - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                      - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                        - ↩ cycle
+                  - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
+                    - WITCH_WEST_END_SCRAP [ENDING]
+          - "The Clerk flags the warrant status — review the audit logs." → WITCH_WEST_BUREAU_LOG_CHECK
+            - WITCH_WEST_BUREAU_LOG_CHECK
+              - "\"It is a Judicial Necessity.\" (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
+                - WITCH_WEST_COMMAND_DECK
+                  - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
+                    - WITCH_WEST_MONKEY_MANAGEMENT
+                      - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                        - ↩ cycle
+                      - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                        - ↩ cycle
+                      - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                        - WITCH_WEST_ORACLE_ENTRY
+                          - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                            - WITCH_WEST_ORACLE_DRAW
+                              - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                - WITCH_WEST_ORACLE_1
+                                  - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                  - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                - WITCH_WEST_ORACLE_2
+                                  - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                    - ↩ cycle
+                              - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                - WITCH_WEST_ORACLE_3
+                                  - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                - WITCH_WEST_ORACLE_4
+                                  - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                              - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                - WITCH_WEST_ORACLE_5
+                                  - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                              - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                - WITCH_WEST_ORACLE_6
+                                  - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                              - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                - WITCH_WEST_ORACLE_7
+                                  - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                - WITCH_WEST_ORACLE_8
+                                  - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                          - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                            - ↩ cycle
+                  - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
+                    - WITCH_WEST_POPPY_CALIBRATION
+                      - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
+                        - ↩ cycle
+                      - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                        - ↩ cycle
+                  - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
+                    - WITCH_WEST_OBSIDIAN_VIEW
+                      - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
+                        - WITCH_WEST_ORACLE_ENTRY
+                          - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                            - WITCH_WEST_ORACLE_DRAW
+                              - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                - WITCH_WEST_ORACLE_1
+                                  - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                  - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                - WITCH_WEST_ORACLE_2
+                                  - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                    - ↩ cycle
+                              - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                - WITCH_WEST_ORACLE_3
+                                  - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                - WITCH_WEST_ORACLE_4
+                                  - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                              - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                - WITCH_WEST_ORACLE_5
+                                  - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                              - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                - WITCH_WEST_ORACLE_6
+                                  - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                              - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                - WITCH_WEST_ORACLE_7
+                                  - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                - WITCH_WEST_ORACLE_8
+                                  - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                          - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                            - ↩ cycle
+                      - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
+                        - ↩ cycle
+                      - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
+                        - WITCH_WEST_SIGNAL_BLEED
+                          - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
+                            - WITCH_WEST_COMMAND_DECK_V2
+                              - "BIOMETRICS: Access the Lion's Tremor-Log." → WITCH_WEST_LION_AUDIT_HUB
+                                - WITCH_WEST_LION_AUDIT_HUB
+                                  - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                    - WITCH_WEST_SCRAPE_MANE
+                                      - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                  - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                    - WITCH_WEST_LION_AUDIT_HUB
+                                      - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                        - WITCH_WEST_SCRAPE_MANE
+                                          - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                      - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                        - ↩ cycle
+                                  - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                    - WITCH_WEST_LION_AUDIT_HUB
+                                      - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                        - WITCH_WEST_SCRAPE_MANE
+                                          - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                      - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                        - ↩ cycle
+                                  - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
+                              - "SURVEILLANCE: Deploy \"Eye-on-a-String\" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
+                                - ↩ cycle
+                              - "PHARMACOLOGY: Refine the Poppy Resin in the crucible." → WITCH_WEST_POPPY_BUFFER
+                                - WITCH_WEST_POPPY_BUFFER
+                                  - "Wait for them at the tower gate. Receive them at full compliance." → WITCH_WEST_FIELD_CONFRONTATION
+                                    - ↩ cycle
+                                  - "Send the monkeys to accelerate their arrival." → WITCH_WEST_MONKEY_SWEEP_B
+                                    - ↩ cycle
+                              - "ADMINISTRATION: File a \"Pre-emptive Deletion\" warrant." → WITCH_WEST_BUREAU_FILING
+                                - WITCH_WEST_BUREAU_FILING
+                                  - "Label it \"Maintenance Disposal\" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
+                                  - "Label it \"Judicial Reclamation\" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
+                              - "THE FINAL INCISION: Trigger \"The Melting Point\"." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                  - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                    - WITCH_WEST_ORACLE_ENTRY
+                      - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                        - WITCH_WEST_ORACLE_DRAW
+                          - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                            - WITCH_WEST_ORACLE_1
+                              - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                              - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                            - WITCH_WEST_ORACLE_2
+                              - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                - ↩ cycle
+                          - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                            - WITCH_WEST_ORACLE_3
+                              - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                              - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                            - WITCH_WEST_ORACLE_4
+                              - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                          - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                            - WITCH_WEST_ORACLE_5
+                              - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                          - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                            - WITCH_WEST_ORACLE_6
+                              - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                          - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                            - WITCH_WEST_ORACLE_7
+                              - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                            - WITCH_WEST_ORACLE_8
+                              - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                      - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                        - ↩ cycle
+              - "\"The target is non-compliant.\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                - WITCH_WEST_COMMAND_DECK
+                  - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
+                    - WITCH_WEST_MONKEY_MANAGEMENT
+                      - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                        - ↩ cycle
+                      - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                        - ↩ cycle
+                      - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                        - WITCH_WEST_ORACLE_ENTRY
+                          - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                            - WITCH_WEST_ORACLE_DRAW
+                              - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                - WITCH_WEST_ORACLE_1
+                                  - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                  - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                - WITCH_WEST_ORACLE_2
+                                  - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                    - ↩ cycle
+                              - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                - WITCH_WEST_ORACLE_3
+                                  - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                - WITCH_WEST_ORACLE_4
+                                  - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                              - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                - WITCH_WEST_ORACLE_5
+                                  - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                              - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                - WITCH_WEST_ORACLE_6
+                                  - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                              - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                - WITCH_WEST_ORACLE_7
+                                  - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                - WITCH_WEST_ORACLE_8
+                                  - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                          - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                            - ↩ cycle
+                  - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
+                    - WITCH_WEST_POPPY_CALIBRATION
+                      - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
+                        - ↩ cycle
+                      - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                        - ↩ cycle
+                  - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
+                    - WITCH_WEST_OBSIDIAN_VIEW
+                      - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
+                        - WITCH_WEST_ORACLE_ENTRY
+                          - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                            - WITCH_WEST_ORACLE_DRAW
+                              - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                - WITCH_WEST_ORACLE_1
+                                  - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                  - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                - WITCH_WEST_ORACLE_2
+                                  - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                    - ↩ cycle
+                              - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                - WITCH_WEST_ORACLE_3
+                                  - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                - WITCH_WEST_ORACLE_4
+                                  - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                              - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                - WITCH_WEST_ORACLE_5
+                                  - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                              - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                - WITCH_WEST_ORACLE_6
+                                  - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                              - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                - WITCH_WEST_ORACLE_7
+                                  - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                - WITCH_WEST_ORACLE_8
+                                  - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                          - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                            - ↩ cycle
+                      - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
+                        - ↩ cycle
+                      - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
+                        - WITCH_WEST_SIGNAL_BLEED
+                          - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
+                            - WITCH_WEST_COMMAND_DECK_V2
+                              - "BIOMETRICS: Access the Lion's Tremor-Log." → WITCH_WEST_LION_AUDIT_HUB
+                                - WITCH_WEST_LION_AUDIT_HUB
+                                  - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                    - WITCH_WEST_SCRAPE_MANE
+                                      - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                  - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                    - WITCH_WEST_LION_AUDIT_HUB
+                                      - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                        - WITCH_WEST_SCRAPE_MANE
+                                          - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                      - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                        - ↩ cycle
+                                  - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                    - WITCH_WEST_LION_AUDIT_HUB
+                                      - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                        - WITCH_WEST_SCRAPE_MANE
+                                          - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                      - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                        - ↩ cycle
+                                  - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
+                              - "SURVEILLANCE: Deploy \"Eye-on-a-String\" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
+                                - ↩ cycle
+                              - "PHARMACOLOGY: Refine the Poppy Resin in the crucible." → WITCH_WEST_POPPY_BUFFER
+                                - WITCH_WEST_POPPY_BUFFER
+                                  - "Wait for them at the tower gate. Receive them at full compliance." → WITCH_WEST_FIELD_CONFRONTATION
+                                    - ↩ cycle
+                                  - "Send the monkeys to accelerate their arrival." → WITCH_WEST_MONKEY_SWEEP_B
+                                    - ↩ cycle
+                              - "ADMINISTRATION: File a \"Pre-emptive Deletion\" warrant." → WITCH_WEST_BUREAU_FILING
+                                - WITCH_WEST_BUREAU_FILING
+                                  - "Label it \"Maintenance Disposal\" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
+                                  - "Label it \"Judicial Reclamation\" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
+                              - "THE FINAL INCISION: Trigger \"The Melting Point\"." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                  - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                    - WITCH_WEST_ORACLE_ENTRY
+                      - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                        - WITCH_WEST_ORACLE_DRAW
+                          - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                            - WITCH_WEST_ORACLE_1
+                              - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                              - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                            - WITCH_WEST_ORACLE_2
+                              - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                - ↩ cycle
+                          - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                            - WITCH_WEST_ORACLE_3
+                              - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                              - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                            - WITCH_WEST_ORACLE_4
+                              - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                          - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                            - WITCH_WEST_ORACLE_5
+                              - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                          - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                            - WITCH_WEST_ORACLE_6
+                              - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                          - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                            - WITCH_WEST_ORACLE_7
+                              - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                            - WITCH_WEST_ORACLE_8
+                              - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                      - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                        - ↩ cycle
+      - "Order the monkeys to begin preliminary harvesting en route." → WITCH_WEST_MID_AIR_HARVEST
+        - WITCH_WEST_MID_AIR_HARVEST
+          - "Complete the harvest — proceed to the full Obsidian Eye ritual." → WITCH_WEST_ORACLE_ENTRY
+            - WITCH_WEST_ORACLE_ENTRY
+              - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                - WITCH_WEST_ORACLE_DRAW
+                  - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                    - WITCH_WEST_ORACLE_1
+                      - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                      - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                        - WITCH_WEST_END_MELTING [ENDING]
+                  - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                    - WITCH_WEST_ORACLE_2
+                      - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                        - WITCH_WEST_END_MELTING [ENDING]
+                      - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                        - ↩ cycle
+                  - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                    - WITCH_WEST_ORACLE_3
+                      - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                        - WITCH_WEST_END_SCRAP [ENDING]
+                      - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                        - WITCH_WEST_END_MELTING [ENDING]
+                  - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                    - WITCH_WEST_ORACLE_4
+                      - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                        - WITCH_WEST_END_COMMAND [ENDING]
+                      - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                  - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                    - WITCH_WEST_ORACLE_5
+                      - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                        - WITCH_WEST_END_MELTING [ENDING]
+                      - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                        - WITCH_WEST_END_COMMAND [ENDING]
+                  - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                    - WITCH_WEST_ORACLE_6
+                      - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                        - WITCH_WEST_END_COMMAND [ENDING]
+                      - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                        - WITCH_WEST_END_SCRAP [ENDING]
+                  - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                    - WITCH_WEST_ORACLE_7
+                      - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                        - WITCH_WEST_END_COMMAND [ENDING]
+                      - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                        - WITCH_WEST_END_MELTING [ENDING]
+                  - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                    - WITCH_WEST_ORACLE_8
+                      - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                        - WITCH_WEST_END_MELTING [ENDING]
+                      - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                        - WITCH_WEST_END_SCRAP [ENDING]
+              - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                - ↩ cycle
+          - "Carry what remains to the tower for proper documentation." → WITCH_WEST_TOWER_PREP
+            - WITCH_WEST_TOWER_PREP
+              - "The chamber is prepared. Begin the Obsidian Eye procedure." → WITCH_WEST_ORACLE_ENTRY
+                - WITCH_WEST_ORACLE_ENTRY
+                  - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                    - WITCH_WEST_ORACLE_DRAW
+                      - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                        - WITCH_WEST_ORACLE_1
+                          - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                            - WITCH_WEST_END_FLECHETTE [ENDING]
+                          - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                      - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                        - WITCH_WEST_ORACLE_2
+                          - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                          - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                            - ↩ cycle
+                      - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                        - WITCH_WEST_ORACLE_3
+                          - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                            - WITCH_WEST_END_SCRAP [ENDING]
+                          - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                      - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                        - WITCH_WEST_ORACLE_4
+                          - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                            - WITCH_WEST_END_COMMAND [ENDING]
+                          - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                            - WITCH_WEST_END_FLECHETTE [ENDING]
+                      - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                        - WITCH_WEST_ORACLE_5
+                          - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                          - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                            - WITCH_WEST_END_COMMAND [ENDING]
+                      - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                        - WITCH_WEST_ORACLE_6
+                          - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                            - WITCH_WEST_END_COMMAND [ENDING]
+                          - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                            - WITCH_WEST_END_SCRAP [ENDING]
+                      - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                        - WITCH_WEST_ORACLE_7
+                          - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                            - WITCH_WEST_END_COMMAND [ENDING]
+                          - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                      - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                        - WITCH_WEST_ORACLE_8
+                          - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                          - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                            - WITCH_WEST_END_SCRAP [ENDING]
+                  - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                    - ↩ cycle
+              - "The Clerk signals a compliance concern — attend to the warning." → WITCH_WEST_CLERK_INTERLUDE
+                - WITCH_WEST_CLERK_INTERLUDE
+                  - "Force the verdict now — Summon the Obsidian Matron." → WITCH_WEST_ORACLE_ENTRY
+                    - WITCH_WEST_ORACLE_ENTRY
+                      - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                        - WITCH_WEST_ORACLE_DRAW
+                          - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                            - WITCH_WEST_ORACLE_1
+                              - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                              - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                            - WITCH_WEST_ORACLE_2
+                              - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                - ↩ cycle
+                          - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                            - WITCH_WEST_ORACLE_3
+                              - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                              - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                            - WITCH_WEST_ORACLE_4
+                              - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                          - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                            - WITCH_WEST_ORACLE_5
+                              - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                          - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                            - WITCH_WEST_ORACLE_6
+                              - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                          - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                            - WITCH_WEST_ORACLE_7
+                              - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                            - WITCH_WEST_ORACLE_8
+                              - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                      - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                        - ↩ cycle
+                  - "Ignore the Clerk. Proceed with psychological pressure." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                    - WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                      - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
+                        - WITCH_WEST_ORACLE_ENTRY
+                          - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                            - WITCH_WEST_ORACLE_DRAW
+                              - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                - WITCH_WEST_ORACLE_1
+                                  - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                  - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                - WITCH_WEST_ORACLE_2
+                                  - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                    - ↩ cycle
+                              - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                - WITCH_WEST_ORACLE_3
+                                  - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                - WITCH_WEST_ORACLE_4
+                                  - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                              - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                - WITCH_WEST_ORACLE_5
+                                  - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                              - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                - WITCH_WEST_ORACLE_6
+                                  - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                              - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                - WITCH_WEST_ORACLE_7
+                                  - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                - WITCH_WEST_ORACLE_8
+                                  - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                          - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                            - ↩ cycle
+                      - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
+                        - WITCH_WEST_END_MELTING [ENDING]
+                      - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
+                        - WITCH_WEST_TORMENT_DETAIL
+                          - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
+                            - WITCH_WEST_ORACLE_ENTRY
+                              - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                - WITCH_WEST_ORACLE_DRAW
+                                  - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                    - WITCH_WEST_ORACLE_1
+                                      - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                      - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                  - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                    - WITCH_WEST_ORACLE_2
+                                      - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                      - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                        - ↩ cycle
+                                  - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                    - WITCH_WEST_ORACLE_3
+                                      - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                      - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                  - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                    - WITCH_WEST_ORACLE_4
+                                      - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                      - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                  - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                    - WITCH_WEST_ORACLE_5
+                                      - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                      - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                    - WITCH_WEST_ORACLE_6
+                                      - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                      - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                    - WITCH_WEST_ORACLE_7
+                                      - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                      - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                  - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                    - WITCH_WEST_ORACLE_8
+                                      - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                      - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                        - WITCH_WEST_END_SCRAP [ENDING]
+                              - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                - ↩ cycle
+                          - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
+                            - WITCH_WEST_END_SCRAP [ENDING]
+              - "Walk the perimeter — let the Winkie chant stabilize the ritual chamber." → WITCH_WEST_WINKIE_CORRIDOR
+                - WITCH_WEST_WINKIE_CORRIDOR
+                  - "Force the Guards to double the tempo. (Add Load / Increase Heat)." → WITCH_WEST_THERMAL_SURGE
+                    - WITCH_WEST_THERMAL_SURGE
+                      - "Peer directly into the white-hot center." → WITCH_WEST_END_SEARING_TRUTH
+                        - WITCH_WEST_END_SEARING_TRUTH [ENDING]
+                      - "Try to vent the heat (Requires Water Protocol)." → WITCH_WEST_END_MELTING
+                        - WITCH_WEST_END_MELTING [ENDING]
+                  - "Use the chant to soothe the Lion's tremor (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                    - WITCH_WEST_COMMAND_DECK_V2
+                      - "BIOMETRICS: Access the Lion's Tremor-Log." → WITCH_WEST_LION_AUDIT_HUB
+                        - WITCH_WEST_LION_AUDIT_HUB
+                          - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                            - WITCH_WEST_SCRAPE_MANE
+                              - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                - ↩ cycle
+                              - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                - ↩ cycle
+                          - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                            - WITCH_WEST_LION_AUDIT_HUB
+                              - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                - WITCH_WEST_SCRAPE_MANE
+                                  - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                              - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                - ↩ cycle
+                              - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                - ↩ cycle
+                              - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                - ↩ cycle
+                          - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                            - WITCH_WEST_LION_AUDIT_HUB
+                              - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                - WITCH_WEST_SCRAPE_MANE
+                                  - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                              - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                - ↩ cycle
+                              - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                - ↩ cycle
+                              - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                - ↩ cycle
+                          - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                            - ↩ cycle
+                      - "SURVEILLANCE: Deploy \"Eye-on-a-String\" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
+                        - WITCH_WEST_OBSIDIAN_VIEW
+                          - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
+                            - WITCH_WEST_ORACLE_ENTRY
+                              - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                - WITCH_WEST_ORACLE_DRAW
+                                  - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                    - WITCH_WEST_ORACLE_1
+                                      - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                      - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                  - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                    - WITCH_WEST_ORACLE_2
+                                      - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                      - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                        - ↩ cycle
+                                  - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                    - WITCH_WEST_ORACLE_3
+                                      - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                      - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                  - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                    - WITCH_WEST_ORACLE_4
+                                      - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                      - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                  - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                    - WITCH_WEST_ORACLE_5
+                                      - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                      - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                    - WITCH_WEST_ORACLE_6
+                                      - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                      - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                    - WITCH_WEST_ORACLE_7
+                                      - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                      - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                  - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                    - WITCH_WEST_ORACLE_8
+                                      - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                      - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                        - WITCH_WEST_END_SCRAP [ENDING]
+                              - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                - ↩ cycle
+                          - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
+                            - WITCH_WEST_FIELD_CONFRONTATION
+                              - "Pick who gets the first incision, then begin the Obsidian Eye ritual." → WITCH_WEST_SELECT_TARGET
+                                - WITCH_WEST_SELECT_TARGET
+                                  - "Lion" → WITCH_WEST_ORACLE_ENTRY_LION
+                                    - WITCH_WEST_ORACLE_ENTRY_LION
+                                      - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                        - WITCH_WEST_ORACLE_DRAW
+                                          - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                            - WITCH_WEST_ORACLE_1
+                                              - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                            - WITCH_WEST_ORACLE_2
+                                              - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                - ↩ cycle
+                                          - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                            - WITCH_WEST_ORACLE_3
+                                              - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                            - WITCH_WEST_ORACLE_4
+                                              - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                                          - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                            - WITCH_WEST_ORACLE_5
+                                              - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                            - WITCH_WEST_ORACLE_6
+                                              - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                            - WITCH_WEST_ORACLE_7
+                                              - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                            - WITCH_WEST_ORACLE_8
+                                              - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "Dorothy" → WITCH_WEST_ORACLE_ENTRY_DOROTHY
+                                    - WITCH_WEST_ORACLE_ENTRY_DOROTHY
+                                      - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                        - WITCH_WEST_ORACLE_DRAW
+                                          - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                            - WITCH_WEST_ORACLE_1
+                                              - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                            - WITCH_WEST_ORACLE_2
+                                              - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                - ↩ cycle
+                                          - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                            - WITCH_WEST_ORACLE_3
+                                              - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                            - WITCH_WEST_ORACLE_4
+                                              - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                                          - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                            - WITCH_WEST_ORACLE_5
+                                              - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                            - WITCH_WEST_ORACLE_6
+                                              - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                            - WITCH_WEST_ORACLE_7
+                                              - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                            - WITCH_WEST_ORACLE_8
+                                              - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "Tin Man" → WITCH_WEST_ORACLE_ENTRY_TINMAN
+                                    - WITCH_WEST_ORACLE_ENTRY_TINMAN
+                                      - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                        - WITCH_WEST_ORACLE_DRAW
+                                          - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                            - WITCH_WEST_ORACLE_1
+                                              - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                            - WITCH_WEST_ORACLE_2
+                                              - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                - ↩ cycle
+                                          - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                            - WITCH_WEST_ORACLE_3
+                                              - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                            - WITCH_WEST_ORACLE_4
+                                              - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                                          - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                            - WITCH_WEST_ORACLE_5
+                                              - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                            - WITCH_WEST_ORACLE_6
+                                              - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                            - WITCH_WEST_ORACLE_7
+                                              - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                            - WITCH_WEST_ORACLE_8
+                                              - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "Scarecrow" → WITCH_WEST_ORACLE_ENTRY_SCARECROW
+                                    - WITCH_WEST_ORACLE_ENTRY_SCARECROW
+                                      - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                        - WITCH_WEST_ORACLE_DRAW
+                                          - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                            - WITCH_WEST_ORACLE_1
+                                              - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                            - WITCH_WEST_ORACLE_2
+                                              - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                - ↩ cycle
+                                          - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                            - WITCH_WEST_ORACLE_3
+                                              - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                            - WITCH_WEST_ORACLE_4
+                                              - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                                          - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                            - WITCH_WEST_ORACLE_5
+                                              - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                            - WITCH_WEST_ORACLE_6
+                                              - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                            - WITCH_WEST_ORACLE_7
+                                              - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                            - WITCH_WEST_ORACLE_8
+                                              - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                              - "Have the monkeys carry him back to the tower for a proper procedure." → WITCH_WEST_TOWER_PREP
+                                - ↩ cycle
+                              - "Toy with him first. Make him beg for the mercy of the scalpel." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                                - WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                                  - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
+                                    - WITCH_WEST_ORACLE_ENTRY
+                                      - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                        - WITCH_WEST_ORACLE_DRAW
+                                          - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                            - WITCH_WEST_ORACLE_1
+                                              - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                            - WITCH_WEST_ORACLE_2
+                                              - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                - ↩ cycle
+                                          - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                            - WITCH_WEST_ORACLE_3
+                                              - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                            - WITCH_WEST_ORACLE_4
+                                              - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                                          - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                            - WITCH_WEST_ORACLE_5
+                                              - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                            - WITCH_WEST_ORACLE_6
+                                              - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                            - WITCH_WEST_ORACLE_7
+                                              - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                            - WITCH_WEST_ORACLE_8
+                                              - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                      - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                        - ↩ cycle
+                                  - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
+                                    - WITCH_WEST_TORMENT_DETAIL
+                                      - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
+                                        - WITCH_WEST_ORACLE_ENTRY
+                                          - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                            - WITCH_WEST_ORACLE_DRAW
+                                              - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                - WITCH_WEST_ORACLE_1
+                                                  - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                - WITCH_WEST_ORACLE_2
+                                                  - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                    - ↩ cycle
+                                              - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                - WITCH_WEST_ORACLE_3
+                                                  - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                - WITCH_WEST_ORACLE_4
+                                                  - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                - WITCH_WEST_ORACLE_5
+                                                  - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                - WITCH_WEST_ORACLE_6
+                                                  - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                - WITCH_WEST_ORACLE_7
+                                                  - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                - WITCH_WEST_ORACLE_8
+                                                  - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                            - ↩ cycle
+                                      - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
+                                        - WITCH_WEST_END_SCRAP [ENDING]
+                              - "The Clerk flags the warrant status — review the audit logs." → WITCH_WEST_BUREAU_LOG_CHECK
+                                - WITCH_WEST_BUREAU_LOG_CHECK
+                                  - "\"It is a Judicial Necessity.\" (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
+                                    - WITCH_WEST_COMMAND_DECK
+                                      - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
+                                        - WITCH_WEST_MONKEY_MANAGEMENT
+                                          - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
+                                          - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
+                                          - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                            - WITCH_WEST_ORACLE_ENTRY
+                                              - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                - WITCH_WEST_ORACLE_DRAW
+                                                  - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                    - WITCH_WEST_ORACLE_1
+                                                      - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                      - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                    - WITCH_WEST_ORACLE_2
+                                                      - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                        - ↩ cycle
+                                                  - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                    - WITCH_WEST_ORACLE_3
+                                                      - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                                      - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                    - WITCH_WEST_ORACLE_4
+                                                      - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                    - WITCH_WEST_ORACLE_5
+                                                      - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                    - WITCH_WEST_ORACLE_6
+                                                      - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                    - WITCH_WEST_ORACLE_7
+                                                      - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                    - WITCH_WEST_ORACLE_8
+                                                      - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                                - ↩ cycle
+                                      - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
+                                        - WITCH_WEST_POPPY_CALIBRATION
+                                          - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
+                                          - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
+                                      - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
+                                        - ↩ cycle
+                                      - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                        - WITCH_WEST_ORACLE_ENTRY
+                                          - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                            - WITCH_WEST_ORACLE_DRAW
+                                              - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                - WITCH_WEST_ORACLE_1
+                                                  - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                - WITCH_WEST_ORACLE_2
+                                                  - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                    - ↩ cycle
+                                              - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                - WITCH_WEST_ORACLE_3
+                                                  - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                - WITCH_WEST_ORACLE_4
+                                                  - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                - WITCH_WEST_ORACLE_5
+                                                  - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                - WITCH_WEST_ORACLE_6
+                                                  - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                - WITCH_WEST_ORACLE_7
+                                                  - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                - WITCH_WEST_ORACLE_8
+                                                  - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                            - ↩ cycle
+                                  - "\"The target is non-compliant.\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                    - WITCH_WEST_COMMAND_DECK
+                                      - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
+                                        - WITCH_WEST_MONKEY_MANAGEMENT
+                                          - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
+                                          - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
+                                          - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                            - WITCH_WEST_ORACLE_ENTRY
+                                              - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                - WITCH_WEST_ORACLE_DRAW
+                                                  - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                    - WITCH_WEST_ORACLE_1
+                                                      - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                      - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                    - WITCH_WEST_ORACLE_2
+                                                      - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                        - ↩ cycle
+                                                  - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                    - WITCH_WEST_ORACLE_3
+                                                      - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                                      - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                    - WITCH_WEST_ORACLE_4
+                                                      - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                    - WITCH_WEST_ORACLE_5
+                                                      - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                    - WITCH_WEST_ORACLE_6
+                                                      - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                    - WITCH_WEST_ORACLE_7
+                                                      - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                    - WITCH_WEST_ORACLE_8
+                                                      - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                                - ↩ cycle
+                                      - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
+                                        - WITCH_WEST_POPPY_CALIBRATION
+                                          - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
+                                          - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
+                                      - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
+                                        - ↩ cycle
+                                      - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                        - WITCH_WEST_ORACLE_ENTRY
+                                          - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                            - WITCH_WEST_ORACLE_DRAW
+                                              - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                - WITCH_WEST_ORACLE_1
+                                                  - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                - WITCH_WEST_ORACLE_2
+                                                  - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                    - ↩ cycle
+                                              - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                - WITCH_WEST_ORACLE_3
+                                                  - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                - WITCH_WEST_ORACLE_4
+                                                  - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                - WITCH_WEST_ORACLE_5
+                                                  - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                - WITCH_WEST_ORACLE_6
+                                                  - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                - WITCH_WEST_ORACLE_7
+                                                  - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                - WITCH_WEST_ORACLE_8
+                                                  - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                            - ↩ cycle
+                          - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
+                            - WITCH_WEST_SIGNAL_BLEED
+                              - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                - ↩ cycle
+                              - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                      - "PHARMACOLOGY: Refine the Poppy Resin in the crucible." → WITCH_WEST_POPPY_BUFFER
+                        - WITCH_WEST_POPPY_BUFFER
+                          - "Wait for them at the tower gate. Receive them at full compliance." → WITCH_WEST_FIELD_CONFRONTATION
+                            - WITCH_WEST_FIELD_CONFRONTATION
+                              - "Pick who gets the first incision, then begin the Obsidian Eye ritual." → WITCH_WEST_SELECT_TARGET
+                                - WITCH_WEST_SELECT_TARGET
+                                  - "Lion" → WITCH_WEST_ORACLE_ENTRY_LION
+                                    - WITCH_WEST_ORACLE_ENTRY_LION
+                                      - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                        - WITCH_WEST_ORACLE_DRAW
+                                          - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                            - WITCH_WEST_ORACLE_1
+                                              - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                            - WITCH_WEST_ORACLE_2
+                                              - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                - ↩ cycle
+                                          - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                            - WITCH_WEST_ORACLE_3
+                                              - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                            - WITCH_WEST_ORACLE_4
+                                              - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                                          - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                            - WITCH_WEST_ORACLE_5
+                                              - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                            - WITCH_WEST_ORACLE_6
+                                              - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                            - WITCH_WEST_ORACLE_7
+                                              - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                            - WITCH_WEST_ORACLE_8
+                                              - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "Dorothy" → WITCH_WEST_ORACLE_ENTRY_DOROTHY
+                                    - WITCH_WEST_ORACLE_ENTRY_DOROTHY
+                                      - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                        - WITCH_WEST_ORACLE_DRAW
+                                          - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                            - WITCH_WEST_ORACLE_1
+                                              - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                            - WITCH_WEST_ORACLE_2
+                                              - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                - ↩ cycle
+                                          - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                            - WITCH_WEST_ORACLE_3
+                                              - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                            - WITCH_WEST_ORACLE_4
+                                              - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                                          - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                            - WITCH_WEST_ORACLE_5
+                                              - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                            - WITCH_WEST_ORACLE_6
+                                              - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                            - WITCH_WEST_ORACLE_7
+                                              - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                            - WITCH_WEST_ORACLE_8
+                                              - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "Tin Man" → WITCH_WEST_ORACLE_ENTRY_TINMAN
+                                    - WITCH_WEST_ORACLE_ENTRY_TINMAN
+                                      - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                        - WITCH_WEST_ORACLE_DRAW
+                                          - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                            - WITCH_WEST_ORACLE_1
+                                              - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                            - WITCH_WEST_ORACLE_2
+                                              - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                - ↩ cycle
+                                          - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                            - WITCH_WEST_ORACLE_3
+                                              - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                            - WITCH_WEST_ORACLE_4
+                                              - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                                          - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                            - WITCH_WEST_ORACLE_5
+                                              - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                            - WITCH_WEST_ORACLE_6
+                                              - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                            - WITCH_WEST_ORACLE_7
+                                              - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                            - WITCH_WEST_ORACLE_8
+                                              - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "Scarecrow" → WITCH_WEST_ORACLE_ENTRY_SCARECROW
+                                    - WITCH_WEST_ORACLE_ENTRY_SCARECROW
+                                      - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                        - WITCH_WEST_ORACLE_DRAW
+                                          - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                            - WITCH_WEST_ORACLE_1
+                                              - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                            - WITCH_WEST_ORACLE_2
+                                              - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                - ↩ cycle
+                                          - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                            - WITCH_WEST_ORACLE_3
+                                              - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                            - WITCH_WEST_ORACLE_4
+                                              - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                                          - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                            - WITCH_WEST_ORACLE_5
+                                              - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                            - WITCH_WEST_ORACLE_6
+                                              - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                            - WITCH_WEST_ORACLE_7
+                                              - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                            - WITCH_WEST_ORACLE_8
+                                              - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                              - "Have the monkeys carry him back to the tower for a proper procedure." → WITCH_WEST_TOWER_PREP
+                                - ↩ cycle
+                              - "Toy with him first. Make him beg for the mercy of the scalpel." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                                - WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                                  - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
+                                    - WITCH_WEST_ORACLE_ENTRY
+                                      - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                        - WITCH_WEST_ORACLE_DRAW
+                                          - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                            - WITCH_WEST_ORACLE_1
+                                              - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                            - WITCH_WEST_ORACLE_2
+                                              - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                - ↩ cycle
+                                          - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                            - WITCH_WEST_ORACLE_3
+                                              - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                            - WITCH_WEST_ORACLE_4
+                                              - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                                          - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                            - WITCH_WEST_ORACLE_5
+                                              - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                            - WITCH_WEST_ORACLE_6
+                                              - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                            - WITCH_WEST_ORACLE_7
+                                              - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                            - WITCH_WEST_ORACLE_8
+                                              - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                      - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                        - ↩ cycle
+                                  - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
+                                    - WITCH_WEST_TORMENT_DETAIL
+                                      - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
+                                        - WITCH_WEST_ORACLE_ENTRY
+                                          - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                            - WITCH_WEST_ORACLE_DRAW
+                                              - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                - WITCH_WEST_ORACLE_1
+                                                  - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                - WITCH_WEST_ORACLE_2
+                                                  - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                    - ↩ cycle
+                                              - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                - WITCH_WEST_ORACLE_3
+                                                  - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                - WITCH_WEST_ORACLE_4
+                                                  - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                - WITCH_WEST_ORACLE_5
+                                                  - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                - WITCH_WEST_ORACLE_6
+                                                  - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                - WITCH_WEST_ORACLE_7
+                                                  - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                - WITCH_WEST_ORACLE_8
+                                                  - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                            - ↩ cycle
+                                      - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
+                                        - WITCH_WEST_END_SCRAP [ENDING]
+                              - "The Clerk flags the warrant status — review the audit logs." → WITCH_WEST_BUREAU_LOG_CHECK
+                                - WITCH_WEST_BUREAU_LOG_CHECK
+                                  - "\"It is a Judicial Necessity.\" (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
+                                    - WITCH_WEST_COMMAND_DECK
+                                      - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
+                                        - WITCH_WEST_MONKEY_MANAGEMENT
+                                          - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
+                                          - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
+                                          - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                            - WITCH_WEST_ORACLE_ENTRY
+                                              - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                - WITCH_WEST_ORACLE_DRAW
+                                                  - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                    - WITCH_WEST_ORACLE_1
+                                                      - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                      - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                    - WITCH_WEST_ORACLE_2
+                                                      - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                        - ↩ cycle
+                                                  - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                    - WITCH_WEST_ORACLE_3
+                                                      - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                                      - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                    - WITCH_WEST_ORACLE_4
+                                                      - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                    - WITCH_WEST_ORACLE_5
+                                                      - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                    - WITCH_WEST_ORACLE_6
+                                                      - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                    - WITCH_WEST_ORACLE_7
+                                                      - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                    - WITCH_WEST_ORACLE_8
+                                                      - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                                - ↩ cycle
+                                      - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
+                                        - WITCH_WEST_POPPY_CALIBRATION
+                                          - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
+                                          - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
+                                      - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
+                                        - WITCH_WEST_OBSIDIAN_VIEW
+                                          - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
+                                            - WITCH_WEST_ORACLE_ENTRY
+                                              - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                - WITCH_WEST_ORACLE_DRAW
+                                                  - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                    - WITCH_WEST_ORACLE_1
+                                                      - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                      - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                    - WITCH_WEST_ORACLE_2
+                                                      - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                        - ↩ cycle
+                                                  - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                    - WITCH_WEST_ORACLE_3
+                                                      - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                                      - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                    - WITCH_WEST_ORACLE_4
+                                                      - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                    - WITCH_WEST_ORACLE_5
+                                                      - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                    - WITCH_WEST_ORACLE_6
+                                                      - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                    - WITCH_WEST_ORACLE_7
+                                                      - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                    - WITCH_WEST_ORACLE_8
+                                                      - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                                - ↩ cycle
+                                          - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
+                                            - ↩ cycle
+                                          - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
+                                            - WITCH_WEST_SIGNAL_BLEED
+                                              - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                                - ↩ cycle
+                                              - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                      - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                        - WITCH_WEST_ORACLE_ENTRY
+                                          - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                            - WITCH_WEST_ORACLE_DRAW
+                                              - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                - WITCH_WEST_ORACLE_1
+                                                  - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                - WITCH_WEST_ORACLE_2
+                                                  - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                    - ↩ cycle
+                                              - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                - WITCH_WEST_ORACLE_3
+                                                  - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                - WITCH_WEST_ORACLE_4
+                                                  - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                - WITCH_WEST_ORACLE_5
+                                                  - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                - WITCH_WEST_ORACLE_6
+                                                  - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                - WITCH_WEST_ORACLE_7
+                                                  - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                - WITCH_WEST_ORACLE_8
+                                                  - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                            - ↩ cycle
+                                  - "\"The target is non-compliant.\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                    - WITCH_WEST_COMMAND_DECK
+                                      - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
+                                        - WITCH_WEST_MONKEY_MANAGEMENT
+                                          - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
+                                          - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
+                                          - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                            - WITCH_WEST_ORACLE_ENTRY
+                                              - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                - WITCH_WEST_ORACLE_DRAW
+                                                  - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                    - WITCH_WEST_ORACLE_1
+                                                      - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                      - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                    - WITCH_WEST_ORACLE_2
+                                                      - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                        - ↩ cycle
+                                                  - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                    - WITCH_WEST_ORACLE_3
+                                                      - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                                      - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                    - WITCH_WEST_ORACLE_4
+                                                      - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                    - WITCH_WEST_ORACLE_5
+                                                      - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                    - WITCH_WEST_ORACLE_6
+                                                      - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                    - WITCH_WEST_ORACLE_7
+                                                      - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                    - WITCH_WEST_ORACLE_8
+                                                      - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                                - ↩ cycle
+                                      - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
+                                        - WITCH_WEST_POPPY_CALIBRATION
+                                          - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
+                                          - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
+                                      - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
+                                        - WITCH_WEST_OBSIDIAN_VIEW
+                                          - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
+                                            - WITCH_WEST_ORACLE_ENTRY
+                                              - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                - WITCH_WEST_ORACLE_DRAW
+                                                  - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                    - WITCH_WEST_ORACLE_1
+                                                      - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                      - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                    - WITCH_WEST_ORACLE_2
+                                                      - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                        - ↩ cycle
+                                                  - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                    - WITCH_WEST_ORACLE_3
+                                                      - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                                      - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                    - WITCH_WEST_ORACLE_4
+                                                      - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                    - WITCH_WEST_ORACLE_5
+                                                      - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                    - WITCH_WEST_ORACLE_6
+                                                      - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                    - WITCH_WEST_ORACLE_7
+                                                      - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                    - WITCH_WEST_ORACLE_8
+                                                      - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                                - ↩ cycle
+                                          - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
+                                            - ↩ cycle
+                                          - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
+                                            - WITCH_WEST_SIGNAL_BLEED
+                                              - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                                - ↩ cycle
+                                              - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                      - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                        - WITCH_WEST_ORACLE_ENTRY
+                                          - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                            - WITCH_WEST_ORACLE_DRAW
+                                              - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                - WITCH_WEST_ORACLE_1
+                                                  - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                - WITCH_WEST_ORACLE_2
+                                                  - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                    - ↩ cycle
+                                              - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                - WITCH_WEST_ORACLE_3
+                                                  - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                - WITCH_WEST_ORACLE_4
+                                                  - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                - WITCH_WEST_ORACLE_5
+                                                  - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                - WITCH_WEST_ORACLE_6
+                                                  - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                - WITCH_WEST_ORACLE_7
+                                                  - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                - WITCH_WEST_ORACLE_8
+                                                  - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                            - ↩ cycle
+                          - "Send the monkeys to accelerate their arrival." → WITCH_WEST_MONKEY_SWEEP_B
+                            - ↩ cycle
+                      - "ADMINISTRATION: File a \"Pre-emptive Deletion\" warrant." → WITCH_WEST_BUREAU_FILING
+                        - WITCH_WEST_BUREAU_FILING
+                          - "Label it \"Maintenance Disposal\" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                            - ↩ cycle
+                          - "Label it \"Judicial Reclamation\" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
+                            - ↩ cycle
+                      - "THE FINAL INCISION: Trigger \"The Melting Point\"." → WITCH_WEST_END_MELTING
+                        - WITCH_WEST_END_MELTING [ENDING]
+          - "Monitor the kinetic audit in granular detail." → WITCH_WEST_MID_AIR_HARVEST_DETAIL
+            - WITCH_WEST_MID_AIR_HARVEST_DETAIL
+              - "Receive the parts in the Ritual Chamber." → WITCH_WEST_TOWER_PREP
+                - WITCH_WEST_TOWER_PREP
+                  - "The chamber is prepared. Begin the Obsidian Eye procedure." → WITCH_WEST_ORACLE_ENTRY
+                    - WITCH_WEST_ORACLE_ENTRY
+                      - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                        - WITCH_WEST_ORACLE_DRAW
+                          - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                            - WITCH_WEST_ORACLE_1
+                              - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                              - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                            - WITCH_WEST_ORACLE_2
+                              - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                - ↩ cycle
+                          - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                            - WITCH_WEST_ORACLE_3
+                              - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                              - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                            - WITCH_WEST_ORACLE_4
+                              - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                          - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                            - WITCH_WEST_ORACLE_5
+                              - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                          - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                            - WITCH_WEST_ORACLE_6
+                              - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                          - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                            - WITCH_WEST_ORACLE_7
+                              - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                            - WITCH_WEST_ORACLE_8
+                              - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                      - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                        - ↩ cycle
+                  - "The Clerk signals a compliance concern — attend to the warning." → WITCH_WEST_CLERK_INTERLUDE
+                    - WITCH_WEST_CLERK_INTERLUDE
+                      - "Force the verdict now — Summon the Obsidian Matron." → WITCH_WEST_ORACLE_ENTRY
+                        - WITCH_WEST_ORACLE_ENTRY
+                          - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                            - WITCH_WEST_ORACLE_DRAW
+                              - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                - WITCH_WEST_ORACLE_1
+                                  - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                  - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                - WITCH_WEST_ORACLE_2
+                                  - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                    - ↩ cycle
+                              - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                - WITCH_WEST_ORACLE_3
+                                  - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                - WITCH_WEST_ORACLE_4
+                                  - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                              - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                - WITCH_WEST_ORACLE_5
+                                  - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                              - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                - WITCH_WEST_ORACLE_6
+                                  - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                              - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                - WITCH_WEST_ORACLE_7
+                                  - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                - WITCH_WEST_ORACLE_8
+                                  - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                          - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                            - ↩ cycle
+                      - "Ignore the Clerk. Proceed with psychological pressure." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                        - WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                          - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
+                            - WITCH_WEST_ORACLE_ENTRY
+                              - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                - WITCH_WEST_ORACLE_DRAW
+                                  - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                    - WITCH_WEST_ORACLE_1
+                                      - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                      - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                  - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                    - WITCH_WEST_ORACLE_2
+                                      - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                      - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                        - ↩ cycle
+                                  - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                    - WITCH_WEST_ORACLE_3
+                                      - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                      - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                  - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                    - WITCH_WEST_ORACLE_4
+                                      - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                      - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                  - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                    - WITCH_WEST_ORACLE_5
+                                      - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                      - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                    - WITCH_WEST_ORACLE_6
+                                      - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                      - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                    - WITCH_WEST_ORACLE_7
+                                      - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                      - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                  - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                    - WITCH_WEST_ORACLE_8
+                                      - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                      - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                        - WITCH_WEST_END_SCRAP [ENDING]
+                              - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                - ↩ cycle
+                          - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                          - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
+                            - WITCH_WEST_TORMENT_DETAIL
+                              - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
+                                - WITCH_WEST_ORACLE_ENTRY
+                                  - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                    - WITCH_WEST_ORACLE_DRAW
+                                      - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                        - WITCH_WEST_ORACLE_1
+                                          - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                            - WITCH_WEST_END_FLECHETTE [ENDING]
+                                          - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                      - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                        - WITCH_WEST_ORACLE_2
+                                          - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                          - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                            - ↩ cycle
+                                      - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                        - WITCH_WEST_ORACLE_3
+                                          - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                      - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                        - WITCH_WEST_ORACLE_4
+                                          - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                            - WITCH_WEST_END_FLECHETTE [ENDING]
+                                      - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                        - WITCH_WEST_ORACLE_5
+                                          - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                          - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                      - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                        - WITCH_WEST_ORACLE_6
+                                          - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                      - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                        - WITCH_WEST_ORACLE_7
+                                          - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                      - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                        - WITCH_WEST_ORACLE_8
+                                          - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                          - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                    - ↩ cycle
+                              - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                  - "Walk the perimeter — let the Winkie chant stabilize the ritual chamber." → WITCH_WEST_WINKIE_CORRIDOR
+                    - WITCH_WEST_WINKIE_CORRIDOR
+                      - "Force the Guards to double the tempo. (Add Load / Increase Heat)." → WITCH_WEST_THERMAL_SURGE
+                        - WITCH_WEST_THERMAL_SURGE
+                          - "Peer directly into the white-hot center." → WITCH_WEST_END_SEARING_TRUTH
+                            - WITCH_WEST_END_SEARING_TRUTH [ENDING]
+                          - "Try to vent the heat (Requires Water Protocol)." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                      - "Use the chant to soothe the Lion's tremor (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                        - WITCH_WEST_COMMAND_DECK_V2
+                          - "BIOMETRICS: Access the Lion's Tremor-Log." → WITCH_WEST_LION_AUDIT_HUB
+                            - WITCH_WEST_LION_AUDIT_HUB
+                              - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                - WITCH_WEST_SCRAPE_MANE
+                                  - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                              - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                - WITCH_WEST_LION_AUDIT_HUB
+                                  - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                    - WITCH_WEST_SCRAPE_MANE
+                                      - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                  - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
+                              - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                - WITCH_WEST_LION_AUDIT_HUB
+                                  - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                    - WITCH_WEST_SCRAPE_MANE
+                                      - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                  - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
+                              - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                - ↩ cycle
+                          - "SURVEILLANCE: Deploy \"Eye-on-a-String\" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
+                            - WITCH_WEST_OBSIDIAN_VIEW
+                              - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
+                                - WITCH_WEST_ORACLE_ENTRY
+                                  - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                    - WITCH_WEST_ORACLE_DRAW
+                                      - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                        - WITCH_WEST_ORACLE_1
+                                          - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                            - WITCH_WEST_END_FLECHETTE [ENDING]
+                                          - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                      - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                        - WITCH_WEST_ORACLE_2
+                                          - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                          - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                            - ↩ cycle
+                                      - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                        - WITCH_WEST_ORACLE_3
+                                          - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                      - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                        - WITCH_WEST_ORACLE_4
+                                          - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                            - WITCH_WEST_END_FLECHETTE [ENDING]
+                                      - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                        - WITCH_WEST_ORACLE_5
+                                          - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                          - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                      - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                        - WITCH_WEST_ORACLE_6
+                                          - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                      - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                        - WITCH_WEST_ORACLE_7
+                                          - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                      - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                        - WITCH_WEST_ORACLE_8
+                                          - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                          - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                    - ↩ cycle
+                              - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
+                                - WITCH_WEST_FIELD_CONFRONTATION
+                                  - "Pick who gets the first incision, then begin the Obsidian Eye ritual." → WITCH_WEST_SELECT_TARGET
+                                    - WITCH_WEST_SELECT_TARGET
+                                      - "Lion" → WITCH_WEST_ORACLE_ENTRY_LION
+                                        - WITCH_WEST_ORACLE_ENTRY_LION
+                                          - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                            - WITCH_WEST_ORACLE_DRAW
+                                              - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                - WITCH_WEST_ORACLE_1
+                                                  - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                - WITCH_WEST_ORACLE_2
+                                                  - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                    - ↩ cycle
+                                              - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                - WITCH_WEST_ORACLE_3
+                                                  - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                - WITCH_WEST_ORACLE_4
+                                                  - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                - WITCH_WEST_ORACLE_5
+                                                  - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                - WITCH_WEST_ORACLE_6
+                                                  - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                - WITCH_WEST_ORACLE_7
+                                                  - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                - WITCH_WEST_ORACLE_8
+                                                  - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                      - "Dorothy" → WITCH_WEST_ORACLE_ENTRY_DOROTHY
+                                        - WITCH_WEST_ORACLE_ENTRY_DOROTHY
+                                          - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                            - WITCH_WEST_ORACLE_DRAW
+                                              - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                - WITCH_WEST_ORACLE_1
+                                                  - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                - WITCH_WEST_ORACLE_2
+                                                  - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                    - ↩ cycle
+                                              - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                - WITCH_WEST_ORACLE_3
+                                                  - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                - WITCH_WEST_ORACLE_4
+                                                  - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                - WITCH_WEST_ORACLE_5
+                                                  - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                - WITCH_WEST_ORACLE_6
+                                                  - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                - WITCH_WEST_ORACLE_7
+                                                  - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                - WITCH_WEST_ORACLE_8
+                                                  - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                      - "Tin Man" → WITCH_WEST_ORACLE_ENTRY_TINMAN
+                                        - WITCH_WEST_ORACLE_ENTRY_TINMAN
+                                          - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                            - WITCH_WEST_ORACLE_DRAW
+                                              - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                - WITCH_WEST_ORACLE_1
+                                                  - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                - WITCH_WEST_ORACLE_2
+                                                  - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                    - ↩ cycle
+                                              - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                - WITCH_WEST_ORACLE_3
+                                                  - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                - WITCH_WEST_ORACLE_4
+                                                  - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                - WITCH_WEST_ORACLE_5
+                                                  - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                - WITCH_WEST_ORACLE_6
+                                                  - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                - WITCH_WEST_ORACLE_7
+                                                  - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                - WITCH_WEST_ORACLE_8
+                                                  - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                      - "Scarecrow" → WITCH_WEST_ORACLE_ENTRY_SCARECROW
+                                        - WITCH_WEST_ORACLE_ENTRY_SCARECROW
+                                          - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                            - WITCH_WEST_ORACLE_DRAW
+                                              - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                - WITCH_WEST_ORACLE_1
+                                                  - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                - WITCH_WEST_ORACLE_2
+                                                  - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                    - ↩ cycle
+                                              - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                - WITCH_WEST_ORACLE_3
+                                                  - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                - WITCH_WEST_ORACLE_4
+                                                  - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                - WITCH_WEST_ORACLE_5
+                                                  - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                - WITCH_WEST_ORACLE_6
+                                                  - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                - WITCH_WEST_ORACLE_7
+                                                  - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                - WITCH_WEST_ORACLE_8
+                                                  - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "Have the monkeys carry him back to the tower for a proper procedure." → WITCH_WEST_TOWER_PREP
+                                    - ↩ cycle
+                                  - "Toy with him first. Make him beg for the mercy of the scalpel." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                                    - WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                                      - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
+                                        - WITCH_WEST_ORACLE_ENTRY
+                                          - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                            - WITCH_WEST_ORACLE_DRAW
+                                              - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                - WITCH_WEST_ORACLE_1
+                                                  - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                - WITCH_WEST_ORACLE_2
+                                                  - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                    - ↩ cycle
+                                              - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                - WITCH_WEST_ORACLE_3
+                                                  - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                - WITCH_WEST_ORACLE_4
+                                                  - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                - WITCH_WEST_ORACLE_5
+                                                  - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                - WITCH_WEST_ORACLE_6
+                                                  - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                - WITCH_WEST_ORACLE_7
+                                                  - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                - WITCH_WEST_ORACLE_8
+                                                  - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                            - ↩ cycle
+                                      - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                      - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
+                                        - WITCH_WEST_TORMENT_DETAIL
+                                          - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
+                                            - WITCH_WEST_ORACLE_ENTRY
+                                              - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                - WITCH_WEST_ORACLE_DRAW
+                                                  - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                    - WITCH_WEST_ORACLE_1
+                                                      - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                      - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                    - WITCH_WEST_ORACLE_2
+                                                      - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                        - ↩ cycle
+                                                  - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                    - WITCH_WEST_ORACLE_3
+                                                      - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                                      - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                    - WITCH_WEST_ORACLE_4
+                                                      - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                    - WITCH_WEST_ORACLE_5
+                                                      - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                    - WITCH_WEST_ORACLE_6
+                                                      - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                    - WITCH_WEST_ORACLE_7
+                                                      - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                    - WITCH_WEST_ORACLE_8
+                                                      - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                                - ↩ cycle
+                                          - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
+                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "The Clerk flags the warrant status — review the audit logs." → WITCH_WEST_BUREAU_LOG_CHECK
+                                    - WITCH_WEST_BUREAU_LOG_CHECK
+                                      - "\"It is a Judicial Necessity.\" (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
+                                        - WITCH_WEST_COMMAND_DECK
+                                          - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
+                                            - WITCH_WEST_MONKEY_MANAGEMENT
+                                              - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                              - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                              - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                                - WITCH_WEST_ORACLE_ENTRY
+                                                  - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                    - WITCH_WEST_ORACLE_DRAW
+                                                      - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                        - WITCH_WEST_ORACLE_1
+                                                          - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                            - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                          - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                            - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                        - WITCH_WEST_ORACLE_2
+                                                          - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                            - WITCH_WEST_END_MELTING [ENDING]
+                                                          - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                            - ↩ cycle
+                                                      - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                        - WITCH_WEST_ORACLE_3
+                                                          - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                                          - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                            - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                        - WITCH_WEST_ORACLE_4
+                                                          - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                                          - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                            - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                      - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                        - WITCH_WEST_ORACLE_5
+                                                          - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                            - WITCH_WEST_END_MELTING [ENDING]
+                                                          - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                        - WITCH_WEST_ORACLE_6
+                                                          - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                                          - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                                      - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                        - WITCH_WEST_ORACLE_7
+                                                          - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                                          - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                            - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                        - WITCH_WEST_ORACLE_8
+                                                          - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                            - WITCH_WEST_END_MELTING [ENDING]
+                                                          - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                                    - ↩ cycle
+                                          - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
+                                            - WITCH_WEST_POPPY_CALIBRATION
+                                              - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                              - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                          - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
+                                            - ↩ cycle
+                                          - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                            - WITCH_WEST_ORACLE_ENTRY
+                                              - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                - WITCH_WEST_ORACLE_DRAW
+                                                  - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                    - WITCH_WEST_ORACLE_1
+                                                      - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                      - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                    - WITCH_WEST_ORACLE_2
+                                                      - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                        - ↩ cycle
+                                                  - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                    - WITCH_WEST_ORACLE_3
+                                                      - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                                      - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                    - WITCH_WEST_ORACLE_4
+                                                      - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                    - WITCH_WEST_ORACLE_5
+                                                      - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                    - WITCH_WEST_ORACLE_6
+                                                      - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                    - WITCH_WEST_ORACLE_7
+                                                      - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                    - WITCH_WEST_ORACLE_8
+                                                      - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                                - ↩ cycle
+                                      - "\"The target is non-compliant.\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                        - WITCH_WEST_COMMAND_DECK
+                                          - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
+                                            - WITCH_WEST_MONKEY_MANAGEMENT
+                                              - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                              - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                              - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                                - WITCH_WEST_ORACLE_ENTRY
+                                                  - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                    - WITCH_WEST_ORACLE_DRAW
+                                                      - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                        - WITCH_WEST_ORACLE_1
+                                                          - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                            - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                          - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                            - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                        - WITCH_WEST_ORACLE_2
+                                                          - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                            - WITCH_WEST_END_MELTING [ENDING]
+                                                          - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                            - ↩ cycle
+                                                      - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                        - WITCH_WEST_ORACLE_3
+                                                          - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                                          - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                            - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                        - WITCH_WEST_ORACLE_4
+                                                          - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                                          - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                            - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                      - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                        - WITCH_WEST_ORACLE_5
+                                                          - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                            - WITCH_WEST_END_MELTING [ENDING]
+                                                          - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                        - WITCH_WEST_ORACLE_6
+                                                          - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                                          - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                                      - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                        - WITCH_WEST_ORACLE_7
+                                                          - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                                          - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                            - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                        - WITCH_WEST_ORACLE_8
+                                                          - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                            - WITCH_WEST_END_MELTING [ENDING]
+                                                          - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                                    - ↩ cycle
+                                          - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
+                                            - WITCH_WEST_POPPY_CALIBRATION
+                                              - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                              - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                          - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
+                                            - ↩ cycle
+                                          - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                            - WITCH_WEST_ORACLE_ENTRY
+                                              - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                - WITCH_WEST_ORACLE_DRAW
+                                                  - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                    - WITCH_WEST_ORACLE_1
+                                                      - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                      - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                    - WITCH_WEST_ORACLE_2
+                                                      - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                        - ↩ cycle
+                                                  - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                    - WITCH_WEST_ORACLE_3
+                                                      - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                                      - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                    - WITCH_WEST_ORACLE_4
+                                                      - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                    - WITCH_WEST_ORACLE_5
+                                                      - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                    - WITCH_WEST_ORACLE_6
+                                                      - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                    - WITCH_WEST_ORACLE_7
+                                                      - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                    - WITCH_WEST_ORACLE_8
+                                                      - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                                - ↩ cycle
+                              - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
+                                - WITCH_WEST_SIGNAL_BLEED
+                                  - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
+                                  - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                          - "PHARMACOLOGY: Refine the Poppy Resin in the crucible." → WITCH_WEST_POPPY_BUFFER
+                            - WITCH_WEST_POPPY_BUFFER
+                              - "Wait for them at the tower gate. Receive them at full compliance." → WITCH_WEST_FIELD_CONFRONTATION
+                                - WITCH_WEST_FIELD_CONFRONTATION
+                                  - "Pick who gets the first incision, then begin the Obsidian Eye ritual." → WITCH_WEST_SELECT_TARGET
+                                    - WITCH_WEST_SELECT_TARGET
+                                      - "Lion" → WITCH_WEST_ORACLE_ENTRY_LION
+                                        - WITCH_WEST_ORACLE_ENTRY_LION
+                                          - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                            - WITCH_WEST_ORACLE_DRAW
+                                              - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                - WITCH_WEST_ORACLE_1
+                                                  - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                - WITCH_WEST_ORACLE_2
+                                                  - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                    - ↩ cycle
+                                              - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                - WITCH_WEST_ORACLE_3
+                                                  - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                - WITCH_WEST_ORACLE_4
+                                                  - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                - WITCH_WEST_ORACLE_5
+                                                  - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                - WITCH_WEST_ORACLE_6
+                                                  - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                - WITCH_WEST_ORACLE_7
+                                                  - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                - WITCH_WEST_ORACLE_8
+                                                  - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                      - "Dorothy" → WITCH_WEST_ORACLE_ENTRY_DOROTHY
+                                        - WITCH_WEST_ORACLE_ENTRY_DOROTHY
+                                          - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                            - WITCH_WEST_ORACLE_DRAW
+                                              - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                - WITCH_WEST_ORACLE_1
+                                                  - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                - WITCH_WEST_ORACLE_2
+                                                  - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                    - ↩ cycle
+                                              - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                - WITCH_WEST_ORACLE_3
+                                                  - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                - WITCH_WEST_ORACLE_4
+                                                  - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                - WITCH_WEST_ORACLE_5
+                                                  - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                - WITCH_WEST_ORACLE_6
+                                                  - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                - WITCH_WEST_ORACLE_7
+                                                  - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                - WITCH_WEST_ORACLE_8
+                                                  - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                      - "Tin Man" → WITCH_WEST_ORACLE_ENTRY_TINMAN
+                                        - WITCH_WEST_ORACLE_ENTRY_TINMAN
+                                          - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                            - WITCH_WEST_ORACLE_DRAW
+                                              - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                - WITCH_WEST_ORACLE_1
+                                                  - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                - WITCH_WEST_ORACLE_2
+                                                  - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                    - ↩ cycle
+                                              - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                - WITCH_WEST_ORACLE_3
+                                                  - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                - WITCH_WEST_ORACLE_4
+                                                  - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                - WITCH_WEST_ORACLE_5
+                                                  - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                - WITCH_WEST_ORACLE_6
+                                                  - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                - WITCH_WEST_ORACLE_7
+                                                  - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                - WITCH_WEST_ORACLE_8
+                                                  - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                      - "Scarecrow" → WITCH_WEST_ORACLE_ENTRY_SCARECROW
+                                        - WITCH_WEST_ORACLE_ENTRY_SCARECROW
+                                          - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                            - WITCH_WEST_ORACLE_DRAW
+                                              - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                - WITCH_WEST_ORACLE_1
+                                                  - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                - WITCH_WEST_ORACLE_2
+                                                  - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                    - ↩ cycle
+                                              - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                - WITCH_WEST_ORACLE_3
+                                                  - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                - WITCH_WEST_ORACLE_4
+                                                  - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                - WITCH_WEST_ORACLE_5
+                                                  - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                - WITCH_WEST_ORACLE_6
+                                                  - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                - WITCH_WEST_ORACLE_7
+                                                  - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                - WITCH_WEST_ORACLE_8
+                                                  - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "Have the monkeys carry him back to the tower for a proper procedure." → WITCH_WEST_TOWER_PREP
+                                    - ↩ cycle
+                                  - "Toy with him first. Make him beg for the mercy of the scalpel." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                                    - WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                                      - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
+                                        - WITCH_WEST_ORACLE_ENTRY
+                                          - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                            - WITCH_WEST_ORACLE_DRAW
+                                              - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                - WITCH_WEST_ORACLE_1
+                                                  - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                - WITCH_WEST_ORACLE_2
+                                                  - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                    - ↩ cycle
+                                              - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                - WITCH_WEST_ORACLE_3
+                                                  - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                - WITCH_WEST_ORACLE_4
+                                                  - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                - WITCH_WEST_ORACLE_5
+                                                  - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                - WITCH_WEST_ORACLE_6
+                                                  - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                - WITCH_WEST_ORACLE_7
+                                                  - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                - WITCH_WEST_ORACLE_8
+                                                  - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                            - ↩ cycle
+                                      - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                      - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
+                                        - WITCH_WEST_TORMENT_DETAIL
+                                          - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
+                                            - WITCH_WEST_ORACLE_ENTRY
+                                              - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                - WITCH_WEST_ORACLE_DRAW
+                                                  - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                    - WITCH_WEST_ORACLE_1
+                                                      - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                      - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                    - WITCH_WEST_ORACLE_2
+                                                      - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                        - ↩ cycle
+                                                  - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                    - WITCH_WEST_ORACLE_3
+                                                      - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                                      - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                    - WITCH_WEST_ORACLE_4
+                                                      - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                    - WITCH_WEST_ORACLE_5
+                                                      - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                    - WITCH_WEST_ORACLE_6
+                                                      - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                    - WITCH_WEST_ORACLE_7
+                                                      - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                    - WITCH_WEST_ORACLE_8
+                                                      - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                                - ↩ cycle
+                                          - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
+                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "The Clerk flags the warrant status — review the audit logs." → WITCH_WEST_BUREAU_LOG_CHECK
+                                    - WITCH_WEST_BUREAU_LOG_CHECK
+                                      - "\"It is a Judicial Necessity.\" (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
+                                        - WITCH_WEST_COMMAND_DECK
+                                          - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
+                                            - WITCH_WEST_MONKEY_MANAGEMENT
+                                              - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                              - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                              - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                                - WITCH_WEST_ORACLE_ENTRY
+                                                  - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                    - WITCH_WEST_ORACLE_DRAW
+                                                      - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                        - WITCH_WEST_ORACLE_1
+                                                          - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                            - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                          - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                            - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                        - WITCH_WEST_ORACLE_2
+                                                          - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                            - WITCH_WEST_END_MELTING [ENDING]
+                                                          - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                            - ↩ cycle
+                                                      - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                        - WITCH_WEST_ORACLE_3
+                                                          - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                                          - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                            - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                        - WITCH_WEST_ORACLE_4
+                                                          - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                                          - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                            - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                      - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                        - WITCH_WEST_ORACLE_5
+                                                          - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                            - WITCH_WEST_END_MELTING [ENDING]
+                                                          - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                        - WITCH_WEST_ORACLE_6
+                                                          - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                                          - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                                      - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                        - WITCH_WEST_ORACLE_7
+                                                          - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                                          - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                            - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                        - WITCH_WEST_ORACLE_8
+                                                          - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                            - WITCH_WEST_END_MELTING [ENDING]
+                                                          - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                                    - ↩ cycle
+                                          - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
+                                            - WITCH_WEST_POPPY_CALIBRATION
+                                              - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                              - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                          - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
+                                            - WITCH_WEST_OBSIDIAN_VIEW
+                                              - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
+                                                - WITCH_WEST_ORACLE_ENTRY
+                                                  - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                    - WITCH_WEST_ORACLE_DRAW
+                                                      - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                        - WITCH_WEST_ORACLE_1
+                                                          - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                            - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                          - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                            - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                        - WITCH_WEST_ORACLE_2
+                                                          - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                            - WITCH_WEST_END_MELTING [ENDING]
+                                                          - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                            - ↩ cycle
+                                                      - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                        - WITCH_WEST_ORACLE_3
+                                                          - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                                          - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                            - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                        - WITCH_WEST_ORACLE_4
+                                                          - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                                          - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                            - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                      - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                        - WITCH_WEST_ORACLE_5
+                                                          - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                            - WITCH_WEST_END_MELTING [ENDING]
+                                                          - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                        - WITCH_WEST_ORACLE_6
+                                                          - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                                          - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                                      - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                        - WITCH_WEST_ORACLE_7
+                                                          - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                                          - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                            - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                        - WITCH_WEST_ORACLE_8
+                                                          - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                            - WITCH_WEST_END_MELTING [ENDING]
+                                                          - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                                    - ↩ cycle
+                                              - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
+                                                - ↩ cycle
+                                              - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
+                                                - WITCH_WEST_SIGNAL_BLEED
+                                                  - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                                    - ↩ cycle
+                                                  - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                          - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                            - WITCH_WEST_ORACLE_ENTRY
+                                              - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                - WITCH_WEST_ORACLE_DRAW
+                                                  - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                    - WITCH_WEST_ORACLE_1
+                                                      - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                      - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                    - WITCH_WEST_ORACLE_2
+                                                      - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                        - ↩ cycle
+                                                  - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                    - WITCH_WEST_ORACLE_3
+                                                      - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                                      - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                    - WITCH_WEST_ORACLE_4
+                                                      - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                    - WITCH_WEST_ORACLE_5
+                                                      - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                    - WITCH_WEST_ORACLE_6
+                                                      - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                    - WITCH_WEST_ORACLE_7
+                                                      - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                    - WITCH_WEST_ORACLE_8
+                                                      - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                                - ↩ cycle
+                                      - "\"The target is non-compliant.\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                        - WITCH_WEST_COMMAND_DECK
+                                          - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
+                                            - WITCH_WEST_MONKEY_MANAGEMENT
+                                              - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                              - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                              - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                                - WITCH_WEST_ORACLE_ENTRY
+                                                  - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                    - WITCH_WEST_ORACLE_DRAW
+                                                      - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                        - WITCH_WEST_ORACLE_1
+                                                          - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                            - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                          - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                            - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                        - WITCH_WEST_ORACLE_2
+                                                          - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                            - WITCH_WEST_END_MELTING [ENDING]
+                                                          - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                            - ↩ cycle
+                                                      - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                        - WITCH_WEST_ORACLE_3
+                                                          - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                                          - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                            - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                        - WITCH_WEST_ORACLE_4
+                                                          - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                                          - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                            - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                      - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                        - WITCH_WEST_ORACLE_5
+                                                          - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                            - WITCH_WEST_END_MELTING [ENDING]
+                                                          - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                        - WITCH_WEST_ORACLE_6
+                                                          - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                                          - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                                      - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                        - WITCH_WEST_ORACLE_7
+                                                          - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                                          - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                            - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                        - WITCH_WEST_ORACLE_8
+                                                          - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                            - WITCH_WEST_END_MELTING [ENDING]
+                                                          - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                                    - ↩ cycle
+                                          - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
+                                            - WITCH_WEST_POPPY_CALIBRATION
+                                              - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                              - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                          - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
+                                            - WITCH_WEST_OBSIDIAN_VIEW
+                                              - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
+                                                - WITCH_WEST_ORACLE_ENTRY
+                                                  - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                    - WITCH_WEST_ORACLE_DRAW
+                                                      - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                        - WITCH_WEST_ORACLE_1
+                                                          - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                            - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                          - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                            - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                        - WITCH_WEST_ORACLE_2
+                                                          - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                            - WITCH_WEST_END_MELTING [ENDING]
+                                                          - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                            - ↩ cycle
+                                                      - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                        - WITCH_WEST_ORACLE_3
+                                                          - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                                          - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                            - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                        - WITCH_WEST_ORACLE_4
+                                                          - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                                          - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                            - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                      - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                        - WITCH_WEST_ORACLE_5
+                                                          - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                            - WITCH_WEST_END_MELTING [ENDING]
+                                                          - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                        - WITCH_WEST_ORACLE_6
+                                                          - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                                          - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                                      - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                        - WITCH_WEST_ORACLE_7
+                                                          - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                            - WITCH_WEST_END_COMMAND [ENDING]
+                                                          - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                            - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                        - WITCH_WEST_ORACLE_8
+                                                          - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                            - WITCH_WEST_END_MELTING [ENDING]
+                                                          - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                                    - ↩ cycle
+                                              - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
+                                                - ↩ cycle
+                                              - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
+                                                - WITCH_WEST_SIGNAL_BLEED
+                                                  - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                                    - ↩ cycle
+                                                  - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                          - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                            - WITCH_WEST_ORACLE_ENTRY
+                                              - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                - WITCH_WEST_ORACLE_DRAW
+                                                  - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                    - WITCH_WEST_ORACLE_1
+                                                      - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                      - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                    - WITCH_WEST_ORACLE_2
+                                                      - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                        - ↩ cycle
+                                                  - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                    - WITCH_WEST_ORACLE_3
+                                                      - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                                      - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                    - WITCH_WEST_ORACLE_4
+                                                      - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                    - WITCH_WEST_ORACLE_5
+                                                      - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                    - WITCH_WEST_ORACLE_6
+                                                      - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                    - WITCH_WEST_ORACLE_7
+                                                      - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                    - WITCH_WEST_ORACLE_8
+                                                      - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                                                - ↩ cycle
+                              - "Send the monkeys to accelerate their arrival." → WITCH_WEST_MONKEY_SWEEP_B
+                                - ↩ cycle
+                          - "ADMINISTRATION: File a \"Pre-emptive Deletion\" warrant." → WITCH_WEST_BUREAU_FILING
+                            - WITCH_WEST_BUREAU_FILING
+                              - "Label it \"Maintenance Disposal\" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                - ↩ cycle
+                              - "Label it \"Judicial Reclamation\" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
+                                - ↩ cycle
+                          - "THE FINAL INCISION: Trigger \"The Melting Point\"." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+      - "Observe the aerial deployment from altitude — let the sweep run its course." → WITCH_WEST_PATH_MONKEYS
+        - WITCH_WEST_PATH_MONKEYS
+          - "Escalate the warrant — route toward total enforcement." → WITCH_WEST_END_MELTING
+            - WITCH_WEST_END_MELTING [ENDING]
+          - "Recall the monkeys — perform the ritual personally." → WITCH_WEST_ORACLE_ENTRY
+            - WITCH_WEST_ORACLE_ENTRY
+              - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                - WITCH_WEST_ORACLE_DRAW
+                  - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                    - WITCH_WEST_ORACLE_1
+                      - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                      - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                        - WITCH_WEST_END_MELTING [ENDING]
+                  - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                    - WITCH_WEST_ORACLE_2
+                      - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                        - WITCH_WEST_END_MELTING [ENDING]
+                      - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                        - ↩ cycle
+                  - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                    - WITCH_WEST_ORACLE_3
+                      - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                        - WITCH_WEST_END_SCRAP [ENDING]
+                      - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                        - WITCH_WEST_END_MELTING [ENDING]
+                  - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                    - WITCH_WEST_ORACLE_4
+                      - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                        - WITCH_WEST_END_COMMAND [ENDING]
+                      - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                  - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                    - WITCH_WEST_ORACLE_5
+                      - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                        - WITCH_WEST_END_MELTING [ENDING]
+                      - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                        - WITCH_WEST_END_COMMAND [ENDING]
+                  - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                    - WITCH_WEST_ORACLE_6
+                      - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                        - WITCH_WEST_END_COMMAND [ENDING]
+                      - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                        - WITCH_WEST_END_SCRAP [ENDING]
+                  - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                    - WITCH_WEST_ORACLE_7
+                      - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                        - WITCH_WEST_END_COMMAND [ENDING]
+                      - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                        - WITCH_WEST_END_MELTING [ENDING]
+                  - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                    - WITCH_WEST_ORACLE_8
+                      - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                        - WITCH_WEST_END_MELTING [ENDING]
+                      - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                        - WITCH_WEST_END_SCRAP [ENDING]
+              - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+                - ↩ cycle
+  - "Perform the ritual directly — summon the Obsidian Eye." → WITCH_WEST_ORACLE_ENTRY
+    - WITCH_WEST_ORACLE_ENTRY
+      - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+        - WITCH_WEST_ORACLE_DRAW
+          - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+            - WITCH_WEST_ORACLE_1
+              - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                - WITCH_WEST_END_FLECHETTE [ENDING]
+              - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                - WITCH_WEST_END_MELTING [ENDING]
+          - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+            - WITCH_WEST_ORACLE_2
+              - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                - WITCH_WEST_END_MELTING [ENDING]
+              - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                - WITCH_WEST_MONKEY_SWEEP_B
+                  - "Watch the capture through the obsidian eye. Savor every moment." → WITCH_WEST_OBSIDIAN_VIEW
+                    - WITCH_WEST_OBSIDIAN_VIEW
+                      - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
+                        - ↩ cycle
+                      - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
+                        - WITCH_WEST_FIELD_CONFRONTATION
+                          - "Pick who gets the first incision, then begin the Obsidian Eye ritual." → WITCH_WEST_SELECT_TARGET
+                            - WITCH_WEST_SELECT_TARGET
+                              - "Lion" → WITCH_WEST_ORACLE_ENTRY_LION
+                                - WITCH_WEST_ORACLE_ENTRY_LION
+                                  - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                    - ↩ cycle
+                              - "Dorothy" → WITCH_WEST_ORACLE_ENTRY_DOROTHY
+                                - WITCH_WEST_ORACLE_ENTRY_DOROTHY
+                                  - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                    - ↩ cycle
+                              - "Tin Man" → WITCH_WEST_ORACLE_ENTRY_TINMAN
+                                - WITCH_WEST_ORACLE_ENTRY_TINMAN
+                                  - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                    - ↩ cycle
+                              - "Scarecrow" → WITCH_WEST_ORACLE_ENTRY_SCARECROW
+                                - WITCH_WEST_ORACLE_ENTRY_SCARECROW
+                                  - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                    - ↩ cycle
+                          - "Have the monkeys carry him back to the tower for a proper procedure." → WITCH_WEST_TOWER_PREP
+                            - WITCH_WEST_TOWER_PREP
+                              - "The chamber is prepared. Begin the Obsidian Eye procedure." → WITCH_WEST_ORACLE_ENTRY
+                                - ↩ cycle
+                              - "The Clerk signals a compliance concern — attend to the warning." → WITCH_WEST_CLERK_INTERLUDE
+                                - WITCH_WEST_CLERK_INTERLUDE
+                                  - "Force the verdict now — Summon the Obsidian Matron." → WITCH_WEST_ORACLE_ENTRY
+                                    - ↩ cycle
+                                  - "Ignore the Clerk. Proceed with psychological pressure." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                                    - WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                                      - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
+                                        - ↩ cycle
+                                      - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                      - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
+                                        - WITCH_WEST_TORMENT_DETAIL
+                                          - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
+                                            - ↩ cycle
+                                          - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
+                                            - WITCH_WEST_END_SCRAP [ENDING]
+                              - "Walk the perimeter — let the Winkie chant stabilize the ritual chamber." → WITCH_WEST_WINKIE_CORRIDOR
+                                - WITCH_WEST_WINKIE_CORRIDOR
+                                  - "Force the Guards to double the tempo. (Add Load / Increase Heat)." → WITCH_WEST_THERMAL_SURGE
+                                    - WITCH_WEST_THERMAL_SURGE
+                                      - "Peer directly into the white-hot center." → WITCH_WEST_END_SEARING_TRUTH
+                                        - WITCH_WEST_END_SEARING_TRUTH [ENDING]
+                                      - "Try to vent the heat (Requires Water Protocol)." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Use the chant to soothe the Lion's tremor (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                    - WITCH_WEST_COMMAND_DECK_V2
+                                      - "BIOMETRICS: Access the Lion's Tremor-Log." → WITCH_WEST_LION_AUDIT_HUB
+                                        - WITCH_WEST_LION_AUDIT_HUB
+                                          - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                            - WITCH_WEST_SCRAPE_MANE
+                                              - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                              - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                          - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                            - WITCH_WEST_LION_AUDIT_HUB
+                                              - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                                - WITCH_WEST_SCRAPE_MANE
+                                                  - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                                    - ↩ cycle
+                                                  - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                                    - ↩ cycle
+                                              - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                              - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                              - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                                - ↩ cycle
+                                          - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                            - WITCH_WEST_LION_AUDIT_HUB
+                                              - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                                - WITCH_WEST_SCRAPE_MANE
+                                                  - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                                    - ↩ cycle
+                                                  - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                                    - ↩ cycle
+                                              - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                              - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                              - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                                - ↩ cycle
+                                          - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                            - ↩ cycle
+                                      - "SURVEILLANCE: Deploy \"Eye-on-a-String\" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
+                                        - ↩ cycle
+                                      - "PHARMACOLOGY: Refine the Poppy Resin in the crucible." → WITCH_WEST_POPPY_BUFFER
+                                        - WITCH_WEST_POPPY_BUFFER
+                                          - "Wait for them at the tower gate. Receive them at full compliance." → WITCH_WEST_FIELD_CONFRONTATION
+                                            - ↩ cycle
+                                          - "Send the monkeys to accelerate their arrival." → WITCH_WEST_MONKEY_SWEEP_B
+                                            - ↩ cycle
+                                      - "ADMINISTRATION: File a \"Pre-emptive Deletion\" warrant." → WITCH_WEST_BUREAU_FILING
+                                        - WITCH_WEST_BUREAU_FILING
+                                          - "Label it \"Maintenance Disposal\" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                            - ↩ cycle
+                                          - "Label it \"Judicial Reclamation\" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
+                                            - ↩ cycle
+                                      - "THE FINAL INCISION: Trigger \"The Melting Point\"." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                          - "Toy with him first. Make him beg for the mercy of the scalpel." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                            - WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                              - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
+                                - ↩ cycle
+                              - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
+                                - WITCH_WEST_TORMENT_DETAIL
+                                  - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
+                                    - ↩ cycle
+                                  - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                          - "The Clerk flags the warrant status — review the audit logs." → WITCH_WEST_BUREAU_LOG_CHECK
+                            - WITCH_WEST_BUREAU_LOG_CHECK
+                              - "\"It is a Judicial Necessity.\" (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
+                                - WITCH_WEST_COMMAND_DECK
+                                  - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
+                                    - WITCH_WEST_MONKEY_MANAGEMENT
+                                      - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                        - ↩ cycle
+                                      - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                        - ↩ cycle
+                                      - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                        - ↩ cycle
+                                  - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
+                                    - WITCH_WEST_POPPY_CALIBRATION
+                                      - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
+                                        - ↩ cycle
+                                      - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                        - ↩ cycle
+                                  - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
+                                    - ↩ cycle
+                                  - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                    - ↩ cycle
+                              - "\"The target is non-compliant.\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                - WITCH_WEST_COMMAND_DECK
+                                  - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
+                                    - WITCH_WEST_MONKEY_MANAGEMENT
+                                      - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                        - ↩ cycle
+                                      - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                        - ↩ cycle
+                                      - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                        - ↩ cycle
+                                  - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
+                                    - WITCH_WEST_POPPY_CALIBRATION
+                                      - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
+                                        - ↩ cycle
+                                      - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                        - ↩ cycle
+                                  - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
+                                    - ↩ cycle
+                                  - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                    - ↩ cycle
+                      - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
+                        - WITCH_WEST_SIGNAL_BLEED
+                          - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
+                            - WITCH_WEST_COMMAND_DECK_V2
+                              - "BIOMETRICS: Access the Lion's Tremor-Log." → WITCH_WEST_LION_AUDIT_HUB
+                                - WITCH_WEST_LION_AUDIT_HUB
+                                  - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                    - WITCH_WEST_SCRAPE_MANE
+                                      - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                  - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                    - WITCH_WEST_LION_AUDIT_HUB
+                                      - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                        - WITCH_WEST_SCRAPE_MANE
+                                          - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                      - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                        - ↩ cycle
+                                  - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                    - WITCH_WEST_LION_AUDIT_HUB
+                                      - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                        - WITCH_WEST_SCRAPE_MANE
+                                          - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                      - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                        - ↩ cycle
+                                  - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
+                              - "SURVEILLANCE: Deploy \"Eye-on-a-String\" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
+                                - ↩ cycle
+                              - "PHARMACOLOGY: Refine the Poppy Resin in the crucible." → WITCH_WEST_POPPY_BUFFER
+                                - WITCH_WEST_POPPY_BUFFER
+                                  - "Wait for them at the tower gate. Receive them at full compliance." → WITCH_WEST_FIELD_CONFRONTATION
+                                    - WITCH_WEST_FIELD_CONFRONTATION
+                                      - "Pick who gets the first incision, then begin the Obsidian Eye ritual." → WITCH_WEST_SELECT_TARGET
+                                        - WITCH_WEST_SELECT_TARGET
+                                          - "Lion" → WITCH_WEST_ORACLE_ENTRY_LION
+                                            - WITCH_WEST_ORACLE_ENTRY_LION
+                                              - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                - ↩ cycle
+                                          - "Dorothy" → WITCH_WEST_ORACLE_ENTRY_DOROTHY
+                                            - WITCH_WEST_ORACLE_ENTRY_DOROTHY
+                                              - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                - ↩ cycle
+                                          - "Tin Man" → WITCH_WEST_ORACLE_ENTRY_TINMAN
+                                            - WITCH_WEST_ORACLE_ENTRY_TINMAN
+                                              - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                - ↩ cycle
+                                          - "Scarecrow" → WITCH_WEST_ORACLE_ENTRY_SCARECROW
+                                            - WITCH_WEST_ORACLE_ENTRY_SCARECROW
+                                              - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                - ↩ cycle
+                                      - "Have the monkeys carry him back to the tower for a proper procedure." → WITCH_WEST_TOWER_PREP
+                                        - WITCH_WEST_TOWER_PREP
+                                          - "The chamber is prepared. Begin the Obsidian Eye procedure." → WITCH_WEST_ORACLE_ENTRY
+                                            - ↩ cycle
+                                          - "The Clerk signals a compliance concern — attend to the warning." → WITCH_WEST_CLERK_INTERLUDE
+                                            - WITCH_WEST_CLERK_INTERLUDE
+                                              - "Force the verdict now — Summon the Obsidian Matron." → WITCH_WEST_ORACLE_ENTRY
+                                                - ↩ cycle
+                                              - "Ignore the Clerk. Proceed with psychological pressure." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                                                - WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                                                  - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
+                                                    - ↩ cycle
+                                                  - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
+                                                    - WITCH_WEST_TORMENT_DETAIL
+                                                      - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
+                                                        - ↩ cycle
+                                                      - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "Walk the perimeter — let the Winkie chant stabilize the ritual chamber." → WITCH_WEST_WINKIE_CORRIDOR
+                                            - WITCH_WEST_WINKIE_CORRIDOR
+                                              - "Force the Guards to double the tempo. (Add Load / Increase Heat)." → WITCH_WEST_THERMAL_SURGE
+                                                - WITCH_WEST_THERMAL_SURGE
+                                                  - "Peer directly into the white-hot center." → WITCH_WEST_END_SEARING_TRUTH
+                                                    - WITCH_WEST_END_SEARING_TRUTH [ENDING]
+                                                  - "Try to vent the heat (Requires Water Protocol)." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Use the chant to soothe the Lion's tremor (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                                - ↩ cycle
+                                      - "Toy with him first. Make him beg for the mercy of the scalpel." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                                        - WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                                          - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
+                                            - ↩ cycle
+                                          - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                          - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
+                                            - WITCH_WEST_TORMENT_DETAIL
+                                              - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
+                                                - ↩ cycle
+                                              - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                      - "The Clerk flags the warrant status — review the audit logs." → WITCH_WEST_BUREAU_LOG_CHECK
+                                        - WITCH_WEST_BUREAU_LOG_CHECK
+                                          - "\"It is a Judicial Necessity.\" (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
+                                            - WITCH_WEST_COMMAND_DECK
+                                              - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
+                                                - WITCH_WEST_MONKEY_MANAGEMENT
+                                                  - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                                    - ↩ cycle
+                                                  - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                    - ↩ cycle
+                                                  - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                                    - ↩ cycle
+                                              - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
+                                                - WITCH_WEST_POPPY_CALIBRATION
+                                                  - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
+                                                    - ↩ cycle
+                                                  - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                                    - ↩ cycle
+                                              - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
+                                                - ↩ cycle
+                                              - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                                - ↩ cycle
+                                          - "\"The target is non-compliant.\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                            - WITCH_WEST_COMMAND_DECK
+                                              - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
+                                                - WITCH_WEST_MONKEY_MANAGEMENT
+                                                  - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                                    - ↩ cycle
+                                                  - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                    - ↩ cycle
+                                                  - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                                    - ↩ cycle
+                                              - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
+                                                - WITCH_WEST_POPPY_CALIBRATION
+                                                  - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
+                                                    - ↩ cycle
+                                                  - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                                    - ↩ cycle
+                                              - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
+                                                - ↩ cycle
+                                              - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                                - ↩ cycle
+                                  - "Send the monkeys to accelerate their arrival." → WITCH_WEST_MONKEY_SWEEP_B
+                                    - ↩ cycle
+                              - "ADMINISTRATION: File a \"Pre-emptive Deletion\" warrant." → WITCH_WEST_BUREAU_FILING
+                                - WITCH_WEST_BUREAU_FILING
+                                  - "Label it \"Maintenance Disposal\" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
+                                  - "Label it \"Judicial Reclamation\" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
+                              - "THE FINAL INCISION: Trigger \"The Melting Point\"." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                  - "Descend to the courtyard to greet your new prize personally." → WITCH_WEST_FIELD_CONFRONTATION
+                    - WITCH_WEST_FIELD_CONFRONTATION
+                      - "Pick who gets the first incision, then begin the Obsidian Eye ritual." → WITCH_WEST_SELECT_TARGET
+                        - WITCH_WEST_SELECT_TARGET
+                          - "Lion" → WITCH_WEST_ORACLE_ENTRY_LION
+                            - WITCH_WEST_ORACLE_ENTRY_LION
+                              - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                - ↩ cycle
+                          - "Dorothy" → WITCH_WEST_ORACLE_ENTRY_DOROTHY
+                            - WITCH_WEST_ORACLE_ENTRY_DOROTHY
+                              - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                - ↩ cycle
+                          - "Tin Man" → WITCH_WEST_ORACLE_ENTRY_TINMAN
+                            - WITCH_WEST_ORACLE_ENTRY_TINMAN
+                              - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                - ↩ cycle
+                          - "Scarecrow" → WITCH_WEST_ORACLE_ENTRY_SCARECROW
+                            - WITCH_WEST_ORACLE_ENTRY_SCARECROW
+                              - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                - ↩ cycle
+                      - "Have the monkeys carry him back to the tower for a proper procedure." → WITCH_WEST_TOWER_PREP
+                        - WITCH_WEST_TOWER_PREP
+                          - "The chamber is prepared. Begin the Obsidian Eye procedure." → WITCH_WEST_ORACLE_ENTRY
+                            - ↩ cycle
+                          - "The Clerk signals a compliance concern — attend to the warning." → WITCH_WEST_CLERK_INTERLUDE
+                            - WITCH_WEST_CLERK_INTERLUDE
+                              - "Force the verdict now — Summon the Obsidian Matron." → WITCH_WEST_ORACLE_ENTRY
+                                - ↩ cycle
+                              - "Ignore the Clerk. Proceed with psychological pressure." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                                - WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                                  - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
+                                    - ↩ cycle
+                                  - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
+                                    - WITCH_WEST_TORMENT_DETAIL
+                                      - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
+                                        - ↩ cycle
+                                      - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
+                                        - WITCH_WEST_END_SCRAP [ENDING]
+                          - "Walk the perimeter — let the Winkie chant stabilize the ritual chamber." → WITCH_WEST_WINKIE_CORRIDOR
+                            - WITCH_WEST_WINKIE_CORRIDOR
+                              - "Force the Guards to double the tempo. (Add Load / Increase Heat)." → WITCH_WEST_THERMAL_SURGE
+                                - WITCH_WEST_THERMAL_SURGE
+                                  - "Peer directly into the white-hot center." → WITCH_WEST_END_SEARING_TRUTH
+                                    - WITCH_WEST_END_SEARING_TRUTH [ENDING]
+                                  - "Try to vent the heat (Requires Water Protocol)." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "Use the chant to soothe the Lion's tremor (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                - WITCH_WEST_COMMAND_DECK_V2
+                                  - "BIOMETRICS: Access the Lion's Tremor-Log." → WITCH_WEST_LION_AUDIT_HUB
+                                    - WITCH_WEST_LION_AUDIT_HUB
+                                      - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                        - WITCH_WEST_SCRAPE_MANE
+                                          - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                      - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - WITCH_WEST_LION_AUDIT_HUB
+                                          - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                            - WITCH_WEST_SCRAPE_MANE
+                                              - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                              - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                          - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                            - ↩ cycle
+                                      - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - WITCH_WEST_LION_AUDIT_HUB
+                                          - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                            - WITCH_WEST_SCRAPE_MANE
+                                              - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                              - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                          - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                            - ↩ cycle
+                                      - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                        - ↩ cycle
+                                  - "SURVEILLANCE: Deploy \"Eye-on-a-String\" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
+                                    - WITCH_WEST_OBSIDIAN_VIEW
+                                      - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
+                                        - ↩ cycle
+                                      - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
+                                        - ↩ cycle
+                                      - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
+                                        - WITCH_WEST_SIGNAL_BLEED
+                                          - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                            - ↩ cycle
+                                          - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                  - "PHARMACOLOGY: Refine the Poppy Resin in the crucible." → WITCH_WEST_POPPY_BUFFER
+                                    - WITCH_WEST_POPPY_BUFFER
+                                      - "Wait for them at the tower gate. Receive them at full compliance." → WITCH_WEST_FIELD_CONFRONTATION
+                                        - ↩ cycle
+                                      - "Send the monkeys to accelerate their arrival." → WITCH_WEST_MONKEY_SWEEP_B
+                                        - ↩ cycle
+                                  - "ADMINISTRATION: File a \"Pre-emptive Deletion\" warrant." → WITCH_WEST_BUREAU_FILING
+                                    - WITCH_WEST_BUREAU_FILING
+                                      - "Label it \"Maintenance Disposal\" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                        - ↩ cycle
+                                      - "Label it \"Judicial Reclamation\" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
+                                        - ↩ cycle
+                                  - "THE FINAL INCISION: Trigger \"The Melting Point\"." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                      - "Toy with him first. Make him beg for the mercy of the scalpel." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                        - WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                          - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
+                            - ↩ cycle
+                          - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                          - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
+                            - WITCH_WEST_TORMENT_DETAIL
+                              - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
+                                - ↩ cycle
+                              - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                      - "The Clerk flags the warrant status — review the audit logs." → WITCH_WEST_BUREAU_LOG_CHECK
+                        - WITCH_WEST_BUREAU_LOG_CHECK
+                          - "\"It is a Judicial Necessity.\" (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
+                            - WITCH_WEST_COMMAND_DECK
+                              - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
+                                - WITCH_WEST_MONKEY_MANAGEMENT
+                                  - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                    - ↩ cycle
+                                  - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                    - ↩ cycle
+                                  - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                    - ↩ cycle
+                              - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
+                                - WITCH_WEST_POPPY_CALIBRATION
+                                  - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
+                                    - ↩ cycle
+                                  - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                    - ↩ cycle
+                              - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
+                                - WITCH_WEST_OBSIDIAN_VIEW
+                                  - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
+                                    - ↩ cycle
+                                  - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
+                                    - ↩ cycle
+                                  - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
+                                    - WITCH_WEST_SIGNAL_BLEED
+                                      - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                        - WITCH_WEST_COMMAND_DECK_V2
+                                          - "BIOMETRICS: Access the Lion's Tremor-Log." → WITCH_WEST_LION_AUDIT_HUB
+                                            - WITCH_WEST_LION_AUDIT_HUB
+                                              - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                                - WITCH_WEST_SCRAPE_MANE
+                                                  - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                                    - ↩ cycle
+                                                  - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                                    - ↩ cycle
+                                              - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                                - WITCH_WEST_LION_AUDIT_HUB
+                                                  - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                                    - WITCH_WEST_SCRAPE_MANE
+                                                      - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                                        - ↩ cycle
+                                                      - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                                        - ↩ cycle
+                                                  - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                                    - ↩ cycle
+                                                  - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                                    - ↩ cycle
+                                                  - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                                    - ↩ cycle
+                                              - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                                - WITCH_WEST_LION_AUDIT_HUB
+                                                  - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                                    - WITCH_WEST_SCRAPE_MANE
+                                                      - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                                        - ↩ cycle
+                                                      - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                                        - ↩ cycle
+                                                  - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                                    - ↩ cycle
+                                                  - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                                    - ↩ cycle
+                                                  - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                                    - ↩ cycle
+                                              - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                                - ↩ cycle
+                                          - "SURVEILLANCE: Deploy \"Eye-on-a-String\" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
+                                            - ↩ cycle
+                                          - "PHARMACOLOGY: Refine the Poppy Resin in the crucible." → WITCH_WEST_POPPY_BUFFER
+                                            - WITCH_WEST_POPPY_BUFFER
+                                              - "Wait for them at the tower gate. Receive them at full compliance." → WITCH_WEST_FIELD_CONFRONTATION
+                                                - ↩ cycle
+                                              - "Send the monkeys to accelerate their arrival." → WITCH_WEST_MONKEY_SWEEP_B
+                                                - ↩ cycle
+                                          - "ADMINISTRATION: File a \"Pre-emptive Deletion\" warrant." → WITCH_WEST_BUREAU_FILING
+                                            - WITCH_WEST_BUREAU_FILING
+                                              - "Label it \"Maintenance Disposal\" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                                - ↩ cycle
+                                              - "Label it \"Judicial Reclamation\" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
+                                                - ↩ cycle
+                                          - "THE FINAL INCISION: Trigger \"The Melting Point\"." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                      - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                              - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                - ↩ cycle
+                          - "\"The target is non-compliant.\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                            - WITCH_WEST_COMMAND_DECK
+                              - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
+                                - WITCH_WEST_MONKEY_MANAGEMENT
+                                  - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                    - ↩ cycle
+                                  - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                    - ↩ cycle
+                                  - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                    - ↩ cycle
+                              - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
+                                - WITCH_WEST_POPPY_CALIBRATION
+                                  - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
+                                    - ↩ cycle
+                                  - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                    - ↩ cycle
+                              - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
+                                - WITCH_WEST_OBSIDIAN_VIEW
+                                  - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
+                                    - ↩ cycle
+                                  - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
+                                    - ↩ cycle
+                                  - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
+                                    - WITCH_WEST_SIGNAL_BLEED
+                                      - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                        - WITCH_WEST_COMMAND_DECK_V2
+                                          - "BIOMETRICS: Access the Lion's Tremor-Log." → WITCH_WEST_LION_AUDIT_HUB
+                                            - WITCH_WEST_LION_AUDIT_HUB
+                                              - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                                - WITCH_WEST_SCRAPE_MANE
+                                                  - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                                    - ↩ cycle
+                                                  - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                                    - ↩ cycle
+                                              - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                                - WITCH_WEST_LION_AUDIT_HUB
+                                                  - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                                    - WITCH_WEST_SCRAPE_MANE
+                                                      - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                                        - ↩ cycle
+                                                      - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                                        - ↩ cycle
+                                                  - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                                    - ↩ cycle
+                                                  - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                                    - ↩ cycle
+                                                  - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                                    - ↩ cycle
+                                              - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                                - WITCH_WEST_LION_AUDIT_HUB
+                                                  - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                                    - WITCH_WEST_SCRAPE_MANE
+                                                      - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                                        - ↩ cycle
+                                                      - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                                        - ↩ cycle
+                                                  - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                                    - ↩ cycle
+                                                  - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                                    - ↩ cycle
+                                                  - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                                    - ↩ cycle
+                                              - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                                - ↩ cycle
+                                          - "SURVEILLANCE: Deploy \"Eye-on-a-String\" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
+                                            - ↩ cycle
+                                          - "PHARMACOLOGY: Refine the Poppy Resin in the crucible." → WITCH_WEST_POPPY_BUFFER
+                                            - WITCH_WEST_POPPY_BUFFER
+                                              - "Wait for them at the tower gate. Receive them at full compliance." → WITCH_WEST_FIELD_CONFRONTATION
+                                                - ↩ cycle
+                                              - "Send the monkeys to accelerate their arrival." → WITCH_WEST_MONKEY_SWEEP_B
+                                                - ↩ cycle
+                                          - "ADMINISTRATION: File a \"Pre-emptive Deletion\" warrant." → WITCH_WEST_BUREAU_FILING
+                                            - WITCH_WEST_BUREAU_FILING
+                                              - "Label it \"Maintenance Disposal\" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                                - ↩ cycle
+                                              - "Label it \"Judicial Reclamation\" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
+                                                - ↩ cycle
+                                          - "THE FINAL INCISION: Trigger \"The Melting Point\"." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                      - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                              - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                - ↩ cycle
+                  - "Order the monkeys to begin preliminary harvesting en route." → WITCH_WEST_MID_AIR_HARVEST
+                    - WITCH_WEST_MID_AIR_HARVEST
+                      - "Complete the harvest — proceed to the full Obsidian Eye ritual." → WITCH_WEST_ORACLE_ENTRY
+                        - ↩ cycle
+                      - "Carry what remains to the tower for proper documentation." → WITCH_WEST_TOWER_PREP
+                        - WITCH_WEST_TOWER_PREP
+                          - "The chamber is prepared. Begin the Obsidian Eye procedure." → WITCH_WEST_ORACLE_ENTRY
+                            - ↩ cycle
+                          - "The Clerk signals a compliance concern — attend to the warning." → WITCH_WEST_CLERK_INTERLUDE
+                            - WITCH_WEST_CLERK_INTERLUDE
+                              - "Force the verdict now — Summon the Obsidian Matron." → WITCH_WEST_ORACLE_ENTRY
+                                - ↩ cycle
+                              - "Ignore the Clerk. Proceed with psychological pressure." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                                - WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                                  - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
+                                    - ↩ cycle
+                                  - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
+                                    - WITCH_WEST_TORMENT_DETAIL
+                                      - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
+                                        - ↩ cycle
+                                      - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
+                                        - WITCH_WEST_END_SCRAP [ENDING]
+                          - "Walk the perimeter — let the Winkie chant stabilize the ritual chamber." → WITCH_WEST_WINKIE_CORRIDOR
+                            - WITCH_WEST_WINKIE_CORRIDOR
+                              - "Force the Guards to double the tempo. (Add Load / Increase Heat)." → WITCH_WEST_THERMAL_SURGE
+                                - WITCH_WEST_THERMAL_SURGE
+                                  - "Peer directly into the white-hot center." → WITCH_WEST_END_SEARING_TRUTH
+                                    - WITCH_WEST_END_SEARING_TRUTH [ENDING]
+                                  - "Try to vent the heat (Requires Water Protocol)." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "Use the chant to soothe the Lion's tremor (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                - WITCH_WEST_COMMAND_DECK_V2
+                                  - "BIOMETRICS: Access the Lion's Tremor-Log." → WITCH_WEST_LION_AUDIT_HUB
+                                    - WITCH_WEST_LION_AUDIT_HUB
+                                      - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                        - WITCH_WEST_SCRAPE_MANE
+                                          - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                      - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - WITCH_WEST_LION_AUDIT_HUB
+                                          - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                            - WITCH_WEST_SCRAPE_MANE
+                                              - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                              - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                          - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                            - ↩ cycle
+                                      - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - WITCH_WEST_LION_AUDIT_HUB
+                                          - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                            - WITCH_WEST_SCRAPE_MANE
+                                              - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                              - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                          - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                            - ↩ cycle
+                                      - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                        - ↩ cycle
+                                  - "SURVEILLANCE: Deploy \"Eye-on-a-String\" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
+                                    - WITCH_WEST_OBSIDIAN_VIEW
+                                      - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
+                                        - ↩ cycle
+                                      - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
+                                        - WITCH_WEST_FIELD_CONFRONTATION
+                                          - "Pick who gets the first incision, then begin the Obsidian Eye ritual." → WITCH_WEST_SELECT_TARGET
+                                            - WITCH_WEST_SELECT_TARGET
+                                              - "Lion" → WITCH_WEST_ORACLE_ENTRY_LION
+                                                - WITCH_WEST_ORACLE_ENTRY_LION
+                                                  - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                    - ↩ cycle
+                                              - "Dorothy" → WITCH_WEST_ORACLE_ENTRY_DOROTHY
+                                                - WITCH_WEST_ORACLE_ENTRY_DOROTHY
+                                                  - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                    - ↩ cycle
+                                              - "Tin Man" → WITCH_WEST_ORACLE_ENTRY_TINMAN
+                                                - WITCH_WEST_ORACLE_ENTRY_TINMAN
+                                                  - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                    - ↩ cycle
+                                              - "Scarecrow" → WITCH_WEST_ORACLE_ENTRY_SCARECROW
+                                                - WITCH_WEST_ORACLE_ENTRY_SCARECROW
+                                                  - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                    - ↩ cycle
+                                          - "Have the monkeys carry him back to the tower for a proper procedure." → WITCH_WEST_TOWER_PREP
+                                            - ↩ cycle
+                                          - "Toy with him first. Make him beg for the mercy of the scalpel." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                                            - WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                                              - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
+                                                - ↩ cycle
+                                              - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
+                                                - WITCH_WEST_TORMENT_DETAIL
+                                                  - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
+                                                    - ↩ cycle
+                                                  - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "The Clerk flags the warrant status — review the audit logs." → WITCH_WEST_BUREAU_LOG_CHECK
+                                            - WITCH_WEST_BUREAU_LOG_CHECK
+                                              - "\"It is a Judicial Necessity.\" (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
+                                                - WITCH_WEST_COMMAND_DECK
+                                                  - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
+                                                    - WITCH_WEST_MONKEY_MANAGEMENT
+                                                      - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                                        - ↩ cycle
+                                                      - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                        - ↩ cycle
+                                                      - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                                        - ↩ cycle
+                                                  - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
+                                                    - WITCH_WEST_POPPY_CALIBRATION
+                                                      - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
+                                                        - ↩ cycle
+                                                      - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                                        - ↩ cycle
+                                                  - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
+                                                    - ↩ cycle
+                                                  - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                                    - ↩ cycle
+                                              - "\"The target is non-compliant.\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                - WITCH_WEST_COMMAND_DECK
+                                                  - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
+                                                    - WITCH_WEST_MONKEY_MANAGEMENT
+                                                      - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                                        - ↩ cycle
+                                                      - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                        - ↩ cycle
+                                                      - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                                        - ↩ cycle
+                                                  - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
+                                                    - WITCH_WEST_POPPY_CALIBRATION
+                                                      - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
+                                                        - ↩ cycle
+                                                      - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                                        - ↩ cycle
+                                                  - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
+                                                    - ↩ cycle
+                                                  - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                                    - ↩ cycle
+                                      - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
+                                        - WITCH_WEST_SIGNAL_BLEED
+                                          - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                            - ↩ cycle
+                                          - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                  - "PHARMACOLOGY: Refine the Poppy Resin in the crucible." → WITCH_WEST_POPPY_BUFFER
+                                    - WITCH_WEST_POPPY_BUFFER
+                                      - "Wait for them at the tower gate. Receive them at full compliance." → WITCH_WEST_FIELD_CONFRONTATION
+                                        - WITCH_WEST_FIELD_CONFRONTATION
+                                          - "Pick who gets the first incision, then begin the Obsidian Eye ritual." → WITCH_WEST_SELECT_TARGET
+                                            - WITCH_WEST_SELECT_TARGET
+                                              - "Lion" → WITCH_WEST_ORACLE_ENTRY_LION
+                                                - WITCH_WEST_ORACLE_ENTRY_LION
+                                                  - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                    - ↩ cycle
+                                              - "Dorothy" → WITCH_WEST_ORACLE_ENTRY_DOROTHY
+                                                - WITCH_WEST_ORACLE_ENTRY_DOROTHY
+                                                  - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                    - ↩ cycle
+                                              - "Tin Man" → WITCH_WEST_ORACLE_ENTRY_TINMAN
+                                                - WITCH_WEST_ORACLE_ENTRY_TINMAN
+                                                  - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                    - ↩ cycle
+                                              - "Scarecrow" → WITCH_WEST_ORACLE_ENTRY_SCARECROW
+                                                - WITCH_WEST_ORACLE_ENTRY_SCARECROW
+                                                  - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                    - ↩ cycle
+                                          - "Have the monkeys carry him back to the tower for a proper procedure." → WITCH_WEST_TOWER_PREP
+                                            - ↩ cycle
+                                          - "Toy with him first. Make him beg for the mercy of the scalpel." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                                            - WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                                              - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
+                                                - ↩ cycle
+                                              - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
+                                                - WITCH_WEST_TORMENT_DETAIL
+                                                  - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
+                                                    - ↩ cycle
+                                                  - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "The Clerk flags the warrant status — review the audit logs." → WITCH_WEST_BUREAU_LOG_CHECK
+                                            - WITCH_WEST_BUREAU_LOG_CHECK
+                                              - "\"It is a Judicial Necessity.\" (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
+                                                - WITCH_WEST_COMMAND_DECK
+                                                  - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
+                                                    - WITCH_WEST_MONKEY_MANAGEMENT
+                                                      - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                                        - ↩ cycle
+                                                      - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                        - ↩ cycle
+                                                      - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                                        - ↩ cycle
+                                                  - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
+                                                    - WITCH_WEST_POPPY_CALIBRATION
+                                                      - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
+                                                        - ↩ cycle
+                                                      - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                                        - ↩ cycle
+                                                  - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
+                                                    - WITCH_WEST_OBSIDIAN_VIEW
+                                                      - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
+                                                        - ↩ cycle
+                                                      - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
+                                                        - ↩ cycle
+                                                      - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
+                                                        - WITCH_WEST_SIGNAL_BLEED
+                                                          - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                                            - ↩ cycle
+                                                          - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
+                                                            - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                                    - ↩ cycle
+                                              - "\"The target is non-compliant.\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                - WITCH_WEST_COMMAND_DECK
+                                                  - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
+                                                    - WITCH_WEST_MONKEY_MANAGEMENT
+                                                      - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                                        - ↩ cycle
+                                                      - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                        - ↩ cycle
+                                                      - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                                        - ↩ cycle
+                                                  - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
+                                                    - WITCH_WEST_POPPY_CALIBRATION
+                                                      - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
+                                                        - ↩ cycle
+                                                      - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                                        - ↩ cycle
+                                                  - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
+                                                    - WITCH_WEST_OBSIDIAN_VIEW
+                                                      - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
+                                                        - ↩ cycle
+                                                      - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
+                                                        - ↩ cycle
+                                                      - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
+                                                        - WITCH_WEST_SIGNAL_BLEED
+                                                          - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                                            - ↩ cycle
+                                                          - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
+                                                            - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                                    - ↩ cycle
+                                      - "Send the monkeys to accelerate their arrival." → WITCH_WEST_MONKEY_SWEEP_B
+                                        - ↩ cycle
+                                  - "ADMINISTRATION: File a \"Pre-emptive Deletion\" warrant." → WITCH_WEST_BUREAU_FILING
+                                    - WITCH_WEST_BUREAU_FILING
+                                      - "Label it \"Maintenance Disposal\" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                        - ↩ cycle
+                                      - "Label it \"Judicial Reclamation\" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
+                                        - ↩ cycle
+                                  - "THE FINAL INCISION: Trigger \"The Melting Point\"." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                      - "Monitor the kinetic audit in granular detail." → WITCH_WEST_MID_AIR_HARVEST_DETAIL
+                        - WITCH_WEST_MID_AIR_HARVEST_DETAIL
+                          - "Receive the parts in the Ritual Chamber." → WITCH_WEST_TOWER_PREP
+                            - WITCH_WEST_TOWER_PREP
+                              - "The chamber is prepared. Begin the Obsidian Eye procedure." → WITCH_WEST_ORACLE_ENTRY
+                                - ↩ cycle
+                              - "The Clerk signals a compliance concern — attend to the warning." → WITCH_WEST_CLERK_INTERLUDE
+                                - WITCH_WEST_CLERK_INTERLUDE
+                                  - "Force the verdict now — Summon the Obsidian Matron." → WITCH_WEST_ORACLE_ENTRY
+                                    - ↩ cycle
+                                  - "Ignore the Clerk. Proceed with psychological pressure." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                                    - WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                                      - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
+                                        - ↩ cycle
+                                      - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                      - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
+                                        - WITCH_WEST_TORMENT_DETAIL
+                                          - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
+                                            - ↩ cycle
+                                          - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
+                                            - WITCH_WEST_END_SCRAP [ENDING]
+                              - "Walk the perimeter — let the Winkie chant stabilize the ritual chamber." → WITCH_WEST_WINKIE_CORRIDOR
+                                - WITCH_WEST_WINKIE_CORRIDOR
+                                  - "Force the Guards to double the tempo. (Add Load / Increase Heat)." → WITCH_WEST_THERMAL_SURGE
+                                    - WITCH_WEST_THERMAL_SURGE
+                                      - "Peer directly into the white-hot center." → WITCH_WEST_END_SEARING_TRUTH
+                                        - WITCH_WEST_END_SEARING_TRUTH [ENDING]
+                                      - "Try to vent the heat (Requires Water Protocol)." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Use the chant to soothe the Lion's tremor (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                    - WITCH_WEST_COMMAND_DECK_V2
+                                      - "BIOMETRICS: Access the Lion's Tremor-Log." → WITCH_WEST_LION_AUDIT_HUB
+                                        - WITCH_WEST_LION_AUDIT_HUB
+                                          - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                            - WITCH_WEST_SCRAPE_MANE
+                                              - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                              - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                          - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                            - WITCH_WEST_LION_AUDIT_HUB
+                                              - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                                - WITCH_WEST_SCRAPE_MANE
+                                                  - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                                    - ↩ cycle
+                                                  - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                                    - ↩ cycle
+                                              - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                              - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                              - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                                - ↩ cycle
+                                          - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                            - WITCH_WEST_LION_AUDIT_HUB
+                                              - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                                - WITCH_WEST_SCRAPE_MANE
+                                                  - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                                    - ↩ cycle
+                                                  - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                                    - ↩ cycle
+                                              - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                              - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                              - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                                - ↩ cycle
+                                          - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                            - ↩ cycle
+                                      - "SURVEILLANCE: Deploy \"Eye-on-a-String\" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
+                                        - WITCH_WEST_OBSIDIAN_VIEW
+                                          - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
+                                            - ↩ cycle
+                                          - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
+                                            - WITCH_WEST_FIELD_CONFRONTATION
+                                              - "Pick who gets the first incision, then begin the Obsidian Eye ritual." → WITCH_WEST_SELECT_TARGET
+                                                - WITCH_WEST_SELECT_TARGET
+                                                  - "Lion" → WITCH_WEST_ORACLE_ENTRY_LION
+                                                    - WITCH_WEST_ORACLE_ENTRY_LION
+                                                      - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                        - ↩ cycle
+                                                  - "Dorothy" → WITCH_WEST_ORACLE_ENTRY_DOROTHY
+                                                    - WITCH_WEST_ORACLE_ENTRY_DOROTHY
+                                                      - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                        - ↩ cycle
+                                                  - "Tin Man" → WITCH_WEST_ORACLE_ENTRY_TINMAN
+                                                    - WITCH_WEST_ORACLE_ENTRY_TINMAN
+                                                      - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                        - ↩ cycle
+                                                  - "Scarecrow" → WITCH_WEST_ORACLE_ENTRY_SCARECROW
+                                                    - WITCH_WEST_ORACLE_ENTRY_SCARECROW
+                                                      - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                        - ↩ cycle
+                                              - "Have the monkeys carry him back to the tower for a proper procedure." → WITCH_WEST_TOWER_PREP
+                                                - ↩ cycle
+                                              - "Toy with him first. Make him beg for the mercy of the scalpel." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                                                - WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                                                  - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
+                                                    - ↩ cycle
+                                                  - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
+                                                    - WITCH_WEST_TORMENT_DETAIL
+                                                      - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
+                                                        - ↩ cycle
+                                                      - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "The Clerk flags the warrant status — review the audit logs." → WITCH_WEST_BUREAU_LOG_CHECK
+                                                - WITCH_WEST_BUREAU_LOG_CHECK
+                                                  - "\"It is a Judicial Necessity.\" (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
+                                                    - WITCH_WEST_COMMAND_DECK
+                                                      - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
+                                                        - WITCH_WEST_MONKEY_MANAGEMENT
+                                                          - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                                            - ↩ cycle
+                                                          - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                            - ↩ cycle
+                                                          - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                                            - ↩ cycle
+                                                      - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
+                                                        - WITCH_WEST_POPPY_CALIBRATION
+                                                          - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
+                                                            - ↩ cycle
+                                                          - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                                            - ↩ cycle
+                                                      - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
+                                                        - ↩ cycle
+                                                      - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                                        - ↩ cycle
+                                                  - "\"The target is non-compliant.\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                    - WITCH_WEST_COMMAND_DECK
+                                                      - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
+                                                        - WITCH_WEST_MONKEY_MANAGEMENT
+                                                          - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                                            - ↩ cycle
+                                                          - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                            - ↩ cycle
+                                                          - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                                            - ↩ cycle
+                                                      - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
+                                                        - WITCH_WEST_POPPY_CALIBRATION
+                                                          - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
+                                                            - ↩ cycle
+                                                          - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                                            - ↩ cycle
+                                                      - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
+                                                        - ↩ cycle
+                                                      - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                                        - ↩ cycle
+                                          - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
+                                            - WITCH_WEST_SIGNAL_BLEED
+                                              - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                                - ↩ cycle
+                                              - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                      - "PHARMACOLOGY: Refine the Poppy Resin in the crucible." → WITCH_WEST_POPPY_BUFFER
+                                        - WITCH_WEST_POPPY_BUFFER
+                                          - "Wait for them at the tower gate. Receive them at full compliance." → WITCH_WEST_FIELD_CONFRONTATION
+                                            - WITCH_WEST_FIELD_CONFRONTATION
+                                              - "Pick who gets the first incision, then begin the Obsidian Eye ritual." → WITCH_WEST_SELECT_TARGET
+                                                - WITCH_WEST_SELECT_TARGET
+                                                  - "Lion" → WITCH_WEST_ORACLE_ENTRY_LION
+                                                    - WITCH_WEST_ORACLE_ENTRY_LION
+                                                      - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                        - ↩ cycle
+                                                  - "Dorothy" → WITCH_WEST_ORACLE_ENTRY_DOROTHY
+                                                    - WITCH_WEST_ORACLE_ENTRY_DOROTHY
+                                                      - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                        - ↩ cycle
+                                                  - "Tin Man" → WITCH_WEST_ORACLE_ENTRY_TINMAN
+                                                    - WITCH_WEST_ORACLE_ENTRY_TINMAN
+                                                      - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                        - ↩ cycle
+                                                  - "Scarecrow" → WITCH_WEST_ORACLE_ENTRY_SCARECROW
+                                                    - WITCH_WEST_ORACLE_ENTRY_SCARECROW
+                                                      - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                        - ↩ cycle
+                                              - "Have the monkeys carry him back to the tower for a proper procedure." → WITCH_WEST_TOWER_PREP
+                                                - ↩ cycle
+                                              - "Toy with him first. Make him beg for the mercy of the scalpel." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                                                - WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                                                  - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
+                                                    - ↩ cycle
+                                                  - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
+                                                    - WITCH_WEST_TORMENT_DETAIL
+                                                      - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
+                                                        - ↩ cycle
+                                                      - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "The Clerk flags the warrant status — review the audit logs." → WITCH_WEST_BUREAU_LOG_CHECK
+                                                - WITCH_WEST_BUREAU_LOG_CHECK
+                                                  - "\"It is a Judicial Necessity.\" (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
+                                                    - WITCH_WEST_COMMAND_DECK
+                                                      - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
+                                                        - WITCH_WEST_MONKEY_MANAGEMENT
+                                                          - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                                            - ↩ cycle
+                                                          - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                            - ↩ cycle
+                                                          - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                                            - ↩ cycle
+                                                      - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
+                                                        - WITCH_WEST_POPPY_CALIBRATION
+                                                          - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
+                                                            - ↩ cycle
+                                                          - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                                            - ↩ cycle
+                                                      - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
+                                                        - WITCH_WEST_OBSIDIAN_VIEW
+                                                          - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
+                                                            - ↩ cycle
+                                                          - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
+                                                            - ↩ cycle
+                                                          - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
+                                                            - WITCH_WEST_SIGNAL_BLEED
+                                                              - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                                                - ↩ cycle
+                                                              - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
+                                                                - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                                        - ↩ cycle
+                                                  - "\"The target is non-compliant.\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                    - WITCH_WEST_COMMAND_DECK
+                                                      - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
+                                                        - WITCH_WEST_MONKEY_MANAGEMENT
+                                                          - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                                            - ↩ cycle
+                                                          - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                            - ↩ cycle
+                                                          - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                                            - ↩ cycle
+                                                      - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
+                                                        - WITCH_WEST_POPPY_CALIBRATION
+                                                          - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
+                                                            - ↩ cycle
+                                                          - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                                            - ↩ cycle
+                                                      - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
+                                                        - WITCH_WEST_OBSIDIAN_VIEW
+                                                          - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
+                                                            - ↩ cycle
+                                                          - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
+                                                            - ↩ cycle
+                                                          - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
+                                                            - WITCH_WEST_SIGNAL_BLEED
+                                                              - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                                                - ↩ cycle
+                                                              - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
+                                                                - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                                        - ↩ cycle
+                                          - "Send the monkeys to accelerate their arrival." → WITCH_WEST_MONKEY_SWEEP_B
+                                            - ↩ cycle
+                                      - "ADMINISTRATION: File a \"Pre-emptive Deletion\" warrant." → WITCH_WEST_BUREAU_FILING
+                                        - WITCH_WEST_BUREAU_FILING
+                                          - "Label it \"Maintenance Disposal\" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                            - ↩ cycle
+                                          - "Label it \"Judicial Reclamation\" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
+                                            - ↩ cycle
+                                      - "THE FINAL INCISION: Trigger \"The Melting Point\"." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                  - "Observe the aerial deployment from altitude — let the sweep run its course." → WITCH_WEST_PATH_MONKEYS
+                    - WITCH_WEST_PATH_MONKEYS
+                      - "Escalate the warrant — route toward total enforcement." → WITCH_WEST_END_MELTING
+                        - WITCH_WEST_END_MELTING [ENDING]
+                      - "Recall the monkeys — perform the ritual personally." → WITCH_WEST_ORACLE_ENTRY
+                        - ↩ cycle
+          - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+            - WITCH_WEST_ORACLE_3
+              - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                - WITCH_WEST_END_SCRAP [ENDING]
+              - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                - WITCH_WEST_END_MELTING [ENDING]
+          - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+            - WITCH_WEST_ORACLE_4
+              - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                - WITCH_WEST_END_COMMAND [ENDING]
+              - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                - WITCH_WEST_END_FLECHETTE [ENDING]
+          - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+            - WITCH_WEST_ORACLE_5
+              - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                - WITCH_WEST_END_MELTING [ENDING]
+              - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                - WITCH_WEST_END_COMMAND [ENDING]
+          - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+            - WITCH_WEST_ORACLE_6
+              - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                - WITCH_WEST_END_COMMAND [ENDING]
+              - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                - WITCH_WEST_END_SCRAP [ENDING]
+          - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+            - WITCH_WEST_ORACLE_7
+              - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                - WITCH_WEST_END_COMMAND [ENDING]
+              - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                - WITCH_WEST_END_MELTING [ENDING]
+          - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+            - WITCH_WEST_ORACLE_8
+              - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                - WITCH_WEST_END_MELTING [ENDING]
+              - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                - WITCH_WEST_END_SCRAP [ENDING]
+      - "Release the restraint for now. Let them marinate in anticipation." → WITCH_WEST_MONKEY_SWEEP_B
+        - WITCH_WEST_MONKEY_SWEEP_B
+          - "Watch the capture through the obsidian eye. Savor every moment." → WITCH_WEST_OBSIDIAN_VIEW
+            - WITCH_WEST_OBSIDIAN_VIEW
+              - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
+                - ↩ cycle
+              - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
+                - WITCH_WEST_FIELD_CONFRONTATION
+                  - "Pick who gets the first incision, then begin the Obsidian Eye ritual." → WITCH_WEST_SELECT_TARGET
+                    - WITCH_WEST_SELECT_TARGET
+                      - "Lion" → WITCH_WEST_ORACLE_ENTRY_LION
+                        - WITCH_WEST_ORACLE_ENTRY_LION
+                          - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                            - WITCH_WEST_ORACLE_DRAW
+                              - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                - WITCH_WEST_ORACLE_1
+                                  - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                  - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                - WITCH_WEST_ORACLE_2
+                                  - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                    - ↩ cycle
+                              - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                - WITCH_WEST_ORACLE_3
+                                  - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                - WITCH_WEST_ORACLE_4
+                                  - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                              - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                - WITCH_WEST_ORACLE_5
+                                  - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                              - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                - WITCH_WEST_ORACLE_6
+                                  - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                              - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                - WITCH_WEST_ORACLE_7
+                                  - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                - WITCH_WEST_ORACLE_8
+                                  - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                      - "Dorothy" → WITCH_WEST_ORACLE_ENTRY_DOROTHY
+                        - WITCH_WEST_ORACLE_ENTRY_DOROTHY
+                          - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                            - WITCH_WEST_ORACLE_DRAW
+                              - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                - WITCH_WEST_ORACLE_1
+                                  - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                  - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                - WITCH_WEST_ORACLE_2
+                                  - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                    - ↩ cycle
+                              - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                - WITCH_WEST_ORACLE_3
+                                  - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                - WITCH_WEST_ORACLE_4
+                                  - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                              - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                - WITCH_WEST_ORACLE_5
+                                  - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                              - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                - WITCH_WEST_ORACLE_6
+                                  - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                              - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                - WITCH_WEST_ORACLE_7
+                                  - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                - WITCH_WEST_ORACLE_8
+                                  - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                      - "Tin Man" → WITCH_WEST_ORACLE_ENTRY_TINMAN
+                        - WITCH_WEST_ORACLE_ENTRY_TINMAN
+                          - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                            - WITCH_WEST_ORACLE_DRAW
+                              - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                - WITCH_WEST_ORACLE_1
+                                  - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                  - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                - WITCH_WEST_ORACLE_2
+                                  - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                    - ↩ cycle
+                              - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                - WITCH_WEST_ORACLE_3
+                                  - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                - WITCH_WEST_ORACLE_4
+                                  - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                              - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                - WITCH_WEST_ORACLE_5
+                                  - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                              - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                - WITCH_WEST_ORACLE_6
+                                  - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                              - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                - WITCH_WEST_ORACLE_7
+                                  - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                - WITCH_WEST_ORACLE_8
+                                  - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                      - "Scarecrow" → WITCH_WEST_ORACLE_ENTRY_SCARECROW
+                        - WITCH_WEST_ORACLE_ENTRY_SCARECROW
+                          - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                            - WITCH_WEST_ORACLE_DRAW
+                              - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                - WITCH_WEST_ORACLE_1
+                                  - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                  - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                - WITCH_WEST_ORACLE_2
+                                  - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                    - ↩ cycle
+                              - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                - WITCH_WEST_ORACLE_3
+                                  - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                - WITCH_WEST_ORACLE_4
+                                  - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                              - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                - WITCH_WEST_ORACLE_5
+                                  - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                              - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                - WITCH_WEST_ORACLE_6
+                                  - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                              - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                - WITCH_WEST_ORACLE_7
+                                  - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                  - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                - WITCH_WEST_ORACLE_8
+                                  - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                  - "Have the monkeys carry him back to the tower for a proper procedure." → WITCH_WEST_TOWER_PREP
+                    - WITCH_WEST_TOWER_PREP
+                      - "The chamber is prepared. Begin the Obsidian Eye procedure." → WITCH_WEST_ORACLE_ENTRY
+                        - ↩ cycle
+                      - "The Clerk signals a compliance concern — attend to the warning." → WITCH_WEST_CLERK_INTERLUDE
+                        - WITCH_WEST_CLERK_INTERLUDE
+                          - "Force the verdict now — Summon the Obsidian Matron." → WITCH_WEST_ORACLE_ENTRY
+                            - ↩ cycle
+                          - "Ignore the Clerk. Proceed with psychological pressure." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                            - WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                              - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
+                                - ↩ cycle
+                              - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
+                                - WITCH_WEST_TORMENT_DETAIL
+                                  - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
+                                    - ↩ cycle
+                                  - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                      - "Walk the perimeter — let the Winkie chant stabilize the ritual chamber." → WITCH_WEST_WINKIE_CORRIDOR
+                        - WITCH_WEST_WINKIE_CORRIDOR
+                          - "Force the Guards to double the tempo. (Add Load / Increase Heat)." → WITCH_WEST_THERMAL_SURGE
+                            - WITCH_WEST_THERMAL_SURGE
+                              - "Peer directly into the white-hot center." → WITCH_WEST_END_SEARING_TRUTH
+                                - WITCH_WEST_END_SEARING_TRUTH [ENDING]
+                              - "Try to vent the heat (Requires Water Protocol)." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "Use the chant to soothe the Lion's tremor (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                            - WITCH_WEST_COMMAND_DECK_V2
+                              - "BIOMETRICS: Access the Lion's Tremor-Log." → WITCH_WEST_LION_AUDIT_HUB
+                                - WITCH_WEST_LION_AUDIT_HUB
+                                  - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                    - WITCH_WEST_SCRAPE_MANE
+                                      - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                  - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                    - WITCH_WEST_LION_AUDIT_HUB
+                                      - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                        - WITCH_WEST_SCRAPE_MANE
+                                          - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                      - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                        - ↩ cycle
+                                  - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                    - WITCH_WEST_LION_AUDIT_HUB
+                                      - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                        - WITCH_WEST_SCRAPE_MANE
+                                          - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                      - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                        - ↩ cycle
+                                  - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
+                              - "SURVEILLANCE: Deploy \"Eye-on-a-String\" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
+                                - ↩ cycle
+                              - "PHARMACOLOGY: Refine the Poppy Resin in the crucible." → WITCH_WEST_POPPY_BUFFER
+                                - WITCH_WEST_POPPY_BUFFER
+                                  - "Wait for them at the tower gate. Receive them at full compliance." → WITCH_WEST_FIELD_CONFRONTATION
+                                    - ↩ cycle
+                                  - "Send the monkeys to accelerate their arrival." → WITCH_WEST_MONKEY_SWEEP_B
+                                    - ↩ cycle
+                              - "ADMINISTRATION: File a \"Pre-emptive Deletion\" warrant." → WITCH_WEST_BUREAU_FILING
+                                - WITCH_WEST_BUREAU_FILING
+                                  - "Label it \"Maintenance Disposal\" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
+                                  - "Label it \"Judicial Reclamation\" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
+                              - "THE FINAL INCISION: Trigger \"The Melting Point\"." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                  - "Toy with him first. Make him beg for the mercy of the scalpel." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                    - WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                      - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
+                        - ↩ cycle
+                      - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
+                        - WITCH_WEST_END_MELTING [ENDING]
+                      - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
+                        - WITCH_WEST_TORMENT_DETAIL
+                          - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
+                            - ↩ cycle
+                          - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
+                            - WITCH_WEST_END_SCRAP [ENDING]
+                  - "The Clerk flags the warrant status — review the audit logs." → WITCH_WEST_BUREAU_LOG_CHECK
+                    - WITCH_WEST_BUREAU_LOG_CHECK
+                      - "\"It is a Judicial Necessity.\" (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
+                        - WITCH_WEST_COMMAND_DECK
+                          - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
+                            - WITCH_WEST_MONKEY_MANAGEMENT
+                              - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                - ↩ cycle
+                              - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                - ↩ cycle
+                              - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                - ↩ cycle
+                          - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
+                            - WITCH_WEST_POPPY_CALIBRATION
+                              - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
+                                - ↩ cycle
+                              - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                - ↩ cycle
+                          - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
+                            - ↩ cycle
+                          - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                            - ↩ cycle
+                      - "\"The target is non-compliant.\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                        - WITCH_WEST_COMMAND_DECK
+                          - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
+                            - WITCH_WEST_MONKEY_MANAGEMENT
+                              - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                - ↩ cycle
+                              - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                - ↩ cycle
+                              - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                - ↩ cycle
+                          - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
+                            - WITCH_WEST_POPPY_CALIBRATION
+                              - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
+                                - ↩ cycle
+                              - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                - ↩ cycle
+                          - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
+                            - ↩ cycle
+                          - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                            - ↩ cycle
+              - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
+                - WITCH_WEST_SIGNAL_BLEED
+                  - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
+                    - WITCH_WEST_COMMAND_DECK_V2
+                      - "BIOMETRICS: Access the Lion's Tremor-Log." → WITCH_WEST_LION_AUDIT_HUB
+                        - WITCH_WEST_LION_AUDIT_HUB
+                          - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                            - WITCH_WEST_SCRAPE_MANE
+                              - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                - ↩ cycle
+                              - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                - ↩ cycle
+                          - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                            - WITCH_WEST_LION_AUDIT_HUB
+                              - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                - WITCH_WEST_SCRAPE_MANE
+                                  - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                              - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                - ↩ cycle
+                              - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                - ↩ cycle
+                              - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                - ↩ cycle
+                          - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                            - WITCH_WEST_LION_AUDIT_HUB
+                              - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                - WITCH_WEST_SCRAPE_MANE
+                                  - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                              - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                - ↩ cycle
+                              - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                - ↩ cycle
+                              - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                - ↩ cycle
+                          - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                            - ↩ cycle
+                      - "SURVEILLANCE: Deploy \"Eye-on-a-String\" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
+                        - ↩ cycle
+                      - "PHARMACOLOGY: Refine the Poppy Resin in the crucible." → WITCH_WEST_POPPY_BUFFER
+                        - WITCH_WEST_POPPY_BUFFER
+                          - "Wait for them at the tower gate. Receive them at full compliance." → WITCH_WEST_FIELD_CONFRONTATION
+                            - WITCH_WEST_FIELD_CONFRONTATION
+                              - "Pick who gets the first incision, then begin the Obsidian Eye ritual." → WITCH_WEST_SELECT_TARGET
+                                - WITCH_WEST_SELECT_TARGET
+                                  - "Lion" → WITCH_WEST_ORACLE_ENTRY_LION
+                                    - WITCH_WEST_ORACLE_ENTRY_LION
+                                      - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                        - WITCH_WEST_ORACLE_DRAW
+                                          - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                            - WITCH_WEST_ORACLE_1
+                                              - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                            - WITCH_WEST_ORACLE_2
+                                              - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                - ↩ cycle
+                                          - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                            - WITCH_WEST_ORACLE_3
+                                              - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                            - WITCH_WEST_ORACLE_4
+                                              - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                                          - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                            - WITCH_WEST_ORACLE_5
+                                              - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                            - WITCH_WEST_ORACLE_6
+                                              - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                            - WITCH_WEST_ORACLE_7
+                                              - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                            - WITCH_WEST_ORACLE_8
+                                              - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "Dorothy" → WITCH_WEST_ORACLE_ENTRY_DOROTHY
+                                    - WITCH_WEST_ORACLE_ENTRY_DOROTHY
+                                      - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                        - WITCH_WEST_ORACLE_DRAW
+                                          - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                            - WITCH_WEST_ORACLE_1
+                                              - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                            - WITCH_WEST_ORACLE_2
+                                              - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                - ↩ cycle
+                                          - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                            - WITCH_WEST_ORACLE_3
+                                              - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                            - WITCH_WEST_ORACLE_4
+                                              - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                                          - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                            - WITCH_WEST_ORACLE_5
+                                              - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                            - WITCH_WEST_ORACLE_6
+                                              - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                            - WITCH_WEST_ORACLE_7
+                                              - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                            - WITCH_WEST_ORACLE_8
+                                              - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "Tin Man" → WITCH_WEST_ORACLE_ENTRY_TINMAN
+                                    - WITCH_WEST_ORACLE_ENTRY_TINMAN
+                                      - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                        - WITCH_WEST_ORACLE_DRAW
+                                          - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                            - WITCH_WEST_ORACLE_1
+                                              - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                            - WITCH_WEST_ORACLE_2
+                                              - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                - ↩ cycle
+                                          - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                            - WITCH_WEST_ORACLE_3
+                                              - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                            - WITCH_WEST_ORACLE_4
+                                              - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                                          - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                            - WITCH_WEST_ORACLE_5
+                                              - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                            - WITCH_WEST_ORACLE_6
+                                              - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                            - WITCH_WEST_ORACLE_7
+                                              - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                            - WITCH_WEST_ORACLE_8
+                                              - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "Scarecrow" → WITCH_WEST_ORACLE_ENTRY_SCARECROW
+                                    - WITCH_WEST_ORACLE_ENTRY_SCARECROW
+                                      - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                        - WITCH_WEST_ORACLE_DRAW
+                                          - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                            - WITCH_WEST_ORACLE_1
+                                              - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                            - WITCH_WEST_ORACLE_2
+                                              - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                - ↩ cycle
+                                          - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                            - WITCH_WEST_ORACLE_3
+                                              - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                            - WITCH_WEST_ORACLE_4
+                                              - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                                          - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                            - WITCH_WEST_ORACLE_5
+                                              - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                          - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                            - WITCH_WEST_ORACLE_6
+                                              - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                            - WITCH_WEST_ORACLE_7
+                                              - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                          - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                            - WITCH_WEST_ORACLE_8
+                                              - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                              - "Have the monkeys carry him back to the tower for a proper procedure." → WITCH_WEST_TOWER_PREP
+                                - WITCH_WEST_TOWER_PREP
+                                  - "The chamber is prepared. Begin the Obsidian Eye procedure." → WITCH_WEST_ORACLE_ENTRY
+                                    - ↩ cycle
+                                  - "The Clerk signals a compliance concern — attend to the warning." → WITCH_WEST_CLERK_INTERLUDE
+                                    - WITCH_WEST_CLERK_INTERLUDE
+                                      - "Force the verdict now — Summon the Obsidian Matron." → WITCH_WEST_ORACLE_ENTRY
+                                        - ↩ cycle
+                                      - "Ignore the Clerk. Proceed with psychological pressure." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                                        - WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                                          - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
+                                            - ↩ cycle
+                                          - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                          - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
+                                            - WITCH_WEST_TORMENT_DETAIL
+                                              - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
+                                                - ↩ cycle
+                                              - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "Walk the perimeter — let the Winkie chant stabilize the ritual chamber." → WITCH_WEST_WINKIE_CORRIDOR
+                                    - WITCH_WEST_WINKIE_CORRIDOR
+                                      - "Force the Guards to double the tempo. (Add Load / Increase Heat)." → WITCH_WEST_THERMAL_SURGE
+                                        - WITCH_WEST_THERMAL_SURGE
+                                          - "Peer directly into the white-hot center." → WITCH_WEST_END_SEARING_TRUTH
+                                            - WITCH_WEST_END_SEARING_TRUTH [ENDING]
+                                          - "Try to vent the heat (Requires Water Protocol)." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                      - "Use the chant to soothe the Lion's tremor (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                        - ↩ cycle
+                              - "Toy with him first. Make him beg for the mercy of the scalpel." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                                - WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                                  - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
+                                    - ↩ cycle
+                                  - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                                  - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
+                                    - WITCH_WEST_TORMENT_DETAIL
+                                      - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
+                                        - ↩ cycle
+                                      - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
+                                        - WITCH_WEST_END_SCRAP [ENDING]
+                              - "The Clerk flags the warrant status — review the audit logs." → WITCH_WEST_BUREAU_LOG_CHECK
+                                - WITCH_WEST_BUREAU_LOG_CHECK
+                                  - "\"It is a Judicial Necessity.\" (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
+                                    - WITCH_WEST_COMMAND_DECK
+                                      - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
+                                        - WITCH_WEST_MONKEY_MANAGEMENT
+                                          - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
+                                          - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
+                                          - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                            - ↩ cycle
+                                      - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
+                                        - WITCH_WEST_POPPY_CALIBRATION
+                                          - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
+                                          - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
+                                      - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
+                                        - ↩ cycle
+                                      - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                        - ↩ cycle
+                                  - "\"The target is non-compliant.\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                    - WITCH_WEST_COMMAND_DECK
+                                      - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
+                                        - WITCH_WEST_MONKEY_MANAGEMENT
+                                          - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
+                                          - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
+                                          - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                            - ↩ cycle
+                                      - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
+                                        - WITCH_WEST_POPPY_CALIBRATION
+                                          - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
+                                          - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                            - ↩ cycle
+                                      - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
+                                        - ↩ cycle
+                                      - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                        - ↩ cycle
+                          - "Send the monkeys to accelerate their arrival." → WITCH_WEST_MONKEY_SWEEP_B
+                            - ↩ cycle
+                      - "ADMINISTRATION: File a \"Pre-emptive Deletion\" warrant." → WITCH_WEST_BUREAU_FILING
+                        - WITCH_WEST_BUREAU_FILING
+                          - "Label it \"Maintenance Disposal\" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                            - ↩ cycle
+                          - "Label it \"Judicial Reclamation\" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
+                            - ↩ cycle
+                      - "THE FINAL INCISION: Trigger \"The Melting Point\"." → WITCH_WEST_END_MELTING
+                        - WITCH_WEST_END_MELTING [ENDING]
+                  - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
+                    - WITCH_WEST_END_MELTING [ENDING]
+          - "Descend to the courtyard to greet your new prize personally." → WITCH_WEST_FIELD_CONFRONTATION
+            - WITCH_WEST_FIELD_CONFRONTATION
+              - "Pick who gets the first incision, then begin the Obsidian Eye ritual." → WITCH_WEST_SELECT_TARGET
+                - WITCH_WEST_SELECT_TARGET
+                  - "Lion" → WITCH_WEST_ORACLE_ENTRY_LION
+                    - WITCH_WEST_ORACLE_ENTRY_LION
+                      - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                        - WITCH_WEST_ORACLE_DRAW
+                          - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                            - WITCH_WEST_ORACLE_1
+                              - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                              - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                            - WITCH_WEST_ORACLE_2
+                              - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                - ↩ cycle
+                          - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                            - WITCH_WEST_ORACLE_3
+                              - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                              - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                            - WITCH_WEST_ORACLE_4
+                              - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                          - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                            - WITCH_WEST_ORACLE_5
+                              - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                          - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                            - WITCH_WEST_ORACLE_6
+                              - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                          - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                            - WITCH_WEST_ORACLE_7
+                              - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                            - WITCH_WEST_ORACLE_8
+                              - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                  - "Dorothy" → WITCH_WEST_ORACLE_ENTRY_DOROTHY
+                    - WITCH_WEST_ORACLE_ENTRY_DOROTHY
+                      - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                        - WITCH_WEST_ORACLE_DRAW
+                          - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                            - WITCH_WEST_ORACLE_1
+                              - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                              - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                            - WITCH_WEST_ORACLE_2
+                              - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                - ↩ cycle
+                          - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                            - WITCH_WEST_ORACLE_3
+                              - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                              - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                            - WITCH_WEST_ORACLE_4
+                              - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                          - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                            - WITCH_WEST_ORACLE_5
+                              - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                          - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                            - WITCH_WEST_ORACLE_6
+                              - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                          - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                            - WITCH_WEST_ORACLE_7
+                              - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                            - WITCH_WEST_ORACLE_8
+                              - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                  - "Tin Man" → WITCH_WEST_ORACLE_ENTRY_TINMAN
+                    - WITCH_WEST_ORACLE_ENTRY_TINMAN
+                      - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                        - WITCH_WEST_ORACLE_DRAW
+                          - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                            - WITCH_WEST_ORACLE_1
+                              - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                              - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                            - WITCH_WEST_ORACLE_2
+                              - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                - ↩ cycle
+                          - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                            - WITCH_WEST_ORACLE_3
+                              - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                              - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                            - WITCH_WEST_ORACLE_4
+                              - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                          - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                            - WITCH_WEST_ORACLE_5
+                              - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                          - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                            - WITCH_WEST_ORACLE_6
+                              - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                          - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                            - WITCH_WEST_ORACLE_7
+                              - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                            - WITCH_WEST_ORACLE_8
+                              - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                  - "Scarecrow" → WITCH_WEST_ORACLE_ENTRY_SCARECROW
+                    - WITCH_WEST_ORACLE_ENTRY_SCARECROW
+                      - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                        - WITCH_WEST_ORACLE_DRAW
+                          - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                            - WITCH_WEST_ORACLE_1
+                              - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                              - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                            - WITCH_WEST_ORACLE_2
+                              - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                - ↩ cycle
+                          - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                            - WITCH_WEST_ORACLE_3
+                              - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                              - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                            - WITCH_WEST_ORACLE_4
+                              - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                - WITCH_WEST_END_FLECHETTE [ENDING]
+                          - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                            - WITCH_WEST_ORACLE_5
+                              - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                          - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                            - WITCH_WEST_ORACLE_6
+                              - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                          - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                            - WITCH_WEST_ORACLE_7
+                              - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                - WITCH_WEST_END_COMMAND [ENDING]
+                              - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                            - WITCH_WEST_ORACLE_8
+                              - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+              - "Have the monkeys carry him back to the tower for a proper procedure." → WITCH_WEST_TOWER_PREP
+                - WITCH_WEST_TOWER_PREP
+                  - "The chamber is prepared. Begin the Obsidian Eye procedure." → WITCH_WEST_ORACLE_ENTRY
+                    - ↩ cycle
+                  - "The Clerk signals a compliance concern — attend to the warning." → WITCH_WEST_CLERK_INTERLUDE
+                    - WITCH_WEST_CLERK_INTERLUDE
+                      - "Force the verdict now — Summon the Obsidian Matron." → WITCH_WEST_ORACLE_ENTRY
+                        - ↩ cycle
+                      - "Ignore the Clerk. Proceed with psychological pressure." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                        - WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                          - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
+                            - ↩ cycle
+                          - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                          - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
+                            - WITCH_WEST_TORMENT_DETAIL
+                              - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
+                                - ↩ cycle
+                              - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                  - "Walk the perimeter — let the Winkie chant stabilize the ritual chamber." → WITCH_WEST_WINKIE_CORRIDOR
+                    - WITCH_WEST_WINKIE_CORRIDOR
+                      - "Force the Guards to double the tempo. (Add Load / Increase Heat)." → WITCH_WEST_THERMAL_SURGE
+                        - WITCH_WEST_THERMAL_SURGE
+                          - "Peer directly into the white-hot center." → WITCH_WEST_END_SEARING_TRUTH
+                            - WITCH_WEST_END_SEARING_TRUTH [ENDING]
+                          - "Try to vent the heat (Requires Water Protocol)." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                      - "Use the chant to soothe the Lion's tremor (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                        - WITCH_WEST_COMMAND_DECK_V2
+                          - "BIOMETRICS: Access the Lion's Tremor-Log." → WITCH_WEST_LION_AUDIT_HUB
+                            - WITCH_WEST_LION_AUDIT_HUB
+                              - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                - WITCH_WEST_SCRAPE_MANE
+                                  - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                              - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                - WITCH_WEST_LION_AUDIT_HUB
+                                  - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                    - WITCH_WEST_SCRAPE_MANE
+                                      - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                  - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
+                              - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                - WITCH_WEST_LION_AUDIT_HUB
+                                  - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                    - WITCH_WEST_SCRAPE_MANE
+                                      - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                  - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
+                              - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                - ↩ cycle
+                          - "SURVEILLANCE: Deploy \"Eye-on-a-String\" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
+                            - WITCH_WEST_OBSIDIAN_VIEW
+                              - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
+                                - ↩ cycle
+                              - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
+                                - ↩ cycle
+                              - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
+                                - WITCH_WEST_SIGNAL_BLEED
+                                  - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
+                                  - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                          - "PHARMACOLOGY: Refine the Poppy Resin in the crucible." → WITCH_WEST_POPPY_BUFFER
+                            - WITCH_WEST_POPPY_BUFFER
+                              - "Wait for them at the tower gate. Receive them at full compliance." → WITCH_WEST_FIELD_CONFRONTATION
+                                - ↩ cycle
+                              - "Send the monkeys to accelerate their arrival." → WITCH_WEST_MONKEY_SWEEP_B
+                                - ↩ cycle
+                          - "ADMINISTRATION: File a \"Pre-emptive Deletion\" warrant." → WITCH_WEST_BUREAU_FILING
+                            - WITCH_WEST_BUREAU_FILING
+                              - "Label it \"Maintenance Disposal\" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                - ↩ cycle
+                              - "Label it \"Judicial Reclamation\" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
+                                - ↩ cycle
+                          - "THE FINAL INCISION: Trigger \"The Melting Point\"." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+              - "Toy with him first. Make him beg for the mercy of the scalpel." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                - WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                  - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
+                    - ↩ cycle
+                  - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
+                    - WITCH_WEST_END_MELTING [ENDING]
+                  - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
+                    - WITCH_WEST_TORMENT_DETAIL
+                      - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
+                        - ↩ cycle
+                      - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
+                        - WITCH_WEST_END_SCRAP [ENDING]
+              - "The Clerk flags the warrant status — review the audit logs." → WITCH_WEST_BUREAU_LOG_CHECK
+                - WITCH_WEST_BUREAU_LOG_CHECK
+                  - "\"It is a Judicial Necessity.\" (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
+                    - WITCH_WEST_COMMAND_DECK
+                      - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
+                        - WITCH_WEST_MONKEY_MANAGEMENT
+                          - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                            - ↩ cycle
+                          - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                            - ↩ cycle
+                          - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                            - ↩ cycle
+                      - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
+                        - WITCH_WEST_POPPY_CALIBRATION
+                          - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
+                            - ↩ cycle
+                          - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                            - ↩ cycle
+                      - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
+                        - WITCH_WEST_OBSIDIAN_VIEW
+                          - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
+                            - ↩ cycle
+                          - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
+                            - ↩ cycle
+                          - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
+                            - WITCH_WEST_SIGNAL_BLEED
+                              - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                - WITCH_WEST_COMMAND_DECK_V2
+                                  - "BIOMETRICS: Access the Lion's Tremor-Log." → WITCH_WEST_LION_AUDIT_HUB
+                                    - WITCH_WEST_LION_AUDIT_HUB
+                                      - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                        - WITCH_WEST_SCRAPE_MANE
+                                          - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                      - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - WITCH_WEST_LION_AUDIT_HUB
+                                          - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                            - WITCH_WEST_SCRAPE_MANE
+                                              - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                              - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                          - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                            - ↩ cycle
+                                      - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - WITCH_WEST_LION_AUDIT_HUB
+                                          - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                            - WITCH_WEST_SCRAPE_MANE
+                                              - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                              - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                          - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                            - ↩ cycle
+                                      - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                        - ↩ cycle
+                                  - "SURVEILLANCE: Deploy \"Eye-on-a-String\" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
+                                    - ↩ cycle
+                                  - "PHARMACOLOGY: Refine the Poppy Resin in the crucible." → WITCH_WEST_POPPY_BUFFER
+                                    - WITCH_WEST_POPPY_BUFFER
+                                      - "Wait for them at the tower gate. Receive them at full compliance." → WITCH_WEST_FIELD_CONFRONTATION
+                                        - ↩ cycle
+                                      - "Send the monkeys to accelerate their arrival." → WITCH_WEST_MONKEY_SWEEP_B
+                                        - ↩ cycle
+                                  - "ADMINISTRATION: File a \"Pre-emptive Deletion\" warrant." → WITCH_WEST_BUREAU_FILING
+                                    - WITCH_WEST_BUREAU_FILING
+                                      - "Label it \"Maintenance Disposal\" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                        - ↩ cycle
+                                      - "Label it \"Judicial Reclamation\" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
+                                        - ↩ cycle
+                                  - "THE FINAL INCISION: Trigger \"The Melting Point\"." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                      - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                        - ↩ cycle
+                  - "\"The target is non-compliant.\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                    - WITCH_WEST_COMMAND_DECK
+                      - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
+                        - WITCH_WEST_MONKEY_MANAGEMENT
+                          - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                            - ↩ cycle
+                          - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                            - ↩ cycle
+                          - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                            - ↩ cycle
+                      - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
+                        - WITCH_WEST_POPPY_CALIBRATION
+                          - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
+                            - ↩ cycle
+                          - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                            - ↩ cycle
+                      - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
+                        - WITCH_WEST_OBSIDIAN_VIEW
+                          - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
+                            - ↩ cycle
+                          - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
+                            - ↩ cycle
+                          - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
+                            - WITCH_WEST_SIGNAL_BLEED
+                              - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                - WITCH_WEST_COMMAND_DECK_V2
+                                  - "BIOMETRICS: Access the Lion's Tremor-Log." → WITCH_WEST_LION_AUDIT_HUB
+                                    - WITCH_WEST_LION_AUDIT_HUB
+                                      - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                        - WITCH_WEST_SCRAPE_MANE
+                                          - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                      - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - WITCH_WEST_LION_AUDIT_HUB
+                                          - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                            - WITCH_WEST_SCRAPE_MANE
+                                              - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                              - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                          - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                            - ↩ cycle
+                                      - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - WITCH_WEST_LION_AUDIT_HUB
+                                          - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                            - WITCH_WEST_SCRAPE_MANE
+                                              - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                              - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                                - ↩ cycle
+                                          - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                            - ↩ cycle
+                                      - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                        - ↩ cycle
+                                  - "SURVEILLANCE: Deploy \"Eye-on-a-String\" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
+                                    - ↩ cycle
+                                  - "PHARMACOLOGY: Refine the Poppy Resin in the crucible." → WITCH_WEST_POPPY_BUFFER
+                                    - WITCH_WEST_POPPY_BUFFER
+                                      - "Wait for them at the tower gate. Receive them at full compliance." → WITCH_WEST_FIELD_CONFRONTATION
+                                        - ↩ cycle
+                                      - "Send the monkeys to accelerate their arrival." → WITCH_WEST_MONKEY_SWEEP_B
+                                        - ↩ cycle
+                                  - "ADMINISTRATION: File a \"Pre-emptive Deletion\" warrant." → WITCH_WEST_BUREAU_FILING
+                                    - WITCH_WEST_BUREAU_FILING
+                                      - "Label it \"Maintenance Disposal\" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                        - ↩ cycle
+                                      - "Label it \"Judicial Reclamation\" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
+                                        - ↩ cycle
+                                  - "THE FINAL INCISION: Trigger \"The Melting Point\"." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                              - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                      - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                        - ↩ cycle
+          - "Order the monkeys to begin preliminary harvesting en route." → WITCH_WEST_MID_AIR_HARVEST
+            - WITCH_WEST_MID_AIR_HARVEST
+              - "Complete the harvest — proceed to the full Obsidian Eye ritual." → WITCH_WEST_ORACLE_ENTRY
+                - ↩ cycle
+              - "Carry what remains to the tower for proper documentation." → WITCH_WEST_TOWER_PREP
+                - WITCH_WEST_TOWER_PREP
+                  - "The chamber is prepared. Begin the Obsidian Eye procedure." → WITCH_WEST_ORACLE_ENTRY
+                    - ↩ cycle
+                  - "The Clerk signals a compliance concern — attend to the warning." → WITCH_WEST_CLERK_INTERLUDE
+                    - WITCH_WEST_CLERK_INTERLUDE
+                      - "Force the verdict now — Summon the Obsidian Matron." → WITCH_WEST_ORACLE_ENTRY
+                        - ↩ cycle
+                      - "Ignore the Clerk. Proceed with psychological pressure." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                        - WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                          - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
+                            - ↩ cycle
+                          - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                          - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
+                            - WITCH_WEST_TORMENT_DETAIL
+                              - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
+                                - ↩ cycle
+                              - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
+                                - WITCH_WEST_END_SCRAP [ENDING]
+                  - "Walk the perimeter — let the Winkie chant stabilize the ritual chamber." → WITCH_WEST_WINKIE_CORRIDOR
+                    - WITCH_WEST_WINKIE_CORRIDOR
+                      - "Force the Guards to double the tempo. (Add Load / Increase Heat)." → WITCH_WEST_THERMAL_SURGE
+                        - WITCH_WEST_THERMAL_SURGE
+                          - "Peer directly into the white-hot center." → WITCH_WEST_END_SEARING_TRUTH
+                            - WITCH_WEST_END_SEARING_TRUTH [ENDING]
+                          - "Try to vent the heat (Requires Water Protocol)." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+                      - "Use the chant to soothe the Lion's tremor (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                        - WITCH_WEST_COMMAND_DECK_V2
+                          - "BIOMETRICS: Access the Lion's Tremor-Log." → WITCH_WEST_LION_AUDIT_HUB
+                            - WITCH_WEST_LION_AUDIT_HUB
+                              - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                - WITCH_WEST_SCRAPE_MANE
+                                  - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                              - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                - WITCH_WEST_LION_AUDIT_HUB
+                                  - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                    - WITCH_WEST_SCRAPE_MANE
+                                      - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                  - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
+                              - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                - WITCH_WEST_LION_AUDIT_HUB
+                                  - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                    - WITCH_WEST_SCRAPE_MANE
+                                      - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                  - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                    - ↩ cycle
+                                  - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
+                              - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                - ↩ cycle
+                          - "SURVEILLANCE: Deploy \"Eye-on-a-String\" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
+                            - WITCH_WEST_OBSIDIAN_VIEW
+                              - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
+                                - ↩ cycle
+                              - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
+                                - WITCH_WEST_FIELD_CONFRONTATION
+                                  - "Pick who gets the first incision, then begin the Obsidian Eye ritual." → WITCH_WEST_SELECT_TARGET
+                                    - WITCH_WEST_SELECT_TARGET
+                                      - "Lion" → WITCH_WEST_ORACLE_ENTRY_LION
+                                        - WITCH_WEST_ORACLE_ENTRY_LION
+                                          - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                            - WITCH_WEST_ORACLE_DRAW
+                                              - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                - WITCH_WEST_ORACLE_1
+                                                  - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                - WITCH_WEST_ORACLE_2
+                                                  - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                    - ↩ cycle
+                                              - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                - WITCH_WEST_ORACLE_3
+                                                  - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                - WITCH_WEST_ORACLE_4
+                                                  - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                - WITCH_WEST_ORACLE_5
+                                                  - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                - WITCH_WEST_ORACLE_6
+                                                  - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                - WITCH_WEST_ORACLE_7
+                                                  - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                - WITCH_WEST_ORACLE_8
+                                                  - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                      - "Dorothy" → WITCH_WEST_ORACLE_ENTRY_DOROTHY
+                                        - WITCH_WEST_ORACLE_ENTRY_DOROTHY
+                                          - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                            - WITCH_WEST_ORACLE_DRAW
+                                              - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                - WITCH_WEST_ORACLE_1
+                                                  - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                - WITCH_WEST_ORACLE_2
+                                                  - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                    - ↩ cycle
+                                              - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                - WITCH_WEST_ORACLE_3
+                                                  - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                - WITCH_WEST_ORACLE_4
+                                                  - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                - WITCH_WEST_ORACLE_5
+                                                  - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                - WITCH_WEST_ORACLE_6
+                                                  - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                - WITCH_WEST_ORACLE_7
+                                                  - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                - WITCH_WEST_ORACLE_8
+                                                  - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                      - "Tin Man" → WITCH_WEST_ORACLE_ENTRY_TINMAN
+                                        - WITCH_WEST_ORACLE_ENTRY_TINMAN
+                                          - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                            - WITCH_WEST_ORACLE_DRAW
+                                              - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                - WITCH_WEST_ORACLE_1
+                                                  - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                - WITCH_WEST_ORACLE_2
+                                                  - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                    - ↩ cycle
+                                              - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                - WITCH_WEST_ORACLE_3
+                                                  - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                - WITCH_WEST_ORACLE_4
+                                                  - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                - WITCH_WEST_ORACLE_5
+                                                  - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                - WITCH_WEST_ORACLE_6
+                                                  - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                - WITCH_WEST_ORACLE_7
+                                                  - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                - WITCH_WEST_ORACLE_8
+                                                  - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                      - "Scarecrow" → WITCH_WEST_ORACLE_ENTRY_SCARECROW
+                                        - WITCH_WEST_ORACLE_ENTRY_SCARECROW
+                                          - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                            - WITCH_WEST_ORACLE_DRAW
+                                              - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                - WITCH_WEST_ORACLE_1
+                                                  - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                - WITCH_WEST_ORACLE_2
+                                                  - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                    - ↩ cycle
+                                              - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                - WITCH_WEST_ORACLE_3
+                                                  - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                - WITCH_WEST_ORACLE_4
+                                                  - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                - WITCH_WEST_ORACLE_5
+                                                  - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                - WITCH_WEST_ORACLE_6
+                                                  - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                - WITCH_WEST_ORACLE_7
+                                                  - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                - WITCH_WEST_ORACLE_8
+                                                  - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "Have the monkeys carry him back to the tower for a proper procedure." → WITCH_WEST_TOWER_PREP
+                                    - ↩ cycle
+                                  - "Toy with him first. Make him beg for the mercy of the scalpel." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                                    - WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                                      - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
+                                        - ↩ cycle
+                                      - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                      - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
+                                        - WITCH_WEST_TORMENT_DETAIL
+                                          - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
+                                            - ↩ cycle
+                                          - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
+                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "The Clerk flags the warrant status — review the audit logs." → WITCH_WEST_BUREAU_LOG_CHECK
+                                    - WITCH_WEST_BUREAU_LOG_CHECK
+                                      - "\"It is a Judicial Necessity.\" (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
+                                        - WITCH_WEST_COMMAND_DECK
+                                          - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
+                                            - WITCH_WEST_MONKEY_MANAGEMENT
+                                              - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                              - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                              - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                                - ↩ cycle
+                                          - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
+                                            - WITCH_WEST_POPPY_CALIBRATION
+                                              - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                              - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                          - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
+                                            - ↩ cycle
+                                          - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                            - ↩ cycle
+                                      - "\"The target is non-compliant.\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                        - WITCH_WEST_COMMAND_DECK
+                                          - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
+                                            - WITCH_WEST_MONKEY_MANAGEMENT
+                                              - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                              - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                              - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                                - ↩ cycle
+                                          - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
+                                            - WITCH_WEST_POPPY_CALIBRATION
+                                              - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                              - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                          - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
+                                            - ↩ cycle
+                                          - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                            - ↩ cycle
+                              - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
+                                - WITCH_WEST_SIGNAL_BLEED
+                                  - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
+                                  - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
+                                    - WITCH_WEST_END_MELTING [ENDING]
+                          - "PHARMACOLOGY: Refine the Poppy Resin in the crucible." → WITCH_WEST_POPPY_BUFFER
+                            - WITCH_WEST_POPPY_BUFFER
+                              - "Wait for them at the tower gate. Receive them at full compliance." → WITCH_WEST_FIELD_CONFRONTATION
+                                - WITCH_WEST_FIELD_CONFRONTATION
+                                  - "Pick who gets the first incision, then begin the Obsidian Eye ritual." → WITCH_WEST_SELECT_TARGET
+                                    - WITCH_WEST_SELECT_TARGET
+                                      - "Lion" → WITCH_WEST_ORACLE_ENTRY_LION
+                                        - WITCH_WEST_ORACLE_ENTRY_LION
+                                          - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                            - WITCH_WEST_ORACLE_DRAW
+                                              - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                - WITCH_WEST_ORACLE_1
+                                                  - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                - WITCH_WEST_ORACLE_2
+                                                  - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                    - ↩ cycle
+                                              - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                - WITCH_WEST_ORACLE_3
+                                                  - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                - WITCH_WEST_ORACLE_4
+                                                  - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                - WITCH_WEST_ORACLE_5
+                                                  - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                - WITCH_WEST_ORACLE_6
+                                                  - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                - WITCH_WEST_ORACLE_7
+                                                  - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                - WITCH_WEST_ORACLE_8
+                                                  - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                      - "Dorothy" → WITCH_WEST_ORACLE_ENTRY_DOROTHY
+                                        - WITCH_WEST_ORACLE_ENTRY_DOROTHY
+                                          - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                            - WITCH_WEST_ORACLE_DRAW
+                                              - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                - WITCH_WEST_ORACLE_1
+                                                  - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                - WITCH_WEST_ORACLE_2
+                                                  - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                    - ↩ cycle
+                                              - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                - WITCH_WEST_ORACLE_3
+                                                  - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                - WITCH_WEST_ORACLE_4
+                                                  - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                - WITCH_WEST_ORACLE_5
+                                                  - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                - WITCH_WEST_ORACLE_6
+                                                  - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                - WITCH_WEST_ORACLE_7
+                                                  - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                - WITCH_WEST_ORACLE_8
+                                                  - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                      - "Tin Man" → WITCH_WEST_ORACLE_ENTRY_TINMAN
+                                        - WITCH_WEST_ORACLE_ENTRY_TINMAN
+                                          - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                            - WITCH_WEST_ORACLE_DRAW
+                                              - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                - WITCH_WEST_ORACLE_1
+                                                  - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                - WITCH_WEST_ORACLE_2
+                                                  - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                    - ↩ cycle
+                                              - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                - WITCH_WEST_ORACLE_3
+                                                  - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                - WITCH_WEST_ORACLE_4
+                                                  - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                - WITCH_WEST_ORACLE_5
+                                                  - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                - WITCH_WEST_ORACLE_6
+                                                  - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                - WITCH_WEST_ORACLE_7
+                                                  - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                - WITCH_WEST_ORACLE_8
+                                                  - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                      - "Scarecrow" → WITCH_WEST_ORACLE_ENTRY_SCARECROW
+                                        - WITCH_WEST_ORACLE_ENTRY_SCARECROW
+                                          - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                            - WITCH_WEST_ORACLE_DRAW
+                                              - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                - WITCH_WEST_ORACLE_1
+                                                  - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                - WITCH_WEST_ORACLE_2
+                                                  - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                    - ↩ cycle
+                                              - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                - WITCH_WEST_ORACLE_3
+                                                  - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                - WITCH_WEST_ORACLE_4
+                                                  - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                    - WITCH_WEST_END_FLECHETTE [ENDING]
+                                              - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                - WITCH_WEST_ORACLE_5
+                                                  - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                              - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                - WITCH_WEST_ORACLE_6
+                                                  - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                              - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                - WITCH_WEST_ORACLE_7
+                                                  - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                    - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                              - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                - WITCH_WEST_ORACLE_8
+                                                  - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                    - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "Have the monkeys carry him back to the tower for a proper procedure." → WITCH_WEST_TOWER_PREP
+                                    - ↩ cycle
+                                  - "Toy with him first. Make him beg for the mercy of the scalpel." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                                    - WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                                      - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
+                                        - ↩ cycle
+                                      - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                                      - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
+                                        - WITCH_WEST_TORMENT_DETAIL
+                                          - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
+                                            - ↩ cycle
+                                          - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
+                                            - WITCH_WEST_END_SCRAP [ENDING]
+                                  - "The Clerk flags the warrant status — review the audit logs." → WITCH_WEST_BUREAU_LOG_CHECK
+                                    - WITCH_WEST_BUREAU_LOG_CHECK
+                                      - "\"It is a Judicial Necessity.\" (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
+                                        - WITCH_WEST_COMMAND_DECK
+                                          - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
+                                            - WITCH_WEST_MONKEY_MANAGEMENT
+                                              - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                              - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                              - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                                - ↩ cycle
+                                          - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
+                                            - WITCH_WEST_POPPY_CALIBRATION
+                                              - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                              - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                          - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
+                                            - WITCH_WEST_OBSIDIAN_VIEW
+                                              - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
+                                                - ↩ cycle
+                                              - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
+                                                - ↩ cycle
+                                              - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
+                                                - WITCH_WEST_SIGNAL_BLEED
+                                                  - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                                    - ↩ cycle
+                                                  - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                          - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                            - ↩ cycle
+                                      - "\"The target is non-compliant.\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                        - WITCH_WEST_COMMAND_DECK
+                                          - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
+                                            - WITCH_WEST_MONKEY_MANAGEMENT
+                                              - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                              - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                              - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                                - ↩ cycle
+                                          - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
+                                            - WITCH_WEST_POPPY_CALIBRATION
+                                              - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                              - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                                - ↩ cycle
+                                          - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
+                                            - WITCH_WEST_OBSIDIAN_VIEW
+                                              - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
+                                                - ↩ cycle
+                                              - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
+                                                - ↩ cycle
+                                              - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
+                                                - WITCH_WEST_SIGNAL_BLEED
+                                                  - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                                    - ↩ cycle
+                                                  - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
+                                                    - WITCH_WEST_END_MELTING [ENDING]
+                                          - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                            - ↩ cycle
+                              - "Send the monkeys to accelerate their arrival." → WITCH_WEST_MONKEY_SWEEP_B
+                                - ↩ cycle
+                          - "ADMINISTRATION: File a \"Pre-emptive Deletion\" warrant." → WITCH_WEST_BUREAU_FILING
+                            - WITCH_WEST_BUREAU_FILING
+                              - "Label it \"Maintenance Disposal\" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                - ↩ cycle
+                              - "Label it \"Judicial Reclamation\" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
+                                - ↩ cycle
+                          - "THE FINAL INCISION: Trigger \"The Melting Point\"." → WITCH_WEST_END_MELTING
+                            - WITCH_WEST_END_MELTING [ENDING]
+              - "Monitor the kinetic audit in granular detail." → WITCH_WEST_MID_AIR_HARVEST_DETAIL
+                - WITCH_WEST_MID_AIR_HARVEST_DETAIL
+                  - "Receive the parts in the Ritual Chamber." → WITCH_WEST_TOWER_PREP
+                    - WITCH_WEST_TOWER_PREP
+                      - "The chamber is prepared. Begin the Obsidian Eye procedure." → WITCH_WEST_ORACLE_ENTRY
+                        - ↩ cycle
+                      - "The Clerk signals a compliance concern — attend to the warning." → WITCH_WEST_CLERK_INTERLUDE
+                        - WITCH_WEST_CLERK_INTERLUDE
+                          - "Force the verdict now — Summon the Obsidian Matron." → WITCH_WEST_ORACLE_ENTRY
+                            - ↩ cycle
+                          - "Ignore the Clerk. Proceed with psychological pressure." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                            - WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                              - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
+                                - ↩ cycle
+                              - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                              - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
+                                - WITCH_WEST_TORMENT_DETAIL
+                                  - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
+                                    - ↩ cycle
+                                  - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
+                                    - WITCH_WEST_END_SCRAP [ENDING]
+                      - "Walk the perimeter — let the Winkie chant stabilize the ritual chamber." → WITCH_WEST_WINKIE_CORRIDOR
+                        - WITCH_WEST_WINKIE_CORRIDOR
+                          - "Force the Guards to double the tempo. (Add Load / Increase Heat)." → WITCH_WEST_THERMAL_SURGE
+                            - WITCH_WEST_THERMAL_SURGE
+                              - "Peer directly into the white-hot center." → WITCH_WEST_END_SEARING_TRUTH
+                                - WITCH_WEST_END_SEARING_TRUTH [ENDING]
+                              - "Try to vent the heat (Requires Water Protocol)." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+                          - "Use the chant to soothe the Lion's tremor (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                            - WITCH_WEST_COMMAND_DECK_V2
+                              - "BIOMETRICS: Access the Lion's Tremor-Log." → WITCH_WEST_LION_AUDIT_HUB
+                                - WITCH_WEST_LION_AUDIT_HUB
+                                  - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                    - WITCH_WEST_SCRAPE_MANE
+                                      - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                  - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                    - WITCH_WEST_LION_AUDIT_HUB
+                                      - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                        - WITCH_WEST_SCRAPE_MANE
+                                          - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                      - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                        - ↩ cycle
+                                  - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                    - WITCH_WEST_LION_AUDIT_HUB
+                                      - "Sector Alpha: The Mane (Vibration Residue)." → WITCH_WEST_SCRAPE_MANE
+                                        - WITCH_WEST_SCRAPE_MANE
+                                          - "Feed the hairs into the crucible." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                          - "Braid the hairs into a \"Fear-Whip\"." → WITCH_WEST_LION_AUDIT_HUB
+                                            - ↩ cycle
+                                      - "Sector Delta: The Paws (Kinetic Friction)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Sector Omega: The Vocal Chords (Roar Error-Log)." → WITCH_WEST_LION_AUDIT_HUB
+                                        - ↩ cycle
+                                      - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                        - ↩ cycle
+                                  - "Return to Command Deck." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
+                              - "SURVEILLANCE: Deploy \"Eye-on-a-String\" probes into the field." → WITCH_WEST_OBSIDIAN_VIEW
+                                - WITCH_WEST_OBSIDIAN_VIEW
+                                  - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
+                                    - ↩ cycle
+                                  - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
+                                    - WITCH_WEST_FIELD_CONFRONTATION
+                                      - "Pick who gets the first incision, then begin the Obsidian Eye ritual." → WITCH_WEST_SELECT_TARGET
+                                        - WITCH_WEST_SELECT_TARGET
+                                          - "Lion" → WITCH_WEST_ORACLE_ENTRY_LION
+                                            - WITCH_WEST_ORACLE_ENTRY_LION
+                                              - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                - WITCH_WEST_ORACLE_DRAW
+                                                  - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                    - WITCH_WEST_ORACLE_1
+                                                      - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                      - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                    - WITCH_WEST_ORACLE_2
+                                                      - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                        - ↩ cycle
+                                                  - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                    - WITCH_WEST_ORACLE_3
+                                                      - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                                      - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                    - WITCH_WEST_ORACLE_4
+                                                      - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                    - WITCH_WEST_ORACLE_5
+                                                      - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                    - WITCH_WEST_ORACLE_6
+                                                      - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                    - WITCH_WEST_ORACLE_7
+                                                      - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                    - WITCH_WEST_ORACLE_8
+                                                      - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "Dorothy" → WITCH_WEST_ORACLE_ENTRY_DOROTHY
+                                            - WITCH_WEST_ORACLE_ENTRY_DOROTHY
+                                              - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                - WITCH_WEST_ORACLE_DRAW
+                                                  - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                    - WITCH_WEST_ORACLE_1
+                                                      - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                      - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                    - WITCH_WEST_ORACLE_2
+                                                      - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                        - ↩ cycle
+                                                  - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                    - WITCH_WEST_ORACLE_3
+                                                      - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                                      - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                    - WITCH_WEST_ORACLE_4
+                                                      - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                    - WITCH_WEST_ORACLE_5
+                                                      - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                    - WITCH_WEST_ORACLE_6
+                                                      - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                    - WITCH_WEST_ORACLE_7
+                                                      - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                    - WITCH_WEST_ORACLE_8
+                                                      - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "Tin Man" → WITCH_WEST_ORACLE_ENTRY_TINMAN
+                                            - WITCH_WEST_ORACLE_ENTRY_TINMAN
+                                              - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                - WITCH_WEST_ORACLE_DRAW
+                                                  - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                    - WITCH_WEST_ORACLE_1
+                                                      - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                      - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                    - WITCH_WEST_ORACLE_2
+                                                      - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                        - ↩ cycle
+                                                  - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                    - WITCH_WEST_ORACLE_3
+                                                      - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                                      - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                    - WITCH_WEST_ORACLE_4
+                                                      - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                    - WITCH_WEST_ORACLE_5
+                                                      - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                    - WITCH_WEST_ORACLE_6
+                                                      - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                    - WITCH_WEST_ORACLE_7
+                                                      - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                    - WITCH_WEST_ORACLE_8
+                                                      - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "Scarecrow" → WITCH_WEST_ORACLE_ENTRY_SCARECROW
+                                            - WITCH_WEST_ORACLE_ENTRY_SCARECROW
+                                              - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                - WITCH_WEST_ORACLE_DRAW
+                                                  - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                    - WITCH_WEST_ORACLE_1
+                                                      - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                      - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                    - WITCH_WEST_ORACLE_2
+                                                      - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                        - ↩ cycle
+                                                  - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                    - WITCH_WEST_ORACLE_3
+                                                      - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                                      - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                    - WITCH_WEST_ORACLE_4
+                                                      - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                    - WITCH_WEST_ORACLE_5
+                                                      - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                    - WITCH_WEST_ORACLE_6
+                                                      - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                    - WITCH_WEST_ORACLE_7
+                                                      - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                    - WITCH_WEST_ORACLE_8
+                                                      - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                      - "Have the monkeys carry him back to the tower for a proper procedure." → WITCH_WEST_TOWER_PREP
+                                        - ↩ cycle
+                                      - "Toy with him first. Make him beg for the mercy of the scalpel." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                                        - WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                                          - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
+                                            - ↩ cycle
+                                          - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                          - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
+                                            - WITCH_WEST_TORMENT_DETAIL
+                                              - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
+                                                - ↩ cycle
+                                              - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                      - "The Clerk flags the warrant status — review the audit logs." → WITCH_WEST_BUREAU_LOG_CHECK
+                                        - WITCH_WEST_BUREAU_LOG_CHECK
+                                          - "\"It is a Judicial Necessity.\" (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
+                                            - WITCH_WEST_COMMAND_DECK
+                                              - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
+                                                - WITCH_WEST_MONKEY_MANAGEMENT
+                                                  - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                                    - ↩ cycle
+                                                  - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                    - ↩ cycle
+                                                  - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                                    - ↩ cycle
+                                              - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
+                                                - WITCH_WEST_POPPY_CALIBRATION
+                                                  - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
+                                                    - ↩ cycle
+                                                  - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                                    - ↩ cycle
+                                              - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
+                                                - ↩ cycle
+                                              - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                                - ↩ cycle
+                                          - "\"The target is non-compliant.\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                            - WITCH_WEST_COMMAND_DECK
+                                              - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
+                                                - WITCH_WEST_MONKEY_MANAGEMENT
+                                                  - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                                    - ↩ cycle
+                                                  - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                    - ↩ cycle
+                                                  - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                                    - ↩ cycle
+                                              - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
+                                                - WITCH_WEST_POPPY_CALIBRATION
+                                                  - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
+                                                    - ↩ cycle
+                                                  - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                                    - ↩ cycle
+                                              - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
+                                                - ↩ cycle
+                                              - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                                - ↩ cycle
+                                  - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
+                                    - WITCH_WEST_SIGNAL_BLEED
+                                      - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                        - ↩ cycle
+                                      - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
+                                        - WITCH_WEST_END_MELTING [ENDING]
+                              - "PHARMACOLOGY: Refine the Poppy Resin in the crucible." → WITCH_WEST_POPPY_BUFFER
+                                - WITCH_WEST_POPPY_BUFFER
+                                  - "Wait for them at the tower gate. Receive them at full compliance." → WITCH_WEST_FIELD_CONFRONTATION
+                                    - WITCH_WEST_FIELD_CONFRONTATION
+                                      - "Pick who gets the first incision, then begin the Obsidian Eye ritual." → WITCH_WEST_SELECT_TARGET
+                                        - WITCH_WEST_SELECT_TARGET
+                                          - "Lion" → WITCH_WEST_ORACLE_ENTRY_LION
+                                            - WITCH_WEST_ORACLE_ENTRY_LION
+                                              - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                - WITCH_WEST_ORACLE_DRAW
+                                                  - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                    - WITCH_WEST_ORACLE_1
+                                                      - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                      - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                    - WITCH_WEST_ORACLE_2
+                                                      - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                        - ↩ cycle
+                                                  - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                    - WITCH_WEST_ORACLE_3
+                                                      - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                                      - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                    - WITCH_WEST_ORACLE_4
+                                                      - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                    - WITCH_WEST_ORACLE_5
+                                                      - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                    - WITCH_WEST_ORACLE_6
+                                                      - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                    - WITCH_WEST_ORACLE_7
+                                                      - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                    - WITCH_WEST_ORACLE_8
+                                                      - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "Dorothy" → WITCH_WEST_ORACLE_ENTRY_DOROTHY
+                                            - WITCH_WEST_ORACLE_ENTRY_DOROTHY
+                                              - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                - WITCH_WEST_ORACLE_DRAW
+                                                  - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                    - WITCH_WEST_ORACLE_1
+                                                      - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                      - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                    - WITCH_WEST_ORACLE_2
+                                                      - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                        - ↩ cycle
+                                                  - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                    - WITCH_WEST_ORACLE_3
+                                                      - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                                      - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                    - WITCH_WEST_ORACLE_4
+                                                      - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                    - WITCH_WEST_ORACLE_5
+                                                      - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                    - WITCH_WEST_ORACLE_6
+                                                      - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                    - WITCH_WEST_ORACLE_7
+                                                      - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                    - WITCH_WEST_ORACLE_8
+                                                      - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "Tin Man" → WITCH_WEST_ORACLE_ENTRY_TINMAN
+                                            - WITCH_WEST_ORACLE_ENTRY_TINMAN
+                                              - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                - WITCH_WEST_ORACLE_DRAW
+                                                  - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                    - WITCH_WEST_ORACLE_1
+                                                      - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                      - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                    - WITCH_WEST_ORACLE_2
+                                                      - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                        - ↩ cycle
+                                                  - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                    - WITCH_WEST_ORACLE_3
+                                                      - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                                      - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                    - WITCH_WEST_ORACLE_4
+                                                      - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                    - WITCH_WEST_ORACLE_5
+                                                      - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                    - WITCH_WEST_ORACLE_6
+                                                      - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                    - WITCH_WEST_ORACLE_7
+                                                      - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                    - WITCH_WEST_ORACLE_8
+                                                      - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                          - "Scarecrow" → WITCH_WEST_ORACLE_ENTRY_SCARECROW
+                                            - WITCH_WEST_ORACLE_ENTRY_SCARECROW
+                                              - "Commence the full extraction — read the malice residue." → WITCH_WEST_ORACLE_DRAW
+                                                - WITCH_WEST_ORACLE_DRAW
+                                                  - "1. The Flechette Harvest — judicial pressure surges." → WITCH_WEST_ORACLE_1
+                                                    - WITCH_WEST_ORACLE_1
+                                                      - "Press the judicial harvest toward full enforcement." → WITCH_WEST_END_FLECHETTE
+                                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                      - "Let the flechettes guide the subject toward the melting point." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "2. The Hourglass Drain — accelerate thermodynamic decay." → WITCH_WEST_ORACLE_2
+                                                    - WITCH_WEST_ORACLE_2
+                                                      - "Accelerate the timeline — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Hold the timeline for one more session." → WITCH_WEST_MONKEY_SWEEP_B
+                                                        - ↩ cycle
+                                                  - "3. The Scorched Slurry — corrosion bleed with Tin Man echo." → WITCH_WEST_ORACLE_3
+                                                    - WITCH_WEST_ORACLE_3
+                                                      - "Let the scorched slurry route toward corrosion and scrap." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                                      - "Redirect the slag into the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "4. The Winged Probe — surveillance graft." → WITCH_WEST_ORACLE_4
+                                                    - WITCH_WEST_ORACLE_4
+                                                      - "Confirm the surveillance graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Pull the graft wire violently — route toward the flechette ending." → WITCH_WEST_END_FLECHETTE
+                                                        - WITCH_WEST_END_FLECHETTE [ENDING]
+                                                  - "5. The Green Patina Burn — thermodynamic heat surge." → WITCH_WEST_ORACLE_5
+                                                    - WITCH_WEST_ORACLE_5
+                                                      - "Follow the searing truth toward the melting ending." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Use the burns to unlock the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                  - "6. The Restraint Lattice — compliance sutures tighten." → WITCH_WEST_ORACLE_6
+                                                    - WITCH_WEST_ORACLE_6
+                                                      - "Accept the lattice compliance — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Let the lattice crush inward — route toward the scrap ending." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                                  - "7. The Shadow Graft — parasitic link to Dorothy or Lion." → WITCH_WEST_ORACLE_7
+                                                    - WITCH_WEST_ORACLE_7
+                                                      - "Confirm the shadow graft — route toward the command channel." → WITCH_WEST_END_COMMAND
+                                                        - WITCH_WEST_END_COMMAND [ENDING]
+                                                      - "Let the parasitic link burn too hot — route toward the melting verdict." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                  - "8. The Melting Verdict — catastrophic collapse." → WITCH_WEST_ORACLE_8
+                                                    - WITCH_WEST_ORACLE_8
+                                                      - "Accept the melting verdict — route toward thermodynamic finality." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                                      - "Dissolve the remains into the scrap stream." → WITCH_WEST_END_SCRAP
+                                                        - WITCH_WEST_END_SCRAP [ENDING]
+                                      - "Have the monkeys carry him back to the tower for a proper procedure." → WITCH_WEST_TOWER_PREP
+                                        - ↩ cycle
+                                      - "Toy with him first. Make him beg for the mercy of the scalpel." → WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                                        - WITCH_WEST_PSYCHOLOGICAL_TORMENT
+                                          - "The preliminary is complete. Begin the proper procedure." → WITCH_WEST_ORACLE_ENTRY
+                                            - ↩ cycle
+                                          - "Let the torment reach its natural conclusion." → WITCH_WEST_END_MELTING
+                                            - WITCH_WEST_END_MELTING [ENDING]
+                                          - "Press the calibrated silence further — deliver the full audit." → WITCH_WEST_TORMENT_DETAIL
+                                            - WITCH_WEST_TORMENT_DETAIL
+                                              - "Begin the Formal Extraction (Obsidian Eye Ritual)." → WITCH_WEST_ORACLE_ENTRY
+                                                - ↩ cycle
+                                              - "Signal the Monkeys to begin \"The Scrap Reallocation.\"" → WITCH_WEST_END_SCRAP
+                                                - WITCH_WEST_END_SCRAP [ENDING]
+                                      - "The Clerk flags the warrant status — review the audit logs." → WITCH_WEST_BUREAU_LOG_CHECK
+                                        - WITCH_WEST_BUREAU_LOG_CHECK
+                                          - "\"It is a Judicial Necessity.\" (Bribe the Clerk with Load)." → WITCH_WEST_COMMAND_DECK
+                                            - WITCH_WEST_COMMAND_DECK
+                                              - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
+                                                - WITCH_WEST_MONKEY_MANAGEMENT
+                                                  - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                                    - ↩ cycle
+                                                  - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                    - ↩ cycle
+                                                  - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                                    - ↩ cycle
+                                              - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
+                                                - WITCH_WEST_POPPY_CALIBRATION
+                                                  - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
+                                                    - ↩ cycle
+                                                  - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                                    - ↩ cycle
+                                              - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
+                                                - WITCH_WEST_OBSIDIAN_VIEW
+                                                  - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
+                                                    - ↩ cycle
+                                                  - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
+                                                    - ↩ cycle
+                                                  - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
+                                                    - WITCH_WEST_SIGNAL_BLEED
+                                                      - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                                        - ↩ cycle
+                                                      - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                                - ↩ cycle
+                                          - "\"The target is non-compliant.\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                            - WITCH_WEST_COMMAND_DECK
+                                              - "Access AERIAL FEED: Direct the Winged Monkeys." → WITCH_WEST_MONKEY_MANAGEMENT
+                                                - WITCH_WEST_MONKEY_MANAGEMENT
+                                                  - "Order a \"Kinetic Brush-By\" (Increase Load)." → WITCH_WEST_COMMAND_DECK
+                                                    - ↩ cycle
+                                                  - "Order \"Silent Hover\" (Increase Warrant)." → WITCH_WEST_COMMAND_DECK
+                                                    - ↩ cycle
+                                                  - "Order \"Aggressive Shriek\" (Stress Test)." → WITCH_WEST_ORACLE_ENTRY
+                                                    - ↩ cycle
+                                              - "Access FIELD FEED: Adjust the Poppy Dampeners." → WITCH_WEST_POPPY_CALIBRATION
+                                                - WITCH_WEST_POPPY_CALIBRATION
+                                                  - "Flood the Sector: 50% Dosage." → WITCH_WEST_COMMAND_DECK
+                                                    - ↩ cycle
+                                                  - "Pulse the Field: Create a \"Lullaby Spike\"." → WITCH_WEST_COMMAND_DECK
+                                                    - ↩ cycle
+                                              - "Access INTERNAL FEED: Audit the target's biometric leak." → WITCH_WEST_OBSIDIAN_VIEW
+                                                - WITCH_WEST_OBSIDIAN_VIEW
+                                                  - "Initiate the Obsidian Eye ritual now. The subject is ready." → WITCH_WEST_ORACLE_ENTRY
+                                                    - ↩ cycle
+                                                  - "Follow the eye down. This requires your personal attention." → WITCH_WEST_FIELD_CONFRONTATION
+                                                    - ↩ cycle
+                                                  - "The eye's feed begins bleeding into your own vision — something shifts." → WITCH_WEST_SIGNAL_BLEED
+                                                    - WITCH_WEST_SIGNAL_BLEED
+                                                      - "Re-sync your vision. (Add Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                                        - ↩ cycle
+                                                      - "Accept the bleed. (Unlock W-END-04: Binary Cackle)." → WITCH_WEST_END_MELTING
+                                                        - WITCH_WEST_END_MELTING [ENDING]
+                                              - "Initialize Ritual: \"The Obsidian Matron\"." → WITCH_WEST_ORACLE_ENTRY
+                                                - ↩ cycle
+                                  - "Send the monkeys to accelerate their arrival." → WITCH_WEST_MONKEY_SWEEP_B
+                                    - ↩ cycle
+                              - "ADMINISTRATION: File a \"Pre-emptive Deletion\" warrant." → WITCH_WEST_BUREAU_FILING
+                                - WITCH_WEST_BUREAU_FILING
+                                  - "Label it \"Maintenance Disposal\" (Lower Load)." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
+                                  - "Label it \"Judicial Reclamation\" (Higher Warrant)." → WITCH_WEST_COMMAND_DECK_V2
+                                    - ↩ cycle
+                              - "THE FINAL INCISION: Trigger \"The Melting Point\"." → WITCH_WEST_END_MELTING
+                                - WITCH_WEST_END_MELTING [ENDING]
+          - "Observe the aerial deployment from altitude — let the sweep run its course." → WITCH_WEST_PATH_MONKEYS
+            - WITCH_WEST_PATH_MONKEYS
+              - "Escalate the warrant — route toward total enforcement." → WITCH_WEST_END_MELTING
+                - WITCH_WEST_END_MELTING [ENDING]
+              - "Recall the monkeys — perform the ritual personally." → WITCH_WEST_ORACLE_ENTRY
+                - ↩ cycle

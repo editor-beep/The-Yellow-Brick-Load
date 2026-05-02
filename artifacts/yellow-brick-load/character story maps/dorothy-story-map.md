@@ -1,0 +1,347 @@
+# Yellow Brick Load Story Passage Branch Tree
+
+Generated: 2026-05-02T17:45:26.167Z
+
+
+## DOROTHY_INIT
+- DOROTHY_INIT
+  - "Follow the road — accept the displacement as direction." → DOROTHY_PATH_ROAD
+    - DOROTHY_PATH_ROAD
+      - "Accept the lollipop — accept the pharmaceutical compliance." → DOROTHY_PATH_COMPLIANCE
+        - DOROTHY_PATH_COMPLIANCE
+          - "Follow the compliant road toward the Emerald City." → DOROTHY_END_SEAL
+            - DOROTHY_END_SEAL [ENDING]
+          - "Let the muffled signal build until the Dust Clerk must respond." → DOROTHY_ORACLE_ENTRY
+            - DOROTHY_ORACLE_ENTRY
+              - "Allow the extraction — let her pull the nerve thread." → DOROTHY_ORACLE_DRAW
+                - DOROTHY_ORACLE_DRAW
+                  - "1. The Homesick Nerve — let the displacement surge." → DOROTHY_ORACLE_1
+                    - DOROTHY_ORACLE_1
+                      - "Follow the Kansas frequency back through the memory fracture." → DOROTHY_END_HOME
+                        - DOROTHY_END_HOME [ENDING]
+                      - "Let the homesick nerve route toward the poppy sleep." → DOROTHY_END_POPPY
+                        - DOROTHY_END_POPPY [ENDING]
+                  - "2. The Silver Incision — consume the friction for a reality-bend." → DOROTHY_ORACLE_2
+                    - DOROTHY_ORACLE_2
+                      - "Use the silver power — attempt the home-frequency reality bend." → DOROTHY_END_HOME
+                        - DOROTHY_END_HOME [ENDING]
+                      - "Save the silver friction — route the power toward the road." → DOROTHY_PATH_ROAD
+                        - ↩ cycle
+                  - "3. The Warrant Thread — accept the Bureau's escalation." → DOROTHY_ORACLE_3
+                    - DOROTHY_ORACLE_3
+                      - "Accept the warrant — become compliant enough to be archived." → DOROTHY_END_SEAL
+                        - DOROTHY_END_SEAL [ENDING]
+                      - "Run — use the warrant as momentum toward escape." → DOROTHY_ORACLE_8
+                        - DOROTHY_ORACLE_8
+                          - "Follow the terminal displacement — let the frequency route home." → DOROTHY_END_HOME
+                            - DOROTHY_END_HOME [ENDING]
+                          - "Let the severed nerve route toward universal deletion." → DOROTHY_END_DISPLACEMENT
+                            - DOROTHY_END_DISPLACEMENT [ENDING]
+                  - "4. The Sepia Bleed — follow the high desync into old photographs." → DOROTHY_ORACLE_4
+                    - DOROTHY_ORACLE_4
+                      - "Let the sepia bleed route toward the poppy sleep." → DOROTHY_END_POPPY
+                        - DOROTHY_END_POPPY [ENDING]
+                      - "Follow the sepia back toward the home-frequency ending." → DOROTHY_END_HOME
+                        - DOROTHY_END_HOME [ENDING]
+                  - "5. The Slipper Grind — take power at the cost of the heel." → DOROTHY_ORACLE_5
+                    - DOROTHY_ORACLE_5
+                      - "Use the slipper power at full cost — force a home route." → DOROTHY_END_HOME
+                        - DOROTHY_END_HOME [ENDING]
+                      - "Bank the power and continue — route toward the road." → DOROTHY_PATH_ROAD
+                        - ↩ cycle
+                  - "6. The Grafted Echo — let the nerve fiber mix with foreign material." → DOROTHY_ORACLE_6
+                    - DOROTHY_ORACLE_6
+                      - "Let the grafted echoes route toward universal displacement." → DOROTHY_END_DISPLACEMENT
+                        - DOROTHY_END_DISPLACEMENT [ENDING]
+                      - "Use the cross-echo to route toward the poppy field." → DOROTHY_END_POPPY
+                        - DOROTHY_END_POPPY [ENDING]
+                  - "7. The Dust Seal — accept the safety of forgetting." → DOROTHY_ORACLE_7
+                    - DOROTHY_ORACLE_7
+                      - "Accept the sealed safety — route toward the compliance ending." → DOROTHY_END_SEAL
+                        - DOROTHY_END_SEAL [ENDING]
+                      - "Unseal the dust — reopen the wound and the home signal." → DOROTHY_PATH_SLIPPERS
+                        - DOROTHY_PATH_SLIPPERS
+                          - "Click again — force the home frequency through." → DOROTHY_ORACLE_ENTRY
+                            - ↩ cycle
+                          - "Stop clicking — accept the road and the displacement." → DOROTHY_PATH_ROAD
+                            - ↩ cycle
+                  - "8. The Terminal Pull — catastrophic displacement." → DOROTHY_ORACLE_8
+                    - DOROTHY_ORACLE_8
+                      - "Follow the terminal displacement — let the frequency route home." → DOROTHY_END_HOME
+                        - DOROTHY_END_HOME [ENDING]
+                      - "Let the severed nerve route toward universal deletion." → DOROTHY_END_DISPLACEMENT
+                        - DOROTHY_END_DISPLACEMENT [ENDING]
+              - "Pull your heel back — resist the nerve pull." → DOROTHY_PATH_COMPLIANCE
+                - ↩ cycle
+      - "Refuse the lollipop — continue along the road toward the oracle." → DOROTHY_ORACLE_ENTRY
+        - DOROTHY_ORACLE_ENTRY
+          - "Allow the extraction — let her pull the nerve thread." → DOROTHY_ORACLE_DRAW
+            - DOROTHY_ORACLE_DRAW
+              - "1. The Homesick Nerve — let the displacement surge." → DOROTHY_ORACLE_1
+                - DOROTHY_ORACLE_1
+                  - "Follow the Kansas frequency back through the memory fracture." → DOROTHY_END_HOME
+                    - DOROTHY_END_HOME [ENDING]
+                  - "Let the homesick nerve route toward the poppy sleep." → DOROTHY_END_POPPY
+                    - DOROTHY_END_POPPY [ENDING]
+              - "2. The Silver Incision — consume the friction for a reality-bend." → DOROTHY_ORACLE_2
+                - DOROTHY_ORACLE_2
+                  - "Use the silver power — attempt the home-frequency reality bend." → DOROTHY_END_HOME
+                    - DOROTHY_END_HOME [ENDING]
+                  - "Save the silver friction — route the power toward the road." → DOROTHY_PATH_ROAD
+                    - ↩ cycle
+              - "3. The Warrant Thread — accept the Bureau's escalation." → DOROTHY_ORACLE_3
+                - DOROTHY_ORACLE_3
+                  - "Accept the warrant — become compliant enough to be archived." → DOROTHY_END_SEAL
+                    - DOROTHY_END_SEAL [ENDING]
+                  - "Run — use the warrant as momentum toward escape." → DOROTHY_ORACLE_8
+                    - DOROTHY_ORACLE_8
+                      - "Follow the terminal displacement — let the frequency route home." → DOROTHY_END_HOME
+                        - DOROTHY_END_HOME [ENDING]
+                      - "Let the severed nerve route toward universal deletion." → DOROTHY_END_DISPLACEMENT
+                        - DOROTHY_END_DISPLACEMENT [ENDING]
+              - "4. The Sepia Bleed — follow the high desync into old photographs." → DOROTHY_ORACLE_4
+                - DOROTHY_ORACLE_4
+                  - "Let the sepia bleed route toward the poppy sleep." → DOROTHY_END_POPPY
+                    - DOROTHY_END_POPPY [ENDING]
+                  - "Follow the sepia back toward the home-frequency ending." → DOROTHY_END_HOME
+                    - DOROTHY_END_HOME [ENDING]
+              - "5. The Slipper Grind — take power at the cost of the heel." → DOROTHY_ORACLE_5
+                - DOROTHY_ORACLE_5
+                  - "Use the slipper power at full cost — force a home route." → DOROTHY_END_HOME
+                    - DOROTHY_END_HOME [ENDING]
+                  - "Bank the power and continue — route toward the road." → DOROTHY_PATH_ROAD
+                    - ↩ cycle
+              - "6. The Grafted Echo — let the nerve fiber mix with foreign material." → DOROTHY_ORACLE_6
+                - DOROTHY_ORACLE_6
+                  - "Let the grafted echoes route toward universal displacement." → DOROTHY_END_DISPLACEMENT
+                    - DOROTHY_END_DISPLACEMENT [ENDING]
+                  - "Use the cross-echo to route toward the poppy field." → DOROTHY_END_POPPY
+                    - DOROTHY_END_POPPY [ENDING]
+              - "7. The Dust Seal — accept the safety of forgetting." → DOROTHY_ORACLE_7
+                - DOROTHY_ORACLE_7
+                  - "Accept the sealed safety — route toward the compliance ending." → DOROTHY_END_SEAL
+                    - DOROTHY_END_SEAL [ENDING]
+                  - "Unseal the dust — reopen the wound and the home signal." → DOROTHY_PATH_SLIPPERS
+                    - DOROTHY_PATH_SLIPPERS
+                      - "Click again — force the home frequency through." → DOROTHY_ORACLE_ENTRY
+                        - ↩ cycle
+                      - "Stop clicking — accept the road and the displacement." → DOROTHY_PATH_ROAD
+                        - ↩ cycle
+              - "8. The Terminal Pull — catastrophic displacement." → DOROTHY_ORACLE_8
+                - DOROTHY_ORACLE_8
+                  - "Follow the terminal displacement — let the frequency route home." → DOROTHY_END_HOME
+                    - DOROTHY_END_HOME [ENDING]
+                  - "Let the severed nerve route toward universal deletion." → DOROTHY_END_DISPLACEMENT
+                    - DOROTHY_END_DISPLACEMENT [ENDING]
+          - "Pull your heel back — resist the nerve pull." → DOROTHY_PATH_COMPLIANCE
+            - DOROTHY_PATH_COMPLIANCE
+              - "Follow the compliant road toward the Emerald City." → DOROTHY_END_SEAL
+                - DOROTHY_END_SEAL [ENDING]
+              - "Let the muffled signal build until the Dust Clerk must respond." → DOROTHY_ORACLE_ENTRY
+                - ↩ cycle
+  - "Try to click the slippers — attempt home-frequency contact." → DOROTHY_PATH_SLIPPERS
+    - DOROTHY_PATH_SLIPPERS
+      - "Click again — force the home frequency through." → DOROTHY_ORACLE_ENTRY
+        - DOROTHY_ORACLE_ENTRY
+          - "Allow the extraction — let her pull the nerve thread." → DOROTHY_ORACLE_DRAW
+            - DOROTHY_ORACLE_DRAW
+              - "1. The Homesick Nerve — let the displacement surge." → DOROTHY_ORACLE_1
+                - DOROTHY_ORACLE_1
+                  - "Follow the Kansas frequency back through the memory fracture." → DOROTHY_END_HOME
+                    - DOROTHY_END_HOME [ENDING]
+                  - "Let the homesick nerve route toward the poppy sleep." → DOROTHY_END_POPPY
+                    - DOROTHY_END_POPPY [ENDING]
+              - "2. The Silver Incision — consume the friction for a reality-bend." → DOROTHY_ORACLE_2
+                - DOROTHY_ORACLE_2
+                  - "Use the silver power — attempt the home-frequency reality bend." → DOROTHY_END_HOME
+                    - DOROTHY_END_HOME [ENDING]
+                  - "Save the silver friction — route the power toward the road." → DOROTHY_PATH_ROAD
+                    - DOROTHY_PATH_ROAD
+                      - "Accept the lollipop — accept the pharmaceutical compliance." → DOROTHY_PATH_COMPLIANCE
+                        - DOROTHY_PATH_COMPLIANCE
+                          - "Follow the compliant road toward the Emerald City." → DOROTHY_END_SEAL
+                            - DOROTHY_END_SEAL [ENDING]
+                          - "Let the muffled signal build until the Dust Clerk must respond." → DOROTHY_ORACLE_ENTRY
+                            - ↩ cycle
+                      - "Refuse the lollipop — continue along the road toward the oracle." → DOROTHY_ORACLE_ENTRY
+                        - ↩ cycle
+              - "3. The Warrant Thread — accept the Bureau's escalation." → DOROTHY_ORACLE_3
+                - DOROTHY_ORACLE_3
+                  - "Accept the warrant — become compliant enough to be archived." → DOROTHY_END_SEAL
+                    - DOROTHY_END_SEAL [ENDING]
+                  - "Run — use the warrant as momentum toward escape." → DOROTHY_ORACLE_8
+                    - DOROTHY_ORACLE_8
+                      - "Follow the terminal displacement — let the frequency route home." → DOROTHY_END_HOME
+                        - DOROTHY_END_HOME [ENDING]
+                      - "Let the severed nerve route toward universal deletion." → DOROTHY_END_DISPLACEMENT
+                        - DOROTHY_END_DISPLACEMENT [ENDING]
+              - "4. The Sepia Bleed — follow the high desync into old photographs." → DOROTHY_ORACLE_4
+                - DOROTHY_ORACLE_4
+                  - "Let the sepia bleed route toward the poppy sleep." → DOROTHY_END_POPPY
+                    - DOROTHY_END_POPPY [ENDING]
+                  - "Follow the sepia back toward the home-frequency ending." → DOROTHY_END_HOME
+                    - DOROTHY_END_HOME [ENDING]
+              - "5. The Slipper Grind — take power at the cost of the heel." → DOROTHY_ORACLE_5
+                - DOROTHY_ORACLE_5
+                  - "Use the slipper power at full cost — force a home route." → DOROTHY_END_HOME
+                    - DOROTHY_END_HOME [ENDING]
+                  - "Bank the power and continue — route toward the road." → DOROTHY_PATH_ROAD
+                    - DOROTHY_PATH_ROAD
+                      - "Accept the lollipop — accept the pharmaceutical compliance." → DOROTHY_PATH_COMPLIANCE
+                        - DOROTHY_PATH_COMPLIANCE
+                          - "Follow the compliant road toward the Emerald City." → DOROTHY_END_SEAL
+                            - DOROTHY_END_SEAL [ENDING]
+                          - "Let the muffled signal build until the Dust Clerk must respond." → DOROTHY_ORACLE_ENTRY
+                            - ↩ cycle
+                      - "Refuse the lollipop — continue along the road toward the oracle." → DOROTHY_ORACLE_ENTRY
+                        - ↩ cycle
+              - "6. The Grafted Echo — let the nerve fiber mix with foreign material." → DOROTHY_ORACLE_6
+                - DOROTHY_ORACLE_6
+                  - "Let the grafted echoes route toward universal displacement." → DOROTHY_END_DISPLACEMENT
+                    - DOROTHY_END_DISPLACEMENT [ENDING]
+                  - "Use the cross-echo to route toward the poppy field." → DOROTHY_END_POPPY
+                    - DOROTHY_END_POPPY [ENDING]
+              - "7. The Dust Seal — accept the safety of forgetting." → DOROTHY_ORACLE_7
+                - DOROTHY_ORACLE_7
+                  - "Accept the sealed safety — route toward the compliance ending." → DOROTHY_END_SEAL
+                    - DOROTHY_END_SEAL [ENDING]
+                  - "Unseal the dust — reopen the wound and the home signal." → DOROTHY_PATH_SLIPPERS
+                    - ↩ cycle
+              - "8. The Terminal Pull — catastrophic displacement." → DOROTHY_ORACLE_8
+                - DOROTHY_ORACLE_8
+                  - "Follow the terminal displacement — let the frequency route home." → DOROTHY_END_HOME
+                    - DOROTHY_END_HOME [ENDING]
+                  - "Let the severed nerve route toward universal deletion." → DOROTHY_END_DISPLACEMENT
+                    - DOROTHY_END_DISPLACEMENT [ENDING]
+          - "Pull your heel back — resist the nerve pull." → DOROTHY_PATH_COMPLIANCE
+            - DOROTHY_PATH_COMPLIANCE
+              - "Follow the compliant road toward the Emerald City." → DOROTHY_END_SEAL
+                - DOROTHY_END_SEAL [ENDING]
+              - "Let the muffled signal build until the Dust Clerk must respond." → DOROTHY_ORACLE_ENTRY
+                - ↩ cycle
+      - "Stop clicking — accept the road and the displacement." → DOROTHY_PATH_ROAD
+        - DOROTHY_PATH_ROAD
+          - "Accept the lollipop — accept the pharmaceutical compliance." → DOROTHY_PATH_COMPLIANCE
+            - DOROTHY_PATH_COMPLIANCE
+              - "Follow the compliant road toward the Emerald City." → DOROTHY_END_SEAL
+                - DOROTHY_END_SEAL [ENDING]
+              - "Let the muffled signal build until the Dust Clerk must respond." → DOROTHY_ORACLE_ENTRY
+                - DOROTHY_ORACLE_ENTRY
+                  - "Allow the extraction — let her pull the nerve thread." → DOROTHY_ORACLE_DRAW
+                    - DOROTHY_ORACLE_DRAW
+                      - "1. The Homesick Nerve — let the displacement surge." → DOROTHY_ORACLE_1
+                        - DOROTHY_ORACLE_1
+                          - "Follow the Kansas frequency back through the memory fracture." → DOROTHY_END_HOME
+                            - DOROTHY_END_HOME [ENDING]
+                          - "Let the homesick nerve route toward the poppy sleep." → DOROTHY_END_POPPY
+                            - DOROTHY_END_POPPY [ENDING]
+                      - "2. The Silver Incision — consume the friction for a reality-bend." → DOROTHY_ORACLE_2
+                        - DOROTHY_ORACLE_2
+                          - "Use the silver power — attempt the home-frequency reality bend." → DOROTHY_END_HOME
+                            - DOROTHY_END_HOME [ENDING]
+                          - "Save the silver friction — route the power toward the road." → DOROTHY_PATH_ROAD
+                            - ↩ cycle
+                      - "3. The Warrant Thread — accept the Bureau's escalation." → DOROTHY_ORACLE_3
+                        - DOROTHY_ORACLE_3
+                          - "Accept the warrant — become compliant enough to be archived." → DOROTHY_END_SEAL
+                            - DOROTHY_END_SEAL [ENDING]
+                          - "Run — use the warrant as momentum toward escape." → DOROTHY_ORACLE_8
+                            - DOROTHY_ORACLE_8
+                              - "Follow the terminal displacement — let the frequency route home." → DOROTHY_END_HOME
+                                - DOROTHY_END_HOME [ENDING]
+                              - "Let the severed nerve route toward universal deletion." → DOROTHY_END_DISPLACEMENT
+                                - DOROTHY_END_DISPLACEMENT [ENDING]
+                      - "4. The Sepia Bleed — follow the high desync into old photographs." → DOROTHY_ORACLE_4
+                        - DOROTHY_ORACLE_4
+                          - "Let the sepia bleed route toward the poppy sleep." → DOROTHY_END_POPPY
+                            - DOROTHY_END_POPPY [ENDING]
+                          - "Follow the sepia back toward the home-frequency ending." → DOROTHY_END_HOME
+                            - DOROTHY_END_HOME [ENDING]
+                      - "5. The Slipper Grind — take power at the cost of the heel." → DOROTHY_ORACLE_5
+                        - DOROTHY_ORACLE_5
+                          - "Use the slipper power at full cost — force a home route." → DOROTHY_END_HOME
+                            - DOROTHY_END_HOME [ENDING]
+                          - "Bank the power and continue — route toward the road." → DOROTHY_PATH_ROAD
+                            - ↩ cycle
+                      - "6. The Grafted Echo — let the nerve fiber mix with foreign material." → DOROTHY_ORACLE_6
+                        - DOROTHY_ORACLE_6
+                          - "Let the grafted echoes route toward universal displacement." → DOROTHY_END_DISPLACEMENT
+                            - DOROTHY_END_DISPLACEMENT [ENDING]
+                          - "Use the cross-echo to route toward the poppy field." → DOROTHY_END_POPPY
+                            - DOROTHY_END_POPPY [ENDING]
+                      - "7. The Dust Seal — accept the safety of forgetting." → DOROTHY_ORACLE_7
+                        - DOROTHY_ORACLE_7
+                          - "Accept the sealed safety — route toward the compliance ending." → DOROTHY_END_SEAL
+                            - DOROTHY_END_SEAL [ENDING]
+                          - "Unseal the dust — reopen the wound and the home signal." → DOROTHY_PATH_SLIPPERS
+                            - ↩ cycle
+                      - "8. The Terminal Pull — catastrophic displacement." → DOROTHY_ORACLE_8
+                        - DOROTHY_ORACLE_8
+                          - "Follow the terminal displacement — let the frequency route home." → DOROTHY_END_HOME
+                            - DOROTHY_END_HOME [ENDING]
+                          - "Let the severed nerve route toward universal deletion." → DOROTHY_END_DISPLACEMENT
+                            - DOROTHY_END_DISPLACEMENT [ENDING]
+                  - "Pull your heel back — resist the nerve pull." → DOROTHY_PATH_COMPLIANCE
+                    - ↩ cycle
+          - "Refuse the lollipop — continue along the road toward the oracle." → DOROTHY_ORACLE_ENTRY
+            - DOROTHY_ORACLE_ENTRY
+              - "Allow the extraction — let her pull the nerve thread." → DOROTHY_ORACLE_DRAW
+                - DOROTHY_ORACLE_DRAW
+                  - "1. The Homesick Nerve — let the displacement surge." → DOROTHY_ORACLE_1
+                    - DOROTHY_ORACLE_1
+                      - "Follow the Kansas frequency back through the memory fracture." → DOROTHY_END_HOME
+                        - DOROTHY_END_HOME [ENDING]
+                      - "Let the homesick nerve route toward the poppy sleep." → DOROTHY_END_POPPY
+                        - DOROTHY_END_POPPY [ENDING]
+                  - "2. The Silver Incision — consume the friction for a reality-bend." → DOROTHY_ORACLE_2
+                    - DOROTHY_ORACLE_2
+                      - "Use the silver power — attempt the home-frequency reality bend." → DOROTHY_END_HOME
+                        - DOROTHY_END_HOME [ENDING]
+                      - "Save the silver friction — route the power toward the road." → DOROTHY_PATH_ROAD
+                        - ↩ cycle
+                  - "3. The Warrant Thread — accept the Bureau's escalation." → DOROTHY_ORACLE_3
+                    - DOROTHY_ORACLE_3
+                      - "Accept the warrant — become compliant enough to be archived." → DOROTHY_END_SEAL
+                        - DOROTHY_END_SEAL [ENDING]
+                      - "Run — use the warrant as momentum toward escape." → DOROTHY_ORACLE_8
+                        - DOROTHY_ORACLE_8
+                          - "Follow the terminal displacement — let the frequency route home." → DOROTHY_END_HOME
+                            - DOROTHY_END_HOME [ENDING]
+                          - "Let the severed nerve route toward universal deletion." → DOROTHY_END_DISPLACEMENT
+                            - DOROTHY_END_DISPLACEMENT [ENDING]
+                  - "4. The Sepia Bleed — follow the high desync into old photographs." → DOROTHY_ORACLE_4
+                    - DOROTHY_ORACLE_4
+                      - "Let the sepia bleed route toward the poppy sleep." → DOROTHY_END_POPPY
+                        - DOROTHY_END_POPPY [ENDING]
+                      - "Follow the sepia back toward the home-frequency ending." → DOROTHY_END_HOME
+                        - DOROTHY_END_HOME [ENDING]
+                  - "5. The Slipper Grind — take power at the cost of the heel." → DOROTHY_ORACLE_5
+                    - DOROTHY_ORACLE_5
+                      - "Use the slipper power at full cost — force a home route." → DOROTHY_END_HOME
+                        - DOROTHY_END_HOME [ENDING]
+                      - "Bank the power and continue — route toward the road." → DOROTHY_PATH_ROAD
+                        - ↩ cycle
+                  - "6. The Grafted Echo — let the nerve fiber mix with foreign material." → DOROTHY_ORACLE_6
+                    - DOROTHY_ORACLE_6
+                      - "Let the grafted echoes route toward universal displacement." → DOROTHY_END_DISPLACEMENT
+                        - DOROTHY_END_DISPLACEMENT [ENDING]
+                      - "Use the cross-echo to route toward the poppy field." → DOROTHY_END_POPPY
+                        - DOROTHY_END_POPPY [ENDING]
+                  - "7. The Dust Seal — accept the safety of forgetting." → DOROTHY_ORACLE_7
+                    - DOROTHY_ORACLE_7
+                      - "Accept the sealed safety — route toward the compliance ending." → DOROTHY_END_SEAL
+                        - DOROTHY_END_SEAL [ENDING]
+                      - "Unseal the dust — reopen the wound and the home signal." → DOROTHY_PATH_SLIPPERS
+                        - ↩ cycle
+                  - "8. The Terminal Pull — catastrophic displacement." → DOROTHY_ORACLE_8
+                    - DOROTHY_ORACLE_8
+                      - "Follow the terminal displacement — let the frequency route home." → DOROTHY_END_HOME
+                        - DOROTHY_END_HOME [ENDING]
+                      - "Let the severed nerve route toward universal deletion." → DOROTHY_END_DISPLACEMENT
+                        - DOROTHY_END_DISPLACEMENT [ENDING]
+              - "Pull your heel back — resist the nerve pull." → DOROTHY_PATH_COMPLIANCE
+                - DOROTHY_PATH_COMPLIANCE
+                  - "Follow the compliant road toward the Emerald City." → DOROTHY_END_SEAL
+                    - DOROTHY_END_SEAL [ENDING]
+                  - "Let the muffled signal build until the Dust Clerk must respond." → DOROTHY_ORACLE_ENTRY
+                    - ↩ cycle

@@ -1,0 +1,131 @@
+# Yellow Brick Load Story Passage Branch Tree
+
+Generated: 2026-05-02T17:45:26.167Z
+
+
+## WIZARD_INIT
+- WIZARD_INIT
+  - "Open the curtain partially — prepare the projection harvest." → WIZARD_ORACLE_ENTRY
+    - WIZARD_ORACLE_ENTRY
+      - "Allow the theatrical incision — let the show begin." → WIZARD_ORACLE_DRAW
+        - WIZARD_ORACLE_DRAW
+          - "1. The Smoke Graft — let the obfuscation surge." → WIZARD_ORACLE_1
+            - WIZARD_ORACLE_1
+              - "Deploy the smoke graft — route the promotional choices." → WIZARD_END_AUDIT
+                - WIZARD_END_AUDIT [ENDING]
+              - "Let the smoke graft route toward the green lens ending." → WIZARD_END_GREEN
+                - WIZARD_END_GREEN [ENDING]
+          - "2. The Curtain Seal — hide the wound behind the illusion." → WIZARD_ORACLE_2
+            - WIZARD_ORACLE_2
+              - "Accept the curtain seal — route toward the audit ending." → WIZARD_END_AUDIT
+                - WIZARD_END_AUDIT [ENDING]
+              - "Lift one edge of the curtain — route toward the humbug harvest." → WIZARD_ORACLE_7
+                - WIZARD_ORACLE_7
+                  - "Accept the paralysis — route toward the origin node." → WIZARD_END_ORIGIN
+                    - WIZARD_END_ORIGIN [ENDING]
+                  - "Use the meta awareness to route toward the humbug index." → WIZARD_END_FAIL
+                    - WIZARD_END_FAIL [ENDING]
+          - "3. The Lever Pull — let the machinery fail publicly." → WIZARD_ORACLE_3
+            - WIZARD_ORACLE_3
+              - "Let the lever pull route toward manual override ending." → WIZARD_END_OVERRIDE
+                - WIZARD_END_OVERRIDE [ENDING]
+              - "Recover the malfunction — route toward projection failure." → WIZARD_END_FAIL
+                - WIZARD_END_FAIL [ENDING]
+          - "4. The Testimonial Extraction — let your fluids become advertising." → WIZARD_ORACLE_4
+            - WIZARD_ORACLE_4
+              - "Accept the testimonial loading — route toward the audit." → WIZARD_END_AUDIT
+                - WIZARD_END_AUDIT [ENDING]
+              - "Let the parchments dissolve — route toward the humbug index." → WIZARD_END_FAIL
+                - WIZARD_END_FAIL [ENDING]
+          - "5. The Balloon Inflation — borrow Dorothy's displacement for lift." → WIZARD_ORACLE_5
+            - WIZARD_ORACLE_5
+              - "Ride the lift — route toward the balloon drift ending." → WIZARD_END_BALLOON
+                - WIZARD_END_BALLOON [ENDING]
+              - "Release the gas — accept the crash with the override." → WIZARD_END_OVERRIDE
+                - WIZARD_END_OVERRIDE [ENDING]
+          - "6. The Green Lens Implant — see everything through the marketing tint." → WIZARD_ORACLE_6
+            - WIZARD_ORACLE_6
+              - "Accept the green lens — route toward the green lens ending." → WIZARD_END_GREEN
+                - WIZARD_END_GREEN [ENDING]
+              - "Let the lens refract toward Glinda's refractive protocol." → WIZARD_END_FAIL
+                - WIZARD_END_FAIL [ENDING]
+          - "7. The Humbug Harvest — realize the Surgeon is also being operated on." → WIZARD_ORACLE_7
+            - WIZARD_ORACLE_7
+              - "Accept the paralysis — route toward the origin node." → WIZARD_END_ORIGIN
+                - WIZARD_END_ORIGIN [ENDING]
+              - "Use the meta awareness to route toward the humbug index." → WIZARD_END_FAIL
+                - WIZARD_END_FAIL [ENDING]
+          - "8. The Projection Collapse — let the smoke clear." → WIZARD_ORACLE_8
+            - WIZARD_ORACLE_8
+              - "Let the collapse route toward the origin node." → WIZARD_END_ORIGIN
+                - WIZARD_END_ORIGIN [ENDING]
+              - "Accept the humbug index — route toward the projection fail ending." → WIZARD_END_FAIL
+                - WIZARD_END_FAIL [ENDING]
+      - "Pull the curtain back over the Surgeon — maintain the fiction." → WIZARD_PATH_PROJECTION
+        - WIZARD_PATH_PROJECTION
+          - "Continue the projection — route toward the marketing audit." → WIZARD_END_AUDIT
+            - WIZARD_END_AUDIT [ENDING]
+          - "Let a lever stick too long — invite the malfunction." → WIZARD_ORACLE_ENTRY
+            - ↩ cycle
+  - "Keep the curtain closed — maintain the projection." → WIZARD_PATH_PROJECTION
+    - WIZARD_PATH_PROJECTION
+      - "Continue the projection — route toward the marketing audit." → WIZARD_END_AUDIT
+        - WIZARD_END_AUDIT [ENDING]
+      - "Let a lever stick too long — invite the malfunction." → WIZARD_ORACLE_ENTRY
+        - WIZARD_ORACLE_ENTRY
+          - "Allow the theatrical incision — let the show begin." → WIZARD_ORACLE_DRAW
+            - WIZARD_ORACLE_DRAW
+              - "1. The Smoke Graft — let the obfuscation surge." → WIZARD_ORACLE_1
+                - WIZARD_ORACLE_1
+                  - "Deploy the smoke graft — route the promotional choices." → WIZARD_END_AUDIT
+                    - WIZARD_END_AUDIT [ENDING]
+                  - "Let the smoke graft route toward the green lens ending." → WIZARD_END_GREEN
+                    - WIZARD_END_GREEN [ENDING]
+              - "2. The Curtain Seal — hide the wound behind the illusion." → WIZARD_ORACLE_2
+                - WIZARD_ORACLE_2
+                  - "Accept the curtain seal — route toward the audit ending." → WIZARD_END_AUDIT
+                    - WIZARD_END_AUDIT [ENDING]
+                  - "Lift one edge of the curtain — route toward the humbug harvest." → WIZARD_ORACLE_7
+                    - WIZARD_ORACLE_7
+                      - "Accept the paralysis — route toward the origin node." → WIZARD_END_ORIGIN
+                        - WIZARD_END_ORIGIN [ENDING]
+                      - "Use the meta awareness to route toward the humbug index." → WIZARD_END_FAIL
+                        - WIZARD_END_FAIL [ENDING]
+              - "3. The Lever Pull — let the machinery fail publicly." → WIZARD_ORACLE_3
+                - WIZARD_ORACLE_3
+                  - "Let the lever pull route toward manual override ending." → WIZARD_END_OVERRIDE
+                    - WIZARD_END_OVERRIDE [ENDING]
+                  - "Recover the malfunction — route toward projection failure." → WIZARD_END_FAIL
+                    - WIZARD_END_FAIL [ENDING]
+              - "4. The Testimonial Extraction — let your fluids become advertising." → WIZARD_ORACLE_4
+                - WIZARD_ORACLE_4
+                  - "Accept the testimonial loading — route toward the audit." → WIZARD_END_AUDIT
+                    - WIZARD_END_AUDIT [ENDING]
+                  - "Let the parchments dissolve — route toward the humbug index." → WIZARD_END_FAIL
+                    - WIZARD_END_FAIL [ENDING]
+              - "5. The Balloon Inflation — borrow Dorothy's displacement for lift." → WIZARD_ORACLE_5
+                - WIZARD_ORACLE_5
+                  - "Ride the lift — route toward the balloon drift ending." → WIZARD_END_BALLOON
+                    - WIZARD_END_BALLOON [ENDING]
+                  - "Release the gas — accept the crash with the override." → WIZARD_END_OVERRIDE
+                    - WIZARD_END_OVERRIDE [ENDING]
+              - "6. The Green Lens Implant — see everything through the marketing tint." → WIZARD_ORACLE_6
+                - WIZARD_ORACLE_6
+                  - "Accept the green lens — route toward the green lens ending." → WIZARD_END_GREEN
+                    - WIZARD_END_GREEN [ENDING]
+                  - "Let the lens refract toward Glinda's refractive protocol." → WIZARD_END_FAIL
+                    - WIZARD_END_FAIL [ENDING]
+              - "7. The Humbug Harvest — realize the Surgeon is also being operated on." → WIZARD_ORACLE_7
+                - WIZARD_ORACLE_7
+                  - "Accept the paralysis — route toward the origin node." → WIZARD_END_ORIGIN
+                    - WIZARD_END_ORIGIN [ENDING]
+                  - "Use the meta awareness to route toward the humbug index." → WIZARD_END_FAIL
+                    - WIZARD_END_FAIL [ENDING]
+              - "8. The Projection Collapse — let the smoke clear." → WIZARD_ORACLE_8
+                - WIZARD_ORACLE_8
+                  - "Let the collapse route toward the origin node." → WIZARD_END_ORIGIN
+                    - WIZARD_END_ORIGIN [ENDING]
+                  - "Accept the humbug index — route toward the projection fail ending." → WIZARD_END_FAIL
+                    - WIZARD_END_FAIL [ENDING]
+          - "Pull the curtain back over the Surgeon — maintain the fiction." → WIZARD_PATH_PROJECTION
+            - ↩ cycle

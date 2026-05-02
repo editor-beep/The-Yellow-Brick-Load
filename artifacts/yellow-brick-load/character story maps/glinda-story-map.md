@@ -1,0 +1,139 @@
+# Yellow Brick Load Story Passage Branch Tree
+
+Generated: 2026-05-02T17:45:26.167Z
+
+
+## GLINDA_INIT
+- GLINDA_INIT
+  - "Descend to administer direct mercy calibration." → GLINDA_ORACLE_ENTRY
+    - GLINDA_ORACLE_ENTRY
+      - "Submit to the calibration — allow the harvest." → GLINDA_ORACLE_DRAW
+        - GLINDA_ORACLE_DRAW
+          - "1. The Pink Filament — let the refraction surge." → GLINDA_ORACLE_1
+            - GLINDA_ORACLE_1
+              - "Deploy the filament — graft benevolent guidance into nearby units." → GLINDA_END_BENEVOLENT
+                - GLINDA_END_BENEVOLENT [ENDING]
+              - "Keep the filament inside — use it to reach the refractive protocol." → GLINDA_END_REFRACTION
+                - GLINDA_END_REFRACTION [ENDING]
+          - "2. The Bubble Suture — seal the incisions with compliance." → GLINDA_ORACLE_2
+            - GLINDA_ORACLE_2
+              - "Accept the sealed compliance — route toward the insulated ending." → GLINDA_END_INSULATED
+                - GLINDA_END_INSULATED [ENDING]
+              - "Let one bubble unseal — find the crack in the compliance." → GLINDA_ORACLE_8
+                - GLINDA_ORACLE_8
+                  - "Let the burst exposure route toward raw interface failure." → GLINDA_END_BURST
+                    - GLINDA_END_BURST [ENDING]
+                  - "Reseal the bubble — route toward the insulated ending." → GLINDA_END_INSULATED
+                    - GLINDA_END_INSULATED [ENDING]
+          - "3. The Lens Fracture — follow massive desync into refractive horror." → GLINDA_ORACLE_3
+            - GLINDA_ORACLE_3
+              - "Follow the cracked lens into refractive protocol dissolution." → GLINDA_END_REFRACTION
+                - GLINDA_END_REFRACTION [ENDING]
+              - "Let the fractured view route toward the silver refraction echo." → GLINDA_END_SILVER_ECHO
+                - GLINDA_END_SILVER_ECHO [ENDING]
+          - "4. The Grace Incision — borrow Dorothy's silver friction." → GLINDA_ORACLE_4
+            - GLINDA_ORACLE_4
+              - "Deepen the parasitic link — route toward the silver refraction echo." → GLINDA_END_SILVER_ECHO
+                - GLINDA_END_SILVER_ECHO [ENDING]
+              - "Seal the link — route toward benevolent guidance." → GLINDA_END_BENEVOLENT
+                - GLINDA_END_BENEVOLENT [ENDING]
+          - "5. The Porcelain Mask — allow the hollowing insulation." → GLINDA_ORACLE_5
+            - GLINDA_ORACLE_5
+              - "Accept the porcelain mask — route toward the insulated ending." → GLINDA_END_INSULATED
+                - GLINDA_END_INSULATED [ENDING]
+              - "Let the porcelain crack under the insulation weight." → GLINDA_ORACLE_8
+                - GLINDA_ORACLE_8
+                  - "Let the burst exposure route toward raw interface failure." → GLINDA_END_BURST
+                    - GLINDA_END_BURST [ENDING]
+                  - "Reseal the bubble — route toward the insulated ending." → GLINDA_END_INSULATED
+                    - GLINDA_END_INSULATED [ENDING]
+          - "6. The Synthetic Lilac Bleed — accept pharmaceutical dampening." → GLINDA_ORACLE_6
+            - GLINDA_ORACLE_6
+              - "Accept the aromatic dampening — route toward insulated ending." → GLINDA_END_INSULATED
+                - GLINDA_END_INSULATED [ENDING]
+              - "Let the lilac echo route toward Dorothy or the Poppy Field." → GLINDA_END_DRIFT
+                - GLINDA_END_DRIFT [ENDING]
+          - "7. The High-Altitude Drain — borrow displacement and vibration." → GLINDA_ORACLE_7
+            - GLINDA_ORACLE_7
+              - "Stay at altitude — route toward atmospheric drift ending." → GLINDA_END_DRIFT
+                - GLINDA_END_DRIFT [ENDING]
+              - "Use the borrowed vibration to reach the refractive protocol." → GLINDA_END_REFRACTION
+                - GLINDA_END_REFRACTION [ENDING]
+          - "8. The Bubble Burst — let the membrane rupture." → GLINDA_ORACLE_8
+            - GLINDA_ORACLE_8
+              - "Let the burst exposure route toward raw interface failure." → GLINDA_END_BURST
+                - GLINDA_END_BURST [ENDING]
+              - "Reseal the bubble — route toward the insulated ending." → GLINDA_END_INSULATED
+                - GLINDA_END_INSULATED [ENDING]
+      - "Resist the procedure — maintain the surface perfection." → GLINDA_PATH_ALTITUDE
+        - GLINDA_PATH_ALTITUDE
+          - "Descend when refraction reaches critical — the oracle waits." → GLINDA_ORACLE_ENTRY
+            - ↩ cycle
+          - "Remain at altitude — route toward atmospheric drift ending." → GLINDA_END_DRIFT
+            - GLINDA_END_DRIFT [ENDING]
+  - "Observe from altitude — maintain the insulating distance." → GLINDA_PATH_ALTITUDE
+    - GLINDA_PATH_ALTITUDE
+      - "Descend when refraction reaches critical — the oracle waits." → GLINDA_ORACLE_ENTRY
+        - GLINDA_ORACLE_ENTRY
+          - "Submit to the calibration — allow the harvest." → GLINDA_ORACLE_DRAW
+            - GLINDA_ORACLE_DRAW
+              - "1. The Pink Filament — let the refraction surge." → GLINDA_ORACLE_1
+                - GLINDA_ORACLE_1
+                  - "Deploy the filament — graft benevolent guidance into nearby units." → GLINDA_END_BENEVOLENT
+                    - GLINDA_END_BENEVOLENT [ENDING]
+                  - "Keep the filament inside — use it to reach the refractive protocol." → GLINDA_END_REFRACTION
+                    - GLINDA_END_REFRACTION [ENDING]
+              - "2. The Bubble Suture — seal the incisions with compliance." → GLINDA_ORACLE_2
+                - GLINDA_ORACLE_2
+                  - "Accept the sealed compliance — route toward the insulated ending." → GLINDA_END_INSULATED
+                    - GLINDA_END_INSULATED [ENDING]
+                  - "Let one bubble unseal — find the crack in the compliance." → GLINDA_ORACLE_8
+                    - GLINDA_ORACLE_8
+                      - "Let the burst exposure route toward raw interface failure." → GLINDA_END_BURST
+                        - GLINDA_END_BURST [ENDING]
+                      - "Reseal the bubble — route toward the insulated ending." → GLINDA_END_INSULATED
+                        - GLINDA_END_INSULATED [ENDING]
+              - "3. The Lens Fracture — follow massive desync into refractive horror." → GLINDA_ORACLE_3
+                - GLINDA_ORACLE_3
+                  - "Follow the cracked lens into refractive protocol dissolution." → GLINDA_END_REFRACTION
+                    - GLINDA_END_REFRACTION [ENDING]
+                  - "Let the fractured view route toward the silver refraction echo." → GLINDA_END_SILVER_ECHO
+                    - GLINDA_END_SILVER_ECHO [ENDING]
+              - "4. The Grace Incision — borrow Dorothy's silver friction." → GLINDA_ORACLE_4
+                - GLINDA_ORACLE_4
+                  - "Deepen the parasitic link — route toward the silver refraction echo." → GLINDA_END_SILVER_ECHO
+                    - GLINDA_END_SILVER_ECHO [ENDING]
+                  - "Seal the link — route toward benevolent guidance." → GLINDA_END_BENEVOLENT
+                    - GLINDA_END_BENEVOLENT [ENDING]
+              - "5. The Porcelain Mask — allow the hollowing insulation." → GLINDA_ORACLE_5
+                - GLINDA_ORACLE_5
+                  - "Accept the porcelain mask — route toward the insulated ending." → GLINDA_END_INSULATED
+                    - GLINDA_END_INSULATED [ENDING]
+                  - "Let the porcelain crack under the insulation weight." → GLINDA_ORACLE_8
+                    - GLINDA_ORACLE_8
+                      - "Let the burst exposure route toward raw interface failure." → GLINDA_END_BURST
+                        - GLINDA_END_BURST [ENDING]
+                      - "Reseal the bubble — route toward the insulated ending." → GLINDA_END_INSULATED
+                        - GLINDA_END_INSULATED [ENDING]
+              - "6. The Synthetic Lilac Bleed — accept pharmaceutical dampening." → GLINDA_ORACLE_6
+                - GLINDA_ORACLE_6
+                  - "Accept the aromatic dampening — route toward insulated ending." → GLINDA_END_INSULATED
+                    - GLINDA_END_INSULATED [ENDING]
+                  - "Let the lilac echo route toward Dorothy or the Poppy Field." → GLINDA_END_DRIFT
+                    - GLINDA_END_DRIFT [ENDING]
+              - "7. The High-Altitude Drain — borrow displacement and vibration." → GLINDA_ORACLE_7
+                - GLINDA_ORACLE_7
+                  - "Stay at altitude — route toward atmospheric drift ending." → GLINDA_END_DRIFT
+                    - GLINDA_END_DRIFT [ENDING]
+                  - "Use the borrowed vibration to reach the refractive protocol." → GLINDA_END_REFRACTION
+                    - GLINDA_END_REFRACTION [ENDING]
+              - "8. The Bubble Burst — let the membrane rupture." → GLINDA_ORACLE_8
+                - GLINDA_ORACLE_8
+                  - "Let the burst exposure route toward raw interface failure." → GLINDA_END_BURST
+                    - GLINDA_END_BURST [ENDING]
+                  - "Reseal the bubble — route toward the insulated ending." → GLINDA_END_INSULATED
+                    - GLINDA_END_INSULATED [ENDING]
+          - "Resist the procedure — maintain the surface perfection." → GLINDA_PATH_ALTITUDE
+            - ↩ cycle
+      - "Remain at altitude — route toward atmospheric drift ending." → GLINDA_END_DRIFT
+        - GLINDA_END_DRIFT [ENDING]

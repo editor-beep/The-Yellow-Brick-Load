@@ -1,0 +1,233 @@
+# Yellow Brick Load Story Passage Branch Tree
+
+Generated: 2026-05-02T17:45:26.167Z
+
+
+## SCARECROW_INIT
+- SCARECROW_INIT
+  - "Slip free of the post and follow the scattered straw." → SCARECROW_PATH_MIND
+    - SCARECROW_PATH_MIND
+      - "Follow the scattered straw toward the diploma path." → SCARECROW_DIPLOMA_HUB
+        - SCARECROW_DIPLOMA_HUB
+          - "Accept the certified brain — route toward the educational ending." → SCARECROW_END_DIPLOMA
+            - SCARECROW_END_DIPLOMA [ENDING]
+          - "Reject the diploma — let the scatter reach the field surgeon." → SCARECROW_ORACLE_ENTRY
+            - SCARECROW_ORACLE_ENTRY
+              - "Allow the extraction — open the seam fully." → SCARECROW_ORACLE_DRAW
+                - SCARECROW_ORACLE_DRAW
+                  - "1. The Leaking Stuffing — let the scatter surge." → SCARECROW_ORACLE_1
+                    - SCARECROW_ORACLE_1
+                      - "Follow the scattered fragments toward surreal dissolution." → SCARECROW_END_SCATTER
+                        - SCARECROW_END_SCATTER [ENDING]
+                      - "Let the fragments feed back into the road." → SCARECROW_DIPLOMA_HUB
+                        - ↩ cycle
+                  - "2. The Diploma Graft — accept the knowledge patch." → SCARECROW_ORACLE_2
+                    - SCARECROW_ORACLE_2
+                      - "Accept the patched knowledge — route toward the diploma ending." → SCARECROW_END_DIPLOMA
+                        - SCARECROW_END_DIPLOMA [ENDING]
+                      - "Let the wet paper dissolve inside and route toward hollowing." → SCARECROW_END_HOLLOW
+                        - SCARECROW_END_HOLLOW [ENDING]
+                  - "3. The Crow-Picked Residue — follow the desync into echo-paths." → SCARECROW_ORACLE_3
+                    - SCARECROW_ORACLE_3
+                      - "Follow the crow residue into the unmonitored dark." → SCARECROW_END_SCATTER
+                        - SCARECROW_END_SCATTER [ENDING]
+                      - "Let the residue route toward echo-heavy dissolution." → SCARECROW_END_HOLLOW
+                        - SCARECROW_END_HOLLOW [ENDING]
+                  - "4. Seam Rupture — let the stitch integrity fail." → SCARECROW_ORACLE_4
+                    - SCARECROW_ORACLE_4
+                      - "Accept the shedding — let the rupture complete itself." → SCARECROW_END_SCATTER
+                        - SCARECROW_END_SCATTER [ENDING]
+                      - "Request emergency re-stitching — route toward patched compliance." → SCARECROW_ORACLE_7
+                        - SCARECROW_ORACLE_7
+                          - "Accept the patched stability — function as intended." → SCARECROW_PATH_COMPLIANCE
+                            - SCARECROW_PATH_COMPLIANCE
+                              - "Accept the infrastructure role — route toward the diploma." → SCARECROW_DIPLOMA_HUB
+                                - ↩ cycle
+                          - "Use the temporary cohesion to reach the diploma hub." → SCARECROW_DIPLOMA_HUB
+                            - ↩ cycle
+                  - "5. The Mold Prophecy — unlock the meta branches." → SCARECROW_ORACLE_5
+                    - SCARECROW_ORACLE_5
+                      - "Accept the paralysis — sit with the prophecy." → SCARECROW_END_HOLLOW
+                        - SCARECROW_END_HOLLOW [ENDING]
+                      - "Use the prophetic scatter to route toward dissolution." → SCARECROW_END_SCATTER
+                        - SCARECROW_END_SCATTER [ENDING]
+                  - "6. The Wind Audit — let the straw blow into foreign wounds." → SCARECROW_ORACLE_6
+                    - SCARECROW_ORACLE_6
+                      - "Follow the wind — let the scatter route cross-character." → SCARECROW_END_SCATTER
+                        - SCARECROW_END_SCATTER [ENDING]
+                      - "Recollect what's left and restuff through the diploma hub." → SCARECROW_DIPLOMA_HUB
+                        - ↩ cycle
+                  - "7. The Pinned Patch — accept temporary cohesion." → SCARECROW_ORACLE_7
+                    - SCARECROW_ORACLE_7
+                      - "Accept the patched stability — function as intended." → SCARECROW_PATH_COMPLIANCE
+                        - SCARECROW_PATH_COMPLIANCE
+                          - "Accept the infrastructure role — route toward the diploma." → SCARECROW_DIPLOMA_HUB
+                            - ↩ cycle
+                      - "Use the temporary cohesion to reach the diploma hub." → SCARECROW_DIPLOMA_HUB
+                        - ↩ cycle
+                  - "8. The Empty Cavity — total hollowing." → SCARECROW_ORACLE_8
+                    - SCARECROW_ORACLE_8
+                      - "Let the empty cavity route toward total dissolution." → SCARECROW_END_HOLLOW
+                        - SCARECROW_END_HOLLOW [ENDING]
+                      - "Fill the cavity with the road itself — become the soil." → SCARECROW_END_SCATTER
+                        - SCARECROW_END_SCATTER [ENDING]
+              - "Try to restuff the seam — resist the harvest." → SCARECROW_PATH_COMPLIANCE
+                - SCARECROW_PATH_COMPLIANCE
+                  - "Accept the infrastructure role — route toward the diploma." → SCARECROW_DIPLOMA_HUB
+                    - ↩ cycle
+      - "Let the scatter reach critical and accept the harvest." → SCARECROW_ORACLE_ENTRY
+        - SCARECROW_ORACLE_ENTRY
+          - "Allow the extraction — open the seam fully." → SCARECROW_ORACLE_DRAW
+            - SCARECROW_ORACLE_DRAW
+              - "1. The Leaking Stuffing — let the scatter surge." → SCARECROW_ORACLE_1
+                - SCARECROW_ORACLE_1
+                  - "Follow the scattered fragments toward surreal dissolution." → SCARECROW_END_SCATTER
+                    - SCARECROW_END_SCATTER [ENDING]
+                  - "Let the fragments feed back into the road." → SCARECROW_DIPLOMA_HUB
+                    - SCARECROW_DIPLOMA_HUB
+                      - "Accept the certified brain — route toward the educational ending." → SCARECROW_END_DIPLOMA
+                        - SCARECROW_END_DIPLOMA [ENDING]
+                      - "Reject the diploma — let the scatter reach the field surgeon." → SCARECROW_ORACLE_ENTRY
+                        - ↩ cycle
+              - "2. The Diploma Graft — accept the knowledge patch." → SCARECROW_ORACLE_2
+                - SCARECROW_ORACLE_2
+                  - "Accept the patched knowledge — route toward the diploma ending." → SCARECROW_END_DIPLOMA
+                    - SCARECROW_END_DIPLOMA [ENDING]
+                  - "Let the wet paper dissolve inside and route toward hollowing." → SCARECROW_END_HOLLOW
+                    - SCARECROW_END_HOLLOW [ENDING]
+              - "3. The Crow-Picked Residue — follow the desync into echo-paths." → SCARECROW_ORACLE_3
+                - SCARECROW_ORACLE_3
+                  - "Follow the crow residue into the unmonitored dark." → SCARECROW_END_SCATTER
+                    - SCARECROW_END_SCATTER [ENDING]
+                  - "Let the residue route toward echo-heavy dissolution." → SCARECROW_END_HOLLOW
+                    - SCARECROW_END_HOLLOW [ENDING]
+              - "4. Seam Rupture — let the stitch integrity fail." → SCARECROW_ORACLE_4
+                - SCARECROW_ORACLE_4
+                  - "Accept the shedding — let the rupture complete itself." → SCARECROW_END_SCATTER
+                    - SCARECROW_END_SCATTER [ENDING]
+                  - "Request emergency re-stitching — route toward patched compliance." → SCARECROW_ORACLE_7
+                    - SCARECROW_ORACLE_7
+                      - "Accept the patched stability — function as intended." → SCARECROW_PATH_COMPLIANCE
+                        - SCARECROW_PATH_COMPLIANCE
+                          - "Accept the infrastructure role — route toward the diploma." → SCARECROW_DIPLOMA_HUB
+                            - SCARECROW_DIPLOMA_HUB
+                              - "Accept the certified brain — route toward the educational ending." → SCARECROW_END_DIPLOMA
+                                - SCARECROW_END_DIPLOMA [ENDING]
+                              - "Reject the diploma — let the scatter reach the field surgeon." → SCARECROW_ORACLE_ENTRY
+                                - ↩ cycle
+                      - "Use the temporary cohesion to reach the diploma hub." → SCARECROW_DIPLOMA_HUB
+                        - SCARECROW_DIPLOMA_HUB
+                          - "Accept the certified brain — route toward the educational ending." → SCARECROW_END_DIPLOMA
+                            - SCARECROW_END_DIPLOMA [ENDING]
+                          - "Reject the diploma — let the scatter reach the field surgeon." → SCARECROW_ORACLE_ENTRY
+                            - ↩ cycle
+              - "5. The Mold Prophecy — unlock the meta branches." → SCARECROW_ORACLE_5
+                - SCARECROW_ORACLE_5
+                  - "Accept the paralysis — sit with the prophecy." → SCARECROW_END_HOLLOW
+                    - SCARECROW_END_HOLLOW [ENDING]
+                  - "Use the prophetic scatter to route toward dissolution." → SCARECROW_END_SCATTER
+                    - SCARECROW_END_SCATTER [ENDING]
+              - "6. The Wind Audit — let the straw blow into foreign wounds." → SCARECROW_ORACLE_6
+                - SCARECROW_ORACLE_6
+                  - "Follow the wind — let the scatter route cross-character." → SCARECROW_END_SCATTER
+                    - SCARECROW_END_SCATTER [ENDING]
+                  - "Recollect what's left and restuff through the diploma hub." → SCARECROW_DIPLOMA_HUB
+                    - SCARECROW_DIPLOMA_HUB
+                      - "Accept the certified brain — route toward the educational ending." → SCARECROW_END_DIPLOMA
+                        - SCARECROW_END_DIPLOMA [ENDING]
+                      - "Reject the diploma — let the scatter reach the field surgeon." → SCARECROW_ORACLE_ENTRY
+                        - ↩ cycle
+              - "7. The Pinned Patch — accept temporary cohesion." → SCARECROW_ORACLE_7
+                - SCARECROW_ORACLE_7
+                  - "Accept the patched stability — function as intended." → SCARECROW_PATH_COMPLIANCE
+                    - SCARECROW_PATH_COMPLIANCE
+                      - "Accept the infrastructure role — route toward the diploma." → SCARECROW_DIPLOMA_HUB
+                        - SCARECROW_DIPLOMA_HUB
+                          - "Accept the certified brain — route toward the educational ending." → SCARECROW_END_DIPLOMA
+                            - SCARECROW_END_DIPLOMA [ENDING]
+                          - "Reject the diploma — let the scatter reach the field surgeon." → SCARECROW_ORACLE_ENTRY
+                            - ↩ cycle
+                  - "Use the temporary cohesion to reach the diploma hub." → SCARECROW_DIPLOMA_HUB
+                    - SCARECROW_DIPLOMA_HUB
+                      - "Accept the certified brain — route toward the educational ending." → SCARECROW_END_DIPLOMA
+                        - SCARECROW_END_DIPLOMA [ENDING]
+                      - "Reject the diploma — let the scatter reach the field surgeon." → SCARECROW_ORACLE_ENTRY
+                        - ↩ cycle
+              - "8. The Empty Cavity — total hollowing." → SCARECROW_ORACLE_8
+                - SCARECROW_ORACLE_8
+                  - "Let the empty cavity route toward total dissolution." → SCARECROW_END_HOLLOW
+                    - SCARECROW_END_HOLLOW [ENDING]
+                  - "Fill the cavity with the road itself — become the soil." → SCARECROW_END_SCATTER
+                    - SCARECROW_END_SCATTER [ENDING]
+          - "Try to restuff the seam — resist the harvest." → SCARECROW_PATH_COMPLIANCE
+            - SCARECROW_PATH_COMPLIANCE
+              - "Accept the infrastructure role — route toward the diploma." → SCARECROW_DIPLOMA_HUB
+                - SCARECROW_DIPLOMA_HUB
+                  - "Accept the certified brain — route toward the educational ending." → SCARECROW_END_DIPLOMA
+                    - SCARECROW_END_DIPLOMA [ENDING]
+                  - "Reject the diploma — let the scatter reach the field surgeon." → SCARECROW_ORACLE_ENTRY
+                    - ↩ cycle
+  - "Remain on the post — function as intended." → SCARECROW_PATH_COMPLIANCE
+    - SCARECROW_PATH_COMPLIANCE
+      - "Accept the infrastructure role — route toward the diploma." → SCARECROW_DIPLOMA_HUB
+        - SCARECROW_DIPLOMA_HUB
+          - "Accept the certified brain — route toward the educational ending." → SCARECROW_END_DIPLOMA
+            - SCARECROW_END_DIPLOMA [ENDING]
+          - "Reject the diploma — let the scatter reach the field surgeon." → SCARECROW_ORACLE_ENTRY
+            - SCARECROW_ORACLE_ENTRY
+              - "Allow the extraction — open the seam fully." → SCARECROW_ORACLE_DRAW
+                - SCARECROW_ORACLE_DRAW
+                  - "1. The Leaking Stuffing — let the scatter surge." → SCARECROW_ORACLE_1
+                    - SCARECROW_ORACLE_1
+                      - "Follow the scattered fragments toward surreal dissolution." → SCARECROW_END_SCATTER
+                        - SCARECROW_END_SCATTER [ENDING]
+                      - "Let the fragments feed back into the road." → SCARECROW_DIPLOMA_HUB
+                        - ↩ cycle
+                  - "2. The Diploma Graft — accept the knowledge patch." → SCARECROW_ORACLE_2
+                    - SCARECROW_ORACLE_2
+                      - "Accept the patched knowledge — route toward the diploma ending." → SCARECROW_END_DIPLOMA
+                        - SCARECROW_END_DIPLOMA [ENDING]
+                      - "Let the wet paper dissolve inside and route toward hollowing." → SCARECROW_END_HOLLOW
+                        - SCARECROW_END_HOLLOW [ENDING]
+                  - "3. The Crow-Picked Residue — follow the desync into echo-paths." → SCARECROW_ORACLE_3
+                    - SCARECROW_ORACLE_3
+                      - "Follow the crow residue into the unmonitored dark." → SCARECROW_END_SCATTER
+                        - SCARECROW_END_SCATTER [ENDING]
+                      - "Let the residue route toward echo-heavy dissolution." → SCARECROW_END_HOLLOW
+                        - SCARECROW_END_HOLLOW [ENDING]
+                  - "4. Seam Rupture — let the stitch integrity fail." → SCARECROW_ORACLE_4
+                    - SCARECROW_ORACLE_4
+                      - "Accept the shedding — let the rupture complete itself." → SCARECROW_END_SCATTER
+                        - SCARECROW_END_SCATTER [ENDING]
+                      - "Request emergency re-stitching — route toward patched compliance." → SCARECROW_ORACLE_7
+                        - SCARECROW_ORACLE_7
+                          - "Accept the patched stability — function as intended." → SCARECROW_PATH_COMPLIANCE
+                            - ↩ cycle
+                          - "Use the temporary cohesion to reach the diploma hub." → SCARECROW_DIPLOMA_HUB
+                            - ↩ cycle
+                  - "5. The Mold Prophecy — unlock the meta branches." → SCARECROW_ORACLE_5
+                    - SCARECROW_ORACLE_5
+                      - "Accept the paralysis — sit with the prophecy." → SCARECROW_END_HOLLOW
+                        - SCARECROW_END_HOLLOW [ENDING]
+                      - "Use the prophetic scatter to route toward dissolution." → SCARECROW_END_SCATTER
+                        - SCARECROW_END_SCATTER [ENDING]
+                  - "6. The Wind Audit — let the straw blow into foreign wounds." → SCARECROW_ORACLE_6
+                    - SCARECROW_ORACLE_6
+                      - "Follow the wind — let the scatter route cross-character." → SCARECROW_END_SCATTER
+                        - SCARECROW_END_SCATTER [ENDING]
+                      - "Recollect what's left and restuff through the diploma hub." → SCARECROW_DIPLOMA_HUB
+                        - ↩ cycle
+                  - "7. The Pinned Patch — accept temporary cohesion." → SCARECROW_ORACLE_7
+                    - SCARECROW_ORACLE_7
+                      - "Accept the patched stability — function as intended." → SCARECROW_PATH_COMPLIANCE
+                        - ↩ cycle
+                      - "Use the temporary cohesion to reach the diploma hub." → SCARECROW_DIPLOMA_HUB
+                        - ↩ cycle
+                  - "8. The Empty Cavity — total hollowing." → SCARECROW_ORACLE_8
+                    - SCARECROW_ORACLE_8
+                      - "Let the empty cavity route toward total dissolution." → SCARECROW_END_HOLLOW
+                        - SCARECROW_END_HOLLOW [ENDING]
+                      - "Fill the cavity with the road itself — become the soil." → SCARECROW_END_SCATTER
+                        - SCARECROW_END_SCATTER [ENDING]
+              - "Try to restuff the seam — resist the harvest." → SCARECROW_PATH_COMPLIANCE
+                - ↩ cycle
