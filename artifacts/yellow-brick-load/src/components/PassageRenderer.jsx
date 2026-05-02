@@ -114,7 +114,7 @@ export default function PassageRenderer() {
   }
 
   return (
-    <div className="passage-wrapper passage-wrapper--has-stats" tabIndex={-1}>
+    <div className="passage-wrapper passage-wrapper--has-stats" data-character={character} tabIndex={-1}>
       <StatsCard />
       <OracleCard />
       {smudge >= 1 && <div className="smudge-overlay" style={{ opacity: smudge * 0.15 }} aria-hidden="true" />}
