@@ -11,6 +11,9 @@
  *
  * Shared enforcers (cross-character threats):
  *   Munchkin Swarm, Winged Monkeys, Kalidah Merge, Poppy Drones
+ *
+ * Shared node architecture (cross-character story hubs):
+ *   Z_WIZARDS_HALL, SHARED_UNMOORED_NIGHT, and supporting stubs
  */
 
 import { lionBranchPassages }      from './lion_branches.js'
@@ -46,6 +49,7 @@ import { witchEastEndingPassages }  from './witch_east_endings.js'
 import { witchEastOraclePassages }  from './witch_east_oracle.js'
 
 import { enforcerPassages }         from './enforcers.js'
+import { sharedPassages }            from './shared_passages.js'
 
 // Ghost Signal — off-grid, character-agnostic
 export const ghostSignalPassage = {
@@ -83,6 +87,7 @@ export const allPassages = {
   ...witchWestBranchPassages, ...witchWestEndingPassages, ...witchWestOraclePassages,
   ...witchEastBranchPassages, ...witchEastEndingPassages, ...witchEastOraclePassages,
   ...enforcerPassages,
+  ...sharedPassages,
   ...ghostSignalPassage,
 }
 

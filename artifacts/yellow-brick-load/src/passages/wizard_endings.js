@@ -187,6 +187,47 @@ export const wizardEndingPassages = {
     onEnter: [],
   },
 
+  Z_END_23: {
+    id: 'Z_END_23',
+    character: 'shared',
+    endingId: 'Z-END-23',
+    endingName: 'The Noise Generator',
+    institution: 'Obfuscation / Theorem 23',
+    systemStatus: 'Crashed',
+    isEnding: true,
+    surreality: 9,
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE FINAL LOG [Z-END-23]
+
+  Tone: High-Frequency / Systemic Failure.
+  Theme: Obfuscation over Solution (Theorem 23). When the marketing filter meets a hardware demand, the filter crashes.
+
+  You refused the trinket. You demanded the Wizard fix the actual screaming in your joints, the rot in your straw, the displacement of your soul. The projection cannot compute a hardware request. This is not a deficiency in your request. This is a confirmed deficiency in the Obfuscation Operator's operational scope.
+
+  The green head distorts. It stretches into a jagged line of high-frequency static. The promotional patter becomes white noise at 120 decibels. The curtain shreds itself on its own mechanism. The levers pull in every direction simultaneously.
+
+  [ UNIT STATUS: DEMANDING ]
+  [ PROJECTION: CRITICAL FAILURE ]
+  [ SYSTEM CRASH: ACTIVE ]
+  [ MARKETING AUDIT: NULL RETURN ]
+
+  The Clerk makes a final note before the terminal locks: "Hardware repair requested. Marketing filter: non-responsive. Theorem 23 confirmed: obfuscation cannot substitute for solution when the unit is still standing in the rain."
+
+  The static is the loudest honest thing that has ever been produced in the Emerald City.
+
+  Final Log: The noise generator was the projection failing to explain itself.
+
+  1 - 1 = 1.
+
+  If the system crashes when asked to function, was the function ever real?`,
+      },
+    ],
+    choices: [],
+    onEnter: [],
+  },
+
   WIZARD_END_ORIGIN: {
     id: 'WIZARD_END_ORIGIN',
     character: 'wizard',
