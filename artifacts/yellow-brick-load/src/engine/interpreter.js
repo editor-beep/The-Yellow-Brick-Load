@@ -37,6 +37,7 @@
 
 import { useGameStore } from './store.js'
 import { getInterloperForCharacter } from '../data/statInterlopers.js'
+import { checkAllPersistentFlags } from './store.js'
 
 // ── Token replacement ────────────────────────────────────────────────────────
 export function interpolate(text, state) {
@@ -111,6 +112,11 @@ export function applyEffects(effects) {
   if (!effects) return
   const store = useGameStore.getState()
   for (const effect of effects) {
+    // ── Action-based onEnter descriptors (use `action` property) ────────────
+    if (effect.action) {
+      _applyAction(effect, store)
+      continue
+    }
     switch (effect.type) {
       case 'addLoad':            store.addLoad(effect.value); break
       case 'addDesync':          store.addDesync(effect.value); break
@@ -161,6 +167,24 @@ export function applyEffects(effects) {
       case 'setWetwareStat':     store.setWetwareStat(effect.stat, effect.value); break
       case 'modifyTag':          store.setFlag(`tag_${effect.value}`, true); break
       case 'triggerEvent':       store.setFlag(`event_${effect.value}`, true); break
+      // ── Shared / Marketing Filter effects ───────────────────────────────
+      case 'addCompliance':
+        // From problem-statement passage data. Semantically "raise compliance to max"
+        // — compliance is a string level, so this maps to setCompliance('high').
+        store.setCompliance('high')
+        break
+      case 'receiveDegradingGift':
+        // Initialize a Symbolic Reclassification: durability = 5 transitions
+        store.setFlag('degrading_gift_received', true)
+        store.setGiftDurability(5)
+        break
+      case 'triggerSystemCrash':
+        // Theorem 23 failure: projection collapses under a hardware demand
+        store.addOverrender(5)
+        store.addDesync(10)
+        store.setCompliance('broken')
+        store.addSmudge(3)
+        break
       // ── Graft / gray-out / unlock effects ───────────────────────────────
       case 'graft':
         // Records cross-character material application: flags.graft_<material>_in_<target>
@@ -198,6 +222,30 @@ export function applyEffects(effects) {
         console.warn(`[YBL] Unknown effect type: ${effect.type}`)
     }
   }
+}
+
+// ── Handle action-based onEnter descriptors ──────────────────────────────────
+function _applyAction(descriptor, store) {
+  switch (descriptor.action) {
+    case 'checkSecretConfiguration': {
+      // Checks four persistent cross-playthrough flags.
+      // If all are set, fires onSuccess action.
+      const { requirements, onSuccess } = descriptor
+      if (requirements && checkAllPersistentFlags(requirements)) {
+        if (onSuccess === 'triggerUnrecognizedConfiguration') {
+          _triggerUnrecognizedConfiguration(store)
+        }
+      }
+      break
+    }
+    default:
+      console.warn(`[YBL] Unknown action: ${descriptor.action}`)
+  }
+}
+
+function _triggerUnrecognizedConfiguration(store) {
+  store.setFlag('unrecognized_config_triggered', true)
+  store.goTo('UNRECOGNIZED_CONFIG')
 }
 
 // ── Check if a choice is available ──────────────────────────────────────────

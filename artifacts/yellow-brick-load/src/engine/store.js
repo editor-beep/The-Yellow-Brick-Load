@@ -78,6 +78,7 @@ const INITIAL_STATE = {
   refraction: 0,       // Glinda — light/truth distortion
   insulation: 0,       // Glinda — protective buffer
   obfuscation: 0,      // Wizard — smoke-and-mirrors density
+  giftDurability: 0,  // Shared — degrading gift integrity (5 when gifted; 0 = corrupted)
   malice: 0,           // Witch West — surveillance malice intensity
   thermal: 0,          // Witch West — thermodynamic heat level
   saturation: 0,       // Witch West — crucible saturation (0–100)
@@ -89,11 +90,20 @@ export const useGameStore = create((set, get) => ({
 
   // ── Navigation ──────────────────────────────────────────────────────────
   goTo: (nodeId) => {
-    const { history, currentNode } = get()
-    set({
+    const { history, currentNode, flags, giftDurability } = get()
+    const nextState = {
       currentNode: nodeId,
       history: currentNode ? [...history, currentNode] : history,
-    })
+    }
+    // Degrade the Symbolic Reclassification gift on every node transition
+    if (flags.degrading_gift_received && giftDurability > 0) {
+      const newDurability = giftDurability - 1
+      nextState.giftDurability = newDurability
+      if (newDurability <= 0) {
+        nextState.flags = { ...flags, gift_corrupted: true }
+      }
+    }
+    set(nextState)
   },
 
   // ── Character Selection ──────────────────────────────────────────────────
@@ -135,6 +145,7 @@ export const useGameStore = create((set, get) => ({
   addRefraction:     (n) => set((s) => ({ refraction:     s.refraction     + n })),
   addInsulation:     (n) => set((s) => ({ insulation:     s.insulation     + n })),
   addObfuscation:    (n) => set((s) => ({ obfuscation:    s.obfuscation    + n })),
+  setGiftDurability: (n) => set({ giftDurability: n }),
   addMalice:         (n) => set((s) => ({ malice:         s.malice         + n })),
   addThermal:        (n) => set((s) => ({ thermal:        s.thermal        + n })),
   addSaturation:     (n) => set((s) => ({ saturation:     Math.min(100, s.saturation + n) })),
@@ -205,6 +216,7 @@ export const RESIDUAL_KEY = 'ybl_visited'
 export const VISIT_COUNT_KEY = 'ybl_visit_count'
 export const CHARACTER_PLAY_COUNTS_KEY = 'ybl_character_play_counts'
 export const WITCH_WEST_INIT_SEEN_KEY = 'ybl_witch_west_init_seen'
+export const PERSISTENT_FLAGS_KEY = 'ybl_persistent_flags'
 
 const ALL_CHARACTERS = ['lion', 'tin_man', 'scarecrow', 'dorothy', 'witch_west', 'witch_east', 'glinda', 'wizard']
 
@@ -259,4 +271,28 @@ export function markWitchWestInitSeen(initNode) {
   if (initNode === 'WITCH_WEST_INIT') seen.initA = true
   if (initNode === 'WITCH_WEST_INIT_B') seen.initB = true
   writeJSON(WITCH_WEST_INIT_SEEN_KEY, seen)
+}
+
+// ── Persistent Cross-Playthrough Flags ──────────────────────────────────────
+// These flags survive hard resets and new-game sessions (localStorage only).
+// Currently used by: STANDING INSTRUCTION — THE UNRECOGNIZED CONFIGURATION.
+//   lion_refused_reset, tinman_touched_axe, scarecrow_straw_exchange, dorothy_direct_line
+
+export function getPersistentFlags() {
+  return readJSON(PERSISTENT_FLAGS_KEY, {})
+}
+
+export function setPersistentFlag(key, value = true) {
+  const flags = getPersistentFlags()
+  flags[key] = value
+  writeJSON(PERSISTENT_FLAGS_KEY, flags)
+}
+
+export function hasPersistentFlag(key) {
+  return !!getPersistentFlags()[key]
+}
+
+export function checkAllPersistentFlags(keys) {
+  const flags = getPersistentFlags()
+  return keys.every((k) => !!flags[k])
 }
