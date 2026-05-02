@@ -262,4 +262,116 @@ export const dorothyEndingPassages = {
     choices: [],
     onEnter: [],
   },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // VOLUME 4: DOROTHY ENDING MATRIX — TRANSMITTER PATH OUTCOMES
+  // ─────────────────────────────────────────────────────────────────────────
+
+  D_END_01: {
+    id: 'D_END_01',
+    character: 'dorothy',
+    endingId: 'D-END-01',
+    endingName: 'The Home Frequency',
+    institution: 'Signal',
+    systemStatus: 'Tuned',
+    isEnding: true,
+    surreality: 8,
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE FINAL LOG [D-END-01]
+
+  Tone: Transmission-Hollow.
+  Theme: Kansas is a transmission error.
+
+  You are no longer a girl. You are a 60Hz pulse traveling backward through a silver wire. The house is gone. The city is gone. There is only the hum of the cellar.
+
+  [ UNIT D-01 // STATUS: TUNED ]
+  [ COORDINATE: SIGNAL / UNLOCATED ]
+  [ DISPLACEMENT: DISSOLVED ]
+
+  The spindle collapses. The silver wire goes cold. The Bureau logs a "Carrier-Loss Event" and closes the file. Somewhere in the static, a frequency that once answered to Dorothy continues to broadcast—unaddressed, unarchived, and perfectly itself.
+
+  Final Log: The receiver has been destroyed. The broadcast continues.
+
+  1 - 1 = 1.
+
+  If the receiver is destroyed, does the broadcast still exist?`,
+      },
+    ],
+    choices: [],
+    onEnter: [],
+  },
+
+  D_END_02: {
+    id: 'D_END_02',
+    character: 'dorothy',
+    endingId: 'D-END-02',
+    endingName: 'The Grey Stasis',
+    institution: 'Infrastructure',
+    systemStatus: 'Grayscale',
+    isEnding: true,
+    surreality: 5,
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE FINAL LOG [D-END-02]
+
+  Tone: Compliance-Flat.
+  Theme: Color is a high-bandwidth error.
+
+  You sit on the floor of the Emerald City. Your dress is gray. Your skin is gray. You have aligned so perfectly with the infrastructure that you have become invisible to the sensors.
+
+  [ UNIT D-01 // STATUS: GRAYSCALE ]
+  [ COORDINATE: OZ-INFRASTRUCTURE ]
+  [ SIGNAL: ASSIMILATED / BASELINE ]
+
+  The slippers are still. The Kansas frequency has been fully integrated into the city's power grid. You are no longer a receiver. You are a conductor. The Dust Clerk passes without logging you. The Bureau's warrant is obsolete—you have become the system.
+
+  Final Log: The unit has achieved perfect compliance. Case file: CLOSED.
+
+  1 - 1 = 1.
+
+  Is safety worth the loss of the spectrum?`,
+      },
+    ],
+    choices: [],
+    onEnter: [],
+  },
+
+  D_END_07: {
+    id: 'D_END_07',
+    character: 'dorothy',
+    endingId: 'D-END-07',
+    endingName: 'The Gale Force',
+    institution: 'Meteorological',
+    systemStatus: 'Displaced',
+    isEnding: true,
+    surreality: 9,
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE FINAL LOG [D-END-07]
+
+  Tone: Thermal-Open.
+  Theme: Destruction is a successful audit.
+
+  The basement is a vortex of unindexed weather. The spindle has melted. The Emerald City is dark, and in the silence, you can finally hear the wind.
+
+  [ UNIT D-01 // STATUS: DISPLACED ]
+  [ COORDINATE: THERMAL EVENT / UNSANCTIONED ]
+  [ SYSTEM: OFFLINE ]
+
+  The silver wire pools on the floor like cooling mercury. The Bureau's signal is gone. Through the collapsed ceiling you can see the sky—not the rendered, emerald-tinted sky of the simulation, but a sky the system never indexed. It is gray and vast and exactly the right color.
+
+  Final Log: The audit is complete. The structure did not survive the review.
+
+  1 - 1 = 1.
+
+  When the walls fall, are you free, or just unhoused?`,
+      },
+    ],
+    choices: [],
+    onEnter: [],
+  },
 }

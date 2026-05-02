@@ -83,6 +83,9 @@ const INITIAL_STATE = {
   thermal: 0,          // Witch West — thermodynamic heat level
   saturation: 0,       // Witch West — crucible saturation (0–100)
   loopCount: 0,        // Witch West — deep audit loop counter
+  // ── Convergence / shared-node tracking ────────────────────────────────────
+  arrivalState: null,  // Dorothy — named state set by setArrivalState; consumed by evaluateOverrender
+  visitedBy: [],       // Shared — characters who have visited the current convergence node
 }
 
 export const useGameStore = create((set, get) => ({
@@ -151,6 +154,12 @@ export const useGameStore = create((set, get) => ({
   addSaturation:     (n) => set((s) => ({ saturation:     Math.min(100, s.saturation + n) })),
   incrementLoopCounter: () => set((s) => ({ loopCount: s.loopCount + 1 })),
   setWetwareStat:    (stat, val) => set({ [stat]: val }),
+  // ── Convergence / shared-node mutations ─────────────────────────────────────
+  setArrivalState: (val) => set({ arrivalState: val }),
+  setDisplacement: (val) => set({ displacement: val }),
+  pushToVisitedBy: (char) => set((s) => ({
+    visitedBy: s.visitedBy.includes(char) ? s.visitedBy : [...s.visitedBy, char],
+  })),
 
   // ── Soft Reset ───────────────────────────────────────────────────────────
   /**
@@ -173,6 +182,7 @@ export const useGameStore = create((set, get) => ({
       reset_count: s.reset_count + 1,
       overrender: 0,
       currentNode: initNode,
+      arrivalState: null,
     }))
   },
 
