@@ -31,6 +31,15 @@ export const lionOraclePassages = {
     ],
     choices: [
       {
+        label: 'Snap at the beak — refuse the stamp and bolt off the marker.',
+        target: 'LION_INIT',
+        effects: [
+          { type: 'addVibration', value: 4 },
+          { type: 'addDesync', value: 3 },
+          { type: 'setCompliance', value: 'low' },
+        ],
+      },
+      {
         label: 'Submit to the reading. (The Authorized Extraction)',
         target: 'LION_ORACLE_DRAW',
         effects: [{ type: 'addVibration', value: 2 }],

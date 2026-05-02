@@ -46,6 +46,15 @@ export const dorothyBranchPassages = {
           { type: 'addDesync', value: 1 },
         ],
       },
+      {
+        label: 'Stand still in the field — refuse to register a heading.',
+        target: 'DOROTHY_ORACLE_ENTRY',
+        effects: [
+          { type: 'addWarrant', value: 3 },
+          { type: 'addDisplacement', value: 1 },
+          { type: 'setCompliance', value: 'low' },
+        ],
+      },
     ],
     onEnter: [{ type: 'checkGhostSignal' }, { type: 'triggerOracle' }],
   },
@@ -85,6 +94,15 @@ export const dorothyBranchPassages = {
         effects: [
           { type: 'addDisplacement', value: 3 },
           { type: 'addWarrant', value: 1 },
+        ],
+      },
+      {
+        label: 'Step off the bricks — walk the unstamped dirt at the road’s edge.',
+        target: 'DOROTHY_PATH_SLIPPERS',
+        effects: [
+          { type: 'addDesync', value: 2 },
+          { type: 'addSilverFriction', value: 2 },
+          { type: 'setCompliance', value: 'low' },
         ],
       },
     ],
@@ -127,6 +145,15 @@ export const dorothyBranchPassages = {
           { type: 'setCompliance', value: 'med' },
         ],
       },
+      {
+        label: 'Pry the heels off — refuse the silver entirely.',
+        target: 'DOROTHY_ORACLE_ENTRY',
+        effects: [
+          { type: 'addSilverFriction', value: -2 },
+          { type: 'addDesync', value: 3 },
+          { type: 'addWarrant', value: 4 },
+        ],
+      },
     ],
     onEnter: [],
   },
@@ -165,6 +192,15 @@ export const dorothyBranchPassages = {
         effects: [
           { type: 'addDisplacement', value: 3 },
           { type: 'addWarrant', value: 2 },
+        ],
+      },
+      {
+        label: 'Spit the lollipop into the dust — re-open the muffled home-signal.',
+        target: 'DOROTHY_PATH_SLIPPERS',
+        effects: [
+          { type: 'addDesync', value: 2 },
+          { type: 'setCompliance', value: 'low' },
+          { type: 'addWarrant', value: 3 },
         ],
       },
     ],
@@ -485,6 +521,24 @@ export const dorothyBranchPassages = {
         label: 'Begin the Walk: Step onto the Logic Gate.',
         target: 'D_GRIND_DISPLACEMENT_03',
         effects: [{ type: 'addSilverFriction', value: 5 }],
+      },
+      {
+        label: 'Refuse the sentence — sit down on the silver heels and wait out the Camera.',
+        target: 'D_PATH_TRIAL',
+        effects: [
+          { type: 'addWarrant', value: 5 },
+          { type: 'addDisplacement', value: 2 },
+          { type: 'setCompliance', value: 'low' },
+        ],
+      },
+      {
+        label: 'Pry at the slipper buckles — try to break the kinetic contract.',
+        target: 'DOROTHY_PATH_SLIPPERS',
+        effects: [
+          { type: 'addSilverFriction', value: -2 },
+          { type: 'addDesync', value: 3 },
+          { type: 'addWarrant', value: 4 },
+        ],
       },
     ],
     onEnter: [],
@@ -949,6 +1003,16 @@ You sign the form. It immediately dissolves into a thousand white flakes of carb
         target: 'D_VOID_MAZE_23',
         effects: [{ type: 'addLoad', value: 10 }, { type: 'addDisplacement', value: 5 }],
       },
+      {
+        label: 'Stand still — let the warrant settle on the carbon flakes instead.',
+        target: 'D_VOID_MAZE_25',
+        effects: [{ type: 'addWarrant', value: 5 }, { type: 'addDisplacement', value: 3 }],
+      },
+      {
+        label: 'Eat a flake — re-file the origin claim through your own throat.',
+        target: 'D_VOID_MAZE_24',
+        effects: [{ type: 'addDesync', value: 4 }, { type: 'addLoad', value: 5 }],
+      },
     ],
     onEnter: [],
   },
@@ -1118,6 +1182,20 @@ You can hear the Bureau's central cooling fans humming behind the wood. It is th
         label: 'Open the door: Enter the Unlit Basement.',
         target: 'D_VOID_DESCENT_15',
         effects: [{ type: 'addDisplacement', value: 100 }],
+      },
+      {
+        label: 'Press your ear to the wood — let the cooling fans sort you in place.',
+        target: 'SHARED_UNMOORED_NIGHT',
+        effects: [{ type: 'addDesync', value: 8 }, { type: 'addDisplacement', value: 20 }],
+      },
+      {
+        label: 'Splinter the rotten door with the silver heels — refuse the labeled threshold.',
+        target: 'SHARED_UNLIT_BASEMENT',
+        effects: [
+          { type: 'addSilverFriction', value: 5 },
+          { type: 'addDesync', value: 5 },
+          { type: 'setCompliance', value: 'broken' },
+        ],
       },
     ],
     onEnter: [],

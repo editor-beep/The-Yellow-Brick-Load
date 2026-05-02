@@ -400,4 +400,40 @@ When every thought you have becomes a record, who owns what you are thinking?`,
     onEnter: [],
     isEnding: true,
   },
+
+  T_END_20: {
+    id: 'T_END_20',
+    character: 'tinman',
+    endingId: 'T-END-20',
+    endingName: 'Re-Integration',
+    institution: 'Reclamation',
+    systemStatus: 'REASSEMBLED / FOREIGN',
+    surreality: 8,
+    text: [
+      {
+        minOverrender: 0,
+        content: `RE-INTEGRATION [T-END-20]
+
+Audit Entry: Sector 06 / Reclamation — Salvage Reassembly
+
+You poured the Industrial Lubricant over the Pile of Limbs and the parts began to remember each other. A jaw that was never yours snapped onto your hinge. A pelvis stamped with another serial number locked into the void where yours had rusted out. The reassembly was efficient. The reassembly was not consensual. The new joints lubricated themselves with the oil and with the residue of every Tin Man who had been disassembled at this site before.
+
+You stand. You walk. You do not recognize your own gait. The chest cavity ticks with a heart-clock that is not yours; the previous owner is still inside it, somewhere, still trying to keep its own time.
+
+[ UNIT T-?? ]
+[ STATUS: REASSEMBLED / FOREIGN ]
+[ ORIGINAL T-88: ARCHIVED IN COMPONENT ]
+[ LUBRICATION: DISTRIBUTED ACROSS HISTORICAL UNITS ]
+
+The Bureau files the reassembly under "Successful Recycling." The clock inside your chest ticks at a rhythm you have to learn from scratch. You are now made of every Tin Man who failed to refuse the oil.
+
+Theme: Reuse is the kindest erasure the system offers.
+
+Whose heart is keeping your time?`,
+      },
+    ],
+    choices: [],
+    onEnter: [],
+    isEnding: true,
+  },
 }

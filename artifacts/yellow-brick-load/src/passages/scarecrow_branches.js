@@ -41,6 +41,15 @@ export const scarecrowBranchPassages = {
           { type: 'setCompliance', value: 'high' },
         ],
       },
+      {
+        label: 'Tear the seam wider — let the slurry leak until the Bureau must intervene.',
+        target: 'SCARECROW_ORACLE_ENTRY',
+        effects: [
+          { type: 'addScatter', value: 5 },
+          { type: 'addHollowing', value: 3 },
+          { type: 'setCompliance', value: 'low' },
+        ],
+      },
     ],
     onEnter: [{ type: 'checkGhostSignal' }, { type: 'triggerOracle' }],
   },
@@ -107,6 +116,24 @@ export const scarecrowBranchPassages = {
         effects: [
           { type: 'addLoad', value: 8 },
           { type: 'setCompliance', value: 'high' },
+        ],
+      },
+      {
+        label: 'Slip the knots after dark — abandon the post when no one is logging.',
+        target: 'SCARECROW_PATH_MIND',
+        effects: [
+          { type: 'addScatter', value: 3 },
+          { type: 'addDesync', value: 2 },
+          { type: 'setCompliance', value: 'low' },
+        ],
+      },
+      {
+        label: 'Burn the cross-bar — refuse to be infrastructure.',
+        target: 'SCARECROW_ORACLE_ENTRY',
+        effects: [
+          { type: 'addHollowing', value: 5 },
+          { type: 'addDesync', value: 3 },
+          { type: 'addWarrant', value: 4 },
         ],
       },
     ],
@@ -290,7 +317,25 @@ You find a terminal. It's not a brain; it's a clinical bit-stream. You can trade
         target: 'S_END_03',
         effects: [{ type: 'setFlag', key: 'scarecrow_straw_exchange', value: true }],
         content: `You trade the agriculture for the clinical. Your signal becomes a permanent error at Coordinate 0-0. You have escaped the field by becoming the code.`
-      }
+      },
+      {
+        label: 'Refuse the terminal — back out into the unmonitored corn before dawn re-files you.',
+        target: 'SCARECROW_PATH_MIND',
+        effects: [
+          { type: 'addScatter', value: 4 },
+          { type: 'addDesync', value: 2 },
+          { type: 'setCompliance', value: 'low' },
+        ],
+      },
+      {
+        label: 'Pour the rest of your straw onto the bit-stream — overwrite the system instead.',
+        target: 'SHARED_UNLIT_BASEMENT',
+        effects: [
+          { type: 'addHollowing', value: 8 },
+          { type: 'addDesync', value: 6 },
+          { type: 'setFlag', key: 'scarecrow_straw_exchange', value: true },
+        ],
+      },
     ]
   },
 

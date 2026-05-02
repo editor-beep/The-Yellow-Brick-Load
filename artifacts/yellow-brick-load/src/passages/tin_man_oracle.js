@@ -33,6 +33,15 @@ export const tinManOraclePassages = {
         effects: [{ type: 'addCorrosion', value: 2 }],
       },
       {
+        label: 'Seize the joint deliberately — refuse the probe by going stiff.',
+        target: 'T_PATH_WETWARE',
+        effects: [
+          { type: 'addCorrosion', value: 4 },
+          { type: 'addDesync', value: 2 },
+          { type: 'setCompliance', value: 'low' },
+        ],
+      },
+      {
         label: 'Resist the procedure — lock your joints tighter.',
         target: 'T_PATH_WETWARE',
         effects: [

@@ -37,6 +37,15 @@ The system has called for an audit. Gravity is the only auditor that doesn't acc
           { type: 'addDisplacement', value: 2 },
         ],
       },
+      {
+        label: 'Pre-file the post-mortem — accept the deletion before it occurs.',
+        target: 'WITCH_EAST_PATH_COORD_00',
+        effects: [
+          { type: 'addLoad', value: 25 },
+          { type: 'addDisplacement', value: 5 },
+          { type: 'setCompliance', value: 'high' },
+        ],
+      },
     ],
     onEnter: [{ type: 'checkGhostSignal' }, { type: 'triggerOracle' }],
   },
@@ -76,6 +85,15 @@ The system has called for an audit. Gravity is the only auditor that doesn't acc
         effects: [
           { type: 'addDisplacement', value: 5 },
           { type: 'addLoad', value: 15 },
+        ],
+      },
+      {
+        label: 'Collapse the field early — let the Coordinate go to post-mortem audit.',
+        target: 'WITCH_EAST_PATH_COORD_00',
+        effects: [
+          { type: 'addLoad', value: 20 },
+          { type: 'addDesync', value: 2 },
+          { type: 'addWarrant', value: 6 },
         ],
       },
     ],

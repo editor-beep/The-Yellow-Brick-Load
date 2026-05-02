@@ -57,6 +57,15 @@ You take what the Bureau needs and discard the rest as beautiful, screaming wast
           { type: 'addMalice', value: 10 },
         ],
       },
+      {
+        label: 'Descend into the field yourself — open a body with your own hands.',
+        target: 'WITCH_WEST_FIELD_CONFRONTATION',
+        effects: [
+          { type: 'addWarrant', value: 10 },
+          { type: 'addMalice', value: 15 },
+          { type: 'setCompliance', value: 'low' },
+        ],
+      },
     ],
     onEnter: [{ type: 'checkGhostSignal' }, { type: 'triggerOracle' }],
   },
@@ -154,6 +163,15 @@ How delightful.`,
           { type: 'addWarrant', value: 5 },
           { type: 'addLoad', value: 15 },
           { type: 'setCompliance', value: 'absolute' },
+        ],
+      },
+      {
+        label: 'Reroute the sweep through the Poppy Field for clean dampened captures.',
+        target: 'WITCH_WEST_POPPY_BUFFER',
+        effects: [
+          { type: 'addWarrant', value: 3 },
+          { type: 'addMalice', value: 6 },
+          { type: 'addLoad', value: 8 },
         ],
       },
       {
@@ -678,6 +696,22 @@ You watch the red poppies below blur into a smear of judicial pigment. By the ti
         effects: [
           { type: 'addWarrant', value: 4 },
           { type: 'addLoad', value: 6 },
+        ],
+      },
+      {
+        label: 'Order the monkeys to drop the sample — let gravity finish the audit.',
+        target: 'WITCH_WEST_END_MELTING',
+        effects: [
+          { type: 'addMalice', value: 8 },
+          { type: 'addWarrant', value: 6 },
+        ],
+      },
+      {
+        label: 'Recall the monkeys — escort the live Lion to the Obsidian Eye intact.',
+        target: 'WITCH_WEST_ORACLE_ENTRY_LION',
+        effects: [
+          { type: 'addWarrant', value: 3 },
+          { type: 'addMalice', value: 5 },
         ],
       },
     ],

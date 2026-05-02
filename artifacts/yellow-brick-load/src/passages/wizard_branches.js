@@ -45,6 +45,15 @@ export const wizardBranchPassages = {
           { type: 'setCompliance', value: 'high' },
         ],
       },
+      {
+        label: 'Take the side door — descend into the Unlit Basement and inspect the wiring.',
+        target: 'SHARED_UNLIT_BASEMENT',
+        effects: [
+          { type: 'addObfuscation', value: -2 },
+          { type: 'addDesync', value: 3 },
+          { type: 'setCompliance', value: 'low' },
+        ],
+      },
     ],
     onEnter: [{ type: 'checkGhostSignal' }, { type: 'triggerOracle' }],
   },
@@ -83,6 +92,15 @@ export const wizardBranchPassages = {
         effects: [
           { type: 'addObfuscation', value: 3 },
           { type: 'addDesync', value: 2 },
+        ],
+      },
+      {
+        label: 'Tear the curtain down — show the audience the meat behind the projection.',
+        target: 'SHARED_UNLIT_BASEMENT',
+        effects: [
+          { type: 'addObfuscation', value: -10 },
+          { type: 'addDesync', value: 5 },
+          { type: 'setCompliance', value: 'broken' },
         ],
       },
     ],

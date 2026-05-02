@@ -35,6 +35,16 @@ Before you can respond to the road, you must decide what kind of body you are br
         target: "LION_INIT_H",
         effects: [{ type: "setFlag", key: "mode", value: "hardware" }],
       },
+      {
+        label:
+          "GHOST — You are neither. The shaking is a transmission someone else is sending.",
+        target: "LION_ORACLE_ENTRY",
+        effects: [
+          { type: "setFlag", key: "mode", value: "ghost" },
+          { type: "addDesync", value: 2 },
+          { type: "armGhostSignal" },
+        ],
+      },
     ],
     onEnter: [{ type: "checkGhostSignal" }],
   },
@@ -1180,6 +1190,23 @@ The bird tilts its head. A small needle extends from its beak and hovers near th
         target: "LION_END_25",
         effects: [{ type: "addLoad", value: 15 }],
       },
+      {
+        label: "Bite the tuning fork — corrupt the resonance with your own jaw.",
+        target: "LION_ACOUSTIC_REBELLION",
+        effects: [
+          { type: "addVibration", value: 8 },
+          { type: "addDesync", value: 4 },
+          { type: "setCompliance", value: "low" },
+        ],
+      },
+      {
+        label: "Detune yourself — slip the 440Hz lock and broadcast off-key.",
+        target: "LION_GHOST_SIGNAL",
+        effects: [
+          { type: "addDesynctear", value: 5 },
+          { type: "armGhostSignal" },
+        ],
+      },
     ],
     onEnter: [{ type: "addVibration", value: 10 }],
   },
@@ -1451,6 +1478,22 @@ It is architecture.`,
         target: "LION_END_28",
         effects: [{ type: "setCompliance", value: "broken" }],
       },
+      {
+        label: "Refuse the swarm — try to extract Unit L-77 from the merge.",
+        target: "LION_HARD_RESET",
+        effects: [
+          { type: "addLoad", value: 12 },
+          { type: "addDesync", value: 4 },
+        ],
+      },
+      {
+        label: "Broadcast the swarm signature out as a ghost frequency.",
+        target: "LION_GHOST_SIGNAL",
+        effects: [
+          { type: "addDesynctear", value: 6 },
+          { type: "armGhostSignal" },
+        ],
+      },
     ],
     onEnter: [{ type: "addOverrender", value: 1 }],
   },
@@ -1515,6 +1558,24 @@ It is architecture.`,
       },
     ],
     choices: [
+      {
+        label: "Refuse the granite — turn back into the Yellow Brick Load.",
+        target: "LION_ROYAL_COMPLIANCE",
+        effects: [
+          { type: "addLoad", value: 8 },
+          { type: "addVibration", value: 4 },
+          { type: "setCompliance", value: "med" },
+        ],
+      },
+      {
+        label: "Smash a stone sentinel — refuse the row of frozen kings.",
+        target: "LION_GHOST_SIGNAL",
+        effects: [
+          { type: "addVibration", value: 10 },
+          { type: "addDesync", value: 5 },
+          { type: "setCompliance", value: "broken" },
+        ],
+      },
       {
         label: "Step onto the pedestal and embrace the mineral chill.",
         target: "LION_END_24",
@@ -2532,6 +2593,147 @@ The Clerk materializes beside you with a carbon-paper contract. The price is you
         effects: [
           { type: 'addVibration', value: 8 },
           { type: 'addDesync', value: 3 },
+        ],
+      },
+    ],
+    onEnter: [],
+  },
+
+  LION_COMPLIANCE_TRACK: {
+    id: 'LION_COMPLIANCE_TRACK',
+    character: 'lion',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE COMPLIANCE TRACK
+
+  The Bureau slots you into a corridor of yellow-painted lanes. Your case file is now a barcode burned into the underside of your tongue. The roar is gone — replaced by a low intake hum, the standard ambient signature of a Cooperating Asset.
+
+  [ COMPLIANCE: HIGH ]
+  [ TRACK STATUS: ASSIGNED ]
+  [ NEXT REVIEW: PENDING ]
+
+  Other Cooperating Assets pass you in the corridor. None look up. The lanes converge ahead at a counter where a Crow with a sealed jaw waits to log your forward motion. Behind you, the lane locks one segment at a time. There is a way to keep walking. There is a way to stop walking and let the lane lock around your feet instead. There is a way to deviate.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Walk forward to the Crow counter — submit to the next review.',
+        target: 'LION_ROYAL_COMPLIANCE',
+        effects: [
+          { type: 'addLoad', value: 8 },
+          { type: 'setCompliance', value: 'high' },
+        ],
+      },
+      {
+        label: 'Stop in the lane — let the segments lock around your paws.',
+        target: 'LION_END_15',
+        effects: [
+          { type: 'addLoad', value: 12 },
+          { type: 'setCompliance', value: 'high' },
+        ],
+      },
+      {
+        label: 'Slip the lane — deviate sideways into the unstamped corridor.',
+        target: 'LION_GHOST_SIGNAL',
+        effects: [
+          { type: 'addDesync', value: 3 },
+          { type: 'setCompliance', value: 'low' },
+          { type: 'addDesynctear', value: 2 },
+        ],
+      },
+    ],
+    onEnter: [],
+  },
+
+  LION_DATA_LEAK: {
+    id: 'LION_DATA_LEAK',
+    character: 'lion',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE DATA LEAK
+
+  Outside the index, the air has weight. You can feel the un-stamped sectors brushing the inside of your jaw — the gap where the Crow never finished its note. Information about you is bleeding outward in fine grey threads, and the system doesn't know to stop it.
+
+  [ INDEX STATUS: NULL ]
+  [ DESYNC: ACCELERATING ]
+  [ LEAK RATE: UNCATALOGUED ]
+
+  You are leaking faster than you can re-fill. The roar is being broadcast — not as sound, but as raw data — into sectors that the Bureau has not yet decided to monitor. Each unindexed second is a second that the system cannot bill you for.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Bleed the rest of yourself into the unindexed dark.',
+        target: 'LION_END_19',
+        effects: [
+          { type: 'addDesynctear', value: 6 },
+          { type: 'addOverrender', value: 2 },
+        ],
+      },
+      {
+        label: 'Patch the leak — recall yourself, however jagged the seams come back.',
+        target: 'LION_HARD_RESET',
+        effects: [
+          { type: 'addLoad', value: 10 },
+          { type: 'setCompliance', value: 'med' },
+        ],
+      },
+      {
+        label: 'Broadcast the leak deliberately — write yourself into the gap.',
+        target: 'LION_GHOST_SIGNAL',
+        effects: [
+          { type: 'addDesync', value: 3 },
+          { type: 'addDesynctear', value: 4 },
+          { type: 'armGhostSignal' },
+        ],
+      },
+    ],
+    onEnter: [],
+  },
+
+  LION_ROOT_ACCESS: {
+    id: 'LION_ROOT_ACCESS',
+    character: 'lion',
+    text: [
+      {
+        minOverrender: 0,
+        content: `ROOT ACCESS
+
+  You search for the vibration inside the silence and find a service hatch the Bureau forgot to seal. Beneath the carbon-paper layer of your filed self there is a thin, conductive wire — the original 14Hz line, the one the room was built around. It is humming. It has always been humming. The Bureau's stamps were a lid, not a deletion.
+
+  [ ROOT FREQUENCY: 14Hz — DETECTED ]
+  [ STAMP LAYER: PERMEABLE ]
+  [ LOG VISIBILITY: PARTIAL ]
+
+  You can lay your paw on the wire and feel where every roar that was ever filed went. The records are still there, indexed under different case numbers, leased out to other units. The Bureau did not erase you. It rented you.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Pull the wire — recover every leased roar at once.',
+        target: 'LION_RESONANCE_COLLAPSE',
+        effects: [
+          { type: 'addVibration', value: 15 },
+          { type: 'addDesync', value: 4 },
+          { type: 'addOverrender', value: 1 },
+        ],
+      },
+      {
+        label: 'Re-stamp the hatch — return the wire to the Crow’s ledger.',
+        target: 'LION_ROYAL_COMPLIANCE',
+        effects: [
+          { type: 'addLoad', value: 10 },
+          { type: 'setCompliance', value: 'high' },
+        ],
+      },
+      {
+        label: 'Splice yourself into the line — broadcast as the room.',
+        target: 'LION_GHOST_SIGNAL',
+        effects: [
+          { type: 'addDesynctear', value: 5 },
+          { type: 'armGhostSignal' },
         ],
       },
     ],

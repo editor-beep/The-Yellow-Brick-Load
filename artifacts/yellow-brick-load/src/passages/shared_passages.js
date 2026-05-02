@@ -212,6 +212,16 @@ The smell of hot copper intensifies. The curtain mechanism is visible from here 
         target: 'WIZARD_END_OVERRIDE',
         effects: [{ type: 'addDesync', value: 5 }, { type: 'addObfuscation', value: 4 }],
       },
+      {
+        label: 'Cut the projection conduits — kill the green light at the source.',
+        target: 'NODE_LOGIC_BRANCH',
+        effects: [{ type: 'addDesync', value: 8 }, { type: 'addObfuscation', value: -5 }, { type: 'setCompliance', value: 'broken' }],
+      },
+      {
+        label: 'Climb back up the conduit — re-emerge into the projection from below.',
+        target: 'Z_GREEN_LENS',
+        effects: [{ type: 'addObfuscation', value: 3 }, { type: 'addLoad', value: 5 }],
+      },
     ],
     onEnter: [],
   },
@@ -242,6 +252,16 @@ The unindexed fragments settle around you. Each one carries a frequency signatur
         label: 'Continue through the debris.',
         target: 'SHARED_UNMOORED_NIGHT',
         effects: [{ type: 'addDesync', value: 3 }],
+      },
+      {
+        label: 'Pick up a fragment — let an archived warrant re-attach to you.',
+        target: 'SHARED_UNLIT_BASEMENT',
+        effects: [{ type: 'addWarrant', value: 5 }, { type: 'addDesync', value: 2 }],
+      },
+      {
+        label: 'Refuse the debris — back out toward the Emerald City gates.',
+        target: 'SHARED_EMERALD_CITY_GATES',
+        effects: [{ type: 'addLoad', value: 5 }, { type: 'setCompliance', value: 'med' }],
       },
     ],
     onEnter: [],
@@ -356,5 +376,41 @@ The resolution here is staggering. The green light is so bright it burns out the
         content: `You ignore the bell. You follow the smell of ozone and wet concrete down toward the plumbing. The projection doesn't go all the way to the floor.`,
       },
     ],
+  },
+
+  P_END_01: {
+    id: 'P_END_01',
+    character: null,
+    endingId: 'P-END-01',
+    endingName: 'The Poppy Sleep',
+    institution: 'Pharmacological',
+    systemStatus: 'ARCHIVED / SEDATED',
+    surreality: 8,
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE POPPY SLEEP [P-END-01]
+
+Audit Entry: Sector P / Pharmacological — Voluntary Dampening
+
+You surrendered to the red. Your knees folded into the petals first; the rest followed without a fight. The Signal Dampening Zone accepted your noise the way an empty filing cabinet accepts an unstamped form — gratefully, completely, without acknowledgment.
+
+The 'Home' coordinates dissolved into the smell of crushed lilac and old paper. The Bureau logs your last vital signal as a low rhythmic pulse — sedation, not death — and files you under Asset: Dormant.
+
+[ STATUS: ARCHIVED / SEDATED ]
+[ NOISE FLOOR: ABSENT ]
+[ HOME SIGNAL: NULL ]
+[ NEXT WAKE CYCLE: UNSCHEDULED ]
+
+Glinda's pink smog drifts across the field at intervals to ensure the dosage holds. The poppies grow taller around your outline, then through it. Eventually the petals are the only record that there was ever a unit here at all.
+
+Theme: Sleep is the most compliant verb the system knows.
+
+The field hums at the frequency the Bureau likes best — the frequency of a problem successfully removed.`,
+      },
+    ],
+    choices: [],
+    onEnter: [],
+    isEnding: true,
   },
 }

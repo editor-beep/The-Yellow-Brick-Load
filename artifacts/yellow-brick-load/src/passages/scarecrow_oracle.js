@@ -33,6 +33,15 @@ export const scarecrowOraclePassages = {
         effects: [{ type: 'addScatter', value: 2 }],
       },
       {
+        label: 'Pinch the seam closed — swallow the scatter and refuse the harvest.',
+        target: 'SCARECROW_PATH_MIND',
+        effects: [
+          { type: 'addHollowing', value: 3 },
+          { type: 'addDesync', value: 2 },
+          { type: 'setCompliance', value: 'low' },
+        ],
+      },
+      {
         label: 'Try to restuff the seam — resist the harvest.',
         target: 'SCARECROW_PATH_COMPLIANCE',
         effects: [

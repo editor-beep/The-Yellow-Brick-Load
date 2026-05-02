@@ -45,6 +45,15 @@ export const glindaBranchPassages = {
           { type: 'addRefraction', value: 1 },
         ],
       },
+      {
+        label: 'Drift through the Pink Smog — administer mercy as anesthetic.',
+        target: 'G_PINK_SMOG',
+        effects: [
+          { type: 'addRefraction', value: 4 },
+          { type: 'addInsulation', value: 2 },
+          { type: 'setCompliance', value: 'high' },
+        ],
+      },
     ],
     onEnter: [{ type: 'checkGhostSignal' }, { type: 'triggerOracle' }],
   },
@@ -165,6 +174,14 @@ You see the Transmitter wire buried in her neck. You see the blood on the slag. 
         effects: [
           { type: 'addRefraction', value: 3 },
           { type: 'addInsulation', value: -2 },
+        ],
+      },
+      {
+        label: 'Open a refraction pinhole on the Pink Smog — sedate the road below.',
+        target: 'G_PINK_SMOG',
+        effects: [
+          { type: 'addRefraction', value: 5 },
+          { type: 'addInsulation', value: -3 },
         ],
       },
       {

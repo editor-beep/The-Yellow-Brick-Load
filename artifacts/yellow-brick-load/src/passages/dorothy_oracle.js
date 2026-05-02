@@ -33,6 +33,15 @@ export const dorothyOraclePassages = {
         effects: [{ type: 'addDisplacement', value: 2 }],
       },
       {
+        label: 'Refuse the deck — kick dust into the spinning silver dollars.',
+        target: 'DOROTHY_PATH_ROAD',
+        effects: [
+          { type: 'addWarrant', value: 4 },
+          { type: 'addDesync', value: 2 },
+          { type: 'setCompliance', value: 'low' },
+        ],
+      },
+      {
         label: 'Pull your heel back — resist the nerve pull.',
         target: 'DOROTHY_PATH_COMPLIANCE',
         effects: [

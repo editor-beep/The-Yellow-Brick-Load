@@ -41,6 +41,15 @@ The Girl with the silver shoes stands before you, holding a pressurized canister
           { type: "addLubrication", value: 15 },
         ],
       },
+      {
+        label: "Refuse both: remain seized — let the rust write the next instruction.",
+        target: "TIN_MAN_ORACLE_ENTRY",
+        effects: [
+          { type: "addCorrosion", value: 8 },
+          { type: "addDesync", value: 2 },
+          { type: "setCompliance", value: "low" },
+        ],
+      },
     ],
     onEnter: [{ type: "checkGhostSignal" }, { type: "triggerOracle" }],
   },

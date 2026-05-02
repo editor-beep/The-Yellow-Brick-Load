@@ -33,6 +33,15 @@ export const glindaOraclePassages = {
         effects: [{ type: 'addRefraction', value: 2 }],
       },
       {
+        label: 'Refuse the procedure — re-seal the grace lines and ascend out of reach.',
+        target: 'GLINDA_PATH_ALTITUDE',
+        effects: [
+          { type: 'addInsulation', value: 5 },
+          { type: 'addRefraction', value: -1 },
+          { type: 'setCompliance', value: 'low' },
+        ],
+      },
+      {
         label: 'Resist the procedure — maintain the surface perfection.',
         target: 'GLINDA_PATH_ALTITUDE',
         effects: [

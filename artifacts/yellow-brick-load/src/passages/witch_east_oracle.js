@@ -31,6 +31,15 @@ The pressure is a physical weight on your judicial code. The house is directly o
         effects: [{ type: 'addDisplacement', value: 2 }],
       },
       {
+        label: 'Pre-file the post-mortem — skip the assay and proceed to Coordinate 0-0.',
+        target: 'WITCH_EAST_PATH_COORD_00',
+        effects: [
+          { type: 'addLoad', value: 25 },
+          { type: 'addDisplacement', value: 6 },
+          { type: 'setCompliance', value: 'high' },
+        ],
+      },
+      {
         label: 'Reject the assay — project gravitational counter-force.',
         target: 'WITCH_EAST_PATH_GRAVITY',
         effects: [

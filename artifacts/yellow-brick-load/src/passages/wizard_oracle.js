@@ -33,6 +33,15 @@ export const wizardOraclePassages = {
         effects: [{ type: 'addObfuscation', value: 2 }],
       },
       {
+        label: 'Cut the projector lens — refuse to perform the incision on yourself.',
+        target: 'WIZARD_PATH_PROJECTION',
+        effects: [
+          { type: 'addObfuscation', value: -3 },
+          { type: 'addDesync', value: 3 },
+          { type: 'setCompliance', value: 'low' },
+        ],
+      },
+      {
         label: 'Pull the curtain back over the Surgeon — maintain the fiction.',
         target: 'WIZARD_PATH_PROJECTION',
         effects: [

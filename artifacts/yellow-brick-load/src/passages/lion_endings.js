@@ -1029,4 +1029,39 @@ The Bureau calls this "evaporative compliance."`,
     systemStatus: 'Evaporated',
     surreality: 7
   },
+
+  LION_END_19: {
+    id: 'LION_END_19',
+    character: 'lion',
+    endingId: 'L-END-19',
+    endingName: 'The Unallocated Gap',
+    institution: 'Archival',
+    systemStatus: 'PURGED / UNINDEXED',
+    surreality: 9,
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE UNALLOCATED GAP [L-END-19]
+
+Audit Entry: Sector 11 / Archival — Unallocated Memory Bleed
+
+You stepped into the gap and the gap closed politely behind you. Not with violence — with administration. The Crow's unfinished note dissolved into wet carbon and the dark fluid took your edges first, then your interior, then the place where the roar used to live. There was no scream because there was no diaphragm left to hold the air. The dust that used to be Unit L-77 settled into a tidy unrecorded heap at the seam between two filed sectors.
+
+[ UNIT L-77 ]
+[ STATUS: PURGED / UNINDEXED ]
+[ FILE: NULL — NO LEDGER ENTRY GENERATED ]
+
+The Bureau cannot bill what it cannot find. There is no warrant. There is no closure. The lane the Crow was supposed to walk you down stays empty.
+
+1 - 1 = 0.
+
+Theme: A perfect erasure is the one nobody noticed.
+
+The dust does not settle into the shape of a lion. It settles into the shape of nothing.`,
+      },
+    ],
+    choices: [],
+    onEnter: [],
+    isEnding: true,
+  },
 }

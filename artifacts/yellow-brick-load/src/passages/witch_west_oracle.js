@@ -19,7 +19,11 @@ Your claws part fur and skin along the sternum. The restraint mesh keeps the wou
 You whisper into his ear as the first line of blood runs warm: "Courage looks different under glass."
 
 The session is live. Every decision from here is evidence.` }],
-    choices: [{ label: 'Commence the full extraction — read the malice residue.', target: 'WITCH_WEST_ORACLE_DRAW', effects: [{ type: 'addWarrant', value: 3 }, { type: 'addLoad', value: 5 }] }],
+    choices: [
+      { label: 'Commence the full extraction — read the malice residue.', target: 'WITCH_WEST_ORACLE_DRAW', effects: [{ type: 'addWarrant', value: 3 }, { type: 'addLoad', value: 5 }] },
+      { label: 'Suspend the session — leave the Lion strapped for a longer reading later.', target: 'WITCH_WEST_TORMENT_DETAIL', effects: [{ type: 'addMalice', value: 6 }, { type: 'addLoad', value: 3 }] },
+      { label: 'Abort the procedure — release the restraints and re-route to monkeys.', target: 'WITCH_WEST_PATH_MONKEYS', effects: [{ type: 'addWarrant', value: 2 }, { type: 'addDesync', value: 2 }, { type: 'setCompliance', value: 'low' }] },
+    ],
     onEnter: [],
   },
 
@@ -35,7 +39,11 @@ You split the fabric at her midline and score a measured seam beneath it, openin
 "Still trying to go home?" you ask softly. "Let's inventory what home cost you."
 
 The session is live. Every decision from here is evidence.` }],
-    choices: [{ label: 'Commence the full extraction — read the malice residue.', target: 'WITCH_WEST_ORACLE_DRAW', effects: [{ type: 'addWarrant', value: 3 }, { type: 'addLoad', value: 5 }] }],
+    choices: [
+      { label: 'Commence the full extraction — read the malice residue.', target: 'WITCH_WEST_ORACLE_DRAW', effects: [{ type: 'addWarrant', value: 3 }, { type: 'addLoad', value: 5 }] },
+      { label: 'Suspend the session — leave the girl strapped for a deeper inventory later.', target: 'WITCH_WEST_TORMENT_DETAIL', effects: [{ type: 'addMalice', value: 6 }, { type: 'addLoad', value: 3 }] },
+      { label: 'Abort the procedure — release the grid and call the monkeys for a transport.', target: 'WITCH_WEST_PATH_MONKEYS', effects: [{ type: 'addWarrant', value: 2 }, { type: 'addDesync', value: 2 }, { type: 'setCompliance', value: 'low' }] },
+    ],
     onEnter: [],
   },
 
@@ -51,7 +59,11 @@ You notch open a seam at the torso joint, then pry until oil beads up through th
 "Listen to that," you murmur as metal groans. "A perfect little confession."
 
 The session is live. Every decision from here is evidence.` }],
-    choices: [{ label: 'Commence the full extraction — read the malice residue.', target: 'WITCH_WEST_ORACLE_DRAW', effects: [{ type: 'addWarrant', value: 3 }, { type: 'addLoad', value: 5 }] }],
+    choices: [
+      { label: 'Commence the full extraction — read the malice residue.', target: 'WITCH_WEST_ORACLE_DRAW', effects: [{ type: 'addWarrant', value: 3 }, { type: 'addLoad', value: 5 }] },
+      { label: 'Suspend the session — leave the plates pried open for a slower oxidation read.', target: 'WITCH_WEST_TORMENT_DETAIL', effects: [{ type: 'addMalice', value: 6 }, { type: 'addLoad', value: 3 }] },
+      { label: 'Abort the procedure — release the clamps and dispatch the monkeys instead.', target: 'WITCH_WEST_PATH_MONKEYS', effects: [{ type: 'addWarrant', value: 2 }, { type: 'addDesync', value: 2 }, { type: 'setCompliance', value: 'low' }] },
+    ],
     onEnter: [],
   },
 
@@ -67,7 +79,11 @@ You cut along the torso seam, peel back burlap, and expose the layered stuffing 
 "Let's see what passes for thought in here," you say, almost kindly.
 
 The session is live. Every decision from here is evidence.` }],
-    choices: [{ label: 'Commence the full extraction — read the malice residue.', target: 'WITCH_WEST_ORACLE_DRAW', effects: [{ type: 'addWarrant', value: 3 }, { type: 'addLoad', value: 5 }] }],
+    choices: [
+      { label: 'Commence the full extraction — read the malice residue.', target: 'WITCH_WEST_ORACLE_DRAW', effects: [{ type: 'addWarrant', value: 3 }, { type: 'addLoad', value: 5 }] },
+      { label: 'Suspend the session — leave the burlap peeled for a longer signal soak.', target: 'WITCH_WEST_TORMENT_DETAIL', effects: [{ type: 'addMalice', value: 6 }, { type: 'addLoad', value: 3 }] },
+      { label: 'Abort the procedure — release the field and dispatch monkeys to gather the rest.', target: 'WITCH_WEST_PATH_MONKEYS', effects: [{ type: 'addWarrant', value: 2 }, { type: 'addDesync', value: 2 }, { type: 'setCompliance', value: 'low' }] },
+    ],
     onEnter: [],
   },
 
