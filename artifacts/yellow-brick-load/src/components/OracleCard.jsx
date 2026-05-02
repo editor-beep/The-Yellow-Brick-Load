@@ -243,6 +243,11 @@ export default function OracleCard() {
       aria-label={`Oracle card: ${name}`}
       data-phase={phase}
       ref={overlayRef}
+      onClick={(event) => {
+        if (event.target === event.currentTarget) {
+          dismissOracleCard()
+        }
+      }}
     >
       <div
         className={`oracle-card${isOverflowing ? ' is-overflowing' : ''}`}
