@@ -183,14 +183,11 @@ export default function PassageRenderer() {
         ))}
       </svg>
 
-      <div className="load-bar-wrapper" aria-label={`Load: ${load}%`}><div className="load-bar-fill" style={{ width: `${load}%` }} /><span className="load-bar-label">LOAD: {load}%</span></div>
-
       {!passage.isEnding && passage.isOracleDraw && <OracleDraw />}
       {!passage.isEnding && !passage.isOracleDraw && availableChoices.length > 0 && <nav className="choices-wrapper" aria-label="Available choices">{availableChoices.map((choice) => <button key={`${currentNode}-choice-${choice.label}`} className="choice-button" onClick={() => handleChoice(choice)}><span className="choice-arrow">▸</span>{choice.label}</button>)}</nav>}
       {!passage.isEnding && !passage.isOracleDraw && availableChoices.length === 0 && <div className="ending-footer"><button className="choice-button choice-button--restart" onClick={() => useGameStore.getState().hardReset()}><span className="choice-arrow">↺</span>Begin new session</button></div>}
 
       {passage.isEnding && <div className="ending-footer"><button className="choice-button choice-button--restart" onClick={() => useGameStore.getState().hardReset()}><span className="choice-arrow">↺</span>{passage.isGhostSignal ? '[ TERMINATE SESSION ]' : 'Begin new session'}</button></div>}
-      {desync >= 2 && <div className="desync-indicator" aria-hidden="true">[ DESYNC: {desync} ]</div>}
     </div>
   )
 }

@@ -4,13 +4,18 @@ import { useGameStore } from '../engine/store.js'
 const CHAR_CONFIG = {
   lion: {
     unit: 'L-77', name: 'LION',
-    stats: [{ key: 'vibration', label: 'VIB', threshold: 7, scale: 10 }],
+    stats: [
+      { key: 'vibration', label: 'VIB', threshold: 7, scale: 10 },
+      { key: 'desynctear', label: 'DTR', threshold: 4, scale: 8 },
+    ],
   },
   tin_man: {
     unit: 'T-88', name: 'TIN MAN',
     stats: [
       { key: 'corrosion', label: 'COR', threshold: 10, scale: 14 },
       { key: 'seizure',   label: 'SZR', threshold: 5,  scale: 8  },
+      { key: 'lubrication', label: 'LUB', threshold: 3, scale: 8 },
+      { key: 'utility', label: 'UTL', threshold: 6, scale: 10 },
     ],
   },
   scarecrow: {
@@ -18,6 +23,8 @@ const CHAR_CONFIG = {
     stats: [
       { key: 'scatter',   label: 'SCT', threshold: 5, scale: 8 },
       { key: 'hollowing', label: 'HLW', threshold: 6, scale: 9 },
+      { key: 'stitchIntegrity', label: 'STI', threshold: 6, scale: 10 },
+      { key: 'neuralDensity', label: 'NRD', threshold: 5, scale: 8 },
     ],
   },
   dorothy: {
@@ -25,6 +32,9 @@ const CHAR_CONFIG = {
     stats: [
       { key: 'displacement', label: 'DSP', threshold: 5, scale: 8 },
       { key: 'warrantLevel', label: 'WNT', threshold: 5, scale: 8 },
+      { key: 'silverFriction', label: 'SLV', threshold: 5, scale: 8 },
+      { key: 'signalStrength', label: 'SGN', threshold: 5, scale: 8 },
+      { key: 'rubyFriction', label: 'RBY', threshold: 5, scale: 8 },
     ],
   },
   witch_west: {
@@ -32,6 +42,7 @@ const CHAR_CONFIG = {
     stats: [
       { key: 'malice',      label: 'MAL', threshold: 6, scale: 10 },
       { key: 'thermal',     label: 'THM', threshold: 8, scale: 12 },
+      { key: 'saturation',  label: 'SAT', threshold: 70, scale: 100 },
     ],
   },
   witch_east: {
@@ -332,11 +343,11 @@ const PORTRAITS = {
 export default function StatsCard() {
   const {
     character, load, compliance, desync,
-    vibration, corrosion, seizure,
-    scatter, hollowing,
-    displacement, warrantLevel,
+    vibration, desynctear, corrosion, seizure, lubrication, utility,
+    scatter, hollowing, stitchIntegrity, neuralDensity,
+    displacement, warrantLevel, silverFriction, signalStrength, rubyFriction,
     refraction, insulation,
-    obfuscation, malice, thermal,
+    obfuscation, malice, thermal, saturation,
   } = useGameStore()
 
   const cardRef = useRef(null)
@@ -359,9 +370,10 @@ export default function StatsCard() {
 
   const Portrait = PORTRAITS[character]
   const statValues = {
-    vibration, corrosion, seizure, scatter, hollowing,
-    displacement, warrantLevel, refraction, insulation,
-    obfuscation, malice, thermal,
+    vibration, desynctear, corrosion, seizure, lubrication, utility,
+    scatter, hollowing, stitchIntegrity, neuralDensity,
+    displacement, warrantLevel, silverFriction, signalStrength, rubyFriction,
+    refraction, insulation, obfuscation, malice, thermal, saturation,
   }
 
   return (
