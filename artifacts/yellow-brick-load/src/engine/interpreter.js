@@ -169,11 +169,12 @@ export function applyEffects(effects) {
       case 'triggerEvent':       store.setFlag(`event_${effect.value}`, true); break
       // ── Shared / Marketing Filter effects ───────────────────────────────
       case 'addCompliance':
-        // Compliance is a string level; addCompliance maps to setting it to 'high'
+        // From problem-statement passage data. Semantically "raise compliance to max"
+        // — compliance is a string level, so this maps to setCompliance('high').
         store.setCompliance('high')
         break
       case 'receiveDegradingGift':
-        // Initialise a Symbolic Reclassification: durability = 5 transitions
+        // Initialize a Symbolic Reclassification: durability = 5 transitions
         store.setFlag('degrading_gift_received', true)
         store.setGiftDurability(5)
         break

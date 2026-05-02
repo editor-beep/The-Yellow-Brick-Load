@@ -17,7 +17,7 @@
  * When all four are set, SHARED_UNMOORED_NIGHT unlocks UNRECOGNIZED_CONFIG.
  *
  * Degrading Inventory Items (Symbolic Reclassifications):
- *   receiveDegradingGift initialises giftDurability = 5.
+ *   receiveDegradingGift initializes giftDurability = 5.
  *   Each node transition decrements it. At 0 the gift becomes a Corrupted Artifact.
  *
  * Dorothy's Asymmetry:

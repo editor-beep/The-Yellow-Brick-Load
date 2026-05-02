@@ -145,7 +145,6 @@ export const useGameStore = create((set, get) => ({
   addRefraction:     (n) => set((s) => ({ refraction:     s.refraction     + n })),
   addInsulation:     (n) => set((s) => ({ insulation:     s.insulation     + n })),
   addObfuscation:    (n) => set((s) => ({ obfuscation:    s.obfuscation    + n })),
-  addGiftDurability: (n) => set((s) => ({ giftDurability: Math.max(0, s.giftDurability + n) })),
   setGiftDurability: (n) => set({ giftDurability: n }),
   addMalice:         (n) => set((s) => ({ malice:         s.malice         + n })),
   addThermal:        (n) => set((s) => ({ thermal:        s.thermal        + n })),
