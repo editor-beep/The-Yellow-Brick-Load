@@ -201,12 +201,12 @@ The sky is a High-Contrast Data Field. You are logging vectors. Wing-beats are s
     choices: [
       {
         label: 'The Total Audit',
-        target: 'S_THE_AI',
+        target: 'S_ORACLE_DRAW',
         effects: [{ type: 'setArrivalState', value: 'audit' }]
       },
       {
         label: 'The Synaptic Short',
-        target: 'S_THE_AI',
+        target: 'S_ORACLE_DRAW',
         effects: [{ type: 'addSeizure', value: 5 }, { type: 'setArrivalState', value: 'short' }]
       }
     ]
@@ -225,17 +225,49 @@ The ground is the floor of the system. The floor is where the load ends. If I re
     choices: [
       {
         label: 'The Crawl',
-        target: 'S_THE_AI',
+        target: 'S_ORACLE_DRAW',
         effects: [{ type: 'subStitchIntegrity', value: 15 }, { type: 'setArrivalState', value: 'fallow' }]
       },
       {
         label: 'The Re-Stuffing',
-        target: 'S_THE_AI',
+        target: 'S_ORACLE_DRAW',
         effects: [
           { type: 'addNeuralDensity', value: 5 },
           { type: 'setArrivalState', value: 'fallow' }
         ],
         content: `You replace your brain with agriculture. You cram the abrasive husks from the field into your head. You have internalized the data set. The observation is now literally inside you. The thinker and the thought are both made of corn.`
+      }
+    ]
+  },
+
+  S_ORACLE_DRAW: {
+    id: 'S_ORACLE_DRAW',
+    character: 'scarecrow',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE STRAW ORACLE: COORDINATE S-VOID
+The field surgeon has opened the seam. Your internal logic is spilling onto the slag. You are seeing the patterns that the Oz OS was designed to hide. 
+
+Everything is forty-two. Forty-two rows of brick. Forty-two crows. Forty-two ways to fail a logic gate. You can try to restuff the seam with the old scripts, or you can let the scatter take you somewhere unindexed.`
+      }
+    ],
+    choices: [
+      {
+        label: 'The Crow-Picked Residue (Terminal Exit)',
+        target: 'S_UNMONITORED_NIGHT',
+        effects: [{ type: 'setDesync', value: 'max' }, { type: 'lockLocation', value: true }],
+        content: `You don't go back to the hub. You follow the black wings into the dark. You are leaving the agriculture behind. You are becoming a ghost in the frequency.`
+      },
+      {
+        label: 'The Diploma Graft (Compliance Exit)',
+        target: 'S_END_DIPLOMA',
+        content: `You allow the system to patch you. The paper is wet, and the ink is cold, but the patterns stop screaming. You are certified. You are 'smart.' You are silent.`
+      },
+      {
+        label: 'The Empty Cavity (Hollow Exit)',
+        target: 'S_END_HOLLOW',
+        content: `You don't restuff. You don't patch. You just let the wind blow through the hole where your thoughts used to be. Total hollowing.`
       }
     ]
   },
@@ -246,23 +278,18 @@ The ground is the floor of the system. The floor is where the load ends. If I re
     text: [
       {
         minOverrender: 0,
-        content: `THE UNMONITORED NIGHT
-The Primary Observer has set. The crows are dormant data-points. In the dark, the cornfield stops being a grid and becomes a sound—a low, wet friction of stalk against stalk that the Bureau has no form for.
+        content: `THE UNMONITORED NIGHT: THE STRAW EXCHANGE
+You are no longer in the field. You are in the trash folder of the system logic. Here, an unrecorded idea is a successful breach. 
 
-You are still on the pole. But the pole has no shadow now. Without the shadow, there is no fixed point. Without the fixed point, there is no audit. You are free to think in a direction that has no coordinate.
-
-A single crow lands on your wrist. It is not a government-issue crow. It has no glass eyes. It looks at you with something that the Oz OS cannot classify. It opens its beak. What comes out is not a sound. It is a transaction. You pay with three pieces of straw from your left temple. You receive something with no file number.
-
-[ SCATTER: CRITICAL ]
-[ MONITORING: SUSPENDED ]
-[ CURRENCY: UNREGISTERED ]`
+You find a terminal. It's not a brain; it's a clinical bit-stream. You can trade your remaining straw—your physical coherence—for a place in the permanent record of the Unlit Basement.`
       }
     ],
     choices: [
       {
-        label: 'Accept the Transaction (Enter the Unsanctioned Logic)',
-        target: 'S_THE_AI',
-        effects: [{ type: 'addScatter', value: 5 }, { type: 'setArrivalState', value: 'oracle' }]
+        label: 'Initialize The Straw Exchange (The Breach)',
+        target: 'S_END_03',
+        effects: [{ type: 'setFlag', key: 'scarecrow_straw_exchange', value: true }],
+        content: `You trade the agriculture for the clinical. Your signal becomes a permanent error at Coordinate 0-0. You have escaped the field by becoming the code.`
       }
     ]
   },

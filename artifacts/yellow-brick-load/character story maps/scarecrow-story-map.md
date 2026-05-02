@@ -231,3 +231,29 @@ Generated: 2026-05-02T17:45:26.167Z
                         - SCARECROW_END_SCATTER [ENDING]
               - "Try to restuff the seam — resist the harvest." → SCARECROW_PATH_COMPLIANCE
                 - ↩ cycle
+
+
+## S_START (VOLUME 2: THE ASSOCIATIVE CASCADE — TERMINAL EXIT RAMPS)
+- S_START
+  - "The Analytical Loop (Log the Crows)" -> S_CROW_CENSUS
+    - S_CROW_CENSUS
+      - "The Total Audit" -> S_ORACLE_DRAW
+        - S_ORACLE_DRAW
+          - "The Crow-Picked Residue (Terminal Exit)" -> S_UNMONITORED_NIGHT
+            - S_UNMONITORED_NIGHT
+              - "Initialize The Straw Exchange (The Breach)" -> S_END_03
+                - S_END_03 [ENDING — The Unstuffed Truth / Straw Ghost]
+          - "The Diploma Graft (Compliance Exit)" -> S_END_DIPLOMA
+            - S_END_DIPLOMA [ENDING — The Diploma Script]
+          - "The Empty Cavity (Hollow Exit)" -> S_END_HOLLOW
+            - S_END_HOLLOW [ENDING — The Empty Cavity]
+      - "The Synaptic Short" -> S_ORACLE_DRAW
+        - (see S_ORACLE_DRAW above)
+  - "The Structural Breach (Struggle)" -> S_FALLOW_GROUND
+    - S_FALLOW_GROUND
+      - "The Crawl" -> S_ORACLE_DRAW
+        - (see S_ORACLE_DRAW above)
+      - "The Re-Stuffing" -> S_ORACLE_DRAW
+        - (see S_ORACLE_DRAW above)
+  - "The Straw Oracle (Bureau-Crow Transaction)" -> S_UNMONITORED_NIGHT
+    - (see S_UNMONITORED_NIGHT above)
