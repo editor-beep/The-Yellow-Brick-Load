@@ -65,7 +65,7 @@ export const scarecrowBranchPassages = {
     ],
     choices: [
       {
-        label: 'Follow the scattered straw toward the diploma path.',
+        label: 'Follow the scattered straw.',
         target: 'SCARECROW_DIPLOMA_HUB',
         effects: [
           { type: 'addScatter', value: 2 },
@@ -102,7 +102,7 @@ export const scarecrowBranchPassages = {
     ],
     choices: [
       {
-        label: 'Accept the infrastructure role — route toward the diploma.',
+        label: 'Accept the infrastructure role.',
         target: 'SCARECROW_DIPLOMA_HUB',
         effects: [
           { type: 'addLoad', value: 8 },
@@ -134,7 +134,7 @@ export const scarecrowBranchPassages = {
     ],
     choices: [
       {
-        label: 'Accept the certified brain — route toward the educational ending.',
+        label: 'Accept the certified brain.',
         target: 'SCARECROW_END_DIPLOMA',
         effects: [
           { type: 'addLoad', value: 20 },

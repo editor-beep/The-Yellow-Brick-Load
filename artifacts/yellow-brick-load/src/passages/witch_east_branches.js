@@ -78,7 +78,7 @@ export const witchEastBranchPassages = {
         ],
       },
       {
-        label: 'Attempt evacuation — route toward the silver shoes transfer.',
+        label: 'Attempt evacuation and secure the silver shoes.',
         target: 'WITCH_EAST_END_SHOES',
         effects: [
           { type: 'addDisplacement', value: 5 },
