@@ -106,14 +106,17 @@ Absence of sensors. A gravitational failure. This is where the system's anchor p
       },
       {
         id: 'SECRET_NODE_GATE',
-        minOverrender: 99, // Only reachable via secret configuration check
-        content: `[PASSAGE RESERVED FOR AUTHOR INPUT]`,
+        minOverrender: 99, // Only reachable via secret configuration check; routed via UNRECOGNIZED_CONFIG
+        content: `There is a roar that doesn't hit a wall, and a man of straw seeing a pattern that includes himself, and growth rings in corrosion. It is a dead woman's ghost and a child's home address on the same channel. The frequency stays, unfileable, opening things. This is the exact interval when damage is still open and unclassified.
+
+UNRECOGNIZED CONFIGURATION. FILING AS ERROR. RESUMING.`,
       },
     ],
     choices: [
       {
         label: 'Search the Debris',
         target: 'NODE_LOGIC_BRANCH',
+        condition: (state) => !state.flags.unrecognized_config_triggered,
         // Character-specific debris text: resolved by the renderer from state.character
         content: {
           lion: `You find the absence of instruction terrifying. Without a script, your roar has no target. You are a king of nothing.`,
@@ -249,25 +252,14 @@ The unindexed fragments settle around you. Each one carries a frequency signatur
     text: [
       {
         minOverrender: 0,
-        content: `[ PASSAGE RESERVED FOR AUTHOR INPUT ]
+        content: `There is a roar that doesn't hit a wall, and a man of straw seeing a pattern that includes himself, and growth rings in corrosion. It is a dead woman's ghost and a child's home address on the same channel. The frequency stays, unfileable, opening things. This is the exact interval when damage is still open and unclassified.
 
-THE UNRECOGNIZED CONFIGURATION
-
-All four flags are present. The system has no category for this.
-
-[ lion_refused_reset: CONFIRMED ]
-[ tinman_touched_axe: CONFIRMED ]
-[ scarecrow_straw_exchange: CONFIRMED ]
-[ dorothy_direct_line: CONFIRMED ]
-
-[ STATUS: UNRECOGNIZED ]
-[ ROUTING: NONE AVAILABLE ]
-[ BUREAU LOG: ERROR — NO MATCHING TEMPLATE ]
-
-1 - 1 = 1.`,
+UNRECOGNIZED CONFIGURATION. FILING AS ERROR. RESUMING.`,
       },
     ],
     choices: [],
-    onEnter: [],
+    onEnter: [
+      { type: 'globalReset' },
+    ],
   },
 }
