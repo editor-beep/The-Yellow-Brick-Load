@@ -55,6 +55,9 @@ export const glindaBranchPassages = {
 
   G_PINK_SMOG: {
     id: 'G_PINK_SMOG',
+    // character: 'shared' — the Pink Smog is the cross-character dampening node
+    // (Sector North). It is architecturally part of Glinda's tree but can be
+    // reached from multiple character paths, hence the 'shared' designation.
     character: 'shared',
     text: [
       {
@@ -69,7 +72,11 @@ This is the system's primary buffer. Compliance here doesn't feel like a choice;
       {
         label: 'Accept the Alignment',
         target: 'G_END_05',
-        effects: [{ type: 'setSystemStatus', value: 'shrouded' }]
+        effects: [
+          // setSystemStatus is a narrative label (no-op in interpreter.js);
+          // it records the system state for rendering purposes only.
+          { type: 'setSystemStatus', value: 'shrouded' }
+        ]
       }
     ]
   },
