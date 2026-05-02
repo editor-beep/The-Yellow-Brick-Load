@@ -15,6 +15,7 @@
   --amber:         #c8960a;
   --amber-dim:     #6b5005;
   --amber-bright:  #f0b30f;
+  --amber-faint:   rgba(200, 150, 10, 0.25);
   --grey-text:     #5a5a52;
   --grey-mid:      #8a8a7a;
   --grey-light:    #b8b8a8;
@@ -1016,8 +1017,66 @@ body::before {
 .map-edge--future { stroke-dasharray: 6 4; opacity: 0.5; }
 .map-node { fill: var(--grey-mid); opacity: 0.7; }
 .map-node--visited { fill: var(--grey-mid); opacity: 0.85; }
-.map-node--future { fill: rgba(200, 150, 10, 0.25); stroke: var(--amber-dim); stroke-width: 1.2; opacity: 0.9; }
+.map-node--future { fill: var(--amber-faint); stroke: var(--amber-dim); stroke-width: 1.2; opacity: 0.9; }
 .map-node--active { fill: var(--amber-bright); filter: drop-shadow(0 0 4px var(--amber)); opacity: 1; }
+
+/* ── Per-character color themes ─────────────────────────── */
+/* lion — stays gold (default amber palette) */
+[data-character="lion"] {
+  --amber:        #c8960a;
+  --amber-dim:    #6b5005;
+  --amber-bright: #f0b30f;
+  --amber-faint:  rgba(200, 150, 10, 0.25);
+}
+/* tin_man — rust */
+[data-character="tin_man"] {
+  --amber:        #b5451b;
+  --amber-dim:    #7a2a10;
+  --amber-bright: #d4601f;
+  --amber-faint:  rgba(181, 69, 27, 0.25);
+}
+/* scarecrow — straw */
+[data-character="scarecrow"] {
+  --amber:        #c4a35a;
+  --amber-dim:    #8a6d3b;
+  --amber-bright: #e8c97a;
+  --amber-faint:  rgba(196, 163, 90, 0.25);
+}
+/* dorothy — gingham check blue */
+[data-character="dorothy"] {
+  --amber:        #5a8fbf;
+  --amber-dim:    #2a5a8a;
+  --amber-bright: #7ab0e0;
+  --amber-faint:  rgba(90, 143, 191, 0.25);
+}
+/* witch_west — black */
+[data-character="witch_west"] {
+  --amber:        #5a5a5a;
+  --amber-dim:    #2a2a2a;
+  --amber-bright: #888888;
+  --amber-faint:  rgba(90, 90, 90, 0.25);
+}
+/* witch_east — silver */
+[data-character="witch_east"] {
+  --amber:        #a0a8b0;
+  --amber-dim:    #5a6068;
+  --amber-bright: #d0d8e0;
+  --amber-faint:  rgba(160, 168, 176, 0.25);
+}
+/* wizard — green */
+[data-character="wizard"] {
+  --amber:        #3a8a3a;
+  --amber-dim:    #1e5020;
+  --amber-bright: #5aba5a;
+  --amber-faint:  rgba(58, 138, 58, 0.25);
+}
+/* glinda — pink */
+[data-character="glinda"] {
+  --amber:        #c06090;
+  --amber-dim:    #7a3055;
+  --amber-bright: #e080b0;
+  --amber-faint:  rgba(192, 96, 144, 0.25);
+}
 
 /* ── Stats Card ──────────────────────────────────────────── */
 .stats-card {
