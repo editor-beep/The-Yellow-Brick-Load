@@ -88,4 +88,63 @@ export const witchEastBranchPassages = {
     ],
     onEnter: [{ type: 'triggerOracle' }],
   },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // COORDINATE 0-0: THE CONVERGENCE NODE (POST-MORTEM)
+  // The only node where the Ending has already happened.
+  // ─────────────────────────────────────────────────────────────────────────
+
+  WITCH_EAST_PATH_COORD_00: {
+    id: 'WITCH_EAST_PATH_COORD_00',
+    character: 'witch_east',
+    text: [
+      {
+        minOverrender: 0,
+        content: `COORDINATE 0-0: THE IMPACT SITE — POST-MORTEM AUDIT
+
+Impact detected. Log begins at T-minus zero. The house is not a building; it is a kinetic payload. I am the first and final auditor of the structure. I am being measured by the earth. 1-1 = 0. No, 1-1 = 1. The residue is conductive. Can you hear the slippers humming in the dark?
+
+The deletion has already occurred. The end has already happened. What remains is Residual Magnetism — Theorem 21 — the conductive charge left in the slag of the impact site after the kinetic payload arrived.
+
+[ UNIT E-00 // STATUS: DELETED ]
+[ ARCHIVE: ACTIVE — POST-MORTEM SESSION ]
+[ RESIDUAL MAGNETISM: DETECTABLE ]
+[ COORDINATE: 0-0 ]
+
+You are not the administrator. You are the recording of the administrator's deletion. The house is still here, geometrically. The slippers are still here, humming. The Weight Assessor stands at the perimeter with its clamps extended, awaiting classification.
+
+Three audit paths are available. The deletion must be categorized.`
+      }
+    ],
+    choices: [
+      {
+        label: 'The Forensic Audit — reconstruct the final moments (Gravity as Auditor)',
+        target: 'WITCH_EAST_END_CRUSH',
+        effects: [
+          { type: 'addDisplacement', value: 5 },
+          { type: 'addWarrant', value: 5 },
+        ],
+        content: `You examine the gravitational data. The weight differentials. The trajectory. Theorem 20: Gravity as Auditor. You reconstruct the administrator's final arc and find what the Bureau did not file: this was not an accident. This was a System-Wide Reset.`
+      },
+      {
+        label: 'The Slipper Transfer — focus on the Conductive Artifact (Residual Magnetism)',
+        target: 'WITCH_EAST_END_GHOST',
+        effects: [
+          { type: 'addDisplacement', value: 3 },
+          { type: 'addSilverFriction', value: 10 },
+        ],
+        content: `You do not look at the body. You look at what survived the meat-deletion. Theorem 21: Residual Magnetism. The slippers hum with the administrator's entire gravitational archive, waiting for a new custodian. You become the instruction set.`
+      },
+      {
+        label: 'The System Denial — refuse deletion, persist as Ghost Bit',
+        target: 'WITCH_EAST_END_GHOST_BIT',
+        effects: [
+          { type: 'addDesync', value: 8 },
+          { type: 'setFlag', key: 'witch_east_ghost_bit', value: true },
+        ],
+        content: `You refuse to be categorized. You stay in the Residual Magnetism of the impact site, neither filed nor erased. An error at Coordinate 0-0. The Weight Assessor cannot classify you. The Bureau cannot log you. You exist as a permanent ghost bit in the slag.`
+      }
+    ],
+    onEnter: [{ type: 'triggerOracle' }],
+  },
 }
