@@ -4,6 +4,7 @@ import { applyEffects, resolveText, interpolate, isChoiceAvailable } from '../en
 import { getPassage } from '../passages/index.js'
 import OracleCard from './OracleCard.jsx'
 import OracleDraw from './OracleDraw.jsx'
+import StatsCard from './StatsCard.jsx'
 import { getNodeMeta } from '../data/nodeMetadata.js'
 
 export default function PassageRenderer() {
@@ -113,7 +114,8 @@ export default function PassageRenderer() {
   }
 
   return (
-    <div className="passage-wrapper" tabIndex={-1}>
+    <div className="passage-wrapper passage-wrapper--has-stats" tabIndex={-1}>
+      <StatsCard />
       <OracleCard />
       {smudge >= 1 && <div className="smudge-overlay" style={{ opacity: smudge * 0.15 }} aria-hidden="true" />}
 
