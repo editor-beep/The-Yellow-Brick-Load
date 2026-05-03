@@ -86,6 +86,15 @@ export const scarecrowBranchPassages = {
         target: 'SCARECROW_ORACLE_ENTRY',
         effects: [{ type: 'addScatter', value: 3 }],
       },
+      {
+          label: 'Let the seam rip — collapse off the road into the fallow ground.',
+          target: 'S_FALLOW_GROUND',
+          effects: [
+            { type: 'subStitchIntegrity', value: 8 },
+            { type: 'addScatter', value: 4 },
+            { type: 'setArrivalState', value: 'fallow' },
+          ],
+        },
     ],
     onEnter: [{ type: 'triggerOracle' }],
   },
@@ -136,6 +145,15 @@ export const scarecrowBranchPassages = {
           { type: 'addWarrant', value: 4 },
         ],
       },
+      {
+          label: 'Stay vertical and run the recursive logic loop — count the crows from the post.',
+          target: 'S_START',
+          effects: [
+            { type: 'addNeuralDensity', value: 6 },
+            { type: 'addLoad', value: 4 },
+            { type: 'setCompliance', value: 'high' },
+          ],
+        },
     ],
     onEnter: [],
   },
@@ -176,6 +194,15 @@ export const scarecrowBranchPassages = {
           { type: 'addDesync', value: 2 },
         ],
       },
+      {
+          label: 'Smuggle the diploma into the trash folder — slip into the unmonitored bit-stream.',
+          target: 'S_UNMONITORED_NIGHT',
+          effects: [
+            { type: 'addScatter', value: 5 },
+            { type: 'addDesync', value: 3 },
+            { type: 'setCompliance', value: 'low' },
+          ],
+        },
     ],
     onEnter: [],
   },
@@ -233,7 +260,7 @@ The sky is a High-Contrast Data Field. You are logging vectors. Wing-beats are s
       },
       {
         label: 'The Synaptic Short',
-        target: 'S_ORACLE_DRAW',
+        target: 'S_THE_AI',
         effects: [{ type: 'addSeizure', value: 5 }, { type: 'setArrivalState', value: 'short' }]
       }
     ]
@@ -257,7 +284,7 @@ The ground is the floor of the system. The floor is where the load ends. If I re
       },
       {
         label: 'The Re-Stuffing',
-        target: 'S_ORACLE_DRAW',
+        target: 'S_THE_AI',
         effects: [
           { type: 'addNeuralDensity', value: 5 },
           { type: 'setArrivalState', value: 'fallow' }
