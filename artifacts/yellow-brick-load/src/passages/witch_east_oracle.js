@@ -341,6 +341,15 @@ The house has made contact. The pressure is no longer a measurement; it is a sta
         ],
         content: `You become the slag. You are a two-dimensional record of a three-dimensional failure. The system uses your residue as the foundation for the new Yellow Brick Load.`,
       },
+      {
+        label: 'Refuse the inversion — let the flattened residue be filed as administrative form instead.',
+        target: 'WITCH_EAST_END_ADMIN',
+        effects: [
+          { type: 'addLoad', value: 10 },
+          { type: 'setCompliance', value: 'absolute' },
+        ],
+        content: `The slag does not stay slag. The Bureau lifts the two-dimensional residue and stamps it into a permanent administrative form. You are no longer a witch; you are the paperwork that ratifies the impact.`,
+      },
     ],
     onEnter: [],
   },
