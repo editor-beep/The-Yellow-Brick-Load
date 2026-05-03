@@ -192,6 +192,26 @@ You see the Transmitter wire buried in her neck. You see the blood on the slag. 
           { type: 'addRefraction', value: 5 },
         ],
       },
+      {
+        label: 'Tilt the lens toward the Emerald City — administer mercy at the gate registers themselves.',
+        target: 'SHARED_EMERALD_CITY_GATES',
+        effects: [
+          { type: 'addRefraction', value: 4 },
+          { type: 'addInsulation', value: -4 },
+          { type: 'addLoad', value: 5 },
+          { type: 'setFlag', key: 'glinda_at_gates', value: true },
+        ],
+      },
+      {
+        label: 'Refract pink light into the poppy buffer below — sweeten the field for arriving units.',
+        target: 'SHARED_POPPY_FIELD',
+        effects: [
+          { type: 'addRefraction', value: 5 },
+          { type: 'addInsulation', value: -2 },
+          { type: 'setCompliance', value: 'high' },
+          { type: 'setFlag', key: 'glinda_seeded_poppy', value: true },
+        ],
+      },
     ],
     onEnter: [{ type: 'triggerOracle' }],
   },

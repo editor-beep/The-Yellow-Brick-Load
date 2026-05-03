@@ -279,6 +279,15 @@ export const dorothyBranchPassages = {
             { type: 'setCompliance', value: 'med' },
           ],
         },
+      {
+        label: 'Walk into the Pink Smog where Glinda spoke from — let the lilac sediment file the amends for you.',
+        target: 'G_PINK_SMOG',
+        effects: [
+          { type: 'addLoad', value: 8 },
+          { type: 'setCompliance', value: 'high' },
+          { type: 'setFlag', key: 'dorothy_in_pink_smog', value: true },
+        ],
+      },
     ],
     onEnter: [],
   },

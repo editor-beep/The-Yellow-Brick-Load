@@ -469,6 +469,33 @@ The eye records everything. So do you.`,
           { type: 'addLoad', value: 6 },
         ],
       },
+      {
+        label: 'Pan the eye east — sweep the Emerald City gate registers for unauthorized entries.',
+        target: 'SHARED_EMERALD_CITY_GATES',
+        effects: [
+          { type: 'addWarrant', value: 6 },
+          { type: 'addLoad', value: 4 },
+          { type: 'setFlag', key: 'witch_west_eye_at_gates', value: true },
+        ],
+      },
+      {
+        label: 'Drop the eye into the poppy field — survey the harvest at petal level.',
+        target: 'SHARED_POPPY_FIELD',
+        effects: [
+          { type: 'addWarrant', value: 4 },
+          { type: 'addDesync', value: 2 },
+          { type: 'setFlag', key: 'witch_west_eye_in_poppies', value: true },
+        ],
+      },
+      {
+        label: 'Pivot the eye north into the Pink Smog — log every face Glinda has been softening without filing.',
+        target: 'G_PINK_SMOG',
+        effects: [
+          { type: 'addWarrant', value: 5 },
+          { type: 'addDesync', value: 3 },
+          { type: 'setFlag', key: 'witch_west_eye_in_pink_smog', value: true },
+        ],
+      },
     ],
     onEnter: [{ type: 'addWarrant', value: 3 }],
   },

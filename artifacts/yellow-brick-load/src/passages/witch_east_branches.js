@@ -46,6 +46,33 @@ The system has called for an audit. Gravity is the only auditor that doesn't acc
           { type: 'setCompliance', value: 'high' },
         ],
       },
+      {
+        label: 'Issue a final enforcement warrant — dispatch every available patrol unit to Sector Central before the impact registers.',
+        target: 'SHARED_ENFORCEMENT_PATROL',
+        effects: [
+          { type: 'addWarrant', value: 10 },
+          { type: 'addLoad', value: 6 },
+          { type: 'setFlag', key: 'witch_east_warrant_issued', value: true },
+        ],
+      },
+      {
+        label: 'Bleed the gravity field northward — let it pull the Pink Smog down over your impact site as anesthetic cover.',
+        target: 'G_PINK_SMOG',
+        effects: [
+          { type: 'addDisplacement', value: 4 },
+          { type: 'setCompliance', value: 'high' },
+          { type: 'setFlag', key: 'witch_east_pulled_smog', value: true },
+        ],
+      },
+      {
+        label: 'Vent the gravitational pressure southward — flatten the poppy field as a soft landing for falling debris.',
+        target: 'SHARED_POPPY_FIELD',
+        effects: [
+          { type: 'addDisplacement', value: 5 },
+          { type: 'addLoad', value: 4 },
+          { type: 'setFlag', key: 'witch_east_flattened_poppy', value: true },
+        ],
+      },
     ],
     onEnter: [{ type: 'checkGhostSignal' }, { type: 'triggerOracle' }],
   },
@@ -154,6 +181,16 @@ Three audit paths are available. The deletion must be categorized.`
           { type: 'setFlag', key: 'witch_east_ghost_bit', value: true },
         ],
         content: `You refuse to be categorized. You stay in the Residual Magnetism of the impact site, neither filed nor erased. An error at Coordinate 0-0. The Weight Assessor cannot classify you. The Bureau cannot log you. You exist as a permanent ghost bit in the slag.`
+      },
+      {
+        label: 'Project the post-mortem charge eastward — let the Emerald City gate registers receive your final instruction.',
+        target: 'SHARED_EMERALD_CITY_GATES',
+        effects: [
+          { type: 'addDisplacement', value: 4 },
+          { type: 'addWarrant', value: 6 },
+          { type: 'setFlag', key: 'witch_east_charge_to_gates', value: true },
+        ],
+        content: `The residual magnetism finds the closest indexed receiver — the Emerald City gate registers, eighty kilometers east. Your last administrative instruction rides the conductive slag and arrives at the gate clerks as an unscheduled enforcement bulletin from a deleted unit. They will have to file it. Filing requires acknowledging you existed.`
       }
     ],
     onEnter: [{ type: 'triggerOracle' }],

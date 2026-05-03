@@ -95,6 +95,24 @@ export const scarecrowBranchPassages = {
             { type: 'setArrivalState', value: 'fallow' },
           ],
         },
+      {
+        label: 'Drift north into the Pink Smog — let the lilac sediment slow the recursive logic loop.',
+        target: 'G_PINK_SMOG',
+        effects: [
+          { type: 'addScatter', value: -2 },
+          { type: 'setCompliance', value: 'high' },
+          { type: 'setFlag', key: 'scarecrow_in_pink_smog', value: true },
+        ],
+      },
+      {
+        label: 'Step off the road into the poppy field below — let the bloom take the leaking straw.',
+        target: 'SHARED_POPPY_FIELD',
+        effects: [
+          { type: 'addScatter', value: 3 },
+          { type: 'addLoad', value: 4 },
+          { type: 'setFlag', key: 'scarecrow_in_poppy_field', value: true },
+        ],
+      },
     ],
     onEnter: [{ type: 'triggerOracle' }],
   },

@@ -123,6 +123,33 @@ You are now fully indexed as a Labor Unit. The void in your chest is no longer a
         target: "T_END_03",
         effects: [{ type: "addUtility", value: 10 }],
       },
+      {
+        label: "Walk yourself to the Emerald City Maintenance Bay — submit for full re-lubrication intake.",
+        target: "SHARED_EMERALD_CITY_GATES",
+        effects: [
+          { type: "addLubrication", value: 5 },
+          { type: "addLoad", value: 4 },
+          { type: "setFlag", key: "tin_man_seeking_maintenance", value: true },
+        ],
+      },
+      {
+        label: "Detour through the Poppy Buffer — let the resin coat the rusted joints from the outside.",
+        target: "SHARED_POPPY_FIELD",
+        effects: [
+          { type: "addCorrosion", value: -2 },
+          { type: "addLubrication", value: 3 },
+          { type: "setCompliance", value: "high" },
+        ],
+      },
+      {
+        label: "Walk under the Pink Smog plume — let the lilac sediment settle into the rust as a cosmetic patina.",
+        target: "G_PINK_SMOG",
+        effects: [
+          { type: "addCorrosion", value: 2 },
+          { type: "setCompliance", value: "high" },
+          { type: "setFlag", key: "tin_man_in_pink_smog", value: true },
+        ],
+      },
     ],
     onEnter: [],
   },

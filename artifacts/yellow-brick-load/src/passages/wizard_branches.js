@@ -113,6 +113,24 @@ export const wizardBranchPassages = {
         ],
       },
       {
+        label: 'Pump pink-tinted theatrical fog through the rear vents — let the projection drift north into the Smog reserves.',
+        target: 'G_PINK_SMOG',
+        effects: [
+          { type: 'addObfuscation', value: 6 },
+          { type: 'setCompliance', value: 'high' },
+          { type: 'setFlag', key: 'wizard_seeded_pink_smog', value: true },
+        ],
+      },
+      {
+        label: 'Vent the audience exhaust through the poppy buffer line — recycle the convinced breath.',
+        target: 'SHARED_POPPY_FIELD',
+        effects: [
+          { type: 'addObfuscation', value: 4 },
+          { type: 'addLoad', value: 5 },
+          { type: 'setFlag', key: 'wizard_vented_to_poppy', value: true },
+        ],
+      },
+      {
         label: 'Climb the spiral to the Acoustic Terrace — calibrate the broadcast layer.',
         target: 'WIZARD_ACOUSTIC_TERRACE',
         effects: [

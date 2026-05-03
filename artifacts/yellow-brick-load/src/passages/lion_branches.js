@@ -1842,6 +1842,15 @@ This is the place where kings are rewritten.`,
         label: 'Enter and request an audience with the Wizard.',
         target: 'LION_WIZARD_MISSION',
         effects: [{ type: 'addVibration', value: 5 }]
+      },
+      {
+        label: 'Take the service lane around the wall — file as livestock, enter through the working gate.',
+        target: 'SHARED_EMERALD_CITY_GATES',
+        effects: [
+          { type: 'addLoad', value: 4 },
+          { type: 'setCompliance', value: 'med' },
+          { type: 'setFlag', key: 'lion_entered_via_service', value: true },
+        ],
       }
     ],
     onEnter: [{ type: 'addVibration', value: 5 }],
@@ -2045,6 +2054,15 @@ The tremor is still there. It has simply been beautified.
         label: 'Reject the pink light. Tear through the illusion.',
         target: 'L_END_10',
         effects: [{ type: 'addDesynctear', value: 10 }]
+      },
+      {
+        label: 'Follow the trail of pink vapor back to its source — drift into the Pink Smog with her.',
+        target: 'G_PINK_SMOG',
+        effects: [
+          { type: 'addVibration', value: -8 },
+          { type: 'setCompliance', value: 'high' },
+          { type: 'setFlag', key: 'lion_in_pink_smog', value: true },
+        ],
       }
     ],
     onEnter: [{ type: 'addVibration', value: 5 }],
@@ -2091,6 +2109,15 @@ New red poppies are already beginning to sprout from the puncture wounds, their 
           { type: 'addVibration', value: 15 },
           { type: 'addDesynctear', value: 10 }
         ]
+      },
+      {
+        label: 'Wade deeper into the bloom — let the field swallow the patrol path entirely.',
+        target: 'SHARED_POPPY_FIELD',
+        effects: [
+          { type: 'addVibration', value: -10 },
+          { type: 'addLoad', value: 6 },
+          { type: 'setFlag', key: 'lion_in_poppy_field', value: true },
+        ],
       }
     ],
     onEnter: [{ type: 'addVibration', value: -8 }],
