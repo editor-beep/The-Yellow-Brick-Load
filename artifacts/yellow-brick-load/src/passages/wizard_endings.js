@@ -228,6 +228,302 @@ export const wizardEndingPassages = {
     onEnter: [],
   },
 
+  WIZARD_END_PLACEBO: {
+    id: 'WIZARD_END_PLACEBO',
+    character: 'wizard',
+    endingId: 'Z-END-03',
+    endingName: 'The Placebo Protocol',
+    institution: 'Pharmaceutical',
+    systemStatus: 'Sedated',
+    isEnding: true,
+    surreality: 5,
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE FINAL LOG [Z-END-03]
+
+  Tone: Pharmaceutical-Clinical.
+  Theme: A medal is just a weight that tells the unit it is brave.
+
+  You authorize the Placebo Protocol. The Bureau's pharmaceutical filters open. A fine, floral mist — sucrose-warm, faintly metallic — drifts through the Forum and the Audience Chamber. The Lion's tremor smooths into a sedated hum. The Tin Man's seizing empathy registers as "stable." The Scarecrow's overclock idles down to a low static.
+
+  [ UNIT WIZARD // STATUS: SEDATED ]
+  [ PROTOCOL: PLACEBO / AUTHORIZED ]
+  [ EFFICACY: SUBJECTIVE ]
+  [ ACTIVE INGREDIENT: NONE ]
+
+  The units believe they have been treated. The belief is the treatment. The Clerk makes its final note: "Pharmaceutical audit: complete. Active ingredient: trust. Side effects: indistinguishable from baseline." The mist continues to fall on its automatic loop.
+
+  Final Log: The cure was the dose. The dose was the announcement.
+
+  1 - 1 = 1.
+
+  If the symptom is the side effect of the cure, was the unit ever sick?`,
+      },
+    ],
+    choices: [],
+    onEnter: [],
+  },
+
+  WIZARD_END_PROMOTIONAL: {
+    id: 'WIZARD_END_PROMOTIONAL',
+    character: 'wizard',
+    endingId: 'Z-END-18',
+    endingName: 'Promotional Peace',
+    institution: 'Pharmaceutical',
+    systemStatus: 'Marketed',
+    isEnding: true,
+    surreality: 4,
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE FINAL LOG [Z-END-18]
+
+  Tone: Pharmaceutical-Promotional.
+  Theme: Wellness is a marketing campaign for stasis.
+
+  The marketing audit closes successfully. The units' internal failures have been re-classified as "optimal performance." The Lion believes he is brave. The Tin Man believes he is loved. The Scarecrow believes he is correct. The Bureau confirms the rebrand.
+
+  [ UNIT WIZARD // STATUS: MARKETED ]
+  [ CAMPAIGN: WELLNESS ]
+  [ DISTRIBUTION: ATMOSPHERIC ]
+  [ COMPLAINTS: REBRANDED AS TESTIMONIALS ]
+
+  You sit behind the screen in a state of authorized calm. The green lenses tint the Forum until the shadows resolve themselves out of frame. The Clerk makes its final note in pink ink: "Promotional peace achieved. Subject satisfaction: scripted. Renewal: automatic."
+
+  Final Log: The peace was the campaign. The campaign was the city.
+
+  1 - 1 = 1.
+
+  If wellness is the marketing, what was the illness selling?`,
+      },
+    ],
+    choices: [],
+    onEnter: [],
+  },
+
+  WIZARD_END_LEVER: {
+    id: 'WIZARD_END_LEVER',
+    character: 'wizard',
+    endingId: 'Z-END-19',
+    endingName: 'The Lever Malfunction',
+    institution: 'Industrial',
+    systemStatus: 'Jammed',
+    isEnding: true,
+    surreality: 7,
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE FINAL LOG [Z-END-19]
+
+  Tone: Industrial-Grating.
+  Theme: The machine eventually argues with the operator.
+
+  You force the lever. The iron is hot, slick with the black fluid that smells of unindexed history. The mechanism resists. You apply more weight. The lever resists harder. The lever marked KANSAS is jammed with the residue of a thousand failed migrations.
+
+  [ UNIT WIZARD // STATUS: JAMMED ]
+  [ LEVER: KANSAS / SEIZED ]
+  [ MECHANISM: ARGUING ]
+  [ OPERATOR: OUTWEIGHED ]
+
+  The lever snaps. The sound is not mechanical; it is the sound of a logic gate shattering. The internal hardware of the City begins to vibrate at a terminal frequency. You are trapped in the gap between the curtain and the wall as the machinery begins its kinetic harvest. The Clerk makes its final note in shorthand: "Operator outweighed. Filing under: industrial residue."
+
+  Final Log: The lever was the operator. The operator was the lever.
+
+  1 - 1 = 1.
+
+  If the machine refuses the hand, whose tool was it?`,
+      },
+    ],
+    choices: [],
+    onEnter: [],
+  },
+
+  WIZARD_END_SCRIPTED: {
+    id: 'WIZARD_END_SCRIPTED',
+    character: 'wizard',
+    endingId: 'Z-END-09',
+    endingName: 'The Scripted Exit',
+    institution: 'Temporal',
+    systemStatus: 'Logged',
+    isEnding: true,
+    surreality: 4,
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE FINAL LOG [Z-END-09]
+
+  Tone: Temporal-Clinical.
+  Theme: Every goodbye is a pre-written file closure.
+
+  You accept the temporal filters. The departure ceremony is moved from one folder to another by a Clerk you never see. There is no balloon. There is no fanfare. There is no last word — there is the last form. Form 09: Exit, Scripted (Operator-Class).
+
+  [ UNIT WIZARD // STATUS: LOGGED ]
+  [ EXIT: SCRIPTED ]
+  [ AUDIENCE: NOTIFIED IN BACK MEMO ]
+  [ CURTAIN: STAGED FOR SUCCESSOR ]
+
+  The journey is indexed. The journey is archived. The journey is quiet. The mechanism continues without you, because the mechanism never needed you. The Clerk makes its final note: "Operator transitioned out per scheduling. No incident. No witnesses. No residue."
+
+  Final Log: The exit was the file. The file was the operator.
+
+  1 - 1 = 1.
+
+  If the goodbye was already written, who said it?`,
+      },
+    ],
+    choices: [],
+    onEnter: [],
+  },
+
+  WIZARD_END_VOICE_OF_VOID: {
+    id: 'WIZARD_END_VOICE_OF_VOID',
+    character: 'wizard',
+    endingId: 'Z-END-06',
+    endingName: 'Voice of the Void',
+    institution: 'Acoustic',
+    systemStatus: 'Resonating',
+    isEnding: true,
+    surreality: 8,
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE FINAL LOG [Z-END-06]
+
+  Tone: Acoustic-Terrified.
+  Theme: Power is the ability to be heard without being seen.
+
+  The modulation is total. Your voice has bypassed the units' ears entirely and now vibrates directly inside their joints. You are no longer a man behind a curtain. You are an acoustic event with administrative privileges.
+
+  [ UNIT WIZARD // STATUS: RESONATING ]
+  [ FREQUENCY: BUREAU-CALIBRATED ]
+  [ VISIBLE BODY: NONE ]
+  [ AUDIBLE AUTHORITY: ABSOLUTE ]
+
+  The Tin Man and the Scarecrow stand before your projection site bowing to a soundwave. You attempt to scream. The scream is filtered into a booming decree of reassurance. You are a ghost-bit in a loud machine. The Clerk's note is not written; it is hummed.
+
+  Final Log: The voice was the operator. The operator was the room.
+
+  1 - 1 = 1.
+
+  If your only body is your frequency, what does silence cost?`,
+      },
+    ],
+    choices: [],
+    onEnter: [],
+  },
+
+  WIZARD_END_BALLOON_BURN: {
+    id: 'WIZARD_END_BALLOON_BURN',
+    character: 'wizard',
+    endingId: 'Z-END-16',
+    endingName: 'The Balloon Burn',
+    institution: 'Climatological',
+    systemStatus: 'Consumed',
+    isEnding: true,
+    surreality: 8,
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE FINAL LOG [Z-END-16]
+
+  Tone: Climatological-Searing.
+  Theme: Heat is the ultimate auditor of gas and ego.
+
+  You ignite the burner without venting. The silk does not lift; the silk consumes itself. The promotional gas flashes at the seam. The basket falls clear of the envelope and you fall with it, into the high-altitude bureaucracy and then through it.
+
+  [ UNIT WIZARD // STATUS: CONSUMED ]
+  [ AUDIT TYPE: CLIMATOLOGICAL ]
+  [ PROMOTIONAL GAS: COMBUSTED ]
+  [ DESCENT: UNAUTHORIZED, BUT FAST ]
+
+  The Great Desert opens below — flat, featureless, the unrendered border between Oz OS and whatever is past it. The silk melts onto your skin. You realize, briefly, that purity is merely the byproduct of high-temperature logic. The Clerk's note is composed posthumously and filed under "Operator: vented; method: thermal."
+
+  Final Log: The balloon was the obfuscation. The fire was the audit.
+
+  1 - 1 = 1.
+
+  If altitude requires lighter ego, what burns first?`,
+      },
+    ],
+    choices: [],
+    onEnter: [],
+  },
+
+  WIZARD_END_OMAHA_TRACE: {
+    id: 'WIZARD_END_OMAHA_TRACE',
+    character: 'wizard',
+    endingId: 'Z-END-12',
+    endingName: 'The Omaha Trace',
+    institution: 'Historical',
+    systemStatus: 'Cached',
+    isEnding: true,
+    surreality: 6,
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE FINAL LOG [Z-END-12]
+
+  Tone: Historical-Nostalgic.
+  Theme: Home is a ghost signal from an unindexed past.
+
+  You refuse to purge the Omaha data. The signal is weak — a ghost-frequency of dusty porches and unindexed wind — but it is the only hardware truth you have left. You drag it with you. The Meteorological Filter detects the unauthorized mass. The wind begins to spiral.
+
+  [ UNIT WIZARD // STATUS: CACHED ]
+  [ HOME COORDINATE: OMAHA / GRAYSCALE ]
+  [ CLIMATOLOGICAL ERROR: TRIGGERED ]
+  [ CLASSIFICATION: HISTORICAL RESIDUE ]
+
+  You are not in the Emerald City. You are not in Omaha. You are in the Historical Archive — a cached memory of a man who once knew how to operate a curtain, filed under "previously projected." The Clerk closes the file with the gentleness it reserves for relics. "Trace confirmed. Operator: archived. Curtain: re-spooled for next applicant."
+
+  Final Log: The home was the weight. The weight was the file.
+
+  1 - 1 = 1.
+
+  If you keep the place that does not appear on the map, who reads the map?`,
+      },
+    ],
+    choices: [],
+    onEnter: [],
+  },
+
+  WIZARD_END_SMOKE_SCREEN: {
+    id: 'WIZARD_END_SMOKE_SCREEN',
+    character: 'wizard',
+    endingId: 'Z-END-11',
+    endingName: 'The Smoke Screen',
+    institution: 'Atmospheric',
+    systemStatus: 'Occluded',
+    isEnding: true,
+    surreality: 6,
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE FINAL LOG [Z-END-11]
+
+  Tone: Atmospheric-Occluded.
+  Theme: A screen is a wall the audience builds for you.
+
+  You release every smoke canister at once. Green vapor floods the Hall, the Forum, the Audience Chamber, the corridors. The projection no longer needs a curtain — the room is the curtain. The units cannot see you. The units cannot see each other. The units cannot see the units.
+
+  [ UNIT WIZARD // STATUS: OCCLUDED ]
+  [ ATMOSPHERIC LOAD: SATURATED ]
+  [ VISIBILITY: ZERO / AUDITED AS PRIVACY ]
+  [ AUDIO PATTER: CONTINUES IN STEREO ]
+
+  You stand in the middle of the smoke and listen to your own promotional voice loop on the hidden speakers. It sounds confident. It sounds like someone else. The Clerk's final note is pinned to the wall but cannot be read through the vapor: "Screen deployed. Operator preserved by occlusion. Audience: relieved of audit duty."
+
+  Final Log: The screen was the city. The city was the breath.
+
+  1 - 1 = 1.
+
+  If no one can see the curtain, is there anything left to perform?`,
+      },
+    ],
+    choices: [],
+    onEnter: [],
+  },
+
   WIZARD_END_ORIGIN: {
     id: 'WIZARD_END_ORIGIN',
     character: 'wizard',
