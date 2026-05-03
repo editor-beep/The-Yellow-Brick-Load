@@ -54,6 +54,58 @@ export const scarecrowBranchPassages = {
     onEnter: [{ type: 'checkGhostSignal' }, { type: 'triggerOracle' }],
   },
 
+  SCARECROW_INIT_B: {
+    id: 'SCARECROW_INIT_B',
+    character: 'scarecrow',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE FALLEN POST
+
+  You are Unit S-33. Coordinate: [Agricultural-7, Row-F, Ground-State]. The post snapped sometime in the night. The Bureau will eventually file it as "Vertical Asset Failure, Cause Unlisted." You are face-down in the furrow.
+
+  Your interior shifted on landing. The clean straw migrated upward into the chest cavity. The wet straw is now compacted around your jaw. The shredded carbon paper has redistributed across both shoulders. The grey slurry at the core — the part that has been thinking — has pooled in the left hip, where it pulses warmly against the inside of the burlap.
+
+  [ POSTURE: HORIZONTAL, UNAUTHORIZED ]
+  [ STRUCTURAL INTEGRITY: -40% ]
+  [ COMPLIANCE: PENDING REASSESSMENT ]
+  [ BUREAU NOTIFICATION: NOT YET TRANSMITTED ]
+
+  The cross-bar is still tied to your wrists, splintered, useless. The crows have come closer than they used to. One of them — a banded government-issue, ear-tag visible — is standing on your shoulder, weighing you with a single eye. The Yellow Brick Load is twelve meters to your left, still stamped, still waiting.
+
+  Three options. The crow will not wait long.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Snap the cross-bar against the ground and walk — let the scattered straw mark the route.',
+        target: 'SCARECROW_PATH_MIND',
+        effects: [
+          { type: 'addScatter', value: 3 },
+          { type: 'addDesync', value: 1 },
+        ],
+      },
+      {
+        label: 'Lie still and wait for re-mounting — the Bureau will dispatch a post crew once the failure is logged.',
+        target: 'SCARECROW_PATH_COMPLIANCE',
+        effects: [
+          { type: 'addLoad', value: 5 },
+          { type: 'setCompliance', value: 'high' },
+        ],
+      },
+      {
+        label: 'Open the seam against the dirt — let the slurry drain into the field until the Bureau must intervene.',
+        target: 'SCARECROW_ORACLE_ENTRY',
+        effects: [
+          { type: 'addScatter', value: 5 },
+          { type: 'addHollowing', value: 3 },
+          { type: 'setCompliance', value: 'low' },
+        ],
+      },
+    ],
+    onEnter: [{ type: 'checkGhostSignal' }, { type: 'triggerOracle' }],
+  },
+
   SCARECROW_PATH_MIND: {
     id: 'SCARECROW_PATH_MIND',
     character: 'scarecrow',

@@ -77,6 +77,83 @@ The system has called for an audit. Gravity is the only auditor that doesn't acc
     onEnter: [{ type: 'checkGhostSignal' }, { type: 'triggerOracle' }],
   },
 
+  WITCH_EAST_INIT_B: {
+    id: 'WITCH_EAST_INIT_B',
+    character: 'witch_east',
+    text: [
+      {
+        minOverrender: 0,
+        content: `COORDINATE 0-0: THE PRE-IMPACT PAUSE
+
+Log paused at T-minus 1.4 seconds. You are Unit E-Cluster, primary enforcer of Sector East. The audit-mass is no longer falling — the Bureau has authorized a brief calibration window in which gravity holds its breath and you hold yours.
+
+The house hangs above you at thirty-one meters of altitude, slightly inverted, the porch light still on. A Kansas screen door swings in a wind that has not arrived yet. Inside the house, faintly, a child can be heard breathing. You can also hear, more clearly, the warrant printer in your own thorax warming up.
+
+[ AUDIT WINDOW: OPEN ]
+[ T-MINUS: 1.4s, FROZEN ]
+[ ENFORCER STATUS: NOMINAL ]
+[ POST-EVENT FORM 0-0: STAGED ]
+
+Around your feet the regulatory pressure is already pre-loading. Your stamps are arranged on a small folding table the Bureau set up for the occasion. The patrol band is staged at the perimeter, awaiting dispatch order. The audit will resume the moment you stop deciding.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Begin the assay — release the pause and run the Gravity Crucible at impact.',
+        target: 'WITCH_EAST_ORACLE_ENTRY',
+        effects: [
+          { type: 'addLoad', value: 20 },
+          { type: 'addDisplacement', value: 3 },
+        ],
+      },
+      {
+        label: 'Use the window to redirect the falling mass — deploy regulatory pressure laterally before the audit resumes.',
+        target: 'WITCH_EAST_PATH_GRAVITY',
+        effects: [
+          { type: 'addWarrant', value: 5 },
+          { type: 'addDisplacement', value: 2 },
+        ],
+      },
+      {
+        label: 'Pre-file the post-mortem at the folding table — accept the deletion before gravity does it for you.',
+        target: 'WITCH_EAST_PATH_COORD_00',
+        effects: [
+          { type: 'addLoad', value: 25 },
+          { type: 'addDisplacement', value: 5 },
+          { type: 'setCompliance', value: 'high' },
+        ],
+      },
+      {
+        label: 'Issue a final enforcement warrant — dispatch every available patrol unit to Sector Central before the impact registers.',
+        target: 'SHARED_ENFORCEMENT_PATROL',
+        effects: [
+          { type: 'addWarrant', value: 10 },
+          { type: 'addLoad', value: 6 },
+          { type: 'setFlag', key: 'witch_east_warrant_issued', value: true },
+        ],
+      },
+      {
+        label: 'Bleed the gravity field northward — let it pull the Pink Smog down over your impact site as anesthetic cover.',
+        target: 'G_PINK_SMOG',
+        effects: [
+          { type: 'addDisplacement', value: 4 },
+          { type: 'setCompliance', value: 'high' },
+          { type: 'setFlag', key: 'witch_east_pulled_smog', value: true },
+        ],
+      },
+      {
+        label: 'Vent the gravitational pressure southward — flatten the poppy field as a soft landing for falling debris.',
+        target: 'SHARED_POPPY_FIELD',
+        effects: [
+          { type: 'addDisplacement', value: 5 },
+          { type: 'addLoad', value: 4 },
+          { type: 'setFlag', key: 'witch_east_flattened_poppy', value: true },
+        ],
+      },
+    ],
+    onEnter: [{ type: 'checkGhostSignal' }, { type: 'triggerOracle' }],
+  },
+
   WITCH_EAST_PATH_GRAVITY: {
     id: 'WITCH_EAST_PATH_GRAVITY',
     character: 'witch_east',

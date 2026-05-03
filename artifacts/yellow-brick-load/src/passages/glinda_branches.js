@@ -58,6 +58,58 @@ export const glindaBranchPassages = {
     onEnter: [{ type: 'checkGhostSignal' }, { type: 'triggerOracle' }],
   },
 
+  GLINDA_INIT_B: {
+    id: 'GLINDA_INIT_B',
+    character: 'glinda',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE CALIBRATION CHAMBER
+
+  You are the Refraction Operator. The bubble is docked. The pavilion is sealed.
+
+  The Calibration Chamber is a hexagonal pearl-glass room above the upper Emerald terraces, accessible only by the bubble's ascent vent. The walls are lined with mercy-grade lilac filament; the floor is a single sheet of porcelain over a drainage grate. You are standing in the grate-pattern, barefoot. The subdermal tubing is currently patched into the wall feed for top-off. A faint pink residue runs from the wrist port, down the porcelain, into the drain.
+
+  [ REFRACTION OPERATOR: DOCKED ]
+  [ MERCY RESERVOIR: REFILLING ]
+  [ GRACE PROTOCOL: STANDBY ]
+  [ DRAINAGE: ACTIVE ]
+
+  The chamber's south wall is a one-way pearl pane. Through it you can see the Yellow Brick Load far below — the units thinning out, the patrol band tightening, a Lion-shaped silhouette folded in a cornstalk row. The bubble is fueled and waiting at the vent. The Pink Smog dispensary valve is a quarter-turn at your right hand.
+
+  {{#flags.graft_glinda_filament_in_lion}}A thin pink thread pulses inside the jaw of a Lion unit somewhere on the road below — your filament, previously grafted, still transmitting grace.{{/flags.graft_glinda_filament_in_lion}}`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Disconnect the wall feed and ride the bubble down — administer direct mercy calibration on-site.',
+        target: 'GLINDA_ORACLE_ENTRY',
+        effects: [
+          { type: 'addRefraction', value: 3 },
+          { type: 'addLoad', value: 5 },
+        ],
+      },
+      {
+        label: 'Stay docked — observe through the pearl pane and run mercy at altitude.',
+        target: 'GLINDA_PATH_ALTITUDE',
+        effects: [
+          { type: 'addInsulation', value: 5 },
+          { type: 'addRefraction', value: 1 },
+        ],
+      },
+      {
+        label: 'Open the dispensary valve — vent Pink Smog from the chamber across the lower terraces.',
+        target: 'G_PINK_SMOG',
+        effects: [
+          { type: 'addRefraction', value: 4 },
+          { type: 'addInsulation', value: 2 },
+          { type: 'setCompliance', value: 'high' },
+        ],
+      },
+    ],
+    onEnter: [{ type: 'checkGhostSignal' }, { type: 'triggerOracle' }],
+  },
+
   // ─────────────────────────────────────────────────────────────────────────
   // SECTOR NORTH: THE PINK SMOG & THE DESCENT (GLINDA)
   // ─────────────────────────────────────────────────────────────────────────

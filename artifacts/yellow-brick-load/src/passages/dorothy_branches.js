@@ -68,6 +68,70 @@ export const dorothyBranchPassages = {
     onEnter: [{ type: 'checkGhostSignal' }, { type: 'triggerOracle' }],
   },
 
+  DOROTHY_INIT_B: {
+    id: 'DOROTHY_INIT_B',
+    character: 'dorothy',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE WRECKAGE INVENTORY
+
+  You are Unit D-01. Coordinate: [Oz-Primary, Impact-Site, Sub-Segment-0].
+  Previous coordinate: [Kansas, Coordinate-Null, pre-event].
+
+  You did not start on the road. You started inside the house. The house is no longer a house — it is a splintered cube of Kansas-grade lumber driven into the soft Oz dirt at an angle the Bureau will eventually classify as "Architectural Foreclosure." The front door is now a ceiling. A propaganda crow is perched on the inverted weather vane, watching you.
+
+  The body under the floorboards is not your concern. The Bureau has already filed it. The slippers, however, have been reassigned to your feet — already, while you were still unconscious — and they are humming at a frequency the inventory clerk has logged as "Signal Strength: Elevated."
+
+  [ INVENTORY: PARTIAL ]
+  [ DISPLACEMENT COUNTER: ARMED ]
+  [ SILVER FRICTION: ACCUMULATING ]
+  [ WITNESS PRESENT: 1 (FIELD-ADJACENT) ]
+
+  Through the broken window-frame, you can see the road — yellow, stamped, waiting. The Dust Clerk is fifty meters out, standing beside the wreck, pretending to read a manifest. The clerk has been waiting a long time.
+
+  {{#flags.graft_dorothy_nerve_in_tinman}}A faint oil-smell drifts in through the broken siding, carrying the echo of a foreign joint — borrowed, metallic, briefly warm.{{/flags.graft_dorothy_nerve_in_tinman}}`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Step out of the wreckage and walk the road — accept the displacement as a heading.',
+        target: 'DOROTHY_PATH_ROAD',
+        effects: [
+          { type: 'addDisplacement', value: 2 },
+          { type: 'addLoad', value: 5 },
+        ],
+      },
+      {
+        label: 'Sit in the wreckage and click the slippers — try to reverse the landing before the clerk approaches.',
+        target: 'DOROTHY_PATH_SLIPPERS',
+        effects: [
+          { type: 'addSilverFriction', value: 3 },
+          { type: 'addDesync', value: 1 },
+        ],
+      },
+      {
+        label: 'Climb back inside the wreck and re-enter the gale — replay the cyclone reset from D-GALE.',
+        target: 'D_START',
+        effects: [
+          { type: 'addDisplacement', value: 5 },
+          { type: 'addDesync', value: 2 },
+          { type: 'setFlag', key: 'dorothy_replay_gale', value: true },
+        ],
+      },
+      {
+        label: 'Refuse to leave the wreckage — let the Dust Clerk approach and file you in place.',
+        target: 'DOROTHY_ORACLE_ENTRY',
+        effects: [
+          { type: 'addWarrant', value: 3 },
+          { type: 'addDisplacement', value: 1 },
+          { type: 'setCompliance', value: 'low' },
+        ],
+      },
+    ],
+    onEnter: [{ type: 'checkGhostSignal' }, { type: 'triggerOracle' }],
+  },
+
   DOROTHY_PATH_ROAD: {
     id: 'DOROTHY_PATH_ROAD',
     character: 'dorothy',

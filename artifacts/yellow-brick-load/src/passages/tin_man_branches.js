@@ -63,6 +63,67 @@ The Girl with the silver shoes stands before you, holding a pressurized canister
     onEnter: [{ type: "checkGhostSignal" }, { type: "triggerOracle" }],
   },
 
+  TIN_MAN_INIT_B: {
+    id: "TIN_MAN_INIT_B",
+    character: "tinman",
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE STEP THAT DID NOT COMPLETE
+
+You are Unit T-88. Coordinate: [42.4, -85.2]. The previous coordinate was three meters west, on the road; the present coordinate is three meters east of the road, in the wet edge-grass, mid-stride.
+
+You were walking. The Bureau will not have a record of when you began walking, because the lubrication ledger has not been refreshed in two cycles. The step that did not complete is the right step. The right knee is at 31 degrees of flex and will not exceed 31 degrees. The right heel is six centimeters off the ground. A bead of orange water is running down the inside of the calf plate.
+
+Inside the tin, the residual heat — the Wetware ghost — is louder than usual. It is humming a fragment of a song that the Bureau has never approved. It is the kind of sound a meat-throat would make. You do not have a meat-throat anymore. You used to.
+
+[ POSTURE: ARRESTED MID-STRIDE ]
+[ LUBRICATION RESERVE: 4% ]
+[ CORROSION: 71%, ASCENDING ]
+[ WETWARE TRACE: AUDIBLE ]
+
+The Girl with the silver shoes is not here. The pressurized canister is not here. The road is three meters away. The forest is twenty meters the other direction, low-fidelity, edges flickering. A second figure — not the Girl, smaller, government-banded — is approaching from the road with what looks like a clipboard.`,
+      },
+    ],
+    choices: [
+      {
+        label: "Prioritize Wetware: let the humming finish — chase the song down to its name.",
+        target: "T_PATH_WETWARE",
+        effects: [
+          { type: "addSmudge", value: 10 },
+          { type: "addCorrosion", value: 5 },
+        ],
+      },
+      {
+        label: "Prioritize Hardware: signal the approaching clerk — request emergency lubrication, accept the warrant.",
+        target: "T_PATH_HARDWARE",
+        effects: [
+          { type: "setCompliance", value: "high" },
+          { type: "addLubrication", value: 15 },
+        ],
+      },
+      {
+        label: "Refuse both: hold the 31-degree flex — let the rust write the next instruction.",
+        target: "TIN_MAN_ORACLE_ENTRY",
+        effects: [
+          { type: "addCorrosion", value: 8 },
+          { type: "addDesync", value: 2 },
+          { type: "setCompliance", value: "low" },
+        ],
+      },
+      {
+        label: "Pivot the seized leg toward the low-fidelity forest — investigate the cache collision before the clerk arrives.",
+        target: "T_WOODS_START",
+        effects: [
+          { type: "addCorrosion", value: 3 },
+          { type: "addDesync", value: 2 },
+          { type: "setPath", value: "woods" },
+        ],
+      },
+    ],
+    onEnter: [{ type: "checkGhostSignal" }, { type: "triggerOracle" }],
+  },
+
   T_PATH_WETWARE: {
     id: "T_PATH_WETWARE",
     character: "tinman",

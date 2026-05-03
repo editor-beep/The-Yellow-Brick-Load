@@ -110,9 +110,8 @@ export const useGameStore = create((set, get) => ({
   // ── Character Selection ──────────────────────────────────────────────────
   selectCharacter: (character) => {
     if (!character) return
-    let initNode = `${character.toUpperCase()}_INIT`
+    const initNode = pickInitNode(character)
     if (character === 'witch_west') {
-      initNode = Math.random() < 0.5 ? 'WITCH_WEST_INIT' : 'WITCH_WEST_INIT_B'
       markWitchWestInitSeen(initNode)
     }
     incrementCharacterPlayCount(character)
@@ -168,10 +167,7 @@ export const useGameStore = create((set, get) => ({
    */
   softReset: () => {
     const { character } = get()
-    let initNode = `${character.toUpperCase()}_INIT`
-    if (character === 'witch_west') {
-      initNode = Math.random() < 0.5 ? 'WITCH_WEST_INIT' : 'WITCH_WEST_INIT_B'
-    }
+    const initNode = pickInitNode(character)
     set((s) => ({
       load: 0,
       desync: Math.max(0, s.desync - 1),
@@ -279,6 +275,28 @@ export function markWitchWestInitSeen(initNode) {
   if (initNode === 'WITCH_WEST_INIT') seen.initA = true
   if (initNode === 'WITCH_WEST_INIT_B') seen.initB = true
   writeJSON(WITCH_WEST_INIT_SEEN_KEY, seen)
+}
+
+// ── Init Node Selection ────────────────────────────────────────────────────
+// Every character now has two distinct opening passages (INIT and INIT_B).
+// Both inits route their choices into the same downstream hubs, so the
+// random pick changes the opening framing without gating any content.
+const CHARACTERS_WITH_INIT_B = new Set([
+  'dorothy',
+  'scarecrow',
+  'tin_man',
+  'lion',
+  'glinda',
+  'witch_east',
+  'witch_west',
+  'wizard',
+])
+
+export function pickInitNode(character) {
+  if (!character) return null
+  const base = `${character.toUpperCase()}_INIT`
+  if (!CHARACTERS_WITH_INIT_B.has(character)) return base
+  return Math.random() < 0.5 ? base : `${base}_B`
 }
 
 // ── Persistent Cross-Playthrough Flags ──────────────────────────────────────

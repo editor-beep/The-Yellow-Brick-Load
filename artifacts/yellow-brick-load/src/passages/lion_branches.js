@@ -49,6 +49,50 @@ Before you can respond to the road, you must decide what kind of body you are br
     onEnter: [{ type: "checkGhostSignal" }],
   },
 
+  LION_INIT_B: {
+    id: "LION_INIT_B",
+    character: "lion",
+    text: [
+      {
+        minOverrender: 0,
+        content: `UNIT L-77 — THE CORN MARGIN
+
+You are the Lion.
+
+You are not on the road. You are folded against the inside edge of an Approved Cornstalk Row, knees up under the chin, mane dust-matted, tail wrapped twice around the right wrist. The road is forty meters out and you can hear it stamping its own bricks in the distance, which is not a sound that should exist.
+
+The shaking is in the jaw, the spine, the tail, and now also in a fourth location the Bureau has not authorized you to name. It started some time ago and has not stopped. A propaganda crow is perched on a stalk three meters away and is recording.
+
+A voice issues a prompt. The corn requires a response. The road is still there. You can still get to it. The question is what kind of body you intend to bring.`,
+      },
+    ],
+    choices: [
+      {
+        label:
+          "WETWARE — You are meat under pressure. The shaking is a body problem; the corn is just where it found you.",
+        target: "LION_INIT_W",
+        effects: [{ type: "setFlag", key: "mode", value: "wetware" }],
+      },
+      {
+        label:
+          "HARDWARE — You are a unit with a filing error. The shaking is a system problem and the cornstalk is the wrong cradle.",
+        target: "LION_INIT_H",
+        effects: [{ type: "setFlag", key: "mode", value: "hardware" }],
+      },
+      {
+        label:
+          "GHOST — You are neither. The shaking is a transmission someone else is sending and the corn is just antenna.",
+        target: "LION_ORACLE_ENTRY",
+        effects: [
+          { type: "setFlag", key: "mode", value: "ghost" },
+          { type: "addDesync", value: 2 },
+          { type: "armGhostSignal" },
+        ],
+      },
+    ],
+    onEnter: [{ type: "checkGhostSignal" }],
+  },
+
   LION_INIT_W: {
     id: "LION_INIT_W",
     character: "lion",

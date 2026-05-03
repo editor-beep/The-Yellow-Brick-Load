@@ -58,6 +58,58 @@ export const wizardBranchPassages = {
     onEnter: [{ type: 'checkGhostSignal' }, { type: 'triggerOracle' }],
   },
 
+  WIZARD_INIT_B: {
+    id: 'WIZARD_INIT_B',
+    character: 'wizard',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE LEVER ROOM, BETWEEN ACTS
+
+  You are the Obfuscation Operator. The curtain is drawn but the audience is not yet seated. The throne room is empty out front; the morning's petition queue has not yet been admitted past the gate clerks.
+
+  You are not at the great console. You are in the Lever Room — a low-ceilinged service space directly behind the projection apparatus, walls lined with calibrated brass handles, each labeled in the Bureau's own typeface: VOICE BASS +3. SMOKE PLUME. EMERALD UPLIGHT. FLAMING HEAD. The handles smell of warm grease and old fear-sweat. Yours, mostly.
+
+  [ OBFUSCATION OPERATOR: BACKSTAGE ]
+  [ PROJECTION: STANDBY ]
+  [ MARKETING AUDIT: PAUSED ]
+  [ CURTAIN: DRAWN, OUTBOUND-OPAQUE ]
+
+  Your face is currently your own. The hidden wounds are visible in the small shaving mirror nailed to the brass-handle wall. They have not healed. Behind you, a hatch in the floor leads down to the Unlit Basement, where the actual wiring lives. Ahead, a velvet rope and three steps put you back at the great console for the morning performance.
+
+  The petition queue can hear you breathing through the projection vent if you breathe too loud. So far you are within tolerance.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Step up to the great console and crack the curtain — prepare the projection harvest before the queue is admitted.',
+        target: 'WIZARD_ORACLE_ENTRY',
+        effects: [
+          { type: 'addObfuscation', value: 3 },
+          { type: 'addLoad', value: 5 },
+        ],
+      },
+      {
+        label: 'Stay in the Lever Room and pre-set every handle — run the show on automation, keep the curtain shut.',
+        target: 'WIZARD_PATH_PROJECTION',
+        effects: [
+          { type: 'addObfuscation', value: 5 },
+          { type: 'setCompliance', value: 'high' },
+        ],
+      },
+      {
+        label: 'Open the floor hatch and descend into the Unlit Basement — inspect the wiring before the morning load.',
+        target: 'SHARED_UNLIT_BASEMENT',
+        effects: [
+          { type: 'addObfuscation', value: -2 },
+          { type: 'addDesync', value: 3 },
+          { type: 'setCompliance', value: 'low' },
+        ],
+      },
+    ],
+    onEnter: [{ type: 'checkGhostSignal' }, { type: 'triggerOracle' }],
+  },
+
   WIZARD_PATH_PROJECTION: {
     id: 'WIZARD_PATH_PROJECTION',
     character: 'wizard',
