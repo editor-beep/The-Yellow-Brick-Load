@@ -1611,6 +1611,15 @@ It is architecture.`,
         target: "LION_END_13",
         effects: [{ type: "addLoad", value: 20 }],
       },
+      {
+          label: 'Refuse the case — let the Curator queue you for the Mane Event spectacle instead.',
+          target: 'LION_MANE_EVENT',
+          effects: [
+            { type: 'addLoad', value: 12 },
+            { type: 'addVibration', value: 6 },
+            { type: 'setFlag', key: 'taxidermy_refused', value: true },
+          ],
+        },
     ],
     onEnter: [],
   },
@@ -1682,7 +1691,16 @@ It feels almost peaceful.`,
         label: 'Turn back toward the last traces of structure.',
         target: 'LION_END_26',
         effects: [{ type: 'addLoad', value: 15 }]
-      }
+      },
+      {
+          label: 'Cross the unrendered grey plain — march into the desert past the bricks.',
+          target: 'LION_DESERT_CROSSING',
+          effects: [
+            { type: 'addLoad', value: 10 },
+            { type: 'addDesync', value: 4 },
+            { type: 'setFlag', key: 'desert_attempted', value: true },
+          ],
+        },
     ],
     onEnter: [{ type: 'addDesynctear', value: 6 }],
   },
@@ -1771,7 +1789,15 @@ It feels almost peaceful.`,
   { type: 'addLoad', value: 25 },
   { type: 'setCompliance', value: 'high' }
   ]
-  }
+  },
+    {
+    label: 'Roar against the polished black vellum until the closed circuit fractures.',
+    target: 'LION_END_19',
+    effects: [
+    { type: 'addVibration', value: 20 },
+    { type: 'addDesync', value: 8 }
+    ]
+    }
   ],
   onEnter: [{ type: 'addVibration', value: 10 }]
   },
@@ -2153,7 +2179,7 @@ The Technician uses a silver file to scrape the edges.
       },
       {
         label: 'Scrape the "Empty Chest" shard (Adds Load).',
-        target: 'LION_SPINE_HUB',
+        target: 'LION_VERTEBRAE_HUB',
         effects: [{ type: 'addLoad', value: 8 }],
       },
     ],
@@ -2181,7 +2207,7 @@ The Clerk is a tall, spindly thing made of overstuffed folders. It smells of ced
       },
       {
         label: 'Pay in Signal: Allow the Clerk to redact your last memory.',
-        target: 'LION_SPINE_HUB',
+        target: 'LION_VERTEBRAE_HUB',
         effects: [{ type: 'addDesync', value: 5 }, { type: 'addVibration', value: -2 }],
       },
     ],
@@ -2209,7 +2235,7 @@ You open your jaw. The shims between your vertebrae grind together. You are aske
       },
       {
         label: 'Acoustic Leak: Let a piece of the real scream through.',
-        target: 'LION_SPINE_HUB',
+        target: 'LION_VERTEBRAE_HUB',
         effects: [{ type: 'addVibration', value: 12 }, { type: 'addDesync', value: 5 }],
       },
     ],
@@ -2242,7 +2268,7 @@ The tremor does not stop. It migrates. From your jaw to your spine to the base o
       },
       {
         label: 'Accept only a partial dose. Maintain some friction.',
-        target: 'LION_SPINE_HUB',
+        target: 'LION_VERTEBRAE_HUB',
         effects: [{ type: 'addVibration', value: -3 }, { type: 'addLoad', value: 5 }],
       },
     ],
@@ -2273,6 +2299,14 @@ The Technician is gone. The Clerk is gone. There is only the white light behind 
         target: 'LION_END_32',
         effects: [],
       },
+      {
+          label: 'Stop roaring — let the cancelled code render you as one final unindexed coordinate.',
+          target: 'LION_END_27',
+          effects: [
+            { type: 'addDesync', value: 10 },
+            { type: 'setCompliance', value: 'low' },
+          ],
+        },
     ],
     onEnter: [{ type: 'addOverrender', value: 2 }],
   },
@@ -2410,7 +2444,7 @@ Behind you, a small, silver "Eraser-Drone" follows, trying to buff the scratches
       },
       {
         label: 'Tuck the tail (Hide the residue).',
-        target: 'LION_VERTEBRAE_HUB',
+        target: 'LION_GHOST_SIGNAL',
         effects: [{ type: 'addLoad', value: 5 }, { type: 'setCompliance', value: 'high' }],
       },
     ],

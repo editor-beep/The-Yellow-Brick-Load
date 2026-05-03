@@ -116,6 +116,26 @@ export const lionOraclePassages = {
         target: 'LION_ORACLE_8',
         effects: [],
       },
+      {
+          label: '9. The Sealed Roar — let the Crow lead-weight the jaw shut.',
+          target: 'LION_ORACLE_9',
+          effects: [],
+        },
+        {
+          label: '10. The Kinetic Auditor — submit to a re-weighing of the body.',
+          target: 'LION_ORACLE_10',
+          effects: [],
+        },
+        {
+          label: '11. The Burlap Mane — accept the scarecrow signal bleed into the reading.',
+          target: 'LION_ORACLE_11',
+          effects: [],
+        },
+        {
+          label: "12. The Scarecrow's Nerve — donate structural tension to the redistribution graft.",
+          target: 'LION_ORACLE_12',
+          effects: [],
+        },
     ],
     onEnter: [],
   },
