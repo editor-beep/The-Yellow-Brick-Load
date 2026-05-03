@@ -105,6 +105,15 @@ export const dorothyBranchPassages = {
           { type: 'setCompliance', value: 'low' },
         ],
       },
+      {
+          label: "Submit to the kinetic sentence — step onto the displacement grind.",
+          target: 'D_GRIND_DISPLACEMENT_01',
+          effects: [
+            { type: 'addSilverFriction', value: 4 },
+            { type: 'addDisplacement', value: 4 },
+            { type: 'setCompliance', value: 'high' },
+          ],
+        },
     ],
     onEnter: [{ type: 'triggerOracle' }],
   },
@@ -154,6 +163,14 @@ export const dorothyBranchPassages = {
           { type: 'addWarrant', value: 4 },
         ],
       },
+      {
+          label: "Let the silver friction overheat — slip into the Silver Grind corridor.",
+          target: 'D_GRIND_SILVER_06',
+          effects: [
+            { type: 'addSilverFriction', value: 8 },
+            { type: 'addWarrant', value: 3 },
+          ],
+        },
     ],
     onEnter: [],
   },
@@ -203,6 +220,15 @@ export const dorothyBranchPassages = {
           { type: 'addWarrant', value: 3 },
         ],
       },
+      {
+          label: "Confess the W-EAST deletion to the Pink Smog — submit to the Audit.",
+          target: 'D_PATH_GUILT',
+          effects: [
+            { type: 'addWarrant', value: 6 },
+            { type: 'addLoad', value: 4 },
+            { type: 'setCompliance', value: 'high' },
+          ],
+        },
     ],
     onEnter: [],
   },
@@ -235,6 +261,15 @@ export const dorothyBranchPassages = {
         target: 'DOROTHY_PATH_ROAD',
         effects: [{ type: 'addDisplacement', value: 5 }, { type: 'addDesync', value: 2 }],
       },
+      {
+          label: "Stay kneeling in the residue — open the Rectification dossier yourself.",
+          target: 'D_PATH_GUILT_01',
+          effects: [
+            { type: 'addLoad', value: 5 },
+            { type: 'addWarrant', value: 4 },
+            { type: 'setCompliance', value: 'med' },
+          ],
+        },
     ],
     onEnter: [],
   },
@@ -292,7 +327,7 @@ export const dorothyBranchPassages = {
       },
       {
         label: "Ask Glinda for 'Absolution Protocol.'",
-        target: 'D_GUILT_02',
+        target: 'D_PATH_TRIAL_ENTRY',
         effects: [{ type: 'setCompliance', value: 'high' }, { type: 'addSignalStrength', value: -5 }],
       },
     ],
@@ -323,6 +358,15 @@ export const dorothyBranchPassages = {
         target: 'D_PATH_TRIAL',
         effects: [{ type: 'addWarrant', value: 15 }, { type: 'addDesync', value: 3 }],
       },
+      {
+          label: "Refuse the Mission — file your own Rectification Form on the road.",
+          target: 'D_GUILT_RECTIFICATION_01',
+          effects: [
+            { type: 'addWarrant', value: 8 },
+            { type: 'addDesync', value: 3 },
+            { type: 'setCompliance', value: 'low' },
+          ],
+        },
     ],
     onEnter: [],
   },
@@ -350,7 +394,7 @@ export const dorothyBranchPassages = {
       },
       {
         label: "Appeal to 'Family': 'I just want to go back to Kansas.'",
-        target: 'D_TRIAL_03',
+        target: 'D_END_WITCH_ASCENSION',
         effects: [{ type: 'addSignalStrength', value: 15 }, { type: 'addLoad', value: 10 }],
       },
     ],
@@ -381,6 +425,14 @@ export const dorothyBranchPassages = {
         target: 'D_END_WITCH_ASCENSION',
         effects: [{ type: 'addWarrant', value: 50 }],
       },
+      {
+          label: "Petition for Labor: 'I'll work off the Warrant in the Bureau's yard.'",
+          target: 'D_TRIAL_LABOR',
+          effects: [
+            { type: 'addLoad', value: 15 },
+            { type: 'setCompliance', value: 'high' },
+          ],
+        },
     ],
     onEnter: [],
   },
@@ -406,7 +458,7 @@ export const dorothyBranchPassages = {
       },
       {
         label: 'Tread Lightly: Try to preserve the Kansas memory.',
-        target: 'D_GRIND_DISPLACEMENT_02',
+        target: 'D_VOID_DESCENT_11',
         effects: [{ type: 'addDisplacement', value: 5 }, { type: 'addLoad', value: 5 }],
       },
     ],
@@ -497,6 +549,14 @@ export const dorothyBranchPassages = {
         target: 'DOROTHY_ORACLE_ENTRY',
         effects: [{ type: 'addSignalStrength', value: 15 }, { type: 'addWarrant', value: 5 }],
       },
+      {
+          label: "Decline the plea bargain — proceed straight to cross-examination.",
+          target: 'D_PATH_TRIAL',
+          effects: [
+            { type: 'addWarrant', value: 8 },
+            { type: 'addLoad', value: 6 },
+          ],
+        },
     ],
     onEnter: [{ type: 'addOverrender', value: 1 }],
   },
@@ -567,7 +627,7 @@ export const dorothyBranchPassages = {
       },
       {
         label: 'Focus on the Green: Follow the hum of the City.',
-        target: 'D_GRIND_DISPLACEMENT_04',
+        target: 'D_GRIND_SILVER_06',
         effects: [{ type: 'addLoad', value: 10 }, { type: 'setCompliance', value: 'high' }],
       },
     ],
@@ -656,6 +716,15 @@ export const dorothyBranchPassages = {
         target: 'D_END_WITCH_ASCENSION',
         effects: [{ type: 'setCompliance', value: 'broken' }],
       },
+      {
+          label: "Bypass the Wizard — descend to the Transmitter coordinate beneath the Hall.",
+          target: 'T_TRANSMITTER',
+          effects: [
+            { type: 'addSignalStrength', value: 12 },
+            { type: 'addDesync', value: 4 },
+            { type: 'setCompliance', value: 'low' },
+          ],
+        },
     ],
     onEnter: [],
   },
@@ -681,7 +750,7 @@ export const dorothyBranchPassages = {
       },
       {
         label: "Muffle the Step: Walk on the soft dirt at the road's edge.",
-        target: 'D_GRIND_SILVER_07',
+        target: 'D_VOID_DESCENT_11',
         effects: [{ type: 'addDisplacement', value: 8 }, { type: 'addLoad', value: 5 }],
       },
     ],
@@ -715,7 +784,7 @@ export const dorothyBranchPassages = {
       },
       {
         label: 'Purge the Cache: Click the silver heels to overwrite the signal.',
-        target: 'D_GRIND_SILVER_08',
+        target: 'D_END_HOME_SIM',
         effects: [{ type: 'addSilverFriction', value: 15 }, { type: 'addWarrant', value: 10 }],
       },
     ],
@@ -743,7 +812,7 @@ export const dorothyBranchPassages = {
       },
       {
         label: 'Submit to the Vines: Let the forest log your passage.',
-        target: 'D_GRIND_SILVER_09',
+        target: 'D_END_WIZARD_MARRIAGE',
         effects: [{ type: 'setCompliance', value: 'high' }, { type: 'addDisplacement', value: 5 }],
       },
     ],
@@ -805,6 +874,15 @@ export const dorothyBranchPassages = {
         target: 'D_END_HOME_SIM',
         effects: [{ type: 'setCompliance', value: 'high' }, { type: 'addSilverFriction', value: -50 }],
       },
+      {
+          label: "Veer off the glass road — follow the gray strobe into the unmonitored void.",
+          target: 'D_VOID_DESCENT_11',
+          effects: [
+            { type: 'addDesync', value: 6 },
+            { type: 'addDisplacement', value: 8 },
+            { type: 'setCompliance', value: 'low' },
+          ],
+        },
     ],
     onEnter: [],
   },
@@ -833,7 +911,7 @@ export const dorothyBranchPassages = {
       },
       {
         label: 'Accept the Silence: Walk into the unrendered dark.',
-        target: 'D_VOID_DESCENT_12',
+        target: 'D_VOID_MAZE_16',
         effects: [{ type: 'addDisplacement', value: 10 }, { type: 'addSmudge', value: 1 }],
       },
     ],
@@ -861,7 +939,7 @@ export const dorothyBranchPassages = {
       },
       {
         label: 'Ignore the Auditor: The dark is more honest than the Clerk.',
-        target: 'D_VOID_DESCENT_13',
+        target: 'D_END_HOME_SIM',
         effects: [{ type: 'addDisplacement', value: 10 }, { type: 'setCompliance', value: 'broken' }],
       },
     ],
@@ -1066,7 +1144,7 @@ The Silver Slippers begin to pull toward the arm. The magnetism is high-bandwidt
       },
       {
         label: 'Sever the Connection: Click the heels to repel the magnetism.',
-        target: 'D_VOID_MAZE_25',
+        target: 'D_VOID_MAZE_24',
         effects: [{ type: 'addSilverFriction', value: 15 }, { type: 'addWarrant', value: 10 }],
       },
     ],
@@ -1096,7 +1174,7 @@ The echo returns altered. It is no longer your voice. It is the Bureau's Confirm
       },
       {
         label: 'Collapse the Signal: Click the heels to cancel the frequency.',
-        target: 'D_VOID_MAZE_25',
+        target: 'D_VOID_MAZE_23',
         effects: [{ type: 'addSilverFriction', value: 10 }, { type: 'addSmudge', value: 1 }],
       },
     ],
@@ -1126,7 +1204,7 @@ The Silver Slippers leave scorched footprints in the paper. The heat is not burn
       },
       {
         label: 'Read a Sheet: Find your case number in the archive.',
-        target: 'D_VOID_MAZE_25',
+        target: 'D_VOID_MAZE_24',
         effects: [{ type: 'addWarrant', value: 10 }, { type: 'setFlag', key: 'read_case_file', value: true }],
       },
     ],
@@ -1157,7 +1235,7 @@ The Silver Slippers are the only solid objects in the void. They hum at a freque
       },
       {
         label: 'Stop falling: Anchor to the nearest line of code.',
-        target: 'D_VOID_MAZE_25',
+        target: 'D_VOID_MAZE_23',
         effects: [{ type: 'addLoad', value: 15 }, { type: 'setCompliance', value: 'broken' }],
       },
     ],
@@ -1222,7 +1300,7 @@ You can hear the Bureau's central cooling fans humming behind the wood. It is th
       },
       {
         label: 'Click the leaden slippers: One last desperate transmission.',
-        target: 'D_VOID_DESCENT_15',
+        target: 'SHARED_UNMOORED_NIGHT',
         effects: [{ type: 'addWarrant', value: 20 }, { type: 'addSilverFriction', value: 20 }],
       },
     ],
