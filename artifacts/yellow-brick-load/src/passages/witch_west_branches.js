@@ -13,57 +13,61 @@ export const witchWestBranchPassages = {
     text: [
       {
         minOverrender: 0,
-        content: `THE MALICE PROTOCOL
+        content: `COORDINATE W-WATCH: THE FORWARD POST
 
-You are the Wicked Witch of the West.
+You are the Wicked Witch of the West. The Bureau classifies you as Surveillance Operator, Western Sector, Grade IX-Permanent. The tower is a rumor your subordinates believe. The truth is this: you spend most of your shift down here, at the forward post, with the rig.
 
-The air in your tower is thick with the smell of scorched fur, hot iron, and wet meat left too long under restraint fields. Your castle is grown from compressed fear and judicial lattice — its walls pulse faintly like living tissue being slowly crushed.
+The post is a glass-walled hutch dug into the western escarpment, three klicks ahead of the wire. The walls hold a horseshoe of monitors — green-phosphor, hand-cranked, fed by buried cable from the obsidian uplink. A field-issue brazier glows under the desk; a tin pot of tea has gone to scum on the rim. The ledger is open. Your stamps are arranged by warrant grade. The Winkies in the slave-corn outside have learned not to make eye contact with the hutch.
 
-You sit upon a throne of blackened bone and rusted flechettes. From here you watch the Yellow Brick Load through the vast obsidian eye embedded in the western wall. The eye never blinks. It records everything.
+[ POST: WESTERN FORWARD ]
+[ UPLINK: OBSIDIAN-RELAY ]
+[ LIVE FEEDS: 4 ]
+[ OPERATOR: ON SHIFT ]
 
-Below, in the courtyard, your Winged Monkeys circle restlessly, their grafted wings leathery and wet, iron control rings bolted through their spines. They shriek and cackle, hungry for reclamation work.
+Four feeds. Four units on the Load.
 
-A new signal has entered your domain.
+Monitor 1: the Lion, knees folded under him in the corn margin, his throat working on a roar that won't engage. Monitor 2: the Scarecrow, counting crows, lips moving. Monitor 3: the Tin Man, oil pooling under the hip joint, ticking on the half-second. Monitor 4: the girl, walking, the silver on her feet flaring every time the heel strikes a Bureau-stamped brick.
 
-The Lion trembles somewhere in the poppy fields. The Scarecrow leaks straw. The Tin Man rusts. And the girl still believes she is outside the system.
+You do not need to bring them to you. You can already see them. The work is in deciding which feed to write up first, and what to write.
 
-Your thin, withered lips curl into a smile that does not reach your eye.
-
-"Bring them to me," you whisper.
-
-The obsidian eye dilates with pleasure.
-
-You do not grant wishes.
-
-You open bodies.
-
-You take what the Bureau needs and discard the rest as beautiful, screaming waste.`,
+The pen is in your hand. The first stamp is loaded. Outside, a Winkie clears his throat at fifty meters and immediately regrets it. The hutch logs the cough as ambient.`,
       },
     ],
     choices: [
       {
-        label: 'Deploy the Winged Monkeys — begin the aerial sweep.',
-        target: 'WITCH_WEST_MONKEY_SWEEP_B',
+        label: 'Open the obsidian view — pull every feed to full resolution.',
+        target: 'WITCH_WEST_OBSIDIAN_VIEW',
         effects: [
-          { type: 'addWarrant', value: 5 },
-          { type: 'addMalice', value: 8 },
+          { type: 'addWarrant', value: 4 },
+          { type: 'addMalice', value: 6 },
         ],
       },
       {
-        label: 'Perform the ritual directly — summon the Obsidian Eye.',
-        target: 'WITCH_WEST_ORACLE_ENTRY',
+        label: 'Lock the warrant on a single unit — narrow the file to one throat.',
+        target: 'WITCH_WEST_SELECT_TARGET',
         effects: [
           { type: 'addWarrant', value: 8 },
-          { type: 'addMalice', value: 10 },
+          { type: 'addMalice', value: 4 },
+          { type: 'setCompliance', value: 'high' },
         ],
       },
       {
-        label: 'Descend into the field yourself — open a body with your own hands.',
-        target: 'WITCH_WEST_FIELD_CONFRONTATION',
+        label: 'Cross-reference the Bureau logs — confirm which feed the Bureau wants written up first.',
+        target: 'WITCH_WEST_BUREAU_LOG_CHECK',
+        effects: [
+          { type: 'addWarrant', value: 3 },
+          { type: 'addMalice', value: 2 },
+          { type: 'setCompliance', value: 'high' },
+        ],
+      },
+      {
+        label: 'Bypass the desk — uncage the Winged Monkeys and run the sweep yourself, on foot, off-paper.',
+        target: 'WITCH_WEST_PATH_MONKEYS',
         effects: [
           { type: 'addWarrant', value: 10 },
-          { type: 'addMalice', value: 15 },
+          { type: 'addMalice', value: 12 },
           { type: 'setCompliance', value: 'low' },
+          { type: 'setFlag', key: 'witch_west_off_paper', value: true },
         ],
       },
     ],
