@@ -43,7 +43,7 @@ export const glindaOraclePassages = {
       },
       {
         label: 'Resist the procedure — maintain the surface perfection.',
-        target: 'GLINDA_PATH_ALTITUDE',
+        target: 'G_PINK_SMOG',
         effects: [
           { type: 'addInsulation', value: 3 },
           { type: 'addDesync', value: 1 },

@@ -375,7 +375,61 @@ The resolution here is staggering. The green light is so bright it burns out the
         effects: [{ type: 'addDesync', value: 20 }, { type: 'setFlag', key: 'path', value: 'hack' }],
         content: `You ignore the bell. You follow the smell of ozone and wet concrete down toward the plumbing. The projection doesn't go all the way to the floor.`,
       },
+      {
+        label: 'The Service Lane (Enforcement Patrol Junction)',
+        target: 'SHARED_ENFORCEMENT_PATROL',
+        effects: [{ type: 'addWarrant', value: 5 }, { type: 'addLoad', value: 5 }],
+        content: `You skirt the gate and enter the service lane that the patrols use. The institutional swarms muster here between deployments. They have been waiting for an unscheduled unit to walk through.`,
+      },
     ],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // SHARED_ENFORCEMENT_PATROL — Cross-character enforcement junction.
+  // Routes the unit to one of four institutional swarms, each a self-
+  // contained 8-outcome encounter that loops back to its own ENTRY.
+  // ─────────────────────────────────────────────────────────────────────────
+
+  SHARED_ENFORCEMENT_PATROL: {
+    id: 'SHARED_ENFORCEMENT_PATROL',
+    character: 'shared',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE ENFORCEMENT PATROL JUNCTION
+
+The service lane opens into a parade square ringed by four mustering bays. Each bay holds a different institutional swarm at attention. The Bureau dispatches the swarm whose filter your file most resembles — but here, at the junction, the routing is briefly yours to influence.
+
+[ ENFORCEMENT PATROL: ASSEMBLED ]
+[ FOUR SWARMS: AT MUSTER ]
+[ FILTER ROUTING: UNIT-SELECTABLE ]
+
+The Lead Clerks of all four swarms watch you with professional interest. Whichever you walk toward will process you according to its own ritual. The other three will file the choice as data and stand down until the next contingency.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Walk toward the Munchkin Swarm — Labor / Agricultural filter.',
+        target: 'MUNCHKIN_SWARM_ENTRY',
+        effects: [{ type: 'addLoad', value: 3 }, { type: 'setCompliance', value: 'high' }],
+      },
+      {
+        label: 'Walk toward the Winged Monkeys — Military / Aeronautical filter.',
+        target: 'WINGED_MONKEY_ENTRY',
+        effects: [{ type: 'addWarrant', value: 5 }, { type: 'addDisplacement', value: 3 }],
+      },
+      {
+        label: 'Walk toward the Kalidah Merge — Genetic / Parasitic filter.',
+        target: 'KALIDAH_MERGE_ENTRY',
+        effects: [{ type: 'addDesync', value: 4 }, { type: 'addLoad', value: 5 }],
+      },
+      {
+        label: 'Walk toward the Poppy Drone — Pharmaceutical filter.',
+        target: 'POPPY_DRONE_ENTRY',
+        effects: [{ type: 'addLoad', value: 4 }, { type: 'setFlag', key: 'pharmaceutical_dampening', value: true }],
+      },
+    ],
+    onEnter: [],
   },
 
   P_END_01: {

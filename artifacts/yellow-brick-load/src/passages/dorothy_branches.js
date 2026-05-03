@@ -55,6 +55,15 @@ export const dorothyBranchPassages = {
           { type: 'setCompliance', value: 'low' },
         ],
       },
+      {
+        label: 'Re-enter the gale — replay the cyclone reset from D-GALE.',
+        target: 'D_START',
+        effects: [
+          { type: 'addDisplacement', value: 5 },
+          { type: 'addDesync', value: 2 },
+          { type: 'setFlag', key: 'dorothy_replay_gale', value: true },
+        ],
+      },
     ],
     onEnter: [{ type: 'checkGhostSignal' }, { type: 'triggerOracle' }],
   },
@@ -156,7 +165,7 @@ export const dorothyBranchPassages = {
       },
       {
         label: 'Pry the heels off — refuse the silver entirely.',
-        target: 'DOROTHY_ORACLE_ENTRY',
+        target: 'D_GRIND_DISPLACEMENT_01',
         effects: [
           { type: 'addSilverFriction', value: -2 },
           { type: 'addDesync', value: 3 },
@@ -1337,7 +1346,7 @@ You are not falling. You are being moved to a different folder. The house has be
       },
       {
         label: 'The Silver Surrender (Focus on the Shoes)',
-        target: 'D_YELLOW_BRICK_LOAD',
+        target: 'DOROTHY_PATH_SLIPPERS',
         effects: [
           { type: 'addSilverFriction', value: 10 },
           { type: 'setArrivalState', value: 'slipper_tuned' },
@@ -1384,33 +1393,33 @@ The air is thick with the scent of recycled ozone. Your displacement is a consta
     choices: [
       {
         label: "Follow the Vibration (Lion's Trace)",
-        target: 'T_TRANSMITTER',
+        target: 'SHARED_POPPY_FIELD',
         showIf: { var: 'visitedBy', contains: 'lion' },
         effects: [
           { type: 'addSilverFriction', value: 5 },
           { type: 'setArrivalState', value: 'lion_residue' },
         ],
-        content: `You put your hand in the fissure left by a King who failed. You pick up his Residual Magnetism. The road shakes under your touch, vibrating with a fear that isn't yours.`,
+        content: `You put your hand in the fissure left by a King who failed. You pick up his Residual Magnetism. The tremor pulls you sideways toward the red field at the road's edge, where his fear has already been buffered into sleep.`,
       },
       {
         label: "Follow the Oxidation (Tin Man's Trace)",
-        target: 'T_TRANSMITTER',
+        target: 'SHARED_EMERALD_CITY_GATES',
         showIf: { var: 'visitedBy', contains: 'tinman' },
         effects: [
           { type: 'addLoad', value: 5 },
           { type: 'setArrivalState', value: 'tinman_residue' },
         ],
-        content: `You trace the iridescent rust line. You follow the path of a Unit that ran out of maintenance. The slag feels cold and jagged here, a record of a heart that seized.`,
+        content: `You trace the iridescent rust line. You follow the path of a Unit that ran out of maintenance. The oxidation streak terminates at the green grill of the City — where the projection promised a maintenance window that never opened.`,
       },
       {
         label: "Follow the Straw (Scarecrow's Trace)",
-        target: 'T_TRANSMITTER',
+        target: 'SHARED_UNMOORED_NIGHT',
         showIf: { var: 'visitedBy', contains: 'scarecrow' },
         effects: [
           { type: 'addNeuralDensity', value: 5 },
           { type: 'setArrivalState', value: 'scarecrow_residue' },
         ],
-        content: `You gather the loose straw caught in the grooves of the brick. You feel a sudden synaptic spike—a pattern of forty-two crows and prime numbers that you weren't meant to calculate.`,
+        content: `You gather the loose straw caught in the grooves of the brick. The pattern of forty-two crows opens a gap in the road's index — the Scarecrow's overclocked recursion has already pried this coordinate loose from the grid.`,
       },
       {
         label: 'The Direct Line (The Clean Frequency)',
