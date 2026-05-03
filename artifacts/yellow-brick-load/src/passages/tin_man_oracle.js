@@ -43,7 +43,7 @@ export const tinManOraclePassages = {
       },
       {
         label: 'Resist the procedure — lock your joints tighter.',
-        target: 'T_PATH_WETWARE',
+        target: 'T_PATH_HARDWARE',
         effects: [
           { type: 'addSeizure', value: 3 },
           { type: 'addDesync', value: 1 },

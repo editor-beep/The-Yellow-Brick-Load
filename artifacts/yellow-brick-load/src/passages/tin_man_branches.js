@@ -50,6 +50,15 @@ The Girl with the silver shoes stands before you, holding a pressurized canister
           { type: "setCompliance", value: "low" },
         ],
       },
+      {
+          label: "Walk west into the low-fidelity forest — investigate the cache collision.",
+          target: "T_WOODS_START",
+          effects: [
+            { type: "addCorrosion", value: 3 },
+            { type: "addDesync", value: 2 },
+            { type: "setPath", value: "woods" },
+          ],
+        },
     ],
     onEnter: [{ type: "checkGhostSignal" }, { type: "triggerOracle" }],
   },
@@ -176,7 +185,7 @@ It vibrates at the frequency of a closed file. Standing here triggers a Seizure 
       },
       {
         label: 'Pull the Axe (The Kinetic Harvest)',
-        target: 'T_PILE_OF_LIMBS',
+        target: 'T_OIL_STATION',
         effects: [
           { type: 'subLubrication', value: 10 },
           { type: 'setArrivalState', value: 'extraction' }
@@ -240,7 +249,7 @@ Hoses fray overhead like dead vines. Iridescent sludge coats the ground. The sta
       },
       {
         label: 'The Manual Scavenge',
-        target: 'T_LOGGING_SCRIPT',
+        target: 'T_HOLLOW',
         effects: [{ type: 'addCorrosion', value: 5 }, { type: 'subCompliance', value: 2 }]
       }
     ]
@@ -264,7 +273,7 @@ The 'trees' here are vertical columns of compressed carbon paper. When you strik
       },
       {
         label: 'Mechanical Jam',
-        target: 'T_HOLLOW',
+        target: 'T_PILE_OF_LIMBS',
         effects: [{ type: 'addSeizure', value: 5 }, { type: 'setPath', value: 'error' }]
       }
     ]
@@ -288,7 +297,7 @@ An atmospheric puncture. The Oz OS has stopped rendering environmental detail. T
       },
       {
         label: 'The Diagnostic Query',
-        target: 'T_PILE_OF_LIMBS',
+        target: 'T_END_07',
         effects: [{ type: 'setArrivalState', value: 'grave' }]
       }
     ]
