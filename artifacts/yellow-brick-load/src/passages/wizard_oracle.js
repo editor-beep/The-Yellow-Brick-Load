@@ -43,7 +43,7 @@ export const wizardOraclePassages = {
       },
       {
         label: 'Pull the curtain back over the Surgeon — maintain the fiction.',
-        target: 'WIZARD_PATH_PROJECTION',
+        target: 'WIZARD_END_GREEN',
         effects: [
           { type: 'addObfuscation', value: 4 },
           { type: 'addDesync', value: 1 },

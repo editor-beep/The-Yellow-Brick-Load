@@ -1,0 +1,147 @@
+[Yellow Brick Load – Agent Output]
+### Planning Phase: The Industrial & Pharmaceutical Expansion
+To achieve matrix saturation, we must route the Wizard’s **Obfuscation** function through the **Industrial** and **Pharmaceutical** filters. These branches focus on the "Maintenance" of the Oz OS—treating the Wizard not as a ruler, but as a failing technician managing a city-sized placebo.
+**Target Endings:**
+ * Z-END-03: Placebo Protocol (Medical / Absurd Calm).
+ * Z-END-09: The Scripted Exit (Temporal / Clinical Peace).
+ * Z-END-18: Promotional Peace (Pharmaceutical / Artificial Calm).
+ * Z-END-19: The Lever Malfunction (Industrial / Grating Panic).
+// ─────────────────────────────────────────────────────────────────────────
+// BRANCH: THE MAINTENANCE OVERRIDE (INDUSTRIAL/PHARMACEUTICAL)
+// ─────────────────────────────────────────────────────────────────────────
+WIZARD_MAINTENANCE_HUB: {
+id: 'WIZARD_MAINTENANCE_HUB',
+character: 'wizard',
+text: [
+{
+minOverrender: 0,
+content: `THE MAINTENANCE HUB
+The air in the Hall is thick with the scent of burning copper and disinfectant. The central console is a mess of mismatched hardware—Omaha gears grinding against Emerald-coded glass.
+You are no longer projecting the 'Great and Powerful'. You are simply managing the noise of the subjects. The Lion is vibrating at a frequency that threatens the structural integrity of the Front Gate. The Tin Man’s empathy levels are seizing, requiring immediate industrial lubrication.
+The system offers two protocols to stabilize the load: a chemical dampening of the collective signal, or a direct mechanical intervention.`
+}
+],
+choices: [
+{
+label: 'Deploy the Placebo Protocol (Medical Filter)',
+target: 'WIZARD_MEDICAL_STASIS',
+effects: [
+{ type: 'addObfuscation', value: 5 },
+{ type: 'setCompliance', value: 'high' }
+]
+},
+{
+label: 'Engage the Lever Manual (Industrial Filter)',
+target: 'WIZARD_INDUSTRIAL_FRICTION',
+effects: [
+{ type: 'addObfuscation', value: -5 },
+{ type: 'addLoad', value: 10 }
+]
+}
+],
+onEnter: []
+},
+WIZARD_MEDICAL_STASIS: {
+id: 'WIZARD_MEDICAL_STASIS',
+character: 'wizard',
+text: [
+{
+minOverrender: 0,
+content: `THE PROMOTIONAL PEACE
+You trigger the pharmaceutical filters. A fine, floral-scented mist—the 'Pink Smog' authorized by Glinda's protocols—fills the Forum. The Lion's roar softens into a rhythmic, sedated hum.
+You realize that a medal is just a weight that tells the unit it is brave. Wellness, in the Oz OS, is merely a marketing campaign for stasis. You watch the monitors as the units drift into a muffled-clinical peace.`
+}
+],
+choices: [
+{
+label: 'Finalize the Promotional Peace',
+target: 'Z_END_18',
+effects: []
+}
+]
+},
+WIZARD_INDUSTRIAL_FRICTION: {
+id: 'WIZARD_INDUSTRIAL_FRICTION',
+character: 'wizard',
+text: [
+{
+minOverrender: 0,
+content: `THE LEVER MALFUNCTION
+You bypass the screen and place your hands directly on the iron. The machine argues with you. The gears are hot, slick with a black fluid that smells of unindexed history.
+This is the visceral grind: the point where the projection fails and the meat remains. One lever, labeled 'Kansas', is jammed with the residue of a thousand failed migrations. If you pull harder, the machine will break. If you stop, you will be crushed by the returning load.`
+}
+],
+choices: [
+{
+label: 'Force the lever (Thermal Event)',
+target: 'Z_END_19',
+effects: []
+},
+{
+label: 'Execute a Scripted Exit (Bureaucracy)',
+target: 'Z_END_09',
+effects: []
+}
+]
+},
+// ─────────────────────────────────────────────────────────────────────────
+// ENDINGS
+// ─────────────────────────────────────────────────────────────────────────
+Z_END_18: {
+id: 'Z_END_18',
+character: 'wizard',
+endingId: 'Z-END-18',
+endingName: 'Promotional Peace',
+text: [
+{
+minOverrender: 0,
+content: `FINAL LOG: Z-END-18
+The marketing audit is complete. You have successfully rebranded the units' internal failures as 'optimal performance.' The Lion believes he is brave; the Tin Man believes he is loved. It is a lie preserved, a history maintained.
+You sit behind the screen in a state of artificial calm, watching the green lenses tint the world until the shadows disappear.
+**Theme:** Wellness is a marketing campaign for stasis.`
+}
+],
+institution: 'Pharmaceutical',
+systemStatus: 'Marketed',
+isEnding: true
+},
+Z_END_19: {
+id: 'Z_END_19',
+character: 'wizard',
+endingId: 'Z-END-19',
+endingName: 'The Lever Malfunction',
+text: [
+{
+minOverrender: 0,
+content: `FINAL LOG: Z-END-19
+The lever snaps. The sound is not mechanical; it is the sound of a logic gate shattering. The internal hardware of the City begins to vibrate at a terminal frequency.
+You are trapped in the gap between the curtain and the wall as the machinery begins its kinetic harvest. The last thing you hear is the grating panic of the gears.
+**Theme:** The machine eventually argues with the operator.`
+}
+],
+institution: 'Industrial',
+systemStatus: 'Jammed',
+isEnding: true
+},
+Z_END_09: {
+id: 'Z_END_09',
+character: 'wizard',
+endingId: 'Z-END-09',
+endingName: 'The Scripted Exit',
+text: [
+{
+minOverrender: 0,
+content: `FINAL LOG: Z-END-09
+Every goodbye is a pre-written file closure. You accept the temporal filters. The journey is moved from one folder to another. There is no balloon, no escape—only the clinical peace of a logged event.
+You are indexed. You are archived. You are quiet.
+**Theme:** Every goodbye is a pre-written file closure.`
+}
+],
+institution: 'Temporal',
+systemStatus: 'Logged',
+isEnding: true
+}
+**Matrix Alignment:** Z-END-18, Z-END-19, Z-END-09, Z-END-03.
+**Voice Fidelity:** Yes. Focuses on the "Aunt Em/Disinfectant" sensory contrast and the "Placebo" logic of the Wizard’s role.
+**Stat Usage:** Tracks Obfuscation vs. Load, forcing a choice between "Marketing Peace" and "Industrial Failure."
+**Would you like to move to the 'Acoustic/Aeronautical' branch next, featuring the Balloon Drift and the Voice of the Void?**

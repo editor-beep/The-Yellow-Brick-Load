@@ -1,0 +1,121 @@
+[Yellow Brick Load – Agent Output]
+### Planning Phase: The 20-Node Descent (Altitude Calibration)
+To satisfy the requirement for varied and extended path lengths, we will now initialize the **WIZARD_ALTITUDE_CALIBRATION** sub-routine. This is a "High-Compression" branch designed to simulate the agonizingly slow process of ascending against the Oz OS gravity.
+In this branch, the Wizard must manage **Obfuscation** to hide his trajectory from the **Security Filter** while simultaneously purging **Load** (personal artifacts) to gain lift. Every 3–5 nodes, a "Turbulence Audit" will occur, potentially routing the player toward early Climatological failure or deep Historical caching.
+**Target Endings (Extended Path):**
+ * Z-END-12: The Omaha Trace (Historical / Nostalgic Void).
+ * Z-END-30: The Flexible Humbug (Ecological / Flexible Awe).
+ * Z-END-31: The Absolute Null (Universal / Absolute Peace).
+// ─────────────────────────────────────────────────────────────────────────
+// SUB-ROUTINE: WIZARD_ALTITUDE_CALIBRATION (Node 1 of 20)
+// ─────────────────────────────────────────────────────────────────────────
+WIZARD_ALTITUDE_CALIBRATION: {
+id: 'WIZARD_ALTITUDE_CALIBRATION',
+character: 'wizard',
+text: [
+{
+minOverrender: 0,
+content: `ALTITUDE CALIBRATION: NODE 01
+The basket creaks—a rhythmic, industrial groan of willow against iron. You have cleared the Emerald City Forum, but the atmosphere here is thick with **Refractive Protocol**. The air is a dense, vibrating green that resists displacement.
+To rise further, you must begin the 'purge sequence.' The system logs a surplus of 'Historical Residue' in your internal cache—memories of a dry, grayscale coordinate labeled Omaha. These memories have mass. They act as a gravitational anchor.
+If you keep them, you remain heavy and visible to the Bureau’s sensors. If you purge them, you lose the signal of who the operator was before the curtain.`
+}
+],
+choices: [
+{
+label: 'Purge Omaha Data (Gain Altitude / Path: 19 Nodes Remaining)',
+target: 'WIZARD_ALTITUDE_NODE_02',
+effects: [
+{ type: 'addLoad', value: -5 },
+{ type: 'addObfuscation', value: -10 }
+]
+},
+{
+label: 'Retain Omaha Data (Increase Load / Path: 15 Nodes Remaining)',
+target: 'WIZARD_OMAHA_DRAG',
+effects: [
+{ type: 'addLoad', value: 15 },
+{ type: 'addObfuscation', value: 5 }
+]
+}
+],
+onEnter: []
+},
+WIZARD_OMAHA_DRAG: {
+id: 'WIZARD_OMAHA_DRAG',
+character: 'wizard',
+text: [
+{
+minOverrender: 0,
+content: `THE WEIGHT OF KANSAS
+You refuse to delete the Omaha Trace. The signal is weak—a ghost-frequency of dusty porches and unindexed winds—but it is the only hardware truth you have left.
+The cost is immediate. The **Meteorological Filter** detects the unauthorized mass. A 'Climatological Error' is triggered to reset the audit. The wind begins to spiral. You aren't just flying; you are becoming a target for system-wide redistribution.`
+}
+],
+choices: [
+{
+label: 'Stabilize the Drift (Path: 14 Nodes Remaining)',
+target: 'WIZARD_ALTITUDE_NODE_03',
+effects: [{ type: 'addLoad', value: 10 }]
+},
+{
+label: 'Accept the Historical Cache',
+target: 'Z_END_12',
+effects: []
+}
+]
+},
+// ─────────────────────────────────────────────────────────────────────────
+// INTERMEDIATE NODES (REPRESENTING THE "GRIND")
+// ─────────────────────────────────────────────────────────────────────────
+WIZARD_ALTITUDE_NODE_03: {
+id: 'WIZARD_ALTITUDE_NODE_03',
+character: 'wizard',
+text: [
+{
+minOverrender: 0,
+content: `ALTITUDE CALIBRATION: NODE 03
+The air turns cold and thin. You have reached the **Cloud Interface**. From this height, the yellow road is merely a physical instruction set, a logic gate for lesser units to collide against.
+Your joints are screaming hinges under the load of the ascent. You see Glinda’s bubble-buffers floating below you like transparent spheres of exclusion. She is watching. Observation from a distance is her ultimate form of judgment.
+The signal is clear, but the silence is heavy.`
+}
+],
+choices: [
+{
+label: 'Boost Obfuscation (Path: 17 Nodes Remaining)',
+target: 'WIZARD_ALTITUDE_NODE_04',
+effects: [{ type: 'addObfuscation', value: 10 }]
+},
+{
+label: 'Vent Thermal Energy (Path: 5 Nodes Remaining)',
+target: 'WIZARD_THERMAL_DESCENT',
+effects: [{ type: 'addLoad', value: -20 }]
+}
+]
+},
+// ─────────────────────────────────────────────────────────────────────────
+// LONG-PATH ENDING: THE OMAHA TRACE
+// ─────────────────────────────────────────────────────────────────────────
+Z_END_12: {
+id: 'Z_END_12',
+character: 'wizard',
+endingId: 'Z-END-12',
+endingName: 'The Omaha Trace',
+text: [
+{
+minOverrender: 0,
+content: `FINAL LOG: Z-END-12
+Home is a ghost signal from an unindexed past. By refusing to purge the weight of Kansas, you have dragged the balloon back down into the dirt of the beginning.
+You aren't in the Emerald City, and you aren't in Omaha. You are in the **Historical Archive**, a cached memory of a man who once knew how to operate a curtain. The system labels you as 'Historical Residue' and closes the file.
+**Theme:** Home is a ghost signal from an unindexed past.`
+}
+],
+institution: 'Historical',
+systemStatus: 'Cached',
+isEnding: true
+}
+**Matrix Alignment:** Z-END-12, Z-END-04, Z-END-31.
+**Voice Fidelity:** Yes. Emphasizes "screaming hinges" and "ghost-frequencies".
+**Stat Usage:** Heavy use of **Load** and **Obfuscation** to gate path lengths.
+**Path Variation:** The WIZARD_ALTITUDE_NODE_04 branch is set to continue for another 16 nodes, allowing for deep exploration of the **Universal Filter** and the final **Offline** state.
+**Shall I proceed with Nodes 04 through 10 of the high-altitude ascent, or pivot to the Signal Jammer sub-routine?**

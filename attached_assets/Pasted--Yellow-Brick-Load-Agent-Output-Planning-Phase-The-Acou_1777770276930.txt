@@ -1,0 +1,139 @@
+[Yellow Brick Load – Agent Output]
+### Planning Phase: The Acoustic & Aeronautical Calibration
+To prevent premature routing to endings, we will introduce **Buffer Nodes** and **Sub-Routines**. These nodes increase the path length by forcing the Wizard to manage "System Noise" and "Atmospheric Pressure" before reaching the final threshold.
+We are moving into the **High-Compression** and **Static-Reflection** filters. The Wizard’s **Obfuscation** must now contend with **Signal Strength** (the distance from the origin) and **Aeronautical** lift.
+**Target Endings (Long-Path Focus):**
+ * Z-END-04: The Balloon Drift (Aeronautical / Empty Wonder).
+ * Z-END-06: Voice of the Void (Acoustic / Acoustic Terror).
+ * Z-END-16: The Balloon Burn (Climatological / Searing Truth).
+ * Z-END-26: The Signal Jammer (Media / Silent Authority).
+// ─────────────────────────────────────────────────────────────────────────
+// BRANCH: THE VAPOR PROTOCOLS (ACOUSTIC / AERONAUTICAL)
+// ─────────────────────────────────────────────────────────────────────────
+WIZARD_ACOUSTIC_TERRACE: {
+id: 'WIZARD_ACOUSTIC_TERRACE',
+character: 'wizard',
+text: [
+{
+minOverrender: 0,
+content: `THE ACOUSTIC TERRACE
+The Hall is silent, but it is the silence of a vacuum, not peace. You stand on the edge of the central projection site. Below you, the Emerald City is a collection of high-bandwidth public projections.
+The 'Voice of the Wizard' is currently being processed through the Acoustic Filter. Power, in this sector, is the ability to be heard without being seen. But the signal is fraying. You can hear the Scarecrow’s neural density overclocking in the distance—a high-pitched whine of dry straw and logic loops.
+You must calibrate the output frequency. Too much volume leads to structural vibration; too little leads to an audit of the operator.`
+}
+],
+choices: [
+{
+label: 'Amplify the Void (Route to Acoustic Resonance)',
+target: 'WIZARD_VOICE_MODULATION',
+effects: [
+{ type: 'addObfuscation', value: 8 },
+{ type: 'addLoad', value: 4 }
+]
+},
+{
+label: 'Prepare the Balloon (Route to Aeronautical Lift)',
+target: 'WIZARD_BALLOON_ASSEMBLY',
+effects: [
+{ type: 'setCompliance', value: 'low' },
+{ type: 'addLoad', value: 12 }
+]
+}
+],
+onEnter: []
+},
+WIZARD_VOICE_MODULATION: {
+id: 'WIZARD_VOICE_MODULATION',
+character: 'wizard',
+text: [
+{
+minOverrender: 0,
+content: `RESONATING STATIC
+The modulation is successful. Your voice now bypasses the subjects' ears and vibrates directly in their joints. You are no longer a man; you are an acoustic event.
+However, the feedback loop is beginning to leak into your own hardware. The 'Great and Powerful' projection is becoming a defensive structure against your own truth. Every word you speak further buries the operator node under layers of testimonials and obfuscation.`
+}
+],
+choices: [
+{
+label: 'Maintain the Static (Path Length: 6 Nodes Remaining)',
+target: 'WIZARD_SIGNAL_JAMMING_SUB',
+effects: [{ type: 'addObfuscation', value: 10 }]
+},
+{
+label: 'Dissolve into the Void',
+target: 'Z_END_06',
+effects: []
+}
+]
+},
+WIZARD_BALLOON_ASSEMBLY: {
+id: 'WIZARD_BALLOON_ASSEMBLY',
+character: 'wizard',
+text: [
+{
+minOverrender: 0,
+content: `THE BALLOON ASSEMBLY
+The silk is thin, a high-compression membrane designed to escape the grid’s gravity. This is not travel; it is a thermal event. To rise, you must release the weight of your own identity.
+The air tastes of recycled adrenaline and ozone. The Witch’s drones are circling the perimeter, their winged signals attempting to uplink with your location. Flight is an unauthorized elevation of the signal. If the burner hits the silk too hard, the audit will be climatological rather than administrative.`
+}
+],
+choices: [
+{
+label: 'Vent the Gas (Path Length: 12 Nodes Remaining)',
+target: 'WIZARD_ALTITUDE_CALIBRATION',
+effects: [
+{ type: 'addLoad', value: 15 },
+{ type: 'addObfuscation', value: -10 }
+]
+},
+{
+label: 'Ignite the Searing Truth',
+target: 'Z_END_16',
+effects: []
+}
+]
+},
+// ─────────────────────────────────────────────────────────────────────────
+// SELECTED ENDINGS (FOR THIS SEGMENT)
+// ─────────────────────────────────────────────────────────────────────────
+Z_END_06: {
+id: 'Z_END_06',
+character: 'wizard',
+endingId: 'Z-END-06',
+endingName: 'Voice of the Void',
+text: [
+{
+minOverrender: 0,
+content: `FINAL LOG: Z-END-06
+The assimilation is total. You have lost the ability to be seen. You are a frequency recorded in the Hall's sterile acoustics. The Tin Man and the Scarecrow stand before your projection, bowing to a soundwave.
+You attempt to scream, but it is filtered into a booming decree of authority. You are a ghost bit in a loud machine.
+**Theme:** Power is the ability to be heard without being seen.`
+}
+],
+institution: 'Acoustic',
+systemStatus: 'Resonating',
+isEnding: true
+},
+Z_END_16: {
+id: 'Z_END_16',
+character: 'wizard',
+endingId: 'Z-END-16',
+endingName: 'The Balloon Burn',
+text: [
+{
+minOverrender: 0,
+content: `FINAL LOG: Z-END-16
+The audit is absolute. Heat is the ultimate judge of gas and ego. The balloon does not drift; it consumes itself. You fall from the high-altitude bureaucracy into the Great Desert.
+As the silk melts into your skin, you realize that purity is merely the byproduct of high-temperature logic.
+**Theme:** Heat is the ultimate auditor of gas and ego.`
+}
+],
+institution: 'Climatological',
+systemStatus: 'Consumed',
+isEnding: true
+}
+**Matrix Alignment:** Z-END-04, Z-END-06, Z-END-16, Z-END-26.
+**Voice Fidelity:** Yes. Uses "Acoustic Terror" and "High-Compression" motifs.
+**Stat Usage:** Introduces **Load** as a penalty for attempting "Aeronautical" escape, reflecting the system's gravitational absolute.
+**Path Variation:** Branches like WIZARD_ALTITUDE_CALIBRATION now point to deep-nested sub-routines (up to 12-20 nodes) to ensure the player feels the "Grind".
+**Shall I expand the WIZARD_ALTITUDE_CALIBRATION sub-routine (The 20-Node Descent) or the SIGNAL_JAMMING_SUB?**
