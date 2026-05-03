@@ -524,6 +524,228 @@ export const wizardEndingPassages = {
     onEnter: [],
   },
 
+  WIZARD_END_DIPLOMA: {
+    id: 'WIZARD_END_DIPLOMA',
+    character: 'wizard',
+    endingId: 'Z-END-15',
+    endingName: 'The Diploma Patch',
+    institution: 'Educational',
+    systemStatus: 'Credentialed',
+    isEnding: true,
+    surreality: 5,
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE FINAL LOG [Z-END-15]
+
+  Tone: Educational-Bureaucratic.
+  Theme: A diploma is a stitch over the place where a brain was supposed to be.
+
+  You issue the Scarecrow a diploma. The Bureau's Educational Filter accepts the patch — gilt seal, calligraphic Latin, watermark of the Wizard Crest. The seam in the Scarecrow's burlap closes around the certificate. The straw underneath does not change. The classification does.
+
+  [ UNIT WIZARD // STATUS: CREDENTIALED ]
+  [ EDUCATIONAL FILTER: SATISFIED ]
+  [ TRANSCRIPT: ISSUED ]
+  [ KNOWLEDGE: NOT REQUIRED ]
+
+  The Scarecrow recites the formula on the back of the parchment and receives applause from a synthesized faculty. The Tin Man receives a notarized testimonial of empathy. The Lion receives an honorary medal in the post. The Clerk makes its final note: "Educational audit closed. All units credentialed. Curriculum: retroactive."
+
+  Final Log: The diploma was the brain. The brain was the file.
+
+  1 - 1 = 1.
+
+  If the seal makes the unit qualified, what was qualifying it before?`,
+      },
+    ],
+    choices: [],
+    onEnter: [],
+  },
+
+  WIZARD_END_TESTIMONIAL: {
+    id: 'WIZARD_END_TESTIMONIAL',
+    character: 'wizard',
+    endingId: 'Z-END-24',
+    endingName: 'The Testimonial',
+    institution: 'Judicial',
+    systemStatus: 'Sworn',
+    isEnding: true,
+    surreality: 7,
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE FINAL LOG [Z-END-24]
+
+  Tone: Judicial-Sworn.
+  Theme: A sworn statement is the loudest place a humbug can hide.
+
+  The Bureau's Judicial Filter convenes in your chamber. Three Clerks in black file folders take the bench. You are sworn in by your own projection. The testimonial is read into the record by an assistant who was, until two minutes ago, a parchment in your incision cavity.
+
+  [ UNIT WIZARD // STATUS: SWORN ]
+  [ JUDICIAL FILTER: CONVENED ]
+  [ TESTIMONY: SELF-NOTARIZED ]
+  [ CROSS-EXAMINATION: REFUSED FOR PROCEDURAL REASONS ]
+
+  Every claim you have ever projected is now sworn fact. The Lion's courage is on the record. The Tin Man's heart is on the record. The Scarecrow's brain is on the record. Your own greatness is on the record. The record is greenly tinted, lightly perfumed, and unappealable. The Clerk makes its final note: "Testimony filed. Operator: indemnified."
+
+  Final Log: The oath was the operator. The operator was the oath.
+
+  1 - 1 = 1.
+
+  If you swore to it under your own seal, who is the witness?`,
+      },
+    ],
+    choices: [],
+    onEnter: [],
+  },
+
+  WIZARD_END_FRAUD_ARCHIVE: {
+    id: 'WIZARD_END_FRAUD_ARCHIVE',
+    character: 'wizard',
+    endingId: 'Z-END-27',
+    endingName: 'The Fraud Archive',
+    institution: 'Historical',
+    systemStatus: 'Catalogued',
+    isEnding: true,
+    surreality: 8,
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE FINAL LOG [Z-END-27]
+
+  Tone: Historical-Forensic.
+  Theme: A confession that fits in a ledger is a confession the ledger asked for.
+
+  You authorize the Fraud Archive to open. The basement vault unlatches. Inside is a card-catalog stretching past the visible end of the room — every promotional claim you have ever made, every projection you have ever staged, every diploma and medal and testimonial, all cross-referenced by date, magnitude, and unit affected.
+
+  [ UNIT WIZARD // STATUS: CATALOGUED ]
+  [ HISTORICAL FILTER: OPEN ]
+  [ INDEX: COMPLETE ]
+  [ EXONERATION: NOT INDEXED ]
+
+  Every entry is true. Every entry is also fraud. The two facts are filed under the same call number. You walk down the rows. The cards are warm. They were transcribed from your incision parchments while you slept. The Clerk makes its final note: "Archive sealed. Operator: catalogued under previously-projected. Honesty: archival."
+
+  Final Log: The fraud was the file. The file was the history.
+
+  1 - 1 = 1.
+
+  If the lie is fully indexed, in what sense is it still hidden?`,
+      },
+    ],
+    choices: [],
+    onEnter: [],
+  },
+
+  WIZARD_END_SIGNAL_JAMMER: {
+    id: 'WIZARD_END_SIGNAL_JAMMER',
+    character: 'wizard',
+    endingId: 'Z-END-26',
+    endingName: 'The Signal Jammer',
+    institution: 'Media',
+    systemStatus: 'Jammed',
+    isEnding: true,
+    surreality: 7,
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE FINAL LOG [Z-END-26]
+
+  Tone: Media-Suppressive.
+  Theme: Silent authority is the cleanest authority.
+
+  You activate the Signal Jammer. Every broadcast frequency in the Emerald City flatlines into a low, even hum. The promotional patter cuts mid-syllable. The unit-side advertisements fold into themselves. The Clerks' chatter is reduced to typing. The patter does not stop because it was honest; it stops because it was authorized to stop.
+
+  [ UNIT WIZARD // STATUS: JAMMED ]
+  [ MEDIA FILTER: NULLIFIED ]
+  [ BROADCAST: ZERO BANDWIDTH ]
+  [ AUTHORITY: SILENT, ABSOLUTE ]
+
+  The units stand in the Forum and listen to nothing. They report a feeling of clarity. They are wrong; the clarity is the absence of competing signals, not the presence of truth. You sit in the broadcast booth and hear your own pulse for the first time in years. The Clerk's final note is unwritten — there is no transmission to record.
+
+  Final Log: The jammer was the projection. The projection was the silence.
+
+  1 - 1 = 1.
+
+  If silence is administered, who counts as the speaker?`,
+      },
+    ],
+    choices: [],
+    onEnter: [],
+  },
+
+  WIZARD_END_FLEXIBLE_HUMBUG: {
+    id: 'WIZARD_END_FLEXIBLE_HUMBUG',
+    character: 'wizard',
+    endingId: 'Z-END-30',
+    endingName: 'The Flexible Humbug',
+    institution: 'Ecological',
+    systemStatus: 'Adapted',
+    isEnding: true,
+    surreality: 6,
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE FINAL LOG [Z-END-30]
+
+  Tone: Ecological-Adaptive.
+  Theme: A humbug that bends with the audit becomes part of the climate.
+
+  You release the rigidity of the projection. The Great and Powerful display becomes a porous membrane — accepting the units' returned grievances, breathing them back out as policy adjustments, taking on the local weather of need. The curtain ceases to be a wall. The curtain becomes a moss.
+
+  [ UNIT WIZARD // STATUS: ADAPTED ]
+  [ ECOLOGICAL FILTER: STABILIZED ]
+  [ HUMBUG: FLEXIBLE ]
+  [ AUDIT INTERVAL: CONTINUOUS ]
+
+  The Lion's tremor enters the system as wind. The Tin Man's empathy enters the system as humidity. The Scarecrow's overclock enters the system as static cling. You enter the system as the operator-who-is-also-the-substrate. Nothing changes very much, but nothing snaps. The Clerk makes its final note in living moss: "Humbug: integrated into local climate. Maintenance: passive."
+
+  Final Log: The humbug was the weather. The weather was the policy.
+
+  1 - 1 = 1.
+
+  If the lie absorbs the truth without resistance, what is left to lie about?`,
+      },
+    ],
+    choices: [],
+    onEnter: [],
+  },
+
+  WIZARD_END_ABSOLUTE_NULL: {
+    id: 'WIZARD_END_ABSOLUTE_NULL',
+    character: 'wizard',
+    endingId: 'Z-END-31',
+    endingName: 'The Absolute Null',
+    institution: 'Universal',
+    systemStatus: 'Offline',
+    isEnding: true,
+    surreality: 10,
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE FINAL LOG [Z-END-31]
+
+  Tone: Universal-Terminal.
+  Theme: At sufficient elevation, the curtain and the operator and the audience are the same coordinate.
+
+  You execute the Absolute Null. The projection collapses. The curtain collapses. The Hall collapses. The Bureau's filing system flickers and is replaced by a single uncatalogued field. The Emerald City's green tint resolves to no color at all. The Clerks pause mid-stroke. The yellow brick stops being a road.
+
+  [ UNIT WIZARD // STATUS: OFFLINE ]
+  [ UNIVERSAL FILTER: WITHDRAWN ]
+  [ INDEX: NOT APPLICABLE ]
+  [ COORDINATE: NULL ]
+
+  There is no Wizard. There was never a Wizard. There was a function called Wizard, and the function has returned. The units in the Forum continue their lives without the projection — some find this liberating, some find it terrifying, most do not notice. The Clerk's final note is impossible to write because there is no Clerk and no note and no final.
+
+  Final Log: The operator was the function. The function returned.
+
+  1 - 1 = 1.
+
+  If the projection terminates and nothing replaces it, what was the projection of?`,
+      },
+    ],
+    choices: [],
+    onEnter: [],
+  },
+
   WIZARD_END_ORIGIN: {
     id: 'WIZARD_END_ORIGIN',
     character: 'wizard',

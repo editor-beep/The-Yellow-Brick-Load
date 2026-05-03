@@ -172,6 +172,66 @@ export const wizardBranchPassages = {
           { type: 'setFlag', key: 'manual_engaged', value: true },
         ],
       },
+      {
+        label: 'Open the Filter Collisions ledger — schedule a cross-Bureau audit.',
+        target: 'WIZARD_FILTER_COLLISIONS',
+        effects: [
+          { type: 'addObfuscation', value: 3 },
+          { type: 'addLoad', value: 8 },
+          { type: 'setFlag', key: 'collisions_opened', value: true },
+        ],
+      },
+    ],
+    onEnter: [],
+  },
+
+  WIZARD_FILTER_COLLISIONS: {
+    id: 'WIZARD_FILTER_COLLISIONS',
+    character: 'wizard',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE FILTER COLLISIONS LEDGER
+
+  A side door in the Maintenance Hub opens onto a long, narrow archive. The room is lit by low green sconces. Three Clerks at three desks each maintain a separate Bureau filter — Educational, Judicial, Historical — and each has been waiting for the Operator to authorize a cross-filter audit.
+
+  [ FILTER COLLISIONS: AVAILABLE ]
+  [ EDUCATIONAL FILTER: PENDING ]
+  [ JUDICIAL FILTER: PENDING ]
+  [ HISTORICAL FILTER: PENDING ]
+
+  Each filter, run alone, would close cleanly. Run against the projection, each produces a different residue — a credentialed unit, a sworn record, a catalogued archive. The Manual notes that the Wizard's Obfuscation function is uniquely positioned to collide with all three. The Manual does not specify in what order. The Manual is also written in green ink and may be wrong.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Run the Educational Filter — issue diplomas, medals, testimonials.',
+        target: 'WIZARD_END_DIPLOMA',
+        effects: [
+          { type: 'addObfuscation', value: 4 },
+          { type: 'addLoad', value: 6 },
+          { type: 'setCompliance', value: 'high' },
+          { type: 'setFlag', key: 'diploma_issued', value: true },
+        ],
+      },
+      {
+        label: 'Run the Judicial Filter — convene the bench, swear in the projection.',
+        target: 'WIZARD_END_TESTIMONIAL',
+        effects: [
+          { type: 'addObfuscation', value: 5 },
+          { type: 'addWarrant', value: 4 },
+          { type: 'setCompliance', value: 'high' },
+        ],
+      },
+      {
+        label: 'Run the Historical Filter — open the Fraud Archive in the basement.',
+        target: 'WIZARD_END_FRAUD_ARCHIVE',
+        effects: [
+          { type: 'addObfuscation', value: -3 },
+          { type: 'addDesync', value: 4 },
+          { type: 'setFlag', key: 'archive_opened', value: true },
+        ],
+      },
     ],
     onEnter: [],
   },
@@ -268,6 +328,65 @@ export const wizardBranchPassages = {
           { type: 'addObfuscation', value: 7 },
           { type: 'addLoad', value: 10 },
           { type: 'setFlag', key: 'smoke_screen_deployed', value: true },
+        ],
+      },
+      {
+        label: 'Climb past the broadcast antenna — enter the Transcendent Audit deck.',
+        target: 'WIZARD_TRANSCENDENT_AUDIT',
+        effects: [
+          { type: 'addObfuscation', value: -4 },
+          { type: 'addDesync', value: 4 },
+          { type: 'setFlag', key: 'transcendent_entered', value: true },
+        ],
+      },
+    ],
+    onEnter: [],
+  },
+
+  WIZARD_TRANSCENDENT_AUDIT: {
+    id: 'WIZARD_TRANSCENDENT_AUDIT',
+    character: 'wizard',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE TRANSCENDENT AUDIT DECK
+
+  Above the Acoustic Terrace the air thins to almost nothing. The Hall's tinted glass gives way to a roof of unindexed sky. From this elevation the Bureau's individual filters resolve into one continuous gradient — Media at the broadcast end, Ecological in the middle, Universal at the vanishing point.
+
+  [ ALTITUDE: TRANSCENDENT ]
+  [ FILTER GRADIENT: VISIBLE ]
+  [ OPERATOR ANCHOR: WEAK ]
+
+  Three control panels are recessed into the parapet. The first jams every transmission in the Emerald City to a single flat hum. The second invites the city's weather, grievances, and policy fluctuations to enter the projection as ambient pressure. The third zeroes the projection entirely. The Manual says only one will be approved per audit cycle. The Manual was written by an earlier Wizard and is, by definition, suspect.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Trip the Signal Jammer — flatten every broadcast to a single hum.',
+        target: 'WIZARD_END_SIGNAL_JAMMER',
+        effects: [
+          { type: 'addObfuscation', value: 6 },
+          { type: 'addLoad', value: 8 },
+          { type: 'setCompliance', value: 'high' },
+        ],
+      },
+      {
+        label: 'Soften the projection — let the city\'s weather become the policy.',
+        target: 'WIZARD_END_FLEXIBLE_HUMBUG',
+        effects: [
+          { type: 'addObfuscation', value: -2 },
+          { type: 'addLoad', value: 4 },
+          { type: 'addDesync', value: 3 },
+          { type: 'setFlag', key: 'humbug_flexible', value: true },
+        ],
+      },
+      {
+        label: 'Execute the Absolute Null — return the function and withdraw the operator.',
+        target: 'WIZARD_END_ABSOLUTE_NULL',
+        effects: [
+          { type: 'addObfuscation', value: -15 },
+          { type: 'addDesynctear', value: 10 },
+          { type: 'setCompliance', value: 'broken' },
         ],
       },
     ],
