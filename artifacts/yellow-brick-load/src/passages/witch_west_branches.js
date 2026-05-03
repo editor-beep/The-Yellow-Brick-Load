@@ -832,7 +832,7 @@ The Winged Monkeys are circling the target. You can see the Lion's heat signatur
       },
       {
         label: 'Order "Silent Hover" (Increase Warrant).',
-        target: 'WITCH_WEST_COMMAND_DECK',
+        target: 'WITCH_WEST_OBSIDIAN_VIEW',
         effects: [{ type: 'addWarrant', value: 2 }],
       },
       {
@@ -863,7 +863,7 @@ You adjust the chemical output of the field. The red petals below begin to weep 
       },
       {
         label: 'Pulse the Field: Create a "Lullaby Spike".',
-        target: 'WITCH_WEST_COMMAND_DECK',
+        target: 'WITCH_WEST_POPPY_BUFFER',
         effects: [{ type: 'addDesync', value: 4 }],
       },
     ],
@@ -889,7 +889,7 @@ The Clerk slams a heavy ledger onto the command console.
       },
       {
         label: '"The target is non-compliant." (Increase Warrant).',
-        target: 'WITCH_WEST_COMMAND_DECK',
+        target: 'WITCH_WEST_BUREAU_FILING',
         effects: [{ type: 'addWarrant', value: 5 }],
       },
     ],
@@ -961,12 +961,12 @@ You zoom the obsidian eye into the Lion's pinned form. His anatomy is a map of f
       },
       {
         label: 'Sector Delta: The Paws (Kinetic Friction).',
-        target: 'WITCH_WEST_LION_AUDIT_HUB',
+        target: 'WITCH_WEST_GRID_FAILURE',
         effects: [{ type: 'addLoad', value: 4 }],
       },
       {
         label: 'Sector Omega: The Vocal Chords (Roar Error-Log).',
-        target: 'WITCH_WEST_LION_AUDIT_HUB',
+        target: 'WITCH_WEST_THERMAL_SURGE',
         effects: [{ type: 'addWarrant', value: 2 }],
       },
       {
@@ -998,7 +998,7 @@ The Lion flinches—a sharp, electric spasm.
       },
       {
         label: 'Braid the hairs into a "Fear-Whip".',
-        target: 'WITCH_WEST_LION_AUDIT_HUB',
+        target: 'WITCH_WEST_COMMAND_DECK_V2',
         effects: [{ type: 'addWarrant', value: 8 }, { type: 'graft', material: 'fear_whip', target: 'witch_west' }],
       },
     ],
@@ -1024,7 +1024,7 @@ The Clerk presents a series of forms. To the unindexed, these are just paper. To
       },
       {
         label: 'Label it "Judicial Reclamation" (Higher Warrant).',
-        target: 'WITCH_WEST_COMMAND_DECK_V2',
+        target: 'WITCH_WEST_SIGNAL_BLEED',
         effects: [{ type: 'addWarrant', value: 10 }, { type: 'addSaturation', value: 5 }],
       },
     ],
@@ -1054,6 +1054,15 @@ The Clerk's face is just a smudge of carbon paper.
         target: 'WITCH_WEST_END_MELTING',
         effects: [{ type: 'addDesync', value: 20 }],
       },
+      {
+          label: 'Let the tower thin all the way through — descend the unlogged stairs into the Unlit Basement.',
+          target: 'WITCH_WEST_UNLIT_BASEMENT',
+          effects: [
+            { type: 'addDesync', value: 6 },
+            { type: 'addLoad', value: 4 },
+            { type: 'setFlag', key: 'unindexed_descent', value: true },
+          ],
+        },
     ],
     onEnter: [],
   },
