@@ -8,12 +8,12 @@
         { id: 'dorothy',    label: 'Dorothy',       unit: 'D-01',  description: 'Return vector: unresolved.' },
         { id: 'witch_west', label: 'Witch West',    unit: 'W-66',  description: 'Liquidation in progress.' },
         { id: 'wizard',     label: 'The Wizard',    unit: 'Z-00',  description: 'Curtain integrity: compromised.' },
-        { id: 'glinda',     label: 'Glinda',        unit: 'G-01',  description: 'Bubble transit: nominal.' },
         { id: 'witch_east', label: 'Witch East',    unit: 'E-00',  description: 'Last known status: crushed.' },
+        { id: 'glinda',     label: 'Glinda',        unit: 'G-01',  description: 'Bubble transit: nominal.' },
       ]
 
       const BASELINE_CHARACTERS = ['lion', 'tin_man', 'scarecrow', 'dorothy']
-      const ALL_CHARACTERS = ['lion', 'tin_man', 'scarecrow', 'dorothy', 'witch_west', 'witch_east', 'glinda', 'wizard']
+      const ALL_CHARACTERS = ['lion', 'tin_man', 'scarecrow', 'dorothy', 'witch_west', 'witch_east', 'wizard', 'glinda']
 
       function hasAllAtLeast(counts, ids, minimum) {
         return ids.every((id) => (counts[id] || 0) >= minimum)

@@ -70,6 +70,20 @@ This is intentional narrative feedback: the interface reflects accumulating syst
 Replay is the intended way to uncover hidden branches, compare character arcs, and map the broader simulation logic.`
   },
   {
+    id: 'character-unlocks',
+    question: 'How do I unlock each character?',
+    answer: `Character access is progression-based:
+
+- The Lion: available from the start.
+- The Tin Man: complete at least 1 Lion run.
+- The Scarecrow: complete at least 1 Tin Man run.
+- Dorothy: complete at least 1 Scarecrow run.
+- Witch West: complete at least 2 runs each with Lion, Tin Man, Scarecrow, and Dorothy.
+- Witch East: complete at least 1 Witch West run and encounter both Witch West initialization variants (Init A and Init B).
+- Glinda: complete at least 3 Witch West runs and 3 Witch East runs.
+- The Wizard: complete at least 4 runs with every character.`
+  },
+  {
     id: 'content-and-tone',
     question: 'What kind of content should I expect?',
     answer: `The Yellow Brick Load uses industrial-horror and bureaucratic-surreal language. Expect unsettling imagery, institutional themes, and psychological pressure rather than jump scares.
