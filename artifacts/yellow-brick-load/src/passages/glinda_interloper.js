@@ -13,6 +13,7 @@
  */
 
 export const glindaInterloper = {
+  id: 'glinda_01',
   name: 'The Silence',
   cardText:
     "A room with no sound and no light and no one in it — except that something has been in it for a long time and recently left. The grace protocol does not cover this room. The subdermal tubing does not route through it. The pink filament has never touched it. It is the original interior, before the Bureau calibrated the surface. It is still there. It has always been there. The refraction has been bending light away from it.",

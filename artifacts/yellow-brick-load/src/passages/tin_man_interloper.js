@@ -13,6 +13,7 @@
  */
 
 export const tinManInterloper = {
+  id: 'tin_man_01',
   name: 'The Maiden',
   cardText:
     "A girl standing at a gate that is no longer attached to anything. The gate is still latched. Her hands are folded in her apron. She has been waiting since the first limb was removed — through each replacement, through the heart that was never installed — and she will still be waiting when the last replacement is complete. She does not know the tin cannot feel the wait.",

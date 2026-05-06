@@ -13,6 +13,7 @@
  */
 
 export const scarecrowInterloper = {
+  id: 'scarecrow_01',
   name: 'The Crows',
   cardText:
     "A field full of crows that are not afraid. They have never been afraid. Their indifference is the only verdict that matters — a professional assessment of the unit's effectiveness, conducted by the exact entities the unit was installed to deter. The field is covered in them. The assessment is ongoing and has always been ongoing.",

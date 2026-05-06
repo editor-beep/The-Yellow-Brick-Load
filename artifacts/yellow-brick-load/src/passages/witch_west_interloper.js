@@ -13,6 +13,7 @@
  */
 
 export const witchWestInterloper = {
+  id: 'witch_west_01',
   name: 'The Water',
   cardText:
     "A bucket. Not yet lifted. Not yet thrown. Simply present at the edge of the surveillance field, where the girl with the silver shoes is standing. The bucket has been there longer than anyone admits. The obsidian eye has been tracking it since it entered the frame. The eye cannot stop looking at it. The eye was not designed to look away from things.",

@@ -14,6 +14,7 @@
  */
 
 export const witchEastInterloper = {
+  id: 'witch_east_01',
   name: 'The House',
   cardText:
     "A residential structure from a coordinate that does not appear on any Oz map. It is airborne. It has been airborne for longer than a residential structure should be capable of. The gravitational field reads it as an object in transit. The transit destination has not yet been filed. The Weight Assessor's instruments are receiving its shadow before its body.",

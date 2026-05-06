@@ -7,6 +7,7 @@
  * character before the oracle ritual begins.
  *
  * Each interloper has the same shape as an oracle deck card:
+ *   id          — canonical card id used for SVG art lookup
  *   name        — title shown on the card
  *   cardText    — symbolic image description
  *   ritualText  — what the interloper does / what happens

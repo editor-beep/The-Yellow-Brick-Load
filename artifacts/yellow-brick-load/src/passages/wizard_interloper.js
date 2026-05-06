@@ -14,6 +14,7 @@
  */
 
 export const wizardInterloper = {
+  id: 'wizard_01',
   name: 'The Curtain',
   cardText:
     "A curtain across a lever mechanism in an empty room. The curtain is the face. The lever is the voice. The room is the authority. None of these things require a person behind them — the Bureau certified the arrangement years ago and has been logging its output as legitimate governance ever since. The curtain has not moved. The curtain has been doing all the work.",
