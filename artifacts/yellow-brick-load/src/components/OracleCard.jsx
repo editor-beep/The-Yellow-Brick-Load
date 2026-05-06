@@ -112,6 +112,21 @@ export default function OracleCard() {
     }
   }, [oracleCard?.id, reduceMotion])
 
+  // Safari/WebKit can occasionally drop short timeout callbacks during
+  // heavy modal/scroll transitions on mobile. Keep a watchdog so the
+  // ritual cannot get stranded in shuffle/flicker with no revealed art.
+  useEffect(() => {
+    if (!oracleCard || reduceMotion || phase === 'revealed') return undefined
+    const startedAt = Date.now()
+    const id = window.setInterval(() => {
+      if (!useGameStore.getState().oracleCard) return
+      if (Date.now() - startedAt >= 1800) {
+        setPhase('revealed')
+      }
+    }, 250)
+    return () => window.clearInterval(id)
+  }, [oracleCard?.id, phase, reduceMotion])
+
   // Move keyboard focus to the dismiss button as soon as it appears so
   // ritual completion advances accessibility focus rather than stranding
   // it on the underlying passage.
