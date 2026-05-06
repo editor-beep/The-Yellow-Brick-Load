@@ -241,7 +241,10 @@ export default function OracleCard() {
   const { name, cardText, ritualText, effects, effect, surreality, id } = oracleCard
   // Support both new `effects` array and legacy single `effect` field
   const effectsArray = effects ?? (effect ? [effect] : [])
-  const rawArtUrl = cardSvgs[id]
+  // Stat interlopers currently omit `id`; fall back to the character's first
+  // canonical card so the reveal phase still renders SVG art.
+  const artLookupId = id || `${character}_01`
+  const rawArtUrl = cardSvgs[artLookupId]
   const artUrl = artFailed ? null : rawArtUrl
   const interloper = interloperFor(id) || { name: 'Bureau', stamp: 'OZ-RGSTR' }
   const primaryLabel = describeEffect(effectsArray[0])

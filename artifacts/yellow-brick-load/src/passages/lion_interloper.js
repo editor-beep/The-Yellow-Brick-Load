@@ -8,6 +8,7 @@
  */
 
 export const lionInterloper = {
+  id: 'lion_01',
   name: "The Witch's Soldiers",
   cardText:
     "A formation of grey uniforms holding spears at shoulder-height. They do not advance. They are doing something worse: waiting. Each one has been assigned to a specific unit. The assignment does not expire. The waiting is a procedure. The procedure has been filed.",

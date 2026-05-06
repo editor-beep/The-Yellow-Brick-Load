@@ -13,6 +13,7 @@
  */
 
 export const dorothyInterloper = {
+  id: 'dorothy_01',
   name: 'Aunt Em',
   cardText:
     "A woman standing in a Kansas doorway that has no building behind it. Her hands are flour-dusted. Her face carries the specific expression of someone who has been waiting since before the event and does not yet know the event has happened. The doorway stands in the middle of the yellow brick road. The displacement between them is measured in coordinates that no longer share a map.",
