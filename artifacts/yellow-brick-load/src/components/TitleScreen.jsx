@@ -1,4 +1,4 @@
-      import { useGameStore, getCharacterPlayCounts, getWitchWestInitSeen } from '../engine/store.js'
+      import { useGameStore, getCharacterPlayCounts } from '../engine/store.js'
       import { useEffect, useState } from 'react'
 
       const CHARACTERS = [
@@ -13,7 +13,6 @@
       ]
 
       const BASELINE_CHARACTERS = ['lion', 'tin_man', 'scarecrow', 'dorothy']
-      const ALL_CHARACTERS = ['lion', 'tin_man', 'scarecrow', 'dorothy', 'witch_west', 'witch_east', 'wizard', 'glinda']
 
       function hasAllAtLeast(counts, ids, minimum) {
         return ids.every((id) => (counts[id] || 0) >= minimum)
@@ -21,17 +20,15 @@
 
       function getUnavailableCharacters() {
         const counts = getCharacterPlayCounts()
-        const witchWestInitSeen = getWitchWestInitSeen()
-
         const unlocked = {
           lion: true,
           tin_man: counts.lion >= 1,
           scarecrow: counts.tin_man >= 1,
           dorothy: counts.scarecrow >= 1,
-          witch_west: hasAllAtLeast(counts, BASELINE_CHARACTERS, 2),
-          witch_east: counts.witch_west >= 1 && witchWestInitSeen.initA && witchWestInitSeen.initB,
-          glinda: counts.witch_west >= 3 && counts.witch_east >= 3,
-          wizard: hasAllAtLeast(counts, ALL_CHARACTERS, 4),
+          wizard: hasAllAtLeast(counts, BASELINE_CHARACTERS, 2),
+          witch_east: counts.wizard >= 2,
+          witch_west: counts.witch_east >= 1,
+          glinda: counts.wizard >= 2 && counts.witch_east >= 2 && counts.witch_west >= 2,
         }
 
         return CHARACTERS.filter(({ id }) => !unlocked[id]).map(({ id }) => id)
