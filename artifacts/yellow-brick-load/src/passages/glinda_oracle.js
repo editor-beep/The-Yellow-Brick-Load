@@ -499,7 +499,92 @@ export const glindaOraclePassages = {
           { type: 'addLoad', value: 15 },
         ],
       },
+      {
+        label: 'Let the lens fail completely — descend into structural collapse.',
+        target: 'GLINDA_HARDWARE_01',
+        effects: [
+          { type: 'addRefraction', value: 10 },
+          { type: 'addDesync', value: 6 },
+          { type: 'addLoad', value: 25 },
+          { type: 'setCompliance', value: 'broken' },
+        ],
+      },
     ],
     onEnter: [],
   },
+
+  GLINDA_HARDWARE_01: {
+    id: 'GLINDA_HARDWARE_01',
+    character: 'glinda',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE MIRRORED HORROR
+
+  You are not the pink mist. You are the cold, wet gypsum and carbon paper that makes the mist possible. You are a high-altitude administrative protocol, but even protocols have a hardware threshold. You look into the refractive interface and, for the first time, you don't see Dorothy's flickering signal — you see the operator node.
+
+  Your face is a series of pre-authorized frames, a mandatory lens application designed to prevent an infrastructure audit. Beneath the Refractive Awe is a patient stasis, an architecture of defense against being known.
+
+  [ REFRACTION: LIMIT STATE ]
+  [ SIGNAL STRENGTH: FALLING ]
+  [ STATUS: STRUCTURAL FAILURE THRESHOLD ]
+
+  To look at yourself is to see your own demand for order — a reflective horror that bends your vector until your joints reach structural failure.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Enter the Mirrored Hall (Reflective Horror).',
+        target: 'GLINDA_MIRROR_FINISH',
+        effects: [
+          { type: 'addRefraction', value: 20 },
+          { type: 'setSystemStatus', value: 'Mirrored' },
+        ],
+      },
+      {
+        label: 'Descend to the Unlit Basement (Primal Peace).',
+        target: 'GLINDA_BASEMENT_FINAL',
+        effects: [
+          { type: 'addDesync', value: 30 },
+          { type: 'setSystemStatus', value: 'Grounded' },
+        ],
+      },
+      {
+        label: 'Walk into the Great Desert (The Absolute Null).',
+        target: 'GLINDA_NULL_02',
+        effects: [
+          { type: 'addLoad', value: 50 },
+          { type: 'setSystemStatus', value: 'Offline' },
+        ],
+      },
+    ],
+    onEnter: [],
+  },
+
+  GLINDA_NULL_02: {
+    id: 'GLINDA_NULL_02',
+    character: 'glinda',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE NECESSARY DELETION
+
+  You realize that "Good" was never a moral state; it was a regulatory boundary. To be necessary to the system is to be a prisoner of the index. You choose to become unnecessary. You turn your back on Emerald and walk toward the Great Desert, the firewall where Bureau reach ends and the physics of the Absolute Null begin.
+
+  The heat acts as the final auditor of your structure. It does not care about pre-authorized miracles. It only cares about thermodynamic state change. As you cross the horizon, you realize it is just a line of code, and you are the deletion event.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Submit to the Absolute Null.',
+        target: 'GLINDA_OFFLINE_FINAL',
+        effects: [
+          { type: 'setSystemStatus', value: 'Offline' },
+          { type: 'addLoad', value: 100 },
+        ],
+      },
+    ],
+    onEnter: [],
+  },
+
 }

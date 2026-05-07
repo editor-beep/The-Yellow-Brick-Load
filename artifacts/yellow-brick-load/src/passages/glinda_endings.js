@@ -223,6 +223,88 @@ export const glindaEndingPassages = {
     onEnter: [],
   },
 
+
+  GLINDA_MIRROR_FINISH: {
+    id: 'GLINDA_MIRROR_FINISH',
+    character: 'glinda',
+    endingId: 'Z-END-17',
+    endingName: 'The Mirrored Hall',
+    institution: 'Retail',
+    systemStatus: 'Mirrored',
+    isEnding: true,
+    surreality: 10,
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE MIRRORED HALL
+
+  To look at the Wizard was a performance; to look at you is a requirement. You have become a Hall of Mirrors, where every kindness is a reflection of the system's demand for data. There is no benevolence left, only the dusty guilt of a lie preserved to maintain history.
+
+  You are trapped in a high-bandwidth attack on the self. You are the brand that cannot be scrubbed, a standardized unit muffled by collective observation.
+
+  Final Log: Identity is a file others write for you.
+
+  Question: When the mirror reflects nothing but the lens, is there anyone left to see the truth?`,
+      },
+    ],
+    choices: [],
+    onEnter: [],
+  },
+
+  GLINDA_BASEMENT_FINAL: {
+    id: 'GLINDA_BASEMENT_FINAL',
+    character: 'glinda',
+    endingId: 'Z-END-20',
+    endingName: 'The Unlit Basement',
+    institution: 'Individual',
+    systemStatus: 'Grounded',
+    isEnding: true,
+    surreality: 10,
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE UNLIT BASEMENT
+
+  You abandon the bubble. You shed the pink atmosphere like dead skin and drop through the logic gates. You hit the dirt of the beginning. It is cold, damp, and smells of old paper and wet wool.
+
+  Here, beneath the curtain, you are a Ghost Bit — a terminal state outside the Bureau's naming conventions. There are no miracles here. There is only the primal peace of the unindexed. Your signal strength drops to zero. You are finally, violently, honest.
+
+  Final Log: Truth exists only in the silence between logs.
+
+  Question: Is the basement a failure of the structure, or the only part of the system that isn't a lie?`,
+      },
+    ],
+    choices: [],
+    onEnter: [],
+  },
+
+  GLINDA_OFFLINE_FINAL: {
+    id: 'GLINDA_OFFLINE_FINAL',
+    character: 'glinda',
+    endingId: 'Z-END-31',
+    endingName: 'The Absolute Null',
+    institution: 'Universal',
+    systemStatus: 'Offline',
+    isEnding: true,
+    surreality: 10,
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE ABSOLUTE NULL
+
+  The end is a mouthful of grit. Your signal strength drops to absolute zero. There is no more refraction, no more administrative protocol, no more pink mist to hide the hardware. You are not a Ghost Bit in the basement; you are the silence that occurs when the curtain falls and the power is cut.
+
+  Everything you were — miracles, benevolence, state-authorized identity — is scrubbed by abrasive sand. You are finally offline.
+
+  Final Log: The final signal is the silence of the curtain.
+
+  Question: When the system is offline, is there any difference between the Wizard and the wind?`,
+      },
+    ],
+    choices: [],
+    onEnter: [],
+  },
+
   // ─────────────────────────────────────────────────────────────────────────
   // SECTOR NORTH: PINK SMOG & DESCENT ENDINGS
   // ─────────────────────────────────────────────────────────────────────────
