@@ -31,7 +31,7 @@ export const glindaBranchPassages = {
     choices: [
       {
         label: 'Descend to administer direct mercy calibration.',
-        target: 'GLINDA_ORACLE_ENTRY',
+        target: 'GLINDA_AUDIT_APPROACH',
         effects: [
           { type: 'addRefraction', value: 3 },
           { type: 'addLoad', value: 5 },
@@ -83,7 +83,7 @@ export const glindaBranchPassages = {
     choices: [
       {
         label: 'Disconnect the wall feed and ride the bubble down — administer direct mercy calibration on-site.',
-        target: 'GLINDA_ORACLE_ENTRY',
+        target: 'GLINDA_AUDIT_APPROACH',
         effects: [
           { type: 'addRefraction', value: 3 },
           { type: 'addLoad', value: 5 },
@@ -200,6 +200,85 @@ You see the Transmitter wire buried in her neck. You see the blood on the slag. 
     ]
   },
 
+
+
+  GLINDA_FIELD_TRIAGE: {
+    id: 'GLINDA_FIELD_TRIAGE',
+    character: 'glinda',
+    text: [
+      {
+        minOverrender: 0,
+        content: `FIELD TRIAGE: COMPARATIVE AUDIT
+
+  You descend into the road-margin telemetry and pull two streams side by side: your grace-vector overlays and a live Lion tremor trace. The difference is obscene in its clarity.
+
+  Your curve is smooth, pink, and self-justifying. The Lion's is jagged, overclocked, and wet with panic that refuses abstraction. Where you call it alignment, the Lion calls it bracing. Where you call it mercy, the Lion calls it being held still long enough to be catalogued.
+
+  [ COMPARATIVE LENS: LOCKED ]
+  [ LION TREMOR TRACE: LIVE ]
+  [ SELF-JUSTIFICATION: UNSTABLE ]
+
+  For the first time, you cannot pretend the Lion's fear is only noise. It is data with a pulse.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Proceed to the porcelain auditor with Lion trace still visible.',
+        target: 'GLINDA_AUDIT_APPROACH',
+        effects: [
+          { type: 'addRefraction', value: 2 },
+          { type: 'addDesync', value: 1 },
+        ],
+      },
+      {
+        label: 'Retreat upward and reframe the Lion trace as manageable variance.',
+        target: 'GLINDA_PATH_ALTITUDE',
+        effects: [
+          { type: 'addInsulation', value: 3 },
+          { type: 'setCompliance', value: 'med' },
+        ],
+      },
+    ],
+    onEnter: [],
+  },
+
+  GLINDA_AUDIT_APPROACH: {
+    id: 'GLINDA_AUDIT_APPROACH',
+    character: 'glinda',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE APPROACH CORRIDOR
+
+  The bubble does not dock at the Oracle immediately. You pass through the approach corridor first: mirrored pearl walls, sterilization fog, and a feed that loops Lion telemetry beside your own grace metrics.
+
+  The Lion's jaw tremor spikes whenever your pink smog index rises. Your insulation rating rises whenever his fear does. The corridor's display does not accuse you. It simply refuses to let the two charts be separated.
+
+  [ PRE-ORACLE AUDIT: REQUIRED ]
+  [ LION/GLINDA CROSS-PLOT: ACTIVE ]
+  [ MERCY CLAIM: PENDING VERIFICATION ]`},
+    ],
+    choices: [
+      {
+        label: 'Continue to calibration intake and accept the comparison record.',
+        target: 'GLINDA_FIELD_TRIAGE',
+        effects: [
+          { type: 'addRefraction', value: 1 },
+          { type: 'addLoad', value: 2 },
+        ],
+      },
+      {
+        label: 'Purge the telemetry mirror and re-enter the Pink Smog loop.',
+        target: 'G_PINK_SMOG',
+        effects: [
+          { type: 'addInsulation', value: 2 },
+          { type: 'addRefraction', value: 2 },
+        ],
+      },
+    ],
+    onEnter: [],
+  },
+
   GLINDA_PATH_ALTITUDE: {
     id: 'GLINDA_PATH_ALTITUDE',
     character: 'glinda',
@@ -221,7 +300,7 @@ You see the Transmitter wire buried in her neck. You see the blood on the slag. 
     ],
     choices: [
       {
-        label: 'Descend when refraction reaches critical — the oracle waits.',
+        label: 'Descend into the approach corridor — begin the comparative audit.',
         target: 'GLINDA_ORACLE_ENTRY',
         effects: [
           { type: 'addRefraction', value: 3 },
