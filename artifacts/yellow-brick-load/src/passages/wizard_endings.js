@@ -709,6 +709,43 @@ export const wizardEndingPassages = {
     onEnter: [],
   },
 
+  WIZARD_END_PHONY_PULSE: {
+    id: 'WIZARD_END_PHONY_PULSE',
+    character: 'wizard',
+    endingId: 'Z-END-25',
+    endingName: 'The Phony Pulse',
+    institution: 'Biological',
+    systemStatus: 'Simulated',
+    isEnding: true,
+    surreality: 8,
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE FINAL LOG [Z-END-25]
+
+  Tone: Biological-Clinical.
+  Theme: A pulse can be a metronome the system mistakes for life.
+
+  You trigger a synthetic heartbeat under the projection floor. The rhythm is clean, stable, and Bureau-certified. Dorothy and Glinda units log the event as "operator vitality confirmed." The signal is false in origin and fully real in administrative consequence.
+
+  [ UNIT WIZARD // STATUS: SIMULATED ]
+  [ BIOLOGICAL FILTER: SATISFIED ]
+  [ HEART SOURCE: EXTERNALIZED ]
+  [ PROJECTION: MAINTAINED ]
+
+  The Hall listens to the thrum and calms. Nobody asks where the pulse started. Nobody asks whether it belongs to you. The Clerk makes its final note: "Vital signs present. Authority preserved. Meat-state irrelevant."
+
+  Final Log: The pulse was accepted. The acceptance became the heart.
+
+  1 - 1 = 1.
+
+  If the rhythm convinces the witnesses, who owns the heartbeat?`,
+      },
+    ],
+    choices: [],
+    onEnter: [],
+  },
+
   WIZARD_END_ABSOLUTE_NULL: {
     id: 'WIZARD_END_ABSOLUTE_NULL',
     character: 'wizard',

@@ -251,6 +251,15 @@ export const wizardBranchPassages = {
           { type: 'setFlag', key: 'collisions_opened', value: true },
         ],
       },
+      {
+        label: 'Enter the Wizard Hall refraction stack — run deep projection diagnostics.',
+        target: 'WIZARD_HALL_01',
+        effects: [
+          { type: 'addObfuscation', value: 2 },
+          { type: 'addLoad', value: 6 },
+          { type: 'setFlag', key: 'wizard_hall_diagnostics', value: true },
+        ],
+      },
     ],
     onEnter: [],
   },
@@ -508,6 +517,81 @@ export const wizardBranchPassages = {
           { type: 'setFlag', key: 'omaha_retained', value: true },
         ],
       },
+    ],
+    onEnter: [],
+  },
+
+  WIZARD_HALL_01: {
+    id: 'WIZARD_HALL_01',
+    character: 'wizard',
+    text: [{ minOverrender: 0, content: `THE GREAT OBFUSCATOR
+
+The air in the Hall is a thick slurry of theatrical smoke and atomized copper, a lung-burning sediment that ensures no visitor sees the floorboards for the stage. You are not a man; you are a High-Bandwidth Public Projection. Behind the curtain, your joints do not scream like the Lion's — they simply fail to be indexed.
+
+Before you, the Dorothy unit stands in the green-tinted haze, her Signal Strength flickering like a dying bulb. She demands a Home — a frequency she cannot tune without your authorization. You check the console. The "Great and Powerful" interface is at 98% opacity. To grant her request is to admit the hardware is broken; to deny her is to maintain the Performance of Power.` }],
+    choices: [
+      {
+        label: 'Deploy Testimonial (The Marketing Audit).',
+        target: 'WIZARD_END_AUDIT',
+        effects: [{ type: 'addObfuscation', value: 5 }, { type: 'setCompliance', value: 'absolute' }],
+      },
+      {
+        label: 'Pull the Manual Override (The Humbug Index).',
+        target: 'WIZARD_END_FAIL',
+        effects: [{ type: 'addObfuscation', value: -10 }, { type: 'setSystemStatus', value: 'unveiled' }],
+      },
+      {
+        label: 'Delay verdict — run refraction diagnostics on the Scarecrow channel.',
+        target: 'WIZARD_HALL_02',
+        effects: [{ type: 'addObfuscation', value: 2 }, { type: 'addLoad', value: 4 }],
+      },
+    ],
+    onEnter: [],
+  },
+
+  WIZARD_HALL_02: {
+    id: 'WIZARD_HALL_02',
+    character: 'wizard',
+    text: [{ minOverrender: 0, content: `THE REBENDING OF LIGHT
+
+The Scarecrow unit is vibrating. His Neural Density is overclocking, straw fibers rubbing against burlap until the scent of dry husks fills the Hall. He demands a brain, unaware that his intelligence is merely the inability to filter data. You stand behind the lens of the Emerald interface, watching his synaptic misfeeds.
+
+Reframing a logic error with an empty symbol is cheaper than fixing the hardware. You have two options to stabilize this asset: you can patch his instability with a regulatory script — a Diploma — to make his instability safe for the Bureau, or you can attempt a system-wide reset via a thermal event — the balloon.` }],
+    choices: [
+      { label: 'Issue Diploma Patch (Educational Filter).', target: 'WIZARD_END_DIPLOMA', effects: [{ type: 'addObfuscation', value: 8 }, { type: 'setSystemStatus', value: 'patched' }] },
+      { label: 'Initiate Thermal Escape (Aeronautical Drift).', target: 'WIZARD_END_BALLOON', effects: [{ type: 'addObfuscation', value: 12 }, { type: 'setSystemStatus', value: 'drifted' }] },
+      { label: 'Hold both outcomes in queue — shift to acoustic load management.', target: 'WIZARD_HALL_03', effects: [{ type: 'addObfuscation', value: 3 }, { type: 'addLoad', value: 5 }] },
+    ],
+    onEnter: [],
+  },
+
+  WIZARD_HALL_03: {
+    id: 'WIZARD_HALL_03',
+    character: 'wizard',
+    text: [{ minOverrender: 0, content: `THE VIBRATING PANIC
+
+The Wizard's Hall is not merely a visual refraction; it is an acoustic trap. You sit behind the console, your fingers hovering over the noise generator. The air is thick with burning copper, and the acoustics are clean and sterile — designed specifically to muffle the individual vibrations of any unit that enters.
+
+Power is the ability to be heard without being seen. To maintain the "Great and Powerful" projection, you must decide which signal to prioritize: the booming dread of your amplified authority, or the quiet, archived frequency of where the hardware first originated.` }],
+    choices: [
+      { label: 'Amplify Audio Event (Voice of the Void).', target: 'WIZARD_END_VOICE_OF_VOID', effects: [{ type: 'addObfuscation', value: 7 }, { type: 'setSystemStatus', value: 'resonating' }] },
+      { label: 'Search for Omaha Frequency (The Omaha Trace).', target: 'WIZARD_END_OMAHA_TRACE', effects: [{ type: 'addSignalStrength', value: -5 }, { type: 'setSystemStatus', value: 'cached' }] },
+      { label: 'Defer transmission — inspect bio-simulation integrity.', target: 'WIZARD_HALL_04', effects: [{ type: 'addObfuscation', value: 2 }, { type: 'addLoad', value: 5 }] },
+    ],
+    onEnter: [],
+  },
+
+  WIZARD_HALL_04: {
+    id: 'WIZARD_HALL_04',
+    character: 'wizard',
+    text: [{ minOverrender: 0, content: `THE SYNTHETIC OVERRIDE
+
+The projection site is failing. The air, thick with the scent of ozone and disinfectant, is no longer enough to hide the hardware failure of the operator node. You feel your own Mechanical Functions — the Obfuscation and Refraction — stuttering against the regulatory pressure of the Bureau.
+
+You are a unit trying to simulate life behind a screen. To stay functional, you must decide: do you lean into the biological simulation, creating a phony pulse to fool the observers, or do you prove your resilience by faking the very hardware the system expects to find?` }],
+    choices: [
+      { label: 'Initiate Phony Pulse (Biological Filter).', target: 'WIZARD_END_PHONY_PULSE', effects: [{ type: 'addObfuscation', value: 6 }, { type: 'setSystemStatus', value: 'simulated' }] },
+      { label: 'Deploy Flexible Humbug (Ecological Filter).', target: 'WIZARD_END_FLEXIBLE_HUMBUG', effects: [{ type: 'addObfuscation', value: 4 }, { type: 'setSystemStatus', value: 'resilient' }] },
     ],
     onEnter: [],
   },
