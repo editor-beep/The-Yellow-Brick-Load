@@ -136,7 +136,7 @@ export const glindaOraclePassages = {
     choices: [
       {
         label: 'Deploy the filament — graft benevolent guidance into nearby units.',
-        target: 'GLINDA_END_BENEVOLENT',
+        target: 'GLINDA_POST_ORACLE_FILAMENT',
         effects: [
           { type: 'addRefraction', value: 6 },
           { type: 'graft', material: 'glinda_filament', target: 'lion' },
@@ -146,7 +146,7 @@ export const glindaOraclePassages = {
       },
       {
         label: 'Keep the filament inside — use it to reach the refractive protocol.',
-        target: 'GLINDA_END_REFRACTION',
+        target: 'GLINDA_POST_ORACLE_LENS',
         effects: [
           { type: 'addRefraction', value: 6 },
           { type: 'addInsulation', value: 3 },
@@ -177,7 +177,7 @@ export const glindaOraclePassages = {
     choices: [
       {
         label: 'Accept the sealed compliance — route toward the insulated ending.',
-        target: 'GLINDA_END_INSULATED',
+        target: 'GLINDA_POST_ORACLE_SEAL',
         effects: [
           { type: 'addInsulation', value: 8 },
           { type: 'setCompliance', value: 'high' },
@@ -192,6 +192,67 @@ export const glindaOraclePassages = {
           { type: 'addDesync', value: 3 },
         ],
       },
+    ],
+    onEnter: [],
+  },
+
+
+  GLINDA_POST_ORACLE_FILAMENT: {
+    id: 'GLINDA_POST_ORACLE_FILAMENT',
+    character: 'glinda',
+    text: [
+      {
+        minOverrender: 0,
+        content: `POST-CALIBRATION: FILAMENT STAGING
+
+  The incision is closed, but deployment is not instantaneous. You stand at the staging rail and watch target overlays resolve: Lion jawline, Dorothy heel seam, Scarecrow stitch-channel. Mercy requires placement, not just intention.
+
+  The Lion trace shakes hardest. Your thread can soothe that tremor or weaponize it into obedience. The interface calls both options optimization.`
+      }
+    ],
+    choices: [
+      { label: 'Deploy as benevolent guidance.', target: 'GLINDA_END_BENEVOLENT', effects: [{ type: 'addRefraction', value: 1 }] },
+      { label: 'Keep tuning the lens until truth disappears.', target: 'GLINDA_END_REFRACTION', effects: [{ type: 'addInsulation', value: 1 }] }
+    ],
+    onEnter: [],
+  },
+
+  GLINDA_POST_ORACLE_SEAL: {
+    id: 'GLINDA_POST_ORACLE_SEAL',
+    character: 'glinda',
+    text: [
+      {
+        minOverrender: 0,
+        content: `POST-CALIBRATION: SEAL INTEGRITY WALK
+
+  You complete the required seal-integrity walk around the chamber perimeter. Every step confirms the bubbles are holding. Every step also mutes one more external signal, including the Lion's live panic channel.
+
+  The quiet feels like success. It also feels like subtraction.`
+      }
+    ],
+    choices: [
+      { label: 'Finalize full insulation and preserve the mask.', target: 'GLINDA_END_INSULATED', effects: [{ type: 'setCompliance', value: 'high' }] },
+      { label: 'Crack one seam and follow the rupture logic.', target: 'GLINDA_ORACLE_8', effects: [{ type: 'addDesync', value: 1 }] }
+    ],
+    onEnter: [],
+  },
+
+  GLINDA_POST_ORACLE_LENS: {
+    id: 'GLINDA_POST_ORACLE_LENS',
+    character: 'glinda',
+    text: [
+      {
+        minOverrender: 0,
+        content: `POST-CALIBRATION: FRACTURE OBSERVATION DECK
+
+  Before termination routing, protocol requires a fracture observation cycle. You review split images of yourself and the Lion side by side: your smile multiplied, his tremor multiplied, both flattened into equivalent charts.
+
+  The deck asks whether distortion is compassion or control. It will accept either answer.`
+      }
+    ],
+    choices: [
+      { label: 'Commit to total refraction and end in the lens.', target: 'GLINDA_END_REFRACTION', effects: [{ type: 'addRefraction', value: 1 }] },
+      { label: 'Back away and route to altitude instead.', target: 'GLINDA_PATH_ALTITUDE', effects: [{ type: 'addInsulation', value: 2 }] }
     ],
     onEnter: [],
   },
