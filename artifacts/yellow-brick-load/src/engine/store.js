@@ -115,7 +115,9 @@ export const useGameStore = create((set, get) => ({
       markWitchWestInitSeen(initNode)
     }
     incrementCharacterPlayCount(character)
-    set({ character, currentNode: initNode })
+    // Start each character run from a clean session state so stats/flags from
+    // previous characters cannot bleed into oracle buckets or endings.
+    set({ ...INITIAL_STATE, character, currentNode: initNode })
   },
 
   // ── State Mutations ──────────────────────────────────────────────────────
