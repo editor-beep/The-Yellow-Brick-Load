@@ -118,8 +118,8 @@ Oz OS suggests starting at the beginning of the signal. </p>
       </div>
 
       <footer className="title-footer">
+        <p>THE MEANS OF PRODUCTION PRESS // AUDIT_VER_2026.04</p>
         <p>
-          © 2026 The Means of Production{' '}
           <a href="https://www.themeansofproduction.press" target="_blank" rel="noreferrer">
             themeansofproduction.press
           </a>
