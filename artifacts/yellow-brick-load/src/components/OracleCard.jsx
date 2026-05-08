@@ -30,6 +30,7 @@ export default function OracleCard() {
   const reduceMotion = useMemo(prefersReducedMotion, [])
   const [phase, setPhase] = useState(reduceMotion ? 'revealed' : 'shuffle')
   const variance = useMemo(makeVariance, [oracleCard?.id])
+  const [artLookupId, setArtLookupId] = useState(null)
   const dismissRef = useRef(null)
   const cardRef = useRef(null)
   const overlayRef = useRef(null)
@@ -92,6 +93,21 @@ export default function OracleCard() {
   useEffect(() => {
     setArtFailed(false)
   }, [oracleCard?.id])
+
+  useEffect(() => {
+    if (!oracleCard) {
+      setArtLookupId(null)
+      return
+    }
+    const prefix = `${character}_`
+    const characterCardIds = Object.keys(cardSvgs).filter((key) => key.startsWith(prefix))
+    if (characterCardIds.length === 0) {
+      setArtLookupId(oracleCard.id || `${character}_01`)
+      return
+    }
+    const randomIdx = Math.floor(Math.random() * characterCardIds.length)
+    setArtLookupId(characterCardIds[randomIdx])
+  }, [character, oracleCard])
 
   // Drive the reveal sequence whenever a new card arrives.
   useEffect(() => {
@@ -241,10 +257,7 @@ export default function OracleCard() {
   const { name, cardText, ritualText, effects, effect, surreality, id } = oracleCard
   // Support both new `effects` array and legacy single `effect` field
   const effectsArray = effects ?? (effect ? [effect] : [])
-  // Stat interlopers currently omit `id`; fall back to the character's first
-  // canonical card so the reveal phase still renders SVG art.
-  const artLookupId = id || `${character}_01`
-  const rawArtUrl = cardSvgs[artLookupId]
+  const rawArtUrl = (artLookupId ? cardSvgs[artLookupId] : undefined) || (id ? cardSvgs[id] : undefined)
   const artUrl = artFailed ? null : rawArtUrl
   const interloper = interloperFor(id) || { name: 'Bureau', stamp: 'OZ-RGSTR' }
   const primaryLabel = describeEffect(effectsArray[0])
