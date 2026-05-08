@@ -10,6 +10,7 @@
         { id: 'wizard',     label: 'The Wizard',    unit: 'Z-00',  description: 'Curtain integrity: compromised.' },
         { id: 'witch_east', label: 'Witch East',    unit: 'E-00',  description: 'Last known status: crushed.' },
         { id: 'glinda',     label: 'Glinda',        unit: 'G-01',  description: 'Bubble transit: nominal.' },
+        { id: 'denizen',    label: 'The Denizen',   unit: 'DN-09', description: 'Atmospheric residue. Workstation-bound.' },
       ]
 
       const BASELINE_CHARACTERS = ['lion', 'tin_man', 'scarecrow', 'dorothy']
@@ -29,6 +30,7 @@
           witch_east: counts.wizard >= 2,
           witch_west: counts.witch_east >= 1,
           glinda: counts.wizard >= 2 && counts.witch_east >= 2 && counts.witch_west >= 2,
+          denizen: hasAllAtLeast(counts, ['lion', 'tin_man', 'scarecrow', 'dorothy', 'wizard', 'witch_east', 'witch_west', 'glinda'], 1),
         }
 
         return CHARACTERS.filter(({ id }) => !unlocked[id]).map(({ id }) => id)
