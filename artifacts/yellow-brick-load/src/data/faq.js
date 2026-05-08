@@ -81,7 +81,8 @@ Replay is the intended way to uncover hidden branches, compare character arcs, a
 - The Wizard: complete at least 2 runs each with Lion, Tin Man, Scarecrow, and Dorothy.
 - Witch East: complete at least 2 Wizard runs.
 - Witch West: complete at least 1 Witch East run.
-- Glinda: complete at least 2 runs each with Wizard, Witch East, and Witch West.`
+- Glinda: complete at least 2 runs each with Wizard, Witch East, and Witch West.
+- The Denizen: play at least 1 run each with Lion, Tin Man, Scarecrow, Dorothy, Wizard, Witch East, Witch West, and Glinda.`
   },
   {
     id: 'content-and-tone',

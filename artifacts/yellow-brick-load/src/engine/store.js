@@ -9,7 +9,7 @@
  *   compliance     — "low" | "med" | "high" | "broken"
  *   reset_count    — how many times player has soft-reset
  *   overrender     — text decay level (0–5)
- *   character      — which of the 8 characters is active
+ *   character      — which of the 9 characters is active
  *   currentNode    — passage ID currently rendered
  *   history        — ordered list of visited node IDs
  *   flags          — arbitrary boolean flags for plot state
@@ -224,7 +224,7 @@ export const CHARACTER_PLAY_COUNTS_KEY = 'ybl_character_play_counts'
 export const WITCH_WEST_INIT_SEEN_KEY = 'ybl_witch_west_init_seen'
 export const PERSISTENT_FLAGS_KEY = 'ybl_persistent_flags'
 
-const ALL_CHARACTERS = ['lion', 'tin_man', 'scarecrow', 'dorothy', 'witch_west', 'witch_east', 'glinda', 'wizard']
+const ALL_CHARACTERS = ['lion', 'tin_man', 'scarecrow', 'dorothy', 'witch_west', 'witch_east', 'glinda', 'wizard', 'denizen']
 
 function readJSON(key, fallback) {
   try {

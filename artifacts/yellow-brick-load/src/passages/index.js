@@ -48,6 +48,9 @@ import { witchEastBranchPassages }  from './witch_east_branches.js'
 import { witchEastEndingPassages }  from './witch_east_endings.js'
 import { witchEastOraclePassages }  from './witch_east_oracle.js'
 
+import { denizenBranchPassages }    from './denizen_branches.js'
+import { denizenEndingPassages }    from './denizen_endings.js'
+
 import { enforcerPassages }         from './enforcers.js'
 import { sharedPassages }            from './shared_passages.js'
 
@@ -86,6 +89,7 @@ export const allPassages = {
   ...wizardBranchPassages,  ...wizardEndingPassages,  ...wizardOraclePassages,
   ...witchWestBranchPassages, ...witchWestEndingPassages, ...witchWestOraclePassages,
   ...witchEastBranchPassages, ...witchEastEndingPassages, ...witchEastOraclePassages,
+  ...denizenBranchPassages, ...denizenEndingPassages,
   ...enforcerPassages,
   ...sharedPassages,
   ...ghostSignalPassage,
