@@ -1,80 +1,83 @@
 /**
  * YELLOW BRICK LOAD — Frequently Logged Queries
- * Updated for player-facing clarity.
+ * Recast in a mythic voice for wanderers of the corridor.
  */
 
 export const faqEntries = [
   {
     id: 'what-is-yellow-brick-load',
     question: 'What is The Yellow Brick Load?',
-    answer: `The Yellow Brick Load is a branching interactive-fiction game set inside a corrupted Oz simulation. You choose a character, move through passages, and your choices change both the story route and the system state.
+    answer: `You may find yourself standing at the threshold of a story that behaves like a machine and a machine that behaves like a dream. The Yellow Brick Load is a branching interactive-fiction pilgrimage through a corrupted Oz simulation, where every path you choose etches itself into the world that watches you.
 
-It is designed for replay: each run can produce different combinations of metrics, branches, and endings.`
+You will discover that no run is final scripture. Routes bend, systems answer, and endings arrive as verdicts, prophecies, or warnings. What appears stable in one journey may become unrecognizable in the next.`
   },
   {
     id: 'how-do-i-play',
-    question: 'How do I play?',
-    answer: `1. Select a character on the title screen.
-2. Read the current passage and choose one of the available options.
-3. Each choice may change your metrics (like Load, Desync, Smudge, Compliance, or character-specific stats).
-4. Continue until you reach an ending, then restart to explore alternate routes.
+    question: 'How do you walk the road?',
+    answer: `You begin by choosing who you are willing to become on the title screen.
 
-There are no reflex challenges or time limits—progress is driven by reading and decision-making.`
+From there:
+1. You read the current passage like an omen.
+2. You choose from the offered actions.
+3. The simulation records your will and alters its hidden balances.
+4. You continue until an ending seals that particular thread.
+
+There are no reflex tests, no timers, no race against a clock—only attention, interpretation, and choice. The game asks not how fast you move, but how deeply you look.`
   },
   {
     id: 'core-metrics',
-    question: 'What do the core metrics mean?',
-    answer: `The core metrics track your system condition:
+    question: 'What are the core metrics really measuring?',
+    answer: `You may wonder whether the numbers are merely counters. They are not. They are weather reports from inside the mythic engine:
 
-- Load: overall pressure in the simulation.
-- Desync: drift between your current route and system stability.
-- Smudge: visual corruption level.
-- Compliance: how closely your behavior matches expected patterns.
-- Overrender: text-decay level that alters how passages are presented.
+- Load: the burden pressing on the simulation's frame.
+- Desync: the distance between your present path and structural harmony.
+- Smudge: the bloom of contamination in what you see.
+- Compliance: how closely your behavior echoes what the system expects.
+- Overrender: the degree to which language itself begins to fracture.
 
-Higher values are not always "bad," but they do push you toward different narrative states and endings.`
+High values are not simply failure states. In this world, pressure can be peril, revelation, or invitation. The metrics do not judge you—they reposition you.`
   },
   {
     id: 'wetware-stats',
     question: 'What are character-specific (wetware) stats?',
-    answer: `In addition to shared metrics, each character has their own stat model (for example: Vibration, Corrosion, Displacement, or Refraction).
+    answer: `Beyond the shared gauges, each character carries a private burden: Vibration, Corrosion, Displacement, Refraction, and other internal fault-lines.
 
-These stats represent pressures unique to that character's storyline. Certain events and thresholds only trigger when those character stats reach critical levels.`
+You will discover these are not decorative labels. They track the unique stress grammar of each arc. When certain thresholds awaken, scenes shift, events trigger, and doors that were sealed may decide to open.`
   },
   {
     id: 'oracle-system',
     question: 'What is the Oracle system?',
-    answer: `The Oracle is a threshold-triggered event system. When a critical stat condition is met, an Interloper appears and forces a card draw.
+    answer: `When critical conditions are met, the corridor interrupts you. An Interloper appears. The Oracle draws.
 
-The drawn card immediately applies a gameplay effect and can redirect the tone or direction of your run. You cannot manually pick the card.`
+You do not select the card; the system selects the moment. The drawn card applies immediate effects and can tilt your run toward mercy, escalation, recursion, or strange reprieve. The Oracle is less a bonus mechanic and more a ritual of consequence.`
   },
   {
     id: 'oracle-decks',
     question: 'How do Oracle Decks work?',
-    answer: `Oracle cards are grouped into themed decks tied to specific characters and institutional forces. A trigger event draws one card from the relevant deck at random.
+    answer: `Oracle cards are organized into themed decks aligned with characters, institutions, and symbolic regimes. When a trigger fires, a card is drawn at random from the relevant deck.
 
-Deck identity matters because each set emphasizes different risks, symbolic language, and mechanical effects.`
+You may find that deck identity matters as much as chance itself. Each deck favors distinct motifs, risks, and systemic side effects, so the same threshold can lead to very different destinies depending on whose mythology you are currently inhabiting.`
   },
   {
     id: 'overrender',
-    question: 'Why does the text become distorted?',
-    answer: `Text distortion is controlled by Overrender. As Overrender rises, passages can shift from stable prose into fragmented or recursive variants.
+    question: 'Why does the text distort, repeat, or decay?',
+    answer: `You are witnessing Overrender. As it rises, prose may splinter, loop, erode, or mutate into unstable variants.
 
-This is intentional narrative feedback: the interface reflects accumulating system stress instead of staying cosmetically neutral.`
+This is intentional. The interface is not a neutral window; it is part of the fiction. When the system strains, language strains with it. If the text feels haunted, that sensation is the mechanic speaking in its native tongue.`
   },
   {
     id: 'endings-and-replay',
-    question: 'How do endings and replay work?',
-    answer: `When you reach an ending, the run is complete, but your discovery process is not. Different choices, stat paths, and oracle outcomes can reveal entirely different endings.
+    question: 'How do endings and replay unfold?',
+    answer: `An ending completes a run, not the world. You will discover that alternate choices, altered stat trajectories, and different Oracle outcomes can expose entirely different conclusions.
 
-Replay is the intended way to uncover hidden branches, compare character arcs, and map the broader simulation logic.`
+Replay is the intended method of understanding. Map one route and you gain a story; map many and you begin to perceive the architecture beneath the story—the hidden lattice of cause, pressure, and myth.`
   },
   {
     id: 'character-unlocks',
-    question: 'How do I unlock each character?',
-    answer: `Character access is progression-based:
+    question: 'How do you unlock each character?',
+    answer: `Progression is ceremonial. New perspectives open when you have proven passage through prior ones:
 
-- The Lion: available from the start.
+- The Lion: available from the beginning.
 - The Tin Man: complete at least 1 Lion run.
 - The Scarecrow: complete at least 1 Tin Man run.
 - Dorothy: complete at least 1 Scarecrow run.
@@ -82,20 +85,22 @@ Replay is the intended way to uncover hidden branches, compare character arcs, a
 - Witch East: complete at least 2 Wizard runs.
 - Witch West: complete at least 1 Witch East run.
 - Glinda: complete at least 2 runs each with Wizard, Witch East, and Witch West.
-- The Denizen: play at least 1 run each with Lion, Tin Man, Scarecrow, Dorothy, Wizard, Witch East, Witch West, and Glinda.`
+- The Denizen: complete at least 1 run each with Lion, Tin Man, Scarecrow, Dorothy, Wizard, Witch East, Witch West, and Glinda.
+
+You may think of this as a lock-and-key ladder. Yet it is also a liturgy: the game asks you to witness each angle before it grants you the final masks.`
   },
   {
     id: 'content-and-tone',
-    question: 'What kind of content should I expect?',
-    answer: `The Yellow Brick Load uses industrial-horror and bureaucratic-surreal language. Expect unsettling imagery, institutional themes, and psychological pressure rather than jump scares.
+    question: 'What tone and content should you expect?',
+    answer: `You will encounter industrial-horror atmospheres, bureaucratic surrealism, symbolic violence, and sustained psychological pressure. The dread here is rarely a sudden shock; it is a slow administrative eclipse.
 
-If the tone feels intense, pause between runs and return when you want a slower read.`
+If you find yourself overloaded, step away between runs. Return when you want to read carefully. The game rewards patience, pattern recognition, and emotional pacing.`
   },
   {
     id: 'book-vs-film',
-    question: 'Is this based on the Oz books or the film adaptation?',
-    answer: `The project primarily draws from L. Frank Baum's Oz material and reinterprets it through a systems-fiction lens.
+    question: 'Is this drawn from Oz books or film adaptation?',
+    answer: `The Yellow Brick Load primarily draws from the Oz tradition associated with L. Frank Baum, then refracts that inheritance through systems fiction, speculative ritual, and digital ruin.
 
-You may notice familiar names, but this is not a retelling of the classic film plot.`
+You may recognize names, echoes, and archetypes, but this is not a direct retelling of any single classic plot. It is an excavation and a reassembly.`
   }
 ]
