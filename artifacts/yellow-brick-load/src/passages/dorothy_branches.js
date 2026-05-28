@@ -1466,7 +1466,7 @@ The air is thick with the scent of recycled ozone. Your displacement is a consta
     choices: [
       {
         label: "Follow the Vibration (Lion's Trace)",
-        target: 'SHARED_POPPY_FIELD',
+        target: 'D_POPPY_APPROACH',
         showIf: { var: 'visitedBy', contains: 'lion' },
         effects: [
           { type: 'addSilverFriction', value: 5 },
@@ -1476,27 +1476,27 @@ The air is thick with the scent of recycled ozone. Your displacement is a consta
       },
       {
         label: "Follow the Oxidation (Tin Man's Trace)",
-        target: 'SHARED_EMERALD_CITY_GATES',
+        target: 'D_LOAD_WEIGHT',
         showIf: { var: 'visitedBy', contains: 'tinman' },
         effects: [
           { type: 'addLoad', value: 5 },
           { type: 'setArrivalState', value: 'tinman_residue' },
         ],
-        content: `You trace the iridescent rust line. You follow the path of a Unit that ran out of maintenance. The oxidation streak terminates at the green grill of the City — where the projection promised a maintenance window that never opened.`,
+        content: `You trace the iridescent rust line. You follow the path of a Unit that ran out of maintenance. The oxidation streak leads you to the mid-sector checkpoint — where the compliance station is already aware of the rust's owner.`,
       },
       {
         label: "Follow the Straw (Scarecrow's Trace)",
-        target: 'SHARED_UNMOORED_NIGHT',
+        target: 'D_GALE_EDGE',
         showIf: { var: 'visitedBy', contains: 'scarecrow' },
         effects: [
           { type: 'addNeuralDensity', value: 5 },
           { type: 'setArrivalState', value: 'scarecrow_residue' },
         ],
-        content: `You gather the loose straw caught in the grooves of the brick. The pattern of forty-two crows opens a gap in the road's index — the Scarecrow's overclocked recursion has already pried this coordinate loose from the grid.`,
+        content: `You gather the loose straw caught in the grooves of the brick. The pattern leads toward the gale-scar — the Scarecrow's overclocked recursion has already pried this coordinate loose, and the loose straw is still orbiting the impact site.`,
       },
       {
         label: 'The Direct Line (The Clean Frequency)',
-        target: 'T_TRANSMITTER',
+        target: 'D_GALE_EDGE',
         effects: [
           { type: 'addSignalStrength', value: 15 },
           // setPersistentFlag writes to localStorage for the cross-playthrough
@@ -1506,7 +1506,7 @@ The air is thick with the scent of recycled ozone. Your displacement is a consta
           { type: 'setFlag', key: 'dorothy_direct_line', value: true },
           { type: 'setArrivalState', value: 'clean' },
         ],
-        content: `You put your hands over your ears and focus. You refuse to filter your displacement through the damage of others. The signal is the clearest you have ever felt. And it is still not enough to get you home. The system isn't jamming you because of them; it is jamming you because that is what the system does.`,
+        content: `You put your hands over your ears and focus. You refuse to filter your displacement through the damage of others. The signal is the clearest you have ever felt. And it is still not enough to get you home. The clean frequency still passes through the gale's mark on the road — the impact site cannot be routed around.`,
       },
     ],
     onEnter: [
@@ -1568,5 +1568,639 @@ The spindle is crowded. You hear Kansas, but it is layered under the sub-vocal r
         },
       },
     ],
+  },
+
+  // ─────────────────────────────────────────────────────────────────────────
+  // DOROTHY WAYPOINT SECTOR: THE GALE / THE YELLOW BRICK LOAD / THE POPPY FIELD
+  // Reached from D_YELLOW_BRICK_LOAD. Provides the vertical depth that the
+  // Direct Line and cross-character trace choices previously lacked.
+  // Sector map:
+  //   D_GALE_EDGE ──► D_GALE_WAKE ──► D_GALE_RUPTURE
+  //        │               │                 │
+  //        ▼               ▼                 ▼
+  //   D_POPPY_APPROACH  D_LOAD_WEIGHT   T_TRANSMITTER / DOROTHY_END_HOME / DOROTHY_END_DISPLACEMENT
+  //        │               │
+  //        ▼               ▼
+  //   D_POPPY_INTERIOR  D_CHECKPOINT_COMPLY ──► D_CHECKPOINT_FILE_READ
+  //        │               │
+  //        ▼               ▼
+  //   D_POPPY_DREAM    D_CHECKPOINT_FLEE
+  //        │
+  //        ▼
+  //   D_POPPY_RESISTANCE
+  // ─────────────────────────────────────────────────────────────────────────
+
+  D_GALE_EDGE: {
+    id: 'D_GALE_EDGE',
+    character: 'dorothy',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE GALE'S RESIDUE
+
+The Yellow Brick Load is marked here. A scorched circle in the brick where the house came down — the Bureau's survey notation: [IMPACT SITE: CLOSED, FILED]. The air above the scar still moves in a tight counter-clockwise rotation, the gale's echo running at reduced power, like a cooling fan that doesn't know the storm is over.
+
+The Silver Slippers detect it. They vibrate at the gale's base frequency.
+
+[ GALE RESIDUE: ACTIVE ]
+[ HOME SIGNAL: INTERFERENCE-ADJACENT ]
+[ SILVER FRICTION: RESONATING ]
+
+The Kansas dust on your dress has lifted off the fabric slightly, oriented toward the rotation. Something about the gale's residue is broadcasting on the same channel as home.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Enter the residual rotation — let the gale-frequency amplify the home signal.',
+        target: 'D_GALE_WAKE',
+        effects: [
+          { type: 'addSilverFriction', value: 5 },
+          { type: 'addDisplacement', value: 3 },
+          { type: 'setFlag', key: 'dorothy_entered_gale_residue', value: true },
+        ],
+      },
+      {
+        label: "Walk past the scar — use the road's momentum to carry you forward.",
+        target: 'D_LOAD_WEIGHT',
+        effects: [
+          { type: 'addLoad', value: 6 },
+          { type: 'addDisplacement', value: 4 },
+          { type: 'setCompliance', value: 'med' },
+        ],
+      },
+      {
+        label: "Let the slippers read the gale-frequency — drift toward the red field at the road's edge.",
+        target: 'D_POPPY_APPROACH',
+        effects: [
+          { type: 'addSilverFriction', value: 3 },
+          { type: 'addDesync', value: 2 },
+        ],
+      },
+      {
+        label: 'Click the heels in the residue — attempt a gale-amplified transmission to Kansas.',
+        target: 'D_GALE_RUPTURE',
+        effects: [
+          { type: 'addSilverFriction', value: 10 },
+          { type: 'addWarrant', value: 5 },
+          { type: 'addDisplacement', value: 2 },
+        ],
+      },
+    ],
+    onEnter: [],
+  },
+
+  D_GALE_WAKE: {
+    id: 'D_GALE_WAKE',
+    character: 'dorothy',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE GALE'S EYE
+
+You are inside the rotation. The counter-clockwise motion has no wind speed left in it — it is a structural residue, a coordinate imprint where the air still remembers what it was told to do.
+
+The Kansas dust swirls upward off your dress in a slow helix. The home frequency is louder here. The farmhouse appears in your peripheral vision: flat, gray, undeniable, superimposed over the Oz-standard road. When you turn to look directly, it isn't there.
+
+[ OVERRENDER: DUAL COORDINATES ]
+[ HOME SIGNAL: BRIEFLY COHERENT ]
+[ DISPLACEMENT: SUSPENDED ]
+
+The Bureau has not filed this residue. The gale's wake is a gap in the indexing — an unregistered space where the coordinate system momentarily double-exposes. You are standing in two places at once.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Focus on the farmhouse image — try to hold the dual coordinate until it locks.',
+        target: 'D_GALE_RUPTURE',
+        effects: [
+          { type: 'addSignalStrength', value: 12 },
+          { type: 'addDesync', value: 5 },
+          { type: 'addDisplacement', value: 3 },
+        ],
+      },
+      {
+        label: 'Use the wake as cover — stay in the unindexed zone, bypass the patrol window.',
+        target: 'D_LOAD_WEIGHT',
+        effects: [
+          { type: 'addWarrant', value: -3 },
+          { type: 'addDesync', value: 4 },
+          { type: 'setCompliance', value: 'low' },
+        ],
+      },
+      {
+        label: "Let the rotation carry you sideways — into the red field at the road's edge.",
+        target: 'D_POPPY_APPROACH',
+        effects: [
+          { type: 'addDisplacement', value: 5 },
+          { type: 'addSilverFriction', value: 3 },
+        ],
+      },
+    ],
+    onEnter: [],
+  },
+
+  D_GALE_RUPTURE: {
+    id: 'D_GALE_RUPTURE',
+    character: 'dorothy',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE RUPTURE
+
+You forced the double-exposure past the threshold the Bureau uses to classify events as Non-Events. The home-signal and the Oz-coordinate are briefly occupying the same space.
+
+The Silver Slippers are burning. The Kansas dust has reconstituted itself in the air around you — a miniature storm in a survey marker. The Dust Clerk at the road's edge is recording this as a 'Coordinate Violation: Unauthorized Simultaneity.'
+
+[ SIGNAL STRENGTH: MAXIMUM ]
+[ SILVER FRICTION: CRITICAL ]
+[ WARRANT: ESCALATING ]
+
+The farmhouse is here. It is also not here. The rupture will close in seconds — the Bureau's index routine is already recompiling the coordinate. You have one transmission window.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Broadcast through the rupture — attempt a full home-frequency break.',
+        target: 'DOROTHY_END_HOME',
+        effects: [
+          { type: 'addSilverFriction', value: 15 },
+          { type: 'addDisplacement', value: -5 },
+          { type: 'setCompliance', value: 'broken' },
+        ],
+      },
+      {
+        label: 'Contain the rupture — direct the amplified signal toward the Transmitter.',
+        target: 'T_TRANSMITTER',
+        effects: [
+          { type: 'addSignalStrength', value: 10 },
+          { type: 'setArrivalState', value: 'gale_loaded' },
+          { type: 'setFlag', key: 'dorothy_gale_rupture', value: true },
+        ],
+      },
+      {
+        label: "Let the rupture collapse — scatter the signal where the Bureau can't file it.",
+        target: 'D_POPPY_APPROACH',
+        effects: [
+          { type: 'addDisplacement', value: 8 },
+          { type: 'addDesync', value: 5 },
+        ],
+      },
+      {
+        label: 'Let the rupture scatter entirely — displacement maximum, jurisdiction: none.',
+        target: 'DOROTHY_END_DISPLACEMENT',
+        effects: [
+          { type: 'addDisplacement', value: 20 },
+          { type: 'setCompliance', value: 'broken' },
+        ],
+      },
+    ],
+    onEnter: [],
+  },
+
+  D_LOAD_WEIGHT: {
+    id: 'D_LOAD_WEIGHT',
+    character: 'dorothy',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE WEIGHT OF THE LOAD
+
+The bricks here are older. The Bureau's stamps are worn — VALID PATH / APPROVED DIRECTION, repeated until legible, then worn to texture, then worn to color. The Yellow Brick Load is not aspirational at this depth; it is industrial. It is a grind.
+
+The Silver Slippers have logged 7,000 steps since the impact site. The Kansas dust on your dress is thinner — abraded away by the friction of the road's atmosphere, grain by grain, until the color of home is a smell rather than a visible thing.
+
+[ LOAD: HIGH ]
+[ DISPLACEMENT: CHRONIC ]
+[ HOME SIGNAL: ATTENUATED ]
+
+A Compliance Checkpoint Station has been erected at the mid-sector mark. A Munchkin-class auditor leans out of the window, holding a warrant pad.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Approach the checkpoint — submit documentation, accept the warrant notation.',
+        target: 'D_CHECKPOINT_COMPLY',
+        effects: [
+          { type: 'addWarrant', value: 5 },
+          { type: 'addLoad', value: 5 },
+          { type: 'setCompliance', value: 'high' },
+        ],
+      },
+      {
+        label: 'Walk past without stopping — refuse to make eye contact with the auditor.',
+        target: 'D_CHECKPOINT_FLEE',
+        effects: [
+          { type: 'addWarrant', value: 8 },
+          { type: 'addDisplacement', value: 3 },
+          { type: 'setCompliance', value: 'low' },
+        ],
+      },
+      {
+        label: 'Veer off the bricks at the checkpoint — use the high-grass verge to bypass the station.',
+        target: 'D_POPPY_APPROACH',
+        effects: [
+          { type: 'addDesync', value: 3 },
+          { type: 'addSilverFriction', value: 2 },
+        ],
+      },
+      {
+        label: 'Push past the checkpoint weight — follow the Load straight toward the City gates.',
+        target: 'SHARED_EMERALD_CITY_GATES',
+        effects: [
+          { type: 'addLoad', value: 10 },
+          { type: 'setCompliance', value: 'high' },
+          { type: 'addDisplacement', value: 2 },
+        ],
+      },
+    ],
+    onEnter: [],
+  },
+
+  D_CHECKPOINT_COMPLY: {
+    id: 'D_CHECKPOINT_COMPLY',
+    character: 'dorothy',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE WARRANT WINDOW
+
+The auditor has a face that has been optimized for data collection — wide-set eyes that log everything, a mouth calibrated for legal language. It reviews your file. The Kansas origin point is marked in red. The Silver Slippers are logged as 'Reassigned Property: Bureau Claim Pending.'
+
+"You have an open Deletion Event on your record," the auditor notes, without looking up. "The Witch of the East. Warrant Level: Elevated. Compliance Status: Provisional."
+
+It stamps your form. The stamp reads: KINETIC ASSET / AMBULATORY / ROAD-PERMITTED.
+
+[ WARRANT: UPDATED ]
+[ COMPLIANCE: PROVISIONAL HIGH ]
+[ STATUS: LOGGED ]
+
+You are now documented as a permitted traveler on the Yellow Brick Load. The documentation does not feel like freedom. It feels like the road has a receipt for you.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Continue with the documentation — follow the compliant road toward the City.',
+        target: 'SHARED_EMERALD_CITY_GATES',
+        effects: [
+          { type: 'addLoad', value: 8 },
+          { type: 'setCompliance', value: 'high' },
+          { type: 'addDisplacement', value: 2 },
+        ],
+      },
+      {
+        label: 'Read your own file — find out what the Bureau actually has on you.',
+        target: 'D_CHECKPOINT_FILE_READ',
+        effects: [
+          { type: 'addDesync', value: 3 },
+          { type: 'addWarrant', value: 3 },
+        ],
+      },
+      {
+        label: 'Tear the stamp off the form — refuse the kinetic asset classification.',
+        target: 'D_CHECKPOINT_FLEE',
+        effects: [
+          { type: 'addWarrant', value: 10 },
+          { type: 'setCompliance', value: 'low' },
+          { type: 'addDisplacement', value: 2 },
+        ],
+      },
+    ],
+    onEnter: [],
+  },
+
+  D_CHECKPOINT_FILE_READ: {
+    id: 'D_CHECKPOINT_FILE_READ',
+    character: 'dorothy',
+    text: [
+      {
+        minOverrender: 1,
+        content: `THE CASE FILE: D-01
+
+Unit D-01 (Dorothy). Kansas Origin: UNREGISTERED. Current Coordinate: Oz-Primary. Status: Displaced Asset.
+
+Case Summary: Unit D-01 arrived via atmospheric conveyance (Class: Unauthorized Transport). Upon arrival, performed Deletion Event against Administrative Asset W-EAST. Silver Slippers: Reassigned to Unit D-01 per Bureau Protocol 7.7 (Transfer on Incapacitation). Warrant: ELEVATED.
+
+Notable Anomaly: Unit retains Home-Frequency Signal beyond standard displacement threshold. Signal Source: Unknown. Signal Utility: Under Assessment. Recommendation: ROUTE TO EMERALD CITY for evaluation and extraction.
+
+Notes from Dust Clerk 7: "The Kansas signal has not attenuated at the expected rate. At current displacement levels this unit should have lost the home coordinate. Something is maintaining the signal. The slippers are the obvious candidate, but the lubricant report suggests the slippers are drawing from the unit — not broadcasting to it."
+
+[ CASE FILE: ARCHIVED ]
+[ HOME SIGNAL: FLAGGED AS ANOMALY ]
+
+You are the anomaly. The Bureau knows you are transmitting something it cannot account for.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Accept the anomaly designation — use it as leverage against further filing.',
+        target: 'D_LOAD_WEIGHT',
+        effects: [
+          { type: 'addSignalStrength', value: 8 },
+          { type: 'addWarrant', value: -2 },
+          { type: 'setFlag', key: 'dorothy_anomaly_known', value: true },
+        ],
+      },
+      {
+        label: "Follow the Dust Clerk's note — find out what the slippers are drawing from you.",
+        target: 'D_GALE_EDGE',
+        effects: [
+          { type: 'addDesync', value: 5 },
+          { type: 'addSilverFriction', value: 5 },
+          { type: 'setFlag', key: 'dorothy_slipper_debt_known', value: true },
+        ],
+      },
+      {
+        label: 'Route yourself to the Transmitter — find the signal the City is extracting from your home coordinate.',
+        target: 'T_TRANSMITTER',
+        effects: [
+          { type: 'addSignalStrength', value: 5 },
+          { type: 'setArrivalState', value: 'anomaly_aware' },
+          { type: 'setFlag', key: 'dorothy_direct_line', value: true },
+          { type: 'setPersistentFlag', key: 'dorothy_direct_line' },
+        ],
+      },
+    ],
+    onEnter: [],
+  },
+
+  D_CHECKPOINT_FLEE: {
+    id: 'D_CHECKPOINT_FLEE',
+    character: 'dorothy',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE UNREGISTERED DEPARTURE
+
+You are running. The auditor's warrant pad emits a locating tone — a sharp, administrative beep that the Bureau uses to track unregistered departures. The Silver Slippers are generating friction against the bricks at triple the normal rate.
+
+[ WARRANT: ESCALATING ]
+[ COMPLIANCE: BROKEN ]
+[ DISPLACEMENT: ACCELERATING ]
+
+The road behind you is compiling a new file in real time: UNIT D-01 / STATUS: FLEEING KINETIC ASSET / WARRANT: ACTIVE.
+
+The road ahead forks at the edge of the checkpoint's broadcast range. The red field is to your left. The gale-scar is to your right. The City glow is straight ahead, still distant, still green.`,
+      },
+    ],
+    choices: [
+      {
+        label: "Flee into the red field — the poppies will dampen the auditor's signal.",
+        target: 'D_POPPY_APPROACH',
+        effects: [
+          { type: 'addDesync', value: 3 },
+          { type: 'addDisplacement', value: 4 },
+        ],
+      },
+      {
+        label: 'Flee toward the gale-scar — use the unindexed rotation as cover.',
+        target: 'D_GALE_EDGE',
+        effects: [
+          { type: 'addWarrant', value: 3 },
+          { type: 'addSilverFriction', value: 5 },
+        ],
+      },
+      {
+        label: 'Keep running straight — reach the City gates before the warrant escalates.',
+        target: 'SHARED_EMERALD_CITY_GATES',
+        effects: [
+          { type: 'addWarrant', value: 5 },
+          { type: 'addLoad', value: 8 },
+          { type: 'addDisplacement', value: 5 },
+        ],
+      },
+      {
+        label: 'Stop running — let the warrant catch up, drop into the void.',
+        target: 'D_VOID_DESCENT_11',
+        effects: [
+          { type: 'addWarrant', value: 10 },
+          { type: 'addDesync', value: 5 },
+          { type: 'setCompliance', value: 'broken' },
+        ],
+      },
+    ],
+    onEnter: [],
+  },
+
+  D_POPPY_APPROACH: {
+    id: 'D_POPPY_APPROACH',
+    character: 'dorothy',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE PHARMACEUTICAL MARGIN
+
+The road's edge here is not hard. The yellow brick gives way to loose soil and then the first red petals — not full bloom, just the approach zone, where the Poppy Field's pharmaceutical output disperses into the road's atmosphere.
+
+The smell is specific: warm anesthesia and something older, organic, that the Bureau has never fully synthesized. The Silver Slippers detect the resin in the air and lower their hum to a frequency dangerously close to the Poppy Field's broadcast channel.
+
+[ PHARMACEUTICAL DAMPENING: APPROACH ]
+[ HOME SIGNAL: BEGINNING TO MUFFLE ]
+[ SILVER FRICTION: SLOWING ]
+
+The road is still visible behind you. The City glow is still ahead. The Poppy Field is a proposition, not yet a fact.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Walk into the field — accept the pharmaceutical buffer as relief from the load.',
+        target: 'D_POPPY_INTERIOR',
+        effects: [
+          { type: 'addDisplacement', value: 3 },
+          { type: 'setCompliance', value: 'high' },
+          { type: 'setFlag', key: 'pharmaceutical_dampening', value: true },
+        ],
+      },
+      {
+        label: "Walk along the field's edge — absorb the margin-scent without entering.",
+        target: 'D_POPPY_RESISTANCE',
+        effects: [
+          { type: 'addLoad', value: 4 },
+          { type: 'addSilverFriction', value: -2 },
+          { type: 'addDesync', value: 2 },
+        ],
+      },
+      {
+        label: 'Click the heels and burn the resin out of the air — keep the home signal clean.',
+        target: 'D_LOAD_WEIGHT',
+        effects: [
+          { type: 'addSilverFriction', value: 6 },
+          { type: 'addWarrant', value: 2 },
+          { type: 'addSignalStrength', value: 4 },
+        ],
+      },
+      {
+        label: 'Run past the field toward the Emerald City — use load momentum to outrun the scent.',
+        target: 'SHARED_EMERALD_CITY_GATES',
+        effects: [
+          { type: 'addLoad', value: 8 },
+          { type: 'addDisplacement', value: 4 },
+        ],
+      },
+    ],
+    onEnter: [],
+  },
+
+  D_POPPY_INTERIOR: {
+    id: 'D_POPPY_INTERIOR',
+    character: 'dorothy',
+    text: [
+      {
+        minOverrender: 0,
+        content: `INSIDE THE PHARMACEUTICAL BUFFER
+
+The petals close behind you. You are in the field's interior — not the margin where the road is still visible, but the center sector, where the red blooms are thick enough to replace the sky.
+
+The home signal is a distant warmth rather than a clear frequency. The Kansas dust on your dress has stopped moving.
+
+[ COMPLIANCE: HIGH ]
+[ HOME SIGNAL: MUFFLED TO 20% ]
+[ SILVER FRICTION: COOLING ]
+[ DISPLACEMENT COUNTER: SUSPENDED ]
+
+The Poppy Drones emerge from the bloom-stems at the edge of your vision: small, careful machines with clinical instruments. They are not aggressive. They are patient. They have filed you as a Unit Under Voluntary Dampening and are approaching to complete the intake protocol.
+
+The grass under the petals is soft. The Silver Slippers have gone quiet for the first time since the house landed.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Lie down — accept the sleep, accept the stillness.',
+        target: 'DOROTHY_END_POPPY',
+        effects: [
+          { type: 'setCompliance', value: 'absolute' },
+          { type: 'addDisplacement', value: 5 },
+          { type: 'setSystemStatus', value: 'archived' },
+        ],
+      },
+      {
+        label: 'Stay awake — let the dampening muffle the warrant without surrendering to the field.',
+        target: 'D_POPPY_DREAM',
+        effects: [
+          { type: 'addLoad', value: 6 },
+          { type: 'addWarrant', value: -5 },
+          { type: 'addDesync', value: 3 },
+        ],
+      },
+      {
+        label: 'Click the heels before the resin enters — burn the sedation off with silver friction.',
+        target: 'D_POPPY_RESISTANCE',
+        effects: [
+          { type: 'addSilverFriction', value: 8 },
+          { type: 'addWarrant', value: 3 },
+          { type: 'setCompliance', value: 'low' },
+        ],
+      },
+    ],
+    onEnter: [{ type: 'setFlag', key: 'pharmaceutical_dampening', value: true }],
+  },
+
+  D_POPPY_DREAM: {
+    id: 'D_POPPY_DREAM',
+    character: 'dorothy',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE PHARMACEUTICAL DREAM STATE
+
+You are not asleep. You are not awake. The Poppy Field has administered a partial dose — the kind that dissolves the warrant's noise floor while leaving just enough signal to navigate.
+
+In the half-state, the farmhouse appears again. Not the rupture-image of the gale's wake — this one is older, slower, rendered in the warm grain of a memory that predates the Bureau's indexing. Aunt Em is hanging laundry. The sheets are gray, but not the Bureau's gray — the gray of actual overcast skies, actual cotton, actual weight.
+
+[ STATUS: PARTIAL DAMPENING ]
+[ HOME SIGNAL: COHERENT AT 40% ]
+[ WARRANT: SUSPENDED DURING DREAM STATE ]
+
+The dream is a map. The farmhouse appears to be transmitting on a frequency the poppies cannot fully suppress.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Follow the farmhouse deeper — let the dream become the destination.',
+        target: 'D_END_HOME_SIM',
+        effects: [
+          { type: 'setCompliance', value: 'high' },
+          { type: 'addLoad', value: 10 },
+        ],
+      },
+      {
+        label: 'Use the dream-map — identify the Transmitter frequency beneath the City.',
+        target: 'T_TRANSMITTER',
+        effects: [
+          { type: 'addSignalStrength', value: 12 },
+          { type: 'setArrivalState', value: 'poppy_dream_route' },
+          { type: 'setFlag', key: 'dorothy_found_transmitter_in_dream', value: true },
+        ],
+      },
+      {
+        label: 'Reject the dream-Kansas — it is a simulation, and simulations are traps.',
+        target: 'D_POPPY_RESISTANCE',
+        effects: [
+          { type: 'addDesync', value: 5 },
+          { type: 'addSignalStrength', value: -5 },
+          { type: 'setCompliance', value: 'low' },
+        ],
+      },
+    ],
+    onEnter: [],
+  },
+
+  D_POPPY_RESISTANCE: {
+    id: 'D_POPPY_RESISTANCE',
+    character: 'dorothy',
+    text: [
+      {
+        minOverrender: 0,
+        content: `THE FIGHT AGAINST THE BUFFER
+
+You are walking. The poppies have your knees. The pharmaceutical resin has entered your throat through the smell channel and begun its suppression of the home frequency — but you have not stopped walking, and the Silver Slippers are generating enough friction to keep the signal from going completely cold.
+
+Every step is a noise argument with the field's sedation protocol. The Poppy Drones follow at the edge of your peripheral vision, logging your resistance as a 'Compliance Anomaly: Extended Traversal.'
+
+[ WARRANT: LOW (DRONES TRACKING) ]
+[ HOME SIGNAL: SUPPRESSED BUT PRESENT ]
+[ SILVER FRICTION: HIGH ]
+[ LOAD: SEVERE ]
+
+The field ends somewhere ahead. You can smell the difference in the air — the ozone of the road returning, the green reek of the City's projection filter beginning to assert itself. The poppies are not endless. You just have to stay awake.`,
+      },
+    ],
+    choices: [
+      {
+        label: 'Keep walking — break free of the field, stumble toward the City gates.',
+        target: 'SHARED_EMERALD_CITY_GATES',
+        effects: [
+          { type: 'addLoad', value: 12 },
+          { type: 'addDisplacement', value: 5 },
+          { type: 'addSilverFriction', value: 5 },
+        ],
+      },
+      {
+        label: 'Click the heels hard — use silver friction to burn the resin from the signal.',
+        target: 'D_GALE_EDGE',
+        effects: [
+          { type: 'addSilverFriction', value: 10 },
+          { type: 'addWarrant', value: 4 },
+          { type: 'addSignalStrength', value: 6 },
+        ],
+      },
+      {
+        label: 'Route toward the Transmitter through the soft sector — the reduced warrant is a window.',
+        target: 'T_TRANSMITTER',
+        effects: [
+          { type: 'addDisplacement', value: 8 },
+          { type: 'setArrivalState', value: 'poppy_scoured' },
+          { type: 'addSignalStrength', value: 8 },
+        ],
+      },
+      {
+        label: "Surrender to the partial dose — enter the shared poppy field's final intake.",
+        target: 'SHARED_POPPY_FIELD',
+        effects: [
+          { type: 'setCompliance', value: 'high' },
+          { type: 'addDisplacement', value: 3 },
+        ],
+      },
+    ],
+    onEnter: [],
   },
 }
