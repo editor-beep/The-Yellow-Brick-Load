@@ -570,7 +570,7 @@ You lie down. The yellow bricks feel neither cold nor warm. They feel like a con
         ],
       },
     ],
-    onEnter: [{ type: 'addVibration', value: 8 }],
+    onEnter: [{ type: 'addVibration', value: 8 }, { type: 'triggerOracle' }],
   },
 
   LION_VIOLENCE: {
@@ -1252,7 +1252,7 @@ The bird tilts its head. A small needle extends from its beak and hovers near th
         ],
       },
     ],
-    onEnter: [{ type: "addVibration", value: 10 }],
+    onEnter: [{ type: "addVibration", value: 10 }, { type: 'triggerOracle' }],
   },
 
   LION_ACOUSTIC_REBELLION: {
@@ -1897,7 +1897,7 @@ This is the place where kings are rewritten.`,
         ],
       }
     ],
-    onEnter: [{ type: 'addVibration', value: 5 }],
+    onEnter: [{ type: 'addVibration', value: 5 }, { type: 'triggerOracle' }],
   },
 
   LION_AUDIENCE_CHAMBER: {
@@ -2224,7 +2224,7 @@ A Bureau Technician waits by the forks, its face a blank sheet of carbon paper. 
         effects: [{ type: 'addVibration', value: -4 }],
       },
     ],
-    onEnter: [{ type: 'addOverrender', value: 1 }],
+    onEnter: [{ type: 'addOverrender', value: 1 }, { type: 'triggerOracle' }],
   },
 
   LION_MANE_SCRAPE_LOOP: {
