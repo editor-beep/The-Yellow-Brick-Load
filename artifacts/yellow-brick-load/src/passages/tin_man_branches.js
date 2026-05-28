@@ -56,7 +56,7 @@ The Girl with the silver shoes stands before you, holding a pressurized canister
           effects: [
             { type: "addCorrosion", value: 3 },
             { type: "addDesync", value: 2 },
-            { type: "setPath", value: "woods" },
+            { type: "setFlag", key: "path_woods", value: true },
           ],
         },
     ],
@@ -117,7 +117,7 @@ The Girl with the silver shoes is not here. The pressurized canister is not here
         effects: [
           { type: "addCorrosion", value: 3 },
           { type: "addDesync", value: 2 },
-          { type: "setPath", value: "woods" },
+          { type: "setFlag", key: "path_woods", value: true },
         ],
       },
     ],
@@ -235,14 +235,15 @@ Your internal sensors detect a Cache Collision. This is not a memory of a life; 
       {
         label: 'Seek the source.',
         target: 'T_FELLED_TREE',
-        effects: [{ type: 'addLoad', value: 2 }, { type: 'setPath', value: 'wetware' }]
+        effects: [{ type: 'addLoad', value: 2 }, { type: 'setFlag', key: 'path_wetware', value: true }]
       },
       {
         label: 'Locate maintenance.',
         target: 'T_OIL_STATION',
-        effects: [{ type: 'addCompliance', value: 2 }, { type: 'setPath', value: 'hardware' }]
+        effects: [{ type: 'setCompliance', value: 'high' }, { type: 'setFlag', key: 'path_hardware', value: true }]
       }
-    ]
+    ],
+    onEnter: [{ type: 'triggerOracle' }],
   },
 
   T_FELLED_TREE: {
@@ -275,7 +276,7 @@ It vibrates at the frequency of a closed file. Standing here triggers a Seizure 
         label: 'Pull the Axe (The Kinetic Harvest)',
         target: 'T_OIL_STATION',
         effects: [
-          { type: 'subLubrication', value: 10 },
+          { type: 'addLubrication', value: -10 },
           { type: 'setArrivalState', value: 'extraction' }
         ]
       }
@@ -333,14 +334,15 @@ Hoses fray overhead like dead vines. Iridescent sludge coats the ground. The sta
       {
         label: 'The Automated Patch',
         target: 'T_LOGGING_SCRIPT',
-        effects: [{ type: 'addCompliance', value: 5 }, { type: 'addLubrication', value: 5 }]
+        effects: [{ type: 'setCompliance', value: 'high' }, { type: 'addLubrication', value: 5 }]
       },
       {
         label: 'The Manual Scavenge',
         target: 'T_HOLLOW',
-        effects: [{ type: 'addCorrosion', value: 5 }, { type: 'subCompliance', value: 2 }]
+        effects: [{ type: 'addCorrosion', value: 5 }, { type: 'setCompliance', value: 'low' }]
       }
-    ]
+    ],
+    onEnter: [{ type: 'triggerOracle' }],
   },
 
   T_LOGGING_SCRIPT: {
@@ -357,12 +359,12 @@ The 'trees' here are vertical columns of compressed carbon paper. When you strik
       {
         label: 'Efficiency Optimization',
         target: 'T_HOLLOW',
-        effects: [{ type: 'addLoad', value: 5 }, { type: 'subVibration', value: 3 }]
+        effects: [{ type: 'addLoad', value: 5 }, { type: 'addLubrication', value: 2 }]
       },
       {
         label: 'Mechanical Jam',
         target: 'T_PILE_OF_LIMBS',
-        effects: [{ type: 'addSeizure', value: 5 }, { type: 'setPath', value: 'error' }]
+        effects: [{ type: 'addSeizure', value: 5 }, { type: 'setFlag', key: 'path_error', value: true }]
       }
     ]
   },
@@ -405,7 +407,8 @@ An atmospheric puncture. The Oz OS has stopped rendering environmental detail. T
           'dispute': 5,
           'extraction': 5
         }
-      }
+      },
+      { type: 'triggerOracle' },
     ],
     text: [
       {

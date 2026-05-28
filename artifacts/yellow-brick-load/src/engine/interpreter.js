@@ -82,7 +82,7 @@ export function resolveText(passage, overrender) {
 // ── Oracle trigger thresholds (keyed by character ID) ───────────────────────
 const ORACLE_THRESHOLDS = {
   lion:       (s) => s.vibration     >= 7,
-  tin_man:    (s) => s.corrosion     >= 10,
+  tin_man:    (s) => s.corrosion     >= 8,
   scarecrow:  (s) => s.scatter       >= 5,
   dorothy:    (s) => s.displacement  >= 5,
   glinda:     (s) => s.refraction    >= 5,
