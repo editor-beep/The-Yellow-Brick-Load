@@ -24,7 +24,7 @@ describe('PassageRenderer', () => {
   it('renders passage text when the node exists', () => {
     goToNode('LION_INIT')
     render(<PassageRenderer />)
-    expect(screen.getByText(/THE KING OF THE FOREST IS A UNIT OF MEASURE/i)).toBeInTheDocument()
+    expect(screen.getByText(/you must decide what kind of body you are bringing to it/i)).toBeInTheDocument()
   })
 
   it('renders choices for a non-ending passage', () => {

@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeEach } from 'vitest'
+import { describe, it, expect, beforeEach, vi } from 'vitest'
 import { useGameStore } from '../engine/store.js'
 
 function resetStore() {
@@ -39,6 +39,11 @@ describe('useGameStore', () => {
 
   // ── softReset ──────────────────────────────────────────────────────────
   it('softReset resets most state but preserves history', () => {
+    // pickInitNode() randomly picks between the base and "_B" variant for
+    // characters that have one (e.g. lion). Force the base variant so this
+    // test is deterministic.
+    const randomSpy = vi.spyOn(Math, 'random').mockReturnValue(0)
+
     const store = useGameStore.getState()
     store.selectCharacter('lion')
     store.addLoad(30)
@@ -55,6 +60,8 @@ describe('useGameStore', () => {
     expect(s.currentNode).toBe('LION_INIT')
     // history is preserved
     expect(s.history.length).toBeGreaterThan(0)
+
+    randomSpy.mockRestore()
   })
 
   // ── hardReset ──────────────────────────────────────────────────────────
