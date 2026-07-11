@@ -49,6 +49,26 @@ export default defineConfig({
   build: {
     outDir: path.resolve(import.meta.dirname, "dist/public"),
     emptyOutDir: true,
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (id.includes("node_modules")) {
+            return "vendor";
+          }
+          // Split each character's passage content (branches/endings/oracle)
+          // into its own chunk so no single chunk exceeds the size warning.
+          const passageMatch = id.match(
+            /\/src\/passages\/([a-z_]+?)_(branches|endings|oracle)\.js/,
+          );
+          if (passageMatch) {
+            return `passages-${passageMatch[1]}`;
+          }
+          if (id.includes("/src/passages/")) {
+            return "passages-shared";
+          }
+        },
+      },
+    },
   },
   server: {
     port,

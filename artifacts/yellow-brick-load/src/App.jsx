@@ -1,11 +1,15 @@
-import { useState } from 'react'
+import { lazy, Suspense, useState } from 'react'
 import './styles/global.css'
 import { useGameStore } from './engine/store.js'
 import { hasVisited, markVisit } from './engine/store.js'
 import TitleScreen from './components/TitleScreen.jsx'
-import PassageRenderer from './components/PassageRenderer.jsx'
-import FAQPage from './components/FAQPage.jsx'
 import ErrorBoundary from './components/ErrorBoundary.jsx'
+
+// Split the heavy in-game surfaces (passage content, oracle, interpreter) out
+// of the initial bundle. First-time visitors land on the title screen and never
+// need this code until they actually start playing.
+const PassageRenderer = lazy(() => import('./components/PassageRenderer.jsx'))
+const FAQPage = lazy(() => import('./components/FAQPage.jsx'))
 
 export default function App() {
   const { character, currentNode } = useGameStore()
@@ -20,7 +24,9 @@ export default function App() {
   if (character && currentNode) {
     return (
       <ErrorBoundary>
-        <PassageRenderer />
+        <Suspense fallback={null}>
+          <PassageRenderer />
+        </Suspense>
       </ErrorBoundary>
     )
   }
@@ -28,7 +34,9 @@ export default function App() {
   if (view === 'faq') {
     return (
       <ErrorBoundary>
-        <FAQPage onClose={() => setView('title')} />
+        <Suspense fallback={null}>
+          <FAQPage onClose={() => setView('title')} />
+        </Suspense>
       </ErrorBoundary>
     )
   }
