@@ -283,7 +283,7 @@ export function markWitchWestInitSeen(initNode) {
 // Every character now has two distinct opening passages (INIT and INIT_B).
 // Both inits route their choices into the same downstream hubs, so the
 // random pick changes the opening framing without gating any content.
-const CHARACTERS_WITH_INIT_B = new Set([
+export const CHARACTERS_WITH_INIT_B = new Set([
   'dorothy',
   'scarecrow',
   'tin_man',

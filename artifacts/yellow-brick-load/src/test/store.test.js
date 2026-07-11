@@ -1,5 +1,6 @@
-import { describe, it, expect, beforeEach, vi } from 'vitest'
-import { useGameStore } from '../engine/store.js'
+import { describe, it, expect, beforeEach, afterEach, vi } from 'vitest'
+import { useGameStore, pickInitNode, CHARACTERS_WITH_INIT_B } from '../engine/store.js'
+import { getPassage } from '../passages/index.js'
 
 function resetStore() {
   useGameStore.getState().hardReset()
@@ -143,5 +144,73 @@ describe('useGameStore', () => {
     const { flags } = useGameStore.getState()
     expect(flags.met_wizard).toBe(true)
     expect(flags.score).toBe(42)
+  })
+})
+
+// ── pickInitNode ───────────────────────────────────────────────────────────
+// The alternate opening scene ("_B" variant) is chosen randomly, so the two
+// branches are exercised deterministically by stubbing Math.random. Each
+// returned node is confirmed to resolve to a real passage so a missing or
+// mistyped opening node can never silently ship.
+describe('pickInitNode', () => {
+  afterEach(() => {
+    vi.restoreAllMocks()
+  })
+
+  it('returns null when no character is given', () => {
+    expect(pickInitNode(null)).toBeNull()
+    expect(pickInitNode(undefined)).toBeNull()
+  })
+
+  it('returns the base node for a character without a "_B" variant', () => {
+    // denizen is the only character that has no "_B" opening.
+    expect(CHARACTERS_WITH_INIT_B.has('denizen')).toBe(false)
+
+    // The base node is returned regardless of the random draw.
+    const low = vi.spyOn(Math, 'random').mockReturnValue(0)
+    expect(pickInitNode('denizen')).toBe('DENIZEN_INIT')
+    low.mockRestore()
+
+    const high = vi.spyOn(Math, 'random').mockReturnValue(0.99)
+    expect(pickInitNode('denizen')).toBe('DENIZEN_INIT')
+    high.mockRestore()
+  })
+
+  it('picks the base node when Math.random < 0.5 for a character with a "_B" variant', () => {
+    vi.spyOn(Math, 'random').mockReturnValue(0)
+    for (const character of CHARACTERS_WITH_INIT_B) {
+      const base = `${character.toUpperCase()}_INIT`
+      expect(pickInitNode(character)).toBe(base)
+    }
+  })
+
+  it('picks the "_B" node when Math.random >= 0.5 for a character with a "_B" variant', () => {
+    vi.spyOn(Math, 'random').mockReturnValue(0.5)
+    for (const character of CHARACTERS_WITH_INIT_B) {
+      const variant = `${character.toUpperCase()}_INIT_B`
+      expect(pickInitNode(character)).toBe(variant)
+    }
+  })
+
+  it('resolves both branches to real passages for every character with a "_B" variant', () => {
+    for (const character of CHARACTERS_WITH_INIT_B) {
+      const base = vi.spyOn(Math, 'random').mockReturnValue(0)
+      const baseNode = pickInitNode(character)
+      expect(getPassage(baseNode)).not.toBeNull()
+      base.mockRestore()
+
+      const alt = vi.spyOn(Math, 'random').mockReturnValue(0.5)
+      const altNode = pickInitNode(character)
+      expect(getPassage(altNode)).not.toBeNull()
+      alt.mockRestore()
+    }
+  })
+
+  it('resolves the base node to a real passage for a character without a "_B" variant', () => {
+    const spy = vi.spyOn(Math, 'random').mockReturnValue(0.99)
+    const node = pickInitNode('denizen')
+    expect(node).toBe('DENIZEN_INIT')
+    expect(getPassage(node)).not.toBeNull()
+    spy.mockRestore()
   })
 })
