@@ -1,6 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "installCommand": "pnpm install --frozen-lockfile",
+  "build": { "env": { "ENABLE_EXPERIMENTAL_COREPACK": "1" } },
   "buildCommand": "pnpm --filter @workspace/yellow-brick-load run build",
   "outputDirectory": "artifacts/yellow-brick-load/dist/public",
   "framework": null,
