@@ -3,6 +3,11 @@
 # compiled output
 dist
 /public
+# mirrored Vercel output when the Root Directory is a subfolder
+# (artifacts/yellow-brick-load/public is real source — keep it tracked)
+/artifacts/public
+/artifacts/api-server/public
+/artifacts/mockup-sandbox/public
 tmp
 out-tsc
 *.tsbuildinfo
